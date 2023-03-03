@@ -1,0 +1,3450 @@
+updateClassIndex(`Mojang:#4D7C0F	Spigot:#CA8A04	Searge:#B91C1C	Intermediary:#0369A1
+com/mojang/math/Quaternion	net/minecraft/server/1_15_R1/Quaternion	net/minecraft/client/renderer/Quaternion	net/minecraft/class_1158
+com/mojang/math/Vector3f	net/minecraft/server/1_15_R1/Vector3fa	net/minecraft/client/renderer/Vector3f	net/minecraft/class_1160
+net/minecraft/ChatFormatting	net/minecraft/server/1_15_R1/EnumChatFormat	net/minecraft/util/text/TextFormatting	net/minecraft/class_124
+net/minecraft/CrashReport	net/minecraft/server/1_15_R1/CrashReport	net/minecraft/crash/CrashReport	net/minecraft/class_128
+net/minecraft/CrashReportCategory	net/minecraft/server/1_15_R1/CrashReportSystemDetails	net/minecraft/crash/CrashReportCategory	net/minecraft/class_129
+net/minecraft/CrashReportCategory$Entry	net/minecraft/server/1_15_R1/CrashReportSystemDetails$CrashReportDetail	net/minecraft/crash/CrashReportCategory$Entry	net/minecraft/class_129$class_130
+net/minecraft/CrashReportDetail	net/minecraft/server/1_15_R1/CrashReportCallable	net/minecraft/crash/ICrashReportDetail	net/minecraft/class_133
+net/minecraft/DefaultUncaughtExceptionHandler	net/minecraft/server/1_15_R1/DefaultUncaughtExceptionHandler	net/minecraft/util/DefaultUncaughtExceptionHandler	net/minecraft/class_140
+net/minecraft/DefaultUncaughtExceptionHandlerWithName	net/minecraft/server/1_15_R1/ThreadNamedUncaughtExceptionHandler	net/minecraft/util/DefaultWithNameUncaughtExceptionHandler	net/minecraft/class_143
+net/minecraft/DetectedVersion	net/minecraft/server/1_15_R1/MinecraftVersion	net/minecraft/util/MinecraftVersion	net/minecraft/class_3797
+net/minecraft/FileUtil	net/minecraft/server/1_15_R1/FileUtils	net/minecraft/util/FileUtil	net/minecraft/class_4239
+net/minecraft/ReportedException	net/minecraft/server/1_15_R1/ReportedException	net/minecraft/crash/ReportedException	net/minecraft/class_148
+net/minecraft/ResourceLocationException	net/minecraft/server/1_15_R1/ResourceKeyInvalidException	net/minecraft/util/ResourceLocationException	net/minecraft/class_151
+net/minecraft/SharedConstants	net/minecraft/server/1_15_R1/SharedConstants	net/minecraft/util/SharedConstants	net/minecraft/class_155
+net/minecraft/Util	net/minecraft/server/1_15_R1/SystemUtils	net/minecraft/util/Util	net/minecraft/class_156
+net/minecraft/Util$1		net/minecraft/util/Util$1	net/minecraft/class_156$1
+net/minecraft/Util$IdentityStrategy	net/minecraft/server/1_15_R1/SystemUtils$IdentityHashingStrategy	net/minecraft/util/Util$IdentityStrategy	net/minecraft/class_156$class_157
+net/minecraft/Util$OS	net/minecraft/server/1_15_R1/SystemUtils$OS	net/minecraft/util/Util$OS	net/minecraft/class_156$class_158
+net/minecraft/Util$OS$1		net/minecraft/util/Util$OS$1	net/minecraft/class_156$class_158$1
+net/minecraft/Util$OS$2		net/minecraft/util/Util$OS$2	net/minecraft/class_156$class_158$2
+net/minecraft/advancements/Advancement	net/minecraft/server/1_15_R1/Advancement	net/minecraft/advancements/Advancement	net/minecraft/class_161
+net/minecraft/advancements/Advancement$Builder	net/minecraft/server/1_15_R1/Advancement$SerializedAdvancement	net/minecraft/advancements/Advancement$Builder	net/minecraft/class_161$class_162
+net/minecraft/advancements/AdvancementList	net/minecraft/server/1_15_R1/Advancements	net/minecraft/advancements/AdvancementList	net/minecraft/class_163
+net/minecraft/advancements/AdvancementList$Listener		net/minecraft/advancements/AdvancementList$IListener	net/minecraft/class_163$class_164
+net/minecraft/advancements/AdvancementProgress	net/minecraft/server/1_15_R1/AdvancementProgress	net/minecraft/advancements/AdvancementProgress	net/minecraft/class_167
+net/minecraft/advancements/AdvancementProgress$Serializer		net/minecraft/advancements/AdvancementProgress$Serializer	net/minecraft/class_167$class_168
+net/minecraft/advancements/AdvancementRewards	net/minecraft/server/1_15_R1/AdvancementRewards	net/minecraft/advancements/AdvancementRewards	net/minecraft/class_170
+net/minecraft/advancements/AdvancementRewards$Builder		net/minecraft/advancements/AdvancementRewards$Builder	net/minecraft/class_170$class_171
+net/minecraft/advancements/AdvancementRewards$Deserializer		net/minecraft/advancements/AdvancementRewards$Deserializer	net/minecraft/class_170$class_172
+net/minecraft/advancements/CriteriaTriggers	net/minecraft/server/1_15_R1/CriterionTriggers	net/minecraft/advancements/CriteriaTriggers	net/minecraft/class_174
+net/minecraft/advancements/Criterion	net/minecraft/server/1_15_R1/Criterion	net/minecraft/advancements/Criterion	net/minecraft/class_175
+net/minecraft/advancements/CriterionProgress	net/minecraft/server/1_15_R1/CriterionProgress	net/minecraft/advancements/CriterionProgress	net/minecraft/class_178
+net/minecraft/advancements/CriterionTrigger	net/minecraft/server/1_15_R1/CriterionTrigger	net/minecraft/advancements/ICriterionTrigger	net/minecraft/class_179
+net/minecraft/advancements/CriterionTrigger$Listener		net/minecraft/advancements/ICriterionTrigger$Listener	net/minecraft/class_179$class_180
+net/minecraft/advancements/CriterionTriggerInstance	net/minecraft/server/1_15_R1/CriterionInstance	net/minecraft/advancements/ICriterionInstance	net/minecraft/class_184
+net/minecraft/advancements/DisplayInfo	net/minecraft/server/1_15_R1/AdvancementDisplay	net/minecraft/advancements/DisplayInfo	net/minecraft/class_185
+net/minecraft/advancements/FrameType	net/minecraft/server/1_15_R1/AdvancementFrameType	net/minecraft/advancements/FrameType	net/minecraft/class_189
+net/minecraft/advancements/RequirementsStrategy	net/minecraft/server/1_15_R1/AdvancementRequirements	net/minecraft/advancements/IRequirementsStrategy	net/minecraft/class_193
+net/minecraft/advancements/TreeNodePosition	net/minecraft/server/1_15_R1/AdvancementTree	net/minecraft/advancements/AdvancementTreeNode	net/minecraft/class_194
+net/minecraft/advancements/critereon/AbstractCriterionTriggerInstance	net/minecraft/server/1_15_R1/CriterionInstanceAbstract	net/minecraft/advancements/criterion/CriterionInstance	net/minecraft/class_195
+net/minecraft/advancements/critereon/BeeNestDestroyedTrigger	net/minecraft/server/1_15_R1/CriterionTriggerBeeNestDestroyed	net/minecraft/advancements/criterion/BeeNestDestroyedTrigger	net/minecraft/class_4708
+net/minecraft/advancements/critereon/BeeNestDestroyedTrigger$TriggerInstance		net/minecraft/advancements/criterion/BeeNestDestroyedTrigger$Instance	net/minecraft/class_4708$class_4709
+net/minecraft/advancements/critereon/BlockPredicate	net/minecraft/server/1_15_R1/CriterionConditionBlock	net/minecraft/advancements/criterion/BlockPredicate	net/minecraft/class_4550
+net/minecraft/advancements/critereon/BlockPredicate$Builder		net/minecraft/advancements/criterion/BlockPredicate$Builder	net/minecraft/class_4550$class_4710
+net/minecraft/advancements/critereon/BredAnimalsTrigger	net/minecraft/server/1_15_R1/CriterionTriggerBredAnimals	net/minecraft/advancements/criterion/BredAnimalsTrigger	net/minecraft/class_196
+net/minecraft/advancements/critereon/BredAnimalsTrigger$TriggerInstance		net/minecraft/advancements/criterion/BredAnimalsTrigger$Instance	net/minecraft/class_196$class_198
+net/minecraft/advancements/critereon/BrewedPotionTrigger	net/minecraft/server/1_15_R1/CriterionTriggerBrewedPotion	net/minecraft/advancements/criterion/BrewedPotionTrigger	net/minecraft/class_1996
+net/minecraft/advancements/critereon/BrewedPotionTrigger$TriggerInstance		net/minecraft/advancements/criterion/BrewedPotionTrigger$Instance	net/minecraft/class_1996$class_1998
+net/minecraft/advancements/critereon/ChangeDimensionTrigger	net/minecraft/server/1_15_R1/CriterionTriggerChangedDimension	net/minecraft/advancements/criterion/ChangeDimensionTrigger	net/minecraft/class_1999
+net/minecraft/advancements/critereon/ChangeDimensionTrigger$TriggerInstance		net/minecraft/advancements/criterion/ChangeDimensionTrigger$Instance	net/minecraft/class_1999$class_2001
+net/minecraft/advancements/critereon/ChanneledLightningTrigger	net/minecraft/server/1_15_R1/CriterionTriggerChanneledLightning	net/minecraft/advancements/criterion/ChanneledLightningTrigger	net/minecraft/class_2002
+net/minecraft/advancements/critereon/ChanneledLightningTrigger$TriggerInstance		net/minecraft/advancements/criterion/ChanneledLightningTrigger$Instance	net/minecraft/class_2002$class_2004
+net/minecraft/advancements/critereon/ConstructBeaconTrigger	net/minecraft/server/1_15_R1/CriterionTriggerConstructBeacon	net/minecraft/advancements/criterion/ConstructBeaconTrigger	net/minecraft/class_2006
+net/minecraft/advancements/critereon/ConstructBeaconTrigger$TriggerInstance		net/minecraft/advancements/criterion/ConstructBeaconTrigger$Instance	net/minecraft/class_2006$class_2008
+net/minecraft/advancements/critereon/ConsumeItemTrigger	net/minecraft/server/1_15_R1/CriterionTriggerConsumeItem	net/minecraft/advancements/criterion/ConsumeItemTrigger	net/minecraft/class_2010
+net/minecraft/advancements/critereon/ConsumeItemTrigger$TriggerInstance		net/minecraft/advancements/criterion/ConsumeItemTrigger$Instance	net/minecraft/class_2010$class_2012
+net/minecraft/advancements/critereon/CuredZombieVillagerTrigger	net/minecraft/server/1_15_R1/CriterionTriggerCuredZombieVillager	net/minecraft/advancements/criterion/CuredZombieVillagerTrigger	net/minecraft/class_2014
+net/minecraft/advancements/critereon/CuredZombieVillagerTrigger$TriggerInstance		net/minecraft/advancements/criterion/CuredZombieVillagerTrigger$Instance	net/minecraft/class_2014$class_2016
+net/minecraft/advancements/critereon/DamagePredicate	net/minecraft/server/1_15_R1/CriterionConditionDamage	net/minecraft/advancements/criterion/DamagePredicate	net/minecraft/class_2019
+net/minecraft/advancements/critereon/DamagePredicate$Builder		net/minecraft/advancements/criterion/DamagePredicate$Builder	net/minecraft/class_2019$class_2020
+net/minecraft/advancements/critereon/DamageSourcePredicate	net/minecraft/server/1_15_R1/CriterionConditionDamageSource	net/minecraft/advancements/criterion/DamageSourcePredicate	net/minecraft/class_2022
+net/minecraft/advancements/critereon/DamageSourcePredicate$Builder		net/minecraft/advancements/criterion/DamageSourcePredicate$Builder	net/minecraft/class_2022$class_2023
+net/minecraft/advancements/critereon/DistancePredicate	net/minecraft/server/1_15_R1/CriterionConditionDistance	net/minecraft/advancements/criterion/DistancePredicate	net/minecraft/class_2025
+net/minecraft/advancements/critereon/EffectsChangedTrigger	net/minecraft/server/1_15_R1/CriterionTriggerEffectsChanged	net/minecraft/advancements/criterion/EffectsChangedTrigger	net/minecraft/class_2027
+net/minecraft/advancements/critereon/EffectsChangedTrigger$TriggerInstance		net/minecraft/advancements/criterion/EffectsChangedTrigger$Instance	net/minecraft/class_2027$class_2029
+net/minecraft/advancements/critereon/EnchantedItemTrigger	net/minecraft/server/1_15_R1/CriterionTriggerEnchantedItem	net/minecraft/advancements/criterion/EnchantedItemTrigger	net/minecraft/class_2030
+net/minecraft/advancements/critereon/EnchantedItemTrigger$TriggerInstance		net/minecraft/advancements/criterion/EnchantedItemTrigger$Instance	net/minecraft/class_2030$class_2032
+net/minecraft/advancements/critereon/EnchantmentPredicate	net/minecraft/server/1_15_R1/CriterionConditionEnchantments	net/minecraft/advancements/criterion/EnchantmentPredicate	net/minecraft/class_2035
+net/minecraft/advancements/critereon/EnterBlockTrigger	net/minecraft/server/1_15_R1/CriterionTriggerEnterBlock	net/minecraft/advancements/criterion/EnterBlockTrigger	net/minecraft/class_2037
+net/minecraft/advancements/critereon/EnterBlockTrigger$TriggerInstance		net/minecraft/advancements/criterion/EnterBlockTrigger$Instance	net/minecraft/class_2037$class_2039
+net/minecraft/advancements/critereon/EntityEquipmentPredicate	net/minecraft/server/1_15_R1/CriterionConditionEntityEquipment	net/minecraft/advancements/criterion/EntityEquipmentPredicate	net/minecraft/class_3735
+net/minecraft/advancements/critereon/EntityFlagsPredicate	net/minecraft/server/1_15_R1/CriterionConditionEntityFlags	net/minecraft/advancements/criterion/EntityFlagsPredicate	net/minecraft/class_2040
+net/minecraft/advancements/critereon/EntityFlagsPredicate$Builder		net/minecraft/advancements/criterion/EntityFlagsPredicate$Builder	net/minecraft/class_2040$class_2041
+net/minecraft/advancements/critereon/EntityHurtPlayerTrigger	net/minecraft/server/1_15_R1/CriterionTriggerEntityHurtPlayer	net/minecraft/advancements/criterion/EntityHurtPlayerTrigger	net/minecraft/class_2044
+net/minecraft/advancements/critereon/EntityHurtPlayerTrigger$TriggerInstance		net/minecraft/advancements/criterion/EntityHurtPlayerTrigger$Instance	net/minecraft/class_2044$class_2046
+net/minecraft/advancements/critereon/EntityPredicate	net/minecraft/server/1_15_R1/CriterionConditionEntity	net/minecraft/advancements/criterion/EntityPredicate	net/minecraft/class_2048
+net/minecraft/advancements/critereon/EntityPredicate$Builder		net/minecraft/advancements/criterion/EntityPredicate$Builder	net/minecraft/class_2048$class_2049
+net/minecraft/advancements/critereon/EntityTypePredicate	net/minecraft/server/1_15_R1/CriterionConditionEntityType	net/minecraft/advancements/criterion/EntityTypePredicate	net/minecraft/class_2050
+net/minecraft/advancements/critereon/EntityTypePredicate$1		net/minecraft/advancements/criterion/EntityTypePredicate$1	net/minecraft/class_2050$1
+net/minecraft/advancements/critereon/EntityTypePredicate$TagPredicate		net/minecraft/advancements/criterion/EntityTypePredicate$TagPredicate	net/minecraft/class_2050$class_2051
+net/minecraft/advancements/critereon/EntityTypePredicate$TypePredicate		net/minecraft/advancements/criterion/EntityTypePredicate$TypePredicate	net/minecraft/class_2050$class_2052
+net/minecraft/advancements/critereon/FilledBucketTrigger	net/minecraft/server/1_15_R1/CriterionTriggerFilledBucket	net/minecraft/advancements/criterion/FilledBucketTrigger	net/minecraft/class_2054
+net/minecraft/advancements/critereon/FilledBucketTrigger$TriggerInstance		net/minecraft/advancements/criterion/FilledBucketTrigger$Instance	net/minecraft/class_2054$class_2056
+net/minecraft/advancements/critereon/FishingRodHookedTrigger	net/minecraft/server/1_15_R1/CriterionTriggerFishingRodHooked	net/minecraft/advancements/criterion/FishingRodHookedTrigger	net/minecraft/class_2058
+net/minecraft/advancements/critereon/FishingRodHookedTrigger$TriggerInstance		net/minecraft/advancements/criterion/FishingRodHookedTrigger$Instance	net/minecraft/class_2058$class_2060
+net/minecraft/advancements/critereon/FluidPredicate	net/minecraft/server/1_15_R1/CriterionConditionFluid	net/minecraft/advancements/criterion/FluidPredicate	net/minecraft/class_4551
+net/minecraft/advancements/critereon/ImpossibleTrigger	net/minecraft/server/1_15_R1/CriterionTriggerImpossible	net/minecraft/advancements/criterion/ImpossibleTrigger	net/minecraft/class_2062
+net/minecraft/advancements/critereon/ImpossibleTrigger$TriggerInstance		net/minecraft/advancements/criterion/ImpossibleTrigger$Instance	net/minecraft/class_2062$class_2063
+net/minecraft/advancements/critereon/InventoryChangeTrigger	net/minecraft/server/1_15_R1/CriterionTriggerInventoryChanged	net/minecraft/advancements/criterion/InventoryChangeTrigger	net/minecraft/class_2066
+net/minecraft/advancements/critereon/InventoryChangeTrigger$TriggerInstance		net/minecraft/advancements/criterion/InventoryChangeTrigger$Instance	net/minecraft/class_2066$class_2068
+net/minecraft/advancements/critereon/ItemDurabilityTrigger	net/minecraft/server/1_15_R1/CriterionTriggerItemDurabilityChanged	net/minecraft/advancements/criterion/ItemDurabilityTrigger	net/minecraft/class_2069
+net/minecraft/advancements/critereon/ItemDurabilityTrigger$TriggerInstance		net/minecraft/advancements/criterion/ItemDurabilityTrigger$Instance	net/minecraft/class_2069$class_2071
+net/minecraft/advancements/critereon/ItemPredicate	net/minecraft/server/1_15_R1/CriterionConditionItem	net/minecraft/advancements/criterion/ItemPredicate	net/minecraft/class_2073
+net/minecraft/advancements/critereon/ItemPredicate$Builder		net/minecraft/advancements/criterion/ItemPredicate$Builder	net/minecraft/class_2073$class_2074
+net/minecraft/advancements/critereon/ItemUsedOnBlockTrigger	net/minecraft/server/1_15_R1/CriterionTriggerInteractBlock	net/minecraft/advancements/criterion/RightClickBlockWithItemTrigger	net/minecraft/class_4711
+net/minecraft/advancements/critereon/ItemUsedOnBlockTrigger$TriggerInstance		net/minecraft/advancements/criterion/RightClickBlockWithItemTrigger$Instance	net/minecraft/class_4711$class_4712
+net/minecraft/advancements/critereon/KilledByCrossbowTrigger	net/minecraft/server/1_15_R1/CriterionTriggerKilledByCrossbow	net/minecraft/advancements/criterion/KilledByCrossbowTrigger	net/minecraft/class_2076
+net/minecraft/advancements/critereon/KilledByCrossbowTrigger$TriggerInstance		net/minecraft/advancements/criterion/KilledByCrossbowTrigger$Instance	net/minecraft/class_2076$class_2078
+net/minecraft/advancements/critereon/KilledTrigger	net/minecraft/server/1_15_R1/CriterionTriggerKilled	net/minecraft/advancements/criterion/KilledTrigger	net/minecraft/class_2080
+net/minecraft/advancements/critereon/KilledTrigger$TriggerInstance		net/minecraft/advancements/criterion/KilledTrigger$Instance	net/minecraft/class_2080$class_2083
+net/minecraft/advancements/critereon/LevitationTrigger	net/minecraft/server/1_15_R1/CriterionTriggerLevitation	net/minecraft/advancements/criterion/LevitationTrigger	net/minecraft/class_2085
+net/minecraft/advancements/critereon/LevitationTrigger$TriggerInstance		net/minecraft/advancements/criterion/LevitationTrigger$Instance	net/minecraft/class_2085$class_2087
+net/minecraft/advancements/critereon/LightPredicate	net/minecraft/server/1_15_R1/CriterionConditionLight	net/minecraft/advancements/criterion/LightPredicate	net/minecraft/class_4552
+net/minecraft/advancements/critereon/LocationPredicate	net/minecraft/server/1_15_R1/CriterionConditionLocation	net/minecraft/advancements/criterion/LocationPredicate	net/minecraft/class_2090
+net/minecraft/advancements/critereon/LocationPredicate$Builder		net/minecraft/advancements/criterion/LocationPredicate$Builder	net/minecraft/class_2090$class_2091
+net/minecraft/advancements/critereon/LocationTrigger	net/minecraft/server/1_15_R1/CriterionTriggerLocation	net/minecraft/advancements/criterion/PositionTrigger	net/minecraft/class_2092
+net/minecraft/advancements/critereon/LocationTrigger$TriggerInstance		net/minecraft/advancements/criterion/PositionTrigger$Instance	net/minecraft/class_2092$class_2094
+net/minecraft/advancements/critereon/MinMaxBounds	net/minecraft/server/1_15_R1/CriterionConditionValue	net/minecraft/advancements/criterion/MinMaxBounds	net/minecraft/class_2096
+net/minecraft/advancements/critereon/MinMaxBounds$BoundsFactory		net/minecraft/advancements/criterion/MinMaxBounds$IBoundFactory	net/minecraft/class_2096$class_2097
+net/minecraft/advancements/critereon/MinMaxBounds$BoundsFromReaderFactory		net/minecraft/advancements/criterion/MinMaxBounds$IBoundReader	net/minecraft/class_2096$class_2098
+net/minecraft/advancements/critereon/MinMaxBounds$Floats	net/minecraft/server/1_15_R1/CriterionConditionValue$FloatRange	net/minecraft/advancements/criterion/MinMaxBounds$FloatBound	net/minecraft/class_2096$class_2099
+net/minecraft/advancements/critereon/MinMaxBounds$Ints	net/minecraft/server/1_15_R1/CriterionConditionValue$IntegerRange	net/minecraft/advancements/criterion/MinMaxBounds$IntBound	net/minecraft/class_2096$class_2100
+net/minecraft/advancements/critereon/MobEffectsPredicate	net/minecraft/server/1_15_R1/CriterionConditionMobEffect	net/minecraft/advancements/criterion/MobEffectsPredicate	net/minecraft/class_2102
+net/minecraft/advancements/critereon/MobEffectsPredicate$MobEffectInstancePredicate		net/minecraft/advancements/criterion/MobEffectsPredicate$InstancePredicate	net/minecraft/class_2102$class_2103
+net/minecraft/advancements/critereon/NbtPredicate	net/minecraft/server/1_15_R1/CriterionConditionNBT	net/minecraft/advancements/criterion/NBTPredicate	net/minecraft/class_2105
+net/minecraft/advancements/critereon/NetherTravelTrigger	net/minecraft/server/1_15_R1/CriterionTriggerNetherTravel	net/minecraft/advancements/criterion/NetherTravelTrigger	net/minecraft/class_2108
+net/minecraft/advancements/critereon/NetherTravelTrigger$TriggerInstance		net/minecraft/advancements/criterion/NetherTravelTrigger$Instance	net/minecraft/class_2108$class_2110
+net/minecraft/advancements/critereon/PlacedBlockTrigger	net/minecraft/server/1_15_R1/CriterionTriggerPlacedBlock	net/minecraft/advancements/criterion/PlacedBlockTrigger	net/minecraft/class_2111
+net/minecraft/advancements/critereon/PlacedBlockTrigger$TriggerInstance		net/minecraft/advancements/criterion/PlacedBlockTrigger$Instance	net/minecraft/class_2111$class_2113
+net/minecraft/advancements/critereon/PlayerHurtEntityTrigger	net/minecraft/server/1_15_R1/CriterionTriggerPlayerHurtEntity	net/minecraft/advancements/criterion/PlayerHurtEntityTrigger	net/minecraft/class_2115
+net/minecraft/advancements/critereon/PlayerHurtEntityTrigger$TriggerInstance		net/minecraft/advancements/criterion/PlayerHurtEntityTrigger$Instance	net/minecraft/class_2115$class_2117
+net/minecraft/advancements/critereon/PlayerPredicate	net/minecraft/server/1_15_R1/CriterionConditionPlayer	net/minecraft/advancements/criterion/PlayerPredicate	net/minecraft/class_4553
+net/minecraft/advancements/critereon/PlayerPredicate$AdvancementCriterionsPredicate		net/minecraft/advancements/criterion/PlayerPredicate$CriteriaPredicate	net/minecraft/class_4553$class_4554
+net/minecraft/advancements/critereon/PlayerPredicate$AdvancementDonePredicate		net/minecraft/advancements/criterion/PlayerPredicate$CompletedAdvancementPredicate	net/minecraft/class_4553$class_4555
+net/minecraft/advancements/critereon/PlayerPredicate$AdvancementPredicate		net/minecraft/advancements/criterion/PlayerPredicate$IAdvancementPredicate	net/minecraft/class_4553$class_4556
+net/minecraft/advancements/critereon/PlayerPredicate$Builder		net/minecraft/advancements/criterion/PlayerPredicate$Default	net/minecraft/class_4553$class_4557
+net/minecraft/advancements/critereon/RecipeUnlockedTrigger	net/minecraft/server/1_15_R1/CriterionTriggerRecipeUnlocked	net/minecraft/advancements/criterion/RecipeUnlockedTrigger	net/minecraft/class_2119
+net/minecraft/advancements/critereon/RecipeUnlockedTrigger$TriggerInstance		net/minecraft/advancements/criterion/RecipeUnlockedTrigger$Instance	net/minecraft/class_2119$class_2121
+net/minecraft/advancements/critereon/ShotCrossbowTrigger	net/minecraft/server/1_15_R1/CriterionTriggerShotCrossbow	net/minecraft/advancements/criterion/ShotCrossbowTrigger	net/minecraft/class_2123
+net/minecraft/advancements/critereon/ShotCrossbowTrigger$TriggerInstance		net/minecraft/advancements/criterion/ShotCrossbowTrigger$Instance	net/minecraft/class_2123$class_2125
+net/minecraft/advancements/critereon/SimpleCriterionTrigger	net/minecraft/server/1_15_R1/CriterionTriggerAbstract	net/minecraft/advancements/criterion/AbstractCriterionTrigger	net/minecraft/class_4558
+net/minecraft/advancements/critereon/SlideDownBlockTrigger	net/minecraft/server/1_15_R1/CriterionSlideDownBlock	net/minecraft/advancements/criterion/SlideDownBlockTrigger	net/minecraft/class_4713
+net/minecraft/advancements/critereon/SlideDownBlockTrigger$TriggerInstance		net/minecraft/advancements/criterion/SlideDownBlockTrigger$Instance	net/minecraft/class_4713$class_4714
+net/minecraft/advancements/critereon/StatePropertiesPredicate	net/minecraft/server/1_15_R1/CriterionTriggerProperties	net/minecraft/advancements/criterion/StatePropertiesPredicate	net/minecraft/class_4559
+net/minecraft/advancements/critereon/StatePropertiesPredicate$Builder		net/minecraft/advancements/criterion/StatePropertiesPredicate$Builder	net/minecraft/class_4559$class_4560
+net/minecraft/advancements/critereon/StatePropertiesPredicate$ExactPropertyMatcher		net/minecraft/advancements/criterion/StatePropertiesPredicate$ExactMatcher	net/minecraft/class_4559$class_4561
+net/minecraft/advancements/critereon/StatePropertiesPredicate$PropertyMatcher		net/minecraft/advancements/criterion/StatePropertiesPredicate$Matcher	net/minecraft/class_4559$class_4562
+net/minecraft/advancements/critereon/StatePropertiesPredicate$RangedPropertyMatcher		net/minecraft/advancements/criterion/StatePropertiesPredicate$RangedMacher	net/minecraft/class_4559$class_4563
+net/minecraft/advancements/critereon/SummonedEntityTrigger	net/minecraft/server/1_15_R1/CriterionTriggerSummonedEntity	net/minecraft/advancements/criterion/SummonedEntityTrigger	net/minecraft/class_2128
+net/minecraft/advancements/critereon/SummonedEntityTrigger$TriggerInstance		net/minecraft/advancements/criterion/SummonedEntityTrigger$Instance	net/minecraft/class_2128$class_2130
+net/minecraft/advancements/critereon/TameAnimalTrigger	net/minecraft/server/1_15_R1/CriterionTriggerTamedAnimal	net/minecraft/advancements/criterion/TameAnimalTrigger	net/minecraft/class_2131
+net/minecraft/advancements/critereon/TameAnimalTrigger$TriggerInstance		net/minecraft/advancements/criterion/TameAnimalTrigger$Instance	net/minecraft/class_2131$class_2133
+net/minecraft/advancements/critereon/TickTrigger	net/minecraft/server/1_15_R1/CriterionTriggerTick	net/minecraft/advancements/criterion/TickTrigger	net/minecraft/class_2135
+net/minecraft/advancements/critereon/TickTrigger$TriggerInstance		net/minecraft/advancements/criterion/TickTrigger$Instance	net/minecraft/class_2135$class_2137
+net/minecraft/advancements/critereon/TradeTrigger	net/minecraft/server/1_15_R1/CriterionTriggerVillagerTrade	net/minecraft/advancements/criterion/VillagerTradeTrigger	net/minecraft/class_2140
+net/minecraft/advancements/critereon/TradeTrigger$TriggerInstance		net/minecraft/advancements/criterion/VillagerTradeTrigger$Instance	net/minecraft/class_2140$class_2142
+net/minecraft/advancements/critereon/UsedEnderEyeTrigger	net/minecraft/server/1_15_R1/CriterionTriggerUsedEnderEye	net/minecraft/advancements/criterion/UsedEnderEyeTrigger	net/minecraft/class_2143
+net/minecraft/advancements/critereon/UsedEnderEyeTrigger$TriggerInstance		net/minecraft/advancements/criterion/UsedEnderEyeTrigger$Instance	net/minecraft/class_2143$class_2145
+net/minecraft/advancements/critereon/UsedTotemTrigger	net/minecraft/server/1_15_R1/CriterionTriggerUsedTotem	net/minecraft/advancements/criterion/UsedTotemTrigger	net/minecraft/class_2148
+net/minecraft/advancements/critereon/UsedTotemTrigger$TriggerInstance		net/minecraft/advancements/criterion/UsedTotemTrigger$Instance	net/minecraft/class_2148$class_2150
+net/minecraft/advancements/critereon/WrappedMinMaxBounds	net/minecraft/server/1_15_R1/CriterionConditionRange	net/minecraft/advancements/criterion/MinMaxBoundsWrapped	net/minecraft/class_2152
+net/minecraft/commands/BrigadierExceptions	net/minecraft/server/1_15_R1/CommandExceptionProvider	net/minecraft/command/TranslatableExceptionProvider	net/minecraft/class_2156
+net/minecraft/commands/CommandFunction	net/minecraft/server/1_15_R1/CustomFunction	net/minecraft/command/FunctionObject	net/minecraft/class_2158
+net/minecraft/commands/CommandFunction$CacheableFunction		net/minecraft/command/FunctionObject$CacheableFunction	net/minecraft/class_2158$class_2159
+net/minecraft/commands/CommandFunction$CommandEntry		net/minecraft/command/FunctionObject$CommandEntry	net/minecraft/class_2158$class_2160
+net/minecraft/commands/CommandFunction$Entry		net/minecraft/command/FunctionObject$IEntry	net/minecraft/class_2158$class_2161
+net/minecraft/commands/CommandFunction$FunctionEntry		net/minecraft/command/FunctionObject$FunctionEntry	net/minecraft/class_2158$class_2162
+net/minecraft/commands/CommandRuntimeException	net/minecraft/server/1_15_R1/CommandException	net/minecraft/command/CommandException	net/minecraft/class_2164
+net/minecraft/commands/CommandSource	net/minecraft/server/1_15_R1/ICommandListener	net/minecraft/command/ICommandSource	net/minecraft/class_2165
+net/minecraft/commands/CommandSource$1		net/minecraft/command/ICommandSource$1	net/minecraft/class_2165$1
+net/minecraft/commands/CommandSourceStack	net/minecraft/server/1_15_R1/CommandListenerWrapper	net/minecraft/command/CommandSource	net/minecraft/class_2168
+net/minecraft/commands/Commands	net/minecraft/server/1_15_R1/CommandDispatcher	net/minecraft/command/Commands	net/minecraft/class_2170
+net/minecraft/commands/Commands$ParseFunction		net/minecraft/command/Commands$IParser	net/minecraft/class_2170$class_2171
+net/minecraft/commands/SharedSuggestionProvider	net/minecraft/server/1_15_R1/ICompletionProvider	net/minecraft/command/ISuggestionProvider	net/minecraft/class_2172
+net/minecraft/commands/SharedSuggestionProvider$TextCoordinates		net/minecraft/command/ISuggestionProvider$Coordinates	net/minecraft/class_2172$class_2173
+net/minecraft/commands/arguments/ColorArgument	net/minecraft/server/1_15_R1/ArgumentChatFormat	net/minecraft/command/arguments/ColorArgument	net/minecraft/class_2177
+net/minecraft/commands/arguments/ComponentArgument	net/minecraft/server/1_15_R1/ArgumentChatComponent	net/minecraft/command/arguments/ComponentArgument	net/minecraft/class_2178
+net/minecraft/commands/arguments/CompoundTagArgument	net/minecraft/server/1_15_R1/ArgumentNBTTag	net/minecraft/command/arguments/NBTCompoundTagArgument	net/minecraft/class_2179
+net/minecraft/commands/arguments/DimensionTypeArgument	net/minecraft/server/1_15_R1/ArgumentDimension	net/minecraft/command/arguments/DimensionArgument	net/minecraft/class_2181
+net/minecraft/commands/arguments/EntityAnchorArgument	net/minecraft/server/1_15_R1/ArgumentAnchor	net/minecraft/command/arguments/EntityAnchorArgument	net/minecraft/class_2183
+net/minecraft/commands/arguments/EntityAnchorArgument$Anchor	net/minecraft/server/1_15_R1/ArgumentAnchor$Anchor	net/minecraft/command/arguments/EntityAnchorArgument$Type	net/minecraft/class_2183$class_2184
+net/minecraft/commands/arguments/EntityArgument	net/minecraft/server/1_15_R1/ArgumentEntity	net/minecraft/command/arguments/EntityArgument	net/minecraft/class_2186
+net/minecraft/commands/arguments/EntityArgument$Serializer		net/minecraft/command/arguments/EntityArgument$Serializer	net/minecraft/class_2186$class_2187
+net/minecraft/commands/arguments/EntitySummonArgument	net/minecraft/server/1_15_R1/ArgumentEntitySummon	net/minecraft/command/arguments/EntitySummonArgument	net/minecraft/class_2188
+net/minecraft/commands/arguments/GameProfileArgument	net/minecraft/server/1_15_R1/ArgumentProfile	net/minecraft/command/arguments/GameProfileArgument	net/minecraft/class_2191
+net/minecraft/commands/arguments/GameProfileArgument$Result		net/minecraft/command/arguments/GameProfileArgument$IProfileProvider	net/minecraft/class_2191$class_2192
+net/minecraft/commands/arguments/GameProfileArgument$SelectorResult		net/minecraft/command/arguments/GameProfileArgument$ProfileProvider	net/minecraft/class_2191$class_2193
+net/minecraft/commands/arguments/ItemEnchantmentArgument	net/minecraft/server/1_15_R1/ArgumentEnchantment	net/minecraft/command/arguments/EnchantmentArgument	net/minecraft/class_2194
+net/minecraft/commands/arguments/MessageArgument	net/minecraft/server/1_15_R1/ArgumentChat	net/minecraft/command/arguments/MessageArgument	net/minecraft/class_2196
+net/minecraft/commands/arguments/MessageArgument$Message		net/minecraft/command/arguments/MessageArgument$Message	net/minecraft/class_2196$class_2197
+net/minecraft/commands/arguments/MessageArgument$Part		net/minecraft/command/arguments/MessageArgument$Part	net/minecraft/class_2196$class_2198
+net/minecraft/commands/arguments/MobEffectArgument	net/minecraft/server/1_15_R1/ArgumentMobEffect	net/minecraft/command/arguments/PotionArgument	net/minecraft/class_2201
+net/minecraft/commands/arguments/NbtPathArgument	net/minecraft/server/1_15_R1/ArgumentNBTKey	net/minecraft/command/arguments/NBTPathArgument	net/minecraft/class_2203
+net/minecraft/commands/arguments/NbtPathArgument$AllElementsNode		net/minecraft/command/arguments/NBTPathArgument$EmptyListNode	net/minecraft/class_2203$class_2204
+net/minecraft/commands/arguments/NbtPathArgument$CompoundChildNode		net/minecraft/command/arguments/NBTPathArgument$StringNode	net/minecraft/class_2203$class_2205
+net/minecraft/commands/arguments/NbtPathArgument$IndexedElementNode		net/minecraft/command/arguments/NBTPathArgument$CollectionNode	net/minecraft/class_2203$class_2206
+net/minecraft/commands/arguments/NbtPathArgument$MatchElementNode		net/minecraft/command/arguments/NBTPathArgument$ListNode	net/minecraft/class_2203$class_2207
+net/minecraft/commands/arguments/NbtPathArgument$MatchObjectNode		net/minecraft/command/arguments/NBTPathArgument$JsonNode	net/minecraft/class_2203$class_2208
+net/minecraft/commands/arguments/NbtPathArgument$MatchRootObjectNode		net/minecraft/command/arguments/NBTPathArgument$CompoundNode	net/minecraft/class_2203$class_3707
+net/minecraft/commands/arguments/NbtPathArgument$NbtPath		net/minecraft/command/arguments/NBTPathArgument$NBTPath	net/minecraft/class_2203$class_2209
+net/minecraft/commands/arguments/NbtPathArgument$Node		net/minecraft/command/arguments/NBTPathArgument$INode	net/minecraft/class_2203$class_2210
+net/minecraft/commands/arguments/NbtTagArgument	net/minecraft/server/1_15_R1/ArgumentNBTBase	net/minecraft/command/arguments/NBTTagArgument	net/minecraft/class_2212
+net/minecraft/commands/arguments/ObjectiveArgument	net/minecraft/server/1_15_R1/ArgumentScoreboardObjective	net/minecraft/command/arguments/ObjectiveArgument	net/minecraft/class_2214
+net/minecraft/commands/arguments/ObjectiveCriteriaArgument	net/minecraft/server/1_15_R1/ArgumentScoreboardCriteria	net/minecraft/command/arguments/ObjectiveCriteriaArgument	net/minecraft/class_2216
+net/minecraft/commands/arguments/OperationArgument	net/minecraft/server/1_15_R1/ArgumentMathOperation	net/minecraft/command/arguments/OperationArgument	net/minecraft/class_2218
+net/minecraft/commands/arguments/OperationArgument$Operation		net/minecraft/command/arguments/OperationArgument$IOperation	net/minecraft/class_2218$class_2219
+net/minecraft/commands/arguments/OperationArgument$SimpleOperation		net/minecraft/command/arguments/OperationArgument$IIntOperation	net/minecraft/class_2218$class_2220
+net/minecraft/commands/arguments/ParticleArgument	net/minecraft/server/1_15_R1/ArgumentParticle	net/minecraft/command/arguments/ParticleArgument	net/minecraft/class_2223
+net/minecraft/commands/arguments/RangeArgument	net/minecraft/server/1_15_R1/ArgumentCriterionValue	net/minecraft/command/arguments/IRangeArgument	net/minecraft/class_2224
+net/minecraft/commands/arguments/RangeArgument$Floats		net/minecraft/command/arguments/IRangeArgument$FloatRange	net/minecraft/class_2224$class_2225
+net/minecraft/commands/arguments/RangeArgument$Floats$Serializer		net/minecraft/command/arguments/IRangeArgument$FloatRange$Serializer	net/minecraft/class_2224$class_2225$class_2226
+net/minecraft/commands/arguments/RangeArgument$Ints		net/minecraft/command/arguments/IRangeArgument$IntRange	net/minecraft/class_2224$class_2227
+net/minecraft/commands/arguments/RangeArgument$Ints$Serializer		net/minecraft/command/arguments/IRangeArgument$IntRange$Serializer	net/minecraft/class_2224$class_2227$class_2228
+net/minecraft/commands/arguments/RangeArgument$Serializer		net/minecraft/command/arguments/IRangeArgument$Serializer	net/minecraft/class_2224$class_2229
+net/minecraft/commands/arguments/ResourceLocationArgument	net/minecraft/server/1_15_R1/ArgumentMinecraftKeyRegistered	net/minecraft/command/arguments/ResourceLocationArgument	net/minecraft/class_2232
+net/minecraft/commands/arguments/ScoreHolderArgument	net/minecraft/server/1_15_R1/ArgumentScoreholder	net/minecraft/command/arguments/ScoreHolderArgument	net/minecraft/class_2233
+net/minecraft/commands/arguments/ScoreHolderArgument$Result		net/minecraft/command/arguments/ScoreHolderArgument$INameProvider	net/minecraft/class_2233$class_2234
+net/minecraft/commands/arguments/ScoreHolderArgument$SelectorResult		net/minecraft/command/arguments/ScoreHolderArgument$NameProvider	net/minecraft/class_2233$class_2235
+net/minecraft/commands/arguments/ScoreHolderArgument$Serializer		net/minecraft/command/arguments/ScoreHolderArgument$Serializer	net/minecraft/class_2233$class_2236
+net/minecraft/commands/arguments/ScoreboardSlotArgument	net/minecraft/server/1_15_R1/ArgumentScoreboardSlot	net/minecraft/command/arguments/ScoreboardSlotArgument	net/minecraft/class_2239
+net/minecraft/commands/arguments/SlotArgument	net/minecraft/server/1_15_R1/ArgumentInventorySlot	net/minecraft/command/arguments/SlotArgument	net/minecraft/class_2240
+net/minecraft/commands/arguments/TeamArgument	net/minecraft/server/1_15_R1/ArgumentScoreboardTeam	net/minecraft/command/arguments/TeamArgument	net/minecraft/class_2243
+net/minecraft/commands/arguments/TimeArgument	net/minecraft/server/1_15_R1/ArgumentTime	net/minecraft/command/arguments/TimeArgument	net/minecraft/class_2245
+net/minecraft/commands/arguments/blocks/BlockInput	net/minecraft/server/1_15_R1/ArgumentTileLocation	net/minecraft/command/arguments/BlockStateInput	net/minecraft/class_2247
+net/minecraft/commands/arguments/blocks/BlockPredicateArgument	net/minecraft/server/1_15_R1/ArgumentBlockPredicate	net/minecraft/command/arguments/BlockPredicateArgument	net/minecraft/class_2252
+net/minecraft/commands/arguments/blocks/BlockPredicateArgument$BlockPredicate		net/minecraft/command/arguments/BlockPredicateArgument$BlockPredicate	net/minecraft/class_2252$class_2253
+net/minecraft/commands/arguments/blocks/BlockPredicateArgument$Result		net/minecraft/command/arguments/BlockPredicateArgument$IResult	net/minecraft/class_2252$class_2254
+net/minecraft/commands/arguments/blocks/BlockPredicateArgument$TagPredicate		net/minecraft/command/arguments/BlockPredicateArgument$TagPredicate	net/minecraft/class_2252$class_2255
+net/minecraft/commands/arguments/blocks/BlockStateArgument	net/minecraft/server/1_15_R1/ArgumentTile	net/minecraft/command/arguments/BlockStateArgument	net/minecraft/class_2257
+net/minecraft/commands/arguments/blocks/BlockStateParser	net/minecraft/server/1_15_R1/ArgumentBlock	net/minecraft/command/arguments/BlockStateParser	net/minecraft/class_2259
+net/minecraft/commands/arguments/coordinates/BlockPosArgument	net/minecraft/server/1_15_R1/ArgumentPosition	net/minecraft/command/arguments/BlockPosArgument	net/minecraft/class_2262
+net/minecraft/commands/arguments/coordinates/ColumnPosArgument	net/minecraft/server/1_15_R1/ArgumentVec2I	net/minecraft/command/arguments/ColumnPosArgument	net/minecraft/class_2264
+net/minecraft/commands/arguments/coordinates/Coordinates	net/minecraft/server/1_15_R1/IVectorPosition	net/minecraft/command/arguments/ILocationArgument	net/minecraft/class_2267
+net/minecraft/commands/arguments/coordinates/LocalCoordinates	net/minecraft/server/1_15_R1/ArgumentVectorPosition	net/minecraft/command/arguments/LocalLocationArgument	net/minecraft/class_2268
+net/minecraft/commands/arguments/coordinates/RotationArgument	net/minecraft/server/1_15_R1/ArgumentRotation	net/minecraft/command/arguments/RotationArgument	net/minecraft/class_2270
+net/minecraft/commands/arguments/coordinates/SwizzleArgument	net/minecraft/server/1_15_R1/ArgumentRotationAxis	net/minecraft/command/arguments/SwizzleArgument	net/minecraft/class_2273
+net/minecraft/commands/arguments/coordinates/Vec2Argument	net/minecraft/server/1_15_R1/ArgumentVec2	net/minecraft/command/arguments/Vec2Argument	net/minecraft/class_2274
+net/minecraft/commands/arguments/coordinates/Vec3Argument	net/minecraft/server/1_15_R1/ArgumentVec3	net/minecraft/command/arguments/Vec3Argument	net/minecraft/class_2277
+net/minecraft/commands/arguments/coordinates/WorldCoordinate	net/minecraft/server/1_15_R1/ArgumentParserPosition	net/minecraft/command/arguments/LocationPart	net/minecraft/class_2278
+net/minecraft/commands/arguments/coordinates/WorldCoordinates	net/minecraft/server/1_15_R1/VectorPosition	net/minecraft/command/arguments/LocationInput	net/minecraft/class_2280
+net/minecraft/commands/arguments/item/FunctionArgument	net/minecraft/server/1_15_R1/ArgumentTag	net/minecraft/command/arguments/FunctionArgument	net/minecraft/class_2284
+net/minecraft/commands/arguments/item/FunctionArgument$1		net/minecraft/command/arguments/FunctionArgument$1	net/minecraft/class_2284$1
+net/minecraft/commands/arguments/item/FunctionArgument$2		net/minecraft/command/arguments/FunctionArgument$2	net/minecraft/class_2284$2
+net/minecraft/commands/arguments/item/FunctionArgument$Result		net/minecraft/command/arguments/FunctionArgument$IResult	net/minecraft/class_2284$class_2285
+net/minecraft/commands/arguments/item/ItemArgument	net/minecraft/server/1_15_R1/ArgumentItemStack	net/minecraft/command/arguments/ItemArgument	net/minecraft/class_2287
+net/minecraft/commands/arguments/item/ItemInput	net/minecraft/server/1_15_R1/ArgumentPredicateItemStack	net/minecraft/command/arguments/ItemInput	net/minecraft/class_2290
+net/minecraft/commands/arguments/item/ItemParser	net/minecraft/server/1_15_R1/ArgumentParserItemStack	net/minecraft/command/arguments/ItemParser	net/minecraft/class_2291
+net/minecraft/commands/arguments/item/ItemPredicateArgument	net/minecraft/server/1_15_R1/ArgumentItemPredicate	net/minecraft/command/arguments/ItemPredicateArgument	net/minecraft/class_2293
+net/minecraft/commands/arguments/item/ItemPredicateArgument$ItemPredicate		net/minecraft/command/arguments/ItemPredicateArgument$ItemPredicate	net/minecraft/class_2293$class_2294
+net/minecraft/commands/arguments/item/ItemPredicateArgument$Result		net/minecraft/command/arguments/ItemPredicateArgument$IResult	net/minecraft/class_2293$class_2295
+net/minecraft/commands/arguments/item/ItemPredicateArgument$TagPredicate		net/minecraft/command/arguments/ItemPredicateArgument$TagPredicate	net/minecraft/class_2293$class_2296
+net/minecraft/commands/arguments/selector/EntitySelector	net/minecraft/server/1_15_R1/EntitySelector	net/minecraft/command/arguments/EntitySelector	net/minecraft/class_2300
+net/minecraft/commands/arguments/selector/EntitySelectorParser	net/minecraft/server/1_15_R1/ArgumentParserSelector	net/minecraft/command/arguments/EntitySelectorParser	net/minecraft/class_2303
+net/minecraft/commands/arguments/selector/options/EntitySelectorOptions	net/minecraft/server/1_15_R1/PlayerSelector	net/minecraft/command/arguments/EntityOptions	net/minecraft/class_2306
+net/minecraft/commands/arguments/selector/options/EntitySelectorOptions$Modifier		net/minecraft/command/arguments/EntityOptions$IFilter	net/minecraft/class_2306$class_2307
+net/minecraft/commands/arguments/selector/options/EntitySelectorOptions$Option		net/minecraft/command/arguments/EntityOptions$OptionHandler	net/minecraft/class_2306$class_2308
+net/minecraft/commands/synchronization/ArgumentSerializer	net/minecraft/server/1_15_R1/ArgumentSerializer	net/minecraft/command/arguments/IArgumentSerializer	net/minecraft/class_2314
+net/minecraft/commands/synchronization/ArgumentTypes	net/minecraft/server/1_15_R1/ArgumentRegistry	net/minecraft/command/arguments/ArgumentTypes	net/minecraft/class_2316
+net/minecraft/commands/synchronization/ArgumentTypes$Entry		net/minecraft/command/arguments/ArgumentTypes$Entry	net/minecraft/class_2316$class_2317
+net/minecraft/commands/synchronization/EmptyArgumentSerializer	net/minecraft/server/1_15_R1/ArgumentSerializerVoid	net/minecraft/command/arguments/ArgumentSerializer	net/minecraft/class_2319
+net/minecraft/commands/synchronization/SuggestionProviders	net/minecraft/server/1_15_R1/CompletionProviders	net/minecraft/command/arguments/SuggestionProviders	net/minecraft/class_2321
+net/minecraft/commands/synchronization/SuggestionProviders$Wrapper		net/minecraft/command/arguments/SuggestionProviders$Wrapper	net/minecraft/class_2321$class_2322
+net/minecraft/commands/synchronization/brigadier/BrigadierArgumentSerializers	net/minecraft/server/1_15_R1/ArgumentSerializers	net/minecraft/command/arguments/serializers/BrigadierSerializers	net/minecraft/class_2324
+net/minecraft/commands/synchronization/brigadier/DoubleArgumentSerializer	net/minecraft/server/1_15_R1/ArgumentSerializerDouble	net/minecraft/command/arguments/serializers/DoubleArgumentSerializer	net/minecraft/class_2326
+net/minecraft/commands/synchronization/brigadier/FloatArgumentSerializer	net/minecraft/server/1_15_R1/ArgumentSerializerFloat	net/minecraft/command/arguments/serializers/FloatArgumentSerializer	net/minecraft/class_2327
+net/minecraft/commands/synchronization/brigadier/IntegerArgumentSerializer	net/minecraft/server/1_15_R1/ArgumentSerializerInteger	net/minecraft/command/arguments/serializers/IntArgumentSerializer	net/minecraft/class_2330
+net/minecraft/commands/synchronization/brigadier/LongArgumentSerializer	net/minecraft/server/1_15_R1/ArgumentSerializerLong	net/minecraft/command/arguments/serializers/LongArgumentSerializer	net/minecraft/class_4461
+net/minecraft/commands/synchronization/brigadier/StringArgumentSerializer	net/minecraft/server/1_15_R1/ArgumentSerializerString	net/minecraft/command/arguments/serializers/StringArgumentSerializer	net/minecraft/class_2332
+net/minecraft/core/AxisCycle	net/minecraft/server/1_15_R1/EnumAxisCycle	net/minecraft/util/AxisRotation	net/minecraft/class_2335
+net/minecraft/core/AxisCycle$1		net/minecraft/util/AxisRotation$1	net/minecraft/class_2335$1
+net/minecraft/core/AxisCycle$2		net/minecraft/util/AxisRotation$2	net/minecraft/class_2335$2
+net/minecraft/core/AxisCycle$3		net/minecraft/util/AxisRotation$3	net/minecraft/class_2335$3
+net/minecraft/core/BlockPos	net/minecraft/server/1_15_R1/BlockPosition	net/minecraft/util/math/BlockPos	net/minecraft/class_2338
+net/minecraft/core/BlockPos$1		net/minecraft/util/math/BlockPos$1	net/minecraft/class_2338$1
+net/minecraft/core/BlockPos$2		net/minecraft/util/math/BlockPos$2	net/minecraft/class_2338$2
+net/minecraft/core/BlockPos$MutableBlockPos	net/minecraft/server/1_15_R1/BlockPosition$MutableBlockPosition	net/minecraft/util/math/BlockPos$Mutable	net/minecraft/class_2338$class_2339
+net/minecraft/core/BlockPos$PooledMutableBlockPos	net/minecraft/server/1_15_R1/BlockPosition$PooledBlockPosition	net/minecraft/util/math/BlockPos$PooledMutable	net/minecraft/class_2338$class_2340
+net/minecraft/core/BlockSource	net/minecraft/server/1_15_R1/ISourceBlock	net/minecraft/dispenser/IBlockSource	net/minecraft/class_2342
+net/minecraft/core/BlockSourceImpl	net/minecraft/server/1_15_R1/SourceBlock	net/minecraft/dispenser/ProxyBlockSource	net/minecraft/class_2345
+net/minecraft/core/Cursor3D	net/minecraft/server/1_15_R1/CursorPosition	net/minecraft/util/math/CubeCoordinateIterator	net/minecraft/class_3980
+net/minecraft/core/DefaultedRegistry	net/minecraft/server/1_15_R1/RegistryBlocks	net/minecraft/util/registry/DefaultedRegistry	net/minecraft/class_2348
+net/minecraft/core/Direction	net/minecraft/server/1_15_R1/EnumDirection	net/minecraft/util/Direction	net/minecraft/class_2350
+net/minecraft/core/Direction$Axis	net/minecraft/server/1_15_R1/EnumDirection$EnumAxis	net/minecraft/util/Direction$Axis	net/minecraft/class_2350$class_2351
+net/minecraft/core/Direction$Axis$1		net/minecraft/util/Direction$Axis$1	net/minecraft/class_2350$class_2351$1
+net/minecraft/core/Direction$Axis$2		net/minecraft/util/Direction$Axis$2	net/minecraft/class_2350$class_2351$2
+net/minecraft/core/Direction$Axis$3		net/minecraft/util/Direction$Axis$3	net/minecraft/class_2350$class_2351$3
+net/minecraft/core/Direction$AxisDirection	net/minecraft/server/1_15_R1/EnumDirection$EnumAxisDirection	net/minecraft/util/Direction$AxisDirection	net/minecraft/class_2350$class_2352
+net/minecraft/core/Direction$Plane	net/minecraft/server/1_15_R1/EnumDirection$EnumDirectionLimit	net/minecraft/util/Direction$Plane	net/minecraft/class_2350$class_2353
+net/minecraft/core/Direction8	net/minecraft/server/1_15_R1/EnumDirection8	net/minecraft/util/Direction8	net/minecraft/class_2355
+net/minecraft/core/GlobalPos	net/minecraft/server/1_15_R1/GlobalPos	net/minecraft/util/math/GlobalPos	net/minecraft/class_4208
+net/minecraft/core/IdMap	net/minecraft/server/1_15_R1/Registry	net/minecraft/util/IObjectIntIterable	net/minecraft/class_2359
+net/minecraft/core/IdMapper	net/minecraft/server/1_15_R1/RegistryBlockID	net/minecraft/util/ObjectIntIdentityMap	net/minecraft/class_2361
+net/minecraft/core/LocatableSource	net/minecraft/server/1_15_R1/ILocationSource	net/minecraft/dispenser/ILocatableSource	net/minecraft/class_2364
+net/minecraft/core/Location	net/minecraft/server/1_15_R1/ISource	net/minecraft/dispenser/ILocation	net/minecraft/class_2365
+net/minecraft/core/MapFiller	net/minecraft/server/1_15_R1/MapGeneratorUtils	net/minecraft/util/MapPopulator	net/minecraft/class_2367
+net/minecraft/core/MappedRegistry	net/minecraft/server/1_15_R1/RegistryMaterials	net/minecraft/util/registry/SimpleRegistry	net/minecraft/class_2370
+net/minecraft/core/NonNullList	net/minecraft/server/1_15_R1/NonNullList	net/minecraft/util/NonNullList	net/minecraft/class_2371
+net/minecraft/core/Position	net/minecraft/server/1_15_R1/IPosition	net/minecraft/dispenser/IPosition	net/minecraft/class_2374
+net/minecraft/core/PositionImpl	net/minecraft/server/1_15_R1/Position	net/minecraft/dispenser/Position	net/minecraft/class_2376
+net/minecraft/core/Registry	net/minecraft/server/1_15_R1/IRegistry	net/minecraft/util/registry/Registry	net/minecraft/class_2378
+net/minecraft/core/Rotations	net/minecraft/server/1_15_R1/Vector3f	net/minecraft/util/math/Rotations	net/minecraft/class_2379
+net/minecraft/core/SectionPos	net/minecraft/server/1_15_R1/SectionPosition	net/minecraft/util/math/SectionPos	net/minecraft/class_4076
+net/minecraft/core/SectionPos$1		net/minecraft/util/math/SectionPos$1	net/minecraft/class_4076$1
+net/minecraft/core/SerializableLong	net/minecraft/server/1_15_R1/MinecraftSerializableLong	net/minecraft/util/LongSerializable	net/minecraft/class_4316
+net/minecraft/core/Vec3i	net/minecraft/server/1_15_R1/BaseBlockPosition	net/minecraft/util/math/Vec3i	net/minecraft/class_2382
+net/minecraft/core/WritableRegistry	net/minecraft/server/1_15_R1/IRegistryWritable	net/minecraft/util/registry/MutableRegistry	net/minecraft/class_2385
+net/minecraft/core/dispenser/AbstractProjectileDispenseBehavior	net/minecraft/server/1_15_R1/DispenseBehaviorProjectile	net/minecraft/dispenser/ProjectileDispenseBehavior	net/minecraft/class_2965
+net/minecraft/core/dispenser/BoatDispenseItemBehavior	net/minecraft/server/1_15_R1/DispenseBehaviorBoat	net/minecraft/dispenser/DispenseBoatBehavior	net/minecraft/class_2967
+net/minecraft/core/dispenser/DefaultDispenseItemBehavior	net/minecraft/server/1_15_R1/DispenseBehaviorItem	net/minecraft/dispenser/DefaultDispenseItemBehavior	net/minecraft/class_2347
+net/minecraft/core/dispenser/DispenseItemBehavior	net/minecraft/server/1_15_R1/IDispenseBehavior	net/minecraft/dispenser/IDispenseItemBehavior	net/minecraft/class_2357
+net/minecraft/core/dispenser/DispenseItemBehavior$1		net/minecraft/dispenser/IDispenseItemBehavior$1	net/minecraft/class_2357$1
+net/minecraft/core/dispenser/DispenseItemBehavior$10		net/minecraft/dispenser/IDispenseItemBehavior$10	net/minecraft/class_2357$2
+net/minecraft/core/dispenser/DispenseItemBehavior$11		net/minecraft/dispenser/IDispenseItemBehavior$11	net/minecraft/class_2357$3
+net/minecraft/core/dispenser/DispenseItemBehavior$12		net/minecraft/dispenser/IDispenseItemBehavior$12	net/minecraft/class_2357$4
+net/minecraft/core/dispenser/DispenseItemBehavior$13		net/minecraft/dispenser/IDispenseItemBehavior$13	net/minecraft/class_2357$5
+net/minecraft/core/dispenser/DispenseItemBehavior$14		net/minecraft/dispenser/IDispenseItemBehavior$14	net/minecraft/class_2357$6
+net/minecraft/core/dispenser/DispenseItemBehavior$15		net/minecraft/dispenser/IDispenseItemBehavior$15	net/minecraft/class_2357$7
+net/minecraft/core/dispenser/DispenseItemBehavior$16		net/minecraft/dispenser/IDispenseItemBehavior$16	net/minecraft/class_2357$8
+net/minecraft/core/dispenser/DispenseItemBehavior$17		net/minecraft/dispenser/IDispenseItemBehavior$17	net/minecraft/class_2357$9
+net/minecraft/core/dispenser/DispenseItemBehavior$18		net/minecraft/dispenser/IDispenseItemBehavior$18	net/minecraft/class_2357$10
+net/minecraft/core/dispenser/DispenseItemBehavior$19		net/minecraft/dispenser/IDispenseItemBehavior$19	net/minecraft/class_2357$11
+net/minecraft/core/dispenser/DispenseItemBehavior$2		net/minecraft/dispenser/IDispenseItemBehavior$2	net/minecraft/class_2357$12
+net/minecraft/core/dispenser/DispenseItemBehavior$20		net/minecraft/dispenser/IDispenseItemBehavior$20	net/minecraft/class_2357$13
+net/minecraft/core/dispenser/DispenseItemBehavior$21		net/minecraft/dispenser/IDispenseItemBehavior$21	net/minecraft/class_2357$14
+net/minecraft/core/dispenser/DispenseItemBehavior$22		net/minecraft/dispenser/IDispenseItemBehavior$22	net/minecraft/class_2357$15
+net/minecraft/core/dispenser/DispenseItemBehavior$3		net/minecraft/dispenser/IDispenseItemBehavior$3	net/minecraft/class_2357$16
+net/minecraft/core/dispenser/DispenseItemBehavior$4		net/minecraft/dispenser/IDispenseItemBehavior$4	net/minecraft/class_2357$17
+net/minecraft/core/dispenser/DispenseItemBehavior$5		net/minecraft/dispenser/IDispenseItemBehavior$5	net/minecraft/class_2357$18
+net/minecraft/core/dispenser/DispenseItemBehavior$6		net/minecraft/dispenser/IDispenseItemBehavior$6	net/minecraft/class_2357$19
+net/minecraft/core/dispenser/DispenseItemBehavior$7		net/minecraft/dispenser/IDispenseItemBehavior$7	net/minecraft/class_2357$20
+net/minecraft/core/dispenser/DispenseItemBehavior$7$1		net/minecraft/dispenser/IDispenseItemBehavior$7$1	net/minecraft/class_2357$20$1
+net/minecraft/core/dispenser/DispenseItemBehavior$8		net/minecraft/dispenser/IDispenseItemBehavior$8	net/minecraft/class_2357$21
+net/minecraft/core/dispenser/DispenseItemBehavior$8$1		net/minecraft/dispenser/IDispenseItemBehavior$8$1	net/minecraft/class_2357$21$1
+net/minecraft/core/dispenser/DispenseItemBehavior$9		net/minecraft/dispenser/IDispenseItemBehavior$9	net/minecraft/class_2357$22
+net/minecraft/core/dispenser/OptionalDispenseItemBehavior	net/minecraft/server/1_15_R1/DispenseBehaviorMaybe	net/minecraft/dispenser/OptionalDispenseBehavior	net/minecraft/class_2969
+net/minecraft/core/dispenser/ShulkerBoxDispenseBehavior	net/minecraft/server/1_15_R1/DispenseBehaviorShulkerBox	net/minecraft/dispenser/ShulkerBoxDispenseBehavior	net/minecraft/class_2970
+net/minecraft/core/particles/BlockParticleOption	net/minecraft/server/1_15_R1/ParticleParamBlock	net/minecraft/particles/BlockParticleData	net/minecraft/class_2388
+net/minecraft/core/particles/BlockParticleOption$1		net/minecraft/particles/BlockParticleData$1	net/minecraft/class_2388$1
+net/minecraft/core/particles/DustParticleOptions	net/minecraft/server/1_15_R1/ParticleParamRedstone	net/minecraft/particles/RedstoneParticleData	net/minecraft/class_2390
+net/minecraft/core/particles/DustParticleOptions$1		net/minecraft/particles/RedstoneParticleData$1	net/minecraft/class_2390$1
+net/minecraft/core/particles/ItemParticleOption	net/minecraft/server/1_15_R1/ParticleParamItem	net/minecraft/particles/ItemParticleData	net/minecraft/class_2392
+net/minecraft/core/particles/ItemParticleOption$1		net/minecraft/particles/ItemParticleData$1	net/minecraft/class_2392$1
+net/minecraft/core/particles/ParticleOptions	net/minecraft/server/1_15_R1/ParticleParam	net/minecraft/particles/IParticleData	net/minecraft/class_2394
+net/minecraft/core/particles/ParticleOptions$Deserializer		net/minecraft/particles/IParticleData$IDeserializer	net/minecraft/class_2394$class_2395
+net/minecraft/core/particles/ParticleType	net/minecraft/server/1_15_R1/Particle	net/minecraft/particles/ParticleType	net/minecraft/class_2396
+net/minecraft/core/particles/ParticleTypes	net/minecraft/server/1_15_R1/Particles	net/minecraft/particles/ParticleTypes	net/minecraft/class_2398
+net/minecraft/core/particles/SimpleParticleType	net/minecraft/server/1_15_R1/ParticleType	net/minecraft/particles/BasicParticleType	net/minecraft/class_2400
+net/minecraft/core/particles/SimpleParticleType$1		net/minecraft/particles/BasicParticleType$1	net/minecraft/class_2400$1
+net/minecraft/data/DataGenerator	net/minecraft/server/1_15_R1/DebugReportGenerator	net/minecraft/data/DataGenerator	net/minecraft/class_2403
+net/minecraft/data/DataProvider	net/minecraft/server/1_15_R1/DebugReportProvider	net/minecraft/data/IDataProvider	net/minecraft/class_2405
+net/minecraft/data/HashCache	net/minecraft/server/1_15_R1/HashCache	net/minecraft/data/DirectoryCache	net/minecraft/class_2408
+net/minecraft/data/Main		net/minecraft/data/Main	net/minecraft/data/Main
+net/minecraft/data/advancements/AdvancementProvider		net/minecraft/data/AdvancementProvider	net/minecraft/class_2409
+net/minecraft/data/advancements/AdventureAdvancements		net/minecraft/data/advancements/AdventureAdvancements	net/minecraft/class_2412
+net/minecraft/data/advancements/HusbandryAdvancements		net/minecraft/data/advancements/HusbandryAdvancements	net/minecraft/class_2414
+net/minecraft/data/advancements/NetherAdvancements		net/minecraft/data/advancements/NetherAdvancements	net/minecraft/class_2416
+net/minecraft/data/advancements/StoryAdvancements		net/minecraft/data/advancements/StoryAdvancements	net/minecraft/class_2417
+net/minecraft/data/advancements/TheEndAdvancements		net/minecraft/data/advancements/EndAdvancements	net/minecraft/class_2419
+net/minecraft/data/info/BlockListReport		net/minecraft/data/BlockListReport	net/minecraft/class_2422
+net/minecraft/data/info/CommandsReport		net/minecraft/data/CommandsReport	net/minecraft/class_2425
+net/minecraft/data/info/RegistryDumpReport		net/minecraft/data/RegistryDumpReport	net/minecraft/class_2427
+net/minecraft/data/loot/BlockLoot		net/minecraft/data/loot/BlockLootTables	net/minecraft/class_2430
+net/minecraft/data/loot/ChestLoot		net/minecraft/data/loot/ChestLootTables	net/minecraft/class_2432
+net/minecraft/data/loot/EntityLoot		net/minecraft/data/loot/EntityLootTables	net/minecraft/class_2434
+net/minecraft/data/loot/FishingLoot		net/minecraft/data/loot/FishingLootTables	net/minecraft/class_2437
+net/minecraft/data/loot/GiftLoot		net/minecraft/data/loot/GiftLootTables	net/minecraft/class_3714
+net/minecraft/data/loot/LootTableProvider		net/minecraft/data/LootTableProvider	net/minecraft/class_2438
+net/minecraft/data/recipes/FinishedRecipe		net/minecraft/data/IFinishedRecipe	net/minecraft/class_2444
+net/minecraft/data/recipes/RecipeProvider		net/minecraft/data/RecipeProvider	net/minecraft/class_2446
+net/minecraft/data/recipes/ShapedRecipeBuilder		net/minecraft/data/ShapedRecipeBuilder	net/minecraft/class_2447
+net/minecraft/data/recipes/ShapedRecipeBuilder$Result		net/minecraft/data/ShapedRecipeBuilder$Result	net/minecraft/class_2447$class_2448
+net/minecraft/data/recipes/ShapelessRecipeBuilder		net/minecraft/data/ShapelessRecipeBuilder	net/minecraft/class_2450
+net/minecraft/data/recipes/ShapelessRecipeBuilder$Result		net/minecraft/data/ShapelessRecipeBuilder$Result	net/minecraft/class_2450$class_2451
+net/minecraft/data/recipes/SimpleCookingRecipeBuilder		net/minecraft/data/CookingRecipeBuilder	net/minecraft/class_2454
+net/minecraft/data/recipes/SimpleCookingRecipeBuilder$Result		net/minecraft/data/CookingRecipeBuilder$Result	net/minecraft/class_2454$class_2455
+net/minecraft/data/recipes/SingleItemRecipeBuilder		net/minecraft/data/SingleItemRecipeBuilder	net/minecraft/class_3981
+net/minecraft/data/recipes/SingleItemRecipeBuilder$Result		net/minecraft/data/SingleItemRecipeBuilder$Result	net/minecraft/class_3981$class_3982
+net/minecraft/data/recipes/SpecialRecipeBuilder		net/minecraft/data/CustomRecipeBuilder	net/minecraft/class_2456
+net/minecraft/data/recipes/SpecialRecipeBuilder$1		net/minecraft/data/CustomRecipeBuilder$1	net/minecraft/class_2456$1
+net/minecraft/data/structures/NbtToSnbt	net/minecraft/server/1_15_R1/DebugReportNBT	net/minecraft/data/NBTToSNBTConverter	net/minecraft/class_2461
+net/minecraft/data/structures/SnbtToNbt		net/minecraft/data/SNBTToNBTConverter	net/minecraft/class_2463
+net/minecraft/data/structures/SnbtToNbt$Filter		net/minecraft/data/SNBTToNBTConverter$ITransformer	net/minecraft/class_2463$class_4460
+net/minecraft/data/structures/SnbtToNbt$TaskResult		net/minecraft/data/SNBTToNBTConverter$TaskResult	net/minecraft/class_2463$class_4511
+net/minecraft/data/structures/StructureUpdater		net/minecraft/data/StructureUpdater	net/minecraft/class_3843
+net/minecraft/data/tags/BlockTagsProvider		net/minecraft/data/BlockTagsProvider	net/minecraft/class_2466
+net/minecraft/data/tags/EntityTypeTagsProvider		net/minecraft/data/EntityTypeTagsProvider	net/minecraft/class_2467
+net/minecraft/data/tags/FluidTagsProvider		net/minecraft/data/FluidTagsProvider	net/minecraft/class_2469
+net/minecraft/data/tags/ItemTagsProvider		net/minecraft/data/ItemTagsProvider	net/minecraft/class_2471
+net/minecraft/data/tags/TagsProvider		net/minecraft/data/TagsProvider	net/minecraft/class_2474
+net/minecraft/gametest/framework/GameTestAssertException	net/minecraft/server/1_15_R1/GameTestHarnessAssertion	net/minecraft/test/TestRuntimeException	net/minecraft/class_4512
+net/minecraft/gametest/framework/GameTestAssertPosException	net/minecraft/server/1_15_R1/GameTestHarnessAssertionPosition	net/minecraft/test/TestBlockPosException	net/minecraft/class_4513
+net/minecraft/gametest/framework/GameTestBatch	net/minecraft/server/1_15_R1/GameTestHarnessBatch	net/minecraft/test/TestBatch	net/minecraft/class_4514
+net/minecraft/gametest/framework/GameTestBatchRunner	net/minecraft/server/1_15_R1/GameTestHarnessBatchRunner	net/minecraft/test/TestExecutor	net/minecraft/class_4515
+net/minecraft/gametest/framework/GameTestBatchRunner$1		net/minecraft/test/TestExecutor$1	net/minecraft/class_4515$1
+net/minecraft/gametest/framework/GameTestEvent	net/minecraft/server/1_15_R1/GameTestHarnessEvent	net/minecraft/test/TestTickResult	net/minecraft/class_4692
+net/minecraft/gametest/framework/GameTestHelper	net/minecraft/server/1_15_R1/GameTestHarnessHelper	net/minecraft/test/TestTrackerHolder	net/minecraft/class_4516
+net/minecraft/gametest/framework/GameTestInfo	net/minecraft/server/1_15_R1/GameTestHarnessInfo	net/minecraft/test/TestTracker	net/minecraft/class_4517
+net/minecraft/gametest/framework/GameTestListener	net/minecraft/server/1_15_R1/GameTestHarnessListener	net/minecraft/test/ITestCallback	net/minecraft/class_4518
+net/minecraft/gametest/framework/GameTestRegistry	net/minecraft/server/1_15_R1/GameTestHarnessRegistry	net/minecraft/test/TestRegistry	net/minecraft/class_4519
+net/minecraft/gametest/framework/GameTestRunner	net/minecraft/server/1_15_R1/GameTestHarnessRunner	net/minecraft/test/TestUtils	net/minecraft/class_4520
+net/minecraft/gametest/framework/GameTestRunner$1		net/minecraft/test/TestUtils$1	net/minecraft/class_4520$1
+net/minecraft/gametest/framework/GameTestSequence	net/minecraft/server/1_15_R1/GameTestHarnessSequence	net/minecraft/test/TestList	net/minecraft/class_4693
+net/minecraft/gametest/framework/GameTestTicker	net/minecraft/server/1_15_R1/GameTestHarnessTicker	net/minecraft/test/TestCollection	net/minecraft/class_4521
+net/minecraft/gametest/framework/GameTestTimeoutException	net/minecraft/server/1_15_R1/GameTestHarnessTimeout	net/minecraft/test/TestTimeoutException	net/minecraft/class_4522
+net/minecraft/gametest/framework/LogTestReporter	net/minecraft/server/1_15_R1/GameTestHarnessLogger	net/minecraft/test/TestLogger	net/minecraft/class_4523
+net/minecraft/gametest/framework/MultipleTestTracker	net/minecraft/server/1_15_R1/GameTestHarnessCollector	net/minecraft/test/TestResultList	net/minecraft/class_4524
+net/minecraft/gametest/framework/StructureUtils	net/minecraft/server/1_15_R1/GameTestHarnessStructures	net/minecraft/test/StructureHelper	net/minecraft/class_4525
+net/minecraft/gametest/framework/TestClassNameArgument	net/minecraft/server/1_15_R1/GameTestHarnessTestClassArgument	net/minecraft/test/TestTypeArgument	net/minecraft/class_4526
+net/minecraft/gametest/framework/TestCommand	net/minecraft/server/1_15_R1/GameTestHarnessTestCommand	net/minecraft/test/TestCommand	net/minecraft/class_4527
+net/minecraft/gametest/framework/TestCommand$TestSummaryDisplayer		net/minecraft/test/TestCommand$Callback	net/minecraft/class_4527$class_4528
+net/minecraft/gametest/framework/TestFunction	net/minecraft/server/1_15_R1/GameTestHarnessTestFunction	net/minecraft/test/TestFunctionInfo	net/minecraft/class_4529
+net/minecraft/gametest/framework/TestFunctionArgument	net/minecraft/server/1_15_R1/GameTestHarnessTestFunctionArgument	net/minecraft/test/TestArgArgument	net/minecraft/class_4530
+net/minecraft/gametest/framework/TestReporter	net/minecraft/server/1_15_R1/GameTestHarnessITestReporter	net/minecraft/test/ITestLogger	net/minecraft/class_4531
+net/minecraft/locale/Language	net/minecraft/server/1_15_R1/LocaleLanguage	net/minecraft/util/text/LanguageMap	net/minecraft/class_2477
+net/minecraft/nbt/ByteArrayTag	net/minecraft/server/1_15_R1/NBTTagByteArray	net/minecraft/nbt/ByteArrayNBT	net/minecraft/class_2479
+net/minecraft/nbt/ByteArrayTag$1		net/minecraft/nbt/ByteArrayNBT$1	net/minecraft/class_2479$1
+net/minecraft/nbt/ByteTag	net/minecraft/server/1_15_R1/NBTTagByte	net/minecraft/nbt/ByteNBT	net/minecraft/class_2481
+net/minecraft/nbt/ByteTag$1		net/minecraft/nbt/ByteNBT$1	net/minecraft/class_2481$1
+net/minecraft/nbt/ByteTag$Cache		net/minecraft/nbt/ByteNBT$Cache	net/minecraft/class_2481$class_4610
+net/minecraft/nbt/CollectionTag	net/minecraft/server/1_15_R1/NBTList	net/minecraft/nbt/CollectionNBT	net/minecraft/class_2483
+net/minecraft/nbt/CompoundTag	net/minecraft/server/1_15_R1/NBTTagCompound	net/minecraft/nbt/CompoundNBT	net/minecraft/class_2487
+net/minecraft/nbt/CompoundTag$1		net/minecraft/nbt/CompoundNBT$1	net/minecraft/class_2487$1
+net/minecraft/nbt/DoubleTag	net/minecraft/server/1_15_R1/NBTTagDouble	net/minecraft/nbt/DoubleNBT	net/minecraft/class_2489
+net/minecraft/nbt/DoubleTag$1		net/minecraft/nbt/DoubleNBT$1	net/minecraft/class_2489$1
+net/minecraft/nbt/EndTag	net/minecraft/server/1_15_R1/NBTTagEnd	net/minecraft/nbt/EndNBT	net/minecraft/class_2491
+net/minecraft/nbt/EndTag$1		net/minecraft/nbt/EndNBT$1	net/minecraft/class_2491$1
+net/minecraft/nbt/FloatTag	net/minecraft/server/1_15_R1/NBTTagFloat	net/minecraft/nbt/FloatNBT	net/minecraft/class_2494
+net/minecraft/nbt/FloatTag$1		net/minecraft/nbt/FloatNBT$1	net/minecraft/class_2494$1
+net/minecraft/nbt/IntArrayTag	net/minecraft/server/1_15_R1/NBTTagIntArray	net/minecraft/nbt/IntArrayNBT	net/minecraft/class_2495
+net/minecraft/nbt/IntArrayTag$1		net/minecraft/nbt/IntArrayNBT$1	net/minecraft/class_2495$1
+net/minecraft/nbt/IntTag	net/minecraft/server/1_15_R1/NBTTagInt	net/minecraft/nbt/IntNBT	net/minecraft/class_2497
+net/minecraft/nbt/IntTag$1		net/minecraft/nbt/IntNBT$1	net/minecraft/class_2497$1
+net/minecraft/nbt/IntTag$Cache		net/minecraft/nbt/IntNBT$Cache	net/minecraft/class_2497$class_4611
+net/minecraft/nbt/ListTag	net/minecraft/server/1_15_R1/NBTTagList	net/minecraft/nbt/ListNBT	net/minecraft/class_2499
+net/minecraft/nbt/ListTag$1		net/minecraft/nbt/ListNBT$1	net/minecraft/class_2499$1
+net/minecraft/nbt/LongArrayTag	net/minecraft/server/1_15_R1/NBTTagLongArray	net/minecraft/nbt/LongArrayNBT	net/minecraft/class_2501
+net/minecraft/nbt/LongArrayTag$1		net/minecraft/nbt/LongArrayNBT$1	net/minecraft/class_2501$1
+net/minecraft/nbt/LongTag	net/minecraft/server/1_15_R1/NBTTagLong	net/minecraft/nbt/LongNBT	net/minecraft/class_2503
+net/minecraft/nbt/LongTag$1		net/minecraft/nbt/LongNBT$1	net/minecraft/class_2503$1
+net/minecraft/nbt/LongTag$Cache		net/minecraft/nbt/LongNBT$Cache	net/minecraft/class_2503$class_4612
+net/minecraft/nbt/NbtAccounter	net/minecraft/server/1_15_R1/NBTReadLimiter	net/minecraft/nbt/NBTSizeTracker	net/minecraft/class_2505
+net/minecraft/nbt/NbtAccounter$1		net/minecraft/nbt/NBTSizeTracker$1	net/minecraft/class_2505$1
+net/minecraft/nbt/NbtIo	net/minecraft/server/1_15_R1/NBTCompressedStreamTools	net/minecraft/nbt/CompressedStreamTools	net/minecraft/class_2507
+net/minecraft/nbt/NbtOps	net/minecraft/server/1_15_R1/DynamicOpsNBT	net/minecraft/nbt/NBTDynamicOps	net/minecraft/class_2509
+net/minecraft/nbt/NbtUtils	net/minecraft/server/1_15_R1/GameProfileSerializer	net/minecraft/nbt/NBTUtil	net/minecraft/class_2512
+net/minecraft/nbt/NumericTag	net/minecraft/server/1_15_R1/NBTNumber	net/minecraft/nbt/NumberNBT	net/minecraft/class_2514
+net/minecraft/nbt/ShortTag	net/minecraft/server/1_15_R1/NBTTagShort	net/minecraft/nbt/ShortNBT	net/minecraft/class_2516
+net/minecraft/nbt/ShortTag$1		net/minecraft/nbt/ShortNBT$1	net/minecraft/class_2516$1
+net/minecraft/nbt/ShortTag$Cache		net/minecraft/nbt/ShortNBT$Cache	net/minecraft/class_2516$class_4613
+net/minecraft/nbt/StringTag	net/minecraft/server/1_15_R1/NBTTagString	net/minecraft/nbt/StringNBT	net/minecraft/class_2519
+net/minecraft/nbt/StringTag$1		net/minecraft/nbt/StringNBT$1	net/minecraft/class_2519$1
+net/minecraft/nbt/Tag	net/minecraft/server/1_15_R1/NBTBase	net/minecraft/nbt/INBT	net/minecraft/class_2520
+net/minecraft/nbt/TagParser	net/minecraft/server/1_15_R1/MojangsonParser	net/minecraft/nbt/JsonToNBT	net/minecraft/class_2522
+net/minecraft/nbt/TagType	net/minecraft/server/1_15_R1/NBTTagType	net/minecraft/nbt/INBTType	net/minecraft/class_4614
+net/minecraft/nbt/TagType$1		net/minecraft/nbt/INBTType$1	net/minecraft/class_4614$1
+net/minecraft/nbt/TagTypes	net/minecraft/server/1_15_R1/NBTTagTypes	net/minecraft/nbt/NBTTypes	net/minecraft/class_4615
+net/minecraft/network/CipherBase	net/minecraft/server/1_15_R1/PacketEncryptionHandler	net/minecraft/network/NettyEncryptionTranslator	net/minecraft/class_2524
+net/minecraft/network/CipherDecoder	net/minecraft/server/1_15_R1/PacketDecrypter	net/minecraft/network/NettyEncryptingDecoder	net/minecraft/class_2528
+net/minecraft/network/CipherEncoder	net/minecraft/server/1_15_R1/PacketEncrypter	net/minecraft/network/NettyEncryptingEncoder	net/minecraft/class_2529
+net/minecraft/network/CompressionDecoder	net/minecraft/server/1_15_R1/PacketDecompressor	net/minecraft/network/NettyCompressionDecoder	net/minecraft/class_2532
+net/minecraft/network/CompressionEncoder	net/minecraft/server/1_15_R1/PacketCompressor	net/minecraft/network/NettyCompressionEncoder	net/minecraft/class_2534
+net/minecraft/network/Connection	net/minecraft/server/1_15_R1/NetworkManager	net/minecraft/network/NetworkManager	net/minecraft/class_2535
+net/minecraft/network/Connection$PacketHolder	net/minecraft/server/1_15_R1/NetworkManager$QueuedPacket	net/minecraft/network/NetworkManager$QueuedPacket	net/minecraft/class_2535$class_2536
+net/minecraft/network/ConnectionProtocol	net/minecraft/server/1_15_R1/EnumProtocol	net/minecraft/network/ProtocolType	net/minecraft/class_2539
+net/minecraft/network/ConnectionProtocol$PacketSet		net/minecraft/network/ProtocolType$PacketList	net/minecraft/class_2539$class_4532
+net/minecraft/network/ConnectionProtocol$ProtocolBuilder		net/minecraft/network/ProtocolType$PacketRegistry	net/minecraft/class_2539$class_4533
+net/minecraft/network/FriendlyByteBuf	net/minecraft/server/1_15_R1/PacketDataSerializer	net/minecraft/network/PacketBuffer	net/minecraft/class_2540
+net/minecraft/network/PacketDecoder	net/minecraft/server/1_15_R1/PacketDecoder	net/minecraft/network/NettyPacketDecoder	net/minecraft/class_2543
+net/minecraft/network/PacketEncoder	net/minecraft/server/1_15_R1/PacketEncoder	net/minecraft/network/NettyPacketEncoder	net/minecraft/class_2545
+net/minecraft/network/PacketListener	net/minecraft/server/1_15_R1/PacketListener	net/minecraft/network/INetHandler	net/minecraft/class_2547
+net/minecraft/network/SkipPacketException	net/minecraft/server/1_15_R1/SkipEncodeException	net/minecraft/network/SkipableEncoderException	net/minecraft/class_2548
+net/minecraft/network/Varint21FrameDecoder	net/minecraft/server/1_15_R1/PacketSplitter	net/minecraft/network/NettyVarint21FrameDecoder	net/minecraft/class_2550
+net/minecraft/network/Varint21LengthFieldPrepender	net/minecraft/server/1_15_R1/PacketPrepender	net/minecraft/network/NettyVarint21FrameEncoder	net/minecraft/class_2552
+net/minecraft/network/chat/BaseComponent	net/minecraft/server/1_15_R1/ChatBaseComponent	net/minecraft/util/text/TextComponent	net/minecraft/class_2554
+net/minecraft/network/chat/ChatType	net/minecraft/server/1_15_R1/ChatMessageType	net/minecraft/util/text/ChatType	net/minecraft/class_2556
+net/minecraft/network/chat/ClickEvent	net/minecraft/server/1_15_R1/ChatClickable	net/minecraft/util/text/event/ClickEvent	net/minecraft/class_2558
+net/minecraft/network/chat/ClickEvent$Action	net/minecraft/server/1_15_R1/ChatClickable$EnumClickAction	net/minecraft/util/text/event/ClickEvent$Action	net/minecraft/class_2558$class_2559
+net/minecraft/network/chat/Component	net/minecraft/server/1_15_R1/IChatBaseComponent	net/minecraft/util/text/ITextComponent	net/minecraft/class_2561
+net/minecraft/network/chat/Component$Serializer	net/minecraft/server/1_15_R1/IChatBaseComponent$ChatSerializer	net/minecraft/util/text/ITextComponent$Serializer	net/minecraft/class_2561$class_2562
+net/minecraft/network/chat/ComponentUtils	net/minecraft/server/1_15_R1/ChatComponentUtils	net/minecraft/util/text/TextComponentUtils	net/minecraft/class_2564
+net/minecraft/network/chat/ContextAwareComponent	net/minecraft/server/1_15_R1/ChatComponentContextual	net/minecraft/util/text/ITargetedTextComponent	net/minecraft/class_2566
+net/minecraft/network/chat/HoverEvent	net/minecraft/server/1_15_R1/ChatHoverable	net/minecraft/util/text/event/HoverEvent	net/minecraft/class_2568
+net/minecraft/network/chat/HoverEvent$Action	net/minecraft/server/1_15_R1/ChatHoverable$EnumHoverAction	net/minecraft/util/text/event/HoverEvent$Action	net/minecraft/class_2568$class_2569
+net/minecraft/network/chat/KeybindComponent	net/minecraft/server/1_15_R1/ChatComponentKeybind	net/minecraft/util/text/KeybindTextComponent	net/minecraft/class_2572
+net/minecraft/network/chat/NbtComponent	net/minecraft/server/1_15_R1/ChatComponentNBT	net/minecraft/util/text/NBTTextComponent	net/minecraft/class_2574
+net/minecraft/network/chat/NbtComponent$BlockNbtComponent		net/minecraft/util/text/NBTTextComponent$Block	net/minecraft/class_2574$class_2575
+net/minecraft/network/chat/NbtComponent$EntityNbtComponent		net/minecraft/util/text/NBTTextComponent$Entity	net/minecraft/class_2574$class_2576
+net/minecraft/network/chat/NbtComponent$StorageNbtComponent		net/minecraft/util/text/NBTTextComponent$Storage	net/minecraft/class_2574$class_4616
+net/minecraft/network/chat/ScoreComponent	net/minecraft/server/1_15_R1/ChatComponentScore	net/minecraft/util/text/ScoreTextComponent	net/minecraft/class_2578
+net/minecraft/network/chat/SelectorComponent	net/minecraft/server/1_15_R1/ChatComponentSelector	net/minecraft/util/text/SelectorTextComponent	net/minecraft/class_2579
+net/minecraft/network/chat/Style	net/minecraft/server/1_15_R1/ChatModifier	net/minecraft/util/text/Style	net/minecraft/class_2583
+net/minecraft/network/chat/Style$1		net/minecraft/util/text/Style$1	net/minecraft/class_2583$1
+net/minecraft/network/chat/Style$Serializer	net/minecraft/server/1_15_R1/ChatModifier$ChatModifierSerializer	net/minecraft/util/text/Style$Serializer	net/minecraft/class_2583$class_2584
+net/minecraft/network/chat/TextComponent	net/minecraft/server/1_15_R1/ChatComponentText	net/minecraft/util/text/StringTextComponent	net/minecraft/class_2585
+net/minecraft/network/chat/TranslatableComponent	net/minecraft/server/1_15_R1/ChatMessage	net/minecraft/util/text/TranslationTextComponent	net/minecraft/class_2588
+net/minecraft/network/chat/TranslatableFormatException	net/minecraft/server/1_15_R1/ChatMessageException	net/minecraft/util/text/TranslationTextComponentFormatException	net/minecraft/class_2590
+net/minecraft/network/protocol/Packet	net/minecraft/server/1_15_R1/Packet	net/minecraft/network/IPacket	net/minecraft/class_2596
+net/minecraft/network/protocol/PacketFlow	net/minecraft/server/1_15_R1/EnumProtocolDirection	net/minecraft/network/PacketDirection	net/minecraft/class_2598
+net/minecraft/network/protocol/PacketUtils	net/minecraft/server/1_15_R1/PlayerConnectionUtils	net/minecraft/network/PacketThreadUtil	net/minecraft/class_2600
+net/minecraft/network/protocol/game/ClientGamePacketListener	net/minecraft/server/1_15_R1/PacketListenerPlayOut	net/minecraft/client/network/play/IClientPlayNetHandler	net/minecraft/class_2602
+net/minecraft/network/protocol/game/ClientboundAddEntityPacket	net/minecraft/server/1_15_R1/PacketPlayOutSpawnEntity	net/minecraft/network/play/server/SSpawnObjectPacket	net/minecraft/class_2604
+net/minecraft/network/protocol/game/ClientboundAddExperienceOrbPacket	net/minecraft/server/1_15_R1/PacketPlayOutSpawnEntityExperienceOrb	net/minecraft/network/play/server/SSpawnExperienceOrbPacket	net/minecraft/class_2606
+net/minecraft/network/protocol/game/ClientboundAddGlobalEntityPacket	net/minecraft/server/1_15_R1/PacketPlayOutSpawnEntityWeather	net/minecraft/network/play/server/SSpawnGlobalEntityPacket	net/minecraft/class_2607
+net/minecraft/network/protocol/game/ClientboundAddMobPacket	net/minecraft/server/1_15_R1/PacketPlayOutSpawnEntityLiving	net/minecraft/network/play/server/SSpawnMobPacket	net/minecraft/class_2610
+net/minecraft/network/protocol/game/ClientboundAddPaintingPacket	net/minecraft/server/1_15_R1/PacketPlayOutSpawnEntityPainting	net/minecraft/network/play/server/SSpawnPaintingPacket	net/minecraft/class_2612
+net/minecraft/network/protocol/game/ClientboundAddPlayerPacket	net/minecraft/server/1_15_R1/PacketPlayOutNamedEntitySpawn	net/minecraft/network/play/server/SSpawnPlayerPacket	net/minecraft/class_2613
+net/minecraft/network/protocol/game/ClientboundAnimatePacket	net/minecraft/server/1_15_R1/PacketPlayOutAnimation	net/minecraft/network/play/server/SAnimateHandPacket	net/minecraft/class_2616
+net/minecraft/network/protocol/game/ClientboundAwardStatsPacket	net/minecraft/server/1_15_R1/PacketPlayOutStatistic	net/minecraft/network/play/server/SStatisticsPacket	net/minecraft/class_2617
+net/minecraft/network/protocol/game/ClientboundBlockBreakAckPacket	net/minecraft/server/1_15_R1/PacketPlayOutBlockBreak	net/minecraft/network/play/server/SPlayerDiggingPacket	net/minecraft/class_4463
+net/minecraft/network/protocol/game/ClientboundBlockDestructionPacket	net/minecraft/server/1_15_R1/PacketPlayOutBlockBreakAnimation	net/minecraft/network/play/server/SAnimateBlockBreakPacket	net/minecraft/class_2620
+net/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket	net/minecraft/server/1_15_R1/PacketPlayOutTileEntityData	net/minecraft/network/play/server/SUpdateTileEntityPacket	net/minecraft/class_2622
+net/minecraft/network/protocol/game/ClientboundBlockEventPacket	net/minecraft/server/1_15_R1/PacketPlayOutBlockAction	net/minecraft/network/play/server/SBlockActionPacket	net/minecraft/class_2623
+net/minecraft/network/protocol/game/ClientboundBlockUpdatePacket	net/minecraft/server/1_15_R1/PacketPlayOutBlockChange	net/minecraft/network/play/server/SChangeBlockPacket	net/minecraft/class_2626
+net/minecraft/network/protocol/game/ClientboundBossEventPacket	net/minecraft/server/1_15_R1/PacketPlayOutBoss	net/minecraft/network/play/server/SUpdateBossInfoPacket	net/minecraft/class_2629
+net/minecraft/network/protocol/game/ClientboundBossEventPacket$Operation	net/minecraft/server/1_15_R1/PacketPlayOutBoss$Action	net/minecraft/network/play/server/SUpdateBossInfoPacket$Operation	net/minecraft/class_2629$class_2630
+net/minecraft/network/protocol/game/ClientboundChangeDifficultyPacket	net/minecraft/server/1_15_R1/PacketPlayOutServerDifficulty	net/minecraft/network/play/server/SServerDifficultyPacket	net/minecraft/class_2632
+net/minecraft/network/protocol/game/ClientboundChatPacket	net/minecraft/server/1_15_R1/PacketPlayOutChat	net/minecraft/network/play/server/SChatPacket	net/minecraft/class_2635
+net/minecraft/network/protocol/game/ClientboundChunkBlocksUpdatePacket	net/minecraft/server/1_15_R1/PacketPlayOutMultiBlockChange	net/minecraft/network/play/server/SMultiBlockChangePacket	net/minecraft/class_2637
+net/minecraft/network/protocol/game/ClientboundChunkBlocksUpdatePacket$BlockUpdate	net/minecraft/server/1_15_R1/PacketPlayOutMultiBlockChange$MultiBlockChangeInfo	net/minecraft/network/play/server/SMultiBlockChangePacket$UpdateData	net/minecraft/class_2637$class_2638
+net/minecraft/network/protocol/game/ClientboundCommandSuggestionsPacket	net/minecraft/server/1_15_R1/PacketPlayOutTabComplete	net/minecraft/network/play/server/STabCompletePacket	net/minecraft/class_2639
+net/minecraft/network/protocol/game/ClientboundCommandsPacket	net/minecraft/server/1_15_R1/PacketPlayOutCommands	net/minecraft/network/play/server/SCommandListPacket	net/minecraft/class_2641
+net/minecraft/network/protocol/game/ClientboundCommandsPacket$Entry		net/minecraft/network/play/server/SCommandListPacket$Entry	net/minecraft/class_2641$class_2642
+net/minecraft/network/protocol/game/ClientboundContainerAckPacket	net/minecraft/server/1_15_R1/PacketPlayOutTransaction	net/minecraft/network/play/server/SConfirmTransactionPacket	net/minecraft/class_2644
+net/minecraft/network/protocol/game/ClientboundContainerClosePacket	net/minecraft/server/1_15_R1/PacketPlayOutCloseWindow	net/minecraft/network/play/server/SCloseWindowPacket	net/minecraft/class_2645
+net/minecraft/network/protocol/game/ClientboundContainerSetContentPacket	net/minecraft/server/1_15_R1/PacketPlayOutWindowItems	net/minecraft/network/play/server/SWindowItemsPacket	net/minecraft/class_2649
+net/minecraft/network/protocol/game/ClientboundContainerSetDataPacket	net/minecraft/server/1_15_R1/PacketPlayOutWindowData	net/minecraft/network/play/server/SWindowPropertyPacket	net/minecraft/class_2651
+net/minecraft/network/protocol/game/ClientboundContainerSetSlotPacket	net/minecraft/server/1_15_R1/PacketPlayOutSetSlot	net/minecraft/network/play/server/SSetSlotPacket	net/minecraft/class_2653
+net/minecraft/network/protocol/game/ClientboundCooldownPacket	net/minecraft/server/1_15_R1/PacketPlayOutSetCooldown	net/minecraft/network/play/server/SCooldownPacket	net/minecraft/class_2656
+net/minecraft/network/protocol/game/ClientboundCustomPayloadPacket	net/minecraft/server/1_15_R1/PacketPlayOutCustomPayload	net/minecraft/network/play/server/SCustomPayloadPlayPacket	net/minecraft/class_2658
+net/minecraft/network/protocol/game/ClientboundCustomSoundPacket	net/minecraft/server/1_15_R1/PacketPlayOutCustomSoundEffect	net/minecraft/network/play/server/SPlaySoundPacket	net/minecraft/class_2660
+net/minecraft/network/protocol/game/ClientboundDisconnectPacket	net/minecraft/server/1_15_R1/PacketPlayOutKickDisconnect	net/minecraft/network/play/server/SDisconnectPacket	net/minecraft/class_2661
+net/minecraft/network/protocol/game/ClientboundEntityEventPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityStatus	net/minecraft/network/play/server/SEntityStatusPacket	net/minecraft/class_2663
+net/minecraft/network/protocol/game/ClientboundExplodePacket	net/minecraft/server/1_15_R1/PacketPlayOutExplosion	net/minecraft/network/play/server/SExplosionPacket	net/minecraft/class_2664
+net/minecraft/network/protocol/game/ClientboundForgetLevelChunkPacket	net/minecraft/server/1_15_R1/PacketPlayOutUnloadChunk	net/minecraft/network/play/server/SUnloadChunkPacket	net/minecraft/class_2666
+net/minecraft/network/protocol/game/ClientboundGameEventPacket	net/minecraft/server/1_15_R1/PacketPlayOutGameStateChange	net/minecraft/network/play/server/SChangeGameStatePacket	net/minecraft/class_2668
+net/minecraft/network/protocol/game/ClientboundHorseScreenOpenPacket	net/minecraft/server/1_15_R1/PacketPlayOutOpenWindowHorse	net/minecraft/network/play/server/SOpenHorseWindowPacket	net/minecraft/class_2648
+net/minecraft/network/protocol/game/ClientboundKeepAlivePacket	net/minecraft/server/1_15_R1/PacketPlayOutKeepAlive	net/minecraft/network/play/server/SKeepAlivePacket	net/minecraft/class_2670
+net/minecraft/network/protocol/game/ClientboundLevelChunkPacket	net/minecraft/server/1_15_R1/PacketPlayOutMapChunk	net/minecraft/network/play/server/SChunkDataPacket	net/minecraft/class_2672
+net/minecraft/network/protocol/game/ClientboundLevelEventPacket	net/minecraft/server/1_15_R1/PacketPlayOutWorldEvent	net/minecraft/network/play/server/SPlaySoundEventPacket	net/minecraft/class_2673
+net/minecraft/network/protocol/game/ClientboundLevelParticlesPacket	net/minecraft/server/1_15_R1/PacketPlayOutWorldParticles	net/minecraft/network/play/server/SSpawnParticlePacket	net/minecraft/class_2675
+net/minecraft/network/protocol/game/ClientboundLightUpdatePacket	net/minecraft/server/1_15_R1/PacketPlayOutLightUpdate	net/minecraft/network/play/server/SUpdateLightPacket	net/minecraft/class_2676
+net/minecraft/network/protocol/game/ClientboundLoginPacket	net/minecraft/server/1_15_R1/PacketPlayOutLogin	net/minecraft/network/play/server/SJoinGamePacket	net/minecraft/class_2678
+net/minecraft/network/protocol/game/ClientboundMapItemDataPacket	net/minecraft/server/1_15_R1/PacketPlayOutMap	net/minecraft/network/play/server/SMapDataPacket	net/minecraft/class_2683
+net/minecraft/network/protocol/game/ClientboundMerchantOffersPacket	net/minecraft/server/1_15_R1/PacketPlayOutOpenWindowMerchant	net/minecraft/network/play/server/SMerchantOffersPacket	net/minecraft/class_3943
+net/minecraft/network/protocol/game/ClientboundMoveEntityPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntity	net/minecraft/network/play/server/SEntityPacket	net/minecraft/class_2684
+net/minecraft/network/protocol/game/ClientboundMoveEntityPacket$Pos	net/minecraft/server/1_15_R1/PacketPlayOutEntity$PacketPlayOutRelEntityMove	net/minecraft/network/play/server/SEntityPacket$RelativeMovePacket	net/minecraft/class_2684$class_2685
+net/minecraft/network/protocol/game/ClientboundMoveEntityPacket$PosRot	net/minecraft/server/1_15_R1/PacketPlayOutEntity$PacketPlayOutRelEntityMoveLook	net/minecraft/network/play/server/SEntityPacket$MovePacket	net/minecraft/class_2684$class_2686
+net/minecraft/network/protocol/game/ClientboundMoveEntityPacket$Rot	net/minecraft/server/1_15_R1/PacketPlayOutEntity$PacketPlayOutEntityLook	net/minecraft/network/play/server/SEntityPacket$LookPacket	net/minecraft/class_2684$class_2687
+net/minecraft/network/protocol/game/ClientboundMoveVehiclePacket	net/minecraft/server/1_15_R1/PacketPlayOutVehicleMove	net/minecraft/network/play/server/SMoveVehiclePacket	net/minecraft/class_2692
+net/minecraft/network/protocol/game/ClientboundOpenBookPacket	net/minecraft/server/1_15_R1/PacketPlayOutOpenBook	net/minecraft/network/play/server/SOpenBookWindowPacket	net/minecraft/class_3895
+net/minecraft/network/protocol/game/ClientboundOpenScreenPacket	net/minecraft/server/1_15_R1/PacketPlayOutOpenWindow	net/minecraft/network/play/server/SOpenWindowPacket	net/minecraft/class_3944
+net/minecraft/network/protocol/game/ClientboundOpenSignEditorPacket	net/minecraft/server/1_15_R1/PacketPlayOutOpenSignEditor	net/minecraft/network/play/server/SOpenSignMenuPacket	net/minecraft/class_2693
+net/minecraft/network/protocol/game/ClientboundPlaceGhostRecipePacket	net/minecraft/server/1_15_R1/PacketPlayOutAutoRecipe	net/minecraft/network/play/server/SPlaceGhostRecipePacket	net/minecraft/class_2695
+net/minecraft/network/protocol/game/ClientboundPlayerAbilitiesPacket	net/minecraft/server/1_15_R1/PacketPlayOutAbilities	net/minecraft/network/play/server/SPlayerAbilitiesPacket	net/minecraft/class_2696
+net/minecraft/network/protocol/game/ClientboundPlayerCombatPacket	net/minecraft/server/1_15_R1/PacketPlayOutCombatEvent	net/minecraft/network/play/server/SCombatPacket	net/minecraft/class_2698
+net/minecraft/network/protocol/game/ClientboundPlayerCombatPacket$Event	net/minecraft/server/1_15_R1/PacketPlayOutCombatEvent$EnumCombatEventType	net/minecraft/network/play/server/SCombatPacket$Event	net/minecraft/class_2698$class_2699
+net/minecraft/network/protocol/game/ClientboundPlayerInfoPacket	net/minecraft/server/1_15_R1/PacketPlayOutPlayerInfo	net/minecraft/network/play/server/SPlayerListItemPacket	net/minecraft/class_2703
+net/minecraft/network/protocol/game/ClientboundPlayerInfoPacket$Action	net/minecraft/server/1_15_R1/PacketPlayOutPlayerInfo$EnumPlayerInfoAction	net/minecraft/network/play/server/SPlayerListItemPacket$Action	net/minecraft/class_2703$class_2704
+net/minecraft/network/protocol/game/ClientboundPlayerInfoPacket$PlayerUpdate	net/minecraft/server/1_15_R1/PacketPlayOutPlayerInfo$PlayerInfoData	net/minecraft/network/play/server/SPlayerListItemPacket$AddPlayerData	net/minecraft/class_2703$class_2705
+net/minecraft/network/protocol/game/ClientboundPlayerLookAtPacket	net/minecraft/server/1_15_R1/PacketPlayOutLookAt	net/minecraft/network/play/server/SPlayerLookPacket	net/minecraft/class_2707
+net/minecraft/network/protocol/game/ClientboundPlayerPositionPacket	net/minecraft/server/1_15_R1/PacketPlayOutPosition	net/minecraft/network/play/server/SPlayerPositionLookPacket	net/minecraft/class_2708
+net/minecraft/network/protocol/game/ClientboundPlayerPositionPacket$RelativeArgument	net/minecraft/server/1_15_R1/PacketPlayOutPosition$EnumPlayerTeleportFlags	net/minecraft/network/play/server/SPlayerPositionLookPacket$Flags	net/minecraft/class_2708$class_2709
+net/minecraft/network/protocol/game/ClientboundRecipePacket	net/minecraft/server/1_15_R1/PacketPlayOutRecipes	net/minecraft/network/play/server/SRecipeBookPacket	net/minecraft/class_2713
+net/minecraft/network/protocol/game/ClientboundRecipePacket$State	net/minecraft/server/1_15_R1/PacketPlayOutRecipes$Action	net/minecraft/network/play/server/SRecipeBookPacket$State	net/minecraft/class_2713$class_2714
+net/minecraft/network/protocol/game/ClientboundRemoveEntitiesPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityDestroy	net/minecraft/network/play/server/SDestroyEntitiesPacket	net/minecraft/class_2716
+net/minecraft/network/protocol/game/ClientboundRemoveMobEffectPacket	net/minecraft/server/1_15_R1/PacketPlayOutRemoveEntityEffect	net/minecraft/network/play/server/SRemoveEntityEffectPacket	net/minecraft/class_2718
+net/minecraft/network/protocol/game/ClientboundResourcePackPacket	net/minecraft/server/1_15_R1/PacketPlayOutResourcePackSend	net/minecraft/network/play/server/SSendResourcePackPacket	net/minecraft/class_2720
+net/minecraft/network/protocol/game/ClientboundRespawnPacket	net/minecraft/server/1_15_R1/PacketPlayOutRespawn	net/minecraft/network/play/server/SRespawnPacket	net/minecraft/class_2724
+net/minecraft/network/protocol/game/ClientboundRotateHeadPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityHeadRotation	net/minecraft/network/play/server/SEntityHeadLookPacket	net/minecraft/class_2726
+net/minecraft/network/protocol/game/ClientboundSelectAdvancementsTabPacket	net/minecraft/server/1_15_R1/PacketPlayOutSelectAdvancementTab	net/minecraft/network/play/server/SSelectAdvancementsTabPacket	net/minecraft/class_2729
+net/minecraft/network/protocol/game/ClientboundSetBorderPacket	net/minecraft/server/1_15_R1/PacketPlayOutWorldBorder	net/minecraft/network/play/server/SWorldBorderPacket	net/minecraft/class_2730
+net/minecraft/network/protocol/game/ClientboundSetBorderPacket$Type	net/minecraft/server/1_15_R1/PacketPlayOutWorldBorder$EnumWorldBorderAction	net/minecraft/network/play/server/SWorldBorderPacket$Action	net/minecraft/class_2730$class_2731
+net/minecraft/network/protocol/game/ClientboundSetCameraPacket	net/minecraft/server/1_15_R1/PacketPlayOutCamera	net/minecraft/network/play/server/SCameraPacket	net/minecraft/class_2734
+net/minecraft/network/protocol/game/ClientboundSetCarriedItemPacket	net/minecraft/server/1_15_R1/PacketPlayOutHeldItemSlot	net/minecraft/network/play/server/SHeldItemChangePacket	net/minecraft/class_2735
+net/minecraft/network/protocol/game/ClientboundSetChunkCacheCenterPacket	net/minecraft/server/1_15_R1/PacketPlayOutViewCentre	net/minecraft/network/play/server/SUpdateChunkPositionPacket	net/minecraft/class_4282
+net/minecraft/network/protocol/game/ClientboundSetChunkCacheRadiusPacket	net/minecraft/server/1_15_R1/PacketPlayOutViewDistance	net/minecraft/network/play/server/SUpdateViewDistancePacket	net/minecraft/class_4273
+net/minecraft/network/protocol/game/ClientboundSetDisplayObjectivePacket	net/minecraft/server/1_15_R1/PacketPlayOutScoreboardDisplayObjective	net/minecraft/network/play/server/SDisplayObjectivePacket	net/minecraft/class_2736
+net/minecraft/network/protocol/game/ClientboundSetEntityDataPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityMetadata	net/minecraft/network/play/server/SEntityMetadataPacket	net/minecraft/class_2739
+net/minecraft/network/protocol/game/ClientboundSetEntityLinkPacket	net/minecraft/server/1_15_R1/PacketPlayOutAttachEntity	net/minecraft/network/play/server/SMountEntityPacket	net/minecraft/class_2740
+net/minecraft/network/protocol/game/ClientboundSetEntityMotionPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityVelocity	net/minecraft/network/play/server/SEntityVelocityPacket	net/minecraft/class_2743
+net/minecraft/network/protocol/game/ClientboundSetEquippedItemPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityEquipment	net/minecraft/network/play/server/SEntityEquipmentPacket	net/minecraft/class_2744
+net/minecraft/network/protocol/game/ClientboundSetExperiencePacket	net/minecraft/server/1_15_R1/PacketPlayOutExperience	net/minecraft/network/play/server/SSetExperiencePacket	net/minecraft/class_2748
+net/minecraft/network/protocol/game/ClientboundSetHealthPacket	net/minecraft/server/1_15_R1/PacketPlayOutUpdateHealth	net/minecraft/network/play/server/SUpdateHealthPacket	net/minecraft/class_2749
+net/minecraft/network/protocol/game/ClientboundSetObjectivePacket	net/minecraft/server/1_15_R1/PacketPlayOutScoreboardObjective	net/minecraft/network/play/server/SScoreboardObjectivePacket	net/minecraft/class_2751
+net/minecraft/network/protocol/game/ClientboundSetPassengersPacket	net/minecraft/server/1_15_R1/PacketPlayOutMount	net/minecraft/network/play/server/SSetPassengersPacket	net/minecraft/class_2752
+net/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket	net/minecraft/server/1_15_R1/PacketPlayOutScoreboardTeam	net/minecraft/network/play/server/STeamsPacket	net/minecraft/class_2755
+net/minecraft/network/protocol/game/ClientboundSetScorePacket	net/minecraft/server/1_15_R1/PacketPlayOutScoreboardScore	net/minecraft/network/play/server/SUpdateScorePacket	net/minecraft/class_2757
+net/minecraft/network/protocol/game/ClientboundSetSpawnPositionPacket	net/minecraft/server/1_15_R1/PacketPlayOutSpawnPosition	net/minecraft/network/play/server/SSpawnPositionPacket	net/minecraft/class_2759
+net/minecraft/network/protocol/game/ClientboundSetTimePacket	net/minecraft/server/1_15_R1/PacketPlayOutUpdateTime	net/minecraft/network/play/server/SUpdateTimePacket	net/minecraft/class_2761
+net/minecraft/network/protocol/game/ClientboundSetTitlesPacket	net/minecraft/server/1_15_R1/PacketPlayOutTitle	net/minecraft/network/play/server/STitlePacket	net/minecraft/class_2762
+net/minecraft/network/protocol/game/ClientboundSetTitlesPacket$Type	net/minecraft/server/1_15_R1/PacketPlayOutTitle$EnumTitleAction	net/minecraft/network/play/server/STitlePacket$Type	net/minecraft/class_2762$class_2763
+net/minecraft/network/protocol/game/ClientboundSoundEntityPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntitySound	net/minecraft/network/play/server/SSpawnMovingSoundEffectPacket	net/minecraft/class_2765
+net/minecraft/network/protocol/game/ClientboundSoundPacket	net/minecraft/server/1_15_R1/PacketPlayOutNamedSoundEffect	net/minecraft/network/play/server/SPlaySoundEffectPacket	net/minecraft/class_2767
+net/minecraft/network/protocol/game/ClientboundStopSoundPacket	net/minecraft/server/1_15_R1/PacketPlayOutStopSound	net/minecraft/network/play/server/SStopSoundPacket	net/minecraft/class_2770
+net/minecraft/network/protocol/game/ClientboundTabListPacket	net/minecraft/server/1_15_R1/PacketPlayOutPlayerListHeaderFooter	net/minecraft/network/play/server/SPlayerListHeaderFooterPacket	net/minecraft/class_2772
+net/minecraft/network/protocol/game/ClientboundTagQueryPacket	net/minecraft/server/1_15_R1/PacketPlayOutNBTQuery	net/minecraft/network/play/server/SQueryNBTResponsePacket	net/minecraft/class_2774
+net/minecraft/network/protocol/game/ClientboundTakeItemEntityPacket	net/minecraft/server/1_15_R1/PacketPlayOutCollect	net/minecraft/network/play/server/SCollectItemPacket	net/minecraft/class_2775
+net/minecraft/network/protocol/game/ClientboundTeleportEntityPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityTeleport	net/minecraft/network/play/server/SEntityTeleportPacket	net/minecraft/class_2777
+net/minecraft/network/protocol/game/ClientboundUpdateAdvancementsPacket	net/minecraft/server/1_15_R1/PacketPlayOutAdvancements	net/minecraft/network/play/server/SAdvancementInfoPacket	net/minecraft/class_2779
+net/minecraft/network/protocol/game/ClientboundUpdateAttributesPacket	net/minecraft/server/1_15_R1/PacketPlayOutUpdateAttributes	net/minecraft/network/play/server/SEntityPropertiesPacket	net/minecraft/class_2781
+net/minecraft/network/protocol/game/ClientboundUpdateAttributesPacket$AttributeSnapshot	net/minecraft/server/1_15_R1/PacketPlayOutUpdateAttributes$AttributeSnapshot	net/minecraft/network/play/server/SEntityPropertiesPacket$Snapshot	net/minecraft/class_2781$class_2782
+net/minecraft/network/protocol/game/ClientboundUpdateMobEffectPacket	net/minecraft/server/1_15_R1/PacketPlayOutEntityEffect	net/minecraft/network/play/server/SPlayEntityEffectPacket	net/minecraft/class_2783
+net/minecraft/network/protocol/game/ClientboundUpdateRecipesPacket	net/minecraft/server/1_15_R1/PacketPlayOutRecipeUpdate	net/minecraft/network/play/server/SUpdateRecipesPacket	net/minecraft/class_2788
+net/minecraft/network/protocol/game/ClientboundUpdateTagsPacket	net/minecraft/server/1_15_R1/PacketPlayOutTags	net/minecraft/network/play/server/STagsListPacket	net/minecraft/class_2790
+net/minecraft/network/protocol/game/DebugPackets	net/minecraft/server/1_15_R1/PacketDebug	net/minecraft/network/DebugPacketSender	net/minecraft/class_4209
+net/minecraft/network/protocol/game/ServerGamePacketListener	net/minecraft/server/1_15_R1/PacketListenerPlayIn	net/minecraft/network/play/IServerPlayNetHandler	net/minecraft/class_2792
+net/minecraft/network/protocol/game/ServerboundAcceptTeleportationPacket	net/minecraft/server/1_15_R1/PacketPlayInTeleportAccept	net/minecraft/network/play/client/CConfirmTeleportPacket	net/minecraft/class_2793
+net/minecraft/network/protocol/game/ServerboundBlockEntityTagQuery	net/minecraft/server/1_15_R1/PacketPlayInTileNBTQuery	net/minecraft/network/play/client/CQueryTileEntityNBTPacket	net/minecraft/class_2795
+net/minecraft/network/protocol/game/ServerboundChangeDifficultyPacket	net/minecraft/server/1_15_R1/PacketPlayInDifficultyChange	net/minecraft/network/play/client/CSetDifficultyPacket	net/minecraft/class_4210
+net/minecraft/network/protocol/game/ServerboundChatPacket	net/minecraft/server/1_15_R1/PacketPlayInChat	net/minecraft/network/play/client/CChatMessagePacket	net/minecraft/class_2797
+net/minecraft/network/protocol/game/ServerboundClientCommandPacket	net/minecraft/server/1_15_R1/PacketPlayInClientCommand	net/minecraft/network/play/client/CClientStatusPacket	net/minecraft/class_2799
+net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action	net/minecraft/server/1_15_R1/PacketPlayInClientCommand$EnumClientCommand	net/minecraft/network/play/client/CClientStatusPacket$State	net/minecraft/class_2799$class_2800
+net/minecraft/network/protocol/game/ServerboundClientInformationPacket	net/minecraft/server/1_15_R1/PacketPlayInSettings	net/minecraft/network/play/client/CClientSettingsPacket	net/minecraft/class_2803
+net/minecraft/network/protocol/game/ServerboundCommandSuggestionPacket	net/minecraft/server/1_15_R1/PacketPlayInTabComplete	net/minecraft/network/play/client/CTabCompletePacket	net/minecraft/class_2805
+net/minecraft/network/protocol/game/ServerboundContainerAckPacket	net/minecraft/server/1_15_R1/PacketPlayInTransaction	net/minecraft/network/play/client/CConfirmTransactionPacket	net/minecraft/class_2809
+net/minecraft/network/protocol/game/ServerboundContainerButtonClickPacket	net/minecraft/server/1_15_R1/PacketPlayInEnchantItem	net/minecraft/network/play/client/CEnchantItemPacket	net/minecraft/class_2811
+net/minecraft/network/protocol/game/ServerboundContainerClickPacket	net/minecraft/server/1_15_R1/PacketPlayInWindowClick	net/minecraft/network/play/client/CClickWindowPacket	net/minecraft/class_2813
+net/minecraft/network/protocol/game/ServerboundContainerClosePacket	net/minecraft/server/1_15_R1/PacketPlayInCloseWindow	net/minecraft/network/play/client/CCloseWindowPacket	net/minecraft/class_2815
+net/minecraft/network/protocol/game/ServerboundCustomPayloadPacket	net/minecraft/server/1_15_R1/PacketPlayInCustomPayload	net/minecraft/network/play/client/CCustomPayloadPacket	net/minecraft/class_2817
+net/minecraft/network/protocol/game/ServerboundEditBookPacket	net/minecraft/server/1_15_R1/PacketPlayInBEdit	net/minecraft/network/play/client/CEditBookPacket	net/minecraft/class_2820
+net/minecraft/network/protocol/game/ServerboundEntityTagQuery	net/minecraft/server/1_15_R1/PacketPlayInEntityNBTQuery	net/minecraft/network/play/client/CQueryEntityNBTPacket	net/minecraft/class_2822
+net/minecraft/network/protocol/game/ServerboundInteractPacket	net/minecraft/server/1_15_R1/PacketPlayInUseEntity	net/minecraft/network/play/client/CUseEntityPacket	net/minecraft/class_2824
+net/minecraft/network/protocol/game/ServerboundInteractPacket$Action	net/minecraft/server/1_15_R1/PacketPlayInUseEntity$EnumEntityUseAction	net/minecraft/network/play/client/CUseEntityPacket$Action	net/minecraft/class_2824$class_2825
+net/minecraft/network/protocol/game/ServerboundKeepAlivePacket	net/minecraft/server/1_15_R1/PacketPlayInKeepAlive	net/minecraft/network/play/client/CKeepAlivePacket	net/minecraft/class_2827
+net/minecraft/network/protocol/game/ServerboundLockDifficultyPacket	net/minecraft/server/1_15_R1/PacketPlayInDifficultyLock	net/minecraft/network/play/client/CLockDifficultyPacket	net/minecraft/class_4211
+net/minecraft/network/protocol/game/ServerboundMovePlayerPacket	net/minecraft/server/1_15_R1/PacketPlayInFlying	net/minecraft/network/play/client/CPlayerPacket	net/minecraft/class_2828
+net/minecraft/network/protocol/game/ServerboundMovePlayerPacket$Pos	net/minecraft/server/1_15_R1/PacketPlayInFlying$PacketPlayInPosition	net/minecraft/network/play/client/CPlayerPacket$PositionPacket	net/minecraft/class_2828$class_2829
+net/minecraft/network/protocol/game/ServerboundMovePlayerPacket$PosRot	net/minecraft/server/1_15_R1/PacketPlayInFlying$PacketPlayInPositionLook	net/minecraft/network/play/client/CPlayerPacket$PositionRotationPacket	net/minecraft/class_2828$class_2830
+net/minecraft/network/protocol/game/ServerboundMovePlayerPacket$Rot	net/minecraft/server/1_15_R1/PacketPlayInFlying$PacketPlayInLook	net/minecraft/network/play/client/CPlayerPacket$RotationPacket	net/minecraft/class_2828$class_2831
+net/minecraft/network/protocol/game/ServerboundMoveVehiclePacket	net/minecraft/server/1_15_R1/PacketPlayInVehicleMove	net/minecraft/network/play/client/CMoveVehiclePacket	net/minecraft/class_2833
+net/minecraft/network/protocol/game/ServerboundPaddleBoatPacket	net/minecraft/server/1_15_R1/PacketPlayInBoatMove	net/minecraft/network/play/client/CSteerBoatPacket	net/minecraft/class_2836
+net/minecraft/network/protocol/game/ServerboundPickItemPacket	net/minecraft/server/1_15_R1/PacketPlayInPickItem	net/minecraft/network/play/client/CPickItemPacket	net/minecraft/class_2838
+net/minecraft/network/protocol/game/ServerboundPlaceRecipePacket	net/minecraft/server/1_15_R1/PacketPlayInAutoRecipe	net/minecraft/network/play/client/CPlaceRecipePacket	net/minecraft/class_2840
+net/minecraft/network/protocol/game/ServerboundPlayerAbilitiesPacket	net/minecraft/server/1_15_R1/PacketPlayInAbilities	net/minecraft/network/play/client/CPlayerAbilitiesPacket	net/minecraft/class_2842
+net/minecraft/network/protocol/game/ServerboundPlayerActionPacket	net/minecraft/server/1_15_R1/PacketPlayInBlockDig	net/minecraft/network/play/client/CPlayerDiggingPacket	net/minecraft/class_2846
+net/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action	net/minecraft/server/1_15_R1/PacketPlayInBlockDig$EnumPlayerDigType	net/minecraft/network/play/client/CPlayerDiggingPacket$Action	net/minecraft/class_2846$class_2847
+net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket	net/minecraft/server/1_15_R1/PacketPlayInEntityAction	net/minecraft/network/play/client/CEntityActionPacket	net/minecraft/class_2848
+net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action	net/minecraft/server/1_15_R1/PacketPlayInEntityAction$EnumPlayerAction	net/minecraft/network/play/client/CEntityActionPacket$Action	net/minecraft/class_2848$class_2849
+net/minecraft/network/protocol/game/ServerboundPlayerInputPacket	net/minecraft/server/1_15_R1/PacketPlayInSteerVehicle	net/minecraft/network/play/client/CInputPacket	net/minecraft/class_2851
+net/minecraft/network/protocol/game/ServerboundRecipeBookUpdatePacket	net/minecraft/server/1_15_R1/PacketPlayInRecipeDisplayed	net/minecraft/network/play/client/CRecipeInfoPacket	net/minecraft/class_2853
+net/minecraft/network/protocol/game/ServerboundRecipeBookUpdatePacket$Purpose	net/minecraft/server/1_15_R1/PacketPlayInRecipeDisplayed$Status	net/minecraft/network/play/client/CRecipeInfoPacket$Purpose	net/minecraft/class_2853$class_2854
+net/minecraft/network/protocol/game/ServerboundRenameItemPacket	net/minecraft/server/1_15_R1/PacketPlayInItemName	net/minecraft/network/play/client/CRenameItemPacket	net/minecraft/class_2855
+net/minecraft/network/protocol/game/ServerboundResourcePackPacket	net/minecraft/server/1_15_R1/PacketPlayInResourcePackStatus	net/minecraft/network/play/client/CResourcePackStatusPacket	net/minecraft/class_2856
+net/minecraft/network/protocol/game/ServerboundResourcePackPacket$Action	net/minecraft/server/1_15_R1/PacketPlayInResourcePackStatus$EnumResourcePackStatus	net/minecraft/network/play/client/CResourcePackStatusPacket$Action	net/minecraft/class_2856$class_2857
+net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket	net/minecraft/server/1_15_R1/PacketPlayInAdvancements	net/minecraft/network/play/client/CSeenAdvancementsPacket	net/minecraft/class_2859
+net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action	net/minecraft/server/1_15_R1/PacketPlayInAdvancements$Status	net/minecraft/network/play/client/CSeenAdvancementsPacket$Action	net/minecraft/class_2859$class_2860
+net/minecraft/network/protocol/game/ServerboundSelectTradePacket	net/minecraft/server/1_15_R1/PacketPlayInTrSel	net/minecraft/network/play/client/CSelectTradePacket	net/minecraft/class_2863
+net/minecraft/network/protocol/game/ServerboundSetBeaconPacket	net/minecraft/server/1_15_R1/PacketPlayInBeacon	net/minecraft/network/play/client/CUpdateBeaconPacket	net/minecraft/class_2866
+net/minecraft/network/protocol/game/ServerboundSetCarriedItemPacket	net/minecraft/server/1_15_R1/PacketPlayInHeldItemSlot	net/minecraft/network/play/client/CHeldItemChangePacket	net/minecraft/class_2868
+net/minecraft/network/protocol/game/ServerboundSetCommandBlockPacket	net/minecraft/server/1_15_R1/PacketPlayInSetCommandBlock	net/minecraft/network/play/client/CUpdateCommandBlockPacket	net/minecraft/class_2870
+net/minecraft/network/protocol/game/ServerboundSetCommandMinecartPacket	net/minecraft/server/1_15_R1/PacketPlayInSetCommandMinecart	net/minecraft/network/play/client/CUpdateMinecartCommandBlockPacket	net/minecraft/class_2871
+net/minecraft/network/protocol/game/ServerboundSetCreativeModeSlotPacket	net/minecraft/server/1_15_R1/PacketPlayInSetCreativeSlot	net/minecraft/network/play/client/CCreativeInventoryActionPacket	net/minecraft/class_2873
+net/minecraft/network/protocol/game/ServerboundSetJigsawBlockPacket	net/minecraft/server/1_15_R1/PacketPlayInSetJigsaw	net/minecraft/network/play/client/CUpdateJigsawBlockPacket	net/minecraft/class_3753
+net/minecraft/network/protocol/game/ServerboundSetStructureBlockPacket	net/minecraft/server/1_15_R1/PacketPlayInStruct	net/minecraft/network/play/client/CUpdateStructureBlockPacket	net/minecraft/class_2875
+net/minecraft/network/protocol/game/ServerboundSignUpdatePacket	net/minecraft/server/1_15_R1/PacketPlayInUpdateSign	net/minecraft/network/play/client/CUpdateSignPacket	net/minecraft/class_2877
+net/minecraft/network/protocol/game/ServerboundSwingPacket	net/minecraft/server/1_15_R1/PacketPlayInArmAnimation	net/minecraft/network/play/client/CAnimateHandPacket	net/minecraft/class_2879
+net/minecraft/network/protocol/game/ServerboundTeleportToEntityPacket	net/minecraft/server/1_15_R1/PacketPlayInSpectate	net/minecraft/network/play/client/CSpectatePacket	net/minecraft/class_2884
+net/minecraft/network/protocol/game/ServerboundUseItemOnPacket	net/minecraft/server/1_15_R1/PacketPlayInUseItem	net/minecraft/network/play/client/CPlayerTryUseItemOnBlockPacket	net/minecraft/class_2885
+net/minecraft/network/protocol/game/ServerboundUseItemPacket	net/minecraft/server/1_15_R1/PacketPlayInBlockPlace	net/minecraft/network/play/client/CPlayerTryUseItemPacket	net/minecraft/class_2886
+net/minecraft/network/protocol/handshake/ClientIntentionPacket	net/minecraft/server/1_15_R1/PacketHandshakingInSetProtocol	net/minecraft/network/handshake/client/CHandshakePacket	net/minecraft/class_2889
+net/minecraft/network/protocol/handshake/ServerHandshakePacketListener	net/minecraft/server/1_15_R1/PacketHandshakingInListener	net/minecraft/network/handshake/IHandshakeNetHandler	net/minecraft/class_2890
+net/minecraft/network/protocol/login/ClientLoginPacketListener	net/minecraft/server/1_15_R1/PacketLoginOutListener	net/minecraft/client/network/login/IClientLoginNetHandler	net/minecraft/class_2896
+net/minecraft/network/protocol/login/ClientboundCustomQueryPacket	net/minecraft/server/1_15_R1/PacketLoginOutCustomPayload	net/minecraft/network/login/server/SCustomPayloadLoginPacket	net/minecraft/class_2899
+net/minecraft/network/protocol/login/ClientboundGameProfilePacket	net/minecraft/server/1_15_R1/PacketLoginOutSuccess	net/minecraft/network/login/server/SLoginSuccessPacket	net/minecraft/class_2901
+net/minecraft/network/protocol/login/ClientboundHelloPacket	net/minecraft/server/1_15_R1/PacketLoginOutEncryptionBegin	net/minecraft/network/login/server/SEncryptionRequestPacket	net/minecraft/class_2905
+net/minecraft/network/protocol/login/ClientboundLoginCompressionPacket	net/minecraft/server/1_15_R1/PacketLoginOutSetCompression	net/minecraft/network/login/server/SEnableCompressionPacket	net/minecraft/class_2907
+net/minecraft/network/protocol/login/ClientboundLoginDisconnectPacket	net/minecraft/server/1_15_R1/PacketLoginOutDisconnect	net/minecraft/network/login/server/SDisconnectLoginPacket	net/minecraft/class_2909
+net/minecraft/network/protocol/login/ServerLoginPacketListener	net/minecraft/server/1_15_R1/PacketLoginInListener	net/minecraft/network/login/IServerLoginNetHandler	net/minecraft/class_2911
+net/minecraft/network/protocol/login/ServerboundCustomQueryPacket	net/minecraft/server/1_15_R1/PacketLoginInCustomPayload	net/minecraft/network/login/client/CCustomPayloadLoginPacket	net/minecraft/class_2913
+net/minecraft/network/protocol/login/ServerboundHelloPacket	net/minecraft/server/1_15_R1/PacketLoginInStart	net/minecraft/network/login/client/CLoginStartPacket	net/minecraft/class_2915
+net/minecraft/network/protocol/login/ServerboundKeyPacket	net/minecraft/server/1_15_R1/PacketLoginInEncryptionBegin	net/minecraft/network/login/client/CEncryptionResponsePacket	net/minecraft/class_2917
+net/minecraft/network/protocol/status/ClientStatusPacketListener	net/minecraft/server/1_15_R1/PacketStatusOutListener	net/minecraft/client/network/status/IClientStatusNetHandler	net/minecraft/class_2921
+net/minecraft/network/protocol/status/ClientboundPongResponsePacket	net/minecraft/server/1_15_R1/PacketStatusOutPong	net/minecraft/network/status/server/SPongPacket	net/minecraft/class_2923
+net/minecraft/network/protocol/status/ClientboundStatusResponsePacket	net/minecraft/server/1_15_R1/PacketStatusOutServerInfo	net/minecraft/network/status/server/SServerInfoPacket	net/minecraft/class_2924
+net/minecraft/network/protocol/status/ServerStatus	net/minecraft/server/1_15_R1/ServerPing	net/minecraft/network/ServerStatusResponse	net/minecraft/class_2926
+net/minecraft/network/protocol/status/ServerStatus$Players	net/minecraft/server/1_15_R1/ServerPing$ServerPingPlayerSample	net/minecraft/network/ServerStatusResponse$Players	net/minecraft/class_2926$class_2927
+net/minecraft/network/protocol/status/ServerStatus$Players$Serializer	net/minecraft/server/1_15_R1/ServerPing$ServerPingPlayerSample$Serializer	net/minecraft/network/ServerStatusResponse$Players$Serializer	net/minecraft/class_2926$class_2927$class_2928
+net/minecraft/network/protocol/status/ServerStatus$Serializer	net/minecraft/server/1_15_R1/ServerPing$Serializer	net/minecraft/network/ServerStatusResponse$Serializer	net/minecraft/class_2926$class_2929
+net/minecraft/network/protocol/status/ServerStatus$Version	net/minecraft/server/1_15_R1/ServerPing$ServerData	net/minecraft/network/ServerStatusResponse$Version	net/minecraft/class_2926$class_2930
+net/minecraft/network/protocol/status/ServerStatus$Version$Serializer	net/minecraft/server/1_15_R1/ServerPing$ServerData$Serializer	net/minecraft/network/ServerStatusResponse$Version$Serializer	net/minecraft/class_2926$class_2930$class_2931
+net/minecraft/network/protocol/status/ServerStatusPacketListener	net/minecraft/server/1_15_R1/PacketStatusInListener	net/minecraft/network/status/IServerStatusNetHandler	net/minecraft/class_2933
+net/minecraft/network/protocol/status/ServerboundPingRequestPacket	net/minecraft/server/1_15_R1/PacketStatusInPing	net/minecraft/network/status/client/CPingPacket	net/minecraft/class_2935
+net/minecraft/network/protocol/status/ServerboundStatusRequestPacket	net/minecraft/server/1_15_R1/PacketStatusInStart	net/minecraft/network/status/client/CServerQueryPacket	net/minecraft/class_2937
+net/minecraft/network/syncher/EntityDataAccessor	net/minecraft/server/1_15_R1/DataWatcherObject	net/minecraft/network/datasync/DataParameter	net/minecraft/class_2940
+net/minecraft/network/syncher/EntityDataSerializer	net/minecraft/server/1_15_R1/DataWatcherSerializer	net/minecraft/network/datasync/IDataSerializer	net/minecraft/class_2941
+net/minecraft/network/syncher/EntityDataSerializers	net/minecraft/server/1_15_R1/DataWatcherRegistry	net/minecraft/network/datasync/DataSerializers	net/minecraft/class_2943
+net/minecraft/network/syncher/EntityDataSerializers$1		net/minecraft/network/datasync/DataSerializers$1	net/minecraft/class_2943$1
+net/minecraft/network/syncher/EntityDataSerializers$10		net/minecraft/network/datasync/DataSerializers$10	net/minecraft/class_2943$2
+net/minecraft/network/syncher/EntityDataSerializers$11		net/minecraft/network/datasync/DataSerializers$11	net/minecraft/class_2943$3
+net/minecraft/network/syncher/EntityDataSerializers$12		net/minecraft/network/datasync/DataSerializers$12	net/minecraft/class_2943$4
+net/minecraft/network/syncher/EntityDataSerializers$13		net/minecraft/network/datasync/DataSerializers$13	net/minecraft/class_2943$5
+net/minecraft/network/syncher/EntityDataSerializers$14		net/minecraft/network/datasync/DataSerializers$14	net/minecraft/class_2943$6
+net/minecraft/network/syncher/EntityDataSerializers$15		net/minecraft/network/datasync/DataSerializers$15	net/minecraft/class_2943$7
+net/minecraft/network/syncher/EntityDataSerializers$16		net/minecraft/network/datasync/DataSerializers$16	net/minecraft/class_2943$8
+net/minecraft/network/syncher/EntityDataSerializers$17		net/minecraft/network/datasync/DataSerializers$17	net/minecraft/class_2943$9
+net/minecraft/network/syncher/EntityDataSerializers$18		net/minecraft/network/datasync/DataSerializers$18	net/minecraft/class_2943$10
+net/minecraft/network/syncher/EntityDataSerializers$19		net/minecraft/network/datasync/DataSerializers$19	net/minecraft/class_2943$11
+net/minecraft/network/syncher/EntityDataSerializers$2		net/minecraft/network/datasync/DataSerializers$2	net/minecraft/class_2943$12
+net/minecraft/network/syncher/EntityDataSerializers$3		net/minecraft/network/datasync/DataSerializers$3	net/minecraft/class_2943$13
+net/minecraft/network/syncher/EntityDataSerializers$4		net/minecraft/network/datasync/DataSerializers$4	net/minecraft/class_2943$14
+net/minecraft/network/syncher/EntityDataSerializers$5		net/minecraft/network/datasync/DataSerializers$5	net/minecraft/class_2943$15
+net/minecraft/network/syncher/EntityDataSerializers$6		net/minecraft/network/datasync/DataSerializers$6	net/minecraft/class_2943$16
+net/minecraft/network/syncher/EntityDataSerializers$7		net/minecraft/network/datasync/DataSerializers$7	net/minecraft/class_2943$17
+net/minecraft/network/syncher/EntityDataSerializers$8		net/minecraft/network/datasync/DataSerializers$8	net/minecraft/class_2943$18
+net/minecraft/network/syncher/EntityDataSerializers$9		net/minecraft/network/datasync/DataSerializers$9	net/minecraft/class_2943$19
+net/minecraft/network/syncher/SynchedEntityData	net/minecraft/server/1_15_R1/DataWatcher	net/minecraft/network/datasync/EntityDataManager	net/minecraft/class_2945
+net/minecraft/network/syncher/SynchedEntityData$DataItem	net/minecraft/server/1_15_R1/DataWatcher$Item	net/minecraft/network/datasync/EntityDataManager$DataEntry	net/minecraft/class_2945$class_2946
+net/minecraft/recipebook/PlaceRecipe	net/minecraft/server/1_15_R1/AutoRecipeAbstract	net/minecraft/item/crafting/IRecipePlacer	net/minecraft/class_2952
+net/minecraft/recipebook/ServerPlaceRecipe	net/minecraft/server/1_15_R1/AutoRecipe	net/minecraft/item/crafting/ServerRecipePlacer	net/minecraft/class_2955
+net/minecraft/recipebook/ServerPlaceSmeltingRecipe	net/minecraft/server/1_15_R1/AutoRecipeFurnace	net/minecraft/item/crafting/ServerRecipePlacerFurnace	net/minecraft/class_2958
+net/minecraft/resources/ResourceLocation	net/minecraft/server/1_15_R1/MinecraftKey	net/minecraft/util/ResourceLocation	net/minecraft/class_2960
+net/minecraft/resources/ResourceLocation$Serializer		net/minecraft/util/ResourceLocation$Serializer	net/minecraft/class_2960$class_2961
+net/minecraft/server/Bootstrap	net/minecraft/server/1_15_R1/DispenserRegistry	net/minecraft/util/registry/Bootstrap	net/minecraft/class_2966
+net/minecraft/server/ConsoleInput	net/minecraft/server/1_15_R1/ServerCommand	net/minecraft/server/dedicated/PendingCommand	net/minecraft/class_2976
+net/minecraft/server/DebugLoggedPrintStream	net/minecraft/server/1_15_R1/DebugOutputStream	net/minecraft/server/DebugLoggingPrintStream	net/minecraft/class_2980
+net/minecraft/server/Eula	net/minecraft/server/1_15_R1/EULA	net/minecraft/server/ServerEula	net/minecraft/class_2981
+net/minecraft/server/LoggedPrintStream	net/minecraft/server/1_15_R1/RedirectStream	net/minecraft/util/LoggingPrintStream	net/minecraft/class_2983
+net/minecraft/server/MinecraftServer		net/minecraft/server/MinecraftServer	net/minecraft/server/MinecraftServer
+net/minecraft/server/MinecraftServer$1		net/minecraft/server/MinecraftServer$1	net/minecraft/server/MinecraftServer$1
+net/minecraft/server/MinecraftServer$2		net/minecraft/server/MinecraftServer$2	net/minecraft/server/MinecraftServer$2
+net/minecraft/server/MinecraftServer$3		net/minecraft/server/MinecraftServer$3	net/minecraft/server/MinecraftServer$3
+net/minecraft/server/PlayerAdvancements	net/minecraft/server/1_15_R1/AdvancementDataPlayer	net/minecraft/advancements/PlayerAdvancements	net/minecraft/class_2985
+net/minecraft/server/PlayerAdvancements$1		net/minecraft/advancements/PlayerAdvancements$1	net/minecraft/class_2985$1
+net/minecraft/server/RunningOnDifferentThreadException	net/minecraft/server/1_15_R1/CancelledPacketHandleException	net/minecraft/network/ThreadQuickExitException	net/minecraft/class_2987
+net/minecraft/server/ServerAdvancementManager	net/minecraft/server/1_15_R1/AdvancementDataWorld	net/minecraft/advancements/AdvancementManager	net/minecraft/class_2989
+net/minecraft/server/ServerFunctionManager	net/minecraft/server/1_15_R1/CustomFunctionData	net/minecraft/advancements/FunctionManager	net/minecraft/class_2991
+net/minecraft/server/ServerFunctionManager$QueuedCommand		net/minecraft/advancements/FunctionManager$QueuedCommand	net/minecraft/class_2991$class_2992
+net/minecraft/server/ServerInterface	net/minecraft/server/1_15_R1/IMinecraftServer	net/minecraft/network/rcon/IServer	net/minecraft/class_2994
+net/minecraft/server/ServerScoreboard	net/minecraft/server/1_15_R1/ScoreboardServer	net/minecraft/scoreboard/ServerScoreboard	net/minecraft/class_2995
+net/minecraft/server/ServerScoreboard$Method	net/minecraft/server/1_15_R1/ScoreboardServer$Action	net/minecraft/scoreboard/ServerScoreboard$Action	net/minecraft/class_2995$class_2996
+net/minecraft/server/TickTask	net/minecraft/server/1_15_R1/TickTask	net/minecraft/util/concurrent/TickDelayedTask	net/minecraft/class_3738
+net/minecraft/server/bossevents/CustomBossEvent	net/minecraft/server/1_15_R1/BossBattleCustom	net/minecraft/server/CustomServerBossInfo	net/minecraft/class_3002
+net/minecraft/server/bossevents/CustomBossEvents	net/minecraft/server/1_15_R1/BossBattleCustomData	net/minecraft/server/CustomServerBossInfoManager	net/minecraft/class_3004
+net/minecraft/server/commands/AdvancementCommands	net/minecraft/server/1_15_R1/CommandAdvancement	net/minecraft/command/impl/AdvancementCommand	net/minecraft/class_3008
+net/minecraft/server/commands/AdvancementCommands$Action	net/minecraft/server/1_15_R1/CommandAdvancement$Action	net/minecraft/command/impl/AdvancementCommand$Action	net/minecraft/class_3008$class_3009
+net/minecraft/server/commands/AdvancementCommands$Action$1		net/minecraft/command/impl/AdvancementCommand$Action$1	net/minecraft/class_3008$class_3009$1
+net/minecraft/server/commands/AdvancementCommands$Action$2		net/minecraft/command/impl/AdvancementCommand$Action$2	net/minecraft/class_3008$class_3009$2
+net/minecraft/server/commands/AdvancementCommands$Mode	net/minecraft/server/1_15_R1/CommandAdvancement$Filter	net/minecraft/command/impl/AdvancementCommand$Mode	net/minecraft/class_3008$class_3010
+net/minecraft/server/commands/BanIpCommands	net/minecraft/server/1_15_R1/CommandBanIp	net/minecraft/command/impl/BanIpCommand	net/minecraft/class_3012
+net/minecraft/server/commands/BanListCommands	net/minecraft/server/1_15_R1/CommandBanList	net/minecraft/command/impl/BanListCommand	net/minecraft/class_3014
+net/minecraft/server/commands/BanPlayerCommands	net/minecraft/server/1_15_R1/CommandBan	net/minecraft/command/impl/BanCommand	net/minecraft/class_3016
+net/minecraft/server/commands/BossBarCommands	net/minecraft/server/1_15_R1/CommandBossBar	net/minecraft/command/impl/BossBarCommand	net/minecraft/class_3019
+net/minecraft/server/commands/ClearInventoryCommands	net/minecraft/server/1_15_R1/CommandClear	net/minecraft/command/impl/ClearCommand	net/minecraft/class_3020
+net/minecraft/server/commands/CloneCommands	net/minecraft/server/1_15_R1/CommandClone	net/minecraft/command/impl/CloneCommand	net/minecraft/class_3023
+net/minecraft/server/commands/CloneCommands$CloneBlockInfo	net/minecraft/server/1_15_R1/CommandClone$CommandCloneStoredTileEntity	net/minecraft/command/impl/CloneCommand$BlockInfo	net/minecraft/class_3023$class_3024
+net/minecraft/server/commands/CloneCommands$Mode	net/minecraft/server/1_15_R1/CommandClone$Mode	net/minecraft/command/impl/CloneCommand$Mode	net/minecraft/class_3023$class_3025
+net/minecraft/server/commands/DataPackCommand	net/minecraft/server/1_15_R1/CommandDatapack	net/minecraft/command/impl/DataPackCommand	net/minecraft/class_3027
+net/minecraft/server/commands/DataPackCommand$Inserter		net/minecraft/command/impl/DataPackCommand$IHandler	net/minecraft/class_3027$class_3028
+net/minecraft/server/commands/DeOpCommands	net/minecraft/server/1_15_R1/CommandDeop	net/minecraft/command/impl/DeOpCommand	net/minecraft/class_3030
+net/minecraft/server/commands/DebugCommand	net/minecraft/server/1_15_R1/CommandDebug	net/minecraft/command/impl/DebugCommand	net/minecraft/class_3032
+net/minecraft/server/commands/DefaultGameModeCommands	net/minecraft/server/1_15_R1/CommandGamemodeDefault	net/minecraft/command/impl/DefaultGameModeCommand	net/minecraft/class_3035
+net/minecraft/server/commands/DifficultyCommand	net/minecraft/server/1_15_R1/CommandDifficulty	net/minecraft/command/impl/DifficultyCommand	net/minecraft/class_3036
+net/minecraft/server/commands/EffectCommands	net/minecraft/server/1_15_R1/CommandEffect	net/minecraft/command/impl/EffectCommand	net/minecraft/class_3043
+net/minecraft/server/commands/EmoteCommands	net/minecraft/server/1_15_R1/CommandMe	net/minecraft/command/impl/MeCommand	net/minecraft/class_3045
+net/minecraft/server/commands/EnchantCommand	net/minecraft/server/1_15_R1/CommandEnchant	net/minecraft/command/impl/EnchantCommand	net/minecraft/class_3048
+net/minecraft/server/commands/ExecuteCommand	net/minecraft/server/1_15_R1/CommandExecute	net/minecraft/command/impl/ExecuteCommand	net/minecraft/class_3050
+net/minecraft/server/commands/ExecuteCommand$CommandNumericPredicate		net/minecraft/command/impl/ExecuteCommand$INumericTest	net/minecraft/class_3050$class_3051
+net/minecraft/server/commands/ExecuteCommand$CommandPredicate		net/minecraft/command/impl/ExecuteCommand$IBooleanTest	net/minecraft/class_3050$class_3052
+net/minecraft/server/commands/ExperienceCommand	net/minecraft/server/1_15_R1/CommandXp	net/minecraft/command/impl/ExperienceCommand	net/minecraft/class_3054
+net/minecraft/server/commands/ExperienceCommand$Type	net/minecraft/server/1_15_R1/CommandXp$Unit	net/minecraft/command/impl/ExperienceCommand$Type	net/minecraft/class_3054$class_3055
+net/minecraft/server/commands/FillCommand	net/minecraft/server/1_15_R1/CommandFill	net/minecraft/command/impl/FillCommand	net/minecraft/class_3057
+net/minecraft/server/commands/FillCommand$Mode	net/minecraft/server/1_15_R1/CommandFill$Mode	net/minecraft/command/impl/FillCommand$Mode	net/minecraft/class_3057$class_3058
+net/minecraft/server/commands/ForceLoadCommand	net/minecraft/server/1_15_R1/CommandForceload	net/minecraft/command/impl/ForceLoadCommand	net/minecraft/class_3060
+net/minecraft/server/commands/FunctionCommand	net/minecraft/server/1_15_R1/CommandFunction	net/minecraft/command/impl/FunctionCommand	net/minecraft/class_3062
+net/minecraft/server/commands/GameModeCommand	net/minecraft/server/1_15_R1/CommandGamemode	net/minecraft/command/impl/GameModeCommand	net/minecraft/class_3064
+net/minecraft/server/commands/GameRuleCommand	net/minecraft/server/1_15_R1/CommandGamerule	net/minecraft/command/impl/GameRuleCommand	net/minecraft/class_3065
+net/minecraft/server/commands/GameRuleCommand$1		net/minecraft/command/impl/GameRuleCommand$1	net/minecraft/class_3065$1
+net/minecraft/server/commands/GiveCommand	net/minecraft/server/1_15_R1/CommandGive	net/minecraft/command/impl/GiveCommand	net/minecraft/class_3068
+net/minecraft/server/commands/HelpCommand	net/minecraft/server/1_15_R1/CommandHelp	net/minecraft/command/impl/HelpCommand	net/minecraft/class_3069
+net/minecraft/server/commands/KickCommand	net/minecraft/server/1_15_R1/CommandKick	net/minecraft/command/impl/KickCommand	net/minecraft/class_3073
+net/minecraft/server/commands/KillCommand	net/minecraft/server/1_15_R1/CommandKill	net/minecraft/command/impl/KillCommand	net/minecraft/class_3075
+net/minecraft/server/commands/ListPlayersCommand	net/minecraft/server/1_15_R1/CommandList	net/minecraft/command/impl/ListCommand	net/minecraft/class_3078
+net/minecraft/server/commands/LocateCommand	net/minecraft/server/1_15_R1/CommandLocate	net/minecraft/command/impl/LocateCommand	net/minecraft/class_3079
+net/minecraft/server/commands/LootCommand	net/minecraft/server/1_15_R1/CommandLoot	net/minecraft/command/impl/LootCommand	net/minecraft/class_3039
+net/minecraft/server/commands/LootCommand$Callback		net/minecraft/command/impl/LootCommand$ISuccessListener	net/minecraft/class_3039$class_3040
+net/minecraft/server/commands/LootCommand$DropConsumer		net/minecraft/command/impl/LootCommand$ITargetHandler	net/minecraft/class_3039$class_3041
+net/minecraft/server/commands/LootCommand$TailProvider		net/minecraft/command/impl/LootCommand$ISourceArgumentBuilder	net/minecraft/class_3039$class_3042
+net/minecraft/server/commands/MsgCommand	net/minecraft/server/1_15_R1/CommandTell	net/minecraft/command/impl/MessageCommand	net/minecraft/class_3082
+net/minecraft/server/commands/OpCommand	net/minecraft/server/1_15_R1/CommandOp	net/minecraft/command/impl/OpCommand	net/minecraft/class_3083
+net/minecraft/server/commands/PardonCommand	net/minecraft/server/1_15_R1/CommandPardon	net/minecraft/command/impl/PardonCommand	net/minecraft/class_3086
+net/minecraft/server/commands/PardonIpCommand	net/minecraft/server/1_15_R1/CommandPardonIP	net/minecraft/command/impl/PardonIpCommand	net/minecraft/class_3088
+net/minecraft/server/commands/ParticleCommand	net/minecraft/server/1_15_R1/CommandParticle	net/minecraft/command/impl/ParticleCommand	net/minecraft/class_3089
+net/minecraft/server/commands/PlaySoundCommand	net/minecraft/server/1_15_R1/CommandPlaySound	net/minecraft/command/impl/PlaySoundCommand	net/minecraft/class_3091
+net/minecraft/server/commands/PublishCommand	net/minecraft/server/1_15_R1/CommandPublish	net/minecraft/command/impl/PublishCommand	net/minecraft/class_3093
+net/minecraft/server/commands/RecipeCommand	net/minecraft/server/1_15_R1/CommandRecipe	net/minecraft/command/impl/RecipeCommand	net/minecraft/class_3095
+net/minecraft/server/commands/ReloadCommand	net/minecraft/server/1_15_R1/CommandReload	net/minecraft/command/impl/ReloadCommand	net/minecraft/class_3097
+net/minecraft/server/commands/ReplaceItemCommand	net/minecraft/server/1_15_R1/CommandReplaceItem	net/minecraft/command/impl/ReplaceItemCommand	net/minecraft/class_3102
+net/minecraft/server/commands/SaveAllCommand	net/minecraft/server/1_15_R1/CommandSaveAll	net/minecraft/command/impl/SaveAllCommand	net/minecraft/class_3104
+net/minecraft/server/commands/SaveOffCommand	net/minecraft/server/1_15_R1/CommandSaveOff	net/minecraft/command/impl/SaveOffCommand	net/minecraft/class_3106
+net/minecraft/server/commands/SaveOnCommand	net/minecraft/server/1_15_R1/CommandSaveOn	net/minecraft/command/impl/SaveOnCommand	net/minecraft/class_3107
+net/minecraft/server/commands/SayCommand	net/minecraft/server/1_15_R1/CommandSay	net/minecraft/command/impl/SayCommand	net/minecraft/class_3110
+net/minecraft/server/commands/ScheduleCommand	net/minecraft/server/1_15_R1/CommandSchedule	net/minecraft/command/impl/ScheduleCommand	net/minecraft/class_3112
+net/minecraft/server/commands/ScoreboardCommand	net/minecraft/server/1_15_R1/CommandScoreboard	net/minecraft/command/impl/ScoreboardCommand	net/minecraft/class_3115
+net/minecraft/server/commands/SeedCommand	net/minecraft/server/1_15_R1/CommandSeed	net/minecraft/command/impl/SeedCommand	net/minecraft/class_3118
+net/minecraft/server/commands/SetBlockCommand	net/minecraft/server/1_15_R1/CommandSetBlock	net/minecraft/command/impl/SetBlockCommand	net/minecraft/class_3119
+net/minecraft/server/commands/SetBlockCommand$Filter	net/minecraft/server/1_15_R1/CommandSetBlock$Filter	net/minecraft/command/impl/SetBlockCommand$IFilter	net/minecraft/class_3119$class_3120
+net/minecraft/server/commands/SetBlockCommand$Mode	net/minecraft/server/1_15_R1/CommandSetBlock$Mode	net/minecraft/command/impl/SetBlockCommand$Mode	net/minecraft/class_3119$class_3121
+net/minecraft/server/commands/SetPlayerIdleTimeoutCommand	net/minecraft/server/1_15_R1/CommandIdleTimeout	net/minecraft/command/impl/SetIdleTimeoutCommand	net/minecraft/class_3123
+net/minecraft/server/commands/SetSpawnCommand	net/minecraft/server/1_15_R1/CommandSpawnpoint	net/minecraft/command/impl/SpawnPointCommand	net/minecraft/class_3127
+net/minecraft/server/commands/SetWorldSpawnCommand	net/minecraft/server/1_15_R1/CommandSetWorldSpawn	net/minecraft/command/impl/SetWorldSpawnCommand	net/minecraft/class_3128
+net/minecraft/server/commands/SpectateCommand	net/minecraft/server/1_15_R1/CommandSpectate	net/minecraft/command/impl/SpectateCommand	net/minecraft/class_4694
+net/minecraft/server/commands/SpreadPlayersCommand	net/minecraft/server/1_15_R1/CommandSpreadPlayers	net/minecraft/command/impl/SpreadPlayersCommand	net/minecraft/class_3131
+net/minecraft/server/commands/SpreadPlayersCommand$Position		net/minecraft/command/impl/SpreadPlayersCommand$Position	net/minecraft/class_3131$class_3132
+net/minecraft/server/commands/StopCommand	net/minecraft/server/1_15_R1/CommandStop	net/minecraft/command/impl/StopCommand	net/minecraft/class_3134
+net/minecraft/server/commands/StopSoundCommand	net/minecraft/server/1_15_R1/CommandStopSound	net/minecraft/command/impl/StopSoundCommand	net/minecraft/class_3136
+net/minecraft/server/commands/SummonCommand	net/minecraft/server/1_15_R1/CommandSummon	net/minecraft/command/impl/SummonCommand	net/minecraft/class_3138
+net/minecraft/server/commands/TagCommand	net/minecraft/server/1_15_R1/CommandTag	net/minecraft/command/impl/TagCommand	net/minecraft/class_3140
+net/minecraft/server/commands/TeamCommand	net/minecraft/server/1_15_R1/CommandTeam	net/minecraft/command/impl/TeamCommand	net/minecraft/class_3142
+net/minecraft/server/commands/TeamMsgCommand	net/minecraft/server/1_15_R1/CommandTeamMsg	net/minecraft/command/impl/TeamMsgCommand	net/minecraft/class_3945
+net/minecraft/server/commands/TeleportCommand	net/minecraft/server/1_15_R1/CommandTeleport	net/minecraft/command/impl/TeleportCommand	net/minecraft/class_3143
+net/minecraft/server/commands/TeleportCommand$LookAt		net/minecraft/command/impl/TeleportCommand$Facing	net/minecraft/class_3143$class_3144
+net/minecraft/server/commands/TellRawCommand	net/minecraft/server/1_15_R1/CommandTellRaw	net/minecraft/command/impl/TellRawCommand	net/minecraft/class_3146
+net/minecraft/server/commands/TimeCommand	net/minecraft/server/1_15_R1/CommandTime	net/minecraft/command/impl/TimeCommand	net/minecraft/class_3149
+net/minecraft/server/commands/TitleCommand	net/minecraft/server/1_15_R1/CommandTitle	net/minecraft/command/impl/TitleCommand	net/minecraft/class_3151
+net/minecraft/server/commands/TriggerCommand	net/minecraft/server/1_15_R1/CommandTrigger	net/minecraft/command/impl/TriggerCommand	net/minecraft/class_3153
+net/minecraft/server/commands/WeatherCommand	net/minecraft/server/1_15_R1/CommandWeather	net/minecraft/command/impl/WeatherCommand	net/minecraft/class_3155
+net/minecraft/server/commands/WhitelistCommand	net/minecraft/server/1_15_R1/CommandWhitelist	net/minecraft/command/impl/WhitelistCommand	net/minecraft/class_3156
+net/minecraft/server/commands/WorldBorderCommand	net/minecraft/server/1_15_R1/CommandWorldBorder	net/minecraft/command/impl/WorldBorderCommand	net/minecraft/class_3158
+net/minecraft/server/commands/data/BlockDataAccessor	net/minecraft/server/1_15_R1/CommandDataAccessorTile	net/minecraft/command/impl/data/BlockDataAccessor	net/minecraft/class_3161
+net/minecraft/server/commands/data/BlockDataAccessor$1		net/minecraft/command/impl/data/BlockDataAccessor$1	net/minecraft/class_3161$1
+net/minecraft/server/commands/data/DataAccessor	net/minecraft/server/1_15_R1/CommandDataAccessor	net/minecraft/command/impl/data/IDataAccessor	net/minecraft/class_3162
+net/minecraft/server/commands/data/DataCommands	net/minecraft/server/1_15_R1/CommandData	net/minecraft/command/impl/data/DataCommand	net/minecraft/class_3164
+net/minecraft/server/commands/data/DataCommands$DataManipulator		net/minecraft/command/impl/data/DataCommand$IModificationType	net/minecraft/class_3164$class_3165
+net/minecraft/server/commands/data/DataCommands$DataManipulatorDecorator		net/minecraft/command/impl/data/DataCommand$IModificationSourceArgumentBuilder	net/minecraft/class_3164$class_3166
+net/minecraft/server/commands/data/DataCommands$DataProvider		net/minecraft/command/impl/data/DataCommand$IDataProvider	net/minecraft/class_3164$class_3167
+net/minecraft/server/commands/data/EntityDataAccessor	net/minecraft/server/1_15_R1/CommandDataAccessorEntity	net/minecraft/command/impl/data/EntityDataAccessor	net/minecraft/class_3169
+net/minecraft/server/commands/data/EntityDataAccessor$1		net/minecraft/command/impl/data/EntityDataAccessor$1	net/minecraft/class_3169$1
+net/minecraft/server/commands/data/StorageDataAccessor	net/minecraft/server/1_15_R1/CommandDataStorage	net/minecraft/command/impl/data/StorageAccessor	net/minecraft/class_4580
+net/minecraft/server/commands/data/StorageDataAccessor$1		net/minecraft/command/impl/data/StorageAccessor$1	net/minecraft/class_4580$1
+net/minecraft/server/dedicated/DedicatedPlayerList	net/minecraft/server/1_15_R1/DedicatedPlayerList	net/minecraft/server/dedicated/DedicatedPlayerList	net/minecraft/class_3174
+net/minecraft/server/dedicated/DedicatedServer	net/minecraft/server/1_15_R1/DedicatedServer	net/minecraft/server/dedicated/DedicatedServer	net/minecraft/class_3176
+net/minecraft/server/dedicated/DedicatedServer$1		net/minecraft/server/dedicated/DedicatedServer$1	net/minecraft/class_3176$1
+net/minecraft/server/dedicated/DedicatedServer$2		net/minecraft/server/dedicated/DedicatedServer$2	net/minecraft/class_3176$2
+net/minecraft/server/dedicated/DedicatedServerProperties	net/minecraft/server/1_15_R1/DedicatedServerProperties	net/minecraft/server/dedicated/ServerProperties	net/minecraft/class_3806
+net/minecraft/server/dedicated/DedicatedServerSettings	net/minecraft/server/1_15_R1/DedicatedServerSettings	net/minecraft/server/ServerPropertiesProvider	net/minecraft/class_3807
+net/minecraft/server/dedicated/ServerWatchdog	net/minecraft/server/1_15_R1/ThreadWatchdog	net/minecraft/server/dedicated/ServerHangWatchdog	net/minecraft/class_3178
+net/minecraft/server/dedicated/ServerWatchdog$1		net/minecraft/server/dedicated/ServerHangWatchdog$1	net/minecraft/class_3178$1
+net/minecraft/server/dedicated/Settings	net/minecraft/server/1_15_R1/PropertyManager	net/minecraft/server/dedicated/PropertyManager	net/minecraft/class_3808
+net/minecraft/server/dedicated/Settings$MutableValue	net/minecraft/server/1_15_R1/PropertyManager$EditableProperty	net/minecraft/server/dedicated/PropertyManager$Property	net/minecraft/class_3808$class_3809
+net/minecraft/server/gui/MinecraftServerGui	net/minecraft/server/1_15_R1/ServerGUI	net/minecraft/server/gui/MinecraftServerGui	net/minecraft/class_3182
+net/minecraft/server/gui/MinecraftServerGui$1		net/minecraft/server/gui/MinecraftServerGui$1	net/minecraft/class_3182$1
+net/minecraft/server/gui/MinecraftServerGui$2		net/minecraft/server/gui/MinecraftServerGui$2	net/minecraft/class_3182$2
+net/minecraft/server/gui/PlayerListComponent	net/minecraft/server/1_15_R1/PlayerListBox	net/minecraft/server/gui/PlayerListComponent	net/minecraft/class_3184
+net/minecraft/server/gui/StatsComponent	net/minecraft/server/1_15_R1/GuiStatsComponent	net/minecraft/server/gui/StatsComponent	net/minecraft/class_3186
+net/minecraft/server/level/ChunkHolder	net/minecraft/server/1_15_R1/PlayerChunk	net/minecraft/world/server/ChunkHolder	net/minecraft/class_3193
+net/minecraft/server/level/ChunkHolder$1		net/minecraft/world/server/ChunkHolder$1	net/minecraft/class_3193$1
+net/minecraft/server/level/ChunkHolder$ChunkLoadingFailure	net/minecraft/server/1_15_R1/PlayerChunk$Failure	net/minecraft/world/server/ChunkHolder$IChunkLoadingError	net/minecraft/class_3193$class_3724
+net/minecraft/server/level/ChunkHolder$ChunkLoadingFailure$1		net/minecraft/world/server/ChunkHolder$IChunkLoadingError$1	net/minecraft/class_3193$class_3724$1
+net/minecraft/server/level/ChunkHolder$FullChunkStatus	net/minecraft/server/1_15_R1/PlayerChunk$State	net/minecraft/world/server/ChunkHolder$LocationType	net/minecraft/class_3193$class_3194
+net/minecraft/server/level/ChunkHolder$LevelChangeListener		net/minecraft/world/server/ChunkHolder$IListener	net/minecraft/class_3193$class_3896
+net/minecraft/server/level/ChunkHolder$PlayerProvider		net/minecraft/world/server/ChunkHolder$IPlayerProvider	net/minecraft/class_3193$class_3897
+net/minecraft/server/level/ChunkMap	net/minecraft/server/1_15_R1/PlayerChunkMap	net/minecraft/world/server/ChunkManager	net/minecraft/class_3898
+net/minecraft/server/level/ChunkMap$1		net/minecraft/world/server/ChunkManager$1	net/minecraft/class_3898$1
+net/minecraft/server/level/ChunkMap$2		net/minecraft/world/server/ChunkManager$2	net/minecraft/class_3898$2
+net/minecraft/server/level/ChunkMap$DistanceManager		net/minecraft/world/server/ChunkManager$ProxyTicketManager	net/minecraft/class_3898$class_3216
+net/minecraft/server/level/ChunkMap$TrackedEntity	net/minecraft/server/1_15_R1/PlayerChunkMap$EntityTracker	net/minecraft/world/server/ChunkManager$EntityTracker	net/minecraft/class_3898$class_3208
+net/minecraft/server/level/ChunkTaskPriorityQueue	net/minecraft/server/1_15_R1/ChunkTaskQueue	net/minecraft/world/chunk/ChunkTaskPriorityQueue	net/minecraft/class_3899
+net/minecraft/server/level/ChunkTaskPriorityQueueSorter	net/minecraft/server/1_15_R1/ChunkTaskQueueSorter	net/minecraft/world/chunk/ChunkTaskPriorityQueueSorter	net/minecraft/class_3900
+net/minecraft/server/level/ChunkTaskPriorityQueueSorter$Message		net/minecraft/world/chunk/ChunkTaskPriorityQueueSorter$FunctionEntry	net/minecraft/class_3900$class_3946
+net/minecraft/server/level/ChunkTaskPriorityQueueSorter$Release		net/minecraft/world/chunk/ChunkTaskPriorityQueueSorter$RunnableEntry	net/minecraft/class_3900$class_3947
+net/minecraft/server/level/ChunkTracker	net/minecraft/server/1_15_R1/ChunkMap	net/minecraft/world/chunk/ChunkDistanceGraph	net/minecraft/class_3196
+net/minecraft/server/level/ColumnPos	net/minecraft/server/1_15_R1/BlockPosition2D	net/minecraft/util/math/ColumnPos	net/minecraft/class_2265
+net/minecraft/server/level/DemoMode	net/minecraft/server/1_15_R1/DemoPlayerInteractManager	net/minecraft/server/management/DemoPlayerInteractionManager	net/minecraft/class_3201
+net/minecraft/server/level/DerivedServerLevel	net/minecraft/server/1_15_R1/SecondaryWorldServer	net/minecraft/world/server/ServerMultiWorld	net/minecraft/class_3202
+net/minecraft/server/level/DistanceManager	net/minecraft/server/1_15_R1/ChunkMapDistance	net/minecraft/world/server/TicketManager	net/minecraft/class_3204
+net/minecraft/server/level/DistanceManager$ChunkTicketTracker		net/minecraft/world/server/TicketManager$ChunkTicketTracker	net/minecraft/class_3204$class_4077
+net/minecraft/server/level/DistanceManager$FixedPlayerDistanceChunkTracker		net/minecraft/world/server/TicketManager$PlayerChunkTracker	net/minecraft/class_3204$class_3205
+net/minecraft/server/level/DistanceManager$PlayerTicketTracker		net/minecraft/world/server/TicketManager$PlayerTicketTracker	net/minecraft/class_3204$class_3948
+net/minecraft/server/level/PlayerMap	net/minecraft/server/1_15_R1/PlayerMap	net/minecraft/world/chunk/PlayerGenerationTracker	net/minecraft/class_3210
+net/minecraft/server/level/SectionTracker	net/minecraft/server/1_15_R1/LightEngineGraphSection	net/minecraft/util/SectionDistanceGraph	net/minecraft/class_4079
+net/minecraft/server/level/ServerBossEvent	net/minecraft/server/1_15_R1/BossBattleServer	net/minecraft/world/server/ServerBossInfo	net/minecraft/class_3213
+net/minecraft/server/level/ServerChunkCache	net/minecraft/server/1_15_R1/ChunkProviderServer	net/minecraft/world/server/ServerChunkProvider	net/minecraft/class_3215
+net/minecraft/server/level/ServerChunkCache$MainThreadExecutor		net/minecraft/world/server/ServerChunkProvider$ChunkExecutor	net/minecraft/class_3215$class_4212
+net/minecraft/server/level/ServerEntity	net/minecraft/server/1_15_R1/EntityTrackerEntry	net/minecraft/world/TrackedEntity	net/minecraft/class_3231
+net/minecraft/server/level/ServerLevel	net/minecraft/server/1_15_R1/WorldServer	net/minecraft/world/server/ServerWorld	net/minecraft/class_3218
+net/minecraft/server/level/ServerPlayer	net/minecraft/server/1_15_R1/EntityPlayer	net/minecraft/entity/player/ServerPlayerEntity	net/minecraft/class_3222
+net/minecraft/server/level/ServerPlayerGameMode	net/minecraft/server/1_15_R1/PlayerInteractManager	net/minecraft/server/management/PlayerInteractionManager	net/minecraft/class_3225
+net/minecraft/server/level/ThreadedLevelLightEngine	net/minecraft/server/1_15_R1/LightEngineThreaded	net/minecraft/world/server/ServerWorldLightManager	net/minecraft/class_3227
+net/minecraft/server/level/ThreadedLevelLightEngine$TaskType	net/minecraft/server/1_15_R1/LightEngineThreaded$Update	net/minecraft/world/server/ServerWorldLightManager$Phase	net/minecraft/class_3227$class_3901
+net/minecraft/server/level/Ticket	net/minecraft/server/1_15_R1/Ticket	net/minecraft/world/server/Ticket	net/minecraft/class_3228
+net/minecraft/server/level/TicketType	net/minecraft/server/1_15_R1/TicketType	net/minecraft/world/server/TicketType	net/minecraft/class_3230
+net/minecraft/server/level/WorldGenRegion	net/minecraft/server/1_15_R1/RegionLimitedWorldAccess	net/minecraft/world/gen/WorldGenRegion	net/minecraft/class_3233
+net/minecraft/server/level/WorldGenTickList	net/minecraft/server/1_15_R1/TickListWorldGen	net/minecraft/world/WorldGenTickList	net/minecraft/class_3235
+net/minecraft/server/level/progress/ChunkProgressListener	net/minecraft/server/1_15_R1/WorldLoadListener	net/minecraft/world/chunk/listener/IChunkStatusListener	net/minecraft/class_3949
+net/minecraft/server/level/progress/ChunkProgressListenerFactory	net/minecraft/server/1_15_R1/WorldLoadListenerFactory	net/minecraft/world/chunk/listener/IChunkStatusListenerFactory	net/minecraft/class_3950
+net/minecraft/server/level/progress/LoggerChunkProgressListener	net/minecraft/server/1_15_R1/WorldLoadListenerLogger	net/minecraft/world/chunk/listener/LoggingChunkStatusListener	net/minecraft/class_3951
+net/minecraft/server/network/LegacyQueryHandler	net/minecraft/server/1_15_R1/LegacyPingHandler	net/minecraft/network/LegacyPingHandler	net/minecraft/class_3238
+net/minecraft/server/network/ServerConnectionListener	net/minecraft/server/1_15_R1/ServerConnection	net/minecraft/network/NetworkSystem	net/minecraft/class_3242
+net/minecraft/server/network/ServerConnectionListener$1		net/minecraft/network/NetworkSystem$1	net/minecraft/class_3242$1
+net/minecraft/server/network/ServerGamePacketListenerImpl	net/minecraft/server/1_15_R1/PlayerConnection	net/minecraft/network/play/ServerPlayNetHandler	net/minecraft/class_3244
+net/minecraft/server/network/ServerHandshakePacketListenerImpl	net/minecraft/server/1_15_R1/HandshakeListener	net/minecraft/network/handshake/ServerHandshakeNetHandler	net/minecraft/class_3246
+net/minecraft/server/network/ServerLoginPacketListenerImpl	net/minecraft/server/1_15_R1/LoginListener	net/minecraft/network/login/ServerLoginNetHandler	net/minecraft/class_3248
+net/minecraft/server/network/ServerLoginPacketListenerImpl$1		net/minecraft/network/login/ServerLoginNetHandler$1	net/minecraft/class_3248$1
+net/minecraft/server/network/ServerLoginPacketListenerImpl$State	net/minecraft/server/1_15_R1/LoginListener$EnumProtocolState	net/minecraft/network/login/ServerLoginNetHandler$State	net/minecraft/class_3248$class_3249
+net/minecraft/server/network/ServerStatusPacketListenerImpl	net/minecraft/server/1_15_R1/PacketStatusListener	net/minecraft/network/status/ServerStatusNetHandler	net/minecraft/class_3251
+net/minecraft/server/packs/AbstractResourcePack	net/minecraft/server/1_15_R1/ResourcePackAbstract	net/minecraft/resources/ResourcePack	net/minecraft/class_3255
+net/minecraft/server/packs/FileResourcePack	net/minecraft/server/1_15_R1/ResourcePackFile	net/minecraft/resources/FilePack	net/minecraft/class_3258
+net/minecraft/server/packs/FolderResourcePack	net/minecraft/server/1_15_R1/ResourcePackFolder	net/minecraft/resources/FolderPack	net/minecraft/class_3259
+net/minecraft/server/packs/Pack	net/minecraft/server/1_15_R1/IResourcePack	net/minecraft/resources/IResourcePack	net/minecraft/class_3262
+net/minecraft/server/packs/PackType	net/minecraft/server/1_15_R1/EnumResourcePackType	net/minecraft/resources/ResourcePackType	net/minecraft/class_3264
+net/minecraft/server/packs/ResourcePackFileNotFoundException	net/minecraft/server/1_15_R1/ResourceNotFoundException	net/minecraft/resources/ResourcePackFileNotFoundException	net/minecraft/class_3266
+net/minecraft/server/packs/VanillaPack	net/minecraft/server/1_15_R1/ResourcePackVanilla	net/minecraft/resources/VanillaPack	net/minecraft/class_3268
+net/minecraft/server/packs/metadata/MetadataSectionSerializer	net/minecraft/server/1_15_R1/ResourcePackMetaParser	net/minecraft/resources/data/IMetadataSectionSerializer	net/minecraft/class_3270
+net/minecraft/server/packs/metadata/pack/PackMetadataSection	net/minecraft/server/1_15_R1/ResourcePackInfo	net/minecraft/resources/data/PackMetadataSection	net/minecraft/class_3272
+net/minecraft/server/packs/metadata/pack/PackMetadataSectionSerializer	net/minecraft/server/1_15_R1/ResourcePackInfoDeserializer	net/minecraft/resources/data/PackMetadataSectionSerializer	net/minecraft/class_3274
+net/minecraft/server/packs/repository/FolderRepositorySource	net/minecraft/server/1_15_R1/ResourcePackSourceFolder	net/minecraft/resources/FolderPackFinder	net/minecraft/class_3279
+net/minecraft/server/packs/repository/PackCompatibility	net/minecraft/server/1_15_R1/EnumResourcePackVersion	net/minecraft/resources/PackCompatibility	net/minecraft/class_3281
+net/minecraft/server/packs/repository/PackRepository	net/minecraft/server/1_15_R1/ResourcePackRepository	net/minecraft/resources/ResourcePackList	net/minecraft/class_3283
+net/minecraft/server/packs/repository/RepositorySource	net/minecraft/server/1_15_R1/ResourcePackSource	net/minecraft/resources/IPackFinder	net/minecraft/class_3285
+net/minecraft/server/packs/repository/ServerPacksSource	net/minecraft/server/1_15_R1/ResourcePackSourceVanilla	net/minecraft/resources/ServerPackFinder	net/minecraft/class_3286
+net/minecraft/server/packs/repository/UnopenedPack	net/minecraft/server/1_15_R1/ResourcePackLoader	net/minecraft/resources/ResourcePackInfo	net/minecraft/class_3288
+net/minecraft/server/packs/repository/UnopenedPack$Position	net/minecraft/server/1_15_R1/ResourcePackLoader$Position	net/minecraft/resources/ResourcePackInfo$Priority	net/minecraft/class_3288$class_3289
+net/minecraft/server/packs/repository/UnopenedPack$UnopenedPackConstructor		net/minecraft/resources/ResourcePackInfo$IFactory	net/minecraft/class_3288$class_3290
+net/minecraft/server/packs/resources/FallbackResourceManager	net/minecraft/server/1_15_R1/ResourceManagerFallback	net/minecraft/resources/FallbackResourceManager	net/minecraft/class_3294
+net/minecraft/server/packs/resources/FallbackResourceManager$LeakedResourceWarningInputStream		net/minecraft/resources/FallbackResourceManager$LeakComplainerInputStream	net/minecraft/class_3294$class_3295
+net/minecraft/server/packs/resources/PreparableReloadListener	net/minecraft/server/1_15_R1/IReloadListener	net/minecraft/resources/IFutureReloadListener	net/minecraft/class_3302
+net/minecraft/server/packs/resources/PreparableReloadListener$PreparationBarrier		net/minecraft/resources/IFutureReloadListener$IStage	net/minecraft/class_3302$class_4045
+net/minecraft/server/packs/resources/ProfiledReloadInstance	net/minecraft/server/1_15_R1/ReloadableProfiled	net/minecraft/resources/DebugAsyncReloader	net/minecraft/class_4010
+net/minecraft/server/packs/resources/ProfiledReloadInstance$State		net/minecraft/resources/DebugAsyncReloader$DataPoint	net/minecraft/class_4010$class_4046
+net/minecraft/server/packs/resources/ReloadInstance	net/minecraft/server/1_15_R1/IReloadable	net/minecraft/resources/IAsyncReloader	net/minecraft/class_4011
+net/minecraft/server/packs/resources/ReloadableResourceManager	net/minecraft/server/1_15_R1/IReloadableResourceManager	net/minecraft/resources/IReloadableResourceManager	net/minecraft/class_3296
+net/minecraft/server/packs/resources/Resource	net/minecraft/server/1_15_R1/IResource	net/minecraft/resources/IResource	net/minecraft/class_3298
+net/minecraft/server/packs/resources/ResourceManager	net/minecraft/server/1_15_R1/IResourceManager	net/minecraft/resources/IResourceManager	net/minecraft/class_3300
+net/minecraft/server/packs/resources/ResourceManagerReloadListener	net/minecraft/server/1_15_R1/IResourcePackListener	net/minecraft/resources/IResourceManagerReloadListener	net/minecraft/class_4013
+net/minecraft/server/packs/resources/SimpleJsonResourceReloadListener	net/minecraft/server/1_15_R1/ResourceDataJson	net/minecraft/client/resources/JsonReloadListener	net/minecraft/class_4309
+net/minecraft/server/packs/resources/SimplePreparableReloadListener	net/minecraft/server/1_15_R1/ResourceDataAbstract	net/minecraft/client/resources/ReloadListener	net/minecraft/class_4080
+net/minecraft/server/packs/resources/SimpleReloadInstance	net/minecraft/server/1_15_R1/Reloadable	net/minecraft/resources/AsyncReloader	net/minecraft/class_4014
+net/minecraft/server/packs/resources/SimpleReloadInstance$1		net/minecraft/resources/AsyncReloader$1	net/minecraft/class_4014$1
+net/minecraft/server/packs/resources/SimpleReloadInstance$StateFactory		net/minecraft/resources/AsyncReloader$IStateFactory	net/minecraft/class_4014$class_4047
+net/minecraft/server/packs/resources/SimpleReloadableResourceManager	net/minecraft/server/1_15_R1/ResourceManager	net/minecraft/resources/SimpleReloadableResourceManager	net/minecraft/class_3304
+net/minecraft/server/packs/resources/SimpleReloadableResourceManager$FailingReloadInstance		net/minecraft/resources/SimpleReloadableResourceManager$FailedPackReloader	net/minecraft/class_3304$class_4742
+net/minecraft/server/packs/resources/SimpleReloadableResourceManager$ResourcePackLoadingFailure		net/minecraft/resources/SimpleReloadableResourceManager$FailedPackException	net/minecraft/class_3304$class_4743
+net/minecraft/server/packs/resources/SimpleResource	net/minecraft/server/1_15_R1/Resource	net/minecraft/resources/SimpleResource	net/minecraft/class_3306
+net/minecraft/server/players/BanListEntry	net/minecraft/server/1_15_R1/ExpirableListEntry	net/minecraft/server/management/BanEntry	net/minecraft/class_3309
+net/minecraft/server/players/GameProfileCache	net/minecraft/server/1_15_R1/UserCache	net/minecraft/server/management/PlayerProfileCache	net/minecraft/class_3312
+net/minecraft/server/players/GameProfileCache$1		net/minecraft/server/management/PlayerProfileCache$1	net/minecraft/class_3312$1
+net/minecraft/server/players/GameProfileCache$2		net/minecraft/server/management/PlayerProfileCache$2	net/minecraft/class_3312$2
+net/minecraft/server/players/GameProfileCache$GameProfileInfo	net/minecraft/server/1_15_R1/UserCache$UserCacheEntry	net/minecraft/server/management/PlayerProfileCache$ProfileEntry	net/minecraft/class_3312$class_3313
+net/minecraft/server/players/GameProfileCache$Serializer	net/minecraft/server/1_15_R1/UserCache$BanEntrySerializer	net/minecraft/server/management/PlayerProfileCache$Serializer	net/minecraft/class_3312$class_3314
+net/minecraft/server/players/IpBanList	net/minecraft/server/1_15_R1/IpBanList	net/minecraft/server/management/IPBanList	net/minecraft/class_3317
+net/minecraft/server/players/IpBanListEntry	net/minecraft/server/1_15_R1/IpBanEntry	net/minecraft/server/management/IPBanEntry	net/minecraft/class_3320
+net/minecraft/server/players/OldUsersConverter	net/minecraft/server/1_15_R1/NameReferencingFileConverter	net/minecraft/server/management/PreYggdrasilConverter	net/minecraft/class_3321
+net/minecraft/server/players/OldUsersConverter$1		net/minecraft/server/management/PreYggdrasilConverter$1	net/minecraft/class_3321$1
+net/minecraft/server/players/OldUsersConverter$2		net/minecraft/server/management/PreYggdrasilConverter$2	net/minecraft/class_3321$2
+net/minecraft/server/players/OldUsersConverter$3		net/minecraft/server/management/PreYggdrasilConverter$3	net/minecraft/class_3321$3
+net/minecraft/server/players/OldUsersConverter$4		net/minecraft/server/management/PreYggdrasilConverter$4	net/minecraft/class_3321$4
+net/minecraft/server/players/OldUsersConverter$5		net/minecraft/server/management/PreYggdrasilConverter$5	net/minecraft/class_3321$5
+net/minecraft/server/players/OldUsersConverter$ConversionError	net/minecraft/server/1_15_R1/NameReferencingFileConverter$FileConversionException	net/minecraft/server/management/PreYggdrasilConverter$ConversionError	net/minecraft/class_3321$class_3322
+net/minecraft/server/players/PlayerList	net/minecraft/server/1_15_R1/PlayerList	net/minecraft/server/management/PlayerList	net/minecraft/class_3324
+net/minecraft/server/players/PlayerList$1		net/minecraft/server/management/PlayerList$1	net/minecraft/class_3324$1
+net/minecraft/server/players/ServerOpList	net/minecraft/server/1_15_R1/OpList	net/minecraft/server/management/OpList	net/minecraft/class_3326
+net/minecraft/server/players/ServerOpListEntry	net/minecraft/server/1_15_R1/OpListEntry	net/minecraft/server/management/OpEntry	net/minecraft/class_3327
+net/minecraft/server/players/StoredUserEntry	net/minecraft/server/1_15_R1/JsonListEntry	net/minecraft/server/management/UserListEntry	net/minecraft/class_3330
+net/minecraft/server/players/StoredUserList	net/minecraft/server/1_15_R1/JsonList	net/minecraft/server/management/UserList	net/minecraft/class_3331
+net/minecraft/server/players/StoredUserList$1		net/minecraft/server/management/UserList$1	net/minecraft/class_3331$1
+net/minecraft/server/players/StoredUserList$Serializer	net/minecraft/server/1_15_R1/JsonList$JsonListEntrySerializer	net/minecraft/server/management/UserList$Serializer	net/minecraft/class_3331$class_3332
+net/minecraft/server/players/UserBanList	net/minecraft/server/1_15_R1/GameProfileBanList	net/minecraft/server/management/BanList	net/minecraft/class_3335
+net/minecraft/server/players/UserBanListEntry	net/minecraft/server/1_15_R1/GameProfileBanEntry	net/minecraft/server/management/ProfileBanEntry	net/minecraft/class_3336
+net/minecraft/server/players/UserWhiteList	net/minecraft/server/1_15_R1/WhiteList	net/minecraft/server/management/WhiteList	net/minecraft/class_3337
+net/minecraft/server/players/UserWhiteListEntry	net/minecraft/server/1_15_R1/WhiteListEntry	net/minecraft/server/management/WhitelistEntry	net/minecraft/class_3340
+net/minecraft/server/rcon/NetworkDataOutputStream	net/minecraft/server/1_15_R1/RemoteStatusReply	net/minecraft/network/rcon/RConOutputStream	net/minecraft/class_3345
+net/minecraft/server/rcon/PktUtils	net/minecraft/server/1_15_R1/StatusChallengeUtils	net/minecraft/network/rcon/RConUtils	net/minecraft/class_3347
+net/minecraft/server/rcon/RconConsoleSource	net/minecraft/server/1_15_R1/RemoteControlCommandListener	net/minecraft/network/rcon/RConConsoleSource	net/minecraft/class_3350
+net/minecraft/server/rcon/thread/GenericThread	net/minecraft/server/1_15_R1/RemoteConnectionThread	net/minecraft/network/rcon/RConThread	net/minecraft/class_3359
+net/minecraft/server/rcon/thread/QueryThreadGs4	net/minecraft/server/1_15_R1/RemoteStatusListener	net/minecraft/network/rcon/QueryThread	net/minecraft/class_3364
+net/minecraft/server/rcon/thread/QueryThreadGs4$RequestChallenge	net/minecraft/server/1_15_R1/RemoteStatusListener$RemoteStatusChallenge	net/minecraft/network/rcon/QueryThread$Auth	net/minecraft/class_3364$class_3365
+net/minecraft/server/rcon/thread/RconClient	net/minecraft/server/1_15_R1/RemoteControlSession	net/minecraft/network/rcon/ClientThread	net/minecraft/class_3389
+net/minecraft/server/rcon/thread/RconThread	net/minecraft/server/1_15_R1/RemoteControlListener	net/minecraft/network/rcon/MainThread	net/minecraft/class_3408
+net/minecraft/sounds/SoundEvent	net/minecraft/server/1_15_R1/SoundEffect	net/minecraft/util/SoundEvent	net/minecraft/class_3414
+net/minecraft/sounds/SoundEvents	net/minecraft/server/1_15_R1/SoundEffects	net/minecraft/util/SoundEvents	net/minecraft/class_3417
+net/minecraft/sounds/SoundSource	net/minecraft/server/1_15_R1/SoundCategory	net/minecraft/util/SoundCategory	net/minecraft/class_3419
+net/minecraft/stats/RecipeBook	net/minecraft/server/1_15_R1/RecipeBook	net/minecraft/item/crafting/RecipeBook	net/minecraft/class_3439
+net/minecraft/stats/ServerRecipeBook	net/minecraft/server/1_15_R1/RecipeBookServer	net/minecraft/item/crafting/ServerRecipeBook	net/minecraft/class_3441
+net/minecraft/stats/ServerStatsCounter	net/minecraft/server/1_15_R1/ServerStatisticManager	net/minecraft/stats/ServerStatisticsManager	net/minecraft/class_3442
+net/minecraft/stats/Stat	net/minecraft/server/1_15_R1/Statistic	net/minecraft/stats/Stat	net/minecraft/class_3445
+net/minecraft/stats/StatFormatter	net/minecraft/server/1_15_R1/Counter	net/minecraft/stats/IStatFormatter	net/minecraft/class_3446
+net/minecraft/stats/StatType	net/minecraft/server/1_15_R1/StatisticWrapper	net/minecraft/stats/StatType	net/minecraft/class_3448
+net/minecraft/stats/Stats	net/minecraft/server/1_15_R1/StatisticList	net/minecraft/stats/Stats	net/minecraft/class_3468
+net/minecraft/stats/StatsCounter	net/minecraft/server/1_15_R1/StatisticManager	net/minecraft/stats/StatisticsManager	net/minecraft/class_3469
+net/minecraft/tags/BlockTags	net/minecraft/server/1_15_R1/TagsBlock	net/minecraft/tags/BlockTags	net/minecraft/class_3481
+net/minecraft/tags/BlockTags$Wrapper		net/minecraft/tags/BlockTags$Wrapper	net/minecraft/class_3481$class_3482
+net/minecraft/tags/EntityTypeTags	net/minecraft/server/1_15_R1/TagsEntity	net/minecraft/tags/EntityTypeTags	net/minecraft/class_3483
+net/minecraft/tags/EntityTypeTags$Wrapper		net/minecraft/tags/EntityTypeTags$Wrapper	net/minecraft/class_3483$class_3484
+net/minecraft/tags/FluidTags	net/minecraft/server/1_15_R1/TagsFluid	net/minecraft/tags/FluidTags	net/minecraft/class_3486
+net/minecraft/tags/FluidTags$Wrapper		net/minecraft/tags/FluidTags$Wrapper	net/minecraft/class_3486$class_3487
+net/minecraft/tags/ItemTags	net/minecraft/server/1_15_R1/TagsItem	net/minecraft/tags/ItemTags	net/minecraft/class_3489
+net/minecraft/tags/ItemTags$Wrapper		net/minecraft/tags/ItemTags$Wrapper	net/minecraft/class_3489$class_3490
+net/minecraft/tags/SynchronizableTagCollection	net/minecraft/server/1_15_R1/TagsServer	net/minecraft/tags/NetworkTagCollection	net/minecraft/class_3493
+net/minecraft/tags/Tag	net/minecraft/server/1_15_R1/Tag	net/minecraft/tags/Tag	net/minecraft/class_3494
+net/minecraft/tags/Tag$Builder		net/minecraft/tags/Tag$Builder	net/minecraft/class_3494$class_3495
+net/minecraft/tags/Tag$Entry		net/minecraft/tags/Tag$ITagEntry	net/minecraft/class_3494$class_3496
+net/minecraft/tags/Tag$TagEntry		net/minecraft/tags/Tag$TagEntry	net/minecraft/class_3494$class_3497
+net/minecraft/tags/Tag$ValuesEntry		net/minecraft/tags/Tag$ListEntry	net/minecraft/class_3494$class_3498
+net/minecraft/tags/TagCollection	net/minecraft/server/1_15_R1/Tags	net/minecraft/tags/TagCollection	net/minecraft/class_3503
+net/minecraft/tags/TagManager	net/minecraft/server/1_15_R1/TagRegistry	net/minecraft/tags/NetworkTagManager	net/minecraft/class_3505
+net/minecraft/tags/TagManager$Preparations		net/minecraft/tags/NetworkTagManager$ReloadResults	net/minecraft/class_3505$class_4015
+net/minecraft/util/BitStorage	net/minecraft/server/1_15_R1/DataBits	net/minecraft/util/BitArray	net/minecraft/class_3508
+net/minecraft/util/ClassInstanceMultiMap	net/minecraft/server/1_15_R1/EntitySlice	net/minecraft/util/ClassInheritanceMultiMap	net/minecraft/class_3509
+net/minecraft/util/CrudeIncrementalIntIdentityHashBiMap	net/minecraft/server/1_15_R1/RegistryID	net/minecraft/util/IntIdentityHashBiMap	net/minecraft/class_3513
+net/minecraft/util/Crypt	net/minecraft/server/1_15_R1/MinecraftEncryption	net/minecraft/util/CryptManager	net/minecraft/class_3515
+net/minecraft/util/CsvOutput	net/minecraft/server/1_15_R1/CSVWriter	net/minecraft/util/CSVWriter	net/minecraft/class_4456
+net/minecraft/util/CsvOutput$Builder		net/minecraft/util/CSVWriter$Builder	net/minecraft/class_4456$class_4457
+net/minecraft/util/Deserializer	net/minecraft/server/1_15_R1/DynamicDeserializer	net/minecraft/util/IDynamicDeserializer	net/minecraft/class_3817
+net/minecraft/util/FrameTimer	net/minecraft/server/1_15_R1/CircularTimer	net/minecraft/util/FrameTimer	net/minecraft/class_3517
+net/minecraft/util/GsonHelper	net/minecraft/server/1_15_R1/ChatDeserializer	net/minecraft/util/JSONUtils	net/minecraft/class_3518
+net/minecraft/util/HttpUtil	net/minecraft/server/1_15_R1/HttpUtilities	net/minecraft/util/HTTPUtil	net/minecraft/class_3521
+net/minecraft/util/InsensitiveStringMap	net/minecraft/server/1_15_R1/InsensitiveStringMap	net/minecraft/util/LowerStringMap	net/minecraft/class_3522
+net/minecraft/util/LazyLoadedValue	net/minecraft/server/1_15_R1/LazyInitVar	net/minecraft/util/LazyValue	net/minecraft/class_3528
+net/minecraft/util/LinearCongruentialGenerator	net/minecraft/server/1_15_R1/LinearCongruentialGenerator	net/minecraft/util/FastRandom	net/minecraft/class_4540
+net/minecraft/util/LowerCaseEnumTypeAdapterFactory	net/minecraft/server/1_15_R1/ChatTypeAdapterFactory	net/minecraft/util/EnumTypeAdapterFactory	net/minecraft/class_3530
+net/minecraft/util/LowerCaseEnumTypeAdapterFactory$1		net/minecraft/util/EnumTypeAdapterFactory$1	net/minecraft/class_3530$1
+net/minecraft/util/Mth	net/minecraft/server/1_15_R1/MathHelper	net/minecraft/util/math/MathHelper	net/minecraft/class_3532
+net/minecraft/util/ProgressListener	net/minecraft/server/1_15_R1/IProgressUpdate	net/minecraft/util/IProgressUpdate	net/minecraft/class_3536
+net/minecraft/util/RewindableStream	net/minecraft/server/1_15_R1/StreamAccumulator	net/minecraft/util/ReuseableStream	net/minecraft/class_3538
+net/minecraft/util/RewindableStream$1		net/minecraft/util/ReuseableStream$1	net/minecraft/class_3538$1
+net/minecraft/util/Serializable	net/minecraft/server/1_15_R1/MinecraftSerializable	net/minecraft/util/IDynamicSerializable	net/minecraft/class_4213
+net/minecraft/util/SortedArraySet	net/minecraft/server/1_15_R1/ArraySetSorted	net/minecraft/util/SortedArraySet	net/minecraft/class_4706
+net/minecraft/util/SortedArraySet$ArrayIterator		net/minecraft/util/SortedArraySet$Itr	net/minecraft/class_4706$class_4707
+net/minecraft/util/StringRepresentable	net/minecraft/server/1_15_R1/INamable	net/minecraft/util/IStringSerializable	net/minecraft/class_3542
+net/minecraft/util/StringUtil	net/minecraft/server/1_15_R1/UtilColor	net/minecraft/util/StringUtils	net/minecraft/class_3544
+net/minecraft/util/Tuple	net/minecraft/server/1_15_R1/Tuple	net/minecraft/util/Tuple	net/minecraft/class_3545
+net/minecraft/util/Unit	net/minecraft/server/1_15_R1/Unit	net/minecraft/util/Unit	net/minecraft/class_3902
+net/minecraft/util/WeighedRandom	net/minecraft/server/1_15_R1/WeightedRandom	net/minecraft/util/WeightedRandom	net/minecraft/class_3549
+net/minecraft/util/WeighedRandom$WeighedRandomItem	net/minecraft/server/1_15_R1/WeightedRandom$WeightedRandomChoice	net/minecraft/util/WeightedRandom$Item	net/minecraft/class_3549$class_3550
+net/minecraft/util/datafix/DataFixTypes	net/minecraft/server/1_15_R1/DataFixTypes	net/minecraft/util/datafix/DefaultTypeReferences	net/minecraft/class_4284
+net/minecraft/util/datafix/DataFixers	net/minecraft/server/1_15_R1/DataConverterRegistry	net/minecraft/util/datafix/DataFixesManager	net/minecraft/class_3551
+net/minecraft/util/datafix/DataFixers$1		net/minecraft/util/datafix/DataFixesManager$1	net/minecraft/class_3551$1
+net/minecraft/util/datafix/DataFixers$2		net/minecraft/util/datafix/DataFixesManager$2	net/minecraft/class_3551$2
+net/minecraft/util/datafix/OminousBannerBlockEntityRenameFix	net/minecraft/server/1_15_R1/DataConverterOminousBannerBlockEntityRename	net/minecraft/util/datafix/fixes/OminousBannerTileEntityRenameFix	net/minecraft/class_4299
+net/minecraft/util/datafix/OminousBannerRenameFix	net/minecraft/server/1_15_R1/DataConverterOminousBannerRename	net/minecraft/util/datafix/fixes/OminousBannerRenameFix	net/minecraft/class_4294
+net/minecraft/util/datafix/fixes/AddNewChoices	net/minecraft/server/1_15_R1/DataConverterAddChoices	net/minecraft/util/datafix/fixes/AddNewChoices	net/minecraft/class_3553
+net/minecraft/util/datafix/fixes/AdvancementsFix	net/minecraft/server/1_15_R1/DataConverterAdvancement	net/minecraft/util/datafix/fixes/AdvancementRenamer1501	net/minecraft/class_3555
+net/minecraft/util/datafix/fixes/AdvancementsRenameFix	net/minecraft/server/1_15_R1/DataConverterAdvancementBase	net/minecraft/util/datafix/fixes/AdvancementRenamer	net/minecraft/class_4744
+net/minecraft/util/datafix/fixes/BedBlockEntityInjecter	net/minecraft/server/1_15_R1/DataConverterBedBlock	net/minecraft/util/datafix/fixes/AddBedTileEntity	net/minecraft/class_3557
+net/minecraft/util/datafix/fixes/BedItemColorFix	net/minecraft/server/1_15_R1/DataConverterBedItem	net/minecraft/util/datafix/fixes/BedItemColor	net/minecraft/class_3559
+net/minecraft/util/datafix/fixes/BeehivePoiRenameFix	net/minecraft/server/1_15_R1/DataConverterBeehive	net/minecraft/util/datafix/fixes/RenameBeehivePointOfInterest	net/minecraft/class_4619
+net/minecraft/util/datafix/fixes/BiomeFix	net/minecraft/server/1_15_R1/DataConverterBiome	net/minecraft/util/datafix/fixes/BiomeRenames	net/minecraft/class_3561
+net/minecraft/util/datafix/fixes/BlockEntityBannerColorFix	net/minecraft/server/1_15_R1/DataConverterBannerColour	net/minecraft/util/datafix/fixes/BlockEntityBannerColor	net/minecraft/class_3564
+net/minecraft/util/datafix/fixes/BlockEntityBlockStateFix	net/minecraft/server/1_15_R1/DataConverterPiston	net/minecraft/util/datafix/fixes/PistonPushedBlock	net/minecraft/class_3566
+net/minecraft/util/datafix/fixes/BlockEntityCustomNameToComponentFix	net/minecraft/server/1_15_R1/DataConverterCustomNameTile	net/minecraft/util/datafix/fixes/CustomNameStringToComponentFixTileEntity	net/minecraft/class_3567
+net/minecraft/util/datafix/fixes/BlockEntityIdFix	net/minecraft/server/1_15_R1/DataConverterTileEntity	net/minecraft/util/datafix/fixes/TileEntityId	net/minecraft/class_3571
+net/minecraft/util/datafix/fixes/BlockEntityJukeboxFix	net/minecraft/server/1_15_R1/DataConverterJukeBox	net/minecraft/util/datafix/fixes/JukeboxRecordItem	net/minecraft/class_3573
+net/minecraft/util/datafix/fixes/BlockEntityKeepPacked	net/minecraft/server/1_15_R1/DataConverterBlockEntityKeepPacked	net/minecraft/util/datafix/fixes/BlockEntityKeepPacked	net/minecraft/class_3574
+net/minecraft/util/datafix/fixes/BlockEntityShulkerBoxColorFix	net/minecraft/server/1_15_R1/DataConverterShulkerBoxBlock	net/minecraft/util/datafix/fixes/ShulkerBoxTileColor	net/minecraft/class_3575
+net/minecraft/util/datafix/fixes/BlockEntitySignTextStrictJsonFix	net/minecraft/server/1_15_R1/DataConverterSignText	net/minecraft/util/datafix/fixes/SignStrictJSON	net/minecraft/class_3577
+net/minecraft/util/datafix/fixes/BlockEntitySignTextStrictJsonFix$1		net/minecraft/util/datafix/fixes/SignStrictJSON$1	net/minecraft/class_3577$1
+net/minecraft/util/datafix/fixes/BlockNameFlatteningFix	net/minecraft/server/1_15_R1/DataConverterBlockName	net/minecraft/util/datafix/fixes/BlockNameFlattening	net/minecraft/class_3578
+net/minecraft/util/datafix/fixes/BlockRenameFix	net/minecraft/server/1_15_R1/DataConverterBlockRename	net/minecraft/util/datafix/fixes/BlockRename	net/minecraft/class_3579
+net/minecraft/util/datafix/fixes/BlockRenameFix$1		net/minecraft/util/datafix/fixes/BlockRename$1	net/minecraft/class_3579$1
+net/minecraft/util/datafix/fixes/BlockStateData	net/minecraft/server/1_15_R1/DataConverterFlattenData	net/minecraft/util/datafix/fixes/BlockStateFlatteningMap	net/minecraft/class_3580
+net/minecraft/util/datafix/fixes/BlockStateStructureTemplateFix	net/minecraft/server/1_15_R1/DataConverterFlattenState	net/minecraft/util/datafix/fixes/BlockStateFlattenStructures	net/minecraft/class_3581
+net/minecraft/util/datafix/fixes/CatTypeFix	net/minecraft/server/1_15_R1/DataConverterCatType	net/minecraft/util/datafix/fixes/CatTypeFix	net/minecraft/class_3903
+net/minecraft/util/datafix/fixes/ChunkBiomeFix	net/minecraft/server/1_15_R1/DataConverterLeavesBiome	net/minecraft/util/datafix/fixes/BiomeIdFix	net/minecraft/class_4541
+net/minecraft/util/datafix/fixes/ChunkLightRemoveFix	net/minecraft/server/1_15_R1/DataConverterChunkLightRemove	net/minecraft/util/datafix/fixes/ChunkLightRemoveFix	net/minecraft/class_3755
+net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix	net/minecraft/server/1_15_R1/ChunkConverterPalette	net/minecraft/util/datafix/fixes/ChunkPaletteFormat	net/minecraft/class_3582
+net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$DataLayer		net/minecraft/util/datafix/fixes/ChunkPaletteFormat$NibbleArray	net/minecraft/class_3582$class_3583
+net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction	net/minecraft/server/1_15_R1/ChunkConverterPalette$Direction	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Direction	net/minecraft/class_3582$class_3584
+net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction$Axis	net/minecraft/server/1_15_R1/ChunkConverterPalette$Direction$Axis	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Direction$Axis	net/minecraft/class_3582$class_3584$class_3585
+net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction$AxisDirection	net/minecraft/server/1_15_R1/ChunkConverterPalette$Direction$AxisDirection	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Direction$Offset	net/minecraft/class_3582$class_3584$class_3586
+net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Section		net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Section	net/minecraft/class_3582$class_3587
+net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$UpgradeChunk		net/minecraft/util/datafix/fixes/ChunkPaletteFormat$UpgradeChunk	net/minecraft/class_3582$class_3588
+net/minecraft/util/datafix/fixes/ChunkStatusFix	net/minecraft/server/1_15_R1/DataConverterChunkStatus	net/minecraft/util/datafix/fixes/ChunkStatusFix	net/minecraft/class_3589
+net/minecraft/util/datafix/fixes/ChunkStatusFix2	net/minecraft/server/1_15_R1/DataConverterChunkStatus2	net/minecraft/util/datafix/fixes/ChunkStatusFix2	net/minecraft/class_3788
+net/minecraft/util/datafix/fixes/ChunkStructuresTemplateRenameFix	net/minecraft/server/1_15_R1/DataConverterChunkStructuresTemplateRename	net/minecraft/util/datafix/fixes/ChunkStructuresTemplateRenameFix	net/minecraft/class_3590
+net/minecraft/util/datafix/fixes/ChunkToProtochunkFix	net/minecraft/server/1_15_R1/DataConverterProtoChunk	net/minecraft/util/datafix/fixes/ChunkGenStatus	net/minecraft/class_3591
+net/minecraft/util/datafix/fixes/ColorlessShulkerEntityFix	net/minecraft/server/1_15_R1/DataConverterColorlessShulkerEntity	net/minecraft/util/datafix/fixes/ColorlessShulkerEntityFix	net/minecraft/class_3592
+net/minecraft/util/datafix/fixes/DyeItemRenameFix	net/minecraft/server/1_15_R1/DataConverterDye	net/minecraft/util/datafix/fixes/DyeRenameMap	net/minecraft/class_3593
+net/minecraft/util/datafix/fixes/EntityArmorStandSilentFix	net/minecraft/server/1_15_R1/DataConverterArmorStand	net/minecraft/util/datafix/fixes/ArmorStandSilent	net/minecraft/class_3594
+net/minecraft/util/datafix/fixes/EntityBlockStateFix	net/minecraft/server/1_15_R1/DataConverterEntityBlockState	net/minecraft/util/datafix/fixes/BlockStateFlatternEntities	net/minecraft/class_3595
+net/minecraft/util/datafix/fixes/EntityCatSplitFix	net/minecraft/server/1_15_R1/DataConverterEntityCatSplit	net/minecraft/util/datafix/fixes/EntityCatSplitFix	net/minecraft/class_3725
+net/minecraft/util/datafix/fixes/EntityCodSalmonFix	net/minecraft/server/1_15_R1/DataConverterEntityCodSalmon	net/minecraft/util/datafix/fixes/EntityCodSalmonFix	net/minecraft/class_3596
+net/minecraft/util/datafix/fixes/EntityCustomNameToComponentFix	net/minecraft/server/1_15_R1/DataConverterCustomNameEntity	net/minecraft/util/datafix/fixes/CustomNameStringToComponentEntity	net/minecraft/class_3597
+net/minecraft/util/datafix/fixes/EntityElderGuardianSplitFix	net/minecraft/server/1_15_R1/DataConverterGuardian	net/minecraft/util/datafix/fixes/ElderGuardianSplit	net/minecraft/class_3598
+net/minecraft/util/datafix/fixes/EntityEquipmentToArmorAndHandFix	net/minecraft/server/1_15_R1/DataConverterEquipment	net/minecraft/util/datafix/fixes/EntityArmorAndHeld	net/minecraft/class_3599
+net/minecraft/util/datafix/fixes/EntityHealthFix	net/minecraft/server/1_15_R1/DataConverterHealth	net/minecraft/util/datafix/fixes/EntityHealth	net/minecraft/class_3600
+net/minecraft/util/datafix/fixes/EntityHorseSaddleFix	net/minecraft/server/1_15_R1/DataConverterSaddle	net/minecraft/util/datafix/fixes/HorseSaddle	net/minecraft/class_3601
+net/minecraft/util/datafix/fixes/EntityHorseSplitFix	net/minecraft/server/1_15_R1/DataConverterHorse	net/minecraft/util/datafix/fixes/HorseSplit	net/minecraft/class_3602
+net/minecraft/util/datafix/fixes/EntityIdFix	net/minecraft/server/1_15_R1/DataConverterEntity	net/minecraft/util/datafix/fixes/EntityId	net/minecraft/class_3603
+net/minecraft/util/datafix/fixes/EntityItemFrameDirectionFix	net/minecraft/server/1_15_R1/DataConverterItemFrame	net/minecraft/util/datafix/fixes/EntityItemFrameFacing	net/minecraft/class_3604
+net/minecraft/util/datafix/fixes/EntityMinecartIdentifiersFix	net/minecraft/server/1_15_R1/DataConverterMinecart	net/minecraft/util/datafix/fixes/MinecartEntityTypes	net/minecraft/class_3605
+net/minecraft/util/datafix/fixes/EntityPaintingItemFrameDirectionFix	net/minecraft/server/1_15_R1/DataConverterHanging	net/minecraft/util/datafix/fixes/PaintingDirection	net/minecraft/class_3606
+net/minecraft/util/datafix/fixes/EntityPaintingMotiveFix	net/minecraft/server/1_15_R1/DataConverterPainting	net/minecraft/util/datafix/fixes/PaintingMotive	net/minecraft/class_3607
+net/minecraft/util/datafix/fixes/EntityPufferfishRenameFix	net/minecraft/server/1_15_R1/DataConverterEntityPufferfish	net/minecraft/util/datafix/fixes/PufferfishRename	net/minecraft/class_3608
+net/minecraft/util/datafix/fixes/EntityRavagerRenameFix	net/minecraft/server/1_15_R1/DataConverterEntityRavagerRename	net/minecraft/util/datafix/fixes/EntityRavagerRenameFix	net/minecraft/class_3983
+net/minecraft/util/datafix/fixes/EntityRedundantChanceTagsFix	net/minecraft/server/1_15_R1/DataConverterDropChances	net/minecraft/util/datafix/fixes/RedundantChanceTags	net/minecraft/class_1165
+net/minecraft/util/datafix/fixes/EntityRenameFix	net/minecraft/server/1_15_R1/DataConverterEntityName	net/minecraft/util/datafix/fixes/EntityRename	net/minecraft/class_1167
+net/minecraft/util/datafix/fixes/EntityRidingToPassengersFix	net/minecraft/server/1_15_R1/DataConverterRiding	net/minecraft/util/datafix/fixes/RidingToPassengers	net/minecraft/class_1166
+net/minecraft/util/datafix/fixes/EntityShulkerColorFix	net/minecraft/server/1_15_R1/DataConverterShulker	net/minecraft/util/datafix/fixes/ShulkerBoxEntityColor	net/minecraft/class_1169
+net/minecraft/util/datafix/fixes/EntitySkeletonSplitFix	net/minecraft/server/1_15_R1/DataConverterSkeleton	net/minecraft/util/datafix/fixes/SkeletonSplit	net/minecraft/class_1168
+net/minecraft/util/datafix/fixes/EntityStringUuidFix	net/minecraft/server/1_15_R1/DataConverterUUID	net/minecraft/util/datafix/fixes/StringToUUID	net/minecraft/class_1171
+net/minecraft/util/datafix/fixes/EntityTheRenameningFix	net/minecraft/server/1_15_R1/DataConverterEntityRename	net/minecraft/util/datafix/fixes/EntityRenaming1510	net/minecraft/class_1170
+net/minecraft/util/datafix/fixes/EntityTippedArrowFix	net/minecraft/server/1_15_R1/DataConverterEntityTippedArrow	net/minecraft/util/datafix/fixes/TippedArrow	net/minecraft/class_1173
+net/minecraft/util/datafix/fixes/EntityWolfColorFix	net/minecraft/server/1_15_R1/DataConverterWolf	net/minecraft/util/datafix/fixes/WolfCollarColor	net/minecraft/class_1172
+net/minecraft/util/datafix/fixes/EntityZombieSplitFix	net/minecraft/server/1_15_R1/DataConverterZombieType	net/minecraft/util/datafix/fixes/ZombieSplit	net/minecraft/class_1175
+net/minecraft/util/datafix/fixes/EntityZombieVillagerTypeFix	net/minecraft/server/1_15_R1/DataConverterZombie	net/minecraft/util/datafix/fixes/ZombieProfToType	net/minecraft/class_1174
+net/minecraft/util/datafix/fixes/ForcePoiRebuild	net/minecraft/server/1_15_R1/DataConverterPOIRebuild	net/minecraft/util/datafix/fixes/PointOfInterestRebuild	net/minecraft/class_4731
+net/minecraft/util/datafix/fixes/HeightmapRenamingFix	net/minecraft/server/1_15_R1/DataConverterHeightmapRenaming	net/minecraft/util/datafix/fixes/HeightmapRenamingFix	net/minecraft/class_1177
+net/minecraft/util/datafix/fixes/IglooMetadataRemovalFix	net/minecraft/server/1_15_R1/DataConverterIglooMetadataRemoval	net/minecraft/util/datafix/fixes/IglooMetadataRemoval	net/minecraft/class_1176
+net/minecraft/util/datafix/fixes/ItemBannerColorFix	net/minecraft/server/1_15_R1/DataConverterBanner	net/minecraft/util/datafix/fixes/BannerItemColor	net/minecraft/class_1179
+net/minecraft/util/datafix/fixes/ItemCustomNameToComponentFix	net/minecraft/server/1_15_R1/DataConverterCustomNameItem	net/minecraft/util/datafix/fixes/CustomNameStringToComponentItem	net/minecraft/class_1178
+net/minecraft/util/datafix/fixes/ItemIdFix	net/minecraft/server/1_15_R1/DataConverterMaterialId	net/minecraft/util/datafix/fixes/ItemIntIDToString	net/minecraft/class_1181
+net/minecraft/util/datafix/fixes/ItemLoreFix	net/minecraft/server/1_15_R1/DataConverterItemLoreComponentize	net/minecraft/util/datafix/fixes/ItemLoreComponentizeFix	net/minecraft/class_1180
+net/minecraft/util/datafix/fixes/ItemPotionFix	net/minecraft/server/1_15_R1/DataConverterPotionId	net/minecraft/util/datafix/fixes/PotionItems	net/minecraft/class_1183
+net/minecraft/util/datafix/fixes/ItemRenameFix	net/minecraft/server/1_15_R1/DataConverterItemName	net/minecraft/util/datafix/fixes/ItemRename	net/minecraft/class_1182
+net/minecraft/util/datafix/fixes/ItemRenameFix$1		net/minecraft/util/datafix/fixes/ItemRename$1	net/minecraft/class_1182$1
+net/minecraft/util/datafix/fixes/ItemShulkerBoxColorFix	net/minecraft/server/1_15_R1/DataConverterShulkerBoxItem	net/minecraft/util/datafix/fixes/ShulkerBoxItemColor	net/minecraft/class_1185
+net/minecraft/util/datafix/fixes/ItemSpawnEggFix	net/minecraft/server/1_15_R1/DataConverterSpawnEgg	net/minecraft/util/datafix/fixes/SpawnEggNames	net/minecraft/class_1184
+net/minecraft/util/datafix/fixes/ItemStackEnchantmentNamesFix	net/minecraft/server/1_15_R1/DataConverterItemStackEnchantment	net/minecraft/util/datafix/fixes/ItemStackEnchantmentFix	net/minecraft/class_1187
+net/minecraft/util/datafix/fixes/ItemStackMapIdFix	net/minecraft/server/1_15_R1/DataConverterMap	net/minecraft/util/datafix/fixes/ItemFilledMapMetadata	net/minecraft/class_1186
+net/minecraft/util/datafix/fixes/ItemStackSpawnEggFix	net/minecraft/server/1_15_R1/DataConverterFlattenSpawnEgg	net/minecraft/util/datafix/fixes/ItemSpawnEggSplit	net/minecraft/class_1189
+net/minecraft/util/datafix/fixes/ItemStackTheFlatteningFix	net/minecraft/server/1_15_R1/DataConverterFlatten	net/minecraft/util/datafix/fixes/ItemStackDataFlattening	net/minecraft/class_1188
+net/minecraft/util/datafix/fixes/ItemWaterPotionFix	net/minecraft/server/1_15_R1/DataConverterPotionWater	net/minecraft/util/datafix/fixes/PotionWater	net/minecraft/class_1190
+net/minecraft/util/datafix/fixes/ItemWrittenBookPagesStrictJsonFix	net/minecraft/server/1_15_R1/DataConverterBook	net/minecraft/util/datafix/fixes/BookPagesStrictJSON	net/minecraft/class_1194
+net/minecraft/util/datafix/fixes/LeavesFix	net/minecraft/server/1_15_R1/DataConverterLeaves	net/minecraft/util/datafix/fixes/LeavesFix	net/minecraft/class_1191
+net/minecraft/util/datafix/fixes/LeavesFix$LeavesSection		net/minecraft/util/datafix/fixes/LeavesFix$LeavesSection	net/minecraft/class_1191$class_1192
+net/minecraft/util/datafix/fixes/LeavesFix$Section		net/minecraft/util/datafix/fixes/LeavesFix$Section	net/minecraft/class_1191$class_1193
+net/minecraft/util/datafix/fixes/LevelDataGeneratorOptionsFix	net/minecraft/server/1_15_R1/DataConverterLevelDataGeneratorOptions	net/minecraft/util/datafix/fixes/LevelDataGeneratorOptionsFix	net/minecraft/class_1196
+net/minecraft/util/datafix/fixes/LevelFlatGeneratorInfoFix	net/minecraft/server/1_15_R1/DataConverterWorldGenSettings	net/minecraft/util/datafix/fixes/BlockStateFlattenGenOptions	net/minecraft/class_1195
+net/minecraft/util/datafix/fixes/MapIdFix	net/minecraft/server/1_15_R1/DataConverterMapId	net/minecraft/util/datafix/fixes/MapIdFix	net/minecraft/class_3970
+net/minecraft/util/datafix/fixes/MobSpawnerEntityIdentifiersFix	net/minecraft/server/1_15_R1/DataConverterMobSpawner	net/minecraft/util/datafix/fixes/SpawnerEntityTypes	net/minecraft/class_1198
+net/minecraft/util/datafix/fixes/NamedEntityFix	net/minecraft/server/1_15_R1/DataConverterNamedEntity	net/minecraft/util/datafix/fixes/NamedEntityFix	net/minecraft/class_1197
+net/minecraft/util/datafix/fixes/NewVillageFix	net/minecraft/server/1_15_R1/DataConverterNewVillage	net/minecraft/util/datafix/fixes/NewVillageFix	net/minecraft/class_3904
+net/minecraft/util/datafix/fixes/ObjectiveDisplayNameFix	net/minecraft/server/1_15_R1/DataConverterObjectiveDisplayName	net/minecraft/util/datafix/fixes/ObjectiveDisplayName	net/minecraft/class_1200
+net/minecraft/util/datafix/fixes/ObjectiveRenderTypeFix	net/minecraft/server/1_15_R1/DataConverterObjectiveRenderType	net/minecraft/util/datafix/fixes/ObjectiveRenderType	net/minecraft/class_1199
+net/minecraft/util/datafix/fixes/OptionsAddTextBackgroundFix	net/minecraft/server/1_15_R1/DataConverterOptionsAddTextBackground	net/minecraft/util/datafix/fixes/OptionsAddTextBackgroundFix	net/minecraft/class_4092
+net/minecraft/util/datafix/fixes/OptionsForceVBOFix	net/minecraft/server/1_15_R1/DataConverterVBO	net/minecraft/util/datafix/fixes/ForceVBOOn	net/minecraft/class_1202
+net/minecraft/util/datafix/fixes/OptionsKeyLwjgl3Fix	net/minecraft/server/1_15_R1/DataConverterKeybind	net/minecraft/util/datafix/fixes/LWJGL3KeyOptions	net/minecraft/class_1201
+net/minecraft/util/datafix/fixes/OptionsKeyTranslationFix	net/minecraft/server/1_15_R1/DataConverterKeybind2	net/minecraft/util/datafix/fixes/KeyOptionsTranslation	net/minecraft/class_1204
+net/minecraft/util/datafix/fixes/OptionsLowerCaseLanguageFix	net/minecraft/server/1_15_R1/DataConverterLang	net/minecraft/util/datafix/fixes/OptionsLowerCaseLanguage	net/minecraft/class_1203
+net/minecraft/util/datafix/fixes/PoiTypeRename	net/minecraft/server/1_15_R1/DataConverterPOIRename	net/minecraft/util/datafix/fixes/PointOfInterestRename	net/minecraft/class_4620
+net/minecraft/util/datafix/fixes/RecipesFix	net/minecraft/server/1_15_R1/DataConverterRecipes	net/minecraft/util/datafix/fixes/RecipeRenamer1502	net/minecraft/class_1206
+net/minecraft/util/datafix/fixes/RecipesRenameFix	net/minecraft/server/1_15_R1/DataConverterRecipeBase	net/minecraft/util/datafix/fixes/RecipeRenamer	net/minecraft/class_4745
+net/minecraft/util/datafix/fixes/RecipesRenameningFix	net/minecraft/server/1_15_R1/DataConverterRecipeRename	net/minecraft/util/datafix/fixes/RecipeRenamer1510	net/minecraft/class_1205
+net/minecraft/util/datafix/fixes/References	net/minecraft/server/1_15_R1/DataConverterTypes	net/minecraft/util/datafix/TypeReferences	net/minecraft/class_1208
+net/minecraft/util/datafix/fixes/RenamedCoralFansFix	net/minecraft/server/1_15_R1/DataConverterCoralFan	net/minecraft/util/datafix/fixes/CoralFansRenameList	net/minecraft/class_1207
+net/minecraft/util/datafix/fixes/RenamedCoralFix	net/minecraft/server/1_15_R1/DataConverterCoral	net/minecraft/util/datafix/fixes/RenamedCoral	net/minecraft/class_1210
+net/minecraft/util/datafix/fixes/ReorganizePoi	net/minecraft/server/1_15_R1/DataConverterPOI	net/minecraft/util/datafix/fixes/PointOfInterestReorganizationFix	net/minecraft/class_4285
+net/minecraft/util/datafix/fixes/SavedDataVillageCropFix	net/minecraft/server/1_15_R1/DataConverterVillage	net/minecraft/util/datafix/fixes/BlockStateFlattenVillageCrops	net/minecraft/class_1209
+net/minecraft/util/datafix/fixes/SimpleEntityRenameFix	net/minecraft/server/1_15_R1/DataConverterEntityNameAbstract	net/minecraft/util/datafix/fixes/EntityRenameHelper	net/minecraft/class_1212
+net/minecraft/util/datafix/fixes/SimplestEntityRenameFix	net/minecraft/server/1_15_R1/DataConverterEntityRenameAbstract	net/minecraft/util/datafix/fixes/TypedEntityRenameHelper	net/minecraft/class_1211
+net/minecraft/util/datafix/fixes/StatsCounterFix	net/minecraft/server/1_15_R1/DataConverterStatistic	net/minecraft/util/datafix/fixes/StatsRenaming	net/minecraft/class_1214
+net/minecraft/util/datafix/fixes/StructureReferenceCountFix	net/minecraft/server/1_15_R1/DataConverterStructureReference	net/minecraft/util/datafix/fixes/StructureReferenceFix	net/minecraft/class_4695
+net/minecraft/util/datafix/fixes/SwimStatsRenameFix	net/minecraft/server/1_15_R1/DataConverterSwimStats	net/minecraft/util/datafix/fixes/SwimStatsRename	net/minecraft/class_1213
+net/minecraft/util/datafix/fixes/TeamDisplayNameFix	net/minecraft/server/1_15_R1/DataConverterTeamDisplayName	net/minecraft/util/datafix/fixes/TeamDisplayName	net/minecraft/class_1217
+net/minecraft/util/datafix/fixes/TrappedChestBlockEntityFix	net/minecraft/server/1_15_R1/DataConverterTrappedChest	net/minecraft/util/datafix/fixes/TrappedChestTileEntitySplit	net/minecraft/class_1215
+net/minecraft/util/datafix/fixes/TrappedChestBlockEntityFix$TrappedChestSection		net/minecraft/util/datafix/fixes/TrappedChestTileEntitySplit$Section	net/minecraft/class_1215$class_1216
+net/minecraft/util/datafix/fixes/VillagerDataFix	net/minecraft/server/1_15_R1/DataConverterVillagerProfession	net/minecraft/util/datafix/fixes/VillagerProfessionFix	net/minecraft/class_3845
+net/minecraft/util/datafix/fixes/VillagerRebuildLevelAndXpFix	net/minecraft/server/1_15_R1/DataConverterVillagerLevelXp	net/minecraft/util/datafix/fixes/VillagerLevelAndXpFix	net/minecraft/class_4300
+net/minecraft/util/datafix/fixes/VillagerTradeFix	net/minecraft/server/1_15_R1/DataConverterVillagerTrade	net/minecraft/util/datafix/fixes/VillagerTrades	net/minecraft/class_1219
+net/minecraft/util/datafix/fixes/WriteAndReadFix	net/minecraft/server/1_15_R1/DataConverterShoulderEntity	net/minecraft/util/datafix/WriteAndReadDataFix	net/minecraft/class_1218
+net/minecraft/util/datafix/fixes/ZombieVillagerRebuildXpFix	net/minecraft/server/1_15_R1/DataConverterZombieVillagerLevelXp	net/minecraft/util/datafix/fixes/ZombieVillagerXpFix	net/minecraft/class_4301
+net/minecraft/util/datafix/schemas/NamespacedSchema	net/minecraft/server/1_15_R1/DataConverterSchemaNamed	net/minecraft/util/datafix/NamespacedSchema	net/minecraft/class_1220
+net/minecraft/util/datafix/schemas/V100	net/minecraft/server/1_15_R1/DataConverterSchemaV100	net/minecraft/util/datafix/versions/V0100	net/minecraft/class_1222
+net/minecraft/util/datafix/schemas/V102	net/minecraft/server/1_15_R1/DataConverterSchemaV102	net/minecraft/util/datafix/versions/V0102	net/minecraft/class_1221
+net/minecraft/util/datafix/schemas/V1022	net/minecraft/server/1_15_R1/DataConverterSchemaV1022	net/minecraft/util/datafix/versions/V1022	net/minecraft/class_1224
+net/minecraft/util/datafix/schemas/V106	net/minecraft/server/1_15_R1/DataConverterSchemaV106	net/minecraft/util/datafix/versions/V0106	net/minecraft/class_1223
+net/minecraft/util/datafix/schemas/V107	net/minecraft/server/1_15_R1/DataConverterSchemaV107	net/minecraft/util/datafix/versions/V0107	net/minecraft/class_1226
+net/minecraft/util/datafix/schemas/V1125	net/minecraft/server/1_15_R1/DataConverterSchemaV1125	net/minecraft/util/datafix/versions/V1125	net/minecraft/class_1225
+net/minecraft/util/datafix/schemas/V135	net/minecraft/server/1_15_R1/DataConverterSchemaV135	net/minecraft/util/datafix/versions/V0135	net/minecraft/class_1228
+net/minecraft/util/datafix/schemas/V143	net/minecraft/server/1_15_R1/DataConverterSchemaV143	net/minecraft/util/datafix/versions/V0143	net/minecraft/class_1227
+net/minecraft/util/datafix/schemas/V1451	net/minecraft/server/1_15_R1/DataConverterSchemaV1451	net/minecraft/util/datafix/versions/V1451	net/minecraft/class_1230
+net/minecraft/util/datafix/schemas/V1451_1	net/minecraft/server/1_15_R1/DataConverterSchemaV1451_1	net/minecraft/util/datafix/versions/V1451_1	net/minecraft/class_1229
+net/minecraft/util/datafix/schemas/V1451_2	net/minecraft/server/1_15_R1/DataConverterSchemaV1451_2	net/minecraft/util/datafix/versions/V1451_2	net/minecraft/class_1232
+net/minecraft/util/datafix/schemas/V1451_3	net/minecraft/server/1_15_R1/DataConverterSchemaV1451_3	net/minecraft/util/datafix/versions/V1451_3	net/minecraft/class_1231
+net/minecraft/util/datafix/schemas/V1451_4	net/minecraft/server/1_15_R1/DataConverterSchemaV1451_4	net/minecraft/util/datafix/versions/V1451_4	net/minecraft/class_1234
+net/minecraft/util/datafix/schemas/V1451_5	net/minecraft/server/1_15_R1/DataConverterSchemaV1451_5	net/minecraft/util/datafix/versions/V1451_5	net/minecraft/class_1233
+net/minecraft/util/datafix/schemas/V1451_6	net/minecraft/server/1_15_R1/DataConverterSchemaV1451_6	net/minecraft/util/datafix/versions/V1451_6	net/minecraft/class_1236
+net/minecraft/util/datafix/schemas/V1451_7	net/minecraft/server/1_15_R1/DataConverterSchemaV1451_7	net/minecraft/util/datafix/versions/V1451_7	net/minecraft/class_1235
+net/minecraft/util/datafix/schemas/V1460	net/minecraft/server/1_15_R1/DataConverterSchemaV1460	net/minecraft/util/datafix/versions/V1460	net/minecraft/class_1238
+net/minecraft/util/datafix/schemas/V1466	net/minecraft/server/1_15_R1/DataConverterSchemaV1466	net/minecraft/util/datafix/versions/V1466	net/minecraft/class_1237
+net/minecraft/util/datafix/schemas/V1470	net/minecraft/server/1_15_R1/DataConverterSchemaV1470	net/minecraft/util/datafix/versions/V1470	net/minecraft/class_1240
+net/minecraft/util/datafix/schemas/V1481	net/minecraft/server/1_15_R1/DataConverterSchemaV1481	net/minecraft/util/datafix/versions/V1481	net/minecraft/class_1239
+net/minecraft/util/datafix/schemas/V1483	net/minecraft/server/1_15_R1/DataConverterSchemaV1483	net/minecraft/util/datafix/versions/V1483	net/minecraft/class_1242
+net/minecraft/util/datafix/schemas/V1486	net/minecraft/server/1_15_R1/DataConverterSchemaV1486	net/minecraft/util/datafix/versions/V1486	net/minecraft/class_1241
+net/minecraft/util/datafix/schemas/V1510	net/minecraft/server/1_15_R1/DataConverterSchemaV1510	net/minecraft/util/datafix/versions/V1510	net/minecraft/class_1243
+net/minecraft/util/datafix/schemas/V1800	net/minecraft/server/1_15_R1/DataConverterSchemaV1800	net/minecraft/util/datafix/versions/V1800	net/minecraft/class_1245
+net/minecraft/util/datafix/schemas/V1801	net/minecraft/server/1_15_R1/DataConverterSchemaV1801	net/minecraft/util/datafix/versions/V1801	net/minecraft/class_1244
+net/minecraft/util/datafix/schemas/V1904	net/minecraft/server/1_15_R1/DataConverterSchemaV1904	net/minecraft/util/datafix/versions/V1904	net/minecraft/class_3686
+net/minecraft/util/datafix/schemas/V1906	net/minecraft/server/1_15_R1/DataConverterSchemaV1906	net/minecraft/util/datafix/versions/V1906	net/minecraft/class_3687
+net/minecraft/util/datafix/schemas/V1909	net/minecraft/server/1_15_R1/DataConverterSchemaV1909	net/minecraft/util/datafix/versions/V1909	net/minecraft/class_3743
+net/minecraft/util/datafix/schemas/V1920	net/minecraft/server/1_15_R1/DataConverterSchemaV1920	net/minecraft/util/datafix/versions/V1920	net/minecraft/class_3905
+net/minecraft/util/datafix/schemas/V1928	net/minecraft/server/1_15_R1/DataConverterSchemaV1928	net/minecraft/util/datafix/versions/V1928	net/minecraft/class_3984
+net/minecraft/util/datafix/schemas/V1929	net/minecraft/server/1_15_R1/DataConverterSchemaV1929	net/minecraft/util/datafix/versions/V1929	net/minecraft/class_3985
+net/minecraft/util/datafix/schemas/V1931	net/minecraft/server/1_15_R1/DataConverterSchemaV1931	net/minecraft/util/datafix/versions/V1931	net/minecraft/class_4016
+net/minecraft/util/datafix/schemas/V2100	net/minecraft/server/1_15_R1/DataConverterSchemaV2100	net/minecraft/util/datafix/versions/V2100	net/minecraft/class_4465
+net/minecraft/util/datafix/schemas/V501	net/minecraft/server/1_15_R1/DataConverterSchemaV501	net/minecraft/util/datafix/versions/V0501	net/minecraft/class_1247
+net/minecraft/util/datafix/schemas/V700	net/minecraft/server/1_15_R1/DataConverterSchemaV700	net/minecraft/util/datafix/versions/V0700	net/minecraft/class_1246
+net/minecraft/util/datafix/schemas/V701	net/minecraft/server/1_15_R1/DataConverterSchemaV701	net/minecraft/util/datafix/versions/V0701	net/minecraft/class_1249
+net/minecraft/util/datafix/schemas/V702	net/minecraft/server/1_15_R1/DataConverterSchemaV702	net/minecraft/util/datafix/versions/V0702	net/minecraft/class_1248
+net/minecraft/util/datafix/schemas/V703	net/minecraft/server/1_15_R1/DataConverterSchemaV703	net/minecraft/util/datafix/versions/V0703	net/minecraft/class_1251
+net/minecraft/util/datafix/schemas/V704	net/minecraft/server/1_15_R1/DataConverterSchemaV704	net/minecraft/util/datafix/versions/V0704	net/minecraft/class_1250
+net/minecraft/util/datafix/schemas/V704$1		net/minecraft/util/datafix/versions/V0704$1	net/minecraft/class_1250$1
+net/minecraft/util/datafix/schemas/V705	net/minecraft/server/1_15_R1/DataConverterSchemaV705	net/minecraft/util/datafix/versions/V0705	net/minecraft/class_1253
+net/minecraft/util/datafix/schemas/V705$1		net/minecraft/util/datafix/versions/V0705$1	net/minecraft/class_1253$1
+net/minecraft/util/datafix/schemas/V808	net/minecraft/server/1_15_R1/DataConverterSchemaV808	net/minecraft/util/datafix/versions/V0808	net/minecraft/class_1252
+net/minecraft/util/datafix/schemas/V99	net/minecraft/server/1_15_R1/DataConverterSchemaV99	net/minecraft/util/datafix/versions/V0099	net/minecraft/class_1254
+net/minecraft/util/datafix/schemas/V99$1		net/minecraft/util/datafix/versions/V0099$1	net/minecraft/class_1254$1
+net/minecraft/util/profiling/ActiveProfiler	net/minecraft/server/1_15_R1/MethodProfiler	net/minecraft/profiler/Profiler	net/minecraft/class_3533
+net/minecraft/util/profiling/ActiveProfiler$PathEntry		net/minecraft/profiler/Profiler$Section	net/minecraft/class_3533$class_4746
+net/minecraft/util/profiling/EmptyProfileResults	net/minecraft/server/1_15_R1/MethodProfilerResultsEmpty	net/minecraft/profiler/EmptyProfileResult	net/minecraft/class_3688
+net/minecraft/util/profiling/FilledProfileResults	net/minecraft/server/1_15_R1/MethodProfilerResultsFilled	net/minecraft/profiler/FilledProfileResult	net/minecraft/class_3692
+net/minecraft/util/profiling/FilledProfileResults$1		net/minecraft/profiler/FilledProfileResult$1	net/minecraft/class_3692$1
+net/minecraft/util/profiling/FilledProfileResults$CounterCollector		net/minecraft/profiler/FilledProfileResult$Section	net/minecraft/class_3692$class_4747
+net/minecraft/util/profiling/GameProfiler	net/minecraft/server/1_15_R1/GameProfiler	net/minecraft/profiler/DebugProfiler	net/minecraft/class_3689
+net/minecraft/util/profiling/GameProfiler$Profiler		net/minecraft/profiler/DebugProfiler$IDebugResultEntry	net/minecraft/class_3689$class_3690
+net/minecraft/util/profiling/GameProfiler$ProfilerImpl		net/minecraft/profiler/DebugProfiler$DebugResultEntryImpl	net/minecraft/class_3689$class_3691
+net/minecraft/util/profiling/InactiveProfiler	net/minecraft/server/1_15_R1/GameProfilerDisabled	net/minecraft/profiler/EmptyProfiler	net/minecraft/class_3694
+net/minecraft/util/profiling/ProfileCollector	net/minecraft/server/1_15_R1/GameProfilerFillerActive	net/minecraft/profiler/IResultableProfiler	net/minecraft/class_3693
+net/minecraft/util/profiling/ProfileResults	net/minecraft/server/1_15_R1/MethodProfilerResults	net/minecraft/profiler/IProfileResult	net/minecraft/class_3696
+net/minecraft/util/profiling/ProfilerFiller	net/minecraft/server/1_15_R1/GameProfilerFiller	net/minecraft/profiler/IProfiler	net/minecraft/class_3695
+net/minecraft/util/profiling/ProfilerPathEntry	net/minecraft/server/1_15_R1/MethodProfilerResult	net/minecraft/profiler/IProfilerSection	net/minecraft/class_4748
+net/minecraft/util/profiling/ResultField	net/minecraft/server/1_15_R1/MethodProfilerResultsField	net/minecraft/profiler/DataPoint	net/minecraft/class_3534
+net/minecraft/util/thread/BlockableEventLoop	net/minecraft/server/1_15_R1/IAsyncTaskHandler	net/minecraft/util/concurrent/ThreadTaskExecutor	net/minecraft/class_1255
+net/minecraft/util/thread/ProcessorHandle	net/minecraft/server/1_15_R1/Mailbox	net/minecraft/util/concurrent/ITaskExecutor	net/minecraft/class_3906
+net/minecraft/util/thread/ProcessorHandle$1		net/minecraft/util/concurrent/ITaskExecutor$1	net/minecraft/class_3906$1
+net/minecraft/util/thread/ProcessorMailbox	net/minecraft/server/1_15_R1/ThreadedMailbox	net/minecraft/util/concurrent/DelegatedTaskExecutor	net/minecraft/class_3846
+net/minecraft/util/thread/ReentrantBlockableEventLoop	net/minecraft/server/1_15_R1/IAsyncTaskHandlerReentrant	net/minecraft/util/concurrent/RecursiveEventLoop	net/minecraft/class_4093
+net/minecraft/util/thread/StrictQueue	net/minecraft/server/1_15_R1/PairedQueue	net/minecraft/util/concurrent/ITaskQueue	net/minecraft/class_3847
+net/minecraft/util/thread/StrictQueue$FixedPriorityQueue		net/minecraft/util/concurrent/ITaskQueue$Priority	net/minecraft/class_3847$class_3848
+net/minecraft/util/thread/StrictQueue$IntRunnable		net/minecraft/util/concurrent/ITaskQueue$RunnableWithPriority	net/minecraft/class_3847$class_3907
+net/minecraft/util/thread/StrictQueue$QueueStrictQueue		net/minecraft/util/concurrent/ITaskQueue$Single	net/minecraft/class_3847$class_3849
+net/minecraft/util/worldupdate/WorldUpgrader	net/minecraft/server/1_15_R1/WorldUpgrader	net/minecraft/util/WorldOptimizer	net/minecraft/class_1257
+net/minecraft/world/BossEvent	net/minecraft/server/1_15_R1/BossBattle	net/minecraft/world/BossInfo	net/minecraft/class_1259
+net/minecraft/world/BossEvent$BossBarColor	net/minecraft/server/1_15_R1/BossBattle$BarColor	net/minecraft/world/BossInfo$Color	net/minecraft/class_1259$class_1260
+net/minecraft/world/BossEvent$BossBarOverlay	net/minecraft/server/1_15_R1/BossBattle$BarStyle	net/minecraft/world/BossInfo$Overlay	net/minecraft/class_1259$class_1261
+net/minecraft/world/Clearable	net/minecraft/server/1_15_R1/Clearable	net/minecraft/inventory/IClearable	net/minecraft/class_3829
+net/minecraft/world/CompoundContainer	net/minecraft/server/1_15_R1/InventoryLargeChest	net/minecraft/inventory/DoubleSidedInventory	net/minecraft/class_1258
+net/minecraft/world/Container	net/minecraft/server/1_15_R1/IInventory	net/minecraft/inventory/IInventory	net/minecraft/class_1263
+net/minecraft/world/ContainerHelper	net/minecraft/server/1_15_R1/ContainerUtil	net/minecraft/inventory/ItemStackHelper	net/minecraft/class_1262
+net/minecraft/world/ContainerListener	net/minecraft/server/1_15_R1/IInventoryListener	net/minecraft/inventory/IInventoryChangedListener	net/minecraft/class_1265
+net/minecraft/world/Containers	net/minecraft/server/1_15_R1/InventoryUtils	net/minecraft/inventory/InventoryHelper	net/minecraft/class_1264
+net/minecraft/world/Difficulty	net/minecraft/server/1_15_R1/EnumDifficulty	net/minecraft/world/Difficulty	net/minecraft/class_1267
+net/minecraft/world/DifficultyInstance	net/minecraft/server/1_15_R1/DifficultyDamageScaler	net/minecraft/world/DifficultyInstance	net/minecraft/class_1266
+net/minecraft/world/InteractionHand	net/minecraft/server/1_15_R1/EnumHand	net/minecraft/util/Hand	net/minecraft/class_1268
+net/minecraft/world/InteractionResult	net/minecraft/server/1_15_R1/EnumInteractionResult	net/minecraft/util/ActionResultType	net/minecraft/class_1269
+net/minecraft/world/InteractionResultHolder	net/minecraft/server/1_15_R1/InteractionResultWrapper	net/minecraft/util/ActionResult	net/minecraft/class_1271
+net/minecraft/world/LockCode	net/minecraft/server/1_15_R1/ChestLock	net/minecraft/world/LockCode	net/minecraft/class_1273
+net/minecraft/world/MenuProvider	net/minecraft/server/1_15_R1/ITileInventory	net/minecraft/inventory/container/INamedContainerProvider	net/minecraft/class_3908
+net/minecraft/world/Nameable	net/minecraft/server/1_15_R1/INamableTileEntity	net/minecraft/util/INameable	net/minecraft/class_1275
+net/minecraft/world/SimpleContainer	net/minecraft/server/1_15_R1/InventorySubcontainer	net/minecraft/inventory/Inventory	net/minecraft/class_1277
+net/minecraft/world/SimpleMenuProvider	net/minecraft/server/1_15_R1/TileInventory	net/minecraft/inventory/container/SimpleNamedContainerProvider	net/minecraft/class_747
+net/minecraft/world/Snooper	net/minecraft/server/1_15_R1/MojangStatisticsGenerator	net/minecraft/profiler/Snooper	net/minecraft/class_1276
+net/minecraft/world/SnooperPopulator	net/minecraft/server/1_15_R1/IMojangStatistics	net/minecraft/profiler/ISnooperInfo	net/minecraft/class_1279
+net/minecraft/world/WorldlyContainer	net/minecraft/server/1_15_R1/IWorldInventory	net/minecraft/inventory/ISidedInventory	net/minecraft/class_1278
+net/minecraft/world/WorldlyContainerHolder	net/minecraft/server/1_15_R1/IInventoryHolder	net/minecraft/inventory/ISidedInventoryProvider	net/minecraft/class_3954
+net/minecraft/world/damagesource/CombatEntry	net/minecraft/server/1_15_R1/CombatEntry	net/minecraft/util/CombatEntry	net/minecraft/class_1281
+net/minecraft/world/damagesource/CombatRules	net/minecraft/server/1_15_R1/CombatMath	net/minecraft/util/CombatRules	net/minecraft/class_1280
+net/minecraft/world/damagesource/CombatTracker	net/minecraft/server/1_15_R1/CombatTracker	net/minecraft/util/CombatTracker	net/minecraft/class_1283
+net/minecraft/world/damagesource/DamageSource	net/minecraft/server/1_15_R1/DamageSource	net/minecraft/util/DamageSource	net/minecraft/class_1282
+net/minecraft/world/damagesource/EntityDamageSource	net/minecraft/server/1_15_R1/EntityDamageSource	net/minecraft/util/EntityDamageSource	net/minecraft/class_1285
+net/minecraft/world/damagesource/IndirectEntityDamageSource	net/minecraft/server/1_15_R1/EntityDamageSourceIndirect	net/minecraft/util/IndirectEntityDamageSource	net/minecraft/class_1284
+net/minecraft/world/damagesource/NetherBedDamage	net/minecraft/server/1_15_R1/DamageSourceNetherBed	net/minecraft/util/NetherBedDamageSource	net/minecraft/class_1286
+net/minecraft/world/effect/AbsoptionMobEffect	net/minecraft/server/1_15_R1/MobEffectAbsorption	net/minecraft/potion/AbsorptionEffect	net/minecraft/class_1288
+net/minecraft/world/effect/AttackDamageMobEffect	net/minecraft/server/1_15_R1/MobEffectAttackDamage	net/minecraft/potion/AttackDamageEffect	net/minecraft/class_1287
+net/minecraft/world/effect/HealthBoostMobEffect	net/minecraft/server/1_15_R1/MobEffectHealthBoost	net/minecraft/potion/HealthBoostEffect	net/minecraft/class_1290
+net/minecraft/world/effect/InstantenousMobEffect	net/minecraft/server/1_15_R1/InstantMobEffect	net/minecraft/potion/InstantEffect	net/minecraft/class_1289
+net/minecraft/world/effect/MobEffect	net/minecraft/server/1_15_R1/MobEffectList	net/minecraft/potion/Effect	net/minecraft/class_1291
+net/minecraft/world/effect/MobEffectCategory	net/minecraft/server/1_15_R1/MobEffectInfo	net/minecraft/potion/EffectType	net/minecraft/class_4081
+net/minecraft/world/effect/MobEffectInstance	net/minecraft/server/1_15_R1/MobEffect	net/minecraft/potion/EffectInstance	net/minecraft/class_1293
+net/minecraft/world/effect/MobEffectUtil	net/minecraft/server/1_15_R1/MobEffectUtil	net/minecraft/potion/EffectUtils	net/minecraft/class_1292
+net/minecraft/world/effect/MobEffects	net/minecraft/server/1_15_R1/MobEffects	net/minecraft/potion/Effects	net/minecraft/class_1294
+net/minecraft/world/effect/MobEffects$1		net/minecraft/potion/Effects$1	net/minecraft/class_1294$1
+net/minecraft/world/entity/AgableMob	net/minecraft/server/1_15_R1/EntityAgeable	net/minecraft/entity/AgeableEntity	net/minecraft/class_1296
+net/minecraft/world/entity/AgableMob$AgableMobGroupData		net/minecraft/entity/AgeableEntity$AgeableData	net/minecraft/class_1296$class_4697
+net/minecraft/world/entity/AreaEffectCloud	net/minecraft/server/1_15_R1/EntityAreaEffectCloud	net/minecraft/entity/AreaEffectCloudEntity	net/minecraft/class_1295
+net/minecraft/world/entity/Entity	net/minecraft/server/1_15_R1/Entity	net/minecraft/entity/Entity	net/minecraft/class_1297
+net/minecraft/world/entity/Entity$MoveCallback		net/minecraft/entity/Entity$IMoveCallback	net/minecraft/class_1297$class_4738
+net/minecraft/world/entity/EntityDimensions	net/minecraft/server/1_15_R1/EntitySize	net/minecraft/entity/EntitySize	net/minecraft/class_4048
+net/minecraft/world/entity/EntitySelector	net/minecraft/server/1_15_R1/IEntitySelector	net/minecraft/util/EntityPredicates	net/minecraft/class_1301
+net/minecraft/world/entity/EntitySelector$MobCanWearArmourEntitySelector	net/minecraft/server/1_15_R1/IEntitySelector$EntitySelectorEquipable	net/minecraft/util/EntityPredicates$ArmoredMob	net/minecraft/class_1301$class_1302
+net/minecraft/world/entity/EntityType	net/minecraft/server/1_15_R1/EntityTypes	net/minecraft/entity/EntityType	net/minecraft/class_1299
+net/minecraft/world/entity/EntityType$Builder		net/minecraft/entity/EntityType$Builder	net/minecraft/class_1299$class_1300
+net/minecraft/world/entity/EntityType$EntityFactory		net/minecraft/entity/EntityType$IFactory	net/minecraft/class_1299$class_4049
+net/minecraft/world/entity/EquipmentSlot	net/minecraft/server/1_15_R1/EnumItemSlot	net/minecraft/inventory/EquipmentSlotType	net/minecraft/class_1304
+net/minecraft/world/entity/EquipmentSlot$Type	net/minecraft/server/1_15_R1/EnumItemSlot$Function	net/minecraft/inventory/EquipmentSlotType$Group	net/minecraft/class_1304$class_1305
+net/minecraft/world/entity/ExperienceOrb	net/minecraft/server/1_15_R1/EntityExperienceOrb	net/minecraft/entity/item/ExperienceOrbEntity	net/minecraft/class_1303
+net/minecraft/world/entity/FlyingMob	net/minecraft/server/1_15_R1/EntityFlying	net/minecraft/entity/FlyingEntity	net/minecraft/class_1307
+net/minecraft/world/entity/HumanoidArm	net/minecraft/server/1_15_R1/EnumMainHand	net/minecraft/util/HandSide	net/minecraft/class_1306
+net/minecraft/world/entity/LivingEntity	net/minecraft/server/1_15_R1/EntityLiving	net/minecraft/entity/LivingEntity	net/minecraft/class_1309
+net/minecraft/world/entity/Mob	net/minecraft/server/1_15_R1/EntityInsentient	net/minecraft/entity/MobEntity	net/minecraft/class_1308
+net/minecraft/world/entity/MobCategory	net/minecraft/server/1_15_R1/EnumCreatureType	net/minecraft/entity/EntityClassification	net/minecraft/class_1311
+net/minecraft/world/entity/MobSpawnType	net/minecraft/server/1_15_R1/EnumMobSpawn	net/minecraft/entity/SpawnReason	net/minecraft/class_3730
+net/minecraft/world/entity/MobType	net/minecraft/server/1_15_R1/EnumMonsterType	net/minecraft/entity/CreatureAttribute	net/minecraft/class_1310
+net/minecraft/world/entity/MoverType	net/minecraft/server/1_15_R1/EnumMoveType	net/minecraft/entity/MoverType	net/minecraft/class_1313
+net/minecraft/world/entity/PathfinderMob	net/minecraft/server/1_15_R1/EntityCreature	net/minecraft/entity/CreatureEntity	net/minecraft/class_1314
+net/minecraft/world/entity/PlayerRideableJumping	net/minecraft/server/1_15_R1/IJumpable	net/minecraft/entity/IJumpingMount	net/minecraft/class_1316
+net/minecraft/world/entity/Pose	net/minecraft/server/1_15_R1/EntityPose	net/minecraft/entity/Pose	net/minecraft/class_4050
+net/minecraft/world/entity/ReputationEventHandler	net/minecraft/server/1_15_R1/ReputationHandler	net/minecraft/entity/merchant/IReputationTracking	net/minecraft/class_4094
+net/minecraft/world/entity/SpawnGroupData	net/minecraft/server/1_15_R1/GroupDataEntity	net/minecraft/entity/ILivingEntityData	net/minecraft/class_1315
+net/minecraft/world/entity/SpawnPlacements	net/minecraft/server/1_15_R1/EntityPositionTypes	net/minecraft/entity/EntitySpawnPlacementRegistry	net/minecraft/class_1317
+net/minecraft/world/entity/SpawnPlacements$Data		net/minecraft/entity/EntitySpawnPlacementRegistry$Entry	net/minecraft/class_1317$class_1318
+net/minecraft/world/entity/SpawnPlacements$SpawnPredicate		net/minecraft/entity/EntitySpawnPlacementRegistry$IPlacementPredicate	net/minecraft/class_1317$class_4306
+net/minecraft/world/entity/SpawnPlacements$Type	net/minecraft/server/1_15_R1/EntityPositionTypes$Surface	net/minecraft/entity/EntitySpawnPlacementRegistry$PlacementType	net/minecraft/class_1317$class_1319
+net/minecraft/world/entity/TamableAnimal	net/minecraft/server/1_15_R1/EntityTameableAnimal	net/minecraft/entity/passive/TameableEntity	net/minecraft/class_1321
+net/minecraft/world/entity/ai/Brain	net/minecraft/server/1_15_R1/BehaviorController	net/minecraft/entity/ai/brain/Brain	net/minecraft/class_4095
+net/minecraft/world/entity/ai/attributes/Attribute	net/minecraft/server/1_15_R1/IAttribute	net/minecraft/entity/ai/attributes/IAttribute	net/minecraft/class_1320
+net/minecraft/world/entity/ai/attributes/AttributeInstance	net/minecraft/server/1_15_R1/AttributeInstance	net/minecraft/entity/ai/attributes/IAttributeInstance	net/minecraft/class_1324
+net/minecraft/world/entity/ai/attributes/AttributeModifier	net/minecraft/server/1_15_R1/AttributeModifier	net/minecraft/entity/ai/attributes/AttributeModifier	net/minecraft/class_1322
+net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation	net/minecraft/server/1_15_R1/AttributeModifier$Operation	net/minecraft/entity/ai/attributes/AttributeModifier$Operation	net/minecraft/class_1322$class_1323
+net/minecraft/world/entity/ai/attributes/BaseAttribute	net/minecraft/server/1_15_R1/AttributeBase	net/minecraft/entity/ai/attributes/Attribute	net/minecraft/class_1326
+net/minecraft/world/entity/ai/attributes/BaseAttributeMap	net/minecraft/server/1_15_R1/AttributeMapBase	net/minecraft/entity/ai/attributes/AbstractAttributeMap	net/minecraft/class_1325
+net/minecraft/world/entity/ai/attributes/ModifiableAttributeInstance	net/minecraft/server/1_15_R1/AttributeModifiable	net/minecraft/entity/ai/attributes/ModifiableAttributeInstance	net/minecraft/class_1328
+net/minecraft/world/entity/ai/attributes/ModifiableAttributeMap	net/minecraft/server/1_15_R1/AttributeMapServer	net/minecraft/entity/ai/attributes/AttributeMap	net/minecraft/class_1327
+net/minecraft/world/entity/ai/attributes/RangedAttribute	net/minecraft/server/1_15_R1/AttributeRanged	net/minecraft/entity/ai/attributes/RangedAttribute	net/minecraft/class_1329
+net/minecraft/world/entity/ai/behavior/AcquirePoi	net/minecraft/server/1_15_R1/BehaviorFindPosition	net/minecraft/entity/ai/brain/task/GatherPOITask	net/minecraft/class_4096
+net/minecraft/world/entity/ai/behavior/AssignProfessionFromJobSite	net/minecraft/server/1_15_R1/BehaviorCareer	net/minecraft/entity/ai/brain/task/AssignProfessionTask	net/minecraft/class_4114
+net/minecraft/world/entity/ai/behavior/Behavior	net/minecraft/server/1_15_R1/Behavior	net/minecraft/entity/ai/brain/task/Task	net/minecraft/class_4097
+net/minecraft/world/entity/ai/behavior/Behavior$Status	net/minecraft/server/1_15_R1/Behavior$Status	net/minecraft/entity/ai/brain/task/Task$Status	net/minecraft/class_4097$class_4098
+net/minecraft/world/entity/ai/behavior/BehaviorUtils	net/minecraft/server/1_15_R1/BehaviorUtil	net/minecraft/entity/ai/brain/BrainUtil	net/minecraft/class_4215
+net/minecraft/world/entity/ai/behavior/BlockPosWrapper	net/minecraft/server/1_15_R1/BehaviorTarget	net/minecraft/util/math/BlockPosWrapper	net/minecraft/class_4099
+net/minecraft/world/entity/ai/behavior/Celebrate	net/minecraft/server/1_15_R1/BehaviorCelebrate	net/minecraft/entity/ai/brain/task/CelebrateRaidVictoryTask	net/minecraft/class_4242
+net/minecraft/world/entity/ai/behavior/DoNothing	net/minecraft/server/1_15_R1/BehaviorNop	net/minecraft/entity/ai/brain/task/DummyTask	net/minecraft/class_4101
+net/minecraft/world/entity/ai/behavior/EntityPosWrapper	net/minecraft/server/1_15_R1/BehaviorPositionEntity	net/minecraft/util/math/EntityPosWrapper	net/minecraft/class_4102
+net/minecraft/world/entity/ai/behavior/GateBehavior	net/minecraft/server/1_15_R1/BehaviorGate	net/minecraft/entity/ai/brain/task/MultiTask	net/minecraft/class_4103
+net/minecraft/world/entity/ai/behavior/GateBehavior$OrderPolicy	net/minecraft/server/1_15_R1/BehaviorGate$Order	net/minecraft/entity/ai/brain/task/MultiTask$Ordering	net/minecraft/class_4103$class_4104
+net/minecraft/world/entity/ai/behavior/GateBehavior$RunningPolicy	net/minecraft/server/1_15_R1/BehaviorGate$Execution	net/minecraft/entity/ai/brain/task/MultiTask$RunType	net/minecraft/class_4103$class_4216
+net/minecraft/world/entity/ai/behavior/GateBehavior$RunningPolicy$1		net/minecraft/entity/ai/brain/task/MultiTask$RunType$1	net/minecraft/class_4103$class_4216$1
+net/minecraft/world/entity/ai/behavior/GateBehavior$RunningPolicy$2		net/minecraft/entity/ai/brain/task/MultiTask$RunType$2	net/minecraft/class_4103$class_4216$2
+net/minecraft/world/entity/ai/behavior/GiveGiftToHero	net/minecraft/server/1_15_R1/BehaviorVillageHeroGift	net/minecraft/entity/ai/brain/task/GiveHeroGiftsTask	net/minecraft/class_4243
+net/minecraft/world/entity/ai/behavior/GoOutsideToCelebrate	net/minecraft/server/1_15_R1/BehaviorOutsideCelebrate	net/minecraft/entity/ai/brain/task/GoOutsideAfterRaidTask	net/minecraft/class_4244
+net/minecraft/world/entity/ai/behavior/GoToClosestVillage	net/minecraft/server/1_15_R1/BehaviorNearestVillage	net/minecraft/entity/ai/brain/task/WalkToPOITask	net/minecraft/class_4458
+net/minecraft/world/entity/ai/behavior/HarvestFarmland	net/minecraft/server/1_15_R1/BehaviorFarm	net/minecraft/entity/ai/brain/task/FarmTask	net/minecraft/class_4217
+net/minecraft/world/entity/ai/behavior/InsideBrownianWalk	net/minecraft/server/1_15_R1/BehaviorStrollInside	net/minecraft/entity/ai/brain/task/WalkRandomlyTask	net/minecraft/class_4289
+net/minecraft/world/entity/ai/behavior/InteractWith	net/minecraft/server/1_15_R1/BehaviorInteract	net/minecraft/entity/ai/brain/task/InteractWithEntityTask	net/minecraft/class_4106
+net/minecraft/world/entity/ai/behavior/InteractWithDoor	net/minecraft/server/1_15_R1/BehaviorInteractDoor	net/minecraft/entity/ai/brain/task/InteractWithDoorTask	net/minecraft/class_4107
+net/minecraft/world/entity/ai/behavior/JumpOnBed	net/minecraft/server/1_15_R1/BehaviorBedJump	net/minecraft/entity/ai/brain/task/JumpOnBedTask	net/minecraft/class_4245
+net/minecraft/world/entity/ai/behavior/LocateHidingPlace	net/minecraft/server/1_15_R1/BehaviorHome	net/minecraft/entity/ai/brain/task/FindHidingPlaceTask	net/minecraft/class_4246
+net/minecraft/world/entity/ai/behavior/LocateHidingPlaceDuringRaid	net/minecraft/server/1_15_R1/BehaviorHomeRaid	net/minecraft/entity/ai/brain/task/FindHidingPlaceDuringRaidTask	net/minecraft/class_4247
+net/minecraft/world/entity/ai/behavior/LookAndFollowTradingPlayerSink	net/minecraft/server/1_15_R1/BehaviorInteractPlayer	net/minecraft/entity/ai/brain/task/TradeTask	net/minecraft/class_4108
+net/minecraft/world/entity/ai/behavior/LookAtTargetSink	net/minecraft/server/1_15_R1/BehaviorLook	net/minecraft/entity/ai/brain/task/LookTask	net/minecraft/class_4110
+net/minecraft/world/entity/ai/behavior/MakeLove	net/minecraft/server/1_15_R1/BehaviorMakeLove	net/minecraft/entity/ai/brain/task/CreateBabyVillagerTask	net/minecraft/class_4111
+net/minecraft/world/entity/ai/behavior/MoveToSkySeeingSpot	net/minecraft/server/1_15_R1/BehaviorOutside	net/minecraft/entity/ai/brain/task/MoveToSkylightTask	net/minecraft/class_4248
+net/minecraft/world/entity/ai/behavior/MoveToTargetSink	net/minecraft/server/1_15_R1/BehavorMove	net/minecraft/entity/ai/brain/task/WalkToTargetTask	net/minecraft/class_4112
+net/minecraft/world/entity/ai/behavior/PickUpItems	net/minecraft/server/1_15_R1/BehaviorPickupItem	net/minecraft/entity/ai/brain/task/PickupFoodTask	net/minecraft/class_4318
+net/minecraft/world/entity/ai/behavior/PlayTagWithOtherKids	net/minecraft/server/1_15_R1/BehaviorPlay	net/minecraft/entity/ai/brain/task/WalkToVillagerBabiesTask	net/minecraft/class_4218
+net/minecraft/world/entity/ai/behavior/PositionWrapper	net/minecraft/server/1_15_R1/BehaviorPosition	net/minecraft/util/math/IPosWrapper	net/minecraft/class_4115
+net/minecraft/world/entity/ai/behavior/ReactToBell	net/minecraft/server/1_15_R1/BehaviorBellAlert	net/minecraft/entity/ai/brain/task/HideFromRaidOnBellRingTask	net/minecraft/class_4249
+net/minecraft/world/entity/ai/behavior/ResetProfession	net/minecraft/server/1_15_R1/BehaviorProfession	net/minecraft/entity/ai/brain/task/ChangeJobTask	net/minecraft/class_4295
+net/minecraft/world/entity/ai/behavior/ResetRaidStatus	net/minecraft/server/1_15_R1/BehaviorRaidReset	net/minecraft/entity/ai/brain/task/ForgetRaidTask	net/minecraft/class_4250
+net/minecraft/world/entity/ai/behavior/RingBell	net/minecraft/server/1_15_R1/BehaviorBellRing	net/minecraft/entity/ai/brain/task/RingBellTask	net/minecraft/class_4251
+net/minecraft/world/entity/ai/behavior/RunOne	net/minecraft/server/1_15_R1/BehaviorGateSingle	net/minecraft/entity/ai/brain/task/FirstShuffledTask	net/minecraft/class_4118
+net/minecraft/world/entity/ai/behavior/SetClosestHomeAsWalkTarget	net/minecraft/server/1_15_R1/BehaviorWalkHome	net/minecraft/entity/ai/brain/task/WalkToHouseTask	net/minecraft/class_4290
+net/minecraft/world/entity/ai/behavior/SetEntityLookTarget	net/minecraft/server/1_15_R1/BehaviorLookTarget	net/minecraft/entity/ai/brain/task/LookAtEntityTask	net/minecraft/class_4119
+net/minecraft/world/entity/ai/behavior/SetHiddenState	net/minecraft/server/1_15_R1/BehaviorHide	net/minecraft/entity/ai/brain/task/ExpireHidingTask	net/minecraft/class_4252
+net/minecraft/world/entity/ai/behavior/SetLookAndInteract	net/minecraft/server/1_15_R1/BehaviorLookInteract	net/minecraft/entity/ai/brain/task/FindInteractionAndLookTargetTask	net/minecraft/class_4109
+net/minecraft/world/entity/ai/behavior/SetRaidStatus	net/minecraft/server/1_15_R1/BehaviorRaid	net/minecraft/entity/ai/brain/task/BeginRaidTask	net/minecraft/class_4253
+net/minecraft/world/entity/ai/behavior/SetWalkTargetAwayFromEntity	net/minecraft/server/1_15_R1/BehaviorWalkAwayEntity	net/minecraft/entity/ai/brain/task/FleeTask	net/minecraft/class_4121
+net/minecraft/world/entity/ai/behavior/SetWalkTargetFromBlockMemory	net/minecraft/server/1_15_R1/BehaviorWalkAwayBlock	net/minecraft/entity/ai/brain/task/StayNearPointTask	net/minecraft/class_4122
+net/minecraft/world/entity/ai/behavior/SetWalkTargetFromLookTarget	net/minecraft/server/1_15_R1/BehaviorLookWalk	net/minecraft/entity/ai/brain/task/WalkTowardsLookTargetTask	net/minecraft/class_4120
+net/minecraft/world/entity/ai/behavior/ShowTradesToPlayer	net/minecraft/server/1_15_R1/BehaviorTradePlayer	net/minecraft/entity/ai/brain/task/ShowWaresTask	net/minecraft/class_4130
+net/minecraft/world/entity/ai/behavior/SleepInBed	net/minecraft/server/1_15_R1/BehaviorSleep	net/minecraft/entity/ai/brain/task/SleepAtHomeTask	net/minecraft/class_4123
+net/minecraft/world/entity/ai/behavior/SocializeAtBell	net/minecraft/server/1_15_R1/BehaviorBell	net/minecraft/entity/ai/brain/task/CongregateTask	net/minecraft/class_4124
+net/minecraft/world/entity/ai/behavior/StrollAroundPoi	net/minecraft/server/1_15_R1/BehaviorStrollPosition	net/minecraft/entity/ai/brain/task/WorkTask	net/minecraft/class_4116
+net/minecraft/world/entity/ai/behavior/StrollToPoi	net/minecraft/server/1_15_R1/BehaviorStrollPlace	net/minecraft/entity/ai/brain/task/WalkTowardsPosTask	net/minecraft/class_4219
+net/minecraft/world/entity/ai/behavior/StrollToPoiList	net/minecraft/server/1_15_R1/BehaviorStrollPlaceList	net/minecraft/entity/ai/brain/task/WalkTowardsRandomSecondaryPosTask	net/minecraft/class_4220
+net/minecraft/world/entity/ai/behavior/Swim	net/minecraft/server/1_15_R1/BehaviorSwim	net/minecraft/entity/ai/brain/task/SwimTask	net/minecraft/class_4125
+net/minecraft/world/entity/ai/behavior/TradeWithVillager	net/minecraft/server/1_15_R1/BehaviorTradeVillager	net/minecraft/entity/ai/brain/task/ShareItemsTask	net/minecraft/class_4126
+net/minecraft/world/entity/ai/behavior/UpdateActivityFromSchedule	net/minecraft/server/1_15_R1/BehaviorSchedule	net/minecraft/entity/ai/brain/task/UpdateActivityTask	net/minecraft/class_4127
+net/minecraft/world/entity/ai/behavior/ValidateNearbyPoi	net/minecraft/server/1_15_R1/BehaviorPositionValidate	net/minecraft/entity/ai/brain/task/ExpirePOITask	net/minecraft/class_4128
+net/minecraft/world/entity/ai/behavior/VictoryStroll	net/minecraft/server/1_15_R1/BehaviorVictory	net/minecraft/entity/ai/brain/task/FindWalkTargetAfterRaidVictoryTask	net/minecraft/class_4254
+net/minecraft/world/entity/ai/behavior/VillageBoundRandomStroll	net/minecraft/server/1_15_R1/BehaviorStrollRandom	net/minecraft/entity/ai/brain/task/FindWalkTargetTask	net/minecraft/class_4117
+net/minecraft/world/entity/ai/behavior/VillagerCalmDown	net/minecraft/server/1_15_R1/BehaviorCooldown	net/minecraft/entity/ai/brain/task/ClearHurtTask	net/minecraft/class_4100
+net/minecraft/world/entity/ai/behavior/VillagerGoalPackages	net/minecraft/server/1_15_R1/Behaviors	net/minecraft/entity/ai/brain/task/VillagerTasks	net/minecraft/class_4129
+net/minecraft/world/entity/ai/behavior/VillagerPanicTrigger	net/minecraft/server/1_15_R1/BehaviorPanic	net/minecraft/entity/ai/brain/task/PanicTask	net/minecraft/class_4113
+net/minecraft/world/entity/ai/behavior/WakeUp	net/minecraft/server/1_15_R1/BehaviorWake	net/minecraft/entity/ai/brain/task/WakeUpTask	net/minecraft/class_4214
+net/minecraft/world/entity/ai/behavior/WeightedList	net/minecraft/server/1_15_R1/WeightedList	net/minecraft/util/WeightedList	net/minecraft/class_4131
+net/minecraft/world/entity/ai/behavior/WeightedList$WeightedEntry		net/minecraft/util/WeightedList$Entry	net/minecraft/class_4131$class_4132
+net/minecraft/world/entity/ai/behavior/WorkAtPoi	net/minecraft/server/1_15_R1/BehaviorWork	net/minecraft/entity/ai/brain/task/SpawnGolemTask	net/minecraft/class_4133
+net/minecraft/world/entity/ai/control/BodyRotationControl	net/minecraft/server/1_15_R1/EntityAIBodyControl	net/minecraft/entity/ai/controller/BodyController	net/minecraft/class_1330
+net/minecraft/world/entity/ai/control/DolphinLookControl	net/minecraft/server/1_15_R1/ControllerLookDolphin	net/minecraft/entity/ai/controller/DolphinLookController	net/minecraft/class_1332
+net/minecraft/world/entity/ai/control/FlyingMoveControl	net/minecraft/server/1_15_R1/ControllerMoveFlying	net/minecraft/entity/ai/controller/FlyingMovementController	net/minecraft/class_1331
+net/minecraft/world/entity/ai/control/JumpControl	net/minecraft/server/1_15_R1/ControllerJump	net/minecraft/entity/ai/controller/JumpController	net/minecraft/class_1334
+net/minecraft/world/entity/ai/control/LookControl	net/minecraft/server/1_15_R1/ControllerLook	net/minecraft/entity/ai/controller/LookController	net/minecraft/class_1333
+net/minecraft/world/entity/ai/control/MoveControl	net/minecraft/server/1_15_R1/ControllerMove	net/minecraft/entity/ai/controller/MovementController	net/minecraft/class_1335
+net/minecraft/world/entity/ai/control/MoveControl$Operation	net/minecraft/server/1_15_R1/ControllerMove$Operation	net/minecraft/entity/ai/controller/MovementController$Action	net/minecraft/class_1335$class_1336
+net/minecraft/world/entity/ai/goal/AvoidEntityGoal	net/minecraft/server/1_15_R1/PathfinderGoalAvoidTarget	net/minecraft/entity/ai/goal/AvoidEntityGoal	net/minecraft/class_1338
+net/minecraft/world/entity/ai/goal/BegGoal	net/minecraft/server/1_15_R1/PathfinderGoalBeg	net/minecraft/entity/ai/goal/BegGoal	net/minecraft/class_1337
+net/minecraft/world/entity/ai/goal/BoatGoals	net/minecraft/server/1_15_R1/PathfinderGoalBoat	net/minecraft/entity/ai/goal/BoatGoals	net/minecraft/class_1340
+net/minecraft/world/entity/ai/goal/BreakDoorGoal	net/minecraft/server/1_15_R1/PathfinderGoalBreakDoor	net/minecraft/entity/ai/goal/BreakDoorGoal	net/minecraft/class_1339
+net/minecraft/world/entity/ai/goal/BreathAirGoal	net/minecraft/server/1_15_R1/PathfinderGoalBreath	net/minecraft/entity/ai/goal/BreatheAirGoal	net/minecraft/class_1342
+net/minecraft/world/entity/ai/goal/BreedGoal	net/minecraft/server/1_15_R1/PathfinderGoalBreed	net/minecraft/entity/ai/goal/BreedGoal	net/minecraft/class_1341
+net/minecraft/world/entity/ai/goal/CatLieOnBedGoal	net/minecraft/server/1_15_R1/PathfinderGoalCatSitOnBed	net/minecraft/entity/ai/goal/CatLieOnBedGoal	net/minecraft/class_3697
+net/minecraft/world/entity/ai/goal/CatSitOnBlockGoal	net/minecraft/server/1_15_R1/PathfinderGoalJumpOnBlock	net/minecraft/entity/ai/goal/CatSitOnBlockGoal	net/minecraft/class_1373
+net/minecraft/world/entity/ai/goal/DolphinJumpGoal	net/minecraft/server/1_15_R1/PathfinderGoalWaterJump	net/minecraft/entity/ai/goal/DolphinJumpGoal	net/minecraft/class_1357
+net/minecraft/world/entity/ai/goal/DoorInteractGoal	net/minecraft/server/1_15_R1/PathfinderGoalDoorInteract	net/minecraft/entity/ai/goal/InteractDoorGoal	net/minecraft/class_1343
+net/minecraft/world/entity/ai/goal/EatBlockGoal	net/minecraft/server/1_15_R1/PathfinderGoalEatTile	net/minecraft/entity/ai/goal/EatGrassGoal	net/minecraft/class_1345
+net/minecraft/world/entity/ai/goal/FleeSunGoal	net/minecraft/server/1_15_R1/PathfinderGoalFleeSun	net/minecraft/entity/ai/goal/FleeSunGoal	net/minecraft/class_1344
+net/minecraft/world/entity/ai/goal/FloatGoal	net/minecraft/server/1_15_R1/PathfinderGoalFloat	net/minecraft/entity/ai/goal/SwimGoal	net/minecraft/class_1347
+net/minecraft/world/entity/ai/goal/FollowBoatGoal	net/minecraft/server/1_15_R1/PathfinderGoalFollowBoat	net/minecraft/entity/ai/goal/FollowBoatGoal	net/minecraft/class_1346
+net/minecraft/world/entity/ai/goal/FollowFlockLeaderGoal	net/minecraft/server/1_15_R1/PathfinderGoalFishSchool	net/minecraft/entity/ai/goal/FollowSchoolLeaderGoal	net/minecraft/class_1349
+net/minecraft/world/entity/ai/goal/FollowMobGoal	net/minecraft/server/1_15_R1/PathfinderGoalFollowEntity	net/minecraft/entity/ai/goal/FollowMobGoal	net/minecraft/class_1348
+net/minecraft/world/entity/ai/goal/FollowOwnerGoal	net/minecraft/server/1_15_R1/PathfinderGoalFollowOwner	net/minecraft/entity/ai/goal/FollowOwnerGoal	net/minecraft/class_1350
+net/minecraft/world/entity/ai/goal/FollowParentGoal	net/minecraft/server/1_15_R1/PathfinderGoalFollowParent	net/minecraft/entity/ai/goal/FollowParentGoal	net/minecraft/class_1353
+net/minecraft/world/entity/ai/goal/Goal	net/minecraft/server/1_15_R1/PathfinderGoal	net/minecraft/entity/ai/goal/Goal	net/minecraft/class_1352
+net/minecraft/world/entity/ai/goal/Goal$Flag	net/minecraft/server/1_15_R1/PathfinderGoal$Type	net/minecraft/entity/ai/goal/Goal$Flag	net/minecraft/class_1352$class_4134
+net/minecraft/world/entity/ai/goal/GoalSelector	net/minecraft/server/1_15_R1/PathfinderGoalSelector	net/minecraft/entity/ai/goal/GoalSelector	net/minecraft/class_1355
+net/minecraft/world/entity/ai/goal/GoalSelector$1		net/minecraft/entity/ai/goal/GoalSelector$1	net/minecraft/class_1355$1
+net/minecraft/world/entity/ai/goal/GoalSelector$2		net/minecraft/entity/ai/goal/GoalSelector$2	net/minecraft/class_1355$2
+net/minecraft/world/entity/ai/goal/InteractGoal	net/minecraft/server/1_15_R1/PathfinderGoalInteract	net/minecraft/entity/ai/goal/LookAtWithoutMovingGoal	net/minecraft/class_1358
+net/minecraft/world/entity/ai/goal/JumpGoal	net/minecraft/server/1_15_R1/PathfinderGoalWaterJumpAbstract	net/minecraft/entity/ai/goal/JumpGoal	net/minecraft/class_4017
+net/minecraft/world/entity/ai/goal/LandOnOwnersShoulderGoal	net/minecraft/server/1_15_R1/PathfinderGoalPerch	net/minecraft/entity/ai/goal/LandOnOwnersShoulderGoal	net/minecraft/class_1360
+net/minecraft/world/entity/ai/goal/LeapAtTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalLeapAtTarget	net/minecraft/entity/ai/goal/LeapAtTargetGoal	net/minecraft/class_1359
+net/minecraft/world/entity/ai/goal/LlamaFollowCaravanGoal	net/minecraft/server/1_15_R1/PathfinderGoalLlamaFollow	net/minecraft/entity/ai/goal/LlamaFollowCaravanGoal	net/minecraft/class_1362
+net/minecraft/world/entity/ai/goal/LookAtPlayerGoal	net/minecraft/server/1_15_R1/PathfinderGoalLookAtPlayer	net/minecraft/entity/ai/goal/LookAtGoal	net/minecraft/class_1361
+net/minecraft/world/entity/ai/goal/LookAtTradingPlayerGoal	net/minecraft/server/1_15_R1/PathfinderGoalLookAtTradingPlayer	net/minecraft/entity/ai/goal/LookAtCustomerGoal	net/minecraft/class_1364
+net/minecraft/world/entity/ai/goal/MeleeAttackGoal	net/minecraft/server/1_15_R1/PathfinderGoalMeleeAttack	net/minecraft/entity/ai/goal/MeleeAttackGoal	net/minecraft/class_1366
+net/minecraft/world/entity/ai/goal/MoveBackToVillage	net/minecraft/server/1_15_R1/PathfinderGoalStrollVillage	net/minecraft/entity/ai/goal/MoveTowardsVillageGoal	net/minecraft/class_4291
+net/minecraft/world/entity/ai/goal/MoveThroughVillageGoal	net/minecraft/server/1_15_R1/PathfinderGoalMoveThroughVillage	net/minecraft/entity/ai/goal/MoveThroughVillageGoal	net/minecraft/class_1368
+net/minecraft/world/entity/ai/goal/MoveToBlockGoal	net/minecraft/server/1_15_R1/PathfinderGoalGotoTarget	net/minecraft/entity/ai/goal/MoveToBlockGoal	net/minecraft/class_1367
+net/minecraft/world/entity/ai/goal/MoveTowardsRestrictionGoal	net/minecraft/server/1_15_R1/PathfinderGoalMoveTowardsRestriction	net/minecraft/entity/ai/goal/MoveTowardsRestrictionGoal	net/minecraft/class_1370
+net/minecraft/world/entity/ai/goal/MoveTowardsTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalMoveTowardsTarget	net/minecraft/entity/ai/goal/MoveTowardsTargetGoal	net/minecraft/class_1369
+net/minecraft/world/entity/ai/goal/OcelotAttackGoal	net/minecraft/server/1_15_R1/PathfinderGoalOcelotAttack	net/minecraft/entity/ai/goal/OcelotAttackGoal	net/minecraft/class_1371
+net/minecraft/world/entity/ai/goal/OfferFlowerGoal	net/minecraft/server/1_15_R1/PathfinderGoalOfferFlower	net/minecraft/entity/ai/goal/ShowVillagerFlowerGoal	net/minecraft/class_1372
+net/minecraft/world/entity/ai/goal/OpenDoorGoal	net/minecraft/server/1_15_R1/PathfinderGoalDoorOpen	net/minecraft/entity/ai/goal/OpenDoorGoal	net/minecraft/class_4255
+net/minecraft/world/entity/ai/goal/PanicGoal	net/minecraft/server/1_15_R1/PathfinderGoalPanic	net/minecraft/entity/ai/goal/PanicGoal	net/minecraft/class_1374
+net/minecraft/world/entity/ai/goal/PathfindToRaidGoal	net/minecraft/server/1_15_R1/PathfinderGoalRaid	net/minecraft/entity/ai/goal/MoveTowardsRaidGoal	net/minecraft/class_3759
+net/minecraft/world/entity/ai/goal/RandomLookAroundGoal	net/minecraft/server/1_15_R1/PathfinderGoalRandomLookaround	net/minecraft/entity/ai/goal/LookRandomlyGoal	net/minecraft/class_1376
+net/minecraft/world/entity/ai/goal/RandomStrollGoal	net/minecraft/server/1_15_R1/PathfinderGoalRandomStroll	net/minecraft/entity/ai/goal/RandomWalkingGoal	net/minecraft/class_1379
+net/minecraft/world/entity/ai/goal/RandomSwimmingGoal	net/minecraft/server/1_15_R1/PathfinderGoalRandomSwim	net/minecraft/entity/ai/goal/RandomSwimmingGoal	net/minecraft/class_1378
+net/minecraft/world/entity/ai/goal/RangedAttackGoal	net/minecraft/server/1_15_R1/PathfinderGoalArrowAttack	net/minecraft/entity/ai/goal/RangedAttackGoal	net/minecraft/class_1381
+net/minecraft/world/entity/ai/goal/RangedBowAttackGoal	net/minecraft/server/1_15_R1/PathfinderGoalBowShoot	net/minecraft/entity/ai/goal/RangedBowAttackGoal	net/minecraft/class_1380
+net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal	net/minecraft/server/1_15_R1/PathfinderGoalCrossbowAttack	net/minecraft/entity/ai/goal/RangedCrossbowAttackGoal	net/minecraft/class_1383
+net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal$CrossbowState	net/minecraft/server/1_15_R1/PathfinderGoalCrossbowAttack$State	net/minecraft/entity/ai/goal/RangedCrossbowAttackGoal$CrossbowState	net/minecraft/class_1383$class_3744
+net/minecraft/world/entity/ai/goal/RemoveBlockGoal	net/minecraft/server/1_15_R1/PathfinderGoalRemoveBlock	net/minecraft/entity/ai/goal/BreakBlockGoal	net/minecraft/class_1382
+net/minecraft/world/entity/ai/goal/RestrictSunGoal	net/minecraft/server/1_15_R1/PathfinderGoalRestrictSun	net/minecraft/entity/ai/goal/RestrictSunGoal	net/minecraft/class_1384
+net/minecraft/world/entity/ai/goal/RunAroundLikeCrazyGoal	net/minecraft/server/1_15_R1/PathfinderGoalTame	net/minecraft/entity/ai/goal/RunAroundLikeCrazyGoal	net/minecraft/class_1387
+net/minecraft/world/entity/ai/goal/SitGoal	net/minecraft/server/1_15_R1/PathfinderGoalSit	net/minecraft/entity/ai/goal/SitGoal	net/minecraft/class_1386
+net/minecraft/world/entity/ai/goal/StrollThroughVillageGoal	net/minecraft/server/1_15_R1/PathfinderGoalNearestVillage	net/minecraft/entity/ai/goal/MoveThroughVillageAtNightGoal	net/minecraft/class_4018
+net/minecraft/world/entity/ai/goal/SwellGoal	net/minecraft/server/1_15_R1/PathfinderGoalSwell	net/minecraft/entity/ai/goal/CreeperSwellGoal	net/minecraft/class_1389
+net/minecraft/world/entity/ai/goal/TemptGoal	net/minecraft/server/1_15_R1/PathfinderGoalTempt	net/minecraft/entity/ai/goal/TemptGoal	net/minecraft/class_1391
+net/minecraft/world/entity/ai/goal/TradeWithPlayerGoal	net/minecraft/server/1_15_R1/PathfinderGoalTradeWithPlayer	net/minecraft/entity/ai/goal/TradeWithPlayerGoal	net/minecraft/class_1390
+net/minecraft/world/entity/ai/goal/TryFindWaterGoal	net/minecraft/server/1_15_R1/PathfinderGoalWater	net/minecraft/entity/ai/goal/FindWaterGoal	net/minecraft/class_1393
+net/minecraft/world/entity/ai/goal/UseItemGoal	net/minecraft/server/1_15_R1/PathfinderGoalUseItem	net/minecraft/entity/ai/goal/UseItemGoal	net/minecraft/class_3993
+net/minecraft/world/entity/ai/goal/WaterAvoidingRandomFlyingGoal	net/minecraft/server/1_15_R1/PathfinderGoalRandomFly	net/minecraft/entity/ai/goal/WaterAvoidingRandomFlyingGoal	net/minecraft/class_1395
+net/minecraft/world/entity/ai/goal/WaterAvoidingRandomStrollGoal	net/minecraft/server/1_15_R1/PathfinderGoalRandomStrollLand	net/minecraft/entity/ai/goal/WaterAvoidingRandomWalkingGoal	net/minecraft/class_1394
+net/minecraft/world/entity/ai/goal/WrappedGoal	net/minecraft/server/1_15_R1/PathfinderGoalWrapped	net/minecraft/entity/ai/goal/PrioritizedGoal	net/minecraft/class_4135
+net/minecraft/world/entity/ai/goal/ZombieAttackGoal	net/minecraft/server/1_15_R1/PathfinderGoalZombieAttack	net/minecraft/entity/ai/goal/ZombieAttackGoal	net/minecraft/class_1396
+net/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalDefendVillage	net/minecraft/entity/ai/goal/DefendVillageTargetGoal	net/minecraft/class_1397
+net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalHurtByTarget	net/minecraft/entity/ai/goal/HurtByTargetGoal	net/minecraft/class_1399
+net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalNearestAttackableTarget	net/minecraft/entity/ai/goal/NearestAttackableTargetGoal	net/minecraft/class_1400
+net/minecraft/world/entity/ai/goal/target/NearestAttackableWitchTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalNearestAttackableTargetWitch	net/minecraft/entity/ai/goal/ToggleableNearestAttackableTargetGoal	net/minecraft/class_3760
+net/minecraft/world/entity/ai/goal/target/NearestHealableRaiderTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalNearestHealableRaider	net/minecraft/entity/ai/goal/NearestAttackableTargetExpiringGoal	net/minecraft/class_3909
+net/minecraft/world/entity/ai/goal/target/NonTameRandomTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalRandomTargetNonTamed	net/minecraft/entity/ai/goal/NonTamedTargetGoal	net/minecraft/class_1404
+net/minecraft/world/entity/ai/goal/target/OwnerHurtByTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalOwnerHurtByTarget	net/minecraft/entity/ai/goal/OwnerHurtByTargetGoal	net/minecraft/class_1403
+net/minecraft/world/entity/ai/goal/target/OwnerHurtTargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalOwnerHurtTarget	net/minecraft/entity/ai/goal/OwnerHurtTargetGoal	net/minecraft/class_1406
+net/minecraft/world/entity/ai/goal/target/TargetGoal	net/minecraft/server/1_15_R1/PathfinderGoalTarget	net/minecraft/entity/ai/goal/TargetGoal	net/minecraft/class_1405
+net/minecraft/world/entity/ai/gossip/GossipContainer	net/minecraft/server/1_15_R1/Reputation	net/minecraft/village/GossipManager	net/minecraft/class_4136
+net/minecraft/world/entity/ai/gossip/GossipContainer$EntityGossips		net/minecraft/village/GossipManager$Gossips	net/minecraft/class_4136$class_4137
+net/minecraft/world/entity/ai/gossip/GossipContainer$GossipEntry		net/minecraft/village/GossipManager$GossipEntry	net/minecraft/class_4136$class_4138
+net/minecraft/world/entity/ai/gossip/GossipType	net/minecraft/server/1_15_R1/ReputationType	net/minecraft/village/GossipType	net/minecraft/class_4139
+net/minecraft/world/entity/ai/memory/MemoryModuleType	net/minecraft/server/1_15_R1/MemoryModuleType	net/minecraft/entity/ai/brain/memory/MemoryModuleType	net/minecraft/class_4140
+net/minecraft/world/entity/ai/memory/MemoryStatus	net/minecraft/server/1_15_R1/MemoryStatus	net/minecraft/entity/ai/brain/memory/MemoryModuleStatus	net/minecraft/class_4141
+net/minecraft/world/entity/ai/memory/WalkTarget	net/minecraft/server/1_15_R1/MemoryTarget	net/minecraft/entity/ai/brain/memory/WalkTarget	net/minecraft/class_4142
+net/minecraft/world/entity/ai/navigation/FlyingPathNavigation	net/minecraft/server/1_15_R1/NavigationFlying	net/minecraft/pathfinding/FlyingPathNavigator	net/minecraft/class_1407
+net/minecraft/world/entity/ai/navigation/GroundPathNavigation	net/minecraft/server/1_15_R1/Navigation	net/minecraft/pathfinding/GroundPathNavigator	net/minecraft/class_1409
+net/minecraft/world/entity/ai/navigation/PathNavigation	net/minecraft/server/1_15_R1/NavigationAbstract	net/minecraft/pathfinding/PathNavigator	net/minecraft/class_1408
+net/minecraft/world/entity/ai/navigation/WallClimberNavigation	net/minecraft/server/1_15_R1/NavigationSpider	net/minecraft/pathfinding/ClimberPathNavigator	net/minecraft/class_1410
+net/minecraft/world/entity/ai/navigation/WaterBoundPathNavigation	net/minecraft/server/1_15_R1/NavigationGuardian	net/minecraft/pathfinding/SwimmerPathNavigator	net/minecraft/class_1412
+net/minecraft/world/entity/ai/sensing/DummySensor	net/minecraft/server/1_15_R1/SensorDummy	net/minecraft/entity/ai/brain/sensor/DummySensor	net/minecraft/class_4143
+net/minecraft/world/entity/ai/sensing/GolemSensor	net/minecraft/server/1_15_R1/SensorGolemLastSeen	net/minecraft/entity/ai/brain/sensor/GolemLastSeenSensor	net/minecraft/class_4307
+net/minecraft/world/entity/ai/sensing/HurtBySensor	net/minecraft/server/1_15_R1/SensorHurtBy	net/minecraft/entity/ai/brain/sensor/HurtBySensor	net/minecraft/class_4144
+net/minecraft/world/entity/ai/sensing/InteractableDoorsSensor	net/minecraft/server/1_15_R1/SensorInteractableDoors	net/minecraft/entity/ai/brain/sensor/InteractableDoorsSensor	net/minecraft/class_4145
+net/minecraft/world/entity/ai/sensing/NearestBedSensor	net/minecraft/server/1_15_R1/SensorNearestBed	net/minecraft/entity/ai/brain/sensor/NearestBedSensor	net/minecraft/class_4256
+net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor	net/minecraft/server/1_15_R1/SensorNearestLivingEntities	net/minecraft/entity/ai/brain/sensor/NearestLivingEntitiesSensor	net/minecraft/class_4146
+net/minecraft/world/entity/ai/sensing/PlayerSensor	net/minecraft/server/1_15_R1/SensorNearestPlayers	net/minecraft/entity/ai/brain/sensor/NearestPlayersSensor	net/minecraft/class_4147
+net/minecraft/world/entity/ai/sensing/SecondaryPoiSensor	net/minecraft/server/1_15_R1/SensorSecondaryPlaces	net/minecraft/entity/ai/brain/sensor/SecondaryPositionSensor	net/minecraft/class_4221
+net/minecraft/world/entity/ai/sensing/Sensing	net/minecraft/server/1_15_R1/EntitySenses	net/minecraft/entity/ai/EntitySenses	net/minecraft/class_1413
+net/minecraft/world/entity/ai/sensing/Sensor	net/minecraft/server/1_15_R1/Sensor	net/minecraft/entity/ai/brain/sensor/Sensor	net/minecraft/class_4148
+net/minecraft/world/entity/ai/sensing/SensorType	net/minecraft/server/1_15_R1/SensorType	net/minecraft/entity/ai/brain/sensor/SensorType	net/minecraft/class_4149
+net/minecraft/world/entity/ai/sensing/VillagerBabiesSensor	net/minecraft/server/1_15_R1/SensorVillagerBabies	net/minecraft/entity/ai/brain/sensor/VillagerBabiesSensor	net/minecraft/class_4257
+net/minecraft/world/entity/ai/sensing/VillagerHostilesSensor	net/minecraft/server/1_15_R1/SensorVillagerHostiles	net/minecraft/entity/ai/brain/sensor/VillagerHostilesSensor	net/minecraft/class_4150
+net/minecraft/world/entity/ai/targeting/TargetingConditions	net/minecraft/server/1_15_R1/PathfinderTargetCondition	net/minecraft/entity/EntityPredicate	net/minecraft/class_4051
+net/minecraft/world/entity/ai/util/RandomPos	net/minecraft/server/1_15_R1/RandomPositionGenerator	net/minecraft/entity/ai/RandomPositionGenerator	net/minecraft/class_1414
+net/minecraft/world/entity/ai/village/ReputationEventType	net/minecraft/server/1_15_R1/ReputationEvent	net/minecraft/entity/merchant/IReputationType	net/minecraft/class_4151
+net/minecraft/world/entity/ai/village/ReputationEventType$1		net/minecraft/entity/merchant/IReputationType$1	net/minecraft/class_4151$1
+net/minecraft/world/entity/ai/village/VillageSiege	net/minecraft/server/1_15_R1/VillageSiege	net/minecraft/village/VillageSiege	net/minecraft/class_1419
+net/minecraft/world/entity/ai/village/VillageSiege$State	net/minecraft/server/1_15_R1/VillageSiege$State	net/minecraft/village/VillageSiege$State	net/minecraft/class_1419$class_4152
+net/minecraft/world/entity/ai/village/poi/PoiManager	net/minecraft/server/1_15_R1/VillagePlace	net/minecraft/village/PointOfInterestManager	net/minecraft/class_4153
+net/minecraft/world/entity/ai/village/poi/PoiManager$DistanceTracker		net/minecraft/village/PointOfInterestManager$DistanceGraph	net/minecraft/class_4153$class_4154
+net/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy	net/minecraft/server/1_15_R1/VillagePlace$Occupancy	net/minecraft/village/PointOfInterestManager$Status	net/minecraft/class_4153$class_4155
+net/minecraft/world/entity/ai/village/poi/PoiRecord	net/minecraft/server/1_15_R1/VillagePlaceRecord	net/minecraft/village/PointOfInterest	net/minecraft/class_4156
+net/minecraft/world/entity/ai/village/poi/PoiSection	net/minecraft/server/1_15_R1/VillagePlaceSection	net/minecraft/village/PointOfInterestData	net/minecraft/class_4157
+net/minecraft/world/entity/ai/village/poi/PoiType	net/minecraft/server/1_15_R1/VillagePlaceType	net/minecraft/village/PointOfInterestType	net/minecraft/class_4158
+net/minecraft/world/entity/ambient/AmbientCreature	net/minecraft/server/1_15_R1/EntityAmbient	net/minecraft/entity/passive/AmbientEntity	net/minecraft/class_1421
+net/minecraft/world/entity/ambient/Bat	net/minecraft/server/1_15_R1/EntityBat	net/minecraft/entity/passive/BatEntity	net/minecraft/class_1420
+net/minecraft/world/entity/animal/AbstractFish	net/minecraft/server/1_15_R1/EntityFish	net/minecraft/entity/passive/fish/AbstractFishEntity	net/minecraft/class_1422
+net/minecraft/world/entity/animal/AbstractFish$FishMoveControl		net/minecraft/entity/passive/fish/AbstractFishEntity$MoveHelperController	net/minecraft/class_1422$class_1423
+net/minecraft/world/entity/animal/AbstractFish$FishSwimGoal		net/minecraft/entity/passive/fish/AbstractFishEntity$SwimGoal	net/minecraft/class_1422$class_1424
+net/minecraft/world/entity/animal/AbstractGolem	net/minecraft/server/1_15_R1/EntityGolem	net/minecraft/entity/passive/GolemEntity	net/minecraft/class_1427
+net/minecraft/world/entity/animal/AbstractSchoolingFish	net/minecraft/server/1_15_R1/EntityFishSchool	net/minecraft/entity/passive/fish/AbstractGroupFishEntity	net/minecraft/class_1425
+net/minecraft/world/entity/animal/AbstractSchoolingFish$SchoolSpawnGroupData		net/minecraft/entity/passive/fish/AbstractGroupFishEntity$GroupData	net/minecraft/class_1425$class_1426
+net/minecraft/world/entity/animal/Animal	net/minecraft/server/1_15_R1/EntityAnimal	net/minecraft/entity/passive/AnimalEntity	net/minecraft/class_1429
+net/minecraft/world/entity/animal/Bee	net/minecraft/server/1_15_R1/EntityBee	net/minecraft/entity/passive/BeeEntity	net/minecraft/class_4466
+net/minecraft/world/entity/animal/Bee$1		net/minecraft/entity/passive/BeeEntity$1	net/minecraft/class_4466$1
+net/minecraft/world/entity/animal/Bee$BaseBeeGoal		net/minecraft/entity/passive/BeeEntity$PassiveGoal	net/minecraft/class_4466$class_4467
+net/minecraft/world/entity/animal/Bee$BeeAttackGoal		net/minecraft/entity/passive/BeeEntity$StingGoal	net/minecraft/class_4466$class_4468
+net/minecraft/world/entity/animal/Bee$BeeBecomeAngryTargetGoal		net/minecraft/entity/passive/BeeEntity$AttackPlayerGoal	net/minecraft/class_4466$class_4469
+net/minecraft/world/entity/animal/Bee$BeeEnterHiveGoal		net/minecraft/entity/passive/BeeEntity$EnterBeehiveGoal	net/minecraft/class_4466$class_4470
+net/minecraft/world/entity/animal/Bee$BeeGoToHiveGoal		net/minecraft/entity/passive/BeeEntity$FindBeehiveGoal	net/minecraft/class_4466$class_4472
+net/minecraft/world/entity/animal/Bee$BeeGoToKnownFlowerGoal		net/minecraft/entity/passive/BeeEntity$FindFlowerGoal	net/minecraft/class_4466$class_4473
+net/minecraft/world/entity/animal/Bee$BeeGrowCropGoal		net/minecraft/entity/passive/BeeEntity$FindPollinationTargetGoal	net/minecraft/class_4466$class_4474
+net/minecraft/world/entity/animal/Bee$BeeHurtByOtherGoal		net/minecraft/entity/passive/BeeEntity$AngerGoal	net/minecraft/class_4466$class_4475
+net/minecraft/world/entity/animal/Bee$BeeLocateHiveGoal		net/minecraft/entity/passive/BeeEntity$UpdateBeehiveGoal	net/minecraft/class_4466$class_4476
+net/minecraft/world/entity/animal/Bee$BeeLookControl		net/minecraft/entity/passive/BeeEntity$BeeLookController	net/minecraft/class_4466$class_4477
+net/minecraft/world/entity/animal/Bee$BeePollinateGoal		net/minecraft/entity/passive/BeeEntity$PollinateGoal	net/minecraft/class_4466$class_4478
+net/minecraft/world/entity/animal/Bee$BeeWanderGoal		net/minecraft/entity/passive/BeeEntity$WanderGoal	net/minecraft/class_4466$class_4479
+net/minecraft/world/entity/animal/Cat	net/minecraft/server/1_15_R1/EntityCat	net/minecraft/entity/passive/CatEntity	net/minecraft/class_1451
+net/minecraft/world/entity/animal/Cat$CatAvoidEntityGoal		net/minecraft/entity/passive/CatEntity$AvoidPlayerGoal	net/minecraft/class_1451$class_3698
+net/minecraft/world/entity/animal/Cat$CatRelaxOnOwnerGoal		net/minecraft/entity/passive/CatEntity$MorningGiftGoal	net/minecraft/class_1451$class_3699
+net/minecraft/world/entity/animal/Cat$CatTemptGoal	net/minecraft/server/1_15_R1/EntityCat$PathfinderGoalTemptChance	net/minecraft/entity/passive/CatEntity$TemptGoal	net/minecraft/class_1451$class_3700
+net/minecraft/world/entity/animal/Chicken	net/minecraft/server/1_15_R1/EntityChicken	net/minecraft/entity/passive/ChickenEntity	net/minecraft/class_1428
+net/minecraft/world/entity/animal/Cod	net/minecraft/server/1_15_R1/EntityCod	net/minecraft/entity/passive/fish/CodEntity	net/minecraft/class_1431
+net/minecraft/world/entity/animal/Cow	net/minecraft/server/1_15_R1/EntityCow	net/minecraft/entity/passive/CowEntity	net/minecraft/class_1430
+net/minecraft/world/entity/animal/Dolphin	net/minecraft/server/1_15_R1/EntityDolphin	net/minecraft/entity/passive/DolphinEntity	net/minecraft/class_1433
+net/minecraft/world/entity/animal/Dolphin$DolphinMoveControl		net/minecraft/entity/passive/DolphinEntity$MoveHelperController	net/minecraft/class_1433$class_1434
+net/minecraft/world/entity/animal/Dolphin$DolphinSwimToTreasureGoal		net/minecraft/entity/passive/DolphinEntity$SwimToTreasureGoal	net/minecraft/class_1433$class_1435
+net/minecraft/world/entity/animal/Dolphin$DolphinSwimWithPlayerGoal		net/minecraft/entity/passive/DolphinEntity$SwimWithPlayerGoal	net/minecraft/class_1433$class_1436
+net/minecraft/world/entity/animal/Dolphin$PlayWithItemsGoal		net/minecraft/entity/passive/DolphinEntity$PlayWithItemsGoal	net/minecraft/class_1433$class_1437
+net/minecraft/world/entity/animal/FlyingAnimal	net/minecraft/server/1_15_R1/EntityBird	net/minecraft/entity/passive/IFlyingAnimal	net/minecraft/class_1432
+net/minecraft/world/entity/animal/Fox	net/minecraft/server/1_15_R1/EntityFox	net/minecraft/entity/passive/FoxEntity	net/minecraft/class_4019
+net/minecraft/world/entity/animal/Fox$DefendTrustedTargetGoal		net/minecraft/entity/passive/FoxEntity$RevengeGoal	net/minecraft/class_4019$class_4020
+net/minecraft/world/entity/animal/Fox$FaceplantGoal		net/minecraft/entity/passive/FoxEntity$JumpGoal	net/minecraft/class_4019$class_4021
+net/minecraft/world/entity/animal/Fox$FoxAlertableEntitiesSelector		net/minecraft/entity/passive/FoxEntity$AlertablePredicate	net/minecraft/class_4019$class_4022
+net/minecraft/world/entity/animal/Fox$FoxBehaviorGoal		net/minecraft/entity/passive/FoxEntity$BaseGoal	net/minecraft/class_4019$class_4023
+net/minecraft/world/entity/animal/Fox$FoxBreedGoal		net/minecraft/entity/passive/FoxEntity$MateGoal	net/minecraft/class_4019$class_4024
+net/minecraft/world/entity/animal/Fox$FoxEatBerriesGoal		net/minecraft/entity/passive/FoxEntity$EatBerriesGoal	net/minecraft/class_4019$class_4025
+net/minecraft/world/entity/animal/Fox$FoxFloatGoal		net/minecraft/entity/passive/FoxEntity$SwimGoal	net/minecraft/class_4019$class_4026
+net/minecraft/world/entity/animal/Fox$FoxFollowParentGoal		net/minecraft/entity/passive/FoxEntity$FollowGoal	net/minecraft/class_4019$class_4052
+net/minecraft/world/entity/animal/Fox$FoxGroupData		net/minecraft/entity/passive/FoxEntity$FoxData	net/minecraft/class_4019$class_4027
+net/minecraft/world/entity/animal/Fox$FoxLookAtPlayerGoal		net/minecraft/entity/passive/FoxEntity$WatchGoal	net/minecraft/class_4019$class_4292
+net/minecraft/world/entity/animal/Fox$FoxLookControl		net/minecraft/entity/passive/FoxEntity$LookHelperController	net/minecraft/class_4019$class_4028
+net/minecraft/world/entity/animal/Fox$FoxMeleeAttackGoal		net/minecraft/entity/passive/FoxEntity$BiteGoal	net/minecraft/class_4019$class_4029
+net/minecraft/world/entity/animal/Fox$FoxMoveControl		net/minecraft/entity/passive/FoxEntity$MoveHelperController	net/minecraft/class_4019$class_4030
+net/minecraft/world/entity/animal/Fox$FoxPanicGoal		net/minecraft/entity/passive/FoxEntity$PanicGoal	net/minecraft/class_4019$class_4032
+net/minecraft/world/entity/animal/Fox$FoxPounceGoal		net/minecraft/entity/passive/FoxEntity$PounceGoal	net/minecraft/class_4019$class_4033
+net/minecraft/world/entity/animal/Fox$FoxSearchForItemsGoal		net/minecraft/entity/passive/FoxEntity$FindItemsGoal	net/minecraft/class_4019$class_4034
+net/minecraft/world/entity/animal/Fox$FoxStrollThroughVillageGoal		net/minecraft/entity/passive/FoxEntity$StrollGoal	net/minecraft/class_4019$class_4031
+net/minecraft/world/entity/animal/Fox$PerchAndSearchGoal		net/minecraft/entity/passive/FoxEntity$SitAndLookGoal	net/minecraft/class_4019$class_4035
+net/minecraft/world/entity/animal/Fox$SeekShelterGoal		net/minecraft/entity/passive/FoxEntity$FindShelterGoal	net/minecraft/class_4019$class_4036
+net/minecraft/world/entity/animal/Fox$SleepGoal		net/minecraft/entity/passive/FoxEntity$SleepGoal	net/minecraft/class_4019$class_4037
+net/minecraft/world/entity/animal/Fox$StalkPreyGoal		net/minecraft/entity/passive/FoxEntity$FollowTargetGoal	net/minecraft/class_4019$class_4038
+net/minecraft/world/entity/animal/Fox$Type	net/minecraft/server/1_15_R1/EntityFox$Type	net/minecraft/entity/passive/FoxEntity$Type	net/minecraft/class_4019$class_4039
+net/minecraft/world/entity/animal/IronGolem	net/minecraft/server/1_15_R1/EntityIronGolem	net/minecraft/entity/passive/IronGolemEntity	net/minecraft/class_1439
+net/minecraft/world/entity/animal/IronGolem$Crackiness	net/minecraft/server/1_15_R1/EntityIronGolem$CrackLevel	net/minecraft/entity/passive/IronGolemEntity$Cracks	net/minecraft/class_1439$class_4621
+net/minecraft/world/entity/animal/MushroomCow	net/minecraft/server/1_15_R1/EntityMushroomCow	net/minecraft/entity/passive/MooshroomEntity	net/minecraft/class_1438
+net/minecraft/world/entity/animal/MushroomCow$MushroomType	net/minecraft/server/1_15_R1/EntityMushroomCow$Type	net/minecraft/entity/passive/MooshroomEntity$Type	net/minecraft/class_1438$class_4053
+net/minecraft/world/entity/animal/Ocelot	net/minecraft/server/1_15_R1/EntityOcelot	net/minecraft/entity/passive/OcelotEntity	net/minecraft/class_3701
+net/minecraft/world/entity/animal/Ocelot$OcelotAvoidEntityGoal		net/minecraft/entity/passive/OcelotEntity$AvoidEntityGoal	net/minecraft/class_3701$class_3702
+net/minecraft/world/entity/animal/Ocelot$OcelotTemptGoal		net/minecraft/entity/passive/OcelotEntity$TemptGoal	net/minecraft/class_3701$class_3703
+net/minecraft/world/entity/animal/Panda	net/minecraft/server/1_15_R1/EntityPanda	net/minecraft/entity/passive/PandaEntity	net/minecraft/class_1440
+net/minecraft/world/entity/animal/Panda$Gene	net/minecraft/server/1_15_R1/EntityPanda$Gene	net/minecraft/entity/passive/PandaEntity$Type	net/minecraft/class_1440$class_1443
+net/minecraft/world/entity/animal/Panda$PandaAttackGoal		net/minecraft/entity/passive/PandaEntity$AttackGoal	net/minecraft/class_1440$class_4054
+net/minecraft/world/entity/animal/Panda$PandaAvoidGoal		net/minecraft/entity/passive/PandaEntity$AvoidGoal	net/minecraft/class_1440$class_1441
+net/minecraft/world/entity/animal/Panda$PandaBreedGoal		net/minecraft/entity/passive/PandaEntity$MateGoal	net/minecraft/class_1440$class_1442
+net/minecraft/world/entity/animal/Panda$PandaHurtByTargetGoal		net/minecraft/entity/passive/PandaEntity$RevengeGoal	net/minecraft/class_1440$class_1444
+net/minecraft/world/entity/animal/Panda$PandaLieOnBackGoal		net/minecraft/entity/passive/PandaEntity$LieBackGoal	net/minecraft/class_1440$class_1445
+net/minecraft/world/entity/animal/Panda$PandaLookAtPlayerGoal		net/minecraft/entity/passive/PandaEntity$WatchGoal	net/minecraft/class_1440$class_4056
+net/minecraft/world/entity/animal/Panda$PandaMoveControl		net/minecraft/entity/passive/PandaEntity$MoveHelperController	net/minecraft/class_1440$class_1446
+net/minecraft/world/entity/animal/Panda$PandaPanicGoal		net/minecraft/entity/passive/PandaEntity$PanicGoal	net/minecraft/class_1440$class_1447
+net/minecraft/world/entity/animal/Panda$PandaRollGoal		net/minecraft/entity/passive/PandaEntity$RollGoal	net/minecraft/class_1440$class_1448
+net/minecraft/world/entity/animal/Panda$PandaSitGoal		net/minecraft/entity/passive/PandaEntity$SitGoal	net/minecraft/class_1440$class_1449
+net/minecraft/world/entity/animal/Panda$PandaSneezeGoal		net/minecraft/entity/passive/PandaEntity$ChildPlayGoal	net/minecraft/class_1440$class_1450
+net/minecraft/world/entity/animal/Parrot	net/minecraft/server/1_15_R1/EntityParrot	net/minecraft/entity/passive/ParrotEntity	net/minecraft/class_1453
+net/minecraft/world/entity/animal/Parrot$1		net/minecraft/entity/passive/ParrotEntity$1	net/minecraft/class_1453$1
+net/minecraft/world/entity/animal/Pig	net/minecraft/server/1_15_R1/EntityPig	net/minecraft/entity/passive/PigEntity	net/minecraft/class_1452
+net/minecraft/world/entity/animal/PolarBear	net/minecraft/server/1_15_R1/EntityPolarBear	net/minecraft/entity/passive/PolarBearEntity	net/minecraft/class_1456
+net/minecraft/world/entity/animal/PolarBear$PolarBearAttackPlayersGoal		net/minecraft/entity/passive/PolarBearEntity$AttackPlayerGoal	net/minecraft/class_1456$class_1457
+net/minecraft/world/entity/animal/PolarBear$PolarBearHurtByTargetGoal		net/minecraft/entity/passive/PolarBearEntity$HurtByTargetGoal	net/minecraft/class_1456$class_1459
+net/minecraft/world/entity/animal/PolarBear$PolarBearMeleeAttackGoal		net/minecraft/entity/passive/PolarBearEntity$MeleeAttackGoal	net/minecraft/class_1456$class_1460
+net/minecraft/world/entity/animal/PolarBear$PolarBearPanicGoal		net/minecraft/entity/passive/PolarBearEntity$PanicGoal	net/minecraft/class_1456$class_1461
+net/minecraft/world/entity/animal/Pufferfish	net/minecraft/server/1_15_R1/EntityPufferFish	net/minecraft/entity/passive/fish/PufferfishEntity	net/minecraft/class_1454
+net/minecraft/world/entity/animal/Pufferfish$PufferfishPuffGoal		net/minecraft/entity/passive/fish/PufferfishEntity$PuffGoal	net/minecraft/class_1454$class_1455
+net/minecraft/world/entity/animal/Rabbit	net/minecraft/server/1_15_R1/EntityRabbit	net/minecraft/entity/passive/RabbitEntity	net/minecraft/class_1463
+net/minecraft/world/entity/animal/Rabbit$EvilRabbitAttackGoal	net/minecraft/server/1_15_R1/EntityRabbit$PathfinderGoalKillerRabbitMeleeAttack	net/minecraft/entity/passive/RabbitEntity$EvilAttackGoal	net/minecraft/class_1463$class_1464
+net/minecraft/world/entity/animal/Rabbit$RabbitAvoidEntityGoal	net/minecraft/server/1_15_R1/EntityRabbit$PathfinderGoalRabbitAvoidTarget	net/minecraft/entity/passive/RabbitEntity$AvoidEntityGoal	net/minecraft/class_1463$class_1465
+net/minecraft/world/entity/animal/Rabbit$RabbitGroupData	net/minecraft/server/1_15_R1/EntityRabbit$GroupDataRabbit	net/minecraft/entity/passive/RabbitEntity$RabbitData	net/minecraft/class_1463$class_1466
+net/minecraft/world/entity/animal/Rabbit$RabbitJumpControl	net/minecraft/server/1_15_R1/EntityRabbit$ControllerJumpRabbit	net/minecraft/entity/passive/RabbitEntity$JumpHelperController	net/minecraft/class_1463$class_1467
+net/minecraft/world/entity/animal/Rabbit$RabbitMoveControl	net/minecraft/server/1_15_R1/EntityRabbit$ControllerMoveRabbit	net/minecraft/entity/passive/RabbitEntity$MoveHelperController	net/minecraft/class_1463$class_1468
+net/minecraft/world/entity/animal/Rabbit$RabbitPanicGoal	net/minecraft/server/1_15_R1/EntityRabbit$PathfinderGoalRabbitPanic	net/minecraft/entity/passive/RabbitEntity$PanicGoal	net/minecraft/class_1463$class_1469
+net/minecraft/world/entity/animal/Rabbit$RaidGardenGoal	net/minecraft/server/1_15_R1/EntityRabbit$PathfinderGoalEatCarrots	net/minecraft/entity/passive/RabbitEntity$RaidFarmGoal	net/minecraft/class_1463$class_1470
+net/minecraft/world/entity/animal/Salmon	net/minecraft/server/1_15_R1/EntitySalmon	net/minecraft/entity/passive/fish/SalmonEntity	net/minecraft/class_1462
+net/minecraft/world/entity/animal/Sheep	net/minecraft/server/1_15_R1/EntitySheep	net/minecraft/entity/passive/SheepEntity	net/minecraft/class_1472
+net/minecraft/world/entity/animal/Sheep$1		net/minecraft/entity/passive/SheepEntity$1	net/minecraft/class_1472$1
+net/minecraft/world/entity/animal/ShoulderRidingEntity	net/minecraft/server/1_15_R1/EntityPerchable	net/minecraft/entity/passive/ShoulderRidingEntity	net/minecraft/class_1471
+net/minecraft/world/entity/animal/SnowGolem	net/minecraft/server/1_15_R1/EntitySnowman	net/minecraft/entity/passive/SnowGolemEntity	net/minecraft/class_1473
+net/minecraft/world/entity/animal/Squid	net/minecraft/server/1_15_R1/EntitySquid	net/minecraft/entity/passive/SquidEntity	net/minecraft/class_1477
+net/minecraft/world/entity/animal/Squid$SquidFleeGoal		net/minecraft/entity/passive/SquidEntity$FleeGoal	net/minecraft/class_1477$class_1478
+net/minecraft/world/entity/animal/Squid$SquidRandomMovementGoal	net/minecraft/server/1_15_R1/EntitySquid$PathfinderGoalSquid	net/minecraft/entity/passive/SquidEntity$MoveRandomGoal	net/minecraft/class_1477$class_1479
+net/minecraft/world/entity/animal/TropicalFish	net/minecraft/server/1_15_R1/EntityTropicalFish	net/minecraft/entity/passive/fish/TropicalFishEntity	net/minecraft/class_1474
+net/minecraft/world/entity/animal/TropicalFish$Pattern	net/minecraft/server/1_15_R1/EntityTropicalFish$Variant	net/minecraft/entity/passive/fish/TropicalFishEntity$Type	net/minecraft/class_1474$class_1475
+net/minecraft/world/entity/animal/TropicalFish$TropicalFishGroupData		net/minecraft/entity/passive/fish/TropicalFishEntity$TropicalFishData	net/minecraft/class_1474$class_1476
+net/minecraft/world/entity/animal/Turtle	net/minecraft/server/1_15_R1/EntityTurtle	net/minecraft/entity/passive/TurtleEntity	net/minecraft/class_1481
+net/minecraft/world/entity/animal/Turtle$TurtleBreedGoal		net/minecraft/entity/passive/TurtleEntity$MateGoal	net/minecraft/class_1481$class_1482
+net/minecraft/world/entity/animal/Turtle$TurtleGoHomeGoal		net/minecraft/entity/passive/TurtleEntity$GoHomeGoal	net/minecraft/class_1481$class_1483
+net/minecraft/world/entity/animal/Turtle$TurtleGoToWaterGoal		net/minecraft/entity/passive/TurtleEntity$GoToWaterGoal	net/minecraft/class_1481$class_1484
+net/minecraft/world/entity/animal/Turtle$TurtleLayEggGoal		net/minecraft/entity/passive/TurtleEntity$LayEggGoal	net/minecraft/class_1481$class_1485
+net/minecraft/world/entity/animal/Turtle$TurtleMoveControl		net/minecraft/entity/passive/TurtleEntity$MoveHelperController	net/minecraft/class_1481$class_1486
+net/minecraft/world/entity/animal/Turtle$TurtlePanicGoal		net/minecraft/entity/passive/TurtleEntity$PanicGoal	net/minecraft/class_1481$class_1487
+net/minecraft/world/entity/animal/Turtle$TurtlePathNavigation		net/minecraft/entity/passive/TurtleEntity$Navigator	net/minecraft/class_1481$class_1488
+net/minecraft/world/entity/animal/Turtle$TurtleRandomStrollGoal		net/minecraft/entity/passive/TurtleEntity$WanderGoal	net/minecraft/class_1481$class_1489
+net/minecraft/world/entity/animal/Turtle$TurtleTemptGoal		net/minecraft/entity/passive/TurtleEntity$PlayerTemptGoal	net/minecraft/class_1481$class_1490
+net/minecraft/world/entity/animal/Turtle$TurtleTravelGoal		net/minecraft/entity/passive/TurtleEntity$TravelGoal	net/minecraft/class_1481$class_1491
+net/minecraft/world/entity/animal/WaterAnimal	net/minecraft/server/1_15_R1/EntityWaterAnimal	net/minecraft/entity/passive/WaterMobEntity	net/minecraft/class_1480
+net/minecraft/world/entity/animal/Wolf	net/minecraft/server/1_15_R1/EntityWolf	net/minecraft/entity/passive/WolfEntity	net/minecraft/class_1493
+net/minecraft/world/entity/animal/Wolf$WolfAvoidEntityGoal		net/minecraft/entity/passive/WolfEntity$AvoidEntityGoal	net/minecraft/class_1493$class_1494
+net/minecraft/world/entity/animal/horse/AbstractChestedHorse	net/minecraft/server/1_15_R1/EntityHorseChestedAbstract	net/minecraft/entity/passive/horse/AbstractChestedHorseEntity	net/minecraft/class_1492
+net/minecraft/world/entity/animal/horse/AbstractHorse	net/minecraft/server/1_15_R1/EntityHorseAbstract	net/minecraft/entity/passive/horse/AbstractHorseEntity	net/minecraft/class_1496
+net/minecraft/world/entity/animal/horse/Donkey	net/minecraft/server/1_15_R1/EntityHorseDonkey	net/minecraft/entity/passive/horse/DonkeyEntity	net/minecraft/class_1495
+net/minecraft/world/entity/animal/horse/Horse	net/minecraft/server/1_15_R1/EntityHorse	net/minecraft/entity/passive/horse/HorseEntity	net/minecraft/class_1498
+net/minecraft/world/entity/animal/horse/Horse$HorseGroupData		net/minecraft/entity/passive/horse/HorseEntity$HorseData	net/minecraft/class_1498$class_1499
+net/minecraft/world/entity/animal/horse/Llama	net/minecraft/server/1_15_R1/EntityLlama	net/minecraft/entity/passive/horse/LlamaEntity	net/minecraft/class_1501
+net/minecraft/world/entity/animal/horse/Llama$LlamaAttackWolfGoal		net/minecraft/entity/passive/horse/LlamaEntity$DefendTargetGoal	net/minecraft/class_1501$class_1502
+net/minecraft/world/entity/animal/horse/Llama$LlamaGroupData		net/minecraft/entity/passive/horse/LlamaEntity$LlamaData	net/minecraft/class_1501$class_1503
+net/minecraft/world/entity/animal/horse/Llama$LlamaHurtByTargetGoal		net/minecraft/entity/passive/horse/LlamaEntity$HurtByTargetGoal	net/minecraft/class_1501$class_1504
+net/minecraft/world/entity/animal/horse/Mule	net/minecraft/server/1_15_R1/EntityHorseMule	net/minecraft/entity/passive/horse/MuleEntity	net/minecraft/class_1500
+net/minecraft/world/entity/animal/horse/SkeletonHorse	net/minecraft/server/1_15_R1/EntityHorseSkeleton	net/minecraft/entity/passive/horse/SkeletonHorseEntity	net/minecraft/class_1506
+net/minecraft/world/entity/animal/horse/SkeletonTrapGoal	net/minecraft/server/1_15_R1/PathfinderGoalHorseTrap	net/minecraft/entity/ai/goal/TriggerSkeletonTrapGoal	net/minecraft/class_1505
+net/minecraft/world/entity/animal/horse/TraderLlama	net/minecraft/server/1_15_R1/EntityLlamaTrader	net/minecraft/entity/passive/horse/TraderLlamaEntity	net/minecraft/class_3986
+net/minecraft/world/entity/animal/horse/TraderLlama$TraderLlamaDefendWanderingTraderGoal		net/minecraft/entity/passive/horse/TraderLlamaEntity$FollowTraderGoal	net/minecraft/class_3986$class_3987
+net/minecraft/world/entity/animal/horse/ZombieHorse	net/minecraft/server/1_15_R1/EntityHorseZombie	net/minecraft/entity/passive/horse/ZombieHorseEntity	net/minecraft/class_1507
+net/minecraft/world/entity/boss/EnderDragonPart	net/minecraft/server/1_15_R1/EntityComplexPart	net/minecraft/entity/boss/dragon/EnderDragonPartEntity	net/minecraft/class_1508
+net/minecraft/world/entity/boss/enderdragon/EndCrystal	net/minecraft/server/1_15_R1/EntityEnderCrystal	net/minecraft/entity/item/EnderCrystalEntity	net/minecraft/class_1511
+net/minecraft/world/entity/boss/enderdragon/EnderDragon	net/minecraft/server/1_15_R1/EntityEnderDragon	net/minecraft/entity/boss/dragon/EnderDragonEntity	net/minecraft/class_1510
+net/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonPhaseInstance	net/minecraft/server/1_15_R1/AbstractDragonController	net/minecraft/entity/boss/dragon/phase/Phase	net/minecraft/class_1512
+net/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonSittingPhase	net/minecraft/server/1_15_R1/AbstractDragonControllerLanded	net/minecraft/entity/boss/dragon/phase/SittingPhase	net/minecraft/class_1514
+net/minecraft/world/entity/boss/enderdragon/phases/DragonChargePlayerPhase	net/minecraft/server/1_15_R1/DragonControllerCharge	net/minecraft/entity/boss/dragon/phase/ChargingPlayerPhase	net/minecraft/class_1513
+net/minecraft/world/entity/boss/enderdragon/phases/DragonDeathPhase	net/minecraft/server/1_15_R1/DragonControllerDying	net/minecraft/entity/boss/dragon/phase/DyingPhase	net/minecraft/class_1515
+net/minecraft/world/entity/boss/enderdragon/phases/DragonHoldingPatternPhase	net/minecraft/server/1_15_R1/DragonControllerHold	net/minecraft/entity/boss/dragon/phase/HoldingPatternPhase	net/minecraft/class_1517
+net/minecraft/world/entity/boss/enderdragon/phases/DragonHoverPhase	net/minecraft/server/1_15_R1/DragonControllerHover	net/minecraft/entity/boss/dragon/phase/HoverPhase	net/minecraft/class_1516
+net/minecraft/world/entity/boss/enderdragon/phases/DragonLandingApproachPhase	net/minecraft/server/1_15_R1/DragonControllerLandingFly	net/minecraft/entity/boss/dragon/phase/LandingApproachPhase	net/minecraft/class_1519
+net/minecraft/world/entity/boss/enderdragon/phases/DragonLandingPhase	net/minecraft/server/1_15_R1/DragonControllerLanding	net/minecraft/entity/boss/dragon/phase/LandingPhase	net/minecraft/class_1518
+net/minecraft/world/entity/boss/enderdragon/phases/DragonPhaseInstance	net/minecraft/server/1_15_R1/IDragonController	net/minecraft/entity/boss/dragon/phase/IPhase	net/minecraft/class_1521
+net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingAttackingPhase	net/minecraft/server/1_15_R1/DragonControllerLandedAttack	net/minecraft/entity/boss/dragon/phase/AttackingSittingPhase	net/minecraft/class_1520
+net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingFlamingPhase	net/minecraft/server/1_15_R1/DragonControllerLandedFlame	net/minecraft/entity/boss/dragon/phase/FlamingSittingPhase	net/minecraft/class_1523
+net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingScanningPhase	net/minecraft/server/1_15_R1/DragonControllerLandedSearch	net/minecraft/entity/boss/dragon/phase/ScanningSittingPhase	net/minecraft/class_1522
+net/minecraft/world/entity/boss/enderdragon/phases/DragonStrafePlayerPhase	net/minecraft/server/1_15_R1/DragonControllerStrafe	net/minecraft/entity/boss/dragon/phase/StrafePlayerPhase	net/minecraft/class_1525
+net/minecraft/world/entity/boss/enderdragon/phases/DragonTakeoffPhase	net/minecraft/server/1_15_R1/DragonControllerFly	net/minecraft/entity/boss/dragon/phase/TakeoffPhase	net/minecraft/class_1524
+net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase	net/minecraft/server/1_15_R1/DragonControllerPhase	net/minecraft/entity/boss/dragon/phase/PhaseType	net/minecraft/class_1527
+net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhaseManager	net/minecraft/server/1_15_R1/DragonControllerManager	net/minecraft/entity/boss/dragon/phase/PhaseManager	net/minecraft/class_1526
+net/minecraft/world/entity/boss/wither/WitherBoss	net/minecraft/server/1_15_R1/EntityWither	net/minecraft/entity/boss/WitherEntity	net/minecraft/class_1528
+net/minecraft/world/entity/boss/wither/WitherBoss$WitherDoNothingGoal		net/minecraft/entity/boss/WitherEntity$DoNothingGoal	net/minecraft/class_1528$class_1529
+net/minecraft/world/entity/decoration/ArmorStand	net/minecraft/server/1_15_R1/EntityArmorStand	net/minecraft/entity/item/ArmorStandEntity	net/minecraft/class_1531
+net/minecraft/world/entity/decoration/HangingEntity	net/minecraft/server/1_15_R1/EntityHanging	net/minecraft/entity/item/HangingEntity	net/minecraft/class_1530
+net/minecraft/world/entity/decoration/ItemFrame	net/minecraft/server/1_15_R1/EntityItemFrame	net/minecraft/entity/item/ItemFrameEntity	net/minecraft/class_1533
+net/minecraft/world/entity/decoration/LeashFenceKnotEntity	net/minecraft/server/1_15_R1/EntityLeash	net/minecraft/entity/item/LeashKnotEntity	net/minecraft/class_1532
+net/minecraft/world/entity/decoration/Motive	net/minecraft/server/1_15_R1/Paintings	net/minecraft/entity/item/PaintingType	net/minecraft/class_1535
+net/minecraft/world/entity/decoration/Painting	net/minecraft/server/1_15_R1/EntityPainting	net/minecraft/entity/item/PaintingEntity	net/minecraft/class_1534
+net/minecraft/world/entity/fishing/FishingHook	net/minecraft/server/1_15_R1/EntityFishingHook	net/minecraft/entity/projectile/FishingBobberEntity	net/minecraft/class_1536
+net/minecraft/world/entity/fishing/FishingHook$FishHookState	net/minecraft/server/1_15_R1/EntityFishingHook$HookState	net/minecraft/entity/projectile/FishingBobberEntity$State	net/minecraft/class_1536$class_1537
+net/minecraft/world/entity/global/LightningBolt	net/minecraft/server/1_15_R1/EntityLightning	net/minecraft/entity/effect/LightningBoltEntity	net/minecraft/class_1538
+net/minecraft/world/entity/item/FallingBlockEntity	net/minecraft/server/1_15_R1/EntityFallingBlock	net/minecraft/entity/item/FallingBlockEntity	net/minecraft/class_1540
+net/minecraft/world/entity/item/ItemEntity	net/minecraft/server/1_15_R1/EntityItem	net/minecraft/entity/item/ItemEntity	net/minecraft/class_1542
+net/minecraft/world/entity/item/PrimedTnt	net/minecraft/server/1_15_R1/EntityTNTPrimed	net/minecraft/entity/item/TNTEntity	net/minecraft/class_1541
+net/minecraft/world/entity/monster/AbstractIllager	net/minecraft/server/1_15_R1/EntityIllagerAbstract	net/minecraft/entity/monster/AbstractIllagerEntity	net/minecraft/class_1543
+net/minecraft/world/entity/monster/AbstractIllager$RaiderOpenDoorGoal		net/minecraft/entity/monster/AbstractIllagerEntity$RaidOpenDoorGoal	net/minecraft/class_1543$class_4258
+net/minecraft/world/entity/monster/AbstractSkeleton	net/minecraft/server/1_15_R1/EntitySkeletonAbstract	net/minecraft/entity/monster/AbstractSkeletonEntity	net/minecraft/class_1547
+net/minecraft/world/entity/monster/AbstractSkeleton$1		net/minecraft/entity/monster/AbstractSkeletonEntity$1	net/minecraft/class_1547$1
+net/minecraft/world/entity/monster/Blaze	net/minecraft/server/1_15_R1/EntityBlaze	net/minecraft/entity/monster/BlazeEntity	net/minecraft/class_1545
+net/minecraft/world/entity/monster/Blaze$BlazeAttackGoal	net/minecraft/server/1_15_R1/EntityBlaze$PathfinderGoalBlazeFireball	net/minecraft/entity/monster/BlazeEntity$FireballAttackGoal	net/minecraft/class_1545$class_1546
+net/minecraft/world/entity/monster/CaveSpider	net/minecraft/server/1_15_R1/EntityCaveSpider	net/minecraft/entity/monster/CaveSpiderEntity	net/minecraft/class_1549
+net/minecraft/world/entity/monster/Creeper	net/minecraft/server/1_15_R1/EntityCreeper	net/minecraft/entity/monster/CreeperEntity	net/minecraft/class_1548
+net/minecraft/world/entity/monster/CrossbowAttackMob	net/minecraft/server/1_15_R1/ICrossbow	net/minecraft/entity/ICrossbowUser	net/minecraft/class_3745
+net/minecraft/world/entity/monster/Drowned	net/minecraft/server/1_15_R1/EntityDrowned	net/minecraft/entity/monster/DrownedEntity	net/minecraft/class_1551
+net/minecraft/world/entity/monster/Drowned$DrownedAttackGoal		net/minecraft/entity/monster/DrownedEntity$AttackGoal	net/minecraft/class_1551$class_1552
+net/minecraft/world/entity/monster/Drowned$DrownedGoToBeachGoal		net/minecraft/entity/monster/DrownedEntity$GoToBeachGoal	net/minecraft/class_1551$class_1554
+net/minecraft/world/entity/monster/Drowned$DrownedGoToWaterGoal		net/minecraft/entity/monster/DrownedEntity$GoToWaterGoal	net/minecraft/class_1551$class_1555
+net/minecraft/world/entity/monster/Drowned$DrownedMoveControl		net/minecraft/entity/monster/DrownedEntity$MoveHelperController	net/minecraft/class_1551$class_1556
+net/minecraft/world/entity/monster/Drowned$DrownedSwimUpGoal		net/minecraft/entity/monster/DrownedEntity$SwimUpGoal	net/minecraft/class_1551$class_1557
+net/minecraft/world/entity/monster/Drowned$DrownedTridentAttackGoal		net/minecraft/entity/monster/DrownedEntity$TridentAttackGoal	net/minecraft/class_1551$class_1558
+net/minecraft/world/entity/monster/ElderGuardian	net/minecraft/server/1_15_R1/EntityGuardianElder	net/minecraft/entity/monster/ElderGuardianEntity	net/minecraft/class_1550
+net/minecraft/world/entity/monster/EnderMan	net/minecraft/server/1_15_R1/EntityEnderman	net/minecraft/entity/monster/EndermanEntity	net/minecraft/class_1560
+net/minecraft/world/entity/monster/EnderMan$EndermanFreezeWhenLookedAt		net/minecraft/entity/monster/EndermanEntity$StareGoal	net/minecraft/class_1560$class_4159
+net/minecraft/world/entity/monster/EnderMan$EndermanLeaveBlockGoal	net/minecraft/server/1_15_R1/EntityEnderman$PathfinderGoalEndermanPlaceBlock	net/minecraft/entity/monster/EndermanEntity$PlaceBlockGoal	net/minecraft/class_1560$class_1561
+net/minecraft/world/entity/monster/EnderMan$EndermanLookForPlayerGoal	net/minecraft/server/1_15_R1/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget	net/minecraft/entity/monster/EndermanEntity$FindPlayerGoal	net/minecraft/class_1560$class_1562
+net/minecraft/world/entity/monster/EnderMan$EndermanTakeBlockGoal	net/minecraft/server/1_15_R1/EntityEnderman$PathfinderGoalEndermanPickupBlock	net/minecraft/entity/monster/EndermanEntity$TakeBlockGoal	net/minecraft/class_1560$class_1563
+net/minecraft/world/entity/monster/Endermite	net/minecraft/server/1_15_R1/EntityEndermite	net/minecraft/entity/monster/EndermiteEntity	net/minecraft/class_1559
+net/minecraft/world/entity/monster/Enemy	net/minecraft/server/1_15_R1/IMonster	net/minecraft/entity/monster/IMob	net/minecraft/class_1569
+net/minecraft/world/entity/monster/Evoker	net/minecraft/server/1_15_R1/EntityEvoker	net/minecraft/entity/monster/EvokerEntity	net/minecraft/class_1564
+net/minecraft/world/entity/monster/Evoker$EvokerAttackSpellGoal		net/minecraft/entity/monster/EvokerEntity$AttackSpellGoal	net/minecraft/class_1564$class_1565
+net/minecraft/world/entity/monster/Evoker$EvokerCastingSpellGoal		net/minecraft/entity/monster/EvokerEntity$CastingSpellGoal	net/minecraft/class_1564$class_1566
+net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal		net/minecraft/entity/monster/EvokerEntity$SummonSpellGoal	net/minecraft/class_1564$class_1567
+net/minecraft/world/entity/monster/Evoker$EvokerWololoSpellGoal		net/minecraft/entity/monster/EvokerEntity$WololoSpellGoal	net/minecraft/class_1564$class_1568
+net/minecraft/world/entity/monster/Ghast	net/minecraft/server/1_15_R1/EntityGhast	net/minecraft/entity/monster/GhastEntity	net/minecraft/class_1571
+net/minecraft/world/entity/monster/Ghast$GhastLookGoal	net/minecraft/server/1_15_R1/EntityGhast$PathfinderGoalGhastMoveTowardsTarget	net/minecraft/entity/monster/GhastEntity$LookAroundGoal	net/minecraft/class_1571$class_1572
+net/minecraft/world/entity/monster/Ghast$GhastMoveControl	net/minecraft/server/1_15_R1/EntityGhast$ControllerGhast	net/minecraft/entity/monster/GhastEntity$MoveHelperController	net/minecraft/class_1571$class_1573
+net/minecraft/world/entity/monster/Ghast$GhastShootFireballGoal	net/minecraft/server/1_15_R1/EntityGhast$PathfinderGoalGhastAttackTarget	net/minecraft/entity/monster/GhastEntity$FireballAttackGoal	net/minecraft/class_1571$class_1574
+net/minecraft/world/entity/monster/Ghast$RandomFloatAroundGoal	net/minecraft/server/1_15_R1/EntityGhast$PathfinderGoalGhastIdleMove	net/minecraft/entity/monster/GhastEntity$RandomFlyGoal	net/minecraft/class_1571$class_1575
+net/minecraft/world/entity/monster/Giant	net/minecraft/server/1_15_R1/EntityGiantZombie	net/minecraft/entity/monster/GiantEntity	net/minecraft/class_1570
+net/minecraft/world/entity/monster/Guardian	net/minecraft/server/1_15_R1/EntityGuardian	net/minecraft/entity/monster/GuardianEntity	net/minecraft/class_1577
+net/minecraft/world/entity/monster/Guardian$GuardianAttackGoal	net/minecraft/server/1_15_R1/EntityGuardian$PathfinderGoalGuardianAttack	net/minecraft/entity/monster/GuardianEntity$AttackGoal	net/minecraft/class_1577$class_1578
+net/minecraft/world/entity/monster/Guardian$GuardianAttackSelector	net/minecraft/server/1_15_R1/EntityGuardian$EntitySelectorGuardianTargetHumanSquid	net/minecraft/entity/monster/GuardianEntity$TargetPredicate	net/minecraft/class_1577$class_1579
+net/minecraft/world/entity/monster/Guardian$GuardianMoveControl	net/minecraft/server/1_15_R1/EntityGuardian$ControllerMoveGuardian	net/minecraft/entity/monster/GuardianEntity$MoveHelperController	net/minecraft/class_1577$class_1580
+net/minecraft/world/entity/monster/Husk	net/minecraft/server/1_15_R1/EntityZombieHusk	net/minecraft/entity/monster/HuskEntity	net/minecraft/class_1576
+net/minecraft/world/entity/monster/Illusioner	net/minecraft/server/1_15_R1/EntityIllagerIllusioner	net/minecraft/entity/monster/IllusionerEntity	net/minecraft/class_1581
+net/minecraft/world/entity/monster/Illusioner$IllusionerBlindnessSpellGoal		net/minecraft/entity/monster/IllusionerEntity$BlindnessSpellGoal	net/minecraft/class_1581$class_1582
+net/minecraft/world/entity/monster/Illusioner$IllusionerMirrorSpellGoal		net/minecraft/entity/monster/IllusionerEntity$MirrorSpellGoal	net/minecraft/class_1581$class_1583
+net/minecraft/world/entity/monster/MagmaCube	net/minecraft/server/1_15_R1/EntityMagmaCube	net/minecraft/entity/monster/MagmaCubeEntity	net/minecraft/class_1589
+net/minecraft/world/entity/monster/Monster	net/minecraft/server/1_15_R1/EntityMonster	net/minecraft/entity/monster/MonsterEntity	net/minecraft/class_1588
+net/minecraft/world/entity/monster/PatrollingMonster	net/minecraft/server/1_15_R1/EntityMonsterPatrolling	net/minecraft/entity/monster/PatrollerEntity	net/minecraft/class_3732
+net/minecraft/world/entity/monster/PatrollingMonster$LongDistancePatrolGoal		net/minecraft/entity/monster/PatrollerEntity$PatrolGoal	net/minecraft/class_3732$class_3733
+net/minecraft/world/entity/monster/Phantom	net/minecraft/server/1_15_R1/EntityPhantom	net/minecraft/entity/monster/PhantomEntity	net/minecraft/class_1593
+net/minecraft/world/entity/monster/Phantom$AttackPhase	net/minecraft/server/1_15_R1/EntityPhantom$AttackPhase	net/minecraft/entity/monster/PhantomEntity$AttackPhase	net/minecraft/class_1593$class_1594
+net/minecraft/world/entity/monster/Phantom$PhantomAttackPlayerTargetGoal		net/minecraft/entity/monster/PhantomEntity$AttackPlayerGoal	net/minecraft/class_1593$class_1595
+net/minecraft/world/entity/monster/Phantom$PhantomAttackStrategyGoal		net/minecraft/entity/monster/PhantomEntity$PickAttackGoal	net/minecraft/class_1593$class_1596
+net/minecraft/world/entity/monster/Phantom$PhantomBodyRotationControl		net/minecraft/entity/monster/PhantomEntity$BodyHelperController	net/minecraft/class_1593$class_1597
+net/minecraft/world/entity/monster/Phantom$PhantomCircleAroundAnchorGoal		net/minecraft/entity/monster/PhantomEntity$OrbitPointGoal	net/minecraft/class_1593$class_1598
+net/minecraft/world/entity/monster/Phantom$PhantomLookControl		net/minecraft/entity/monster/PhantomEntity$LookHelperController	net/minecraft/class_1593$class_1599
+net/minecraft/world/entity/monster/Phantom$PhantomMoveControl		net/minecraft/entity/monster/PhantomEntity$MoveHelperController	net/minecraft/class_1593$class_1600
+net/minecraft/world/entity/monster/Phantom$PhantomMoveTargetGoal		net/minecraft/entity/monster/PhantomEntity$MoveGoal	net/minecraft/class_1593$class_1601
+net/minecraft/world/entity/monster/Phantom$PhantomSweepAttackGoal		net/minecraft/entity/monster/PhantomEntity$SweepAttackGoal	net/minecraft/class_1593$class_1602
+net/minecraft/world/entity/monster/PigZombie	net/minecraft/server/1_15_R1/EntityPigZombie	net/minecraft/entity/monster/ZombiePigmanEntity	net/minecraft/class_1590
+net/minecraft/world/entity/monster/PigZombie$PigZombieAngerTargetGoal	net/minecraft/server/1_15_R1/EntityPigZombie$PathfinderGoalAnger	net/minecraft/entity/monster/ZombiePigmanEntity$TargetAggressorGoal	net/minecraft/class_1590$class_1591
+net/minecraft/world/entity/monster/PigZombie$PigZombieHurtByOtherGoal	net/minecraft/server/1_15_R1/EntityPigZombie$PathfinderGoalAngerOther	net/minecraft/entity/monster/ZombiePigmanEntity$HurtByAggressorGoal	net/minecraft/class_1590$class_1592
+net/minecraft/world/entity/monster/Pillager	net/minecraft/server/1_15_R1/EntityPillager	net/minecraft/entity/monster/PillagerEntity	net/minecraft/class_1604
+net/minecraft/world/entity/monster/RangedAttackMob	net/minecraft/server/1_15_R1/IRangedEntity	net/minecraft/entity/IRangedAttackMob	net/minecraft/class_1603
+net/minecraft/world/entity/monster/Ravager	net/minecraft/server/1_15_R1/EntityRavager	net/minecraft/entity/monster/RavagerEntity	net/minecraft/class_1584
+net/minecraft/world/entity/monster/Ravager$RavagerMeleeAttackGoal		net/minecraft/entity/monster/RavagerEntity$AttackGoal	net/minecraft/class_1584$class_1585
+net/minecraft/world/entity/monster/Ravager$RavagerNavigation		net/minecraft/entity/monster/RavagerEntity$Navigator	net/minecraft/class_1584$class_1586
+net/minecraft/world/entity/monster/Ravager$RavagerNodeEvaluator		net/minecraft/entity/monster/RavagerEntity$Processor	net/minecraft/class_1584$class_1587
+net/minecraft/world/entity/monster/SharedMonsterAttributes	net/minecraft/server/1_15_R1/GenericAttributes	net/minecraft/entity/SharedMonsterAttributes	net/minecraft/class_1612
+net/minecraft/world/entity/monster/Shulker	net/minecraft/server/1_15_R1/EntityShulker	net/minecraft/entity/monster/ShulkerEntity	net/minecraft/class_1606
+net/minecraft/world/entity/monster/Shulker$ShulkerAttackGoal		net/minecraft/entity/monster/ShulkerEntity$AttackGoal	net/minecraft/class_1606$class_1607
+net/minecraft/world/entity/monster/Shulker$ShulkerBodyRotationControl		net/minecraft/entity/monster/ShulkerEntity$BodyHelperController	net/minecraft/class_1606$class_1608
+net/minecraft/world/entity/monster/Shulker$ShulkerDefenseAttackGoal		net/minecraft/entity/monster/ShulkerEntity$DefenseAttackGoal	net/minecraft/class_1606$class_1609
+net/minecraft/world/entity/monster/Shulker$ShulkerNearestAttackGoal		net/minecraft/entity/monster/ShulkerEntity$AttackNearestGoal	net/minecraft/class_1606$class_1610
+net/minecraft/world/entity/monster/Shulker$ShulkerPeekGoal		net/minecraft/entity/monster/ShulkerEntity$PeekGoal	net/minecraft/class_1606$class_1611
+net/minecraft/world/entity/monster/Silverfish	net/minecraft/server/1_15_R1/EntitySilverfish	net/minecraft/entity/monster/SilverfishEntity	net/minecraft/class_1614
+net/minecraft/world/entity/monster/Silverfish$SilverfishMergeWithStoneGoal	net/minecraft/server/1_15_R1/EntitySilverfish$PathfinderGoalSilverfishHideInBlock	net/minecraft/entity/monster/SilverfishEntity$HideInStoneGoal	net/minecraft/class_1614$class_1615
+net/minecraft/world/entity/monster/Silverfish$SilverfishWakeUpFriendsGoal	net/minecraft/server/1_15_R1/EntitySilverfish$PathfinderGoalSilverfishWakeOthers	net/minecraft/entity/monster/SilverfishEntity$SummonSilverfishGoal	net/minecraft/class_1614$class_1616
+net/minecraft/world/entity/monster/Skeleton	net/minecraft/server/1_15_R1/EntitySkeleton	net/minecraft/entity/monster/SkeletonEntity	net/minecraft/class_1613
+net/minecraft/world/entity/monster/Slime	net/minecraft/server/1_15_R1/EntitySlime	net/minecraft/entity/monster/SlimeEntity	net/minecraft/class_1621
+net/minecraft/world/entity/monster/Slime$SlimeAttackGoal	net/minecraft/server/1_15_R1/EntitySlime$PathfinderGoalSlimeNearestPlayer	net/minecraft/entity/monster/SlimeEntity$AttackGoal	net/minecraft/class_1621$class_1622
+net/minecraft/world/entity/monster/Slime$SlimeFloatGoal	net/minecraft/server/1_15_R1/EntitySlime$PathfinderGoalSlimeRandomJump	net/minecraft/entity/monster/SlimeEntity$FloatGoal	net/minecraft/class_1621$class_1623
+net/minecraft/world/entity/monster/Slime$SlimeKeepOnJumpingGoal	net/minecraft/server/1_15_R1/EntitySlime$PathfinderGoalSlimeIdle	net/minecraft/entity/monster/SlimeEntity$HopGoal	net/minecraft/class_1621$class_1624
+net/minecraft/world/entity/monster/Slime$SlimeMoveControl	net/minecraft/server/1_15_R1/EntitySlime$ControllerMoveSlime	net/minecraft/entity/monster/SlimeEntity$MoveHelperController	net/minecraft/class_1621$class_1625
+net/minecraft/world/entity/monster/Slime$SlimeRandomDirectionGoal	net/minecraft/server/1_15_R1/EntitySlime$PathfinderGoalSlimeRandomDirection	net/minecraft/entity/monster/SlimeEntity$FaceRandomGoal	net/minecraft/class_1621$class_1626
+net/minecraft/world/entity/monster/SpellcasterIllager	net/minecraft/server/1_15_R1/EntityIllagerWizard	net/minecraft/entity/monster/SpellcastingIllagerEntity	net/minecraft/class_1617
+net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell	net/minecraft/server/1_15_R1/EntityIllagerWizard$Spell	net/minecraft/entity/monster/SpellcastingIllagerEntity$SpellType	net/minecraft/class_1617$class_1618
+net/minecraft/world/entity/monster/SpellcasterIllager$SpellcasterCastingSpellGoal		net/minecraft/entity/monster/SpellcastingIllagerEntity$CastingASpellGoal	net/minecraft/class_1617$class_1619
+net/minecraft/world/entity/monster/SpellcasterIllager$SpellcasterUseSpellGoal		net/minecraft/entity/monster/SpellcastingIllagerEntity$UseSpellGoal	net/minecraft/class_1617$class_1620
+net/minecraft/world/entity/monster/Spider	net/minecraft/server/1_15_R1/EntitySpider	net/minecraft/entity/monster/SpiderEntity	net/minecraft/class_1628
+net/minecraft/world/entity/monster/Spider$SpiderAttackGoal	net/minecraft/server/1_15_R1/EntitySpider$PathfinderGoalSpiderMeleeAttack	net/minecraft/entity/monster/SpiderEntity$AttackGoal	net/minecraft/class_1628$class_1629
+net/minecraft/world/entity/monster/Spider$SpiderEffectsGroupData	net/minecraft/server/1_15_R1/EntitySpider$GroupDataSpider	net/minecraft/entity/monster/SpiderEntity$GroupData	net/minecraft/class_1628$class_1630
+net/minecraft/world/entity/monster/Spider$SpiderTargetGoal	net/minecraft/server/1_15_R1/EntitySpider$PathfinderGoalSpiderNearestAttackableTarget	net/minecraft/entity/monster/SpiderEntity$TargetGoal	net/minecraft/class_1628$class_1631
+net/minecraft/world/entity/monster/Stray	net/minecraft/server/1_15_R1/EntitySkeletonStray	net/minecraft/entity/monster/StrayEntity	net/minecraft/class_1627
+net/minecraft/world/entity/monster/Vex	net/minecraft/server/1_15_R1/EntityVex	net/minecraft/entity/monster/VexEntity	net/minecraft/class_1634
+net/minecraft/world/entity/monster/Vex$VexChargeAttackGoal		net/minecraft/entity/monster/VexEntity$ChargeAttackGoal	net/minecraft/class_1634$class_1635
+net/minecraft/world/entity/monster/Vex$VexCopyOwnerTargetGoal		net/minecraft/entity/monster/VexEntity$CopyOwnerTargetGoal	net/minecraft/class_1634$class_1636
+net/minecraft/world/entity/monster/Vex$VexMoveControl		net/minecraft/entity/monster/VexEntity$MoveHelperController	net/minecraft/class_1634$class_1637
+net/minecraft/world/entity/monster/Vex$VexRandomMoveGoal		net/minecraft/entity/monster/VexEntity$MoveRandomGoal	net/minecraft/class_1634$class_1638
+net/minecraft/world/entity/monster/Vindicator	net/minecraft/server/1_15_R1/EntityVindicator	net/minecraft/entity/monster/VindicatorEntity	net/minecraft/class_1632
+net/minecraft/world/entity/monster/Vindicator$VindicatorBreakDoorGoal		net/minecraft/entity/monster/VindicatorEntity$BreakDoorGoal	net/minecraft/class_1632$class_3761
+net/minecraft/world/entity/monster/Vindicator$VindicatorJohnnyAttackGoal		net/minecraft/entity/monster/VindicatorEntity$JohnnyAttackGoal	net/minecraft/class_1632$class_1633
+net/minecraft/world/entity/monster/Vindicator$VindicatorMeleeAttackGoal		net/minecraft/entity/monster/VindicatorEntity$AttackGoal	net/minecraft/class_1632$class_4293
+net/minecraft/world/entity/monster/Witch	net/minecraft/server/1_15_R1/EntityWitch	net/minecraft/entity/monster/WitchEntity	net/minecraft/class_1640
+net/minecraft/world/entity/monster/WitherSkeleton	net/minecraft/server/1_15_R1/EntitySkeletonWither	net/minecraft/entity/monster/WitherSkeletonEntity	net/minecraft/class_1639
+net/minecraft/world/entity/monster/Zombie	net/minecraft/server/1_15_R1/EntityZombie	net/minecraft/entity/monster/ZombieEntity	net/minecraft/class_1642
+net/minecraft/world/entity/monster/Zombie$ZombieAttackTurtleEggGoal		net/minecraft/entity/monster/ZombieEntity$AttackTurtleEggGoal	net/minecraft/class_1642$class_1643
+net/minecraft/world/entity/monster/Zombie$ZombieGroupData	net/minecraft/server/1_15_R1/EntityZombie$GroupDataZombie	net/minecraft/entity/monster/ZombieEntity$GroupData	net/minecraft/class_1642$class_1644
+net/minecraft/world/entity/monster/ZombieVillager	net/minecraft/server/1_15_R1/EntityZombieVillager	net/minecraft/entity/monster/ZombieVillagerEntity	net/minecraft/class_1641
+net/minecraft/world/entity/npc/AbstractVillager	net/minecraft/server/1_15_R1/EntityVillagerAbstract	net/minecraft/entity/merchant/villager/AbstractVillagerEntity	net/minecraft/class_3988
+net/minecraft/world/entity/npc/CatSpawner	net/minecraft/server/1_15_R1/MobSpawnerCat	net/minecraft/world/spawner/CatSpawner	net/minecraft/class_4274
+net/minecraft/world/entity/npc/ClientSideMerchant	net/minecraft/server/1_15_R1/MerchantWrapper	net/minecraft/entity/NPCMerchant	net/minecraft/class_1645
+net/minecraft/world/entity/npc/Npc	net/minecraft/server/1_15_R1/NPC	net/minecraft/entity/INPC	net/minecraft/class_1655
+net/minecraft/world/entity/npc/Villager	net/minecraft/server/1_15_R1/EntityVillager	net/minecraft/entity/merchant/villager/VillagerEntity	net/minecraft/class_1646
+net/minecraft/world/entity/npc/VillagerData	net/minecraft/server/1_15_R1/VillagerData	net/minecraft/entity/merchant/villager/VillagerData	net/minecraft/class_3850
+net/minecraft/world/entity/npc/VillagerDataHolder	net/minecraft/server/1_15_R1/VillagerDataHolder	net/minecraft/entity/villager/IVillagerDataHolder	net/minecraft/class_3851
+net/minecraft/world/entity/npc/VillagerProfession	net/minecraft/server/1_15_R1/VillagerProfession	net/minecraft/entity/merchant/villager/VillagerProfession	net/minecraft/class_3852
+net/minecraft/world/entity/npc/VillagerTrades	net/minecraft/server/1_15_R1/VillagerTrades	net/minecraft/entity/merchant/villager/VillagerTrades	net/minecraft/class_3853
+net/minecraft/world/entity/npc/VillagerTrades$DyedArmorForEmeralds		net/minecraft/entity/merchant/villager/VillagerTrades$DyedArmorForEmeraldsTrade	net/minecraft/class_3853$class_4160
+net/minecraft/world/entity/npc/VillagerTrades$EmeraldForItems		net/minecraft/entity/merchant/villager/VillagerTrades$EmeraldForItemsTrade	net/minecraft/class_3853$class_4161
+net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem		net/minecraft/entity/merchant/villager/VillagerTrades$EmeraldForVillageTypeItemTrade	net/minecraft/class_3853$class_4162
+net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds		net/minecraft/entity/merchant/villager/VillagerTrades$EnchantedBookForEmeraldsTrade	net/minecraft/class_3853$class_1648
+net/minecraft/world/entity/npc/VillagerTrades$EnchantedItemForEmeralds		net/minecraft/entity/merchant/villager/VillagerTrades$EnchantedItemForEmeraldsTrade	net/minecraft/class_3853$class_4163
+net/minecraft/world/entity/npc/VillagerTrades$ItemListing	net/minecraft/server/1_15_R1/VillagerTrades$IMerchantRecipeOption	net/minecraft/entity/merchant/villager/VillagerTrades$ITrade	net/minecraft/class_3853$class_1652
+net/minecraft/world/entity/npc/VillagerTrades$ItemsAndEmeraldsToItems		net/minecraft/entity/merchant/villager/VillagerTrades$ItemsForEmeraldsAndItemsTrade	net/minecraft/class_3853$class_4164
+net/minecraft/world/entity/npc/VillagerTrades$ItemsForEmeralds		net/minecraft/entity/merchant/villager/VillagerTrades$ItemsForEmeraldsTrade	net/minecraft/class_3853$class_4165
+net/minecraft/world/entity/npc/VillagerTrades$SuspisciousStewForEmerald		net/minecraft/entity/merchant/villager/VillagerTrades$SuspiciousStewForEmeraldTrade	net/minecraft/class_3853$class_4166
+net/minecraft/world/entity/npc/VillagerTrades$TippedArrowForItemsAndEmeralds		net/minecraft/entity/merchant/villager/VillagerTrades$ItemWithPotionForEmeraldsAndItemsTrade	net/minecraft/class_3853$class_4167
+net/minecraft/world/entity/npc/VillagerTrades$TreasureMapForEmeralds		net/minecraft/entity/merchant/villager/VillagerTrades$EmeraldForMapTrade	net/minecraft/class_3853$class_1654
+net/minecraft/world/entity/npc/VillagerType	net/minecraft/server/1_15_R1/VillagerType	net/minecraft/entity/villager/IVillagerType	net/minecraft/class_3854
+net/minecraft/world/entity/npc/VillagerType$1		net/minecraft/entity/villager/IVillagerType$1	net/minecraft/class_3854$1
+net/minecraft/world/entity/npc/WanderingTrader	net/minecraft/server/1_15_R1/EntityVillagerTrader	net/minecraft/entity/merchant/villager/WanderingTraderEntity	net/minecraft/class_3989
+net/minecraft/world/entity/npc/WanderingTrader$WanderToPositionGoal		net/minecraft/entity/merchant/villager/WanderingTraderEntity$MoveToGoal	net/minecraft/class_3989$class_3994
+net/minecraft/world/entity/npc/WanderingTraderSpawner	net/minecraft/server/1_15_R1/MobSpawnerTrader	net/minecraft/world/spawner/WanderingTraderSpawner	net/minecraft/class_3990
+net/minecraft/world/entity/player/Abilities	net/minecraft/server/1_15_R1/PlayerAbilities	net/minecraft/entity/player/PlayerAbilities	net/minecraft/class_1656
+net/minecraft/world/entity/player/ChatVisiblity	net/minecraft/server/1_15_R1/EnumChatVisibility	net/minecraft/entity/player/ChatVisibility	net/minecraft/class_1659
+net/minecraft/world/entity/player/Inventory	net/minecraft/server/1_15_R1/PlayerInventory	net/minecraft/entity/player/PlayerInventory	net/minecraft/class_1661
+net/minecraft/world/entity/player/Player	net/minecraft/server/1_15_R1/EntityHuman	net/minecraft/entity/player/PlayerEntity	net/minecraft/class_1657
+net/minecraft/world/entity/player/Player$BedSleepingProblem	net/minecraft/server/1_15_R1/EntityHuman$EnumBedResult	net/minecraft/entity/player/PlayerEntity$SleepResult	net/minecraft/class_1657$class_1658
+net/minecraft/world/entity/player/StackedContents	net/minecraft/server/1_15_R1/AutoRecipeStackManager	net/minecraft/item/crafting/RecipeItemHelper	net/minecraft/class_1662
+net/minecraft/world/entity/player/StackedContents$RecipePicker		net/minecraft/item/crafting/RecipeItemHelper$RecipePicker	net/minecraft/class_1662$class_1663
+net/minecraft/world/entity/projectile/AbstractArrow	net/minecraft/server/1_15_R1/EntityArrow	net/minecraft/entity/projectile/AbstractArrowEntity	net/minecraft/class_1665
+net/minecraft/world/entity/projectile/AbstractArrow$Pickup	net/minecraft/server/1_15_R1/EntityArrow$PickupStatus	net/minecraft/entity/projectile/AbstractArrowEntity$PickupStatus	net/minecraft/class_1665$class_1666
+net/minecraft/world/entity/projectile/AbstractHurtingProjectile	net/minecraft/server/1_15_R1/EntityFireball	net/minecraft/entity/projectile/DamagingProjectileEntity	net/minecraft/class_1668
+net/minecraft/world/entity/projectile/Arrow	net/minecraft/server/1_15_R1/EntityTippedArrow	net/minecraft/entity/projectile/ArrowEntity	net/minecraft/class_1667
+net/minecraft/world/entity/projectile/DragonFireball	net/minecraft/server/1_15_R1/EntityDragonFireball	net/minecraft/entity/projectile/DragonFireballEntity	net/minecraft/class_1670
+net/minecraft/world/entity/projectile/EvokerFangs	net/minecraft/server/1_15_R1/EntityEvokerFangs	net/minecraft/entity/projectile/EvokerFangsEntity	net/minecraft/class_1669
+net/minecraft/world/entity/projectile/EyeOfEnder	net/minecraft/server/1_15_R1/EntityEnderSignal	net/minecraft/entity/item/EyeOfEnderEntity	net/minecraft/class_1672
+net/minecraft/world/entity/projectile/Fireball	net/minecraft/server/1_15_R1/EntityFireballFireball	net/minecraft/entity/projectile/AbstractFireballEntity	net/minecraft/class_3855
+net/minecraft/world/entity/projectile/FireworkRocketEntity	net/minecraft/server/1_15_R1/EntityFireworks	net/minecraft/entity/item/FireworkRocketEntity	net/minecraft/class_1671
+net/minecraft/world/entity/projectile/LargeFireball	net/minecraft/server/1_15_R1/EntityLargeFireball	net/minecraft/entity/projectile/FireballEntity	net/minecraft/class_1674
+net/minecraft/world/entity/projectile/LlamaSpit	net/minecraft/server/1_15_R1/EntityLlamaSpit	net/minecraft/entity/projectile/LlamaSpitEntity	net/minecraft/class_1673
+net/minecraft/world/entity/projectile/Projectile	net/minecraft/server/1_15_R1/IProjectile	net/minecraft/entity/IProjectile	net/minecraft/class_1676
+net/minecraft/world/entity/projectile/ProjectileUtil	net/minecraft/server/1_15_R1/ProjectileHelper	net/minecraft/entity/projectile/ProjectileHelper	net/minecraft/class_1675
+net/minecraft/world/entity/projectile/ShulkerBullet	net/minecraft/server/1_15_R1/EntityShulkerBullet	net/minecraft/entity/projectile/ShulkerBulletEntity	net/minecraft/class_1678
+net/minecraft/world/entity/projectile/SmallFireball	net/minecraft/server/1_15_R1/EntitySmallFireball	net/minecraft/entity/projectile/SmallFireballEntity	net/minecraft/class_1677
+net/minecraft/world/entity/projectile/Snowball	net/minecraft/server/1_15_R1/EntitySnowball	net/minecraft/entity/projectile/SnowballEntity	net/minecraft/class_1680
+net/minecraft/world/entity/projectile/SpectralArrow	net/minecraft/server/1_15_R1/EntitySpectralArrow	net/minecraft/entity/projectile/SpectralArrowEntity	net/minecraft/class_1679
+net/minecraft/world/entity/projectile/ThrowableItemProjectile	net/minecraft/server/1_15_R1/EntityProjectileThrowable	net/minecraft/entity/projectile/ProjectileItemEntity	net/minecraft/class_3857
+net/minecraft/world/entity/projectile/ThrowableProjectile	net/minecraft/server/1_15_R1/EntityProjectile	net/minecraft/entity/projectile/ThrowableEntity	net/minecraft/class_1682
+net/minecraft/world/entity/projectile/ThrownEgg	net/minecraft/server/1_15_R1/EntityEgg	net/minecraft/entity/projectile/EggEntity	net/minecraft/class_1681
+net/minecraft/world/entity/projectile/ThrownEnderpearl	net/minecraft/server/1_15_R1/EntityEnderPearl	net/minecraft/entity/item/EnderPearlEntity	net/minecraft/class_1684
+net/minecraft/world/entity/projectile/ThrownExperienceBottle	net/minecraft/server/1_15_R1/EntityThrownExpBottle	net/minecraft/entity/item/ExperienceBottleEntity	net/minecraft/class_1683
+net/minecraft/world/entity/projectile/ThrownPotion	net/minecraft/server/1_15_R1/EntityPotion	net/minecraft/entity/projectile/PotionEntity	net/minecraft/class_1686
+net/minecraft/world/entity/projectile/ThrownTrident	net/minecraft/server/1_15_R1/EntityThrownTrident	net/minecraft/entity/projectile/TridentEntity	net/minecraft/class_1685
+net/minecraft/world/entity/projectile/WitherSkull	net/minecraft/server/1_15_R1/EntityWitherSkull	net/minecraft/entity/projectile/WitherSkullEntity	net/minecraft/class_1687
+net/minecraft/world/entity/raid/Raid	net/minecraft/server/1_15_R1/Raid	net/minecraft/world/raid/Raid	net/minecraft/class_3765
+net/minecraft/world/entity/raid/Raid$RaidStatus	net/minecraft/server/1_15_R1/Raid$Status	net/minecraft/world/raid/Raid$Status	net/minecraft/class_3765$class_4259
+net/minecraft/world/entity/raid/Raid$RaiderType	net/minecraft/server/1_15_R1/Raid$Wave	net/minecraft/world/raid/Raid$WaveMember	net/minecraft/class_3765$class_3766
+net/minecraft/world/entity/raid/Raider	net/minecraft/server/1_15_R1/EntityRaider	net/minecraft/entity/monster/AbstractRaiderEntity	net/minecraft/class_3763
+net/minecraft/world/entity/raid/Raider$HoldGroundAttackGoal		net/minecraft/entity/monster/AbstractRaiderEntity$FindTargetGoal	net/minecraft/class_3763$class_4223
+net/minecraft/world/entity/raid/Raider$ObtainRaidLeaderBannerGoal		net/minecraft/entity/monster/AbstractRaiderEntity$PromoteLeaderGoal	net/minecraft/class_3763$class_3764
+net/minecraft/world/entity/raid/Raider$RaiderCelebration		net/minecraft/entity/monster/AbstractRaiderEntity$CelebrateRaidLossGoal	net/minecraft/class_3763$class_4260
+net/minecraft/world/entity/raid/Raider$RaiderMoveThroughVillageGoal		net/minecraft/entity/monster/AbstractRaiderEntity$InvadeHomeGoal	net/minecraft/class_3763$class_4261
+net/minecraft/world/entity/raid/Raids	net/minecraft/server/1_15_R1/PersistentRaid	net/minecraft/world/raid/RaidManager	net/minecraft/class_3767
+net/minecraft/world/entity/schedule/Activity	net/minecraft/server/1_15_R1/Activity	net/minecraft/entity/ai/brain/schedule/Activity	net/minecraft/class_4168
+net/minecraft/world/entity/schedule/Keyframe	net/minecraft/server/1_15_R1/ActivityFrame	net/minecraft/entity/ai/brain/schedule/DutyTime	net/minecraft/class_4169
+net/minecraft/world/entity/schedule/Schedule	net/minecraft/server/1_15_R1/Schedule	net/minecraft/entity/ai/brain/schedule/Schedule	net/minecraft/class_4170
+net/minecraft/world/entity/schedule/ScheduleBuilder	net/minecraft/server/1_15_R1/ScheduleBuilder	net/minecraft/entity/ai/brain/schedule/ScheduleBuilder	net/minecraft/class_4171
+net/minecraft/world/entity/schedule/ScheduleBuilder$ActivityTransition		net/minecraft/entity/ai/brain/schedule/ScheduleBuilder$ActivityEntry	net/minecraft/class_4171$class_4172
+net/minecraft/world/entity/schedule/Timeline	net/minecraft/server/1_15_R1/ScheduleActivity	net/minecraft/entity/ai/brain/schedule/ScheduleDuties	net/minecraft/class_4173
+net/minecraft/world/entity/vehicle/AbstractMinecart	net/minecraft/server/1_15_R1/EntityMinecartAbstract	net/minecraft/entity/item/minecart/AbstractMinecartEntity	net/minecraft/class_1688
+net/minecraft/world/entity/vehicle/AbstractMinecart$Type	net/minecraft/server/1_15_R1/EntityMinecartAbstract$EnumMinecartType	net/minecraft/entity/item/minecart/AbstractMinecartEntity$Type	net/minecraft/class_1688$class_1689
+net/minecraft/world/entity/vehicle/AbstractMinecartContainer	net/minecraft/server/1_15_R1/EntityMinecartContainer	net/minecraft/entity/item/minecart/ContainerMinecartEntity	net/minecraft/class_1693
+net/minecraft/world/entity/vehicle/Boat	net/minecraft/server/1_15_R1/EntityBoat	net/minecraft/entity/item/BoatEntity	net/minecraft/class_1690
+net/minecraft/world/entity/vehicle/Boat$Status	net/minecraft/server/1_15_R1/EntityBoat$EnumStatus	net/minecraft/entity/item/BoatEntity$Status	net/minecraft/class_1690$class_1691
+net/minecraft/world/entity/vehicle/Boat$Type	net/minecraft/server/1_15_R1/EntityBoat$EnumBoatType	net/minecraft/entity/item/BoatEntity$Type	net/minecraft/class_1690$class_1692
+net/minecraft/world/entity/vehicle/Minecart	net/minecraft/server/1_15_R1/EntityMinecartRideable	net/minecraft/entity/item/minecart/MinecartEntity	net/minecraft/class_1695
+net/minecraft/world/entity/vehicle/MinecartChest	net/minecraft/server/1_15_R1/EntityMinecartChest	net/minecraft/entity/item/minecart/ChestMinecartEntity	net/minecraft/class_1694
+net/minecraft/world/entity/vehicle/MinecartCommandBlock	net/minecraft/server/1_15_R1/EntityMinecartCommandBlock	net/minecraft/entity/item/minecart/MinecartCommandBlockEntity	net/minecraft/class_1697
+net/minecraft/world/entity/vehicle/MinecartCommandBlock$MinecartCommandBase		net/minecraft/entity/item/minecart/MinecartCommandBlockEntity$MinecartCommandLogic	net/minecraft/class_1697$class_1698
+net/minecraft/world/entity/vehicle/MinecartFurnace	net/minecraft/server/1_15_R1/EntityMinecartFurnace	net/minecraft/entity/item/minecart/FurnaceMinecartEntity	net/minecraft/class_1696
+net/minecraft/world/entity/vehicle/MinecartHopper	net/minecraft/server/1_15_R1/EntityMinecartHopper	net/minecraft/entity/item/minecart/HopperMinecartEntity	net/minecraft/class_1700
+net/minecraft/world/entity/vehicle/MinecartSpawner	net/minecraft/server/1_15_R1/EntityMinecartMobSpawner	net/minecraft/entity/item/minecart/SpawnerMinecartEntity	net/minecraft/class_1699
+net/minecraft/world/entity/vehicle/MinecartSpawner$1		net/minecraft/entity/item/minecart/SpawnerMinecartEntity$1	net/minecraft/class_1699$1
+net/minecraft/world/entity/vehicle/MinecartTNT	net/minecraft/server/1_15_R1/EntityMinecartTNT	net/minecraft/entity/item/minecart/TNTMinecartEntity	net/minecraft/class_1701
+net/minecraft/world/food/FoodData	net/minecraft/server/1_15_R1/FoodMetaData	net/minecraft/util/FoodStats	net/minecraft/class_1702
+net/minecraft/world/food/FoodProperties	net/minecraft/server/1_15_R1/FoodInfo	net/minecraft/item/Food	net/minecraft/class_4174
+net/minecraft/world/food/FoodProperties$Builder		net/minecraft/item/Food$Builder	net/minecraft/class_4174$class_4175
+net/minecraft/world/food/Foods	net/minecraft/server/1_15_R1/Foods	net/minecraft/item/Foods	net/minecraft/class_4176
+net/minecraft/world/inventory/AbstractContainerMenu	net/minecraft/server/1_15_R1/Container	net/minecraft/inventory/container/Container	net/minecraft/class_1703
+net/minecraft/world/inventory/AbstractFurnaceMenu	net/minecraft/server/1_15_R1/ContainerFurnace	net/minecraft/inventory/container/AbstractFurnaceContainer	net/minecraft/class_1720
+net/minecraft/world/inventory/AnvilMenu	net/minecraft/server/1_15_R1/ContainerAnvil	net/minecraft/inventory/container/RepairContainer	net/minecraft/class_1706
+net/minecraft/world/inventory/AnvilMenu$1		net/minecraft/inventory/container/RepairContainer$1	net/minecraft/class_1706$1
+net/minecraft/world/inventory/AnvilMenu$2		net/minecraft/inventory/container/RepairContainer$2	net/minecraft/class_1706$2
+net/minecraft/world/inventory/BeaconMenu	net/minecraft/server/1_15_R1/ContainerBeacon	net/minecraft/inventory/container/BeaconContainer	net/minecraft/class_1704
+net/minecraft/world/inventory/BeaconMenu$1		net/minecraft/inventory/container/BeaconContainer$1	net/minecraft/class_1704$1
+net/minecraft/world/inventory/BeaconMenu$PaymentSlot	net/minecraft/server/1_15_R1/ContainerBeacon$SlotBeacon	net/minecraft/inventory/container/BeaconContainer$BeaconSlot	net/minecraft/class_1704$class_1705
+net/minecraft/world/inventory/BlastFurnaceMenu	net/minecraft/server/1_15_R1/ContainerBlastFurnace	net/minecraft/inventory/container/BlastFurnaceContainer	net/minecraft/class_3705
+net/minecraft/world/inventory/BrewingStandMenu	net/minecraft/server/1_15_R1/ContainerBrewingStand	net/minecraft/inventory/container/BrewingStandContainer	net/minecraft/class_1708
+net/minecraft/world/inventory/BrewingStandMenu$FuelSlot		net/minecraft/inventory/container/BrewingStandContainer$FuelSlot	net/minecraft/class_1708$class_1709
+net/minecraft/world/inventory/BrewingStandMenu$IngredientsSlot	net/minecraft/server/1_15_R1/ContainerBrewingStand$SlotBrewing	net/minecraft/inventory/container/BrewingStandContainer$IngredientSlot	net/minecraft/class_1708$class_1710
+net/minecraft/world/inventory/BrewingStandMenu$PotionSlot	net/minecraft/server/1_15_R1/ContainerBrewingStand$SlotPotionBottle	net/minecraft/inventory/container/BrewingStandContainer$PotionSlot	net/minecraft/class_1708$class_1711
+net/minecraft/world/inventory/CartographyTableMenu	net/minecraft/server/1_15_R1/ContainerCartography	net/minecraft/inventory/container/CartographyContainer	net/minecraft/class_3910
+net/minecraft/world/inventory/CartographyTableMenu$1		net/minecraft/inventory/container/CartographyContainer$1	net/minecraft/class_3910$1
+net/minecraft/world/inventory/CartographyTableMenu$2		net/minecraft/inventory/container/CartographyContainer$2	net/minecraft/class_3910$2
+net/minecraft/world/inventory/CartographyTableMenu$3		net/minecraft/inventory/container/CartographyContainer$3	net/minecraft/class_3910$3
+net/minecraft/world/inventory/CartographyTableMenu$4		net/minecraft/inventory/container/CartographyContainer$4	net/minecraft/class_3910$4
+net/minecraft/world/inventory/CartographyTableMenu$5		net/minecraft/inventory/container/CartographyContainer$5	net/minecraft/class_3910$5
+net/minecraft/world/inventory/ChestMenu	net/minecraft/server/1_15_R1/ContainerChest	net/minecraft/inventory/container/ChestContainer	net/minecraft/class_1707
+net/minecraft/world/inventory/ClickType	net/minecraft/server/1_15_R1/InventoryClickType	net/minecraft/inventory/container/ClickType	net/minecraft/class_1713
+net/minecraft/world/inventory/ContainerData	net/minecraft/server/1_15_R1/IContainerProperties	net/minecraft/util/IIntArray	net/minecraft/class_3913
+net/minecraft/world/inventory/ContainerLevelAccess	net/minecraft/server/1_15_R1/ContainerAccess	net/minecraft/util/IWorldPosCallable	net/minecraft/class_3914
+net/minecraft/world/inventory/ContainerLevelAccess$1		net/minecraft/util/IWorldPosCallable$1	net/minecraft/class_3914$1
+net/minecraft/world/inventory/ContainerLevelAccess$2		net/minecraft/util/IWorldPosCallable$2	net/minecraft/class_3914$2
+net/minecraft/world/inventory/ContainerListener	net/minecraft/server/1_15_R1/ICrafting	net/minecraft/inventory/container/IContainerListener	net/minecraft/class_1712
+net/minecraft/world/inventory/CraftingContainer	net/minecraft/server/1_15_R1/InventoryCrafting	net/minecraft/inventory/CraftingInventory	net/minecraft/class_1715
+net/minecraft/world/inventory/CraftingMenu	net/minecraft/server/1_15_R1/ContainerWorkbench	net/minecraft/inventory/container/WorkbenchContainer	net/minecraft/class_1714
+net/minecraft/world/inventory/DataSlot	net/minecraft/server/1_15_R1/ContainerProperty	net/minecraft/util/IntReferenceHolder	net/minecraft/class_3915
+net/minecraft/world/inventory/DataSlot$1		net/minecraft/util/IntReferenceHolder$1	net/minecraft/class_3915$1
+net/minecraft/world/inventory/DataSlot$2		net/minecraft/util/IntReferenceHolder$2	net/minecraft/class_3915$2
+net/minecraft/world/inventory/DataSlot$3		net/minecraft/util/IntReferenceHolder$3	net/minecraft/class_3915$3
+net/minecraft/world/inventory/DispenserMenu	net/minecraft/server/1_15_R1/ContainerDispenser	net/minecraft/inventory/container/DispenserContainer	net/minecraft/class_1716
+net/minecraft/world/inventory/EnchantmentMenu	net/minecraft/server/1_15_R1/ContainerEnchantTable	net/minecraft/inventory/container/EnchantmentContainer	net/minecraft/class_1718
+net/minecraft/world/inventory/EnchantmentMenu$1		net/minecraft/inventory/container/EnchantmentContainer$1	net/minecraft/class_1718$1
+net/minecraft/world/inventory/EnchantmentMenu$2		net/minecraft/inventory/container/EnchantmentContainer$2	net/minecraft/class_1718$2
+net/minecraft/world/inventory/EnchantmentMenu$3		net/minecraft/inventory/container/EnchantmentContainer$3	net/minecraft/class_1718$3
+net/minecraft/world/inventory/FurnaceFuelSlot	net/minecraft/server/1_15_R1/SlotFurnaceFuel	net/minecraft/inventory/container/FurnaceFuelSlot	net/minecraft/class_1717
+net/minecraft/world/inventory/FurnaceMenu	net/minecraft/server/1_15_R1/ContainerFurnaceFurnace	net/minecraft/inventory/container/FurnaceContainer	net/minecraft/class_3858
+net/minecraft/world/inventory/FurnaceResultSlot	net/minecraft/server/1_15_R1/SlotFurnaceResult	net/minecraft/inventory/container/FurnaceResultSlot	net/minecraft/class_1719
+net/minecraft/world/inventory/GrindstoneMenu	net/minecraft/server/1_15_R1/ContainerGrindstone	net/minecraft/inventory/container/GrindstoneContainer	net/minecraft/class_3803
+net/minecraft/world/inventory/GrindstoneMenu$1		net/minecraft/inventory/container/GrindstoneContainer$1	net/minecraft/class_3803$1
+net/minecraft/world/inventory/GrindstoneMenu$2		net/minecraft/inventory/container/GrindstoneContainer$2	net/minecraft/class_3803$2
+net/minecraft/world/inventory/GrindstoneMenu$3		net/minecraft/inventory/container/GrindstoneContainer$3	net/minecraft/class_3803$3
+net/minecraft/world/inventory/GrindstoneMenu$4		net/minecraft/inventory/container/GrindstoneContainer$4	net/minecraft/class_3803$4
+net/minecraft/world/inventory/HopperMenu	net/minecraft/server/1_15_R1/ContainerHopper	net/minecraft/inventory/container/HopperContainer	net/minecraft/class_1722
+net/minecraft/world/inventory/HorseInventoryMenu	net/minecraft/server/1_15_R1/ContainerHorse	net/minecraft/inventory/container/HorseInventoryContainer	net/minecraft/class_1724
+net/minecraft/world/inventory/HorseInventoryMenu$1		net/minecraft/inventory/container/HorseInventoryContainer$1	net/minecraft/class_1724$1
+net/minecraft/world/inventory/HorseInventoryMenu$2		net/minecraft/inventory/container/HorseInventoryContainer$2	net/minecraft/class_1724$2
+net/minecraft/world/inventory/InventoryMenu	net/minecraft/server/1_15_R1/ContainerPlayer	net/minecraft/inventory/container/PlayerContainer	net/minecraft/class_1723
+net/minecraft/world/inventory/InventoryMenu$1		net/minecraft/inventory/container/PlayerContainer$1	net/minecraft/class_1723$1
+net/minecraft/world/inventory/InventoryMenu$2		net/minecraft/inventory/container/PlayerContainer$2	net/minecraft/class_1723$2
+net/minecraft/world/inventory/LecternMenu	net/minecraft/server/1_15_R1/ContainerLectern	net/minecraft/inventory/container/LecternContainer	net/minecraft/class_3916
+net/minecraft/world/inventory/LecternMenu$1		net/minecraft/inventory/container/LecternContainer$1	net/minecraft/class_3916$1
+net/minecraft/world/inventory/LoomMenu	net/minecraft/server/1_15_R1/ContainerLoom	net/minecraft/inventory/container/LoomContainer	net/minecraft/class_1726
+net/minecraft/world/inventory/LoomMenu$1		net/minecraft/inventory/container/LoomContainer$1	net/minecraft/class_1726$1
+net/minecraft/world/inventory/LoomMenu$2		net/minecraft/inventory/container/LoomContainer$2	net/minecraft/class_1726$2
+net/minecraft/world/inventory/LoomMenu$3		net/minecraft/inventory/container/LoomContainer$3	net/minecraft/class_1726$3
+net/minecraft/world/inventory/LoomMenu$4		net/minecraft/inventory/container/LoomContainer$4	net/minecraft/class_1726$4
+net/minecraft/world/inventory/LoomMenu$5		net/minecraft/inventory/container/LoomContainer$5	net/minecraft/class_1726$5
+net/minecraft/world/inventory/LoomMenu$6		net/minecraft/inventory/container/LoomContainer$6	net/minecraft/class_1726$6
+net/minecraft/world/inventory/MenuConstructor	net/minecraft/server/1_15_R1/ITileEntityContainer	net/minecraft/inventory/container/IContainerProvider	net/minecraft/class_1270
+net/minecraft/world/inventory/MenuType	net/minecraft/server/1_15_R1/Containers	net/minecraft/inventory/container/ContainerType	net/minecraft/class_3917
+net/minecraft/world/inventory/MenuType$MenuSupplier	net/minecraft/server/1_15_R1/Containers$Supplier	net/minecraft/inventory/container/ContainerType$IFactory	net/minecraft/class_3917$class_3918
+net/minecraft/world/inventory/MerchantContainer	net/minecraft/server/1_15_R1/InventoryMerchant	net/minecraft/inventory/MerchantInventory	net/minecraft/class_1725
+net/minecraft/world/inventory/MerchantMenu	net/minecraft/server/1_15_R1/ContainerMerchant	net/minecraft/inventory/container/MerchantContainer	net/minecraft/class_1728
+net/minecraft/world/inventory/MerchantResultSlot	net/minecraft/server/1_15_R1/SlotMerchantResult	net/minecraft/inventory/container/MerchantResultSlot	net/minecraft/class_1727
+net/minecraft/world/inventory/PlayerEnderChestContainer	net/minecraft/server/1_15_R1/InventoryEnderChest	net/minecraft/inventory/EnderChestInventory	net/minecraft/class_1730
+net/minecraft/world/inventory/RecipeBookMenu	net/minecraft/server/1_15_R1/ContainerRecipeBook	net/minecraft/inventory/container/RecipeBookContainer	net/minecraft/class_1729
+net/minecraft/world/inventory/RecipeHolder	net/minecraft/server/1_15_R1/RecipeHolder	net/minecraft/inventory/IRecipeHolder	net/minecraft/class_1732
+net/minecraft/world/inventory/ResultContainer	net/minecraft/server/1_15_R1/InventoryCraftResult	net/minecraft/inventory/CraftResultInventory	net/minecraft/class_1731
+net/minecraft/world/inventory/ResultSlot	net/minecraft/server/1_15_R1/SlotResult	net/minecraft/inventory/container/CraftingResultSlot	net/minecraft/class_1734
+net/minecraft/world/inventory/ShulkerBoxMenu	net/minecraft/server/1_15_R1/ContainerShulkerBox	net/minecraft/inventory/container/ShulkerBoxContainer	net/minecraft/class_1733
+net/minecraft/world/inventory/ShulkerBoxSlot	net/minecraft/server/1_15_R1/SlotShulkerBox	net/minecraft/inventory/container/ShulkerBoxSlot	net/minecraft/class_1736
+net/minecraft/world/inventory/SimpleContainerData	net/minecraft/server/1_15_R1/ContainerProperties	net/minecraft/util/IntArray	net/minecraft/class_3919
+net/minecraft/world/inventory/Slot	net/minecraft/server/1_15_R1/Slot	net/minecraft/inventory/container/Slot	net/minecraft/class_1735
+net/minecraft/world/inventory/SmokerMenu	net/minecraft/server/1_15_R1/ContainerSmoker	net/minecraft/inventory/container/SmokerContainer	net/minecraft/class_3706
+net/minecraft/world/inventory/StackedContentsCompatible	net/minecraft/server/1_15_R1/AutoRecipeOutput	net/minecraft/inventory/IRecipeHelperPopulator	net/minecraft/class_1737
+net/minecraft/world/inventory/StonecutterMenu	net/minecraft/server/1_15_R1/ContainerStonecutter	net/minecraft/inventory/container/StonecutterContainer	net/minecraft/class_3971
+net/minecraft/world/inventory/StonecutterMenu$1		net/minecraft/inventory/container/StonecutterContainer$1	net/minecraft/class_3971$1
+net/minecraft/world/inventory/StonecutterMenu$2		net/minecraft/inventory/container/StonecutterContainer$2	net/minecraft/class_3971$2
+net/minecraft/world/item/AirItem	net/minecraft/server/1_15_R1/ItemAir	net/minecraft/item/AirItem	net/minecraft/class_1739
+net/minecraft/world/item/ArmorItem	net/minecraft/server/1_15_R1/ItemArmor	net/minecraft/item/ArmorItem	net/minecraft/class_1738
+net/minecraft/world/item/ArmorItem$1		net/minecraft/item/ArmorItem$1	net/minecraft/class_1738$1
+net/minecraft/world/item/ArmorMaterial	net/minecraft/server/1_15_R1/ArmorMaterial	net/minecraft/item/IArmorMaterial	net/minecraft/class_1741
+net/minecraft/world/item/ArmorMaterials	net/minecraft/server/1_15_R1/EnumArmorMaterial	net/minecraft/item/ArmorMaterial	net/minecraft/class_1740
+net/minecraft/world/item/ArmorStandItem	net/minecraft/server/1_15_R1/ItemArmorStand	net/minecraft/item/ArmorStandItem	net/minecraft/class_1742
+net/minecraft/world/item/ArrowItem	net/minecraft/server/1_15_R1/ItemArrow	net/minecraft/item/ArrowItem	net/minecraft/class_1744
+net/minecraft/world/item/AxeItem	net/minecraft/server/1_15_R1/ItemAxe	net/minecraft/item/AxeItem	net/minecraft/class_1743
+net/minecraft/world/item/BannerItem	net/minecraft/server/1_15_R1/ItemBanner	net/minecraft/item/BannerItem	net/minecraft/class_1746
+net/minecraft/world/item/BannerPatternItem	net/minecraft/server/1_15_R1/ItemBannerPattern	net/minecraft/item/BannerPatternItem	net/minecraft/class_1745
+net/minecraft/world/item/BedItem	net/minecraft/server/1_15_R1/ItemBed	net/minecraft/item/BedItem	net/minecraft/class_1748
+net/minecraft/world/item/BlockItem	net/minecraft/server/1_15_R1/ItemBlock	net/minecraft/item/BlockItem	net/minecraft/class_1747
+net/minecraft/world/item/BlockPlaceContext	net/minecraft/server/1_15_R1/BlockActionContext	net/minecraft/item/BlockItemUseContext	net/minecraft/class_1750
+net/minecraft/world/item/BoatItem	net/minecraft/server/1_15_R1/ItemBoat	net/minecraft/item/BoatItem	net/minecraft/class_1749
+net/minecraft/world/item/BoneMealItem	net/minecraft/server/1_15_R1/ItemBoneMeal	net/minecraft/item/BoneMealItem	net/minecraft/class_1752
+net/minecraft/world/item/BookItem	net/minecraft/server/1_15_R1/ItemBook	net/minecraft/item/BookItem	net/minecraft/class_1751
+net/minecraft/world/item/BottleItem	net/minecraft/server/1_15_R1/ItemGlassBottle	net/minecraft/item/GlassBottleItem	net/minecraft/class_1754
+net/minecraft/world/item/BowItem	net/minecraft/server/1_15_R1/ItemBow	net/minecraft/item/BowItem	net/minecraft/class_1753
+net/minecraft/world/item/BowlFoodItem	net/minecraft/server/1_15_R1/ItemSoup	net/minecraft/item/SoupItem	net/minecraft/class_1756
+net/minecraft/world/item/BucketItem	net/minecraft/server/1_15_R1/ItemBucket	net/minecraft/item/BucketItem	net/minecraft/class_1755
+net/minecraft/world/item/CarrotOnAStickItem	net/minecraft/server/1_15_R1/ItemCarrotStick	net/minecraft/item/CarrotOnAStickItem	net/minecraft/class_1758
+net/minecraft/world/item/ChorusFruitItem	net/minecraft/server/1_15_R1/ItemChorusFruit	net/minecraft/item/ChorusFruitItem	net/minecraft/class_1757
+net/minecraft/world/item/ClockItem	net/minecraft/server/1_15_R1/ItemClock	net/minecraft/item/ClockItem	net/minecraft/class_1760
+net/minecraft/world/item/ClockItem$1		net/minecraft/item/ClockItem$1	net/minecraft/class_1760$1
+net/minecraft/world/item/CompassItem	net/minecraft/server/1_15_R1/ItemCompass	net/minecraft/item/CompassItem	net/minecraft/class_1759
+net/minecraft/world/item/CompassItem$1		net/minecraft/item/CompassItem$1	net/minecraft/class_1759$1
+net/minecraft/world/item/ComplexItem	net/minecraft/server/1_15_R1/ItemWorldMapBase	net/minecraft/item/AbstractMapItem	net/minecraft/class_1762
+net/minecraft/world/item/CreativeModeTab	net/minecraft/server/1_15_R1/CreativeModeTab	net/minecraft/item/ItemGroup	net/minecraft/class_1761
+net/minecraft/world/item/CreativeModeTab$1		net/minecraft/item/ItemGroup$1	net/minecraft/class_1761$1
+net/minecraft/world/item/CreativeModeTab$10		net/minecraft/item/ItemGroup$10	net/minecraft/class_1761$2
+net/minecraft/world/item/CreativeModeTab$11		net/minecraft/item/ItemGroup$11	net/minecraft/class_1761$3
+net/minecraft/world/item/CreativeModeTab$12		net/minecraft/item/ItemGroup$12	net/minecraft/class_1761$4
+net/minecraft/world/item/CreativeModeTab$2		net/minecraft/item/ItemGroup$2	net/minecraft/class_1761$5
+net/minecraft/world/item/CreativeModeTab$3		net/minecraft/item/ItemGroup$3	net/minecraft/class_1761$6
+net/minecraft/world/item/CreativeModeTab$4		net/minecraft/item/ItemGroup$4	net/minecraft/class_1761$7
+net/minecraft/world/item/CreativeModeTab$5		net/minecraft/item/ItemGroup$5	net/minecraft/class_1761$8
+net/minecraft/world/item/CreativeModeTab$6		net/minecraft/item/ItemGroup$6	net/minecraft/class_1761$9
+net/minecraft/world/item/CreativeModeTab$7		net/minecraft/item/ItemGroup$7	net/minecraft/class_1761$10
+net/minecraft/world/item/CreativeModeTab$8		net/minecraft/item/ItemGroup$8	net/minecraft/class_1761$11
+net/minecraft/world/item/CreativeModeTab$9		net/minecraft/item/ItemGroup$9	net/minecraft/class_1761$12
+net/minecraft/world/item/CrossbowItem	net/minecraft/server/1_15_R1/ItemCrossbow	net/minecraft/item/CrossbowItem	net/minecraft/class_1764
+net/minecraft/world/item/DebugStickItem	net/minecraft/server/1_15_R1/ItemDebugStick	net/minecraft/item/DebugStickItem	net/minecraft/class_1763
+net/minecraft/world/item/DiggerItem	net/minecraft/server/1_15_R1/ItemTool	net/minecraft/item/ToolItem	net/minecraft/class_1766
+net/minecraft/world/item/DirectionalPlaceContext	net/minecraft/server/1_15_R1/BlockActionContextDirectional	net/minecraft/item/DirectionalPlaceContext	net/minecraft/class_2968
+net/minecraft/world/item/DoubleHighBlockItem	net/minecraft/server/1_15_R1/ItemBisected	net/minecraft/item/TallBlockItem	net/minecraft/class_1765
+net/minecraft/world/item/DyeColor	net/minecraft/server/1_15_R1/EnumColor	net/minecraft/item/DyeColor	net/minecraft/class_1767
+net/minecraft/world/item/DyeItem	net/minecraft/server/1_15_R1/ItemDye	net/minecraft/item/DyeItem	net/minecraft/class_1769
+net/minecraft/world/item/DyeableArmorItem	net/minecraft/server/1_15_R1/ItemArmorColorable	net/minecraft/item/DyeableArmorItem	net/minecraft/class_4057
+net/minecraft/world/item/DyeableHorseArmorItem	net/minecraft/server/1_15_R1/ItemHorseArmorDyeable	net/minecraft/item/DyeableHorseArmorItem	net/minecraft/class_4058
+net/minecraft/world/item/DyeableLeatherItem	net/minecraft/server/1_15_R1/IDyeable	net/minecraft/item/IDyeableArmorItem	net/minecraft/class_1768
+net/minecraft/world/item/EggItem	net/minecraft/server/1_15_R1/ItemEgg	net/minecraft/item/EggItem	net/minecraft/class_1771
+net/minecraft/world/item/ElytraItem	net/minecraft/server/1_15_R1/ItemElytra	net/minecraft/item/ElytraItem	net/minecraft/class_1770
+net/minecraft/world/item/EmptyMapItem	net/minecraft/server/1_15_R1/ItemMapEmpty	net/minecraft/item/MapItem	net/minecraft/class_1773
+net/minecraft/world/item/EnchantedBookItem	net/minecraft/server/1_15_R1/ItemEnchantedBook	net/minecraft/item/EnchantedBookItem	net/minecraft/class_1772
+net/minecraft/world/item/EnchantedGoldenAppleItem	net/minecraft/server/1_15_R1/ItemGoldenAppleEnchanted	net/minecraft/item/EnchantedGoldenAppleItem	net/minecraft/class_1775
+net/minecraft/world/item/EndCrystalItem	net/minecraft/server/1_15_R1/ItemEndCrystal	net/minecraft/item/EnderCrystalItem	net/minecraft/class_1774
+net/minecraft/world/item/EnderEyeItem	net/minecraft/server/1_15_R1/ItemEnderEye	net/minecraft/item/EnderEyeItem	net/minecraft/class_1777
+net/minecraft/world/item/EnderpearlItem	net/minecraft/server/1_15_R1/ItemEnderPearl	net/minecraft/item/EnderPearlItem	net/minecraft/class_1776
+net/minecraft/world/item/ExperienceBottleItem	net/minecraft/server/1_15_R1/ItemExpBottle	net/minecraft/item/ExperienceBottleItem	net/minecraft/class_1779
+net/minecraft/world/item/FireChargeItem	net/minecraft/server/1_15_R1/ItemFireball	net/minecraft/item/FireChargeItem	net/minecraft/class_1778
+net/minecraft/world/item/FireworkRocketItem	net/minecraft/server/1_15_R1/ItemFireworks	net/minecraft/item/FireworkRocketItem	net/minecraft/class_1781
+net/minecraft/world/item/FireworkRocketItem$Shape	net/minecraft/server/1_15_R1/ItemFireworks$EffectType	net/minecraft/item/FireworkRocketItem$Shape	net/minecraft/class_1781$class_1782
+net/minecraft/world/item/FireworkStarItem	net/minecraft/server/1_15_R1/ItemFireworksCharge	net/minecraft/item/FireworkStarItem	net/minecraft/class_1780
+net/minecraft/world/item/FishBucketItem	net/minecraft/server/1_15_R1/ItemFishBucket	net/minecraft/item/FishBucketItem	net/minecraft/class_1785
+net/minecraft/world/item/FishingRodItem	net/minecraft/server/1_15_R1/ItemFishingRod	net/minecraft/item/FishingRodItem	net/minecraft/class_1787
+net/minecraft/world/item/FlintAndSteelItem	net/minecraft/server/1_15_R1/ItemFlintAndSteel	net/minecraft/item/FlintAndSteelItem	net/minecraft/class_1786
+net/minecraft/world/item/GameMasterBlockItem	net/minecraft/server/1_15_R1/ItemRestricted	net/minecraft/item/OperatorOnlyItem	net/minecraft/class_1788
+net/minecraft/world/item/HangingEntityItem	net/minecraft/server/1_15_R1/ItemHanging	net/minecraft/item/HangingEntityItem	net/minecraft/class_1790
+net/minecraft/world/item/HoeItem	net/minecraft/server/1_15_R1/ItemHoe	net/minecraft/item/HoeItem	net/minecraft/class_1794
+net/minecraft/world/item/HoneyBottleItem	net/minecraft/server/1_15_R1/ItemHoneyBottle	net/minecraft/item/HoneyBottleItem	net/minecraft/class_4480
+net/minecraft/world/item/HorseArmorItem	net/minecraft/server/1_15_R1/ItemHorseArmor	net/minecraft/item/HorseArmorItem	net/minecraft/class_4059
+net/minecraft/world/item/Item	net/minecraft/server/1_15_R1/Item	net/minecraft/item/Item	net/minecraft/class_1792
+net/minecraft/world/item/Item$Properties	net/minecraft/server/1_15_R1/Item$Info	net/minecraft/item/Item$Properties	net/minecraft/class_1792$class_1793
+net/minecraft/world/item/ItemCooldowns	net/minecraft/server/1_15_R1/ItemCooldown	net/minecraft/util/CooldownTracker	net/minecraft/class_1796
+net/minecraft/world/item/ItemCooldowns$CooldownInstance	net/minecraft/server/1_15_R1/ItemCooldown$Info	net/minecraft/util/CooldownTracker$Cooldown	net/minecraft/class_1796$class_1797
+net/minecraft/world/item/ItemFrameItem	net/minecraft/server/1_15_R1/ItemItemFrame	net/minecraft/item/ItemFrameItem	net/minecraft/class_1795
+net/minecraft/world/item/ItemNameBlockItem	net/minecraft/server/1_15_R1/ItemNamedBlock	net/minecraft/item/BlockNamedItem	net/minecraft/class_1798
+net/minecraft/world/item/ItemPropertyFunction	net/minecraft/server/1_15_R1/IDynamicTexture	net/minecraft/item/IItemPropertyGetter	net/minecraft/class_1800
+net/minecraft/world/item/ItemStack	net/minecraft/server/1_15_R1/ItemStack	net/minecraft/item/ItemStack	net/minecraft/class_1799
+net/minecraft/world/item/Items	net/minecraft/server/1_15_R1/Items	net/minecraft/item/Items	net/minecraft/class_1802
+net/minecraft/world/item/KnowledgeBookItem	net/minecraft/server/1_15_R1/ItemKnowledgeBook	net/minecraft/item/KnowledgeBookItem	net/minecraft/class_1801
+net/minecraft/world/item/LeadItem	net/minecraft/server/1_15_R1/ItemLeash	net/minecraft/item/LeadItem	net/minecraft/class_1804
+net/minecraft/world/item/LingeringPotionItem	net/minecraft/server/1_15_R1/ItemLingeringPotion	net/minecraft/item/LingeringPotionItem	net/minecraft/class_1803
+net/minecraft/world/item/MapItem	net/minecraft/server/1_15_R1/ItemWorldMap	net/minecraft/item/FilledMapItem	net/minecraft/class_1806
+net/minecraft/world/item/MilkBucketItem	net/minecraft/server/1_15_R1/ItemMilkBucket	net/minecraft/item/MilkBucketItem	net/minecraft/class_1805
+net/minecraft/world/item/MinecartItem	net/minecraft/server/1_15_R1/ItemMinecart	net/minecraft/item/MinecartItem	net/minecraft/class_1808
+net/minecraft/world/item/MinecartItem$1		net/minecraft/item/MinecartItem$1	net/minecraft/class_1808$1
+net/minecraft/world/item/NameTagItem	net/minecraft/server/1_15_R1/ItemNameTag	net/minecraft/item/NameTagItem	net/minecraft/class_1807
+net/minecraft/world/item/PickaxeItem	net/minecraft/server/1_15_R1/ItemPickaxe	net/minecraft/item/PickaxeItem	net/minecraft/class_1810
+net/minecraft/world/item/PlayerHeadItem	net/minecraft/server/1_15_R1/ItemSkullPlayer	net/minecraft/item/SkullItem	net/minecraft/class_1809
+net/minecraft/world/item/PotionItem	net/minecraft/server/1_15_R1/ItemPotion	net/minecraft/item/PotionItem	net/minecraft/class_1812
+net/minecraft/world/item/ProjectileWeaponItem	net/minecraft/server/1_15_R1/ItemProjectileWeapon	net/minecraft/item/ShootableItem	net/minecraft/class_1811
+net/minecraft/world/item/Rarity	net/minecraft/server/1_15_R1/EnumItemRarity	net/minecraft/item/Rarity	net/minecraft/class_1814
+net/minecraft/world/item/RecordItem	net/minecraft/server/1_15_R1/ItemRecord	net/minecraft/item/MusicDiscItem	net/minecraft/class_1813
+net/minecraft/world/item/SaddleItem	net/minecraft/server/1_15_R1/ItemSaddle	net/minecraft/item/SaddleItem	net/minecraft/class_1816
+net/minecraft/world/item/ScaffoldingBlockItem	net/minecraft/server/1_15_R1/ItemScaffolding	net/minecraft/item/ScaffoldingItem	net/minecraft/class_3734
+net/minecraft/world/item/ServerItemCooldowns	net/minecraft/server/1_15_R1/ItemCooldownPlayer	net/minecraft/util/ServerCooldownTracker	net/minecraft/class_1817
+net/minecraft/world/item/ShearsItem	net/minecraft/server/1_15_R1/ItemShears	net/minecraft/item/ShearsItem	net/minecraft/class_1820
+net/minecraft/world/item/ShieldItem	net/minecraft/server/1_15_R1/ItemShield	net/minecraft/item/ShieldItem	net/minecraft/class_1819
+net/minecraft/world/item/ShovelItem	net/minecraft/server/1_15_R1/ItemSpade	net/minecraft/item/ShovelItem	net/minecraft/class_1821
+net/minecraft/world/item/SignItem	net/minecraft/server/1_15_R1/ItemSign	net/minecraft/item/SignItem	net/minecraft/class_1822
+net/minecraft/world/item/SimpleFoiledItem	net/minecraft/server/1_15_R1/ItemNetherStar	net/minecraft/item/SimpleFoiledItem	net/minecraft/class_1824
+net/minecraft/world/item/SnowballItem	net/minecraft/server/1_15_R1/ItemSnowball	net/minecraft/item/SnowballItem	net/minecraft/class_1823
+net/minecraft/world/item/SpawnEggItem	net/minecraft/server/1_15_R1/ItemMonsterEgg	net/minecraft/item/SpawnEggItem	net/minecraft/class_1826
+net/minecraft/world/item/SpectralArrowItem	net/minecraft/server/1_15_R1/ItemSpectralArrow	net/minecraft/item/SpectralArrowItem	net/minecraft/class_1825
+net/minecraft/world/item/SplashPotionItem	net/minecraft/server/1_15_R1/ItemSplashPotion	net/minecraft/item/SplashPotionItem	net/minecraft/class_1828
+net/minecraft/world/item/StandingAndWallBlockItem	net/minecraft/server/1_15_R1/ItemBlockWallable	net/minecraft/item/WallOrFloorItem	net/minecraft/class_1827
+net/minecraft/world/item/SuspiciousStewItem	net/minecraft/server/1_15_R1/ItemSuspiciousStew	net/minecraft/item/SuspiciousStewItem	net/minecraft/class_1830
+net/minecraft/world/item/SwordItem	net/minecraft/server/1_15_R1/ItemSword	net/minecraft/item/SwordItem	net/minecraft/class_1829
+net/minecraft/world/item/ThrowablePotionItem	net/minecraft/server/1_15_R1/ItemPotionThrowable	net/minecraft/item/ThrowablePotionItem	net/minecraft/class_4537
+net/minecraft/world/item/Tier	net/minecraft/server/1_15_R1/ToolMaterial	net/minecraft/item/IItemTier	net/minecraft/class_1832
+net/minecraft/world/item/TieredItem	net/minecraft/server/1_15_R1/ItemToolMaterial	net/minecraft/item/TieredItem	net/minecraft/class_1831
+net/minecraft/world/item/Tiers	net/minecraft/server/1_15_R1/EnumToolMaterial	net/minecraft/item/ItemTier	net/minecraft/class_1834
+net/minecraft/world/item/TippedArrowItem	net/minecraft/server/1_15_R1/ItemTippedArrow	net/minecraft/item/TippedArrowItem	net/minecraft/class_1833
+net/minecraft/world/item/TridentItem	net/minecraft/server/1_15_R1/ItemTrident	net/minecraft/item/TridentItem	net/minecraft/class_1835
+net/minecraft/world/item/UseAnim	net/minecraft/server/1_15_R1/EnumAnimation	net/minecraft/item/UseAction	net/minecraft/class_1839
+net/minecraft/world/item/UseOnContext	net/minecraft/server/1_15_R1/ItemActionContext	net/minecraft/item/ItemUseContext	net/minecraft/class_1838
+net/minecraft/world/item/WaterLilyBlockItem	net/minecraft/server/1_15_R1/ItemWaterLily	net/minecraft/item/LilyPadItem	net/minecraft/class_1841
+net/minecraft/world/item/WritableBookItem	net/minecraft/server/1_15_R1/ItemBookAndQuill	net/minecraft/item/WritableBookItem	net/minecraft/class_1840
+net/minecraft/world/item/WrittenBookItem	net/minecraft/server/1_15_R1/ItemWrittenBook	net/minecraft/item/WrittenBookItem	net/minecraft/class_1843
+net/minecraft/world/item/alchemy/Potion	net/minecraft/server/1_15_R1/PotionRegistry	net/minecraft/potion/Potion	net/minecraft/class_1842
+net/minecraft/world/item/alchemy/PotionBrewing	net/minecraft/server/1_15_R1/PotionBrewer	net/minecraft/potion/PotionBrewing	net/minecraft/class_1845
+net/minecraft/world/item/alchemy/PotionBrewing$Mix	net/minecraft/server/1_15_R1/PotionBrewer$PredicatedCombination	net/minecraft/potion/PotionBrewing$MixPredicate	net/minecraft/class_1845$class_1846
+net/minecraft/world/item/alchemy/PotionUtils	net/minecraft/server/1_15_R1/PotionUtil	net/minecraft/potion/PotionUtils	net/minecraft/class_1844
+net/minecraft/world/item/alchemy/Potions	net/minecraft/server/1_15_R1/Potions	net/minecraft/potion/Potions	net/minecraft/class_1847
+net/minecraft/world/item/crafting/AbstractCookingRecipe	net/minecraft/server/1_15_R1/RecipeCooking	net/minecraft/item/crafting/AbstractCookingRecipe	net/minecraft/class_1874
+net/minecraft/world/item/crafting/ArmorDyeRecipe	net/minecraft/server/1_15_R1/RecipeArmorDye	net/minecraft/item/crafting/ArmorDyeRecipe	net/minecraft/class_1849
+net/minecraft/world/item/crafting/BannerDuplicateRecipe	net/minecraft/server/1_15_R1/RecipeBannerDuplicate	net/minecraft/item/crafting/BannerDuplicateRecipe	net/minecraft/class_1848
+net/minecraft/world/item/crafting/BlastingRecipe	net/minecraft/server/1_15_R1/RecipeBlasting	net/minecraft/item/crafting/BlastingRecipe	net/minecraft/class_3859
+net/minecraft/world/item/crafting/BookCloningRecipe	net/minecraft/server/1_15_R1/RecipeBookClone	net/minecraft/item/crafting/BookCloningRecipe	net/minecraft/class_1850
+net/minecraft/world/item/crafting/CampfireCookingRecipe	net/minecraft/server/1_15_R1/RecipeCampfire	net/minecraft/item/crafting/CampfireCookingRecipe	net/minecraft/class_3920
+net/minecraft/world/item/crafting/CraftingRecipe	net/minecraft/server/1_15_R1/RecipeCrafting	net/minecraft/item/crafting/ICraftingRecipe	net/minecraft/class_3955
+net/minecraft/world/item/crafting/CustomRecipe	net/minecraft/server/1_15_R1/IRecipeComplex	net/minecraft/item/crafting/SpecialRecipe	net/minecraft/class_1852
+net/minecraft/world/item/crafting/FireworkRocketRecipe	net/minecraft/server/1_15_R1/RecipeFireworks	net/minecraft/item/crafting/FireworkRocketRecipe	net/minecraft/class_1851
+net/minecraft/world/item/crafting/FireworkStarFadeRecipe	net/minecraft/server/1_15_R1/RecipeFireworksFade	net/minecraft/item/crafting/FireworkStarFadeRecipe	net/minecraft/class_1854
+net/minecraft/world/item/crafting/FireworkStarRecipe	net/minecraft/server/1_15_R1/RecipeFireworksStar	net/minecraft/item/crafting/FireworkStarRecipe	net/minecraft/class_1853
+net/minecraft/world/item/crafting/Ingredient	net/minecraft/server/1_15_R1/RecipeItemStack	net/minecraft/item/crafting/Ingredient	net/minecraft/class_1856
+net/minecraft/world/item/crafting/Ingredient$ItemValue	net/minecraft/server/1_15_R1/RecipeItemStack$StackProvider	net/minecraft/item/crafting/Ingredient$SingleItemList	net/minecraft/class_1856$class_1857
+net/minecraft/world/item/crafting/Ingredient$TagValue		net/minecraft/item/crafting/Ingredient$TagList	net/minecraft/class_1856$class_1858
+net/minecraft/world/item/crafting/Ingredient$Value	net/minecraft/server/1_15_R1/RecipeItemStack$Provider	net/minecraft/item/crafting/Ingredient$IItemList	net/minecraft/class_1856$class_1859
+net/minecraft/world/item/crafting/MapCloningRecipe	net/minecraft/server/1_15_R1/RecipeMapClone	net/minecraft/item/crafting/MapCloningRecipe	net/minecraft/class_1855
+net/minecraft/world/item/crafting/MapExtendingRecipe	net/minecraft/server/1_15_R1/RecipeMapExtend	net/minecraft/item/crafting/MapExtendingRecipe	net/minecraft/class_1861
+net/minecraft/world/item/crafting/Recipe	net/minecraft/server/1_15_R1/IRecipe	net/minecraft/item/crafting/IRecipe	net/minecraft/class_1860
+net/minecraft/world/item/crafting/RecipeManager	net/minecraft/server/1_15_R1/CraftingManager	net/minecraft/item/crafting/RecipeManager	net/minecraft/class_1863
+net/minecraft/world/item/crafting/RecipeSerializer	net/minecraft/server/1_15_R1/RecipeSerializer	net/minecraft/item/crafting/IRecipeSerializer	net/minecraft/class_1865
+net/minecraft/world/item/crafting/RecipeType	net/minecraft/server/1_15_R1/Recipes	net/minecraft/item/crafting/IRecipeType	net/minecraft/class_3956
+net/minecraft/world/item/crafting/RecipeType$1		net/minecraft/item/crafting/IRecipeType$1	net/minecraft/class_3956$1
+net/minecraft/world/item/crafting/RepairItemRecipe	net/minecraft/server/1_15_R1/RecipeRepair	net/minecraft/item/crafting/RepairItemRecipe	net/minecraft/class_4317
+net/minecraft/world/item/crafting/ShapedRecipe	net/minecraft/server/1_15_R1/ShapedRecipes	net/minecraft/item/crafting/ShapedRecipe	net/minecraft/class_1869
+net/minecraft/world/item/crafting/ShapedRecipe$Serializer		net/minecraft/item/crafting/ShapedRecipe$Serializer	net/minecraft/class_1869$class_1870
+net/minecraft/world/item/crafting/ShapelessRecipe	net/minecraft/server/1_15_R1/ShapelessRecipes	net/minecraft/item/crafting/ShapelessRecipe	net/minecraft/class_1867
+net/minecraft/world/item/crafting/ShapelessRecipe$Serializer		net/minecraft/item/crafting/ShapelessRecipe$Serializer	net/minecraft/class_1867$class_1868
+net/minecraft/world/item/crafting/ShieldDecorationRecipe	net/minecraft/server/1_15_R1/RecipiesShield	net/minecraft/item/crafting/ShieldRecipes	net/minecraft/class_1872
+net/minecraft/world/item/crafting/ShulkerBoxColoring	net/minecraft/server/1_15_R1/RecipeShulkerBox	net/minecraft/item/crafting/ShulkerBoxColoringRecipe	net/minecraft/class_1871
+net/minecraft/world/item/crafting/SimpleCookingSerializer	net/minecraft/server/1_15_R1/RecipeSerializerCooking	net/minecraft/item/crafting/CookingRecipeSerializer	net/minecraft/class_3957
+net/minecraft/world/item/crafting/SimpleCookingSerializer$CookieBaker		net/minecraft/item/crafting/CookingRecipeSerializer$IFactory	net/minecraft/class_3957$class_3958
+net/minecraft/world/item/crafting/SimpleRecipeSerializer	net/minecraft/server/1_15_R1/RecipeSerializerComplex	net/minecraft/item/crafting/SpecialRecipeSerializer	net/minecraft/class_1866
+net/minecraft/world/item/crafting/SingleItemRecipe	net/minecraft/server/1_15_R1/RecipeSingleItem	net/minecraft/item/crafting/SingleItemRecipe	net/minecraft/class_3972
+net/minecraft/world/item/crafting/SingleItemRecipe$Serializer		net/minecraft/item/crafting/SingleItemRecipe$Serializer	net/minecraft/class_3972$class_3973
+net/minecraft/world/item/crafting/SingleItemRecipe$Serializer$SingleItemMaker		net/minecraft/item/crafting/SingleItemRecipe$Serializer$IRecipeFactory	net/minecraft/class_3972$class_3973$class_3974
+net/minecraft/world/item/crafting/SmeltingRecipe	net/minecraft/server/1_15_R1/FurnaceRecipe	net/minecraft/item/crafting/FurnaceRecipe	net/minecraft/class_3861
+net/minecraft/world/item/crafting/SmokingRecipe	net/minecraft/server/1_15_R1/RecipeSmoking	net/minecraft/item/crafting/SmokingRecipe	net/minecraft/class_3862
+net/minecraft/world/item/crafting/StonecutterRecipe	net/minecraft/server/1_15_R1/RecipeStonecutting	net/minecraft/item/crafting/StonecuttingRecipe	net/minecraft/class_3975
+net/minecraft/world/item/crafting/SuspiciousStewRecipe	net/minecraft/server/1_15_R1/RecipeSuspiciousStew	net/minecraft/item/crafting/SuspiciousStewRecipe	net/minecraft/class_1873
+net/minecraft/world/item/crafting/TippedArrowRecipe	net/minecraft/server/1_15_R1/RecipeTippedArrow	net/minecraft/item/crafting/TippedArrowRecipe	net/minecraft/class_1876
+net/minecraft/world/item/enchantment/ArrowDamageEnchantment	net/minecraft/server/1_15_R1/EnchantmentArrowDamage	net/minecraft/enchantment/PowerEnchantment	net/minecraft/class_1878
+net/minecraft/world/item/enchantment/ArrowFireEnchantment	net/minecraft/server/1_15_R1/EnchantmentFlameArrows	net/minecraft/enchantment/FlameEnchantment	net/minecraft/class_1877
+net/minecraft/world/item/enchantment/ArrowInfiniteEnchantment	net/minecraft/server/1_15_R1/EnchantmentInfiniteArrows	net/minecraft/enchantment/InfinityEnchantment	net/minecraft/class_1880
+net/minecraft/world/item/enchantment/ArrowKnockbackEnchantment	net/minecraft/server/1_15_R1/EnchantmentArrowKnockback	net/minecraft/enchantment/PunchEnchantment	net/minecraft/class_1879
+net/minecraft/world/item/enchantment/ArrowPiercingEnchantment	net/minecraft/server/1_15_R1/EnchantmentPiercing	net/minecraft/enchantment/PiercingEnchantment	net/minecraft/class_1881
+net/minecraft/world/item/enchantment/BindingCurseEnchantment	net/minecraft/server/1_15_R1/EnchantmentBinding	net/minecraft/enchantment/BindingCurseEnchantment	net/minecraft/class_1883
+net/minecraft/world/item/enchantment/DamageEnchantment	net/minecraft/server/1_15_R1/EnchantmentWeaponDamage	net/minecraft/enchantment/DamageEnchantment	net/minecraft/class_1882
+net/minecraft/world/item/enchantment/DigDurabilityEnchantment	net/minecraft/server/1_15_R1/EnchantmentDurability	net/minecraft/enchantment/UnbreakingEnchantment	net/minecraft/class_1885
+net/minecraft/world/item/enchantment/DiggingEnchantment	net/minecraft/server/1_15_R1/EnchantmentDigging	net/minecraft/enchantment/EfficiencyEnchantment	net/minecraft/class_1884
+net/minecraft/world/item/enchantment/Enchantment	net/minecraft/server/1_15_R1/Enchantment	net/minecraft/enchantment/Enchantment	net/minecraft/class_1887
+net/minecraft/world/item/enchantment/Enchantment$Rarity	net/minecraft/server/1_15_R1/Enchantment$Rarity	net/minecraft/enchantment/Enchantment$Rarity	net/minecraft/class_1887$class_1888
+net/minecraft/world/item/enchantment/EnchantmentCategory	net/minecraft/server/1_15_R1/EnchantmentSlotType	net/minecraft/enchantment/EnchantmentType	net/minecraft/class_1886
+net/minecraft/world/item/enchantment/EnchantmentCategory$1		net/minecraft/enchantment/EnchantmentType$1	net/minecraft/class_1886$1
+net/minecraft/world/item/enchantment/EnchantmentCategory$10		net/minecraft/enchantment/EnchantmentType$10	net/minecraft/class_1886$2
+net/minecraft/world/item/enchantment/EnchantmentCategory$11		net/minecraft/enchantment/EnchantmentType$11	net/minecraft/class_1886$3
+net/minecraft/world/item/enchantment/EnchantmentCategory$12		net/minecraft/enchantment/EnchantmentType$12	net/minecraft/class_1886$4
+net/minecraft/world/item/enchantment/EnchantmentCategory$13		net/minecraft/enchantment/EnchantmentType$13	net/minecraft/class_1886$5
+net/minecraft/world/item/enchantment/EnchantmentCategory$14		net/minecraft/enchantment/EnchantmentType$14	net/minecraft/class_1886$6
+net/minecraft/world/item/enchantment/EnchantmentCategory$2		net/minecraft/enchantment/EnchantmentType$2	net/minecraft/class_1886$7
+net/minecraft/world/item/enchantment/EnchantmentCategory$3		net/minecraft/enchantment/EnchantmentType$3	net/minecraft/class_1886$8
+net/minecraft/world/item/enchantment/EnchantmentCategory$4		net/minecraft/enchantment/EnchantmentType$4	net/minecraft/class_1886$9
+net/minecraft/world/item/enchantment/EnchantmentCategory$5		net/minecraft/enchantment/EnchantmentType$5	net/minecraft/class_1886$10
+net/minecraft/world/item/enchantment/EnchantmentCategory$6		net/minecraft/enchantment/EnchantmentType$6	net/minecraft/class_1886$11
+net/minecraft/world/item/enchantment/EnchantmentCategory$7		net/minecraft/enchantment/EnchantmentType$7	net/minecraft/class_1886$12
+net/minecraft/world/item/enchantment/EnchantmentCategory$8		net/minecraft/enchantment/EnchantmentType$8	net/minecraft/class_1886$13
+net/minecraft/world/item/enchantment/EnchantmentCategory$9		net/minecraft/enchantment/EnchantmentType$9	net/minecraft/class_1886$14
+net/minecraft/world/item/enchantment/EnchantmentHelper	net/minecraft/server/1_15_R1/EnchantmentManager	net/minecraft/enchantment/EnchantmentHelper	net/minecraft/class_1890
+net/minecraft/world/item/enchantment/EnchantmentHelper$EnchantmentVisitor		net/minecraft/enchantment/EnchantmentHelper$IEnchantmentVisitor	net/minecraft/class_1890$class_1891
+net/minecraft/world/item/enchantment/EnchantmentInstance	net/minecraft/server/1_15_R1/WeightedRandomEnchant	net/minecraft/enchantment/EnchantmentData	net/minecraft/class_1889
+net/minecraft/world/item/enchantment/Enchantments	net/minecraft/server/1_15_R1/Enchantments	net/minecraft/enchantment/Enchantments	net/minecraft/class_1893
+net/minecraft/world/item/enchantment/FireAspectEnchantment	net/minecraft/server/1_15_R1/EnchantmentFire	net/minecraft/enchantment/FireAspectEnchantment	net/minecraft/class_1892
+net/minecraft/world/item/enchantment/FishingSpeedEnchantment	net/minecraft/server/1_15_R1/EnchantmentLure	net/minecraft/enchantment/LureEnchantment	net/minecraft/class_1895
+net/minecraft/world/item/enchantment/FrostWalkerEnchantment	net/minecraft/server/1_15_R1/EnchantmentFrostWalker	net/minecraft/enchantment/FrostWalkerEnchantment	net/minecraft/class_1894
+net/minecraft/world/item/enchantment/KnockbackEnchantment	net/minecraft/server/1_15_R1/EnchantmentKnockback	net/minecraft/enchantment/KnockbackEnchantment	net/minecraft/class_1897
+net/minecraft/world/item/enchantment/LootBonusEnchantment	net/minecraft/server/1_15_R1/EnchantmentLootBonus	net/minecraft/enchantment/LootBonusEnchantment	net/minecraft/class_1896
+net/minecraft/world/item/enchantment/MendingEnchantment	net/minecraft/server/1_15_R1/EnchantmentMending	net/minecraft/enchantment/MendingEnchantment	net/minecraft/class_1899
+net/minecraft/world/item/enchantment/MultiShotEnchantment	net/minecraft/server/1_15_R1/EnchantmentMultishot	net/minecraft/enchantment/MultishotEnchantment	net/minecraft/class_1898
+net/minecraft/world/item/enchantment/OxygenEnchantment	net/minecraft/server/1_15_R1/EnchantmentOxygen	net/minecraft/enchantment/RespirationEnchantment	net/minecraft/class_1902
+net/minecraft/world/item/enchantment/ProtectionEnchantment	net/minecraft/server/1_15_R1/EnchantmentProtection	net/minecraft/enchantment/ProtectionEnchantment	net/minecraft/class_1900
+net/minecraft/world/item/enchantment/ProtectionEnchantment$Type	net/minecraft/server/1_15_R1/EnchantmentProtection$DamageType	net/minecraft/enchantment/ProtectionEnchantment$Type	net/minecraft/class_1900$class_1901
+net/minecraft/world/item/enchantment/QuickChargeEnchantment	net/minecraft/server/1_15_R1/EnchantmentQuickCharge	net/minecraft/enchantment/QuickChargeEnchantment	net/minecraft/class_1904
+net/minecraft/world/item/enchantment/SweepingEdgeEnchantment	net/minecraft/server/1_15_R1/EnchantmentSweeping	net/minecraft/enchantment/SweepingEnchantment	net/minecraft/class_1903
+net/minecraft/world/item/enchantment/ThornsEnchantment	net/minecraft/server/1_15_R1/EnchantmentThorns	net/minecraft/enchantment/ThornsEnchantment	net/minecraft/class_1906
+net/minecraft/world/item/enchantment/TridentChannelingEnchantment	net/minecraft/server/1_15_R1/EnchantmentTridentChanneling	net/minecraft/enchantment/ChannelingEnchantment	net/minecraft/class_1905
+net/minecraft/world/item/enchantment/TridentImpalerEnchantment	net/minecraft/server/1_15_R1/EnchantmentTridentImpaling	net/minecraft/enchantment/ImpalingEnchantment	net/minecraft/class_1908
+net/minecraft/world/item/enchantment/TridentLoyaltyEnchantment	net/minecraft/server/1_15_R1/EnchantmentTridentLoyalty	net/minecraft/enchantment/LoyaltyEnchantment	net/minecraft/class_1907
+net/minecraft/world/item/enchantment/TridentRiptideEnchantment	net/minecraft/server/1_15_R1/EnchantmentTridentRiptide	net/minecraft/enchantment/RiptideEnchantment	net/minecraft/class_1910
+net/minecraft/world/item/enchantment/UntouchingEnchantment	net/minecraft/server/1_15_R1/EnchantmentSilkTouch	net/minecraft/enchantment/SilkTouchEnchantment	net/minecraft/class_1909
+net/minecraft/world/item/enchantment/VanishingCurseEnchantment	net/minecraft/server/1_15_R1/EnchantmentVanishing	net/minecraft/enchantment/VanishingCurseEnchantment	net/minecraft/class_1911
+net/minecraft/world/item/enchantment/WaterWalkerEnchantment	net/minecraft/server/1_15_R1/EnchantmentDepthStrider	net/minecraft/enchantment/DepthStriderEnchantment	net/minecraft/class_1913
+net/minecraft/world/item/enchantment/WaterWorkerEnchantment	net/minecraft/server/1_15_R1/EnchantmentWaterWorker	net/minecraft/enchantment/AquaAffinityEnchantment	net/minecraft/class_1912
+net/minecraft/world/item/trading/Merchant	net/minecraft/server/1_15_R1/IMerchant	net/minecraft/entity/merchant/IMerchant	net/minecraft/class_1915
+net/minecraft/world/item/trading/MerchantOffer	net/minecraft/server/1_15_R1/MerchantRecipe	net/minecraft/item/MerchantOffer	net/minecraft/class_1914
+net/minecraft/world/item/trading/MerchantOffers	net/minecraft/server/1_15_R1/MerchantRecipeList	net/minecraft/item/MerchantOffers	net/minecraft/class_1916
+net/minecraft/world/level/BaseCommandBlock	net/minecraft/server/1_15_R1/CommandBlockListenerAbstract	net/minecraft/tileentity/CommandBlockLogic	net/minecraft/class_1918
+net/minecraft/world/level/BaseSpawner	net/minecraft/server/1_15_R1/MobSpawnerAbstract	net/minecraft/world/spawner/AbstractSpawner	net/minecraft/class_1917
+net/minecraft/world/level/BlockAndTintGetter	net/minecraft/server/1_15_R1/IBlockLightAccess	net/minecraft/world/ILightReader	net/minecraft/class_1920
+net/minecraft/world/level/BlockEventData	net/minecraft/server/1_15_R1/BlockActionData	net/minecraft/block/BlockEventData	net/minecraft/class_1919
+net/minecraft/world/level/BlockGetter	net/minecraft/server/1_15_R1/IBlockAccess	net/minecraft/world/IBlockReader	net/minecraft/class_1922
+net/minecraft/world/level/ChunkPos	net/minecraft/server/1_15_R1/ChunkCoordIntPair	net/minecraft/util/math/ChunkPos	net/minecraft/class_1923
+net/minecraft/world/level/ChunkPos$1		net/minecraft/util/math/ChunkPos$1	net/minecraft/class_1923$1
+net/minecraft/world/level/ChunkTickList	net/minecraft/server/1_15_R1/TickListChunk	net/minecraft/world/SerializableTickList	net/minecraft/class_4296
+net/minecraft/world/level/ClipContext	net/minecraft/server/1_15_R1/RayTrace	net/minecraft/util/math/RayTraceContext	net/minecraft/class_3959
+net/minecraft/world/level/ClipContext$Block	net/minecraft/server/1_15_R1/RayTrace$BlockCollisionOption	net/minecraft/util/math/RayTraceContext$BlockMode	net/minecraft/class_3959$class_3960
+net/minecraft/world/level/ClipContext$Fluid	net/minecraft/server/1_15_R1/RayTrace$FluidCollisionOption	net/minecraft/util/math/RayTraceContext$FluidMode	net/minecraft/class_3959$class_242
+net/minecraft/world/level/ClipContext$ShapeGetter		net/minecraft/util/math/RayTraceContext$IVoxelProvider	net/minecraft/class_3959$class_3961
+net/minecraft/world/level/CollisionGetter	net/minecraft/server/1_15_R1/ICollisionAccess	net/minecraft/world/ICollisionReader	net/minecraft/class_1941
+net/minecraft/world/level/CollisionGetter$1		net/minecraft/world/ICollisionReader$1	net/minecraft/class_1941$1
+net/minecraft/world/level/ColorResolver		net/minecraft/world/level/ColorResolver	net/minecraft/world/level/ColorResolver
+net/minecraft/world/level/EmptyBlockGetter	net/minecraft/server/1_15_R1/BlockAccessAir	net/minecraft/world/EmptyBlockReader	net/minecraft/class_2682
+net/minecraft/world/level/EmptyTickList	net/minecraft/server/1_15_R1/TickListEmpty	net/minecraft/world/EmptyTickList	net/minecraft/class_1925
+net/minecraft/world/level/EntityGetter	net/minecraft/server/1_15_R1/IEntityAccess	net/minecraft/world/IEntityReader	net/minecraft/class_1924
+net/minecraft/world/level/Explosion	net/minecraft/server/1_15_R1/Explosion	net/minecraft/world/Explosion	net/minecraft/class_1927
+net/minecraft/world/level/Explosion$BlockInteraction	net/minecraft/server/1_15_R1/Explosion$Effect	net/minecraft/world/Explosion$Mode	net/minecraft/class_1927$class_4179
+net/minecraft/world/level/ForcedChunksSavedData	net/minecraft/server/1_15_R1/ForcedChunk	net/minecraft/world/ForcedChunksSaveData	net/minecraft/class_1932
+net/minecraft/world/level/GameRules	net/minecraft/server/1_15_R1/GameRules	net/minecraft/world/GameRules	net/minecraft/class_1928
+net/minecraft/world/level/GameRules$BooleanValue	net/minecraft/server/1_15_R1/GameRules$GameRuleBoolean	net/minecraft/world/GameRules$BooleanValue	net/minecraft/class_1928$class_4310
+net/minecraft/world/level/GameRules$GameRuleTypeVisitor	net/minecraft/server/1_15_R1/GameRules$GameRuleVisitor	net/minecraft/world/GameRules$IRuleEntryVisitor	net/minecraft/class_1928$class_4311
+net/minecraft/world/level/GameRules$IntegerValue	net/minecraft/server/1_15_R1/GameRules$GameRuleInt	net/minecraft/world/GameRules$IntegerValue	net/minecraft/class_1928$class_4312
+net/minecraft/world/level/GameRules$Key	net/minecraft/server/1_15_R1/GameRules$GameRuleKey	net/minecraft/world/GameRules$RuleKey	net/minecraft/class_1928$class_4313
+net/minecraft/world/level/GameRules$Type	net/minecraft/server/1_15_R1/GameRules$GameRuleDefinition	net/minecraft/world/GameRules$RuleType	net/minecraft/class_1928$class_4314
+net/minecraft/world/level/GameRules$Value	net/minecraft/server/1_15_R1/GameRules$GameRuleValue	net/minecraft/world/GameRules$RuleValue	net/minecraft/class_1928$class_4315
+net/minecraft/world/level/GameType	net/minecraft/server/1_15_R1/EnumGamemode	net/minecraft/world/GameType	net/minecraft/class_1934
+net/minecraft/world/level/ItemLike	net/minecraft/server/1_15_R1/IMaterial	net/minecraft/util/IItemProvider	net/minecraft/class_1935
+net/minecraft/world/level/Level	net/minecraft/server/1_15_R1/World	net/minecraft/world/World	net/minecraft/class_1937
+net/minecraft/world/level/LevelAccessor	net/minecraft/server/1_15_R1/GeneratorAccess	net/minecraft/world/IWorld	net/minecraft/class_1936
+net/minecraft/world/level/LevelConflictException	net/minecraft/server/1_15_R1/ExceptionWorldConflict	net/minecraft/world/storage/SessionLockException	net/minecraft/class_1939
+net/minecraft/world/level/LevelReader	net/minecraft/server/1_15_R1/IWorldReader	net/minecraft/world/IWorldReader	net/minecraft/class_4538
+net/minecraft/world/level/LevelSettings	net/minecraft/server/1_15_R1/WorldSettings	net/minecraft/world/WorldSettings	net/minecraft/class_1940
+net/minecraft/world/level/LevelSimulatedRW	net/minecraft/server/1_15_R1/VirtualLevelWritable	net/minecraft/world/gen/IWorldGenerationReader	net/minecraft/class_3747
+net/minecraft/world/level/LevelSimulatedReader	net/minecraft/server/1_15_R1/VirtualLevelReadable	net/minecraft/world/gen/IWorldGenerationBaseReader	net/minecraft/class_3746
+net/minecraft/world/level/LevelType	net/minecraft/server/1_15_R1/WorldType	net/minecraft/world/WorldType	net/minecraft/class_1942
+net/minecraft/world/level/LevelWriter	net/minecraft/server/1_15_R1/IWorldWriter	net/minecraft/world/IWorldWriter	net/minecraft/class_1945
+net/minecraft/world/level/LightLayer	net/minecraft/server/1_15_R1/EnumSkyBlock	net/minecraft/world/LightType	net/minecraft/class_1944
+net/minecraft/world/level/NaturalSpawner	net/minecraft/server/1_15_R1/SpawnerCreature	net/minecraft/world/spawner/WorldEntitySpawner	net/minecraft/class_1948
+net/minecraft/world/level/PathNavigationRegion	net/minecraft/server/1_15_R1/ChunkCache	net/minecraft/world/Region	net/minecraft/class_1950
+net/minecraft/world/level/PortalForcer	net/minecraft/server/1_15_R1/PortalTravelAgent	net/minecraft/world/Teleporter	net/minecraft/class_1946
+net/minecraft/world/level/ServerTickList	net/minecraft/server/1_15_R1/TickListServer	net/minecraft/world/server/ServerTickList	net/minecraft/class_1949
+net/minecraft/world/level/SpawnData	net/minecraft/server/1_15_R1/MobSpawnerData	net/minecraft/util/WeightedSpawnerEntity	net/minecraft/class_1952
+net/minecraft/world/level/TickList	net/minecraft/server/1_15_R1/TickList	net/minecraft/world/ITickList	net/minecraft/class_1951
+net/minecraft/world/level/TickNextTickData	net/minecraft/server/1_15_R1/NextTickListEntry	net/minecraft/world/NextTickListEntry	net/minecraft/class_1954
+net/minecraft/world/level/TickPriority	net/minecraft/server/1_15_R1/TickListPriority	net/minecraft/world/TickPriority	net/minecraft/class_1953
+net/minecraft/world/level/biome/BadlandsBiome	net/minecraft/server/1_15_R1/BiomeMesa	net/minecraft/world/biome/BadlandsBiome	net/minecraft/class_1956
+net/minecraft/world/level/biome/BadlandsPlateauBiome	net/minecraft/server/1_15_R1/BiomeMesaPlataeuClear	net/minecraft/world/biome/BadlandsPlateauBiome	net/minecraft/class_1955
+net/minecraft/world/level/biome/BambooJungleBiome	net/minecraft/server/1_15_R1/BiomeBambooJungle	net/minecraft/world/biome/BambooJungleBiome	net/minecraft/class_1958
+net/minecraft/world/level/biome/BambooJungleHillsBiome	net/minecraft/server/1_15_R1/BiomeBambooJungleHills	net/minecraft/world/biome/BambooJungleHillsBiome	net/minecraft/class_1957
+net/minecraft/world/level/biome/BeachBiome	net/minecraft/server/1_15_R1/BiomeBeach	net/minecraft/world/biome/BeachBiome	net/minecraft/class_1965
+net/minecraft/world/level/biome/Biome	net/minecraft/server/1_15_R1/BiomeBase	net/minecraft/world/biome/Biome	net/minecraft/class_1959
+net/minecraft/world/level/biome/Biome$1		net/minecraft/world/biome/Biome$1	net/minecraft/class_1959$1
+net/minecraft/world/level/biome/Biome$BiomeBuilder		net/minecraft/world/biome/Biome$Builder	net/minecraft/class_1959$class_1960
+net/minecraft/world/level/biome/Biome$BiomeCategory	net/minecraft/server/1_15_R1/BiomeBase$Geography	net/minecraft/world/biome/Biome$Category	net/minecraft/class_1959$class_1961
+net/minecraft/world/level/biome/Biome$BiomeTempCategory	net/minecraft/server/1_15_R1/BiomeBase$EnumTemperature	net/minecraft/world/biome/Biome$TempCategory	net/minecraft/class_1959$class_1962
+net/minecraft/world/level/biome/Biome$Precipitation	net/minecraft/server/1_15_R1/BiomeBase$Precipitation	net/minecraft/world/biome/Biome$RainType	net/minecraft/class_1959$class_1963
+net/minecraft/world/level/biome/Biome$SpawnerData	net/minecraft/server/1_15_R1/BiomeBase$BiomeMeta	net/minecraft/world/biome/Biome$SpawnListEntry	net/minecraft/class_1959$class_1964
+net/minecraft/world/level/biome/BiomeDefaultFeatures	net/minecraft/server/1_15_R1/BiomeDecoratorGroups	net/minecraft/world/biome/DefaultBiomeFeatures	net/minecraft/class_3864
+net/minecraft/world/level/biome/BiomeManager	net/minecraft/server/1_15_R1/BiomeManager	net/minecraft/world/biome/BiomeManager	net/minecraft/class_4543
+net/minecraft/world/level/biome/BiomeManager$NoiseBiomeSource	net/minecraft/server/1_15_R1/BiomeManager$Provider	net/minecraft/world/biome/BiomeManager$IBiomeReader	net/minecraft/class_4543$class_4544
+net/minecraft/world/level/biome/BiomeSource	net/minecraft/server/1_15_R1/WorldChunkManager	net/minecraft/world/biome/provider/BiomeProvider	net/minecraft/class_1966
+net/minecraft/world/level/biome/BiomeSourceSettings	net/minecraft/server/1_15_R1/BiomeLayoutConfiguration	net/minecraft/world/biome/provider/IBiomeProviderSettings	net/minecraft/class_1970
+net/minecraft/world/level/biome/BiomeSourceType	net/minecraft/server/1_15_R1/BiomeLayout	net/minecraft/world/biome/provider/BiomeProviderType	net/minecraft/class_1969
+net/minecraft/world/level/biome/BiomeZoomer	net/minecraft/server/1_15_R1/GenLayerZoomer	net/minecraft/world/biome/IBiomeMagnifier	net/minecraft/class_4545
+net/minecraft/world/level/biome/Biomes	net/minecraft/server/1_15_R1/Biomes	net/minecraft/world/biome/Biomes	net/minecraft/class_1972
+net/minecraft/world/level/biome/BirchForestBiome	net/minecraft/server/1_15_R1/BiomeBirchForest	net/minecraft/world/biome/BirchForestBiome	net/minecraft/class_1971
+net/minecraft/world/level/biome/BirchForestHillsBiome	net/minecraft/server/1_15_R1/BiomeBirchForestHills	net/minecraft/world/biome/BirchForestHillsBiome	net/minecraft/class_1974
+net/minecraft/world/level/biome/CheckerboardBiomeSourceSettings	net/minecraft/server/1_15_R1/BiomeLayoutCheckerboardConfiguration	net/minecraft/world/biome/provider/CheckerboardBiomeProviderSettings	net/minecraft/class_1976
+net/minecraft/world/level/biome/CheckerboardColumnBiomeSource	net/minecraft/server/1_15_R1/WorldChunkManagerCheckerBoard	net/minecraft/world/biome/provider/CheckerboardBiomeProvider	net/minecraft/class_1973
+net/minecraft/world/level/biome/ColdOceanBiome	net/minecraft/server/1_15_R1/BiomeColdOcean	net/minecraft/world/biome/ColdOceanBiome	net/minecraft/class_1975
+net/minecraft/world/level/biome/DarkForestBiome	net/minecraft/server/1_15_R1/BiomeRoofedForest	net/minecraft/world/biome/DarkForestBiome	net/minecraft/class_1978
+net/minecraft/world/level/biome/DarkForestHillsBiome	net/minecraft/server/1_15_R1/BiomeRoofedForestMutated	net/minecraft/world/biome/DarkForestHillsBiome	net/minecraft/class_1977
+net/minecraft/world/level/biome/DeepColdOceanBiome	net/minecraft/server/1_15_R1/BiomeColdDeepOcean	net/minecraft/world/biome/DeepColdOceanBiome	net/minecraft/class_1980
+net/minecraft/world/level/biome/DeepFrozenOceanBiome	net/minecraft/server/1_15_R1/BiomeFrozenDeepOcean	net/minecraft/world/biome/DeepFrozenOceanBiome	net/minecraft/class_1979
+net/minecraft/world/level/biome/DeepLukeWarmOceanBiome	net/minecraft/server/1_15_R1/BiomeLukewarmDeepOcean	net/minecraft/world/biome/DeepLukewarmOceanBiome	net/minecraft/class_1982
+net/minecraft/world/level/biome/DeepOceanBiome	net/minecraft/server/1_15_R1/BiomeDeepOcean	net/minecraft/world/biome/DeepOceanBiome	net/minecraft/class_1981
+net/minecraft/world/level/biome/DeepWarmOceanBiome	net/minecraft/server/1_15_R1/BiomeWarmDeepOcean	net/minecraft/world/biome/DeepWarmOceanBiome	net/minecraft/class_1984
+net/minecraft/world/level/biome/DesertBiome	net/minecraft/server/1_15_R1/BiomeDesert	net/minecraft/world/biome/DesertBiome	net/minecraft/class_1983
+net/minecraft/world/level/biome/DesertHillsBiome	net/minecraft/server/1_15_R1/BiomeDesertHills	net/minecraft/world/biome/DesertHillsBiome	net/minecraft/class_1986
+net/minecraft/world/level/biome/DesertLakesBiome	net/minecraft/server/1_15_R1/BiomeDesertMutated	net/minecraft/world/biome/DesertLakesBiome	net/minecraft/class_1985
+net/minecraft/world/level/biome/EndBarrensBiome	net/minecraft/server/1_15_R1/BiomeTheEndBarrenIsland	net/minecraft/world/biome/EndBarrensBiome	net/minecraft/class_1988
+net/minecraft/world/level/biome/EndHighlandsBiome	net/minecraft/server/1_15_R1/BiomeTheEndHighIsland	net/minecraft/world/biome/EndHighlandsBiome	net/minecraft/class_1987
+net/minecraft/world/level/biome/EndMidlandsBiome	net/minecraft/server/1_15_R1/BiomeTheEndMediumIsland	net/minecraft/world/biome/EndMidlandsBiome	net/minecraft/class_1990
+net/minecraft/world/level/biome/ErodedBadlandsBiome	net/minecraft/server/1_15_R1/BiomeMesaBryce	net/minecraft/world/biome/ErodedBadlandsBiome	net/minecraft/class_1989
+net/minecraft/world/level/biome/FixedBiomeSource	net/minecraft/server/1_15_R1/WorldChunkManagerHell	net/minecraft/world/biome/provider/SingleBiomeProvider	net/minecraft/class_1992
+net/minecraft/world/level/biome/FixedBiomeSourceSettings	net/minecraft/server/1_15_R1/BiomeLayoutFixedConfiguration	net/minecraft/world/biome/provider/SingleBiomeProviderSettings	net/minecraft/class_1991
+net/minecraft/world/level/biome/ForestBiome	net/minecraft/server/1_15_R1/BiomeForest	net/minecraft/world/biome/ForestBiome	net/minecraft/class_1994
+net/minecraft/world/level/biome/ForestFlowerBiome	net/minecraft/server/1_15_R1/BiomeFlowerForest	net/minecraft/world/biome/FlowerForestBiome	net/minecraft/class_1993
+net/minecraft/world/level/biome/FrozenOceanBiome	net/minecraft/server/1_15_R1/BiomeFrozenOcean	net/minecraft/world/biome/FrozenOceanBiome	net/minecraft/class_1995
+net/minecraft/world/level/biome/FrozenRiverBiome	net/minecraft/server/1_15_R1/BiomeFrozenRiver	net/minecraft/world/biome/FrozenRiverBiome	net/minecraft/class_2009
+net/minecraft/world/level/biome/FuzzyOffsetBiomeZoomer	net/minecraft/server/1_15_R1/GenLayerZoomVoronoi	net/minecraft/world/biome/FuzzedBiomeMagnifier	net/minecraft/class_4546
+net/minecraft/world/level/biome/FuzzyOffsetConstantColumnBiomeZoomer	net/minecraft/server/1_15_R1/GenLayerZoomVoronoiFixed	net/minecraft/world/biome/ColumnFuzzedBiomeMagnifier	net/minecraft/class_4547
+net/minecraft/world/level/biome/GiantSpruceTaigaBiome	net/minecraft/server/1_15_R1/BiomeMegaSpruceTaiga	net/minecraft/world/biome/GiantSpruceTaigaBiome	net/minecraft/class_2005
+net/minecraft/world/level/biome/GiantSpruceTaigaHillsMutatedBiome	net/minecraft/server/1_15_R1/BiomeRedwoodTaigaHillsMutated	net/minecraft/world/biome/GiantSpruceTaigaHillsBiome	net/minecraft/class_2017
+net/minecraft/world/level/biome/GiantTreeTaigaBiome	net/minecraft/server/1_15_R1/BiomeMegaTaiga	net/minecraft/world/biome/GiantTreeTaigaBiome	net/minecraft/class_2013
+net/minecraft/world/level/biome/GiantTreeTaigaHillsBiome	net/minecraft/server/1_15_R1/BiomeMegaTaigaHills	net/minecraft/world/biome/GiantTreeTaigaHillsBiome	net/minecraft/class_2021
+net/minecraft/world/level/biome/GravellyMountainsBiome	net/minecraft/server/1_15_R1/BiomeExtremeHillsMutated	net/minecraft/world/biome/GravellyMountainsBiome	net/minecraft/class_2018
+net/minecraft/world/level/biome/IceSpikesBiome	net/minecraft/server/1_15_R1/BiomeIcePlainsSpikes	net/minecraft/world/biome/IceSpikesBiome	net/minecraft/class_2026
+net/minecraft/world/level/biome/JungleBiome	net/minecraft/server/1_15_R1/BiomeJungle	net/minecraft/world/biome/JungleBiome	net/minecraft/class_2024
+net/minecraft/world/level/biome/JungleEdgeBiome	net/minecraft/server/1_15_R1/BiomeJungleEdge	net/minecraft/world/biome/JungleEdgeBiome	net/minecraft/class_2034
+net/minecraft/world/level/biome/JungleHillsBiome	net/minecraft/server/1_15_R1/BiomeJungleHills	net/minecraft/world/biome/JungleHillsBiome	net/minecraft/class_2033
+net/minecraft/world/level/biome/LukeWarmOceanBiome	net/minecraft/server/1_15_R1/BiomeLukewarmOcean	net/minecraft/world/biome/LukewarmOceanBiome	net/minecraft/class_2042
+net/minecraft/world/level/biome/ModifiedBadlandsPlateauBiome	net/minecraft/server/1_15_R1/BiomeMesaPlateauClearMutated	net/minecraft/world/biome/ModifiedBadlandsPlateauBiome	net/minecraft/class_2036
+net/minecraft/world/level/biome/ModifiedGravellyMountainsBiome	net/minecraft/server/1_15_R1/BiomeExtremeHillsWithTreesMutated	net/minecraft/world/biome/ModifiedGravellyMountainsBiome	net/minecraft/class_2047
+net/minecraft/world/level/biome/ModifiedJungleBiome	net/minecraft/server/1_15_R1/BiomeJungleMutated	net/minecraft/world/biome/ModifiedJungleBiome	net/minecraft/class_2043
+net/minecraft/world/level/biome/ModifiedJungleEdgeBiome	net/minecraft/server/1_15_R1/BiomeJungleEdgeMutated	net/minecraft/world/biome/ModifiedJungleEdgeBiome	net/minecraft/class_2057
+net/minecraft/world/level/biome/ModifiedWoodedBadlandsPlateauBiome	net/minecraft/server/1_15_R1/BiomeMesaPlateauMutated	net/minecraft/world/biome/ModifiedWoodedBadlandsPlateauBiome	net/minecraft/class_2053
+net/minecraft/world/level/biome/MountainBiome	net/minecraft/server/1_15_R1/BiomeBigHills	net/minecraft/world/biome/MountainsBiome	net/minecraft/class_2064
+net/minecraft/world/level/biome/MountainEdgeBiome	net/minecraft/server/1_15_R1/BiomeExtremeHillsEdge	net/minecraft/world/biome/MountainEdgeBiome	net/minecraft/class_2061
+net/minecraft/world/level/biome/MushroomFieldsBiome	net/minecraft/server/1_15_R1/BiomeMushrooms	net/minecraft/world/biome/MushroomFieldsBiome	net/minecraft/class_2072
+net/minecraft/world/level/biome/MushroomFieldsShoreBiome	net/minecraft/server/1_15_R1/BiomeMushroomIslandShore	net/minecraft/world/biome/MushroomFieldShoreBiome	net/minecraft/class_2065
+net/minecraft/world/level/biome/NetherBiome	net/minecraft/server/1_15_R1/BiomeHell	net/minecraft/world/biome/NetherBiome	net/minecraft/class_2079
+net/minecraft/world/level/biome/OceanBiome	net/minecraft/server/1_15_R1/BiomeOcean	net/minecraft/world/biome/OceanBiome	net/minecraft/class_2075
+net/minecraft/world/level/biome/OverworldBiomeSource	net/minecraft/server/1_15_R1/WorldChunkManagerOverworld	net/minecraft/world/biome/provider/OverworldBiomeProvider	net/minecraft/class_2088
+net/minecraft/world/level/biome/OverworldBiomeSourceSettings	net/minecraft/server/1_15_R1/BiomeLayoutOverworldConfiguration	net/minecraft/world/biome/provider/OverworldBiomeProviderSettings	net/minecraft/class_2084
+net/minecraft/world/level/biome/PlainsBiome	net/minecraft/server/1_15_R1/BiomePlains	net/minecraft/world/biome/PlainsBiome	net/minecraft/class_2089
+net/minecraft/world/level/biome/RiverBiome	net/minecraft/server/1_15_R1/BiomeRiver	net/minecraft/world/biome/RiverBiome	net/minecraft/class_2101
+net/minecraft/world/level/biome/SavannaBiome	net/minecraft/server/1_15_R1/BiomeSavanna	net/minecraft/world/biome/SavannaBiome	net/minecraft/class_2095
+net/minecraft/world/level/biome/SavannaPlateauBiome	net/minecraft/server/1_15_R1/BiomeSavannaPlateau	net/minecraft/world/biome/SavannaPlateauBiome	net/minecraft/class_2106
+net/minecraft/world/level/biome/ShatteredSavannaBiome	net/minecraft/server/1_15_R1/BiomeSavannaMutated	net/minecraft/world/biome/ShatteredSavannaBiome	net/minecraft/class_2104
+net/minecraft/world/level/biome/ShatteredSavannaPlateauBiome	net/minecraft/server/1_15_R1/BiomeSavannaPlateauMutated	net/minecraft/world/biome/ShatteredSavannaPlateauBiome	net/minecraft/class_2114
+net/minecraft/world/level/biome/SmallEndIslandsBiome	net/minecraft/server/1_15_R1/BiomeTheEndFloatingIslands	net/minecraft/world/biome/SmallEndIslandsBiome	net/minecraft/class_2107
+net/minecraft/world/level/biome/SnowyBeachBiome	net/minecraft/server/1_15_R1/BiomeColdBeach	net/minecraft/world/biome/SnowyBeachBiome	net/minecraft/class_2122
+net/minecraft/world/level/biome/SnowyMountainsBiome	net/minecraft/server/1_15_R1/BiomeIceMountains	net/minecraft/world/biome/SnowyMountainsBiome	net/minecraft/class_2118
+net/minecraft/world/level/biome/SnowyTaigaBiome	net/minecraft/server/1_15_R1/BiomeColdTaiga	net/minecraft/world/biome/SnowyTaigaBiome	net/minecraft/class_2127
+net/minecraft/world/level/biome/SnowyTaigaHillsBiome	net/minecraft/server/1_15_R1/BiomeColdTaigaHills	net/minecraft/world/biome/SnowyTaigaHillsBiome	net/minecraft/class_2126
+net/minecraft/world/level/biome/SnowyTaigaMountainsBiome	net/minecraft/server/1_15_R1/BiomeColdTaigaMutated	net/minecraft/world/biome/SnowyTaigaMountainsBiome	net/minecraft/class_2138
+net/minecraft/world/level/biome/SnowyTundraBiome	net/minecraft/server/1_15_R1/BiomeIcePlains	net/minecraft/world/biome/SnowyTundraBiome	net/minecraft/class_2134
+net/minecraft/world/level/biome/StoneShoreBiome	net/minecraft/server/1_15_R1/BiomeStoneBeach	net/minecraft/world/biome/StoneShoreBiome	net/minecraft/class_2146
+net/minecraft/world/level/biome/SunflowerPlainsBiome	net/minecraft/server/1_15_R1/BiomeSunflowerPlains	net/minecraft/world/biome/SunflowerPlainsBiome	net/minecraft/class_2139
+net/minecraft/world/level/biome/SwampBiome	net/minecraft/server/1_15_R1/BiomeSwamp	net/minecraft/world/biome/SwampBiome	net/minecraft/class_2151
+net/minecraft/world/level/biome/SwampHillsBiome	net/minecraft/server/1_15_R1/BiomeSwamplandMutated	net/minecraft/world/biome/SwampHillsBiome	net/minecraft/class_2147
+net/minecraft/world/level/biome/TaigaBiome	net/minecraft/server/1_15_R1/BiomeTaiga	net/minecraft/world/biome/TaigaBiome	net/minecraft/class_2154
+net/minecraft/world/level/biome/TaigaHillsBiome	net/minecraft/server/1_15_R1/BiomeTaigaHills	net/minecraft/world/biome/TaigaHillsBiome	net/minecraft/class_2153
+net/minecraft/world/level/biome/TaigaMountainsBiome	net/minecraft/server/1_15_R1/BiomeTaigaMutated	net/minecraft/world/biome/TaigaMountainsBiome	net/minecraft/class_2157
+net/minecraft/world/level/biome/TallBirchForestBiome	net/minecraft/server/1_15_R1/BiomeBirchForestMutated	net/minecraft/world/biome/TallBirchForestBiome	net/minecraft/class_2155
+net/minecraft/world/level/biome/TallBirchHillsBiome	net/minecraft/server/1_15_R1/BiomeBirchForestHillsMutated	net/minecraft/world/biome/TallBirchHillsBiome	net/minecraft/class_2166
+net/minecraft/world/level/biome/TheEndBiome	net/minecraft/server/1_15_R1/BiomeTheEnd	net/minecraft/world/biome/TheEndBiome	net/minecraft/class_2163
+net/minecraft/world/level/biome/TheEndBiomeSource	net/minecraft/server/1_15_R1/WorldChunkManagerTheEnd	net/minecraft/world/biome/provider/EndBiomeProvider	net/minecraft/class_2169
+net/minecraft/world/level/biome/TheEndBiomeSourceSettings	net/minecraft/server/1_15_R1/BiomeLayoutTheEndConfiguration	net/minecraft/world/biome/provider/EndBiomeProviderSettings	net/minecraft/class_2167
+net/minecraft/world/level/biome/TheVoidBiome	net/minecraft/server/1_15_R1/BiomeVoid	net/minecraft/world/biome/TheVoidBiome	net/minecraft/class_2175
+net/minecraft/world/level/biome/WarmOceanBiome	net/minecraft/server/1_15_R1/BiomeWarmOcean	net/minecraft/world/biome/WarmOceanBiome	net/minecraft/class_2174
+net/minecraft/world/level/biome/WoodedBadlandsBiome	net/minecraft/server/1_15_R1/BiomeMesaPlataeu	net/minecraft/world/biome/WoodedBadlandsPlateauBiome	net/minecraft/class_2176
+net/minecraft/world/level/biome/WoodedHillsBiome	net/minecraft/server/1_15_R1/BiomeForestHills	net/minecraft/world/biome/WoodedHillsBiome	net/minecraft/class_2182
+net/minecraft/world/level/biome/WoodedMountainBiome	net/minecraft/server/1_15_R1/BiomeExtremeHillsWithTrees	net/minecraft/world/biome/WoodedMountainsBiome	net/minecraft/class_2180
+net/minecraft/world/level/block/AbstractBannerBlock	net/minecraft/server/1_15_R1/BlockBannerAbstract	net/minecraft/block/AbstractBannerBlock	net/minecraft/class_2185
+net/minecraft/world/level/block/AbstractChestBlock	net/minecraft/server/1_15_R1/BlockChestAbstract	net/minecraft/block/AbstractChestBlock	net/minecraft/class_4739
+net/minecraft/world/level/block/AbstractFurnaceBlock	net/minecraft/server/1_15_R1/BlockFurnace	net/minecraft/block/AbstractFurnaceBlock	net/minecraft/class_2363
+net/minecraft/world/level/block/AbstractGlassBlock	net/minecraft/server/1_15_R1/BlockGlassAbstract	net/minecraft/block/AbstractGlassBlock	net/minecraft/class_4262
+net/minecraft/world/level/block/AbstractSkullBlock	net/minecraft/server/1_15_R1/BlockSkullAbstract	net/minecraft/block/AbstractSkullBlock	net/minecraft/class_2190
+net/minecraft/world/level/block/AirBlock	net/minecraft/server/1_15_R1/BlockAir	net/minecraft/block/AirBlock	net/minecraft/class_2189
+net/minecraft/world/level/block/AnvilBlock	net/minecraft/server/1_15_R1/BlockAnvil	net/minecraft/block/AnvilBlock	net/minecraft/class_2199
+net/minecraft/world/level/block/AttachedStemBlock	net/minecraft/server/1_15_R1/BlockStemAttached	net/minecraft/block/AttachedStemBlock	net/minecraft/class_2195
+net/minecraft/world/level/block/BambooBlock	net/minecraft/server/1_15_R1/BlockBamboo	net/minecraft/block/BambooBlock	net/minecraft/class_2211
+net/minecraft/world/level/block/BambooSaplingBlock	net/minecraft/server/1_15_R1/BlockBambooSapling	net/minecraft/block/BambooSaplingBlock	net/minecraft/class_2202
+net/minecraft/world/level/block/BannerBlock	net/minecraft/server/1_15_R1/BlockBanner	net/minecraft/block/BannerBlock	net/minecraft/class_2215
+net/minecraft/world/level/block/BarrelBlock	net/minecraft/server/1_15_R1/BlockBarrel	net/minecraft/block/BarrelBlock	net/minecraft/class_3708
+net/minecraft/world/level/block/BarrierBlock	net/minecraft/server/1_15_R1/BlockBarrier	net/minecraft/block/BarrierBlock	net/minecraft/class_2213
+net/minecraft/world/level/block/BaseCoralFanBlock	net/minecraft/server/1_15_R1/BlockCoralFanAbstract	net/minecraft/block/CoralFanBlock	net/minecraft/class_2221
+net/minecraft/world/level/block/BaseCoralPlantBlock	net/minecraft/server/1_15_R1/BlockCoralDead	net/minecraft/block/DeadCoralPlantBlock	net/minecraft/class_2217
+net/minecraft/world/level/block/BaseCoralPlantTypeBlock	net/minecraft/server/1_15_R1/BlockCoralBase	net/minecraft/block/AbstractCoralPlantBlock	net/minecraft/class_2230
+net/minecraft/world/level/block/BaseCoralWallFanBlock	net/minecraft/server/1_15_R1/BlockCoralFanWallAbstract	net/minecraft/block/DeadCoralWallFanBlock	net/minecraft/class_2222
+net/minecraft/world/level/block/BaseEntityBlock	net/minecraft/server/1_15_R1/BlockTileEntity	net/minecraft/block/ContainerBlock	net/minecraft/class_2237
+net/minecraft/world/level/block/BasePressurePlateBlock	net/minecraft/server/1_15_R1/BlockPressurePlateAbstract	net/minecraft/block/AbstractPressurePlateBlock	net/minecraft/class_2231
+net/minecraft/world/level/block/BaseRailBlock	net/minecraft/server/1_15_R1/BlockMinecartTrackAbstract	net/minecraft/block/AbstractRailBlock	net/minecraft/class_2241
+net/minecraft/world/level/block/BeaconBeamBlock	net/minecraft/server/1_15_R1/IBeaconBeam	net/minecraft/block/IBeaconBeamColorProvider	net/minecraft/class_4275
+net/minecraft/world/level/block/BeaconBlock	net/minecraft/server/1_15_R1/BlockBeacon	net/minecraft/block/BeaconBlock	net/minecraft/class_2238
+net/minecraft/world/level/block/BedBlock	net/minecraft/server/1_15_R1/BlockBed	net/minecraft/block/BedBlock	net/minecraft/class_2244
+net/minecraft/world/level/block/BedrockBlock	net/minecraft/server/1_15_R1/BlockBedrock	net/minecraft/block/BedrockBlock	net/minecraft/class_4263
+net/minecraft/world/level/block/BeehiveBlock	net/minecraft/server/1_15_R1/BlockBeehive	net/minecraft/block/BeehiveBlock	net/minecraft/class_4481
+net/minecraft/world/level/block/BeetrootBlock	net/minecraft/server/1_15_R1/BlockBeetroot	net/minecraft/block/BeetrootBlock	net/minecraft/class_2242
+net/minecraft/world/level/block/BellBlock	net/minecraft/server/1_15_R1/BlockBell	net/minecraft/block/BellBlock	net/minecraft/class_3709
+net/minecraft/world/level/block/BlastFurnaceBlock	net/minecraft/server/1_15_R1/BlockBlastFurnace	net/minecraft/block/BlastFurnaceBlock	net/minecraft/class_3710
+net/minecraft/world/level/block/Block	net/minecraft/server/1_15_R1/Block	net/minecraft/block/Block	net/minecraft/class_2248
+net/minecraft/world/level/block/Block$1		net/minecraft/block/Block$1	net/minecraft/class_2248$1
+net/minecraft/world/level/block/Block$2		net/minecraft/block/Block$2	net/minecraft/class_2248$2
+net/minecraft/world/level/block/Block$BlockStatePairKey		net/minecraft/block/Block$RenderSideCacheKey	net/minecraft/class_2248$class_2249
+net/minecraft/world/level/block/Block$OffsetType	net/minecraft/server/1_15_R1/Block$EnumRandomOffset	net/minecraft/block/Block$OffsetType	net/minecraft/class_2248$class_2250
+net/minecraft/world/level/block/Block$Properties	net/minecraft/server/1_15_R1/Block$Info	net/minecraft/block/Block$Properties	net/minecraft/class_2248$class_2251
+net/minecraft/world/level/block/Blocks	net/minecraft/server/1_15_R1/Blocks	net/minecraft/block/Blocks	net/minecraft/class_2246
+net/minecraft/world/level/block/BonemealableBlock	net/minecraft/server/1_15_R1/IBlockFragilePlantElement	net/minecraft/block/IGrowable	net/minecraft/class_2256
+net/minecraft/world/level/block/BrewingStandBlock	net/minecraft/server/1_15_R1/BlockBrewingStand	net/minecraft/block/BrewingStandBlock	net/minecraft/class_2260
+net/minecraft/world/level/block/BubbleColumnBlock	net/minecraft/server/1_15_R1/BlockBubbleColumn	net/minecraft/block/BubbleColumnBlock	net/minecraft/class_2258
+net/minecraft/world/level/block/BucketPickup	net/minecraft/server/1_15_R1/IFluidSource	net/minecraft/block/IBucketPickupHandler	net/minecraft/class_2263
+net/minecraft/world/level/block/BushBlock	net/minecraft/server/1_15_R1/BlockPlant	net/minecraft/block/BushBlock	net/minecraft/class_2261
+net/minecraft/world/level/block/ButtonBlock	net/minecraft/server/1_15_R1/BlockButtonAbstract	net/minecraft/block/AbstractButtonBlock	net/minecraft/class_2269
+net/minecraft/world/level/block/CactusBlock	net/minecraft/server/1_15_R1/BlockCactus	net/minecraft/block/CactusBlock	net/minecraft/class_2266
+net/minecraft/world/level/block/CakeBlock	net/minecraft/server/1_15_R1/BlockCake	net/minecraft/block/CakeBlock	net/minecraft/class_2272
+net/minecraft/world/level/block/CampfireBlock	net/minecraft/server/1_15_R1/BlockCampfire	net/minecraft/block/CampfireBlock	net/minecraft/class_3922
+net/minecraft/world/level/block/CarrotBlock	net/minecraft/server/1_15_R1/BlockCarrots	net/minecraft/block/CarrotBlock	net/minecraft/class_2271
+net/minecraft/world/level/block/CartographyTableBlock	net/minecraft/server/1_15_R1/BlockCartographyTable	net/minecraft/block/CartographyTableBlock	net/minecraft/class_3711
+net/minecraft/world/level/block/CarvedPumpkinBlock	net/minecraft/server/1_15_R1/BlockPumpkinCarved	net/minecraft/block/CarvedPumpkinBlock	net/minecraft/class_2276
+net/minecraft/world/level/block/CauldronBlock	net/minecraft/server/1_15_R1/BlockCauldron	net/minecraft/block/CauldronBlock	net/minecraft/class_2275
+net/minecraft/world/level/block/ChestBlock	net/minecraft/server/1_15_R1/BlockChest	net/minecraft/block/ChestBlock	net/minecraft/class_2281
+net/minecraft/world/level/block/ChestBlock$1		net/minecraft/block/ChestBlock$1	net/minecraft/class_2281$1
+net/minecraft/world/level/block/ChestBlock$2		net/minecraft/block/ChestBlock$2	net/minecraft/class_2281$2
+net/minecraft/world/level/block/ChestBlock$2$1		net/minecraft/block/ChestBlock$2$1	net/minecraft/class_2281$2$1
+net/minecraft/world/level/block/ChorusFlowerBlock	net/minecraft/server/1_15_R1/BlockChorusFlower	net/minecraft/block/ChorusFlowerBlock	net/minecraft/class_2279
+net/minecraft/world/level/block/ChorusPlantBlock	net/minecraft/server/1_15_R1/BlockChorusFruit	net/minecraft/block/ChorusPlantBlock	net/minecraft/class_2283
+net/minecraft/world/level/block/CocoaBlock	net/minecraft/server/1_15_R1/BlockCocoa	net/minecraft/block/CocoaBlock	net/minecraft/class_2282
+net/minecraft/world/level/block/CommandBlock	net/minecraft/server/1_15_R1/BlockCommand	net/minecraft/block/CommandBlockBlock	net/minecraft/class_2288
+net/minecraft/world/level/block/ComparatorBlock	net/minecraft/server/1_15_R1/BlockRedstoneComparator	net/minecraft/block/ComparatorBlock	net/minecraft/class_2286
+net/minecraft/world/level/block/ComposterBlock	net/minecraft/server/1_15_R1/BlockComposter	net/minecraft/block/ComposterBlock	net/minecraft/class_3962
+net/minecraft/world/level/block/ComposterBlock$EmptyContainer	net/minecraft/server/1_15_R1/BlockComposter$ContainerEmpty	net/minecraft/block/ComposterBlock$EmptyInventory	net/minecraft/class_3962$class_3925
+net/minecraft/world/level/block/ComposterBlock$InputContainer	net/minecraft/server/1_15_R1/BlockComposter$ContainerInput	net/minecraft/block/ComposterBlock$PartialInventory	net/minecraft/class_3962$class_3963
+net/minecraft/world/level/block/ComposterBlock$OutputContainer	net/minecraft/server/1_15_R1/BlockComposter$ContainerOutput	net/minecraft/block/ComposterBlock$FullInventory	net/minecraft/class_3962$class_3964
+net/minecraft/world/level/block/ConcretePowderBlock	net/minecraft/server/1_15_R1/BlockConcretePowder	net/minecraft/block/ConcretePowderBlock	net/minecraft/class_2292
+net/minecraft/world/level/block/ConduitBlock	net/minecraft/server/1_15_R1/BlockConduit	net/minecraft/block/ConduitBlock	net/minecraft/class_2289
+net/minecraft/world/level/block/CoralBlock	net/minecraft/server/1_15_R1/BlockCoral	net/minecraft/block/CoralBlock	net/minecraft/class_2298
+net/minecraft/world/level/block/CoralFanBlock	net/minecraft/server/1_15_R1/BlockCoralFan	net/minecraft/block/CoralFinBlock	net/minecraft/class_2297
+net/minecraft/world/level/block/CoralPlantBlock	net/minecraft/server/1_15_R1/BlockCoralPlant	net/minecraft/block/CoralPlantBlock	net/minecraft/class_2301
+net/minecraft/world/level/block/CoralWallFanBlock	net/minecraft/server/1_15_R1/BlockCoralFanWall	net/minecraft/block/CoralWallFanBlock	net/minecraft/class_2299
+net/minecraft/world/level/block/CraftingTableBlock	net/minecraft/server/1_15_R1/BlockWorkbench	net/minecraft/block/CraftingTableBlock	net/minecraft/class_2304
+net/minecraft/world/level/block/CropBlock	net/minecraft/server/1_15_R1/BlockCrops	net/minecraft/block/CropsBlock	net/minecraft/class_2302
+net/minecraft/world/level/block/CrossCollisionBlock	net/minecraft/server/1_15_R1/BlockTall	net/minecraft/block/FourWayBlock	net/minecraft/class_2310
+net/minecraft/world/level/block/DaylightDetectorBlock	net/minecraft/server/1_15_R1/BlockDaylightDetector	net/minecraft/block/DaylightDetectorBlock	net/minecraft/class_2309
+net/minecraft/world/level/block/DeadBushBlock	net/minecraft/server/1_15_R1/BlockDeadBush	net/minecraft/block/DeadBushBlock	net/minecraft/class_2311
+net/minecraft/world/level/block/DetectorRailBlock	net/minecraft/server/1_15_R1/BlockMinecartDetector	net/minecraft/block/DetectorRailBlock	net/minecraft/class_2313
+net/minecraft/world/level/block/DiodeBlock	net/minecraft/server/1_15_R1/BlockDiodeAbstract	net/minecraft/block/RedstoneDiodeBlock	net/minecraft/class_2312
+net/minecraft/world/level/block/DirectionalBlock	net/minecraft/server/1_15_R1/BlockDirectional	net/minecraft/block/DirectionalBlock	net/minecraft/class_2318
+net/minecraft/world/level/block/DispenserBlock	net/minecraft/server/1_15_R1/BlockDispenser	net/minecraft/block/DispenserBlock	net/minecraft/class_2315
+net/minecraft/world/level/block/DoorBlock	net/minecraft/server/1_15_R1/BlockDoor	net/minecraft/block/DoorBlock	net/minecraft/class_2323
+net/minecraft/world/level/block/DoubleBlockCombiner	net/minecraft/server/1_15_R1/DoubleBlockFinder	net/minecraft/tileentity/TileEntityMerger	net/minecraft/class_4732
+net/minecraft/world/level/block/DoubleBlockCombiner$BlockType	net/minecraft/server/1_15_R1/DoubleBlockFinder$BlockType	net/minecraft/tileentity/TileEntityMerger$Type	net/minecraft/class_4732$class_4733
+net/minecraft/world/level/block/DoubleBlockCombiner$Combiner	net/minecraft/server/1_15_R1/DoubleBlockFinder$Combiner	net/minecraft/tileentity/TileEntityMerger$ICallback	net/minecraft/class_4732$class_3923
+net/minecraft/world/level/block/DoubleBlockCombiner$NeighborCombineResult	net/minecraft/server/1_15_R1/DoubleBlockFinder$Result	net/minecraft/tileentity/TileEntityMerger$ICallbackWrapper	net/minecraft/class_4732$class_4734
+net/minecraft/world/level/block/DoubleBlockCombiner$NeighborCombineResult$Double	net/minecraft/server/1_15_R1/DoubleBlockFinder$Result$Double	net/minecraft/tileentity/TileEntityMerger$ICallbackWrapper$Double	net/minecraft/class_4732$class_4734$class_4735
+net/minecraft/world/level/block/DoubleBlockCombiner$NeighborCombineResult$Single	net/minecraft/server/1_15_R1/DoubleBlockFinder$Result$Single	net/minecraft/tileentity/TileEntityMerger$ICallbackWrapper$Single	net/minecraft/class_4732$class_4734$class_4736
+net/minecraft/world/level/block/DoublePlantBlock	net/minecraft/server/1_15_R1/BlockTallPlant	net/minecraft/block/DoublePlantBlock	net/minecraft/class_2320
+net/minecraft/world/level/block/DragonEggBlock	net/minecraft/server/1_15_R1/BlockDragonEgg	net/minecraft/block/DragonEggBlock	net/minecraft/class_2328
+net/minecraft/world/level/block/DropperBlock	net/minecraft/server/1_15_R1/BlockDropper	net/minecraft/block/DropperBlock	net/minecraft/class_2325
+net/minecraft/world/level/block/EnchantmentTableBlock	net/minecraft/server/1_15_R1/BlockEnchantmentTable	net/minecraft/block/EnchantingTableBlock	net/minecraft/class_2331
+net/minecraft/world/level/block/EndGatewayBlock	net/minecraft/server/1_15_R1/BlockEndGateway	net/minecraft/block/EndGatewayBlock	net/minecraft/class_2329
+net/minecraft/world/level/block/EndPortalBlock	net/minecraft/server/1_15_R1/BlockEnderPortal	net/minecraft/block/EndPortalBlock	net/minecraft/class_2334
+net/minecraft/world/level/block/EndPortalFrameBlock	net/minecraft/server/1_15_R1/BlockEnderPortalFrame	net/minecraft/block/EndPortalFrameBlock	net/minecraft/class_2333
+net/minecraft/world/level/block/EndRodBlock	net/minecraft/server/1_15_R1/BlockEndRod	net/minecraft/block/EndRodBlock	net/minecraft/class_2337
+net/minecraft/world/level/block/EnderChestBlock	net/minecraft/server/1_15_R1/BlockEnderChest	net/minecraft/block/EnderChestBlock	net/minecraft/class_2336
+net/minecraft/world/level/block/EntityBlock	net/minecraft/server/1_15_R1/ITileEntity	net/minecraft/block/ITileEntityProvider	net/minecraft/class_2343
+net/minecraft/world/level/block/FaceAttachedHorizontalDirectionalBlock	net/minecraft/server/1_15_R1/BlockAttachable	net/minecraft/block/HorizontalFaceBlock	net/minecraft/class_2341
+net/minecraft/world/level/block/FallingBlock	net/minecraft/server/1_15_R1/BlockFalling	net/minecraft/block/FallingBlock	net/minecraft/class_2346
+net/minecraft/world/level/block/FarmBlock	net/minecraft/server/1_15_R1/BlockSoil	net/minecraft/block/FarmlandBlock	net/minecraft/class_2344
+net/minecraft/world/level/block/FenceBlock	net/minecraft/server/1_15_R1/BlockFence	net/minecraft/block/FenceBlock	net/minecraft/class_2354
+net/minecraft/world/level/block/FenceGateBlock	net/minecraft/server/1_15_R1/BlockFenceGate	net/minecraft/block/FenceGateBlock	net/minecraft/class_2349
+net/minecraft/world/level/block/FireBlock	net/minecraft/server/1_15_R1/BlockFire	net/minecraft/block/FireBlock	net/minecraft/class_2358
+net/minecraft/world/level/block/FletchingTableBlock	net/minecraft/server/1_15_R1/BlockFletchingTable	net/minecraft/block/FletchingTableBlock	net/minecraft/class_3712
+net/minecraft/world/level/block/FlowerBlock	net/minecraft/server/1_15_R1/BlockFlowers	net/minecraft/block/FlowerBlock	net/minecraft/class_2356
+net/minecraft/world/level/block/FlowerPotBlock	net/minecraft/server/1_15_R1/BlockFlowerPot	net/minecraft/block/FlowerPotBlock	net/minecraft/class_2362
+net/minecraft/world/level/block/FrostedIceBlock	net/minecraft/server/1_15_R1/BlockIceFrost	net/minecraft/block/FrostedIceBlock	net/minecraft/class_2360
+net/minecraft/world/level/block/FurnaceBlock	net/minecraft/server/1_15_R1/BlockFurnaceFurace	net/minecraft/block/FurnaceBlock	net/minecraft/class_3865
+net/minecraft/world/level/block/GlassBlock	net/minecraft/server/1_15_R1/BlockGlass	net/minecraft/block/GlassBlock	net/minecraft/class_2368
+net/minecraft/world/level/block/GlazedTerracottaBlock	net/minecraft/server/1_15_R1/BlockGlazedTerracotta	net/minecraft/block/GlazedTerracottaBlock	net/minecraft/class_2366
+net/minecraft/world/level/block/GrassBlock	net/minecraft/server/1_15_R1/BlockGrass	net/minecraft/block/GrassBlock	net/minecraft/class_2372
+net/minecraft/world/level/block/GrassPathBlock	net/minecraft/server/1_15_R1/BlockGrassPath	net/minecraft/block/GrassPathBlock	net/minecraft/class_2369
+net/minecraft/world/level/block/GravelBlock	net/minecraft/server/1_15_R1/BlockGravel	net/minecraft/block/GravelBlock	net/minecraft/class_2375
+net/minecraft/world/level/block/GrindstoneBlock	net/minecraft/server/1_15_R1/BlockGrindstone	net/minecraft/block/GrindstoneBlock	net/minecraft/class_3713
+net/minecraft/world/level/block/HalfTransparentBlock	net/minecraft/server/1_15_R1/BlockHalfTransparent	net/minecraft/block/BreakableBlock	net/minecraft/class_2373
+net/minecraft/world/level/block/HayBlock	net/minecraft/server/1_15_R1/BlockHay	net/minecraft/block/HayBlock	net/minecraft/class_2380
+net/minecraft/world/level/block/HoneyBlock	net/minecraft/server/1_15_R1/BlockHoney	net/minecraft/block/HoneyBlock	net/minecraft/class_4622
+net/minecraft/world/level/block/HopperBlock	net/minecraft/server/1_15_R1/BlockHopper	net/minecraft/block/HopperBlock	net/minecraft/class_2377
+net/minecraft/world/level/block/HorizontalDirectionalBlock	net/minecraft/server/1_15_R1/BlockFacingHorizontal	net/minecraft/block/HorizontalBlock	net/minecraft/class_2383
+net/minecraft/world/level/block/HugeMushroomBlock	net/minecraft/server/1_15_R1/BlockHugeMushroom	net/minecraft/block/HugeMushroomBlock	net/minecraft/class_2381
+net/minecraft/world/level/block/IceBlock	net/minecraft/server/1_15_R1/BlockIce	net/minecraft/block/IceBlock	net/minecraft/class_2386
+net/minecraft/world/level/block/InfestedBlock	net/minecraft/server/1_15_R1/BlockMonsterEggs	net/minecraft/block/SilverfishBlock	net/minecraft/class_2384
+net/minecraft/world/level/block/IronBarsBlock	net/minecraft/server/1_15_R1/BlockIronBars	net/minecraft/block/PaneBlock	net/minecraft/class_2389
+net/minecraft/world/level/block/JigsawBlock	net/minecraft/server/1_15_R1/BlockJigsaw	net/minecraft/block/JigsawBlock	net/minecraft/class_3748
+net/minecraft/world/level/block/JukeboxBlock	net/minecraft/server/1_15_R1/BlockJukeBox	net/minecraft/block/JukeboxBlock	net/minecraft/class_2387
+net/minecraft/world/level/block/KelpBlock	net/minecraft/server/1_15_R1/BlockKelp	net/minecraft/block/KelpTopBlock	net/minecraft/class_2393
+net/minecraft/world/level/block/KelpPlantBlock	net/minecraft/server/1_15_R1/BlockKelpPlant	net/minecraft/block/KelpBlock	net/minecraft/class_2391
+net/minecraft/world/level/block/LadderBlock	net/minecraft/server/1_15_R1/BlockLadder	net/minecraft/block/LadderBlock	net/minecraft/class_2399
+net/minecraft/world/level/block/Lantern	net/minecraft/server/1_15_R1/BlockLantern	net/minecraft/block/LanternBlock	net/minecraft/class_3749
+net/minecraft/world/level/block/LeavesBlock	net/minecraft/server/1_15_R1/BlockLeaves	net/minecraft/block/LeavesBlock	net/minecraft/class_2397
+net/minecraft/world/level/block/LecternBlock	net/minecraft/server/1_15_R1/BlockLectern	net/minecraft/block/LecternBlock	net/minecraft/class_3715
+net/minecraft/world/level/block/LeverBlock	net/minecraft/server/1_15_R1/BlockLever	net/minecraft/block/LeverBlock	net/minecraft/class_2401
+net/minecraft/world/level/block/LiquidBlock	net/minecraft/server/1_15_R1/BlockFluids	net/minecraft/block/FlowingFluidBlock	net/minecraft/class_2404
+net/minecraft/world/level/block/LiquidBlockContainer	net/minecraft/server/1_15_R1/IFluidContainer	net/minecraft/block/ILiquidContainer	net/minecraft/class_2402
+net/minecraft/world/level/block/LogBlock	net/minecraft/server/1_15_R1/BlockLogAbstract	net/minecraft/block/LogBlock	net/minecraft/class_2410
+net/minecraft/world/level/block/LoomBlock	net/minecraft/server/1_15_R1/BlockLoom	net/minecraft/block/LoomBlock	net/minecraft/class_2406
+net/minecraft/world/level/block/MagmaBlock	net/minecraft/server/1_15_R1/BlockMagma	net/minecraft/block/MagmaBlock	net/minecraft/class_2413
+net/minecraft/world/level/block/MelonBlock	net/minecraft/server/1_15_R1/BlockMelon	net/minecraft/block/MelonBlock	net/minecraft/class_2411
+net/minecraft/world/level/block/Mirror	net/minecraft/server/1_15_R1/EnumBlockMirror	net/minecraft/util/Mirror	net/minecraft/class_2415
+net/minecraft/world/level/block/MushroomBlock	net/minecraft/server/1_15_R1/BlockMushroom	net/minecraft/block/MushroomBlock	net/minecraft/class_2420
+net/minecraft/world/level/block/MyceliumBlock	net/minecraft/server/1_15_R1/BlockMycel	net/minecraft/block/MyceliumBlock	net/minecraft/class_2418
+net/minecraft/world/level/block/NetherPortalBlock	net/minecraft/server/1_15_R1/BlockPortal	net/minecraft/block/NetherPortalBlock	net/minecraft/class_2423
+net/minecraft/world/level/block/NetherPortalBlock$PortalShape	net/minecraft/server/1_15_R1/BlockPortal$Shape	net/minecraft/block/NetherPortalBlock$Size	net/minecraft/class_2423$class_2424
+net/minecraft/world/level/block/NetherWartBlock	net/minecraft/server/1_15_R1/BlockNetherWart	net/minecraft/block/NetherWartBlock	net/minecraft/class_2421
+net/minecraft/world/level/block/NoteBlock	net/minecraft/server/1_15_R1/BlockNote	net/minecraft/block/NoteBlock	net/minecraft/class_2428
+net/minecraft/world/level/block/ObserverBlock	net/minecraft/server/1_15_R1/BlockObserver	net/minecraft/block/ObserverBlock	net/minecraft/class_2426
+net/minecraft/world/level/block/OreBlock	net/minecraft/server/1_15_R1/BlockOre	net/minecraft/block/OreBlock	net/minecraft/class_2431
+net/minecraft/world/level/block/PipeBlock	net/minecraft/server/1_15_R1/BlockSprawling	net/minecraft/block/SixWayBlock	net/minecraft/class_2429
+net/minecraft/world/level/block/PlayerHeadBlock	net/minecraft/server/1_15_R1/BlockSkullPlayer	net/minecraft/block/SkullPlayerBlock	net/minecraft/class_2435
+net/minecraft/world/level/block/PlayerWallHeadBlock	net/minecraft/server/1_15_R1/BlockSkullPlayerWall	net/minecraft/block/SkullWallPlayerBlock	net/minecraft/class_2433
+net/minecraft/world/level/block/PotatoBlock	net/minecraft/server/1_15_R1/BlockPotatoes	net/minecraft/block/PotatoBlock	net/minecraft/class_2439
+net/minecraft/world/level/block/PoweredBlock	net/minecraft/server/1_15_R1/BlockPowered	net/minecraft/block/RedstoneBlock	net/minecraft/class_2436
+net/minecraft/world/level/block/PoweredRailBlock	net/minecraft/server/1_15_R1/BlockPoweredRail	net/minecraft/block/PoweredRailBlock	net/minecraft/class_2442
+net/minecraft/world/level/block/PressurePlateBlock	net/minecraft/server/1_15_R1/BlockPressurePlateBinary	net/minecraft/block/PressurePlateBlock	net/minecraft/class_2440
+net/minecraft/world/level/block/PressurePlateBlock$Sensitivity	net/minecraft/server/1_15_R1/BlockPressurePlateBinary$EnumMobType	net/minecraft/block/PressurePlateBlock$Sensitivity	net/minecraft/class_2440$class_2441
+net/minecraft/world/level/block/PumpkinBlock	net/minecraft/server/1_15_R1/BlockPumpkin	net/minecraft/block/PumpkinBlock	net/minecraft/class_2445
+net/minecraft/world/level/block/RailBlock	net/minecraft/server/1_15_R1/BlockMinecartTrack	net/minecraft/block/RailBlock	net/minecraft/class_2443
+net/minecraft/world/level/block/RailState	net/minecraft/server/1_15_R1/MinecartTrackLogic	net/minecraft/block/RailState	net/minecraft/class_2452
+net/minecraft/world/level/block/RedStoneOreBlock	net/minecraft/server/1_15_R1/BlockRedstoneOre	net/minecraft/block/RedstoneOreBlock	net/minecraft/class_2449
+net/minecraft/world/level/block/RedStoneWireBlock	net/minecraft/server/1_15_R1/BlockRedstoneWire	net/minecraft/block/RedstoneWireBlock	net/minecraft/class_2457
+net/minecraft/world/level/block/RedstoneLampBlock	net/minecraft/server/1_15_R1/BlockRedstoneLamp	net/minecraft/block/RedstoneLampBlock	net/minecraft/class_2453
+net/minecraft/world/level/block/RedstoneTorchBlock	net/minecraft/server/1_15_R1/BlockRedstoneTorch	net/minecraft/block/RedstoneTorchBlock	net/minecraft/class_2459
+net/minecraft/world/level/block/RedstoneTorchBlock$Toggle	net/minecraft/server/1_15_R1/BlockRedstoneTorch$RedstoneUpdateInfo	net/minecraft/block/RedstoneTorchBlock$Toggle	net/minecraft/class_2459$class_2460
+net/minecraft/world/level/block/RedstoneWallTorchBlock	net/minecraft/server/1_15_R1/BlockRedstoneTorchWall	net/minecraft/block/RedstoneWallTorchBlock	net/minecraft/class_2458
+net/minecraft/world/level/block/RenderShape	net/minecraft/server/1_15_R1/EnumRenderType	net/minecraft/block/BlockRenderType	net/minecraft/class_2464
+net/minecraft/world/level/block/RepeaterBlock	net/minecraft/server/1_15_R1/BlockRepeater	net/minecraft/block/RepeaterBlock	net/minecraft/class_2462
+net/minecraft/world/level/block/RotatedPillarBlock	net/minecraft/server/1_15_R1/BlockRotatable	net/minecraft/block/RotatedPillarBlock	net/minecraft/class_2465
+net/minecraft/world/level/block/Rotation	net/minecraft/server/1_15_R1/EnumBlockRotation	net/minecraft/util/Rotation	net/minecraft/class_2470
+net/minecraft/world/level/block/SandBlock	net/minecraft/server/1_15_R1/BlockSand	net/minecraft/block/SandBlock	net/minecraft/class_2468
+net/minecraft/world/level/block/SaplingBlock	net/minecraft/server/1_15_R1/BlockSapling	net/minecraft/block/SaplingBlock	net/minecraft/class_2473
+net/minecraft/world/level/block/ScaffoldingBlock	net/minecraft/server/1_15_R1/BlockScaffolding	net/minecraft/block/ScaffoldingBlock	net/minecraft/class_3736
+net/minecraft/world/level/block/SeaPickleBlock	net/minecraft/server/1_15_R1/BlockSeaPickle	net/minecraft/block/SeaPickleBlock	net/minecraft/class_2472
+net/minecraft/world/level/block/Seagrass	net/minecraft/server/1_15_R1/BlockSeaGrass	net/minecraft/block/SeaGrassBlock	net/minecraft/class_2476
+net/minecraft/world/level/block/ShearableDoublePlantBlock	net/minecraft/server/1_15_R1/BlockTallPlantShearable	net/minecraft/block/ShearableDoublePlantBlock	net/minecraft/class_2475
+net/minecraft/world/level/block/ShulkerBoxBlock	net/minecraft/server/1_15_R1/BlockShulkerBox	net/minecraft/block/ShulkerBoxBlock	net/minecraft/class_2480
+net/minecraft/world/level/block/SignBlock	net/minecraft/server/1_15_R1/BlockSign	net/minecraft/block/AbstractSignBlock	net/minecraft/class_2478
+net/minecraft/world/level/block/SimpleWaterloggedBlock	net/minecraft/server/1_15_R1/IBlockWaterlogged	net/minecraft/block/IWaterLoggable	net/minecraft/class_3737
+net/minecraft/world/level/block/SkullBlock	net/minecraft/server/1_15_R1/BlockSkull	net/minecraft/block/SkullBlock	net/minecraft/class_2484
+net/minecraft/world/level/block/SkullBlock$Type		net/minecraft/block/SkullBlock$ISkullType	net/minecraft/class_2484$class_2485
+net/minecraft/world/level/block/SkullBlock$Types	net/minecraft/server/1_15_R1/BlockSkull$Type	net/minecraft/block/SkullBlock$Types	net/minecraft/class_2484$class_2486
+net/minecraft/world/level/block/SlabBlock	net/minecraft/server/1_15_R1/BlockStepAbstract	net/minecraft/block/SlabBlock	net/minecraft/class_2482
+net/minecraft/world/level/block/SlimeBlock	net/minecraft/server/1_15_R1/BlockSlime	net/minecraft/block/SlimeBlock	net/minecraft/class_2490
+net/minecraft/world/level/block/SmithingTableBlock	net/minecraft/server/1_15_R1/BlockSmithingTable	net/minecraft/block/SmithingTableBlock	net/minecraft/class_3717
+net/minecraft/world/level/block/SmokerBlock	net/minecraft/server/1_15_R1/BlockSmoker	net/minecraft/block/SmokerBlock	net/minecraft/class_3716
+net/minecraft/world/level/block/SnowLayerBlock	net/minecraft/server/1_15_R1/BlockSnow	net/minecraft/block/SnowBlock	net/minecraft/class_2488
+net/minecraft/world/level/block/SnowyDirtBlock	net/minecraft/server/1_15_R1/BlockDirtSnow	net/minecraft/block/SnowyDirtBlock	net/minecraft/class_2493
+net/minecraft/world/level/block/SoulsandBlock	net/minecraft/server/1_15_R1/BlockSlowSand	net/minecraft/block/SoulSandBlock	net/minecraft/class_2492
+net/minecraft/world/level/block/SoundType	net/minecraft/server/1_15_R1/SoundEffectType	net/minecraft/block/SoundType	net/minecraft/class_2498
+net/minecraft/world/level/block/SpawnerBlock	net/minecraft/server/1_15_R1/BlockMobSpawner	net/minecraft/block/SpawnerBlock	net/minecraft/class_2496
+net/minecraft/world/level/block/SpongeBlock	net/minecraft/server/1_15_R1/BlockSponge	net/minecraft/block/SpongeBlock	net/minecraft/class_2502
+net/minecraft/world/level/block/SpreadingSnowyDirtBlock	net/minecraft/server/1_15_R1/BlockDirtSnowSpreadable	net/minecraft/block/SpreadableSnowyDirtBlock	net/minecraft/class_2500
+net/minecraft/world/level/block/StainedGlassBlock	net/minecraft/server/1_15_R1/BlockStainedGlass	net/minecraft/block/StainedGlassBlock	net/minecraft/class_2506
+net/minecraft/world/level/block/StainedGlassPaneBlock	net/minecraft/server/1_15_R1/BlockStainedGlassPane	net/minecraft/block/StainedGlassPaneBlock	net/minecraft/class_2504
+net/minecraft/world/level/block/StairBlock	net/minecraft/server/1_15_R1/BlockStairs	net/minecraft/block/StairsBlock	net/minecraft/class_2510
+net/minecraft/world/level/block/StandingSignBlock	net/minecraft/server/1_15_R1/BlockFloorSign	net/minecraft/block/StandingSignBlock	net/minecraft/class_2508
+net/minecraft/world/level/block/StemBlock	net/minecraft/server/1_15_R1/BlockStem	net/minecraft/block/StemBlock	net/minecraft/class_2513
+net/minecraft/world/level/block/StemGrownBlock	net/minecraft/server/1_15_R1/BlockStemmed	net/minecraft/block/StemGrownBlock	net/minecraft/class_2511
+net/minecraft/world/level/block/StoneButtonBlock	net/minecraft/server/1_15_R1/BlockStoneButton	net/minecraft/block/StoneButtonBlock	net/minecraft/class_2517
+net/minecraft/world/level/block/StonecutterBlock	net/minecraft/server/1_15_R1/BlockStonecutter	net/minecraft/block/StonecutterBlock	net/minecraft/class_3718
+net/minecraft/world/level/block/StructureBlock	net/minecraft/server/1_15_R1/BlockStructure	net/minecraft/block/StructureBlock	net/minecraft/class_2515
+net/minecraft/world/level/block/StructureVoidBlock	net/minecraft/server/1_15_R1/BlockStructureVoid	net/minecraft/block/StructureVoidBlock	net/minecraft/class_2518
+net/minecraft/world/level/block/SugarCaneBlock	net/minecraft/server/1_15_R1/BlockReed	net/minecraft/block/SugarCaneBlock	net/minecraft/class_2523
+net/minecraft/world/level/block/SweetBerryBushBlock	net/minecraft/server/1_15_R1/BlockSweetBerryBush	net/minecraft/block/SweetBerryBushBlock	net/minecraft/class_3830
+net/minecraft/world/level/block/TallFlowerBlock	net/minecraft/server/1_15_R1/BlockTallPlantFlower	net/minecraft/block/TallFlowerBlock	net/minecraft/class_2521
+net/minecraft/world/level/block/TallGrassBlock	net/minecraft/server/1_15_R1/BlockLongGrass	net/minecraft/block/TallGrassBlock	net/minecraft/class_2526
+net/minecraft/world/level/block/TallSeagrass	net/minecraft/server/1_15_R1/BlockTallSeaGrass	net/minecraft/block/TallSeaGrassBlock	net/minecraft/class_2525
+net/minecraft/world/level/block/TntBlock	net/minecraft/server/1_15_R1/BlockTNT	net/minecraft/block/TNTBlock	net/minecraft/class_2530
+net/minecraft/world/level/block/TorchBlock	net/minecraft/server/1_15_R1/BlockTorch	net/minecraft/block/TorchBlock	net/minecraft/class_2527
+net/minecraft/world/level/block/TrapDoorBlock	net/minecraft/server/1_15_R1/BlockTrapdoor	net/minecraft/block/TrapDoorBlock	net/minecraft/class_2533
+net/minecraft/world/level/block/TrappedChestBlock	net/minecraft/server/1_15_R1/BlockChestTrapped	net/minecraft/block/TrappedChestBlock	net/minecraft/class_2531
+net/minecraft/world/level/block/TripWireBlock	net/minecraft/server/1_15_R1/BlockTripwire	net/minecraft/block/TripWireBlock	net/minecraft/class_2538
+net/minecraft/world/level/block/TripWireHookBlock	net/minecraft/server/1_15_R1/BlockTripwireHook	net/minecraft/block/TripWireHookBlock	net/minecraft/class_2537
+net/minecraft/world/level/block/TurtleEggBlock	net/minecraft/server/1_15_R1/BlockTurtleEgg	net/minecraft/block/TurtleEggBlock	net/minecraft/class_2542
+net/minecraft/world/level/block/VineBlock	net/minecraft/server/1_15_R1/BlockVine	net/minecraft/block/VineBlock	net/minecraft/class_2541
+net/minecraft/world/level/block/WallBannerBlock	net/minecraft/server/1_15_R1/BlockBannerWall	net/minecraft/block/WallBannerBlock	net/minecraft/class_2546
+net/minecraft/world/level/block/WallBlock	net/minecraft/server/1_15_R1/BlockCobbleWall	net/minecraft/block/WallBlock	net/minecraft/class_2544
+net/minecraft/world/level/block/WallSignBlock	net/minecraft/server/1_15_R1/BlockWallSign	net/minecraft/block/WallSignBlock	net/minecraft/class_2551
+net/minecraft/world/level/block/WallSkullBlock	net/minecraft/server/1_15_R1/BlockSkullWall	net/minecraft/block/WallSkullBlock	net/minecraft/class_2549
+net/minecraft/world/level/block/WallTorchBlock	net/minecraft/server/1_15_R1/BlockTorchWall	net/minecraft/block/WallTorchBlock	net/minecraft/class_2555
+net/minecraft/world/level/block/WaterlilyBlock	net/minecraft/server/1_15_R1/BlockWaterLily	net/minecraft/block/LilyPadBlock	net/minecraft/class_2553
+net/minecraft/world/level/block/WebBlock	net/minecraft/server/1_15_R1/BlockWeb	net/minecraft/block/WebBlock	net/minecraft/class_2560
+net/minecraft/world/level/block/WeightedPressurePlateBlock	net/minecraft/server/1_15_R1/BlockPressurePlateWeighted	net/minecraft/block/WeightedPressurePlateBlock	net/minecraft/class_2557
+net/minecraft/world/level/block/WetSpongeBlock	net/minecraft/server/1_15_R1/BlockWetSponge	net/minecraft/block/WetSpongeBlock	net/minecraft/class_2565
+net/minecraft/world/level/block/WitherRoseBlock	net/minecraft/server/1_15_R1/BlockWitherRose	net/minecraft/block/WitherRoseBlock	net/minecraft/class_2563
+net/minecraft/world/level/block/WitherSkullBlock	net/minecraft/server/1_15_R1/BlockWitherSkull	net/minecraft/block/WitherSkeletonSkullBlock	net/minecraft/class_2570
+net/minecraft/world/level/block/WitherWallSkullBlock	net/minecraft/server/1_15_R1/BlockWitherSkullWall	net/minecraft/block/WitherSkeletonWallSkullBlock	net/minecraft/class_2567
+net/minecraft/world/level/block/WoodButtonBlock	net/minecraft/server/1_15_R1/BlockWoodButton	net/minecraft/block/WoodButtonBlock	net/minecraft/class_2571
+net/minecraft/world/level/block/WoolCarpetBlock	net/minecraft/server/1_15_R1/BlockCarpet	net/minecraft/block/CarpetBlock	net/minecraft/class_2577
+net/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity	net/minecraft/server/1_15_R1/TileEntityFurnace	net/minecraft/tileentity/AbstractFurnaceTileEntity	net/minecraft/class_2609
+net/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity$1		net/minecraft/tileentity/AbstractFurnaceTileEntity$1	net/minecraft/class_2609$1
+net/minecraft/world/level/block/entity/BannerBlockEntity	net/minecraft/server/1_15_R1/TileEntityBanner	net/minecraft/tileentity/BannerTileEntity	net/minecraft/class_2573
+net/minecraft/world/level/block/entity/BannerPattern	net/minecraft/server/1_15_R1/EnumBannerPatternType	net/minecraft/tileentity/BannerPattern	net/minecraft/class_2582
+net/minecraft/world/level/block/entity/BannerPattern$Builder		net/minecraft/tileentity/BannerPattern$Builder	net/minecraft/class_2582$class_3750
+net/minecraft/world/level/block/entity/BarrelBlockEntity	net/minecraft/server/1_15_R1/TileEntityBarrel	net/minecraft/tileentity/BarrelTileEntity	net/minecraft/class_3719
+net/minecraft/world/level/block/entity/BaseContainerBlockEntity	net/minecraft/server/1_15_R1/TileEntityContainer	net/minecraft/tileentity/LockableTileEntity	net/minecraft/class_2624
+net/minecraft/world/level/block/entity/BeaconBlockEntity	net/minecraft/server/1_15_R1/TileEntityBeacon	net/minecraft/tileentity/BeaconTileEntity	net/minecraft/class_2580
+net/minecraft/world/level/block/entity/BeaconBlockEntity$1		net/minecraft/tileentity/BeaconTileEntity$1	net/minecraft/class_2580$1
+net/minecraft/world/level/block/entity/BeaconBlockEntity$BeaconBeamSection	net/minecraft/server/1_15_R1/TileEntityBeacon$BeaconColorTracker	net/minecraft/tileentity/BeaconTileEntity$BeamSegment	net/minecraft/class_2580$class_2581
+net/minecraft/world/level/block/entity/BedBlockEntity	net/minecraft/server/1_15_R1/TileEntityBed	net/minecraft/tileentity/BedTileEntity	net/minecraft/class_2587
+net/minecraft/world/level/block/entity/BeehiveBlockEntity	net/minecraft/server/1_15_R1/TileEntityBeehive	net/minecraft/tileentity/BeehiveTileEntity	net/minecraft/class_4482
+net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeData	net/minecraft/server/1_15_R1/TileEntityBeehive$HiveBee	net/minecraft/tileentity/BeehiveTileEntity$Bee	net/minecraft/class_4482$class_4483
+net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus	net/minecraft/server/1_15_R1/TileEntityBeehive$ReleaseStatus	net/minecraft/tileentity/BeehiveTileEntity$State	net/minecraft/class_4482$class_4484
+net/minecraft/world/level/block/entity/BellBlockEntity	net/minecraft/server/1_15_R1/TileEntityBell	net/minecraft/tileentity/BellTileEntity	net/minecraft/class_3721
+net/minecraft/world/level/block/entity/BlastFurnaceBlockEntity	net/minecraft/server/1_15_R1/TileEntityBlastFurnace	net/minecraft/tileentity/BlastFurnaceTileEntity	net/minecraft/class_3720
+net/minecraft/world/level/block/entity/BlockEntity	net/minecraft/server/1_15_R1/TileEntity	net/minecraft/tileentity/TileEntity	net/minecraft/class_2586
+net/minecraft/world/level/block/entity/BlockEntityType	net/minecraft/server/1_15_R1/TileEntityTypes	net/minecraft/tileentity/TileEntityType	net/minecraft/class_2591
+net/minecraft/world/level/block/entity/BlockEntityType$Builder		net/minecraft/tileentity/TileEntityType$Builder	net/minecraft/class_2591$class_2592
+net/minecraft/world/level/block/entity/BrewingStandBlockEntity	net/minecraft/server/1_15_R1/TileEntityBrewingStand	net/minecraft/tileentity/BrewingStandTileEntity	net/minecraft/class_2589
+net/minecraft/world/level/block/entity/BrewingStandBlockEntity$1		net/minecraft/tileentity/BrewingStandTileEntity$1	net/minecraft/class_2589$1
+net/minecraft/world/level/block/entity/CampfireBlockEntity	net/minecraft/server/1_15_R1/TileEntityCampfire	net/minecraft/tileentity/CampfireTileEntity	net/minecraft/class_3924
+net/minecraft/world/level/block/entity/ChestBlockEntity	net/minecraft/server/1_15_R1/TileEntityChest	net/minecraft/tileentity/ChestTileEntity	net/minecraft/class_2595
+net/minecraft/world/level/block/entity/CommandBlockEntity	net/minecraft/server/1_15_R1/TileEntityCommand	net/minecraft/tileentity/CommandBlockTileEntity	net/minecraft/class_2593
+net/minecraft/world/level/block/entity/CommandBlockEntity$1		net/minecraft/tileentity/CommandBlockTileEntity$1	net/minecraft/class_2593$1
+net/minecraft/world/level/block/entity/CommandBlockEntity$Mode	net/minecraft/server/1_15_R1/TileEntityCommand$Type	net/minecraft/tileentity/CommandBlockTileEntity$Mode	net/minecraft/class_2593$class_2594
+net/minecraft/world/level/block/entity/ComparatorBlockEntity	net/minecraft/server/1_15_R1/TileEntityComparator	net/minecraft/tileentity/ComparatorTileEntity	net/minecraft/class_2599
+net/minecraft/world/level/block/entity/ConduitBlockEntity	net/minecraft/server/1_15_R1/TileEntityConduit	net/minecraft/tileentity/ConduitTileEntity	net/minecraft/class_2597
+net/minecraft/world/level/block/entity/DaylightDetectorBlockEntity	net/minecraft/server/1_15_R1/TileEntityLightDetector	net/minecraft/tileentity/DaylightDetectorTileEntity	net/minecraft/class_2603
+net/minecraft/world/level/block/entity/DispenserBlockEntity	net/minecraft/server/1_15_R1/TileEntityDispenser	net/minecraft/tileentity/DispenserTileEntity	net/minecraft/class_2601
+net/minecraft/world/level/block/entity/DropperBlockEntity	net/minecraft/server/1_15_R1/TileEntityDropper	net/minecraft/tileentity/DropperTileEntity	net/minecraft/class_2608
+net/minecraft/world/level/block/entity/EnchantmentTableBlockEntity	net/minecraft/server/1_15_R1/TileEntityEnchantTable	net/minecraft/tileentity/EnchantingTableTileEntity	net/minecraft/class_2605
+net/minecraft/world/level/block/entity/EnderChestBlockEntity	net/minecraft/server/1_15_R1/TileEntityEnderChest	net/minecraft/tileentity/EnderChestTileEntity	net/minecraft/class_2611
+net/minecraft/world/level/block/entity/FurnaceBlockEntity	net/minecraft/server/1_15_R1/TileEntityFurnaceFurnace	net/minecraft/tileentity/FurnaceTileEntity	net/minecraft/class_3866
+net/minecraft/world/level/block/entity/Hopper	net/minecraft/server/1_15_R1/IHopper	net/minecraft/tileentity/IHopper	net/minecraft/class_2615
+net/minecraft/world/level/block/entity/HopperBlockEntity	net/minecraft/server/1_15_R1/TileEntityHopper	net/minecraft/tileentity/HopperTileEntity	net/minecraft/class_2614
+net/minecraft/world/level/block/entity/JigsawBlockEntity	net/minecraft/server/1_15_R1/TileEntityJigsaw	net/minecraft/tileentity/JigsawTileEntity	net/minecraft/class_3751
+net/minecraft/world/level/block/entity/JukeboxBlockEntity	net/minecraft/server/1_15_R1/TileEntityJukeBox	net/minecraft/tileentity/JukeboxTileEntity	net/minecraft/class_2619
+net/minecraft/world/level/block/entity/LecternBlockEntity	net/minecraft/server/1_15_R1/TileEntityLectern	net/minecraft/tileentity/LecternTileEntity	net/minecraft/class_3722
+net/minecraft/world/level/block/entity/LecternBlockEntity$1		net/minecraft/tileentity/LecternTileEntity$1	net/minecraft/class_3722$1
+net/minecraft/world/level/block/entity/LecternBlockEntity$2		net/minecraft/tileentity/LecternTileEntity$2	net/minecraft/class_3722$2
+net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity	net/minecraft/server/1_15_R1/TileEntityLootable	net/minecraft/tileentity/LockableLootTileEntity	net/minecraft/class_2621
+net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity	net/minecraft/server/1_15_R1/TileEntityShulkerBox	net/minecraft/tileentity/ShulkerBoxTileEntity	net/minecraft/class_2627
+net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$AnimationStatus	net/minecraft/server/1_15_R1/TileEntityShulkerBox$AnimationPhase	net/minecraft/tileentity/ShulkerBoxTileEntity$AnimationStatus	net/minecraft/class_2627$class_2628
+net/minecraft/world/level/block/entity/SignBlockEntity	net/minecraft/server/1_15_R1/TileEntitySign	net/minecraft/tileentity/SignTileEntity	net/minecraft/class_2625
+net/minecraft/world/level/block/entity/SkullBlockEntity	net/minecraft/server/1_15_R1/TileEntitySkull	net/minecraft/tileentity/SkullTileEntity	net/minecraft/class_2631
+net/minecraft/world/level/block/entity/SmokerBlockEntity	net/minecraft/server/1_15_R1/TileEntitySmoker	net/minecraft/tileentity/SmokerTileEntity	net/minecraft/class_3723
+net/minecraft/world/level/block/entity/SpawnerBlockEntity	net/minecraft/server/1_15_R1/TileEntityMobSpawner	net/minecraft/tileentity/MobSpawnerTileEntity	net/minecraft/class_2636
+net/minecraft/world/level/block/entity/SpawnerBlockEntity$1		net/minecraft/tileentity/MobSpawnerTileEntity$1	net/minecraft/class_2636$1
+net/minecraft/world/level/block/entity/StructureBlockEntity	net/minecraft/server/1_15_R1/TileEntityStructure	net/minecraft/tileentity/StructureBlockTileEntity	net/minecraft/class_2633
+net/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType	net/minecraft/server/1_15_R1/TileEntityStructure$UpdateType	net/minecraft/tileentity/StructureBlockTileEntity$UpdateCommand	net/minecraft/class_2633$class_2634
+net/minecraft/world/level/block/entity/TheEndGatewayBlockEntity	net/minecraft/server/1_15_R1/TileEntityEndGateway	net/minecraft/tileentity/EndGatewayTileEntity	net/minecraft/class_2643
+net/minecraft/world/level/block/entity/TheEndPortalBlockEntity	net/minecraft/server/1_15_R1/TileEntityEnderPortal	net/minecraft/tileentity/EndPortalTileEntity	net/minecraft/class_2640
+net/minecraft/world/level/block/entity/TickableBlockEntity	net/minecraft/server/1_15_R1/ITickable	net/minecraft/tileentity/ITickableTileEntity	net/minecraft/class_3000
+net/minecraft/world/level/block/entity/TrappedChestBlockEntity	net/minecraft/server/1_15_R1/TileEntityChestTrapped	net/minecraft/tileentity/TrappedChestTileEntity	net/minecraft/class_2646
+net/minecraft/world/level/block/grower/AbstractMegaTreeGrower	net/minecraft/server/1_15_R1/WorldGenMegaTreeProvider	net/minecraft/block/trees/BigTree	net/minecraft/class_2650
+net/minecraft/world/level/block/grower/AbstractTreeGrower	net/minecraft/server/1_15_R1/WorldGenTreeProvider	net/minecraft/block/trees/Tree	net/minecraft/class_2647
+net/minecraft/world/level/block/grower/AcaciaTreeGrower	net/minecraft/server/1_15_R1/WorldGenTreeProviderAcacia	net/minecraft/block/trees/AcaciaTree	net/minecraft/class_2654
+net/minecraft/world/level/block/grower/BirchTreeGrower	net/minecraft/server/1_15_R1/WorldGenTreeProviderBirch	net/minecraft/block/trees/BirchTree	net/minecraft/class_2652
+net/minecraft/world/level/block/grower/DarkOakTreeGrower	net/minecraft/server/1_15_R1/WorldGenMegaTreeProviderDarkOak	net/minecraft/block/trees/DarkOakTree	net/minecraft/class_2657
+net/minecraft/world/level/block/grower/JungleTreeGrower	net/minecraft/server/1_15_R1/WorldGenMegaTreeProviderJungle	net/minecraft/block/trees/JungleTree	net/minecraft/class_2655
+net/minecraft/world/level/block/grower/OakTreeGrower	net/minecraft/server/1_15_R1/WorldGenTreeProviderOak	net/minecraft/block/trees/OakTree	net/minecraft/class_2662
+net/minecraft/world/level/block/grower/SpruceTreeGrower	net/minecraft/server/1_15_R1/WorldGenTreeProviderSpruce	net/minecraft/block/trees/SpruceTree	net/minecraft/class_2659
+net/minecraft/world/level/block/piston/MovingPistonBlock	net/minecraft/server/1_15_R1/BlockPistonMoving	net/minecraft/block/MovingPistonBlock	net/minecraft/class_2667
+net/minecraft/world/level/block/piston/PistonBaseBlock	net/minecraft/server/1_15_R1/BlockPiston	net/minecraft/block/PistonBlock	net/minecraft/class_2665
+net/minecraft/world/level/block/piston/PistonHeadBlock	net/minecraft/server/1_15_R1/BlockPistonExtension	net/minecraft/block/PistonHeadBlock	net/minecraft/class_2671
+net/minecraft/world/level/block/piston/PistonMath	net/minecraft/server/1_15_R1/PistonUtil	net/minecraft/util/AabbHelper	net/minecraft/class_4623
+net/minecraft/world/level/block/piston/PistonMovingBlockEntity	net/minecraft/server/1_15_R1/TileEntityPiston	net/minecraft/tileentity/PistonTileEntity	net/minecraft/class_2669
+net/minecraft/world/level/block/piston/PistonStructureResolver	net/minecraft/server/1_15_R1/PistonExtendsChecker	net/minecraft/block/PistonBlockStructureHelper	net/minecraft/class_2674
+net/minecraft/world/level/block/state/AbstractStateHolder	net/minecraft/server/1_15_R1/BlockDataAbstract	net/minecraft/state/StateHolder	net/minecraft/class_2679
+net/minecraft/world/level/block/state/AbstractStateHolder$1		net/minecraft/state/StateHolder$1	net/minecraft/class_2679$1
+net/minecraft/world/level/block/state/BlockState	net/minecraft/server/1_15_R1/IBlockData	net/minecraft/block/BlockState	net/minecraft/class_2680
+net/minecraft/world/level/block/state/BlockState$Cache		net/minecraft/block/BlockState$Cache	net/minecraft/class_2680$class_3752
+net/minecraft/world/level/block/state/StateDefinition	net/minecraft/server/1_15_R1/BlockStateList	net/minecraft/state/StateContainer	net/minecraft/class_2689
+net/minecraft/world/level/block/state/StateDefinition$Builder		net/minecraft/state/StateContainer$Builder	net/minecraft/class_2689$class_2690
+net/minecraft/world/level/block/state/StateDefinition$Factory		net/minecraft/state/StateContainer$IFactory	net/minecraft/class_2689$class_2691
+net/minecraft/world/level/block/state/StateHolder	net/minecraft/server/1_15_R1/IBlockDataHolder	net/minecraft/state/IStateHolder	net/minecraft/class_2688
+net/minecraft/world/level/block/state/pattern/BlockInWorld	net/minecraft/server/1_15_R1/ShapeDetectorBlock	net/minecraft/util/CachedBlockInfo	net/minecraft/class_2694
+net/minecraft/world/level/block/state/pattern/BlockPattern	net/minecraft/server/1_15_R1/ShapeDetector	net/minecraft/block/pattern/BlockPattern	net/minecraft/class_2700
+net/minecraft/world/level/block/state/pattern/BlockPattern$BlockCacheLoader	net/minecraft/server/1_15_R1/ShapeDetector$BlockLoader	net/minecraft/block/pattern/BlockPattern$CacheLoader	net/minecraft/class_2700$class_2701
+net/minecraft/world/level/block/state/pattern/BlockPattern$BlockPatternMatch	net/minecraft/server/1_15_R1/ShapeDetector$ShapeDetectorCollection	net/minecraft/block/pattern/BlockPattern$PatternHelper	net/minecraft/class_2700$class_2702
+net/minecraft/world/level/block/state/pattern/BlockPattern$PortalInfo	net/minecraft/server/1_15_R1/ShapeDetector$Shape	net/minecraft/block/pattern/BlockPattern$PortalInfo	net/minecraft/class_2700$class_4297
+net/minecraft/world/level/block/state/pattern/BlockPatternBuilder	net/minecraft/server/1_15_R1/ShapeDetectorBuilder	net/minecraft/block/pattern/BlockPatternBuilder	net/minecraft/class_2697
+net/minecraft/world/level/block/state/predicate/BlockMaterialPredicate	net/minecraft/server/1_15_R1/MaterialPredicate	net/minecraft/block/pattern/BlockMaterialMatcher	net/minecraft/class_2710
+net/minecraft/world/level/block/state/predicate/BlockMaterialPredicate$1		net/minecraft/block/pattern/BlockMaterialMatcher$1	net/minecraft/class_2710$1
+net/minecraft/world/level/block/state/predicate/BlockPredicate	net/minecraft/server/1_15_R1/BlockPredicate	net/minecraft/block/pattern/BlockMatcher	net/minecraft/class_2717
+net/minecraft/world/level/block/state/predicate/BlockStatePredicate	net/minecraft/server/1_15_R1/BlockStatePredicate	net/minecraft/block/pattern/BlockStateMatcher	net/minecraft/class_2715
+net/minecraft/world/level/block/state/properties/AbstractProperty	net/minecraft/server/1_15_R1/BlockState	net/minecraft/state/Property	net/minecraft/class_2733
+net/minecraft/world/level/block/state/properties/AttachFace	net/minecraft/server/1_15_R1/BlockPropertyAttachPosition	net/minecraft/state/properties/AttachFace	net/minecraft/class_2738
+net/minecraft/world/level/block/state/properties/BambooLeaves	net/minecraft/server/1_15_R1/BlockPropertyBambooSize	net/minecraft/state/properties/BambooLeaves	net/minecraft/class_2737
+net/minecraft/world/level/block/state/properties/BedPart	net/minecraft/server/1_15_R1/BlockPropertyBedPart	net/minecraft/state/properties/BedPart	net/minecraft/class_2742
+net/minecraft/world/level/block/state/properties/BellAttachType	net/minecraft/server/1_15_R1/BlockPropertyBellAttach	net/minecraft/state/properties/BellAttachment	net/minecraft/class_3867
+net/minecraft/world/level/block/state/properties/BlockStateProperties	net/minecraft/server/1_15_R1/BlockProperties	net/minecraft/state/properties/BlockStateProperties	net/minecraft/class_2741
+net/minecraft/world/level/block/state/properties/BooleanProperty	net/minecraft/server/1_15_R1/BlockStateBoolean	net/minecraft/state/BooleanProperty	net/minecraft/class_2746
+net/minecraft/world/level/block/state/properties/ChestType	net/minecraft/server/1_15_R1/BlockPropertyChestType	net/minecraft/state/properties/ChestType	net/minecraft/class_2745
+net/minecraft/world/level/block/state/properties/ComparatorMode	net/minecraft/server/1_15_R1/BlockPropertyComparatorMode	net/minecraft/state/properties/ComparatorMode	net/minecraft/class_2747
+net/minecraft/world/level/block/state/properties/DirectionProperty	net/minecraft/server/1_15_R1/BlockStateDirection	net/minecraft/state/DirectionProperty	net/minecraft/class_2753
+net/minecraft/world/level/block/state/properties/DoorHingeSide	net/minecraft/server/1_15_R1/BlockPropertyDoorHinge	net/minecraft/state/properties/DoorHingeSide	net/minecraft/class_2750
+net/minecraft/world/level/block/state/properties/DoubleBlockHalf	net/minecraft/server/1_15_R1/BlockPropertyDoubleBlockHalf	net/minecraft/state/properties/DoubleBlockHalf	net/minecraft/class_2756
+net/minecraft/world/level/block/state/properties/EnumProperty	net/minecraft/server/1_15_R1/BlockStateEnum	net/minecraft/state/EnumProperty	net/minecraft/class_2754
+net/minecraft/world/level/block/state/properties/Half	net/minecraft/server/1_15_R1/BlockPropertyHalf	net/minecraft/state/properties/Half	net/minecraft/class_2760
+net/minecraft/world/level/block/state/properties/IntegerProperty	net/minecraft/server/1_15_R1/BlockStateInteger	net/minecraft/state/IntegerProperty	net/minecraft/class_2758
+net/minecraft/world/level/block/state/properties/NoteBlockInstrument	net/minecraft/server/1_15_R1/BlockPropertyInstrument	net/minecraft/state/properties/NoteBlockInstrument	net/minecraft/class_2766
+net/minecraft/world/level/block/state/properties/PistonType	net/minecraft/server/1_15_R1/BlockPropertyPistonType	net/minecraft/state/properties/PistonType	net/minecraft/class_2764
+net/minecraft/world/level/block/state/properties/Property	net/minecraft/server/1_15_R1/IBlockState	net/minecraft/state/IProperty	net/minecraft/class_2769
+net/minecraft/world/level/block/state/properties/RailShape	net/minecraft/server/1_15_R1/BlockPropertyTrackPosition	net/minecraft/state/properties/RailShape	net/minecraft/class_2768
+net/minecraft/world/level/block/state/properties/RedstoneSide	net/minecraft/server/1_15_R1/BlockPropertyRedstoneSide	net/minecraft/state/properties/RedstoneSide	net/minecraft/class_2773
+net/minecraft/world/level/block/state/properties/SlabType	net/minecraft/server/1_15_R1/BlockPropertySlabType	net/minecraft/state/properties/SlabType	net/minecraft/class_2771
+net/minecraft/world/level/block/state/properties/StairsShape	net/minecraft/server/1_15_R1/BlockPropertyStairsShape	net/minecraft/state/properties/StairsShape	net/minecraft/class_2778
+net/minecraft/world/level/block/state/properties/StructureMode	net/minecraft/server/1_15_R1/BlockPropertyStructureMode	net/minecraft/state/properties/StructureMode	net/minecraft/class_2776
+net/minecraft/world/level/block/state/properties/WoodType	net/minecraft/server/1_15_R1/BlockPropertyWood	net/minecraft/block/WoodType	net/minecraft/class_4719
+net/minecraft/world/level/border/BorderChangeListener	net/minecraft/server/1_15_R1/IWorldBorderListener	net/minecraft/world/border/IBorderListener	net/minecraft/class_2780
+net/minecraft/world/level/border/BorderChangeListener$DelegateBorderChangeListener		net/minecraft/world/border/IBorderListener$Impl	net/minecraft/class_2780$class_3976
+net/minecraft/world/level/border/WorldBorder	net/minecraft/server/1_15_R1/WorldBorder	net/minecraft/world/border/WorldBorder	net/minecraft/class_2784
+net/minecraft/world/level/border/WorldBorder$BorderExtent		net/minecraft/world/border/WorldBorder$IBorderInfo	net/minecraft/class_2784$class_2785
+net/minecraft/world/level/border/WorldBorder$MovingBorderExtent		net/minecraft/world/border/WorldBorder$MovingBorderInfo	net/minecraft/class_2784$class_2786
+net/minecraft/world/level/border/WorldBorder$StaticBorderExtent		net/minecraft/world/border/WorldBorder$StationaryBorderInfo	net/minecraft/class_2784$class_2787
+net/minecraft/world/level/chunk/ChunkAccess	net/minecraft/server/1_15_R1/IChunkAccess	net/minecraft/world/chunk/IChunk	net/minecraft/class_2791
+net/minecraft/world/level/chunk/ChunkBiomeContainer	net/minecraft/server/1_15_R1/BiomeStorage	net/minecraft/world/biome/BiomeContainer	net/minecraft/class_4548
+net/minecraft/world/level/chunk/ChunkGenerator	net/minecraft/server/1_15_R1/ChunkGenerator	net/minecraft/world/gen/ChunkGenerator	net/minecraft/class_2794
+net/minecraft/world/level/chunk/ChunkGeneratorFactory	net/minecraft/server/1_15_R1/ChunkGeneratorFactory	net/minecraft/world/gen/IChunkGeneratorFactory	net/minecraft/class_2801
+net/minecraft/world/level/chunk/ChunkGeneratorType	net/minecraft/server/1_15_R1/ChunkGeneratorType	net/minecraft/world/gen/ChunkGeneratorType	net/minecraft/class_2798
+net/minecraft/world/level/chunk/ChunkSource	net/minecraft/server/1_15_R1/IChunkProvider	net/minecraft/world/chunk/AbstractChunkProvider	net/minecraft/class_2802
+net/minecraft/world/level/chunk/ChunkStatus	net/minecraft/server/1_15_R1/ChunkStatus	net/minecraft/world/chunk/ChunkStatus	net/minecraft/class_2806
+net/minecraft/world/level/chunk/ChunkStatus$ChunkType	net/minecraft/server/1_15_R1/ChunkStatus$Type	net/minecraft/world/chunk/ChunkStatus$Type	net/minecraft/class_2806$class_2808
+net/minecraft/world/level/chunk/ChunkStatus$GenerationTask		net/minecraft/world/chunk/ChunkStatus$IGenerationWorker	net/minecraft/class_2806$class_2807
+net/minecraft/world/level/chunk/ChunkStatus$LoadingTask		net/minecraft/world/chunk/ChunkStatus$ILoadingWorker	net/minecraft/class_2806$class_4305
+net/minecraft/world/level/chunk/ChunkStatus$SimpleGenerationTask		net/minecraft/world/chunk/ChunkStatus$ISelectiveWorker	net/minecraft/class_2806$class_3768
+net/minecraft/world/level/chunk/DataLayer	net/minecraft/server/1_15_R1/NibbleArray	net/minecraft/world/chunk/NibbleArray	net/minecraft/class_2804
+net/minecraft/world/level/chunk/EmptyLevelChunk	net/minecraft/server/1_15_R1/ChunkEmpty	net/minecraft/world/chunk/EmptyChunk	net/minecraft/class_2812
+net/minecraft/world/level/chunk/FeatureAccess	net/minecraft/server/1_15_R1/IStructureAccess	net/minecraft/world/IStructureReader	net/minecraft/class_2810
+net/minecraft/world/level/chunk/GlobalPalette	net/minecraft/server/1_15_R1/DataPaletteGlobal	net/minecraft/util/palette/PaletteIdentity	net/minecraft/class_2816
+net/minecraft/world/level/chunk/HashMapPalette	net/minecraft/server/1_15_R1/DataPaletteHash	net/minecraft/util/palette/PaletteHashMap	net/minecraft/class_2814
+net/minecraft/world/level/chunk/ImposterProtoChunk	net/minecraft/server/1_15_R1/ProtoChunkExtension	net/minecraft/world/chunk/ChunkPrimerWrapper	net/minecraft/class_2821
+net/minecraft/world/level/chunk/LevelChunk	net/minecraft/server/1_15_R1/Chunk	net/minecraft/world/chunk/Chunk	net/minecraft/class_2818
+net/minecraft/world/level/chunk/LevelChunk$EntityCreationType	net/minecraft/server/1_15_R1/Chunk$EnumTileEntityState	net/minecraft/world/chunk/Chunk$CreateEntityType	net/minecraft/class_2818$class_2819
+net/minecraft/world/level/chunk/LevelChunkSection	net/minecraft/server/1_15_R1/ChunkSection	net/minecraft/world/chunk/ChunkSection	net/minecraft/class_2826
+net/minecraft/world/level/chunk/LightChunkGetter	net/minecraft/server/1_15_R1/ILightAccess	net/minecraft/world/chunk/IChunkLightProvider	net/minecraft/class_2823
+net/minecraft/world/level/chunk/LinearPalette	net/minecraft/server/1_15_R1/DataPaletteLinear	net/minecraft/util/palette/PaletteArray	net/minecraft/class_2834
+net/minecraft/world/level/chunk/OldDataLayer	net/minecraft/server/1_15_R1/OldNibbleArray	net/minecraft/world/chunk/storage/NibbleArrayReader	net/minecraft/class_2832
+net/minecraft/world/level/chunk/Palette	net/minecraft/server/1_15_R1/DataPalette	net/minecraft/util/palette/IPalette	net/minecraft/class_2837
+net/minecraft/world/level/chunk/PaletteResize	net/minecraft/server/1_15_R1/DataPaletteExpandable	net/minecraft/util/palette/IResizeCallback	net/minecraft/class_2835
+net/minecraft/world/level/chunk/PalettedContainer	net/minecraft/server/1_15_R1/DataPaletteBlock	net/minecraft/util/palette/PalettedContainer	net/minecraft/class_2841
+net/minecraft/world/level/chunk/PalettedContainer$CountConsumer		net/minecraft/util/palette/PalettedContainer$ICountConsumer	net/minecraft/class_2841$class_4464
+net/minecraft/world/level/chunk/ProtoChunk	net/minecraft/server/1_15_R1/ProtoChunk	net/minecraft/world/chunk/ChunkPrimer	net/minecraft/class_2839
+net/minecraft/world/level/chunk/ProtoTickList	net/minecraft/server/1_15_R1/ProtoChunkTickList	net/minecraft/world/chunk/ChunkPrimerTickList	net/minecraft/class_2850
+net/minecraft/world/level/chunk/UpgradeData	net/minecraft/server/1_15_R1/ChunkConverter	net/minecraft/util/palette/UpgradeData	net/minecraft/class_2843
+net/minecraft/world/level/chunk/UpgradeData$BlockFixer		net/minecraft/util/palette/UpgradeData$IBlockFixer	net/minecraft/class_2843$class_2844
+net/minecraft/world/level/chunk/UpgradeData$BlockFixers	net/minecraft/server/1_15_R1/ChunkConverter$Type	net/minecraft/util/palette/UpgradeData$BlockFixers	net/minecraft/class_2843$class_2845
+net/minecraft/world/level/chunk/UpgradeData$BlockFixers$1		net/minecraft/util/palette/UpgradeData$BlockFixers$1	net/minecraft/class_2843$class_2845$1
+net/minecraft/world/level/chunk/UpgradeData$BlockFixers$2		net/minecraft/util/palette/UpgradeData$BlockFixers$2	net/minecraft/class_2843$class_2845$2
+net/minecraft/world/level/chunk/UpgradeData$BlockFixers$3		net/minecraft/util/palette/UpgradeData$BlockFixers$3	net/minecraft/class_2843$class_2845$3
+net/minecraft/world/level/chunk/UpgradeData$BlockFixers$4		net/minecraft/util/palette/UpgradeData$BlockFixers$4	net/minecraft/class_2843$class_2845$4
+net/minecraft/world/level/chunk/UpgradeData$BlockFixers$5		net/minecraft/util/palette/UpgradeData$BlockFixers$5	net/minecraft/class_2843$class_2845$5
+net/minecraft/world/level/chunk/storage/ChunkSerializer	net/minecraft/server/1_15_R1/ChunkRegionLoader	net/minecraft/world/chunk/storage/ChunkSerializer	net/minecraft/class_2852
+net/minecraft/world/level/chunk/storage/ChunkStorage	net/minecraft/server/1_15_R1/IChunkLoader	net/minecraft/world/chunk/storage/ChunkLoader	net/minecraft/class_3977
+net/minecraft/world/level/chunk/storage/IOWorker	net/minecraft/server/1_15_R1/IOWorker	net/minecraft/world/chunk/storage/IOWorker	net/minecraft/class_4698
+net/minecraft/world/level/chunk/storage/IOWorker$PendingStore		net/minecraft/world/chunk/storage/IOWorker$Entry	net/minecraft/class_4698$class_4699
+net/minecraft/world/level/chunk/storage/OldChunkStorage	net/minecraft/server/1_15_R1/OldChunkLoader	net/minecraft/world/chunk/storage/ChunkLoaderUtil	net/minecraft/class_2864
+net/minecraft/world/level/chunk/storage/OldChunkStorage$OldLevelChunk	net/minecraft/server/1_15_R1/OldChunkLoader$OldChunk	net/minecraft/world/chunk/storage/ChunkLoaderUtil$AnvilConverterData	net/minecraft/class_2864$class_2865
+net/minecraft/world/level/chunk/storage/RegionBitmap	net/minecraft/server/1_15_R1/RegionFileBitSet	net/minecraft/world/chunk/storage/RegionBitmap	net/minecraft/class_4485
+net/minecraft/world/level/chunk/storage/RegionFile	net/minecraft/server/1_15_R1/RegionFile	net/minecraft/world/chunk/storage/RegionFile	net/minecraft/class_2861
+net/minecraft/world/level/chunk/storage/RegionFile$ChunkBuffer	net/minecraft/server/1_15_R1/RegionFile$ChunkBuffer	net/minecraft/world/chunk/storage/RegionFile$ChunkBuffer	net/minecraft/class_2861$class_2862
+net/minecraft/world/level/chunk/storage/RegionFile$CommitOp		net/minecraft/world/chunk/storage/RegionFile$ICompleteCallback	net/minecraft/class_2861$class_4549
+net/minecraft/world/level/chunk/storage/RegionFileStorage	net/minecraft/server/1_15_R1/RegionFileCache	net/minecraft/world/chunk/storage/RegionFileCache	net/minecraft/class_2867
+net/minecraft/world/level/chunk/storage/RegionFileVersion	net/minecraft/server/1_15_R1/RegionFileCompression	net/minecraft/world/chunk/storage/RegionFileVersion	net/minecraft/class_4486
+net/minecraft/world/level/chunk/storage/RegionFileVersion$StreamWrapper		net/minecraft/world/chunk/storage/RegionFileVersion$IWrapper	net/minecraft/class_4486$class_4487
+net/minecraft/world/level/chunk/storage/SectionStorage	net/minecraft/server/1_15_R1/RegionFileSection	net/minecraft/world/chunk/storage/RegionSectionCache	net/minecraft/class_4180
+net/minecraft/world/level/dimension/Dimension	net/minecraft/server/1_15_R1/WorldProvider	net/minecraft/world/dimension/Dimension	net/minecraft/class_2869
+net/minecraft/world/level/dimension/DimensionType	net/minecraft/server/1_15_R1/DimensionManager	net/minecraft/world/dimension/DimensionType	net/minecraft/class_2874
+net/minecraft/world/level/dimension/NetherDimension	net/minecraft/server/1_15_R1/WorldProviderHell	net/minecraft/world/dimension/NetherDimension	net/minecraft/class_2872
+net/minecraft/world/level/dimension/NetherDimension$1		net/minecraft/world/dimension/NetherDimension$1	net/minecraft/class_2872$1
+net/minecraft/world/level/dimension/NormalDimension	net/minecraft/server/1_15_R1/WorldProviderNormal	net/minecraft/world/dimension/OverworldDimension	net/minecraft/class_2878
+net/minecraft/world/level/dimension/end/DragonRespawnAnimation	net/minecraft/server/1_15_R1/EnumDragonRespawn	net/minecraft/world/end/DragonSpawnState	net/minecraft/class_2876
+net/minecraft/world/level/dimension/end/DragonRespawnAnimation$1		net/minecraft/world/end/DragonSpawnState$1	net/minecraft/class_2876$1
+net/minecraft/world/level/dimension/end/DragonRespawnAnimation$2		net/minecraft/world/end/DragonSpawnState$2	net/minecraft/class_2876$2
+net/minecraft/world/level/dimension/end/DragonRespawnAnimation$3		net/minecraft/world/end/DragonSpawnState$3	net/minecraft/class_2876$3
+net/minecraft/world/level/dimension/end/DragonRespawnAnimation$4		net/minecraft/world/end/DragonSpawnState$4	net/minecraft/class_2876$4
+net/minecraft/world/level/dimension/end/DragonRespawnAnimation$5		net/minecraft/world/end/DragonSpawnState$5	net/minecraft/class_2876$5
+net/minecraft/world/level/dimension/end/EndDragonFight	net/minecraft/server/1_15_R1/EnderDragonBattle	net/minecraft/world/end/DragonFightManager	net/minecraft/class_2881
+net/minecraft/world/level/dimension/end/TheEndDimension	net/minecraft/server/1_15_R1/WorldProviderTheEnd	net/minecraft/world/dimension/EndDimension	net/minecraft/class_2880
+net/minecraft/world/level/levelgen/ChunkGeneratorSettings	net/minecraft/server/1_15_R1/GeneratorSettingsDefault	net/minecraft/world/gen/GenerationSettings	net/minecraft/class_2888
+net/minecraft/world/level/levelgen/DebugGeneratorSettings	net/minecraft/server/1_15_R1/GeneratorSettingsDebug	net/minecraft/world/gen/DebugGenerationSettings	net/minecraft/class_2892
+net/minecraft/world/level/levelgen/DebugLevelSource	net/minecraft/server/1_15_R1/ChunkProviderDebug	net/minecraft/world/gen/DebugChunkGenerator	net/minecraft/class_2891
+net/minecraft/world/level/levelgen/FlatLevelSource	net/minecraft/server/1_15_R1/ChunkProviderFlat	net/minecraft/world/gen/FlatChunkGenerator	net/minecraft/class_2897
+net/minecraft/world/level/levelgen/FlatLevelSource$FlatLevelBiomeWrapper		net/minecraft/world/gen/FlatChunkGenerator$WrapperBiome	net/minecraft/class_2897$class_2898
+net/minecraft/world/level/levelgen/GenerationStep	net/minecraft/server/1_15_R1/WorldGenStage	net/minecraft/world/gen/GenerationStage	net/minecraft/class_2893
+net/minecraft/world/level/levelgen/GenerationStep$Carving	net/minecraft/server/1_15_R1/WorldGenStage$Features	net/minecraft/world/gen/GenerationStage$Carving	net/minecraft/class_2893$class_2894
+net/minecraft/world/level/levelgen/GenerationStep$Decoration	net/minecraft/server/1_15_R1/WorldGenStage$Decoration	net/minecraft/world/gen/GenerationStage$Decoration	net/minecraft/class_2893$class_2895
+net/minecraft/world/level/levelgen/Heightmap	net/minecraft/server/1_15_R1/HeightMap	net/minecraft/world/gen/Heightmap	net/minecraft/class_2902
+net/minecraft/world/level/levelgen/Heightmap$Types	net/minecraft/server/1_15_R1/HeightMap$Type	net/minecraft/world/gen/Heightmap$Type	net/minecraft/class_2902$class_2903
+net/minecraft/world/level/levelgen/Heightmap$Usage	net/minecraft/server/1_15_R1/HeightMap$Use	net/minecraft/world/gen/Heightmap$Usage	net/minecraft/class_2902$class_2904
+net/minecraft/world/level/levelgen/NetherGeneratorSettings	net/minecraft/server/1_15_R1/GeneratorSettingsNether	net/minecraft/world/gen/NetherGenSettings	net/minecraft/class_2900
+net/minecraft/world/level/levelgen/NetherLevelSource	net/minecraft/server/1_15_R1/ChunkProviderHell	net/minecraft/world/gen/NetherChunkGenerator	net/minecraft/class_2908
+net/minecraft/world/level/levelgen/NoiseBasedChunkGenerator	net/minecraft/server/1_15_R1/ChunkGeneratorAbstract	net/minecraft/world/gen/NoiseChunkGenerator	net/minecraft/class_3754
+net/minecraft/world/level/levelgen/OverworldGeneratorSettings	net/minecraft/server/1_15_R1/GeneratorSettingsOverworld	net/minecraft/world/gen/OverworldGenSettings	net/minecraft/class_2906
+net/minecraft/world/level/levelgen/OverworldLevelSource	net/minecraft/server/1_15_R1/ChunkProviderGenerate	net/minecraft/world/gen/OverworldChunkGenerator	net/minecraft/class_2912
+net/minecraft/world/level/levelgen/PatrolSpawner	net/minecraft/server/1_15_R1/MobSpawnerPatrol	net/minecraft/world/spawner/PatrolSpawner	net/minecraft/class_3769
+net/minecraft/world/level/levelgen/PhantomSpawner	net/minecraft/server/1_15_R1/MobSpawnerPhantom	net/minecraft/world/spawner/PhantomSpawner	net/minecraft/class_2910
+net/minecraft/world/level/levelgen/TheEndGeneratorSettings	net/minecraft/server/1_15_R1/GeneratorSettingsEnd	net/minecraft/world/gen/EndGenerationSettings	net/minecraft/class_2916
+net/minecraft/world/level/levelgen/TheEndLevelSource	net/minecraft/server/1_15_R1/ChunkProviderTheEnd	net/minecraft/world/gen/EndChunkGenerator	net/minecraft/class_2914
+net/minecraft/world/level/levelgen/WorldgenRandom	net/minecraft/server/1_15_R1/SeededRandom	net/minecraft/util/SharedSeedRandom	net/minecraft/class_2919
+net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	net/minecraft/server/1_15_R1/WorldGenCanyon	net/minecraft/world/gen/carver/CanyonWorldCarver	net/minecraft/class_2918
+net/minecraft/world/level/levelgen/carver/CarverConfiguration	net/minecraft/server/1_15_R1/WorldGenCarverConfiguration	net/minecraft/world/gen/carver/ICarverConfig	net/minecraft/class_2920
+net/minecraft/world/level/levelgen/carver/CaveWorldCarver	net/minecraft/server/1_15_R1/WorldGenCaves	net/minecraft/world/gen/carver/CaveWorldCarver	net/minecraft/class_2925
+net/minecraft/world/level/levelgen/carver/ConfiguredWorldCarver	net/minecraft/server/1_15_R1/WorldGenCarverWrapper	net/minecraft/world/gen/carver/ConfiguredCarver	net/minecraft/class_2922
+net/minecraft/world/level/levelgen/carver/HellCaveWorldCarver	net/minecraft/server/1_15_R1/WorldGenCavesHell	net/minecraft/world/gen/carver/NetherCaveWorldCarver	net/minecraft/class_2934
+net/minecraft/world/level/levelgen/carver/NoneCarverConfiguration	net/minecraft/server/1_15_R1/WorldGenCarverConfigurationEmpty	net/minecraft/world/gen/carver/EmptyCarverConfig	net/minecraft/class_2932
+net/minecraft/world/level/levelgen/carver/UnderwaterCanyonWorldCarver	net/minecraft/server/1_15_R1/WorldGenCanyonOcean	net/minecraft/world/gen/carver/UnderwaterCanyonWorldCarver	net/minecraft/class_2938
+net/minecraft/world/level/levelgen/carver/UnderwaterCaveWorldCarver	net/minecraft/server/1_15_R1/WorldGenCavesOcean	net/minecraft/world/gen/carver/UnderwaterCaveWorldCarver	net/minecraft/class_2936
+net/minecraft/world/level/levelgen/carver/WorldCarver	net/minecraft/server/1_15_R1/WorldGenCarverAbstract	net/minecraft/world/gen/carver/WorldCarver	net/minecraft/class_2939
+net/minecraft/world/level/levelgen/feature/AbstractFlowerFeature	net/minecraft/server/1_15_R1/WorldGenFlowers	net/minecraft/world/gen/feature/FlowersFeature	net/minecraft/class_4624
+net/minecraft/world/level/levelgen/feature/AbstractHugeMushroomFeature	net/minecraft/server/1_15_R1/WorldGenMushrooms	net/minecraft/world/gen/feature/AbstractBigMushroomFeature	net/minecraft/class_4625
+net/minecraft/world/level/levelgen/feature/AbstractSmallTreeFeature	net/minecraft/server/1_15_R1/WorldGenFeatureSmallTree	net/minecraft/world/gen/feature/AbstractSmallTreeFeature	net/minecraft/class_4626
+net/minecraft/world/level/levelgen/feature/AbstractTreeFeature	net/minecraft/server/1_15_R1/WorldGenTreeAbstract	net/minecraft/world/gen/feature/AbstractTreeFeature	net/minecraft/class_2944
+net/minecraft/world/level/levelgen/feature/AcaciaFeature	net/minecraft/server/1_15_R1/WorldGenAcaciaTree	net/minecraft/world/gen/feature/AcaciaFeature	net/minecraft/class_4627
+net/minecraft/world/level/levelgen/feature/BambooFeature	net/minecraft/server/1_15_R1/WorldGenFeatureBamboo	net/minecraft/world/gen/feature/BambooFeature	net/minecraft/class_2942
+net/minecraft/world/level/levelgen/feature/BlockBlobFeature	net/minecraft/server/1_15_R1/WorldGenTaigaStructure	net/minecraft/world/gen/feature/BlockBlobFeature	net/minecraft/class_2950
+net/minecraft/world/level/levelgen/feature/BlockPileFeature	net/minecraft/server/1_15_R1/WorldGenFeatureBlockPile	net/minecraft/world/gen/feature/BlockPileFeature	net/minecraft/class_3805
+net/minecraft/world/level/levelgen/feature/BlueIceFeature	net/minecraft/server/1_15_R1/WorldGenFeatureBlueIce	net/minecraft/world/gen/feature/BlueIceFeature	net/minecraft/class_2954
+net/minecraft/world/level/levelgen/feature/BonusChestFeature	net/minecraft/server/1_15_R1/WorldGenBonusChest	net/minecraft/world/gen/feature/BonusChestFeature	net/minecraft/class_2953
+net/minecraft/world/level/levelgen/feature/BuriedTreasureFeature	net/minecraft/server/1_15_R1/WorldGenBuriedTreasure	net/minecraft/world/gen/feature/structure/BuriedTreasureStructure	net/minecraft/class_2956
+net/minecraft/world/level/levelgen/feature/BuriedTreasureFeature$BuriedTreasureStart		net/minecraft/world/gen/feature/structure/BuriedTreasureStructure$Start	net/minecraft/class_2956$class_2957
+net/minecraft/world/level/levelgen/feature/ChorusPlantFeature	net/minecraft/server/1_15_R1/WorldGenFeatureChorusPlant	net/minecraft/world/gen/feature/ChorusPlantFeature	net/minecraft/class_2964
+net/minecraft/world/level/levelgen/feature/ConfiguredFeature	net/minecraft/server/1_15_R1/WorldGenFeatureConfigured	net/minecraft/world/gen/feature/ConfiguredFeature	net/minecraft/class_2975
+net/minecraft/world/level/levelgen/feature/CoralClawFeature	net/minecraft/server/1_15_R1/WorldGenFeatureCoralClaw	net/minecraft/world/gen/feature/CoralClawFeature	net/minecraft/class_2972
+net/minecraft/world/level/levelgen/feature/CoralFeature	net/minecraft/server/1_15_R1/WorldGenFeatureCoral	net/minecraft/world/gen/feature/CoralFeature	net/minecraft/class_2978
+net/minecraft/world/level/levelgen/feature/CoralMushroomFeature	net/minecraft/server/1_15_R1/WorldGenFeatureCoralMushroom	net/minecraft/world/gen/feature/CoralMushroomFeature	net/minecraft/class_2977
+net/minecraft/world/level/levelgen/feature/CoralTreeFeature	net/minecraft/server/1_15_R1/WorldGenFeatureCoralTree	net/minecraft/world/gen/feature/CoralTreeFeature	net/minecraft/class_2979
+net/minecraft/world/level/levelgen/feature/DarkOakFeature	net/minecraft/server/1_15_R1/WorldGenForestTree	net/minecraft/world/gen/feature/DarkOakTreeFeature	net/minecraft/class_3159
+net/minecraft/world/level/levelgen/feature/DecoratedFeature	net/minecraft/server/1_15_R1/WorldGenFeatureComposite	net/minecraft/world/gen/feature/DecoratedFeature	net/minecraft/class_2988
+net/minecraft/world/level/levelgen/feature/DecoratedFlowerFeature	net/minecraft/server/1_15_R1/WorldGenFeatureCompositeFlower	net/minecraft/world/gen/feature/DecoratedFlowerFeature	net/minecraft/class_2993
+net/minecraft/world/level/levelgen/feature/DefaultFlowerFeature	net/minecraft/server/1_15_R1/WorldGenFeatureFlower	net/minecraft/world/gen/feature/DefaultFlowersFeature	net/minecraft/class_3001
+net/minecraft/world/level/levelgen/feature/DesertPyramidFeature	net/minecraft/server/1_15_R1/WorldGenFeatureDesertPyramid	net/minecraft/world/gen/feature/structure/DesertPyramidStructure	net/minecraft/class_3006
+net/minecraft/world/level/levelgen/feature/DesertPyramidFeature$FeatureStart		net/minecraft/world/gen/feature/structure/DesertPyramidStructure$Start	net/minecraft/class_3006$class_3007
+net/minecraft/world/level/levelgen/feature/DesertVillagePools	net/minecraft/server/1_15_R1/WorldGenFeatureDesertVillage	net/minecraft/world/gen/feature/structure/DesertVillagePools	net/minecraft/class_3868
+net/minecraft/world/level/levelgen/feature/DesertWellFeature	net/minecraft/server/1_15_R1/WorldGenDesertWell	net/minecraft/world/gen/feature/DesertWellsFeature	net/minecraft/class_3005
+net/minecraft/world/level/levelgen/feature/DiskReplaceFeature	net/minecraft/server/1_15_R1/WorldGenFeatureCircle	net/minecraft/world/gen/feature/SphereReplaceFeature	net/minecraft/class_3011
+net/minecraft/world/level/levelgen/feature/EndCityFeature	net/minecraft/server/1_15_R1/WorldGenEndCity	net/minecraft/world/gen/feature/structure/EndCityStructure	net/minecraft/class_3021
+net/minecraft/world/level/levelgen/feature/EndCityFeature$EndCityStart		net/minecraft/world/gen/feature/structure/EndCityStructure$Start	net/minecraft/class_3021$class_3022
+net/minecraft/world/level/levelgen/feature/EndGatewayFeature	net/minecraft/server/1_15_R1/WorldGenEndGateway	net/minecraft/world/gen/feature/EndGatewayFeature	net/minecraft/class_3029
+net/minecraft/world/level/levelgen/feature/EndIslandFeature	net/minecraft/server/1_15_R1/WorldGenEndIsland	net/minecraft/world/gen/feature/EndIslandFeature	net/minecraft/class_3026
+net/minecraft/world/level/levelgen/feature/EndPodiumFeature	net/minecraft/server/1_15_R1/WorldGenEndTrophy	net/minecraft/world/gen/feature/EndPodiumFeature	net/minecraft/class_3033
+net/minecraft/world/level/levelgen/feature/FancyTreeFeature	net/minecraft/server/1_15_R1/WorldGenBigTree	net/minecraft/world/gen/feature/FancyTreeFeature	net/minecraft/class_2948
+net/minecraft/world/level/levelgen/feature/FancyTreeFeature$FoliageCoords		net/minecraft/world/gen/feature/FancyTreeFeature$ExtendedPos	net/minecraft/class_2948$class_2949
+net/minecraft/world/level/levelgen/feature/Feature	net/minecraft/server/1_15_R1/WorldGenerator	net/minecraft/world/gen/feature/Feature	net/minecraft/class_3031
+net/minecraft/world/level/levelgen/feature/FillLayerFeature	net/minecraft/server/1_15_R1/WorldGenFeatureFill	net/minecraft/world/gen/feature/FillLayerFeature	net/minecraft/class_4278
+net/minecraft/world/level/levelgen/feature/FossilFeature	net/minecraft/server/1_15_R1/WorldGenFossils	net/minecraft/world/gen/feature/FossilsFeature	net/minecraft/class_3044
+net/minecraft/world/level/levelgen/feature/GlowstoneFeature	net/minecraft/server/1_15_R1/WorldGenLightStone1	net/minecraft/world/gen/feature/GlowstoneBlobFeature	net/minecraft/class_3047
+net/minecraft/world/level/levelgen/feature/GroundBushFeature	net/minecraft/server/1_15_R1/WorldGenGroundBush	net/minecraft/world/gen/feature/ShrubFeature	net/minecraft/class_3056
+net/minecraft/world/level/levelgen/feature/HugeBrownMushroomFeature	net/minecraft/server/1_15_R1/WorldGenHugeMushroomBrown	net/minecraft/world/gen/feature/BigBrownMushroomFeature	net/minecraft/class_3059
+net/minecraft/world/level/levelgen/feature/HugeRedMushroomFeature	net/minecraft/server/1_15_R1/WorldGenHugeMushroomRed	net/minecraft/world/gen/feature/BigRedMushroomFeature	net/minecraft/class_3066
+net/minecraft/world/level/levelgen/feature/IcePatchFeature	net/minecraft/server/1_15_R1/WorldGenPackedIce1	net/minecraft/world/gen/feature/IcePathFeature	net/minecraft/class_3063
+net/minecraft/world/level/levelgen/feature/IceSpikeFeature	net/minecraft/server/1_15_R1/WorldGenPackedIce2	net/minecraft/world/gen/feature/IceSpikeFeature	net/minecraft/class_3070
+net/minecraft/world/level/levelgen/feature/IcebergFeature	net/minecraft/server/1_15_R1/WorldGenFeatureIceburg	net/minecraft/world/gen/feature/IcebergFeature	net/minecraft/class_3074
+net/minecraft/world/level/levelgen/feature/IglooFeature	net/minecraft/server/1_15_R1/WorldGenFeatureIgloo	net/minecraft/world/gen/feature/structure/IglooStructure	net/minecraft/class_3071
+net/minecraft/world/level/levelgen/feature/IglooFeature$FeatureStart		net/minecraft/world/gen/feature/structure/IglooStructure$Start	net/minecraft/class_3071$class_3072
+net/minecraft/world/level/levelgen/feature/JunglePyramidFeature	net/minecraft/server/1_15_R1/WorldGenFeatureJunglePyramid	net/minecraft/world/gen/feature/structure/JunglePyramidStructure	net/minecraft/class_3076
+net/minecraft/world/level/levelgen/feature/JunglePyramidFeature$FeatureStart		net/minecraft/world/gen/feature/structure/JunglePyramidStructure$Start	net/minecraft/class_3076$class_3077
+net/minecraft/world/level/levelgen/feature/KelpFeature	net/minecraft/server/1_15_R1/WorldGenFeatureKelp	net/minecraft/world/gen/feature/KelpFeature	net/minecraft/class_3081
+net/minecraft/world/level/levelgen/feature/LakeFeature	net/minecraft/server/1_15_R1/WorldGenLakes	net/minecraft/world/gen/feature/LakesFeature	net/minecraft/class_3085
+net/minecraft/world/level/levelgen/feature/MegaJungleTreeFeature	net/minecraft/server/1_15_R1/WorldGenJungleTree	net/minecraft/world/gen/feature/MegaJungleFeature	net/minecraft/class_3092
+net/minecraft/world/level/levelgen/feature/MegaPineTreeFeature	net/minecraft/server/1_15_R1/WorldGenMegaTree	net/minecraft/world/gen/feature/MegaPineTree	net/minecraft/class_3090
+net/minecraft/world/level/levelgen/feature/MegaTreeFeature	net/minecraft/server/1_15_R1/WorldGenMegaTreeAbstract	net/minecraft/world/gen/feature/HugeTreesFeature	net/minecraft/class_3096
+net/minecraft/world/level/levelgen/feature/MineshaftFeature	net/minecraft/server/1_15_R1/WorldGenMineshaft	net/minecraft/world/gen/feature/structure/MineshaftStructure	net/minecraft/class_3098
+net/minecraft/world/level/levelgen/feature/MineshaftFeature$MineShaftStart		net/minecraft/world/gen/feature/structure/MineshaftStructure$Start	net/minecraft/class_3098$class_3099
+net/minecraft/world/level/levelgen/feature/MineshaftFeature$Type	net/minecraft/server/1_15_R1/WorldGenMineshaft$Type	net/minecraft/world/gen/feature/structure/MineshaftStructure$Type	net/minecraft/class_3098$class_3100
+net/minecraft/world/level/levelgen/feature/MonsterRoomFeature	net/minecraft/server/1_15_R1/WorldGenDungeons	net/minecraft/world/gen/feature/DungeonsFeature	net/minecraft/class_3103
+net/minecraft/world/level/levelgen/feature/NetherFortressFeature	net/minecraft/server/1_15_R1/WorldGenNether	net/minecraft/world/gen/feature/structure/FortressStructure	net/minecraft/class_3108
+net/minecraft/world/level/levelgen/feature/NetherFortressFeature$NetherBridgeStart		net/minecraft/world/gen/feature/structure/FortressStructure$Start	net/minecraft/class_3108$class_3109
+net/minecraft/world/level/levelgen/feature/NoOpFeature	net/minecraft/server/1_15_R1/WorldGenFeatureEmpty	net/minecraft/world/gen/feature/NoOpFeature	net/minecraft/class_4715
+net/minecraft/world/level/levelgen/feature/OceanMonumentFeature	net/minecraft/server/1_15_R1/WorldGenMonument	net/minecraft/world/gen/feature/structure/OceanMonumentStructure	net/minecraft/class_3116
+net/minecraft/world/level/levelgen/feature/OceanMonumentFeature$OceanMonumentStart		net/minecraft/world/gen/feature/structure/OceanMonumentStructure$Start	net/minecraft/class_3116$class_3117
+net/minecraft/world/level/levelgen/feature/OreFeature	net/minecraft/server/1_15_R1/WorldGenMinable	net/minecraft/world/gen/feature/OreFeature	net/minecraft/class_3122
+net/minecraft/world/level/levelgen/feature/PillagerOutpostFeature	net/minecraft/server/1_15_R1/WorldGenFeaturePillagerOutpost	net/minecraft/world/gen/feature/structure/PillagerOutpostStructure	net/minecraft/class_3770
+net/minecraft/world/level/levelgen/feature/PillagerOutpostFeature$FeatureStart		net/minecraft/world/gen/feature/structure/PillagerOutpostStructure$Start	net/minecraft/class_3770$class_3771
+net/minecraft/world/level/levelgen/feature/PlainVillagePools	net/minecraft/server/1_15_R1/WorldGenFeatureVillagePlain	net/minecraft/world/gen/feature/structure/PlainsVillagePools	net/minecraft/class_3815
+net/minecraft/world/level/levelgen/feature/RandomBooleanSelectorFeature	net/minecraft/server/1_15_R1/WorldGenFeatureChoice	net/minecraft/world/gen/feature/TwoFeatureChoiceFeature	net/minecraft/class_3135
+net/minecraft/world/level/levelgen/feature/RandomPatchFeature	net/minecraft/server/1_15_R1/WorldGenFeatureRandomPatch	net/minecraft/world/gen/feature/RandomPatchFeature	net/minecraft/class_4628
+net/minecraft/world/level/levelgen/feature/RandomRandomFeature	net/minecraft/server/1_15_R1/WorldGenFeatureRandom	net/minecraft/world/gen/feature/MultipleRandomFeature	net/minecraft/class_3139
+net/minecraft/world/level/levelgen/feature/RandomScatteredFeature	net/minecraft/server/1_15_R1/WorldGenFeatureRandomScattered	net/minecraft/world/gen/feature/structure/ScatteredStructure	net/minecraft/class_3145
+net/minecraft/world/level/levelgen/feature/RandomSelectorFeature	net/minecraft/server/1_15_R1/WorldGenFeatureRandomChoice	net/minecraft/world/gen/feature/MultipleWithChanceRandomFeature	net/minecraft/class_3150
+net/minecraft/world/level/levelgen/feature/ReplaceBlockFeature	net/minecraft/server/1_15_R1/WorldGenFeatureReplaceBlock	net/minecraft/world/gen/feature/ReplaceBlockFeature	net/minecraft/class_3152
+net/minecraft/world/level/levelgen/feature/SavannaVillagePools	net/minecraft/server/1_15_R1/WorldGenFeatureVillageSavanna	net/minecraft/world/gen/feature/structure/SavannaVillagePools	net/minecraft/class_3834
+net/minecraft/world/level/levelgen/feature/SeaPickleFeature	net/minecraft/server/1_15_R1/WorldGenFeatureSeaPickel	net/minecraft/world/gen/feature/SeaPickleFeature	net/minecraft/class_3160
+net/minecraft/world/level/levelgen/feature/SeagrassFeature	net/minecraft/server/1_15_R1/WorldGenFeatureSeaGrass	net/minecraft/world/gen/feature/SeaGrassFeature	net/minecraft/class_3168
+net/minecraft/world/level/levelgen/feature/ShipwreckFeature	net/minecraft/server/1_15_R1/WorldGenFeatureShipwreck	net/minecraft/world/gen/feature/structure/ShipwreckStructure	net/minecraft/class_3170
+net/minecraft/world/level/levelgen/feature/ShipwreckFeature$FeatureStart		net/minecraft/world/gen/feature/structure/ShipwreckStructure$Start	net/minecraft/class_3170$class_3171
+net/minecraft/world/level/levelgen/feature/SimpleBlockFeature	net/minecraft/server/1_15_R1/WorldGenFeatureBlock	net/minecraft/world/gen/feature/BlockWithContextFeature	net/minecraft/class_3173
+net/minecraft/world/level/levelgen/feature/SimpleRandomSelectorFeature	net/minecraft/server/1_15_R1/WorldGenFeatureRandom2Configuration	net/minecraft/world/gen/feature/SingleRandomFeatureConfig	net/minecraft/class_3177
+net/minecraft/world/level/levelgen/feature/SnowAndFreezeFeature	net/minecraft/server/1_15_R1/WorldGenFeatureIceSnow	net/minecraft/world/gen/feature/IceAndSnowFeature	net/minecraft/class_3183
+net/minecraft/world/level/levelgen/feature/SnowyVillagePools	net/minecraft/server/1_15_R1/WorldGenFeatureVillageSnowy	net/minecraft/world/gen/feature/structure/SnowyVillagePools	net/minecraft/class_3836
+net/minecraft/world/level/levelgen/feature/SpikeFeature	net/minecraft/server/1_15_R1/WorldGenEnder	net/minecraft/world/gen/feature/EndSpikeFeature	net/minecraft/class_3310
+net/minecraft/world/level/levelgen/feature/SpikeFeature$EndSpike	net/minecraft/server/1_15_R1/WorldGenEnder$Spike	net/minecraft/world/gen/feature/EndSpikeFeature$EndSpike	net/minecraft/class_3310$class_3181
+net/minecraft/world/level/levelgen/feature/SpikeFeature$SpikeCacheLoader		net/minecraft/world/gen/feature/EndSpikeFeature$EndSpikeCacheLoader	net/minecraft/class_3310$class_3311
+net/minecraft/world/level/levelgen/feature/SpringFeature	net/minecraft/server/1_15_R1/WorldGenLiquids	net/minecraft/world/gen/feature/SpringFeature	net/minecraft/class_3185
+net/minecraft/world/level/levelgen/feature/StrongholdFeature	net/minecraft/server/1_15_R1/WorldGenStronghold	net/minecraft/world/gen/feature/structure/StrongholdStructure	net/minecraft/class_3188
+net/minecraft/world/level/levelgen/feature/StrongholdFeature$StrongholdStart		net/minecraft/world/gen/feature/structure/StrongholdStructure$Start	net/minecraft/class_3188$class_3189
+net/minecraft/world/level/levelgen/feature/StructureFeature	net/minecraft/server/1_15_R1/StructureGenerator	net/minecraft/world/gen/feature/structure/Structure	net/minecraft/class_3195
+net/minecraft/world/level/levelgen/feature/StructureFeature$StructureStartFactory		net/minecraft/world/gen/feature/structure/Structure$IStartFactory	net/minecraft/class_3195$class_3774
+net/minecraft/world/level/levelgen/feature/StructurePieceType	net/minecraft/server/1_15_R1/WorldGenFeatureStructurePieceType	net/minecraft/world/gen/feature/structure/IStructurePieceType	net/minecraft/class_3773
+net/minecraft/world/level/levelgen/feature/SwamplandHutFeature	net/minecraft/server/1_15_R1/WorldGenFeatureSwampHut	net/minecraft/world/gen/feature/structure/SwampHutStructure	net/minecraft/class_3197
+net/minecraft/world/level/levelgen/feature/SwamplandHutFeature$FeatureStart		net/minecraft/world/gen/feature/structure/SwampHutStructure$Start	net/minecraft/class_3197$class_3198
+net/minecraft/world/level/levelgen/feature/TaigaVillagePools	net/minecraft/server/1_15_R1/WorldGenFeatureVillageTaiga	net/minecraft/world/gen/feature/structure/TaigaVillagePools	net/minecraft/class_3870
+net/minecraft/world/level/levelgen/feature/TreeFeature	net/minecraft/server/1_15_R1/WorldGenTrees	net/minecraft/world/gen/feature/TreeFeature	net/minecraft/class_3207
+net/minecraft/world/level/levelgen/feature/VillageFeature	net/minecraft/server/1_15_R1/WorldGenVillage	net/minecraft/world/gen/feature/structure/VillageStructure	net/minecraft/class_3211
+net/minecraft/world/level/levelgen/feature/VillageFeature$FeatureStart		net/minecraft/world/gen/feature/structure/VillageStructure$Start	net/minecraft/class_3211$class_3212
+net/minecraft/world/level/levelgen/feature/VillagePieces	net/minecraft/server/1_15_R1/NewVillagePieces	net/minecraft/world/gen/feature/structure/VillagePieces	net/minecraft/class_3813
+net/minecraft/world/level/levelgen/feature/VillagePieces$VillagePiece		net/minecraft/world/gen/feature/structure/VillagePieces$Village	net/minecraft/class_3813$class_3814
+net/minecraft/world/level/levelgen/feature/VinesFeature	net/minecraft/server/1_15_R1/WorldGenVines	net/minecraft/world/gen/feature/VinesFeature	net/minecraft/class_3219
+net/minecraft/world/level/levelgen/feature/VoidStartPlatformFeature	net/minecraft/server/1_15_R1/WorldGenFeatureEndPlatform	net/minecraft/world/gen/feature/VoidStartPlatformFeature	net/minecraft/class_3217
+net/minecraft/world/level/levelgen/feature/WeightedConfiguredFeature	net/minecraft/server/1_15_R1/WorldGenFeatureRandomChoiceConfigurationWeight	net/minecraft/world/gen/feature/ConfiguredRandomFeatureList	net/minecraft/class_3226
+net/minecraft/world/level/levelgen/feature/WoodlandMansionFeature	net/minecraft/server/1_15_R1/WorldGenWoodlandMansion	net/minecraft/world/gen/feature/structure/WoodlandMansionStructure	net/minecraft/class_3223
+net/minecraft/world/level/levelgen/feature/WoodlandMansionFeature$WoodlandMansionStart		net/minecraft/world/gen/feature/structure/WoodlandMansionStructure$Start	net/minecraft/class_3223$class_3224
+net/minecraft/world/level/levelgen/feature/blockplacers/BlockPlacer	net/minecraft/server/1_15_R1/WorldGenBlockPlacer	net/minecraft/world/gen/blockplacer/BlockPlacer	net/minecraft/class_4629
+net/minecraft/world/level/levelgen/feature/blockplacers/BlockPlacerType	net/minecraft/server/1_15_R1/WorldGenBlockPlacers	net/minecraft/world/gen/blockplacer/BlockPlacerType	net/minecraft/class_4630
+net/minecraft/world/level/levelgen/feature/blockplacers/ColumnPlacer	net/minecraft/server/1_15_R1/WorldGenBlockPlacerColumn	net/minecraft/world/gen/blockplacer/ColumnBlockPlacer	net/minecraft/class_4631
+net/minecraft/world/level/levelgen/feature/blockplacers/DoublePlantPlacer	net/minecraft/server/1_15_R1/WorldGenBlockPlacerDoublePlant	net/minecraft/world/gen/blockplacer/DoublePlantBlockPlacer	net/minecraft/class_4632
+net/minecraft/world/level/levelgen/feature/blockplacers/SimpleBlockPlacer	net/minecraft/server/1_15_R1/WorldGenBlockPlacerSimple	net/minecraft/world/gen/blockplacer/SimpleBlockPlacer	net/minecraft/class_4633
+net/minecraft/world/level/levelgen/feature/configurations/BlockBlobConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureBlockOffsetConfiguration	net/minecraft/world/gen/feature/BlockBlobConfig	net/minecraft/class_2951
+net/minecraft/world/level/levelgen/feature/configurations/BlockPileConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureBlockPileConfiguration	net/minecraft/world/gen/feature/BlockStateProvidingFeatureConfig	net/minecraft/class_4634
+net/minecraft/world/level/levelgen/feature/configurations/BlockStateConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureLakeConfiguration	net/minecraft/world/gen/feature/BlockStateFeatureConfig	net/minecraft/class_2963
+net/minecraft/world/level/levelgen/feature/configurations/BuriedTreasureConfiguration	net/minecraft/server/1_15_R1/WorldGenBuriedTreasureConfiguration	net/minecraft/world/gen/feature/structure/BuriedTreasureConfig	net/minecraft/class_2959
+net/minecraft/world/level/levelgen/feature/configurations/ChanceRangeDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureChanceDecoratorRangeConfiguration	net/minecraft/world/gen/placement/ChanceRangeConfig	net/minecraft/class_2990
+net/minecraft/world/level/levelgen/feature/configurations/CountFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureKelpConfiguration	net/minecraft/world/gen/placement/CountConfig	net/minecraft/class_2984
+net/minecraft/world/level/levelgen/feature/configurations/CountRangeDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureChanceDecoratorCountConfiguration	net/minecraft/world/gen/placement/CountRangeConfig	net/minecraft/class_2997
+net/minecraft/world/level/levelgen/feature/configurations/DecoratedFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureCompositeConfiguration	net/minecraft/world/gen/feature/DecoratedFeatureConfig	net/minecraft/class_2986
+net/minecraft/world/level/levelgen/feature/configurations/DecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureDecoratorConfiguration	net/minecraft/world/gen/placement/IPlacementConfig	net/minecraft/class_2998
+net/minecraft/world/level/levelgen/feature/configurations/DiskConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureCircleConfiguration	net/minecraft/world/gen/feature/SphereReplaceConfig	net/minecraft/class_3013
+net/minecraft/world/level/levelgen/feature/configurations/EndGatewayConfiguration	net/minecraft/server/1_15_R1/WorldGenEndGatewayConfiguration	net/minecraft/world/gen/feature/EndGatewayConfig	net/minecraft/class_3018
+net/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureConfiguration	net/minecraft/world/gen/feature/IFeatureConfig	net/minecraft/class_3037
+net/minecraft/world/level/levelgen/feature/configurations/FeatureRadiusConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureRadiusConfiguration	net/minecraft/world/gen/feature/FeatureRadiusConfig	net/minecraft/class_3034
+net/minecraft/world/level/levelgen/feature/configurations/HugeMushroomFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureMushroomConfiguration	net/minecraft/world/gen/feature/BigMushroomFeatureConfig	net/minecraft/class_4635
+net/minecraft/world/level/levelgen/feature/configurations/LayerConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureFillConfiguration	net/minecraft/world/gen/feature/FillLayerConfig	net/minecraft/class_4279
+net/minecraft/world/level/levelgen/feature/configurations/MegaTreeConfiguration	net/minecraft/server/1_15_R1/WorldGenMegaTreeConfiguration	net/minecraft/world/gen/feature/HugeTreeFeatureConfig	net/minecraft/class_4636
+net/minecraft/world/level/levelgen/feature/configurations/MegaTreeConfiguration$MegaTreeConfigurationBuilder		net/minecraft/world/gen/feature/HugeTreeFeatureConfig$Builder	net/minecraft/class_4636$class_4637
+net/minecraft/world/level/levelgen/feature/configurations/MineshaftConfiguration	net/minecraft/server/1_15_R1/WorldGenMineshaftConfiguration	net/minecraft/world/gen/feature/structure/MineshaftConfig	net/minecraft/class_3101
+net/minecraft/world/level/levelgen/feature/configurations/NoiseDependantDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureDecoratorNoiseConfiguration	net/minecraft/world/gen/placement/NoiseDependant	net/minecraft/class_3003
+net/minecraft/world/level/levelgen/feature/configurations/NoneDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureEmptyConfiguration2	net/minecraft/world/gen/placement/NoPlacementConfig	net/minecraft/class_3113
+net/minecraft/world/level/levelgen/feature/configurations/NoneFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureEmptyConfiguration	net/minecraft/world/gen/feature/NoFeatureConfig	net/minecraft/class_3111
+net/minecraft/world/level/levelgen/feature/configurations/OceanRuinConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureOceanRuinConfiguration	net/minecraft/world/gen/feature/structure/OceanRuinConfig	net/minecraft/class_3114
+net/minecraft/world/level/levelgen/feature/configurations/OreConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureOreConfiguration	net/minecraft/world/gen/feature/OreFeatureConfig	net/minecraft/class_3124
+net/minecraft/world/level/levelgen/feature/configurations/OreConfiguration$Predicates	net/minecraft/server/1_15_R1/WorldGenFeatureOreConfiguration$Target	net/minecraft/world/gen/feature/OreFeatureConfig$FillerBlockType	net/minecraft/class_3124$class_3125
+net/minecraft/world/level/levelgen/feature/configurations/ProbabilityFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureConfigurationChance	net/minecraft/world/gen/feature/ProbabilityConfig	net/minecraft/class_3133
+net/minecraft/world/level/levelgen/feature/configurations/RandomBooleanFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureChoiceConfiguration	net/minecraft/world/gen/feature/TwoFeatureChoiceConfig	net/minecraft/class_3137
+net/minecraft/world/level/levelgen/feature/configurations/RandomFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureRandomChoiceConfiguration	net/minecraft/world/gen/feature/MultipleRandomFeatureConfig	net/minecraft/class_3141
+net/minecraft/world/level/levelgen/feature/configurations/RandomPatchConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureRandomPatchConfiguration	net/minecraft/world/gen/feature/BlockClusterFeatureConfig	net/minecraft/class_4638
+net/minecraft/world/level/levelgen/feature/configurations/RandomPatchConfiguration$GrassConfigurationBuilder		net/minecraft/world/gen/feature/BlockClusterFeatureConfig$Builder	net/minecraft/class_4638$class_4639
+net/minecraft/world/level/levelgen/feature/configurations/RandomRandomFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureRandomConfiguration	net/minecraft/world/gen/feature/MultipleWithChanceRandomFeatureConfig	net/minecraft/class_3147
+net/minecraft/world/level/levelgen/feature/configurations/ReplaceBlockConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureReplaceBlockConfiguration	net/minecraft/world/gen/feature/ReplaceBlockConfig	net/minecraft/class_3154
+net/minecraft/world/level/levelgen/feature/configurations/SeagrassFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureSeaGrassConfiguration	net/minecraft/world/gen/feature/SeaGrassConfig	net/minecraft/class_3163
+net/minecraft/world/level/levelgen/feature/configurations/ShipwreckConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureShipwreckConfiguration	net/minecraft/world/gen/feature/structure/ShipwreckConfig	net/minecraft/class_3172
+net/minecraft/world/level/levelgen/feature/configurations/SimpleBlockConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureBlockConfiguration	net/minecraft/world/gen/feature/BlockWithContextConfig	net/minecraft/class_3175
+net/minecraft/world/level/levelgen/feature/configurations/SimpleRandomFeatureConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureRandom2	net/minecraft/world/gen/feature/SingleRandomFeature	net/minecraft/class_3179
+net/minecraft/world/level/levelgen/feature/configurations/SmallTreeConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureSmallTreeConfigurationConfiguration	net/minecraft/world/gen/feature/TreeFeatureConfig	net/minecraft/class_4640
+net/minecraft/world/level/levelgen/feature/configurations/SmallTreeConfiguration$SmallTreeConfigurationBuilder		net/minecraft/world/gen/feature/TreeFeatureConfig$Builder	net/minecraft/class_4640$class_4641
+net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureEndSpikeConfiguration	net/minecraft/world/gen/feature/EndSpikeFeatureConfig	net/minecraft/class_3666
+net/minecraft/world/level/levelgen/feature/configurations/SpringConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureHellFlowingLavaConfiguration	net/minecraft/world/gen/feature/LiquidsConfig	net/minecraft/class_4642
+net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureTreeConfiguration	net/minecraft/world/gen/feature/BaseTreeFeatureConfig	net/minecraft/class_4643
+net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder		net/minecraft/world/gen/feature/BaseTreeFeatureConfig$Builder	net/minecraft/class_4643$class_4644
+net/minecraft/world/level/levelgen/feature/configurations/VillageConfiguration	net/minecraft/server/1_15_R1/WorldGenFeatureVillageConfiguration	net/minecraft/world/gen/feature/structure/VillageConfig	net/minecraft/class_3812
+net/minecraft/world/level/levelgen/feature/foliageplacers/AcaciaFoliagePlacer	net/minecraft/server/1_15_R1/WorldGenFoilagePlacerAcacia	net/minecraft/world/gen/foliageplacer/AcaciaFoliagePlacer	net/minecraft/class_4645
+net/minecraft/world/level/levelgen/feature/foliageplacers/BlobFoliagePlacer	net/minecraft/server/1_15_R1/WorldGenFoilagePlacerBlob	net/minecraft/world/gen/foliageplacer/BlobFoliagePlacer	net/minecraft/class_4646
+net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer	net/minecraft/server/1_15_R1/WorldGenFoilagePlacer	net/minecraft/world/gen/foliageplacer/FoliagePlacer	net/minecraft/class_4647
+net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacerType	net/minecraft/server/1_15_R1/WorldGenFoilagePlacers	net/minecraft/world/gen/foliageplacer/FoliagePlacerType	net/minecraft/class_4648
+net/minecraft/world/level/levelgen/feature/foliageplacers/PineFoliagePlacer	net/minecraft/server/1_15_R1/WorldGenFoilagePlacerPine	net/minecraft/world/gen/foliageplacer/PineFoliagePlacer	net/minecraft/class_4649
+net/minecraft/world/level/levelgen/feature/foliageplacers/SpruceFoliagePlacer	net/minecraft/server/1_15_R1/WorldGenFoilagePlacerSpruce	net/minecraft/world/gen/foliageplacer/SpruceFoliagePlacer	net/minecraft/class_4650
+net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	net/minecraft/server/1_15_R1/WorldGenFeatureStateProvider	net/minecraft/world/gen/blockstateprovider/BlockStateProvider	net/minecraft/class_4651
+net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProviderType	net/minecraft/server/1_15_R1/WorldGenFeatureStateProviders	net/minecraft/world/gen/blockstateprovider/BlockStateProviderType	net/minecraft/class_4652
+net/minecraft/world/level/levelgen/feature/stateproviders/ForestFlowerProvider	net/minecraft/server/1_15_R1/WorldGenFeatureStateProviderForestFlower	net/minecraft/world/gen/blockstateprovider/ForestFlowerBlockStateProvider	net/minecraft/class_4653
+net/minecraft/world/level/levelgen/feature/stateproviders/PlainFlowerProvider	net/minecraft/server/1_15_R1/WorldGenFeatureStateProviderPlainFlower	net/minecraft/world/gen/blockstateprovider/PlainFlowerBlockStateProvider	net/minecraft/class_4654
+net/minecraft/world/level/levelgen/feature/stateproviders/RotatedBlockProvider	net/minecraft/server/1_15_R1/WorldGenFeatureStateProviderRotatedBlock	net/minecraft/world/gen/blockstateprovider/AxisRotatingBlockStateProvider	net/minecraft/class_4655
+net/minecraft/world/level/levelgen/feature/stateproviders/SimpleStateProvider	net/minecraft/server/1_15_R1/WorldGenFeatureStateProviderSimpl	net/minecraft/world/gen/blockstateprovider/SimpleBlockStateProvider	net/minecraft/class_4656
+net/minecraft/world/level/levelgen/feature/stateproviders/WeightedStateProvider	net/minecraft/server/1_15_R1/WorldGenFeatureStateProviderWeighted	net/minecraft/world/gen/blockstateprovider/WeightedBlockStateProvider	net/minecraft/class_4657
+net/minecraft/world/level/levelgen/feature/structures/EmptyPoolElement	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolEmpty	net/minecraft/world/gen/feature/jigsaw/EmptyJigsawPiece	net/minecraft/class_3777
+net/minecraft/world/level/levelgen/feature/structures/FeaturePoolElement	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolFeature	net/minecraft/world/gen/feature/jigsaw/FeatureJigsawPiece	net/minecraft/class_3776
+net/minecraft/world/level/levelgen/feature/structures/JigsawJunction	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructureJigsawJunction	net/minecraft/world/gen/feature/jigsaw/JigsawJunction	net/minecraft/class_3780
+net/minecraft/world/level/levelgen/feature/structures/JigsawPlacement	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructureJigsawPlacement	net/minecraft/world/gen/feature/jigsaw/JigsawManager	net/minecraft/class_3778
+net/minecraft/world/level/levelgen/feature/structures/JigsawPlacement$PieceFactory		net/minecraft/world/gen/feature/jigsaw/JigsawManager$IPieceFactory	net/minecraft/class_3778$class_3779
+net/minecraft/world/level/levelgen/feature/structures/JigsawPlacement$PieceState		net/minecraft/world/gen/feature/jigsaw/JigsawManager$Entry	net/minecraft/class_3778$class_4181
+net/minecraft/world/level/levelgen/feature/structures/JigsawPlacement$Placer		net/minecraft/world/gen/feature/jigsaw/JigsawManager$Assembler	net/minecraft/class_3778$class_4182
+net/minecraft/world/level/levelgen/feature/structures/ListPoolElement	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolList	net/minecraft/world/gen/feature/jigsaw/ListJigsawPiece	net/minecraft/class_3782
+net/minecraft/world/level/levelgen/feature/structures/SinglePoolElement	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolSingle	net/minecraft/world/gen/feature/jigsaw/SingleJigsawPiece	net/minecraft/class_3781
+net/minecraft/world/level/levelgen/feature/structures/StructurePoolElement	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolStructure	net/minecraft/world/gen/feature/jigsaw/JigsawPiece	net/minecraft/class_3784
+net/minecraft/world/level/levelgen/feature/structures/StructurePoolElementType	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePools	net/minecraft/world/gen/feature/jigsaw/IJigsawDeserializer	net/minecraft/class_3816
+net/minecraft/world/level/levelgen/feature/structures/StructureTemplatePool	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolTemplate	net/minecraft/world/gen/feature/jigsaw/JigsawPattern	net/minecraft/class_3785
+net/minecraft/world/level/levelgen/feature/structures/StructureTemplatePool$Projection	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolTemplate$Matching	net/minecraft/world/gen/feature/jigsaw/JigsawPattern$PlacementBehaviour	net/minecraft/class_3785$class_3786
+net/minecraft/world/level/levelgen/feature/structures/StructureTemplatePools	net/minecraft/server/1_15_R1/WorldGenFeatureDefinedStructurePoolTemplates	net/minecraft/world/gen/feature/jigsaw/JigsawPatternRegistry	net/minecraft/class_3787
+net/minecraft/world/level/levelgen/feature/treedecorators/AlterGroundDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureTreeAlterGround	net/minecraft/world/gen/treedecorator/AlterGroundTreeDecorator	net/minecraft/class_4658
+net/minecraft/world/level/levelgen/feature/treedecorators/BeehiveDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureTreeBeehive	net/minecraft/world/gen/treedecorator/BeehiveTreeDecorator	net/minecraft/class_4659
+net/minecraft/world/level/levelgen/feature/treedecorators/CocoaDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureTreeCocoa	net/minecraft/world/gen/treedecorator/CocoaTreeDecorator	net/minecraft/class_4660
+net/minecraft/world/level/levelgen/feature/treedecorators/LeaveVineDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureTreeVineLeaves	net/minecraft/world/gen/treedecorator/LeaveVineTreeDecorator	net/minecraft/class_4661
+net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureTree	net/minecraft/world/gen/treedecorator/TreeDecorator	net/minecraft/class_4662
+net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType	net/minecraft/server/1_15_R1/WorldGenFeatureTrees	net/minecraft/world/gen/treedecorator/TreeDecoratorType	net/minecraft/class_4663
+net/minecraft/world/level/levelgen/feature/treedecorators/TrunkVineDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureTreeVineTrunk	net/minecraft/world/gen/treedecorator/TrunkVineTreeDecorator	net/minecraft/class_4664
+net/minecraft/world/level/levelgen/flat/FlatLayerInfo	net/minecraft/server/1_15_R1/WorldGenFlatLayerInfo	net/minecraft/world/gen/FlatLayerInfo	net/minecraft/class_3229
+net/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings	net/minecraft/server/1_15_R1/GeneratorSettingsFlat	net/minecraft/world/gen/FlatGenerationSettings	net/minecraft/class_3232
+net/minecraft/world/level/levelgen/placement/CarvingMaskDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorCarveMask	net/minecraft/world/gen/placement/CaveEdge	net/minecraft/class_3234
+net/minecraft/world/level/levelgen/placement/CarvingMaskDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenDecoratorCarveMaskConfiguration	net/minecraft/world/gen/placement/CaveEdgeConfig	net/minecraft/class_3269
+net/minecraft/world/level/levelgen/placement/ChanceDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenDecoratorDungeonConfiguration	net/minecraft/world/gen/placement/ChanceConfig	net/minecraft/class_3297
+net/minecraft/world/level/levelgen/placement/ChanceHeightmapDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorChance	net/minecraft/world/gen/placement/AtSurfaceWithChance	net/minecraft/class_3237
+net/minecraft/world/level/levelgen/placement/ChanceHeightmapDoubleDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorChanceHeight	net/minecraft/world/gen/placement/TwiceSurfaceWithChance	net/minecraft/class_3236
+net/minecraft/world/level/levelgen/placement/ChancePassthroughDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorChancePass	net/minecraft/world/gen/placement/WithChance	net/minecraft/class_3241
+net/minecraft/world/level/levelgen/placement/ChanceTopSolidHeightmapDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorSkyVisibleBiased	net/minecraft/world/gen/placement/TopSolidWithChance	net/minecraft/class_3239
+net/minecraft/world/level/levelgen/placement/ChorusPlantPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorChorusPlant	net/minecraft/world/gen/placement/ChorusPlant	net/minecraft/class_3245
+net/minecraft/world/level/levelgen/placement/ConfiguredDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorConfigured	net/minecraft/world/gen/placement/ConfiguredPlacement	net/minecraft/class_3243
+net/minecraft/world/level/levelgen/placement/CountBiasedRangeDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeightBiased	net/minecraft/world/gen/placement/HeightBiasedRange	net/minecraft/class_3250
+net/minecraft/world/level/levelgen/placement/CountChanceHeightmapDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureChanceDecorator	net/minecraft/world/gen/placement/AtSurfaceWithChanceMultiple	net/minecraft/class_3247
+net/minecraft/world/level/levelgen/placement/CountChanceHeightmapDoubleDecorator	net/minecraft/server/1_15_R1/WorldGenFeatureChanceDecoratorHeight	net/minecraft/world/gen/placement/TwiceSurfaceWithChanceMultiple	net/minecraft/class_3253
+net/minecraft/world/level/levelgen/placement/CountDepthAverageDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeightAverage	net/minecraft/world/gen/placement/DepthAverage	net/minecraft/class_3252
+net/minecraft/world/level/levelgen/placement/CountHeighmapDoubleDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeightDouble	net/minecraft/world/gen/placement/TwiceSurface	net/minecraft/class_3256
+net/minecraft/world/level/levelgen/placement/CountHeight64Decorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeight64	net/minecraft/world/gen/placement/AtHeight64	net/minecraft/class_3254
+net/minecraft/world/level/levelgen/placement/CountHeightmap32Decorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeight32	net/minecraft/world/gen/placement/SurfacePlus32	net/minecraft/class_3260
+net/minecraft/world/level/levelgen/placement/CountHeightmapDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeight	net/minecraft/world/gen/placement/AtSurface	net/minecraft/class_3257
+net/minecraft/world/level/levelgen/placement/CountTopSolidDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorSkyVisible	net/minecraft/world/gen/placement/TopSolid	net/minecraft/class_3263
+net/minecraft/world/level/levelgen/placement/CountVeryBiasedRangeDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeightBiased2	net/minecraft/world/gen/placement/HeightVeryBiasedRange	net/minecraft/class_3261
+net/minecraft/world/level/levelgen/placement/CountWithExtraChanceHeightmapDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorHeightExtraChance	net/minecraft/world/gen/placement/AtSurfaceWithExtra	net/minecraft/class_3265
+net/minecraft/world/level/levelgen/placement/DarkOakTreePlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorRoofedTree	net/minecraft/world/gen/placement/DarkOakTreePlacement	net/minecraft/class_3315
+net/minecraft/world/level/levelgen/placement/DepthAverageConfigation	net/minecraft/server/1_15_R1/WorldGenDecoratorHeightAverageConfiguration	net/minecraft/world/gen/placement/DepthAverageConfig	net/minecraft/class_3277
+net/minecraft/world/level/levelgen/placement/EmeraldPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorEmerald	net/minecraft/world/gen/placement/Height4To32	net/minecraft/class_3282
+net/minecraft/world/level/levelgen/placement/EndGatewayPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorEndGateway	net/minecraft/world/gen/placement/EndGateway	net/minecraft/class_3280
+net/minecraft/world/level/levelgen/placement/EndIslandPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorEndIsland	net/minecraft/world/gen/placement/EndIsland	net/minecraft/class_3287
+net/minecraft/world/level/levelgen/placement/FeatureDecorator	net/minecraft/server/1_15_R1/WorldGenDecorator	net/minecraft/world/gen/placement/Placement	net/minecraft/class_3284
+net/minecraft/world/level/levelgen/placement/ForestRockPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorForestRock	net/minecraft/world/gen/placement/AtSurfaceRandomCount	net/minecraft/class_3292
+net/minecraft/world/level/levelgen/placement/FrequencyChanceDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenDecoratorFrequencyChanceConfiguration	net/minecraft/world/gen/placement/HeightWithChanceConfig	net/minecraft/class_3271
+net/minecraft/world/level/levelgen/placement/FrequencyDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenDecoratorFrequencyConfiguration	net/minecraft/world/gen/placement/FrequencyConfig	net/minecraft/class_3273
+net/minecraft/world/level/levelgen/placement/FrequencyWithExtraChanceDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenDecoratorFrequencyExtraChanceConfiguration	net/minecraft/world/gen/placement/AtSurfaceWithExtraConfig	net/minecraft/class_3276
+net/minecraft/world/level/levelgen/placement/IcebergPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorIceburg	net/minecraft/world/gen/placement/IcebergPlacement	net/minecraft/class_3291
+net/minecraft/world/level/levelgen/placement/LakeLavaPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorLakeLava	net/minecraft/world/gen/placement/LakeLava	net/minecraft/class_3293
+net/minecraft/world/level/levelgen/placement/LakeWaterPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorLakeWater	net/minecraft/world/gen/placement/LakeWater	net/minecraft/class_3301
+net/minecraft/world/level/levelgen/placement/MonsterRoomPlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorDungeon	net/minecraft/world/gen/placement/DungeonRoom	net/minecraft/class_3305
+net/minecraft/world/level/levelgen/placement/NoiseCountFactorDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenDecoratorNoiseConfiguration	net/minecraft/world/gen/placement/TopSolidWithNoiseConfig	net/minecraft/class_3275
+net/minecraft/world/level/levelgen/placement/NoiseHeightmap32Decorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNoiseHeight32	net/minecraft/world/gen/placement/SurfacePlus32WithNoise	net/minecraft/class_3303
+net/minecraft/world/level/levelgen/placement/NoiseHeightmapDoubleDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNoiseHeightDouble	net/minecraft/world/gen/placement/TwiceSurfaceWithNoise	net/minecraft/class_3308
+net/minecraft/world/level/levelgen/placement/NopePlacementDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorEmpty	net/minecraft/world/gen/placement/Passthrough	net/minecraft/class_3307
+net/minecraft/world/level/levelgen/placement/RangeDecoratorConfiguration	net/minecraft/server/1_15_R1/WorldGenDecoratorRangeConfiguration	net/minecraft/world/gen/placement/TopSolidRangeConfig	net/minecraft/class_3278
+net/minecraft/world/level/levelgen/placement/SimpleFeatureDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorFeatureSimple	net/minecraft/world/gen/placement/SimplePlacement	net/minecraft/class_3667
+net/minecraft/world/level/levelgen/placement/TopSolidHeightMapDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorSolidTop	net/minecraft/world/gen/placement/TopSolidOnce	net/minecraft/class_3318
+net/minecraft/world/level/levelgen/placement/TopSolidHeightMapNoiseBasedDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorSolidTopNoise	net/minecraft/world/gen/placement/TopSolidWithNoise	net/minecraft/class_3316
+net/minecraft/world/level/levelgen/placement/TopSolidHeightMapRangeDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorSolidTopHeight	net/minecraft/world/gen/placement/TopSolidRange	net/minecraft/class_3319
+net/minecraft/world/level/levelgen/placement/nether/ChanceRangeDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNetherChance	net/minecraft/world/gen/placement/ChanceRange	net/minecraft/class_3325
+net/minecraft/world/level/levelgen/placement/nether/CountRangeDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNetherHeight	net/minecraft/world/gen/placement/CountRange	net/minecraft/class_3323
+net/minecraft/world/level/levelgen/placement/nether/HellFireDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNetherFire	net/minecraft/world/gen/placement/NetherFire	net/minecraft/class_3329
+net/minecraft/world/level/levelgen/placement/nether/LightGemChanceDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNetherGlowstone	net/minecraft/world/gen/placement/NetherGlowstone	net/minecraft/class_3328
+net/minecraft/world/level/levelgen/placement/nether/MagmaDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNetherMagma	net/minecraft/world/gen/placement/NetherMagma	net/minecraft/class_3334
+net/minecraft/world/level/levelgen/placement/nether/RandomCountRangeDecorator	net/minecraft/server/1_15_R1/WorldGenDecoratorNetherRandomCount	net/minecraft/world/gen/placement/RandomCountWithRange	net/minecraft/class_3333
+net/minecraft/world/level/levelgen/structure/BeardedStructureStart	net/minecraft/server/1_15_R1/StructureAbstract	net/minecraft/world/gen/feature/structure/MarginedStructureStart	net/minecraft/class_4183
+net/minecraft/world/level/levelgen/structure/BoundingBox	net/minecraft/server/1_15_R1/StructureBoundingBox	net/minecraft/util/math/MutableBoundingBox	net/minecraft/class_3341
+net/minecraft/world/level/levelgen/structure/BuriedTreasurePieces	net/minecraft/server/1_15_R1/WorldGenBuriedTreasurePieces	net/minecraft/world/gen/feature/structure/BuriedTreasure	net/minecraft/class_3789
+net/minecraft/world/level/levelgen/structure/BuriedTreasurePieces$BuriedTreasurePiece		net/minecraft/world/gen/feature/structure/BuriedTreasure$Piece	net/minecraft/class_3789$class_3339
+net/minecraft/world/level/levelgen/structure/DesertPyramidPiece	net/minecraft/server/1_15_R1/WorldGenDesertPyramidPiece	net/minecraft/world/gen/feature/structure/DesertPyramidPiece	net/minecraft/class_3346
+net/minecraft/world/level/levelgen/structure/EndCityPieces	net/minecraft/server/1_15_R1/WorldGenEndCityPieces	net/minecraft/world/gen/feature/structure/EndCityPieces	net/minecraft/class_3342
+net/minecraft/world/level/levelgen/structure/EndCityPieces$1		net/minecraft/world/gen/feature/structure/EndCityPieces$1	net/minecraft/class_3342$1
+net/minecraft/world/level/levelgen/structure/EndCityPieces$2		net/minecraft/world/gen/feature/structure/EndCityPieces$2	net/minecraft/class_3342$2
+net/minecraft/world/level/levelgen/structure/EndCityPieces$3		net/minecraft/world/gen/feature/structure/EndCityPieces$3	net/minecraft/class_3342$3
+net/minecraft/world/level/levelgen/structure/EndCityPieces$4		net/minecraft/world/gen/feature/structure/EndCityPieces$4	net/minecraft/class_3342$4
+net/minecraft/world/level/levelgen/structure/EndCityPieces$EndCityPiece	net/minecraft/server/1_15_R1/WorldGenEndCityPieces$Piece	net/minecraft/world/gen/feature/structure/EndCityPieces$CityTemplate	net/minecraft/class_3342$class_3343
+net/minecraft/world/level/levelgen/structure/EndCityPieces$SectionGenerator	net/minecraft/server/1_15_R1/WorldGenEndCityPieces$PieceGenerator	net/minecraft/world/gen/feature/structure/EndCityPieces$IGenerator	net/minecraft/class_3342$class_3344
+net/minecraft/world/level/levelgen/structure/IglooPieces	net/minecraft/server/1_15_R1/WorldGenIglooPiece	net/minecraft/world/gen/feature/structure/IglooPieces	net/minecraft/class_3351
+net/minecraft/world/level/levelgen/structure/IglooPieces$IglooPiece		net/minecraft/world/gen/feature/structure/IglooPieces$Piece	net/minecraft/class_3351$class_3352
+net/minecraft/world/level/levelgen/structure/JunglePyramidPiece	net/minecraft/server/1_15_R1/WorldGenJunglePyramidPiece	net/minecraft/world/gen/feature/structure/JunglePyramidPiece	net/minecraft/class_3348
+net/minecraft/world/level/levelgen/structure/JunglePyramidPiece$MossStoneSelector		net/minecraft/world/gen/feature/structure/JunglePyramidPiece$Selector	net/minecraft/class_3348$class_3349
+net/minecraft/world/level/levelgen/structure/LegacyStructureDataHandler	net/minecraft/server/1_15_R1/PersistentStructureLegacy	net/minecraft/world/gen/feature/structure/LegacyStructureDataUtil	net/minecraft/class_3360
+net/minecraft/world/level/levelgen/structure/MineShaftPieces	net/minecraft/server/1_15_R1/WorldGenMineshaftPieces	net/minecraft/world/gen/feature/structure/MineshaftPieces	net/minecraft/class_3353
+net/minecraft/world/level/levelgen/structure/MineShaftPieces$MineShaftCorridor	net/minecraft/server/1_15_R1/WorldGenMineshaftPieces$WorldGenMineshaftCorridor	net/minecraft/world/gen/feature/structure/MineshaftPieces$Corridor	net/minecraft/class_3353$class_3354
+net/minecraft/world/level/levelgen/structure/MineShaftPieces$MineShaftCrossing	net/minecraft/server/1_15_R1/WorldGenMineshaftPieces$WorldGenMineshaftCross	net/minecraft/world/gen/feature/structure/MineshaftPieces$Cross	net/minecraft/class_3353$class_3355
+net/minecraft/world/level/levelgen/structure/MineShaftPieces$MineShaftPiece		net/minecraft/world/gen/feature/structure/MineshaftPieces$Piece	net/minecraft/class_3353$class_3356
+net/minecraft/world/level/levelgen/structure/MineShaftPieces$MineShaftRoom	net/minecraft/server/1_15_R1/WorldGenMineshaftPieces$WorldGenMineshaftRoom	net/minecraft/world/gen/feature/structure/MineshaftPieces$Room	net/minecraft/class_3353$class_3357
+net/minecraft/world/level/levelgen/structure/MineShaftPieces$MineShaftStairs	net/minecraft/server/1_15_R1/WorldGenMineshaftPieces$WorldGenMineshaftStairs	net/minecraft/world/gen/feature/structure/MineshaftPieces$Stairs	net/minecraft/class_3353$class_3358
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces	net/minecraft/server/1_15_R1/WorldGenNetherPieces	net/minecraft/world/gen/feature/structure/FortressPieces	net/minecraft/class_3390
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$BridgeCrossing	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece1	net/minecraft/world/gen/feature/structure/FortressPieces$Crossing3	net/minecraft/class_3390$class_3391
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$BridgeEndFiller	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece2	net/minecraft/world/gen/feature/structure/FortressPieces$End	net/minecraft/class_3390$class_3392
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$BridgeStraight	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece3	net/minecraft/world/gen/feature/structure/FortressPieces$Straight	net/minecraft/class_3390$class_3393
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleCorridorStairsPiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece4	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor3	net/minecraft/class_3390$class_3394
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleCorridorTBalconyPiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece5	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor4	net/minecraft/class_3390$class_3395
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleEntrance	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece6	net/minecraft/world/gen/feature/structure/FortressPieces$Entrance	net/minecraft/class_3390$class_3396
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleSmallCorridorCrossingPiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece7	net/minecraft/world/gen/feature/structure/FortressPieces$Crossing2	net/minecraft/class_3390$class_3397
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleSmallCorridorLeftTurnPiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece8	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor	net/minecraft/class_3390$class_3398
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleSmallCorridorPiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece9	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor5	net/minecraft/class_3390$class_3399
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleSmallCorridorRightTurnPiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece10	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor2	net/minecraft/class_3390$class_3400
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$CastleStalkRoom	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece11	net/minecraft/world/gen/feature/structure/FortressPieces$NetherStalkRoom	net/minecraft/class_3390$class_3401
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$MonsterThrone	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece12	net/minecraft/world/gen/feature/structure/FortressPieces$Throne	net/minecraft/class_3390$class_3402
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$NetherBridgePiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece	net/minecraft/world/gen/feature/structure/FortressPieces$Piece	net/minecraft/class_3390$class_3403
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$PieceWeight	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPieceWeight	net/minecraft/world/gen/feature/structure/FortressPieces$PieceWeight	net/minecraft/class_3390$class_3404
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$RoomCrossing	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece13	net/minecraft/world/gen/feature/structure/FortressPieces$Crossing	net/minecraft/class_3390$class_3405
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$StairsRoom	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece14	net/minecraft/world/gen/feature/structure/FortressPieces$Stairs	net/minecraft/class_3390$class_3406
+net/minecraft/world/level/levelgen/structure/NetherBridgePieces$StartPiece	net/minecraft/server/1_15_R1/WorldGenNetherPieces$WorldGenNetherPiece15	net/minecraft/world/gen/feature/structure/FortressPieces$Start	net/minecraft/class_3390$class_3407
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces	net/minecraft/server/1_15_R1/WorldGenMonumentPieces	net/minecraft/world/gen/feature/structure/OceanMonumentPieces	net/minecraft/class_3366
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$FitDoubleXRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSelector7	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$XDoubleRoomFitHelper	net/minecraft/class_3366$class_3367
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$FitDoubleXYRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSelector6	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$XYDoubleRoomFitHelper	net/minecraft/class_3366$class_3368
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$FitDoubleYRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSelector5	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$YDoubleRoomFitHelper	net/minecraft/class_3366$class_3369
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$FitDoubleYZRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSelector4	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$YZDoubleRoomFitHelper	net/minecraft/class_3366$class_3370
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$FitDoubleZRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSelector3	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$ZDoubleRoomFitHelper	net/minecraft/class_3366$class_3371
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$FitSimpleRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSelector2	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$FitSimpleRoomHelper	net/minecraft/class_3366$class_3372
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$FitSimpleTopRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSelector1	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$FitSimpleRoomTopHelper	net/minecraft/class_3366$class_3373
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$MonumentBuilding	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece1	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$MonumentBuilding	net/minecraft/class_3366$class_3374
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$MonumentRoomFitter	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$IWorldGenMonumentPieceSelector	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$IMonumentRoomFitHelper	net/minecraft/class_3366$class_3375
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentCoreRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece2	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$MonumentCoreRoom	net/minecraft/class_3366$class_3376
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentDoubleXRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece3	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleXRoom	net/minecraft/class_3366$class_3377
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentDoubleXYRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece4	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleXYRoom	net/minecraft/class_3366$class_3378
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentDoubleYRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece5	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleYRoom	net/minecraft/class_3366$class_3379
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentDoubleYZRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece6	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleYZRoom	net/minecraft/class_3366$class_3380
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentDoubleZRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece7	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleZRoom	net/minecraft/class_3366$class_3381
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentEntryRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceEntry	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$EntryRoom	net/minecraft/class_3366$class_3382
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentPenthouse	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$Penthouse	net/minecraft/class_3366$class_3383
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentPiece	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$Piece	net/minecraft/class_3366$class_3384
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentSimpleRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSimple	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$SimpleRoom	net/minecraft/class_3366$class_3385
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentSimpleTopRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$SimpleTopRoom	net/minecraft/class_3366$class_3386
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$OceanMonumentWingRoom	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentPiece8	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$WingRoom	net/minecraft/class_3366$class_3387
+net/minecraft/world/level/levelgen/structure/OceanMonumentPieces$RoomDefinition	net/minecraft/server/1_15_R1/WorldGenMonumentPieces$WorldGenMonumentStateTracker	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$RoomDefinition	net/minecraft/class_3366$class_3388
+net/minecraft/world/level/levelgen/structure/OceanRuinFeature	net/minecraft/server/1_15_R1/WorldGenFeatureOceanRuin	net/minecraft/world/gen/feature/structure/OceanRuinStructure	net/minecraft/class_3411
+net/minecraft/world/level/levelgen/structure/OceanRuinFeature$OceanRuinStart		net/minecraft/world/gen/feature/structure/OceanRuinStructure$Start	net/minecraft/class_3411$class_3412
+net/minecraft/world/level/levelgen/structure/OceanRuinFeature$Type	net/minecraft/server/1_15_R1/WorldGenFeatureOceanRuin$Temperature	net/minecraft/world/gen/feature/structure/OceanRuinStructure$Type	net/minecraft/class_3411$class_3413
+net/minecraft/world/level/levelgen/structure/OceanRuinPieces	net/minecraft/server/1_15_R1/WorldGenFeatureOceanRuinPieces	net/minecraft/world/gen/feature/structure/OceanRuinPieces	net/minecraft/class_3409
+net/minecraft/world/level/levelgen/structure/OceanRuinPieces$OceanRuinPiece		net/minecraft/world/gen/feature/structure/OceanRuinPieces$Piece	net/minecraft/class_3409$class_3410
+net/minecraft/world/level/levelgen/structure/PillagerOutpostPieces	net/minecraft/server/1_15_R1/WorldGenFeaturePillagerOutpostPieces	net/minecraft/world/gen/feature/structure/PillagerOutpostPieces	net/minecraft/class_3791
+net/minecraft/world/level/levelgen/structure/PillagerOutpostPieces$PillagerOutpostPiece		net/minecraft/world/gen/feature/structure/PillagerOutpostPieces$PillageOutpost	net/minecraft/class_3791$class_3792
+net/minecraft/world/level/levelgen/structure/PoolElementStructurePiece	net/minecraft/server/1_15_R1/WorldGenFeaturePillagerOutpostPoolPiece	net/minecraft/world/gen/feature/structure/AbstractVillagePiece	net/minecraft/class_3790
+net/minecraft/world/level/levelgen/structure/ScatteredFeaturePiece	net/minecraft/server/1_15_R1/WorldGenScatteredPiece	net/minecraft/world/gen/feature/structure/ScatteredStructurePiece	net/minecraft/class_3418
+net/minecraft/world/level/levelgen/structure/ShipwreckPieces	net/minecraft/server/1_15_R1/WorldGenShipwreck	net/minecraft/world/gen/feature/structure/ShipwreckPieces	net/minecraft/class_3415
+net/minecraft/world/level/levelgen/structure/ShipwreckPieces$ShipwreckPiece		net/minecraft/world/gen/feature/structure/ShipwreckPieces$Piece	net/minecraft/class_3415$class_3416
+net/minecraft/world/level/levelgen/structure/StrongholdPieces	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces	net/minecraft/world/gen/feature/structure/StrongholdPieces	net/minecraft/class_3421
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$1		net/minecraft/world/gen/feature/structure/StrongholdPieces$1	net/minecraft/class_3421$1
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$2		net/minecraft/world/gen/feature/structure/StrongholdPieces$2	net/minecraft/class_3421$2
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$ChestCorridor	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor	net/minecraft/world/gen/feature/structure/StrongholdPieces$ChestCorridor	net/minecraft/class_3421$class_3422
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$FillerCorridor	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdCorridor	net/minecraft/world/gen/feature/structure/StrongholdPieces$Corridor	net/minecraft/class_3421$class_3423
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$FiveCrossing	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdCrossing	net/minecraft/world/gen/feature/structure/StrongholdPieces$Crossing	net/minecraft/class_3421$class_3424
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$LeftTurn	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn	net/minecraft/world/gen/feature/structure/StrongholdPieces$LeftTurn	net/minecraft/class_3421$class_3425
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$Library	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdLibrary	net/minecraft/world/gen/feature/structure/StrongholdPieces$Library	net/minecraft/class_3421$class_3426
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$PieceWeight	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdPieceWeight	net/minecraft/world/gen/feature/structure/StrongholdPieces$PieceWeight	net/minecraft/class_3421$class_3427
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$PortalRoom	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom	net/minecraft/world/gen/feature/structure/StrongholdPieces$PortalRoom	net/minecraft/class_3421$class_3428
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$PrisonHall	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdPrison	net/minecraft/world/gen/feature/structure/StrongholdPieces$Prison	net/minecraft/class_3421$class_3429
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$RightTurn	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdRightTurn	net/minecraft/world/gen/feature/structure/StrongholdPieces$RightTurn	net/minecraft/class_3421$class_3430
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$RoomCrossing	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing	net/minecraft/world/gen/feature/structure/StrongholdPieces$RoomCrossing	net/minecraft/class_3421$class_3431
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$SmoothStoneSelector	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdStones	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stones	net/minecraft/class_3421$class_3432
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$StairsDown	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdStairs2	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stairs	net/minecraft/class_3421$class_3433
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$StartPiece	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdStart	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stairs2	net/minecraft/class_3421$class_3434
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$Straight	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdStairs	net/minecraft/world/gen/feature/structure/StrongholdPieces$Straight	net/minecraft/class_3421$class_3435
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$StraightStairsDown	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight	net/minecraft/world/gen/feature/structure/StrongholdPieces$StairsStraight	net/minecraft/class_3421$class_3436
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$StrongholdPiece	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdPiece	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stronghold	net/minecraft/class_3421$class_3437
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$StrongholdPiece$SmallDoorType	net/minecraft/server/1_15_R1/WorldGenStrongholdPieces$WorldGenStrongholdPiece$WorldGenStrongholdDoorType	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stronghold$Door	net/minecraft/class_3421$class_3437$class_3438
+net/minecraft/world/level/levelgen/structure/StrongholdPieces$Turn		net/minecraft/world/gen/feature/structure/StrongholdPieces$Turn	net/minecraft/class_3421$class_3466
+net/minecraft/world/level/levelgen/structure/StructureFeatureIO	net/minecraft/server/1_15_R1/WorldGenFactory	net/minecraft/world/gen/feature/structure/Structures	net/minecraft/class_3420
+net/minecraft/world/level/levelgen/structure/StructureFeatureIndexSavedData	net/minecraft/server/1_15_R1/PersistentIndexed	net/minecraft/world/gen/feature/structure/StructureIndexesSavedData	net/minecraft/class_3440
+net/minecraft/world/level/levelgen/structure/StructurePiece	net/minecraft/server/1_15_R1/StructurePiece	net/minecraft/world/gen/feature/structure/StructurePiece	net/minecraft/class_3443
+net/minecraft/world/level/levelgen/structure/StructurePiece$BlockSelector	net/minecraft/server/1_15_R1/StructurePiece$StructurePieceBlockSelector	net/minecraft/world/gen/feature/structure/StructurePiece$BlockSelector	net/minecraft/class_3443$class_3444
+net/minecraft/world/level/levelgen/structure/StructureStart	net/minecraft/server/1_15_R1/StructureStart	net/minecraft/world/gen/feature/structure/StructureStart	net/minecraft/class_3449
+net/minecraft/world/level/levelgen/structure/StructureStart$1		net/minecraft/world/gen/feature/structure/StructureStart$1	net/minecraft/class_3449$1
+net/minecraft/world/level/levelgen/structure/SwamplandHutPiece	net/minecraft/server/1_15_R1/WorldGenWitchHut	net/minecraft/world/gen/feature/structure/SwampHutPiece	net/minecraft/class_3447
+net/minecraft/world/level/levelgen/structure/TemplateStructurePiece	net/minecraft/server/1_15_R1/DefinedStructurePiece	net/minecraft/world/gen/feature/structure/TemplateStructurePiece	net/minecraft/class_3470
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces	net/minecraft/server/1_15_R1/WorldGenWoodlandMansionPieces	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces	net/minecraft/class_3471
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$FirstFloorRoomCollection		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$FirstFloor	net/minecraft/class_3471$class_3472
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$FloorRoomCollection		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$RoomCollection	net/minecraft/class_3471$class_3473
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$MansionGrid		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$Grid	net/minecraft/class_3471$class_3474
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$MansionPiecePlacer		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$Placer	net/minecraft/class_3471$class_3475
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$PlacementData		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$PlacementData	net/minecraft/class_3471$class_3476
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$SecondFloorRoomCollection		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$SecondFloor	net/minecraft/class_3471$class_3477
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$SimpleGrid		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$SimpleGrid	net/minecraft/class_3471$class_3478
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$ThirdFloorRoomCollection		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$ThirdFloor	net/minecraft/class_3471$class_3479
+net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces$WoodlandMansionPiece		net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$MansionTemplate	net/minecraft/class_3471$class_3480
+net/minecraft/world/level/levelgen/structure/templatesystem/AlwaysTrueTest	net/minecraft/server/1_15_R1/DefinedStructureTestTrue	net/minecraft/world/gen/feature/template/AlwaysTrueRuleTest	net/minecraft/class_3818
+net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	net/minecraft/server/1_15_R1/DefinedStructureProcessorBlockIgnore	net/minecraft/world/gen/feature/template/BlockIgnoreStructureProcessor	net/minecraft/class_3793
+net/minecraft/world/level/levelgen/structure/templatesystem/BlockMatchTest	net/minecraft/server/1_15_R1/DefinedStructureTestBlock	net/minecraft/world/gen/feature/template/BlockMatchRuleTest	net/minecraft/class_3819
+net/minecraft/world/level/levelgen/structure/templatesystem/BlockRotProcessor	net/minecraft/server/1_15_R1/DefinedStructureProcessorRotation	net/minecraft/world/gen/feature/template/IntegrityProcessor	net/minecraft/class_3488
+net/minecraft/world/level/levelgen/structure/templatesystem/BlockStateMatchTest	net/minecraft/server/1_15_R1/DefinedStructureTestBlockState	net/minecraft/world/gen/feature/template/BlockStateMatchRuleTest	net/minecraft/class_3820
+net/minecraft/world/level/levelgen/structure/templatesystem/GravityProcessor	net/minecraft/server/1_15_R1/DefinedStructureProcessorGravity	net/minecraft/world/gen/feature/template/GravityStructureProcessor	net/minecraft/class_3795
+net/minecraft/world/level/levelgen/structure/templatesystem/JigsawReplacementProcessor	net/minecraft/server/1_15_R1/DefinedStructureProcessorJigsawReplacement	net/minecraft/world/gen/feature/template/JigsawReplacementStructureProcessor	net/minecraft/class_3794
+net/minecraft/world/level/levelgen/structure/templatesystem/NopProcessor	net/minecraft/server/1_15_R1/DefinedStructureProcessorNop	net/minecraft/world/gen/feature/template/NopProcessor	net/minecraft/class_3822
+net/minecraft/world/level/levelgen/structure/templatesystem/ProcessorRule	net/minecraft/server/1_15_R1/DefinedStructureProcessorPredicates	net/minecraft/world/gen/feature/template/RuleEntry	net/minecraft/class_3821
+net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockMatchTest	net/minecraft/server/1_15_R1/DefinedStructureTestRandomBlock	net/minecraft/world/gen/feature/template/RandomBlockMatchRuleTest	net/minecraft/class_3824
+net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockStateMatchTest	net/minecraft/server/1_15_R1/DefinedStructureTestRandomBlockState	net/minecraft/world/gen/feature/template/RandomBlockStateMatchRuleTest	net/minecraft/class_3823
+net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	net/minecraft/server/1_15_R1/DefinedStructureProcessorRule	net/minecraft/world/gen/feature/template/RuleStructureProcessor	net/minecraft/class_3826
+net/minecraft/world/level/levelgen/structure/templatesystem/RuleTest	net/minecraft/server/1_15_R1/DefinedStructureRuleTest	net/minecraft/world/gen/feature/template/RuleTest	net/minecraft/class_3825
+net/minecraft/world/level/levelgen/structure/templatesystem/RuleTestType	net/minecraft/server/1_15_R1/DefinedStructureRuleTestType	net/minecraft/world/gen/feature/template/IRuleTestType	net/minecraft/class_3827
+net/minecraft/world/level/levelgen/structure/templatesystem/StructureManager	net/minecraft/server/1_15_R1/DefinedStructureManager	net/minecraft/world/gen/feature/template/TemplateManager	net/minecraft/class_3485
+net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings	net/minecraft/server/1_15_R1/DefinedStructureInfo	net/minecraft/world/gen/feature/template/PlacementSettings	net/minecraft/class_3492
+net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor	net/minecraft/server/1_15_R1/DefinedStructureProcessor	net/minecraft/world/gen/feature/template/StructureProcessor	net/minecraft/class_3491
+net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType	net/minecraft/server/1_15_R1/DefinedStructureStructureProcessorType	net/minecraft/world/gen/feature/template/IStructureProcessorType	net/minecraft/class_3828
+net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate	net/minecraft/server/1_15_R1/DefinedStructure	net/minecraft/world/gen/feature/template/Template	net/minecraft/class_3499
+net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$SimplePalette		net/minecraft/world/gen/feature/template/Template$BasicPalette	net/minecraft/class_3499$class_3500
+net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo	net/minecraft/server/1_15_R1/DefinedStructure$BlockInfo	net/minecraft/world/gen/feature/template/Template$BlockInfo	net/minecraft/class_3499$class_3501
+net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureEntityInfo	net/minecraft/server/1_15_R1/DefinedStructure$EntityInfo	net/minecraft/world/gen/feature/template/Template$EntityInfo	net/minecraft/class_3499$class_3502
+net/minecraft/world/level/levelgen/structure/templatesystem/TagMatchTest	net/minecraft/server/1_15_R1/DefinedStructureTestTag	net/minecraft/world/gen/feature/template/TagMatchRuleTest	net/minecraft/class_3798
+net/minecraft/world/level/levelgen/surfacebuilders/BadlandsSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceMesa	net/minecraft/world/gen/surfacebuilders/BadlandsSurfaceBuilder	net/minecraft/class_3506
+net/minecraft/world/level/levelgen/surfacebuilders/ConfiguredSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceComposite	net/minecraft/world/gen/surfacebuilders/ConfiguredSurfaceBuilder	net/minecraft/class_3504
+net/minecraft/world/level/levelgen/surfacebuilders/DefaultSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceDefaultBlock	net/minecraft/world/gen/surfacebuilders/DefaultSurfaceBuilder	net/minecraft/class_3510
+net/minecraft/world/level/levelgen/surfacebuilders/ErodedBadlandsSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceMesaBryce	net/minecraft/world/gen/surfacebuilders/ErodedBadlandsSurfaceBuilder	net/minecraft/class_3507
+net/minecraft/world/level/levelgen/surfacebuilders/FrozenOceanSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceFrozenOcean	net/minecraft/world/gen/surfacebuilders/FrozenOceanSurfaceBuilder	net/minecraft/class_3512
+net/minecraft/world/level/levelgen/surfacebuilders/GiantTreeTaigaSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceTaigaMega	net/minecraft/world/gen/surfacebuilders/GiantTreeTaigaSurfaceBuilder	net/minecraft/class_3511
+net/minecraft/world/level/levelgen/surfacebuilders/GravellyMountainSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceExtremeHillMutated	net/minecraft/world/gen/surfacebuilders/GravellyMountainSurfaceBuilder	net/minecraft/class_3516
+net/minecraft/world/level/levelgen/surfacebuilders/MountainSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceExtremeHills	net/minecraft/world/gen/surfacebuilders/MountainSurfaceBuilder	net/minecraft/class_3514
+net/minecraft/world/level/levelgen/surfacebuilders/NetherSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceNether	net/minecraft/world/gen/surfacebuilders/NetherSurfaceBuilder	net/minecraft/class_3520
+net/minecraft/world/level/levelgen/surfacebuilders/NopeSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceEmpty	net/minecraft/world/gen/surfacebuilders/NoopSurfaceBuilder	net/minecraft/class_3519
+net/minecraft/world/level/levelgen/surfacebuilders/ShatteredSavanaSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceSavannaMutated	net/minecraft/world/gen/surfacebuilders/ShatteredSavannaSurfaceBuilder	net/minecraft/class_3524
+net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurface	net/minecraft/world/gen/surfacebuilders/SurfaceBuilder	net/minecraft/class_3523
+net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilderBaseConfiguration	net/minecraft/server/1_15_R1/WorldGenSurfaceConfigurationBase	net/minecraft/world/gen/surfacebuilders/SurfaceBuilderConfig	net/minecraft/class_3527
+net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilderConfiguration	net/minecraft/server/1_15_R1/WorldGenSurfaceConfiguration	net/minecraft/world/gen/surfacebuilders/ISurfaceBuilderConfig	net/minecraft/class_3531
+net/minecraft/world/level/levelgen/surfacebuilders/SwampSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceSwamp	net/minecraft/world/gen/surfacebuilders/SwampSurfaceBuilder	net/minecraft/class_3529
+net/minecraft/world/level/levelgen/surfacebuilders/WoodedBadlandsSurfaceBuilder	net/minecraft/server/1_15_R1/WorldGenSurfaceMesaForest	net/minecraft/world/gen/surfacebuilders/WoodedBadlandsSurfaceBuilder	net/minecraft/class_3535
+net/minecraft/world/level/levelgen/synth/ImprovedNoise	net/minecraft/server/1_15_R1/NoiseGeneratorPerlin	net/minecraft/world/gen/ImprovedNoiseGenerator	net/minecraft/class_3756
+net/minecraft/world/level/levelgen/synth/PerlinNoise	net/minecraft/server/1_15_R1/NoiseGeneratorOctaves	net/minecraft/world/gen/OctavesNoiseGenerator	net/minecraft/class_3537
+net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise	net/minecraft/server/1_15_R1/NoiseGenerator3	net/minecraft/world/gen/PerlinNoiseGenerator	net/minecraft/class_3543
+net/minecraft/world/level/levelgen/synth/SimplexNoise	net/minecraft/server/1_15_R1/NoiseGenerator3Handler	net/minecraft/world/gen/SimplexNoiseGenerator	net/minecraft/class_3541
+net/minecraft/world/level/levelgen/synth/SurfaceNoise	net/minecraft/server/1_15_R1/NoiseGenerator	net/minecraft/world/gen/INoiseGenerator	net/minecraft/class_3757
+net/minecraft/world/level/lighting/BlockLightEngine	net/minecraft/server/1_15_R1/LightEngineBlock	net/minecraft/world/lighting/BlockLightEngine	net/minecraft/class_3552
+net/minecraft/world/level/lighting/BlockLightSectionStorage	net/minecraft/server/1_15_R1/LightEngineStorageBlock	net/minecraft/world/lighting/BlockLightStorage	net/minecraft/class_3547
+net/minecraft/world/level/lighting/BlockLightSectionStorage$BlockDataLayerStorageMap		net/minecraft/world/lighting/BlockLightStorage$StorageMap	net/minecraft/class_3547$class_3548
+net/minecraft/world/level/lighting/DataLayerStorageMap	net/minecraft/server/1_15_R1/LightEngineStorageArray	net/minecraft/world/lighting/LightDataMap	net/minecraft/class_3556
+net/minecraft/world/level/lighting/DynamicGraphMinFixedPoint	net/minecraft/server/1_15_R1/LightEngineGraph	net/minecraft/world/lighting/LevelBasedGraph	net/minecraft/class_3554
+net/minecraft/world/level/lighting/DynamicGraphMinFixedPoint$1		net/minecraft/world/lighting/LevelBasedGraph$1	net/minecraft/class_3554$1
+net/minecraft/world/level/lighting/DynamicGraphMinFixedPoint$2		net/minecraft/world/lighting/LevelBasedGraph$2	net/minecraft/class_3554$2
+net/minecraft/world/level/lighting/FlatDataLayer	net/minecraft/server/1_15_R1/NibbleArrayFlat	net/minecraft/world/lighting/NibbleArrayRepeater	net/minecraft/class_4298
+net/minecraft/world/level/lighting/LayerLightEngine	net/minecraft/server/1_15_R1/LightEngineLayer	net/minecraft/world/lighting/LightEngine	net/minecraft/class_3558
+net/minecraft/world/level/lighting/LayerLightEventListener	net/minecraft/server/1_15_R1/LightEngineLayerEventListener	net/minecraft/world/lighting/IWorldLightListener	net/minecraft/class_3562
+net/minecraft/world/level/lighting/LayerLightEventListener$DummyLightLayerEventListener	net/minecraft/server/1_15_R1/LightEngineLayerEventListener$Void	net/minecraft/world/lighting/IWorldLightListener$Dummy	net/minecraft/class_3562$class_3563
+net/minecraft/world/level/lighting/LayerLightSectionStorage	net/minecraft/server/1_15_R1/LightEngineStorage	net/minecraft/world/lighting/SectionLightStorage	net/minecraft/class_3560
+net/minecraft/world/level/lighting/LevelLightEngine	net/minecraft/server/1_15_R1/LightEngine	net/minecraft/world/lighting/WorldLightManager	net/minecraft/class_3568
+net/minecraft/world/level/lighting/LightEventListener	net/minecraft/server/1_15_R1/ILightEngine	net/minecraft/world/lighting/ILightListener	net/minecraft/class_3565
+net/minecraft/world/level/lighting/SkyLightEngine	net/minecraft/server/1_15_R1/LightEngineSky	net/minecraft/world/lighting/SkyLightEngine	net/minecraft/class_3572
+net/minecraft/world/level/lighting/SkyLightSectionStorage	net/minecraft/server/1_15_R1/LightEngineStorageSky	net/minecraft/world/lighting/SkyLightStorage	net/minecraft/class_3569
+net/minecraft/world/level/lighting/SkyLightSectionStorage$SkyDataLayerStorageMap		net/minecraft/world/lighting/SkyLightStorage$StorageMap	net/minecraft/class_3569$class_3570
+net/minecraft/world/level/material/EmptyFluid	net/minecraft/server/1_15_R1/FluidTypeEmpty	net/minecraft/fluid/EmptyFluid	net/minecraft/class_3576
+net/minecraft/world/level/material/FlowingFluid	net/minecraft/server/1_15_R1/FluidTypeFlowing	net/minecraft/fluid/FlowingFluid	net/minecraft/class_3609
+net/minecraft/world/level/material/FlowingFluid$1		net/minecraft/fluid/FlowingFluid$1	net/minecraft/class_3609$1
+net/minecraft/world/level/material/Fluid	net/minecraft/server/1_15_R1/FluidType	net/minecraft/fluid/Fluid	net/minecraft/class_3611
+net/minecraft/world/level/material/FluidState	net/minecraft/server/1_15_R1/Fluid	net/minecraft/fluid/IFluidState	net/minecraft/class_3610
+net/minecraft/world/level/material/FluidStateImpl	net/minecraft/server/1_15_R1/FluidImpl	net/minecraft/fluid/FluidState	net/minecraft/class_3613
+net/minecraft/world/level/material/Fluids	net/minecraft/server/1_15_R1/FluidTypes	net/minecraft/fluid/Fluids	net/minecraft/class_3612
+net/minecraft/world/level/material/LavaFluid	net/minecraft/server/1_15_R1/FluidTypeLava	net/minecraft/fluid/LavaFluid	net/minecraft/class_3616
+net/minecraft/world/level/material/LavaFluid$Flowing		net/minecraft/fluid/LavaFluid$Flowing	net/minecraft/class_3616$class_3617
+net/minecraft/world/level/material/LavaFluid$Source		net/minecraft/fluid/LavaFluid$Source	net/minecraft/class_3616$class_3618
+net/minecraft/world/level/material/Material	net/minecraft/server/1_15_R1/Material	net/minecraft/block/material/Material	net/minecraft/class_3614
+net/minecraft/world/level/material/Material$Builder		net/minecraft/block/material/Material$Builder	net/minecraft/class_3614$class_3615
+net/minecraft/world/level/material/MaterialColor	net/minecraft/server/1_15_R1/MaterialMapColor	net/minecraft/block/material/MaterialColor	net/minecraft/class_3620
+net/minecraft/world/level/material/PushReaction	net/minecraft/server/1_15_R1/EnumPistonReaction	net/minecraft/block/material/PushReaction	net/minecraft/class_3619
+net/minecraft/world/level/material/WaterFluid	net/minecraft/server/1_15_R1/FluidTypeWater	net/minecraft/fluid/WaterFluid	net/minecraft/class_3621
+net/minecraft/world/level/material/WaterFluid$Flowing		net/minecraft/fluid/WaterFluid$Flowing	net/minecraft/class_3621$class_3622
+net/minecraft/world/level/material/WaterFluid$Source		net/minecraft/fluid/WaterFluid$Source	net/minecraft/class_3621$class_3623
+net/minecraft/world/level/newbiome/area/Area	net/minecraft/server/1_15_R1/Area	net/minecraft/world/gen/area/IArea	net/minecraft/class_3625
+net/minecraft/world/level/newbiome/area/AreaFactory	net/minecraft/server/1_15_R1/AreaFactory	net/minecraft/world/gen/area/IAreaFactory	net/minecraft/class_3627
+net/minecraft/world/level/newbiome/area/LazyArea	net/minecraft/server/1_15_R1/AreaLazy	net/minecraft/world/gen/area/LazyArea	net/minecraft/class_3626
+net/minecraft/world/level/newbiome/context/BigContext	net/minecraft/server/1_15_R1/AreaContextTransformed	net/minecraft/world/gen/IExtendedNoiseRandom	net/minecraft/class_3628
+net/minecraft/world/level/newbiome/context/Context	net/minecraft/server/1_15_R1/WorldGenContext	net/minecraft/world/gen/INoiseRandom	net/minecraft/class_3630
+net/minecraft/world/level/newbiome/context/LazyAreaContext	net/minecraft/server/1_15_R1/WorldGenContextArea	net/minecraft/world/gen/LazyAreaLayerContext	net/minecraft/class_3631
+net/minecraft/world/level/newbiome/layer/AddDeepOceanLayer	net/minecraft/server/1_15_R1/GenLayerDeepOcean	net/minecraft/world/gen/layer/DeepOceanLayer	net/minecraft/class_3636
+net/minecraft/world/level/newbiome/layer/AddEdgeLayer	net/minecraft/server/1_15_R1/GenLayerSpecial	net/minecraft/world/gen/layer/EdgeLayer	net/minecraft/class_3632
+net/minecraft/world/level/newbiome/layer/AddEdgeLayer$CoolWarm	net/minecraft/server/1_15_R1/GenLayerSpecial$Special1	net/minecraft/world/gen/layer/EdgeLayer$CoolWarm	net/minecraft/class_3632$class_3926
+net/minecraft/world/level/newbiome/layer/AddEdgeLayer$HeatIce	net/minecraft/server/1_15_R1/GenLayerSpecial$Special2	net/minecraft/world/gen/layer/EdgeLayer$HeatIce	net/minecraft/class_3632$class_3927
+net/minecraft/world/level/newbiome/layer/AddEdgeLayer$IntroduceSpecial	net/minecraft/server/1_15_R1/GenLayerSpecial$Special3	net/minecraft/world/gen/layer/EdgeLayer$Special	net/minecraft/class_3632$class_3635
+net/minecraft/world/level/newbiome/layer/AddIslandLayer	net/minecraft/server/1_15_R1/GenLayerIsland	net/minecraft/world/gen/layer/AddIslandLayer	net/minecraft/class_3638
+net/minecraft/world/level/newbiome/layer/AddMushroomIslandLayer	net/minecraft/server/1_15_R1/GenLayerMushroomIsland	net/minecraft/world/gen/layer/AddMushroomIslandLayer	net/minecraft/class_3637
+net/minecraft/world/level/newbiome/layer/AddSnowLayer	net/minecraft/server/1_15_R1/GenLayerTopSoil	net/minecraft/world/gen/layer/AddSnowLayer	net/minecraft/class_3639
+net/minecraft/world/level/newbiome/layer/BiomeEdgeLayer	net/minecraft/server/1_15_R1/GenLayerDesert	net/minecraft/world/gen/layer/EdgeBiomeLayer	net/minecraft/class_3641
+net/minecraft/world/level/newbiome/layer/BiomeInitLayer	net/minecraft/server/1_15_R1/GenLayerBiome	net/minecraft/world/gen/layer/BiomeLayer	net/minecraft/class_3640
+net/minecraft/world/level/newbiome/layer/IslandLayer	net/minecraft/server/1_15_R1/LayerIsland	net/minecraft/world/gen/layer/IslandLayer	net/minecraft/class_3643
+net/minecraft/world/level/newbiome/layer/Layer	net/minecraft/server/1_15_R1/GenLayer	net/minecraft/world/gen/layer/Layer	net/minecraft/class_3642
+net/minecraft/world/level/newbiome/layer/Layers	net/minecraft/server/1_15_R1/GenLayers	net/minecraft/world/gen/layer/LayerUtil	net/minecraft/class_3645
+net/minecraft/world/level/newbiome/layer/OceanLayer	net/minecraft/server/1_15_R1/GenLayerOceanEdge	net/minecraft/world/gen/layer/OceanLayer	net/minecraft/class_3644
+net/minecraft/world/level/newbiome/layer/OceanMixerLayer	net/minecraft/server/1_15_R1/GenLayerOcean	net/minecraft/world/gen/layer/MixOceansLayer	net/minecraft/class_3647
+net/minecraft/world/level/newbiome/layer/RareBiomeLargeLayer	net/minecraft/server/1_15_R1/GenLayerJungle	net/minecraft/world/gen/layer/AddBambooForestLayer	net/minecraft/class_3646
+net/minecraft/world/level/newbiome/layer/RareBiomeSpotLayer	net/minecraft/server/1_15_R1/GenLayerPlains	net/minecraft/world/gen/layer/RareBiomeLayer	net/minecraft/class_3649
+net/minecraft/world/level/newbiome/layer/RegionHillsLayer	net/minecraft/server/1_15_R1/GenLayerRegionHills	net/minecraft/world/gen/layer/HillsLayer	net/minecraft/class_3648
+net/minecraft/world/level/newbiome/layer/RemoveTooMuchOceanLayer	net/minecraft/server/1_15_R1/GenLayerIcePlains	net/minecraft/world/gen/layer/RemoveTooMuchOceanLayer	net/minecraft/class_3651
+net/minecraft/world/level/newbiome/layer/RiverInitLayer	net/minecraft/server/1_15_R1/GenLayerCleaner	net/minecraft/world/gen/layer/StartRiverLayer	net/minecraft/class_3650
+net/minecraft/world/level/newbiome/layer/RiverLayer	net/minecraft/server/1_15_R1/GenLayerRiver	net/minecraft/world/gen/layer/RiverLayer	net/minecraft/class_3653
+net/minecraft/world/level/newbiome/layer/RiverMixerLayer	net/minecraft/server/1_15_R1/GenLayerRiverMix	net/minecraft/world/gen/layer/MixRiverLayer	net/minecraft/class_3652
+net/minecraft/world/level/newbiome/layer/ShoreLayer	net/minecraft/server/1_15_R1/GenLayerMushroomShore	net/minecraft/world/gen/layer/ShoreLayer	net/minecraft/class_3655
+net/minecraft/world/level/newbiome/layer/SmoothLayer	net/minecraft/server/1_15_R1/GenLayerSmooth	net/minecraft/world/gen/layer/SmoothLayer	net/minecraft/class_3654
+net/minecraft/world/level/newbiome/layer/ZoomLayer	net/minecraft/server/1_15_R1/GenLayerZoom	net/minecraft/world/gen/layer/ZoomLayer	net/minecraft/class_3656
+net/minecraft/world/level/newbiome/layer/ZoomLayer$1		net/minecraft/world/gen/layer/ZoomLayer$1	net/minecraft/class_3656$1
+net/minecraft/world/level/newbiome/layer/traits/AreaTransformer0	net/minecraft/server/1_15_R1/AreaTransformer1	net/minecraft/world/gen/layer/traits/IAreaTransformer0	net/minecraft/class_3658
+net/minecraft/world/level/newbiome/layer/traits/AreaTransformer1	net/minecraft/server/1_15_R1/AreaTransformer2	net/minecraft/world/gen/layer/traits/IAreaTransformer1	net/minecraft/class_3660
+net/minecraft/world/level/newbiome/layer/traits/AreaTransformer2	net/minecraft/server/1_15_R1/AreaTransformer3	net/minecraft/world/gen/layer/traits/IAreaTransformer2	net/minecraft/class_3659
+net/minecraft/world/level/newbiome/layer/traits/BishopTransformer	net/minecraft/server/1_15_R1/AreaTransformer4	net/minecraft/world/gen/layer/traits/IBishopTransformer	net/minecraft/class_3662
+net/minecraft/world/level/newbiome/layer/traits/C0Transformer	net/minecraft/server/1_15_R1/AreaTransformer5	net/minecraft/world/gen/layer/traits/IC0Transformer	net/minecraft/class_3661
+net/minecraft/world/level/newbiome/layer/traits/C1Transformer	net/minecraft/server/1_15_R1/AreaTransformer6	net/minecraft/world/gen/layer/traits/IC1Transformer	net/minecraft/class_3664
+net/minecraft/world/level/newbiome/layer/traits/CastleTransformer	net/minecraft/server/1_15_R1/AreaTransformer7	net/minecraft/world/gen/layer/traits/ICastleTransformer	net/minecraft/class_3663
+net/minecraft/world/level/newbiome/layer/traits/DimensionOffset0Transformer	net/minecraft/server/1_15_R1/AreaTransformerIdentity	net/minecraft/world/gen/layer/traits/IDimOffset0Transformer	net/minecraft/class_3740
+net/minecraft/world/level/newbiome/layer/traits/DimensionOffset1Transformer	net/minecraft/server/1_15_R1/AreaTransformerOffset1	net/minecraft/world/gen/layer/traits/IDimOffset1Transformer	net/minecraft/class_3739
+net/minecraft/world/level/newbiome/layer/traits/DimensionTransformer	net/minecraft/server/1_15_R1/AreaTransformer	net/minecraft/world/gen/layer/traits/IDimTransformer	net/minecraft/class_3741
+net/minecraft/world/level/newbiome/layer/traits/PixelTransformer	net/minecraft/server/1_15_R1/AreaTransformer8	net/minecraft/world/gen/layer/traits/IPixelTransformer	net/minecraft/class_4
+net/minecraft/world/level/pathfinder/BinaryHeap	net/minecraft/server/1_15_R1/Path	net/minecraft/pathfinding/PathHeap	net/minecraft/class_5
+net/minecraft/world/level/pathfinder/BlockPathTypes	net/minecraft/server/1_15_R1/PathType	net/minecraft/pathfinding/PathNodeType	net/minecraft/class_7
+net/minecraft/world/level/pathfinder/FlyNodeEvaluator	net/minecraft/server/1_15_R1/PathfinderFlying	net/minecraft/pathfinding/FlyingNodeProcessor	net/minecraft/class_6
+net/minecraft/world/level/pathfinder/Node	net/minecraft/server/1_15_R1/PathPoint	net/minecraft/pathfinding/PathPoint	net/minecraft/class_9
+net/minecraft/world/level/pathfinder/NodeEvaluator	net/minecraft/server/1_15_R1/PathfinderAbstract	net/minecraft/pathfinding/NodeProcessor	net/minecraft/class_8
+net/minecraft/world/level/pathfinder/Path	net/minecraft/server/1_15_R1/PathEntity	net/minecraft/pathfinding/Path	net/minecraft/class_11
+net/minecraft/world/level/pathfinder/PathComputationType	net/minecraft/server/1_15_R1/PathMode	net/minecraft/pathfinding/PathType	net/minecraft/class_10
+net/minecraft/world/level/pathfinder/PathFinder	net/minecraft/server/1_15_R1/Pathfinder	net/minecraft/pathfinding/PathFinder	net/minecraft/class_13
+net/minecraft/world/level/pathfinder/SwimNodeEvaluator	net/minecraft/server/1_15_R1/PathfinderWater	net/minecraft/pathfinding/SwimNodeProcessor	net/minecraft/class_12
+net/minecraft/world/level/pathfinder/Target	net/minecraft/server/1_15_R1/PathDestination	net/minecraft/pathfinding/FlaggedPathPoint	net/minecraft/class_4459
+net/minecraft/world/level/pathfinder/TurtleNodeEvaluator	net/minecraft/server/1_15_R1/PathfinderTurtle	net/minecraft/pathfinding/WalkAndSwimNodeProcessor	net/minecraft/class_15
+net/minecraft/world/level/pathfinder/WalkNodeEvaluator	net/minecraft/server/1_15_R1/PathfinderNormal	net/minecraft/pathfinding/WalkNodeProcessor	net/minecraft/class_14
+net/minecraft/world/level/saveddata/SaveDataDirtyRunnable	net/minecraft/server/1_15_R1/RunnableSaveScoreboard	net/minecraft/world/storage/WorldSavedDataCallableSave	net/minecraft/class_16
+net/minecraft/world/level/saveddata/SavedData	net/minecraft/server/1_15_R1/PersistentBase	net/minecraft/world/storage/WorldSavedData	net/minecraft/class_18
+net/minecraft/world/level/saveddata/maps/MapBanner	net/minecraft/server/1_15_R1/MapIconBanner	net/minecraft/world/storage/MapBanner	net/minecraft/class_17
+net/minecraft/world/level/saveddata/maps/MapDecoration	net/minecraft/server/1_15_R1/MapIcon	net/minecraft/world/storage/MapDecoration	net/minecraft/class_20
+net/minecraft/world/level/saveddata/maps/MapDecoration$Type	net/minecraft/server/1_15_R1/MapIcon$Type	net/minecraft/world/storage/MapDecoration$Type	net/minecraft/class_20$class_21
+net/minecraft/world/level/saveddata/maps/MapFrame	net/minecraft/server/1_15_R1/WorldMapFrame	net/minecraft/world/storage/MapFrame	net/minecraft/class_19
+net/minecraft/world/level/saveddata/maps/MapIndex	net/minecraft/server/1_15_R1/PersistentIdCounts	net/minecraft/world/storage/MapIdTracker	net/minecraft/class_3978
+net/minecraft/world/level/saveddata/maps/MapItemSavedData	net/minecraft/server/1_15_R1/WorldMap	net/minecraft/world/storage/MapData	net/minecraft/class_22
+net/minecraft/world/level/saveddata/maps/MapItemSavedData$HoldingPlayer	net/minecraft/server/1_15_R1/WorldMap$WorldMapHumanTracker	net/minecraft/world/storage/MapData$MapInfo	net/minecraft/class_22$class_23
+net/minecraft/world/level/storage/CommandStorage	net/minecraft/server/1_15_R1/PersistentCommandStorage	net/minecraft/world/storage/CommandStorage	net/minecraft/class_4565
+net/minecraft/world/level/storage/CommandStorage$Container		net/minecraft/world/storage/CommandStorage$Container	net/minecraft/class_4565$class_4566
+net/minecraft/world/level/storage/DerivedLevelData	net/minecraft/server/1_15_R1/SecondaryWorldData	net/minecraft/world/storage/DerivedWorldInfo	net/minecraft/class_27
+net/minecraft/world/level/storage/DimensionDataStorage	net/minecraft/server/1_15_R1/WorldPersistentData	net/minecraft/world/storage/DimensionSavedDataManager	net/minecraft/class_26
+net/minecraft/world/level/storage/LevelData	net/minecraft/server/1_15_R1/WorldData	net/minecraft/world/storage/WorldInfo	net/minecraft/class_31
+net/minecraft/world/level/storage/LevelStorage	net/minecraft/server/1_15_R1/WorldNBTStorage	net/minecraft/world/storage/SaveHandler	net/minecraft/class_29
+net/minecraft/world/level/storage/LevelStorageSource	net/minecraft/server/1_15_R1/Convertable	net/minecraft/world/storage/SaveFormat	net/minecraft/class_32
+net/minecraft/world/level/storage/McRegionUpgrader	net/minecraft/server/1_15_R1/WorldUpgraderIterator	net/minecraft/world/storage/AnvilSaveConverter	net/minecraft/class_24
+net/minecraft/world/level/storage/PlayerIO	net/minecraft/server/1_15_R1/IPlayerFileData	net/minecraft/world/storage/IPlayerFileData	net/minecraft/class_35
+net/minecraft/world/level/storage/loot/BinomialDistributionGenerator	net/minecraft/server/1_15_R1/LootValueBinomial	net/minecraft/world/storage/loot/BinomialRange	net/minecraft/class_40
+net/minecraft/world/level/storage/loot/BinomialDistributionGenerator$Serializer		net/minecraft/world/storage/loot/BinomialRange$Serializer	net/minecraft/class_40$class_41
+net/minecraft/world/level/storage/loot/BuiltInLootTables	net/minecraft/server/1_15_R1/LootTables	net/minecraft/world/storage/loot/LootTables	net/minecraft/class_39
+net/minecraft/world/level/storage/loot/ConstantIntValue	net/minecraft/server/1_15_R1/LootValueConstant	net/minecraft/world/storage/loot/ConstantRange	net/minecraft/class_44
+net/minecraft/world/level/storage/loot/ConstantIntValue$Serializer		net/minecraft/world/storage/loot/ConstantRange$Serializer	net/minecraft/class_44$class_45
+net/minecraft/world/level/storage/loot/IntLimiter	net/minecraft/server/1_15_R1/LootIntegerLimit	net/minecraft/world/storage/loot/IntClamper	net/minecraft/class_42
+net/minecraft/world/level/storage/loot/IntLimiter$Serializer		net/minecraft/world/storage/loot/IntClamper$Serializer	net/minecraft/class_42$class_43
+net/minecraft/world/level/storage/loot/LootContext	net/minecraft/server/1_15_R1/LootTableInfo	net/minecraft/world/storage/loot/LootContext	net/minecraft/class_47
+net/minecraft/world/level/storage/loot/LootContext$Builder	net/minecraft/server/1_15_R1/LootTableInfo$Builder	net/minecraft/world/storage/loot/LootContext$Builder	net/minecraft/class_47$class_48
+net/minecraft/world/level/storage/loot/LootContext$DynamicDrop		net/minecraft/world/storage/loot/LootContext$IDynamicDropProvider	net/minecraft/class_47$class_49
+net/minecraft/world/level/storage/loot/LootContext$EntityTarget	net/minecraft/server/1_15_R1/LootTableInfo$EntityTarget	net/minecraft/world/storage/loot/LootContext$EntityTarget	net/minecraft/class_47$class_50
+net/minecraft/world/level/storage/loot/LootContext$EntityTarget$Serializer		net/minecraft/world/storage/loot/LootContext$EntityTarget$Serializer	net/minecraft/class_47$class_50$class_51
+net/minecraft/world/level/storage/loot/LootContextUser	net/minecraft/server/1_15_R1/LootItemUser	net/minecraft/world/storage/loot/IParameterized	net/minecraft/class_46
+net/minecraft/world/level/storage/loot/LootPool	net/minecraft/server/1_15_R1/LootSelector	net/minecraft/world/storage/loot/LootPool	net/minecraft/class_55
+net/minecraft/world/level/storage/loot/LootPool$Builder		net/minecraft/world/storage/loot/LootPool$Builder	net/minecraft/class_55$class_56
+net/minecraft/world/level/storage/loot/LootPool$Serializer		net/minecraft/world/storage/loot/LootPool$Serializer	net/minecraft/class_55$class_57
+net/minecraft/world/level/storage/loot/LootTable	net/minecraft/server/1_15_R1/LootTable	net/minecraft/world/storage/loot/LootTable	net/minecraft/class_52
+net/minecraft/world/level/storage/loot/LootTable$Builder		net/minecraft/world/storage/loot/LootTable$Builder	net/minecraft/class_52$class_53
+net/minecraft/world/level/storage/loot/LootTable$Serializer		net/minecraft/world/storage/loot/LootTable$Serializer	net/minecraft/class_52$class_54
+net/minecraft/world/level/storage/loot/LootTables	net/minecraft/server/1_15_R1/LootTableRegistry	net/minecraft/world/storage/loot/LootTableManager	net/minecraft/class_60
+net/minecraft/world/level/storage/loot/PredicateManager	net/minecraft/server/1_15_R1/LootPredicateManager	net/minecraft/world/storage/loot/LootPredicateManager	net/minecraft/class_4567
+net/minecraft/world/level/storage/loot/RandomIntGenerator	net/minecraft/server/1_15_R1/LootValue	net/minecraft/world/storage/loot/IRandomRange	net/minecraft/class_59
+net/minecraft/world/level/storage/loot/RandomIntGenerators	net/minecraft/server/1_15_R1/LootValueGenerators	net/minecraft/world/storage/loot/RandomRanges	net/minecraft/class_63
+net/minecraft/world/level/storage/loot/RandomValueBounds	net/minecraft/server/1_15_R1/LootValueBounds	net/minecraft/world/storage/loot/RandomValueRange	net/minecraft/class_61
+net/minecraft/world/level/storage/loot/RandomValueBounds$Serializer		net/minecraft/world/storage/loot/RandomValueRange$Serializer	net/minecraft/class_61$class_62
+net/minecraft/world/level/storage/loot/ValidationContext	net/minecraft/server/1_15_R1/LootCollector	net/minecraft/world/storage/loot/ValidationTracker	net/minecraft/class_58
+net/minecraft/world/level/storage/loot/entries/AlternativesEntry	net/minecraft/server/1_15_R1/LootEntryAlternatives	net/minecraft/world/storage/loot/AlternativesLootEntry	net/minecraft/class_65
+net/minecraft/world/level/storage/loot/entries/AlternativesEntry$Builder		net/minecraft/world/storage/loot/AlternativesLootEntry$Builder	net/minecraft/class_65$class_66
+net/minecraft/world/level/storage/loot/entries/ComposableEntryContainer	net/minecraft/server/1_15_R1/LootEntryChildren	net/minecraft/world/storage/loot/ILootEntry	net/minecraft/class_64
+net/minecraft/world/level/storage/loot/entries/CompositeEntryBase	net/minecraft/server/1_15_R1/LootEntryChildrenAbstract	net/minecraft/world/storage/loot/ParentedLootEntry	net/minecraft/class_69
+net/minecraft/world/level/storage/loot/entries/CompositeEntryBase$1		net/minecraft/world/storage/loot/ParentedLootEntry$1	net/minecraft/class_69$1
+net/minecraft/world/level/storage/loot/entries/CompositeEntryBase$CompositeEntryConstructor		net/minecraft/world/storage/loot/ParentedLootEntry$IFactory	net/minecraft/class_69$class_70
+net/minecraft/world/level/storage/loot/entries/CompositeEntryBase$Serializer		net/minecraft/world/storage/loot/ParentedLootEntry$AbstractSerializer	net/minecraft/class_69$class_71
+net/minecraft/world/level/storage/loot/entries/DynamicLoot	net/minecraft/server/1_15_R1/LootSelectorDynamic	net/minecraft/world/storage/loot/DynamicLootEntry	net/minecraft/class_67
+net/minecraft/world/level/storage/loot/entries/DynamicLoot$Serializer		net/minecraft/world/storage/loot/DynamicLootEntry$Serializer	net/minecraft/class_67$class_68
+net/minecraft/world/level/storage/loot/entries/EmptyLootItem	net/minecraft/server/1_15_R1/LootSelectorEmpty	net/minecraft/world/storage/loot/EmptyLootEntry	net/minecraft/class_73
+net/minecraft/world/level/storage/loot/entries/EmptyLootItem$Serializer		net/minecraft/world/storage/loot/EmptyLootEntry$Serializer	net/minecraft/class_73$class_74
+net/minecraft/world/level/storage/loot/entries/EntryGroup	net/minecraft/server/1_15_R1/LootEntryGroup	net/minecraft/world/storage/loot/GroupLootEntry	net/minecraft/class_72
+net/minecraft/world/level/storage/loot/entries/LootItem	net/minecraft/server/1_15_R1/LootItem	net/minecraft/world/storage/loot/ItemLootEntry	net/minecraft/class_77
+net/minecraft/world/level/storage/loot/entries/LootItem$Serializer		net/minecraft/world/storage/loot/ItemLootEntry$Serializer	net/minecraft/class_77$class_78
+net/minecraft/world/level/storage/loot/entries/LootPoolEntries	net/minecraft/server/1_15_R1/LootEntries	net/minecraft/world/storage/loot/LootEntryManager	net/minecraft/class_75
+net/minecraft/world/level/storage/loot/entries/LootPoolEntries$Serializer		net/minecraft/world/storage/loot/LootEntryManager$Serializer	net/minecraft/class_75$class_76
+net/minecraft/world/level/storage/loot/entries/LootPoolEntry	net/minecraft/server/1_15_R1/LootEntry	net/minecraft/world/storage/loot/ILootGenerator	net/minecraft/class_82
+net/minecraft/world/level/storage/loot/entries/LootPoolEntryContainer	net/minecraft/server/1_15_R1/LootEntryAbstract	net/minecraft/world/storage/loot/LootEntry	net/minecraft/class_79
+net/minecraft/world/level/storage/loot/entries/LootPoolEntryContainer$Builder		net/minecraft/world/storage/loot/LootEntry$Builder	net/minecraft/class_79$class_80
+net/minecraft/world/level/storage/loot/entries/LootPoolEntryContainer$Serializer		net/minecraft/world/storage/loot/LootEntry$Serializer	net/minecraft/class_79$class_81
+net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer	net/minecraft/server/1_15_R1/LootSelectorEntry	net/minecraft/world/storage/loot/StandaloneLootEntry	net/minecraft/class_85
+net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$1		net/minecraft/world/storage/loot/StandaloneLootEntry$1	net/minecraft/class_85$1
+net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder		net/minecraft/world/storage/loot/StandaloneLootEntry$Builder	net/minecraft/class_85$class_86
+net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$DummyBuilder		net/minecraft/world/storage/loot/StandaloneLootEntry$BuilderImpl	net/minecraft/class_85$class_87
+net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$EntryBase		net/minecraft/world/storage/loot/StandaloneLootEntry$Generator	net/minecraft/class_85$class_88
+net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$EntryConstructor		net/minecraft/world/storage/loot/StandaloneLootEntry$ILootEntryBuilder	net/minecraft/class_85$class_89
+net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Serializer		net/minecraft/world/storage/loot/StandaloneLootEntry$Serializer	net/minecraft/class_85$class_90
+net/minecraft/world/level/storage/loot/entries/LootTableReference	net/minecraft/server/1_15_R1/LootSelectorLootTable	net/minecraft/world/storage/loot/TableLootEntry	net/minecraft/class_83
+net/minecraft/world/level/storage/loot/entries/LootTableReference$Serializer		net/minecraft/world/storage/loot/TableLootEntry$Serializer	net/minecraft/class_83$class_84
+net/minecraft/world/level/storage/loot/entries/SequentialEntry	net/minecraft/server/1_15_R1/LootEntrySequence	net/minecraft/world/storage/loot/SequenceLootEntry	net/minecraft/class_93
+net/minecraft/world/level/storage/loot/entries/TagEntry	net/minecraft/server/1_15_R1/LootSelectorTag	net/minecraft/world/storage/loot/TagLootEntry	net/minecraft/class_91
+net/minecraft/world/level/storage/loot/entries/TagEntry$1		net/minecraft/world/storage/loot/TagLootEntry$1	net/minecraft/class_91$1
+net/minecraft/world/level/storage/loot/entries/TagEntry$Serializer		net/minecraft/world/storage/loot/TagLootEntry$Serializer	net/minecraft/class_91$class_92
+net/minecraft/world/level/storage/loot/functions/ApplyBonusCount	net/minecraft/server/1_15_R1/LootItemFunctionApplyBonus	net/minecraft/world/storage/loot/functions/ApplyBonus	net/minecraft/class_94
+net/minecraft/world/level/storage/loot/functions/ApplyBonusCount$BinomialWithBonusCount		net/minecraft/world/storage/loot/functions/ApplyBonus$BinomialWithBonusCountFormula	net/minecraft/class_94$class_95
+net/minecraft/world/level/storage/loot/functions/ApplyBonusCount$Formula		net/minecraft/world/storage/loot/functions/ApplyBonus$IFormula	net/minecraft/class_94$class_96
+net/minecraft/world/level/storage/loot/functions/ApplyBonusCount$FormulaDeserializer		net/minecraft/world/storage/loot/functions/ApplyBonus$IFormulaDeserializer	net/minecraft/class_94$class_97
+net/minecraft/world/level/storage/loot/functions/ApplyBonusCount$OreDrops		net/minecraft/world/storage/loot/functions/ApplyBonus$OreDropsFormula	net/minecraft/class_94$class_98
+net/minecraft/world/level/storage/loot/functions/ApplyBonusCount$Serializer		net/minecraft/world/storage/loot/functions/ApplyBonus$Serializer	net/minecraft/class_94$class_99
+net/minecraft/world/level/storage/loot/functions/ApplyBonusCount$UniformBonusCount		net/minecraft/world/storage/loot/functions/ApplyBonus$UniformBonusCountFormula	net/minecraft/class_94$class_100
+net/minecraft/world/level/storage/loot/functions/ApplyExplosionDecay	net/minecraft/server/1_15_R1/LootItemFunctionExplosionDecay	net/minecraft/world/storage/loot/functions/ExplosionDecay	net/minecraft/class_104
+net/minecraft/world/level/storage/loot/functions/ApplyExplosionDecay$Serializer		net/minecraft/world/storage/loot/functions/ExplosionDecay$Serializer	net/minecraft/class_104$class_105
+net/minecraft/world/level/storage/loot/functions/CopyBlockState	net/minecraft/server/1_15_R1/LootItemFunctionCopyState	net/minecraft/world/storage/loot/functions/CopyBlockState	net/minecraft/class_4488
+net/minecraft/world/level/storage/loot/functions/CopyBlockState$Builder		net/minecraft/world/storage/loot/functions/CopyBlockState$Builder	net/minecraft/class_4488$class_4489
+net/minecraft/world/level/storage/loot/functions/CopyBlockState$Serializer		net/minecraft/world/storage/loot/functions/CopyBlockState$Serializer	net/minecraft/class_4488$class_4490
+net/minecraft/world/level/storage/loot/functions/CopyNameFunction	net/minecraft/server/1_15_R1/LootItemFunctionCopyName	net/minecraft/world/storage/loot/functions/CopyName	net/minecraft/class_101
+net/minecraft/world/level/storage/loot/functions/CopyNameFunction$NameSource	net/minecraft/server/1_15_R1/LootItemFunctionCopyName$Source	net/minecraft/world/storage/loot/functions/CopyName$Source	net/minecraft/class_101$class_102
+net/minecraft/world/level/storage/loot/functions/CopyNameFunction$Serializer		net/minecraft/world/storage/loot/functions/CopyName$Serializer	net/minecraft/class_101$class_103
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction	net/minecraft/server/1_15_R1/LootItemFunctionCopyNBT	net/minecraft/world/storage/loot/functions/CopyNbt	net/minecraft/class_3837
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$Builder		net/minecraft/world/storage/loot/functions/CopyNbt$Builder	net/minecraft/class_3837$class_3838
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$CopyOperation		net/minecraft/world/storage/loot/functions/CopyNbt$Operation	net/minecraft/class_3837$class_3839
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$DataSource	net/minecraft/server/1_15_R1/LootItemFunctionCopyNBT$Source	net/minecraft/world/storage/loot/functions/CopyNbt$Source	net/minecraft/class_3837$class_3840
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy	net/minecraft/server/1_15_R1/LootItemFunctionCopyNBT$Action	net/minecraft/world/storage/loot/functions/CopyNbt$Action	net/minecraft/class_3837$class_3841
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy$1		net/minecraft/world/storage/loot/functions/CopyNbt$Action$1	net/minecraft/class_3837$class_3841$1
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy$2		net/minecraft/world/storage/loot/functions/CopyNbt$Action$2	net/minecraft/class_3837$class_3841$2
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy$3		net/minecraft/world/storage/loot/functions/CopyNbt$Action$3	net/minecraft/class_3837$class_3841$3
+net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$Serializer		net/minecraft/world/storage/loot/functions/CopyNbt$Serializer	net/minecraft/class_3837$class_3842
+net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction	net/minecraft/server/1_15_R1/LootItemFunctionEnchant	net/minecraft/world/storage/loot/functions/EnchantRandomly	net/minecraft/class_109
+net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Serializer		net/minecraft/world/storage/loot/functions/EnchantRandomly$Serializer	net/minecraft/class_109$class_110
+net/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction	net/minecraft/server/1_15_R1/LootEnchantLevel	net/minecraft/world/storage/loot/functions/EnchantWithLevels	net/minecraft/class_106
+net/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction$Builder		net/minecraft/world/storage/loot/functions/EnchantWithLevels$Builder	net/minecraft/class_106$class_107
+net/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction$Serializer		net/minecraft/world/storage/loot/functions/EnchantWithLevels$Serializer	net/minecraft/class_106$class_108
+net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction	net/minecraft/server/1_15_R1/LootItemFunctionExplorationMap	net/minecraft/world/storage/loot/functions/ExplorationMap	net/minecraft/class_111
+net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction$Builder		net/minecraft/world/storage/loot/functions/ExplorationMap$Builder	net/minecraft/class_111$class_112
+net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction$Serializer		net/minecraft/world/storage/loot/functions/ExplorationMap$Serializer	net/minecraft/class_111$class_113
+net/minecraft/world/level/storage/loot/functions/FillPlayerHead	net/minecraft/server/1_15_R1/LootItemFunctionFillPlayerHead	net/minecraft/world/storage/loot/functions/FillPlayerHead	net/minecraft/class_3668
+net/minecraft/world/level/storage/loot/functions/FillPlayerHead$Serializer		net/minecraft/world/storage/loot/functions/FillPlayerHead$Serializer	net/minecraft/class_3668$class_3669
+net/minecraft/world/level/storage/loot/functions/FunctionUserBuilder	net/minecraft/server/1_15_R1/LootItemFunctionUser	net/minecraft/world/storage/loot/ILootFunctionConsumer	net/minecraft/class_116
+net/minecraft/world/level/storage/loot/functions/LimitCount	net/minecraft/server/1_15_R1/LootItemFunctionLimitCount	net/minecraft/world/storage/loot/functions/LimitCount	net/minecraft/class_114
+net/minecraft/world/level/storage/loot/functions/LimitCount$Serializer		net/minecraft/world/storage/loot/functions/LimitCount$Serializer	net/minecraft/class_114$class_115
+net/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction	net/minecraft/server/1_15_R1/LootItemFunctionConditional	net/minecraft/world/storage/loot/LootFunction	net/minecraft/class_120
+net/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder		net/minecraft/world/storage/loot/LootFunction$Builder	net/minecraft/class_120$class_121
+net/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$DummyBuilder		net/minecraft/world/storage/loot/LootFunction$SimpleBuilder	net/minecraft/class_120$class_122
+net/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Serializer		net/minecraft/world/storage/loot/LootFunction$Serializer	net/minecraft/class_120$class_123
+net/minecraft/world/level/storage/loot/functions/LootItemFunction	net/minecraft/server/1_15_R1/LootItemFunction	net/minecraft/world/storage/loot/functions/ILootFunction	net/minecraft/class_117
+net/minecraft/world/level/storage/loot/functions/LootItemFunction$Builder		net/minecraft/world/storage/loot/functions/ILootFunction$IBuilder	net/minecraft/class_117$class_118
+net/minecraft/world/level/storage/loot/functions/LootItemFunction$Serializer		net/minecraft/world/storage/loot/functions/ILootFunction$Serializer	net/minecraft/class_117$class_119
+net/minecraft/world/level/storage/loot/functions/LootItemFunctions	net/minecraft/server/1_15_R1/LootItemFunctions	net/minecraft/world/storage/loot/functions/LootFunctionManager	net/minecraft/class_131
+net/minecraft/world/level/storage/loot/functions/LootItemFunctions$Serializer		net/minecraft/world/storage/loot/functions/LootFunctionManager$Serializer	net/minecraft/class_131$class_132
+net/minecraft/world/level/storage/loot/functions/LootingEnchantFunction	net/minecraft/server/1_15_R1/LootEnchantFunction	net/minecraft/world/storage/loot/functions/LootingEnchantBonus	net/minecraft/class_125
+net/minecraft/world/level/storage/loot/functions/LootingEnchantFunction$Builder		net/minecraft/world/storage/loot/functions/LootingEnchantBonus$Builder	net/minecraft/class_125$class_126
+net/minecraft/world/level/storage/loot/functions/LootingEnchantFunction$Serializer		net/minecraft/world/storage/loot/functions/LootingEnchantBonus$Serializer	net/minecraft/class_125$class_127
+net/minecraft/world/level/storage/loot/functions/SetAttributesFunction	net/minecraft/server/1_15_R1/LootItemFunctionSetAttribute	net/minecraft/world/storage/loot/functions/SetAttributes	net/minecraft/class_137
+net/minecraft/world/level/storage/loot/functions/SetAttributesFunction$Modifier		net/minecraft/world/storage/loot/functions/SetAttributes$Modifier	net/minecraft/class_137$class_138
+net/minecraft/world/level/storage/loot/functions/SetAttributesFunction$Serializer		net/minecraft/world/storage/loot/functions/SetAttributes$Serializer	net/minecraft/class_137$class_139
+net/minecraft/world/level/storage/loot/functions/SetContainerContents	net/minecraft/server/1_15_R1/LootItemFunctionSetContents	net/minecraft/world/storage/loot/functions/SetContents	net/minecraft/class_134
+net/minecraft/world/level/storage/loot/functions/SetContainerContents$Builder		net/minecraft/world/storage/loot/functions/SetContents$Builder	net/minecraft/class_134$class_135
+net/minecraft/world/level/storage/loot/functions/SetContainerContents$Serializer		net/minecraft/world/storage/loot/functions/SetContents$Serializer	net/minecraft/class_134$class_136
+net/minecraft/world/level/storage/loot/functions/SetContainerLootTable	net/minecraft/server/1_15_R1/LootItemFunctionSetTable	net/minecraft/world/storage/loot/functions/SetLootTable	net/minecraft/class_144
+net/minecraft/world/level/storage/loot/functions/SetContainerLootTable$Serializer		net/minecraft/world/storage/loot/functions/SetLootTable$Serializer	net/minecraft/class_144$class_145
+net/minecraft/world/level/storage/loot/functions/SetItemCountFunction	net/minecraft/server/1_15_R1/LootItemFunctionSetCount	net/minecraft/world/storage/loot/functions/SetCount	net/minecraft/class_141
+net/minecraft/world/level/storage/loot/functions/SetItemCountFunction$Serializer		net/minecraft/world/storage/loot/functions/SetCount$Serializer	net/minecraft/class_141$class_142
+net/minecraft/world/level/storage/loot/functions/SetItemDamageFunction	net/minecraft/server/1_15_R1/LootItemFunctionSetDamage	net/minecraft/world/storage/loot/functions/SetDamage	net/minecraft/class_149
+net/minecraft/world/level/storage/loot/functions/SetItemDamageFunction$Serializer		net/minecraft/world/storage/loot/functions/SetDamage$Serializer	net/minecraft/class_149$class_150
+net/minecraft/world/level/storage/loot/functions/SetLoreFunction	net/minecraft/server/1_15_R1/LootItemFunctionSetLore	net/minecraft/world/storage/loot/functions/SetLore	net/minecraft/class_3671
+net/minecraft/world/level/storage/loot/functions/SetLoreFunction$Serializer		net/minecraft/world/storage/loot/functions/SetLore$Serializer	net/minecraft/class_3671$class_3672
+net/minecraft/world/level/storage/loot/functions/SetNameFunction	net/minecraft/server/1_15_R1/LootItemFunctionSetName	net/minecraft/world/storage/loot/functions/SetName	net/minecraft/class_3670
+net/minecraft/world/level/storage/loot/functions/SetNameFunction$Serializer		net/minecraft/world/storage/loot/functions/SetName$Serializer	net/minecraft/class_3670$class_147
+net/minecraft/world/level/storage/loot/functions/SetNbtFunction	net/minecraft/server/1_15_R1/LootItemFunctionSetTag	net/minecraft/world/storage/loot/functions/SetNBT	net/minecraft/class_159
+net/minecraft/world/level/storage/loot/functions/SetNbtFunction$Serializer		net/minecraft/world/storage/loot/functions/SetNBT$Serializer	net/minecraft/class_159$class_160
+net/minecraft/world/level/storage/loot/functions/SetStewEffectFunction	net/minecraft/server/1_15_R1/LootItemFunctionSetStewEffect	net/minecraft/world/storage/loot/functions/SetStewEffect	net/minecraft/class_152
+net/minecraft/world/level/storage/loot/functions/SetStewEffectFunction$Builder		net/minecraft/world/storage/loot/functions/SetStewEffect$Builder	net/minecraft/class_152$class_153
+net/minecraft/world/level/storage/loot/functions/SetStewEffectFunction$Serializer		net/minecraft/world/storage/loot/functions/SetStewEffect$Serializer	net/minecraft/class_152$class_154
+net/minecraft/world/level/storage/loot/functions/SmeltItemFunction	net/minecraft/server/1_15_R1/LootItemFunctionSmelt	net/minecraft/world/storage/loot/functions/Smelt	net/minecraft/class_165
+net/minecraft/world/level/storage/loot/functions/SmeltItemFunction$Serializer		net/minecraft/world/storage/loot/functions/Smelt$Serializer	net/minecraft/class_165$class_166
+net/minecraft/world/level/storage/loot/parameters/LootContextParam	net/minecraft/server/1_15_R1/LootContextParameter	net/minecraft/world/storage/loot/LootParameter	net/minecraft/class_169
+net/minecraft/world/level/storage/loot/parameters/LootContextParamSet	net/minecraft/server/1_15_R1/LootContextParameterSet	net/minecraft/world/storage/loot/LootParameterSet	net/minecraft/class_176
+net/minecraft/world/level/storage/loot/parameters/LootContextParamSet$Builder		net/minecraft/world/storage/loot/LootParameterSet$Builder	net/minecraft/class_176$class_177
+net/minecraft/world/level/storage/loot/parameters/LootContextParamSets	net/minecraft/server/1_15_R1/LootContextParameterSets	net/minecraft/world/storage/loot/LootParameterSets	net/minecraft/class_173
+net/minecraft/world/level/storage/loot/parameters/LootContextParams	net/minecraft/server/1_15_R1/LootContextParameters	net/minecraft/world/storage/loot/LootParameters	net/minecraft/class_181
+net/minecraft/world/level/storage/loot/predicates/AlternativeLootItemCondition	net/minecraft/server/1_15_R1/LootItemConditionAlternative	net/minecraft/world/storage/loot/conditions/Alternative	net/minecraft/class_186
+net/minecraft/world/level/storage/loot/predicates/AlternativeLootItemCondition$Builder		net/minecraft/world/storage/loot/conditions/Alternative$Builder	net/minecraft/class_186$class_187
+net/minecraft/world/level/storage/loot/predicates/AlternativeLootItemCondition$Serializer		net/minecraft/world/storage/loot/conditions/Alternative$Serializer	net/minecraft/class_186$class_188
+net/minecraft/world/level/storage/loot/predicates/BonusLevelTableCondition	net/minecraft/server/1_15_R1/LootItemConditionTableBonus	net/minecraft/world/storage/loot/conditions/TableBonus	net/minecraft/class_182
+net/minecraft/world/level/storage/loot/predicates/BonusLevelTableCondition$Serializer		net/minecraft/world/storage/loot/conditions/TableBonus$Serializer	net/minecraft/class_182$class_183
+net/minecraft/world/level/storage/loot/predicates/ConditionReference	net/minecraft/server/1_15_R1/LootItemConditionReference	net/minecraft/world/storage/loot/conditions/Reference	net/minecraft/class_4568
+net/minecraft/world/level/storage/loot/predicates/ConditionReference$Serializer		net/minecraft/world/storage/loot/conditions/Reference$Serializer	net/minecraft/class_4568$class_4569
+net/minecraft/world/level/storage/loot/predicates/ConditionUserBuilder	net/minecraft/server/1_15_R1/LootItemConditionUser	net/minecraft/world/storage/loot/ILootConditionConsumer	net/minecraft/class_192
+net/minecraft/world/level/storage/loot/predicates/DamageSourceCondition	net/minecraft/server/1_15_R1/LootItemConditionDamageSourceProperties	net/minecraft/world/storage/loot/conditions/DamageSourceProperties	net/minecraft/class_190
+net/minecraft/world/level/storage/loot/predicates/DamageSourceCondition$Serializer		net/minecraft/world/storage/loot/conditions/DamageSourceProperties$Serializer	net/minecraft/class_190$class_191
+net/minecraft/world/level/storage/loot/predicates/EntityHasScoreCondition	net/minecraft/server/1_15_R1/LootItemConditionEntityScore	net/minecraft/world/storage/loot/conditions/EntityHasScore	net/minecraft/class_199
+net/minecraft/world/level/storage/loot/predicates/EntityHasScoreCondition$Serializer		net/minecraft/world/storage/loot/conditions/EntityHasScore$Serializer	net/minecraft/class_199$class_200
+net/minecraft/world/level/storage/loot/predicates/ExplosionCondition	net/minecraft/server/1_15_R1/LootItemConditionSurvivesExplosion	net/minecraft/world/storage/loot/conditions/SurvivesExplosion	net/minecraft/class_201
+net/minecraft/world/level/storage/loot/predicates/ExplosionCondition$Serializer		net/minecraft/world/storage/loot/conditions/SurvivesExplosion$Serializer	net/minecraft/class_201$class_202
+net/minecraft/world/level/storage/loot/predicates/InvertedLootItemCondition	net/minecraft/server/1_15_R1/LootItemConditionInverted	net/minecraft/world/storage/loot/conditions/Inverted	net/minecraft/class_207
+net/minecraft/world/level/storage/loot/predicates/InvertedLootItemCondition$Serializer		net/minecraft/world/storage/loot/conditions/Inverted$Serializer	net/minecraft/class_207$class_208
+net/minecraft/world/level/storage/loot/predicates/LocationCheck	net/minecraft/server/1_15_R1/LootItemConditionLocationCheck	net/minecraft/world/storage/loot/conditions/LocationCheck	net/minecraft/class_205
+net/minecraft/world/level/storage/loot/predicates/LocationCheck$Serializer		net/minecraft/world/storage/loot/conditions/LocationCheck$Serializer	net/minecraft/class_205$class_206
+net/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition	net/minecraft/server/1_15_R1/LootItemConditionBlockStateProperty	net/minecraft/world/storage/loot/conditions/BlockStateProperty	net/minecraft/class_212
+net/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition$Builder		net/minecraft/world/storage/loot/conditions/BlockStateProperty$Builder	net/minecraft/class_212$class_213
+net/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition$Serializer		net/minecraft/world/storage/loot/conditions/BlockStateProperty$Serializer	net/minecraft/class_212$class_214
+net/minecraft/world/level/storage/loot/predicates/LootItemCondition	net/minecraft/server/1_15_R1/LootItemCondition	net/minecraft/world/storage/loot/conditions/ILootCondition	net/minecraft/class_4570
+net/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder		net/minecraft/world/storage/loot/conditions/ILootCondition$IBuilder	net/minecraft/class_4570$class_210
+net/minecraft/world/level/storage/loot/predicates/LootItemCondition$Serializer		net/minecraft/world/storage/loot/conditions/ILootCondition$AbstractSerializer	net/minecraft/class_4570$class_211
+net/minecraft/world/level/storage/loot/predicates/LootItemConditions	net/minecraft/server/1_15_R1/LootItemConditions	net/minecraft/world/storage/loot/conditions/LootConditionManager	net/minecraft/class_217
+net/minecraft/world/level/storage/loot/predicates/LootItemConditions$Serializer		net/minecraft/world/storage/loot/conditions/LootConditionManager$Serializer	net/minecraft/class_217$class_218
+net/minecraft/world/level/storage/loot/predicates/LootItemEntityPropertyCondition	net/minecraft/server/1_15_R1/LootItemConditionEntityProperty	net/minecraft/world/storage/loot/conditions/EntityHasProperty	net/minecraft/class_215
+net/minecraft/world/level/storage/loot/predicates/LootItemEntityPropertyCondition$Serializer		net/minecraft/world/storage/loot/conditions/EntityHasProperty$Serializer	net/minecraft/class_215$class_216
+net/minecraft/world/level/storage/loot/predicates/LootItemKilledByPlayerCondition	net/minecraft/server/1_15_R1/LootItemConditionKilledByPlayer	net/minecraft/world/storage/loot/conditions/KilledByPlayer	net/minecraft/class_221
+net/minecraft/world/level/storage/loot/predicates/LootItemKilledByPlayerCondition$Serializer		net/minecraft/world/storage/loot/conditions/KilledByPlayer$Serializer	net/minecraft/class_221$class_222
+net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceCondition	net/minecraft/server/1_15_R1/LootItemConditionRandomChance	net/minecraft/world/storage/loot/conditions/RandomChance	net/minecraft/class_219
+net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceCondition$Serializer		net/minecraft/world/storage/loot/conditions/RandomChance$Serializer	net/minecraft/class_219$class_220
+net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceWithLootingCondition	net/minecraft/server/1_15_R1/LootItemConditionRandomChanceWithLooting	net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting	net/minecraft/class_225
+net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceWithLootingCondition$Serializer		net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting$Serializer	net/minecraft/class_225$class_226
+net/minecraft/world/level/storage/loot/predicates/MatchTool	net/minecraft/server/1_15_R1/LootItemConditionMatchTool	net/minecraft/world/storage/loot/conditions/MatchTool	net/minecraft/class_223
+net/minecraft/world/level/storage/loot/predicates/MatchTool$Serializer		net/minecraft/world/storage/loot/conditions/MatchTool$Serializer	net/minecraft/class_223$class_224
+net/minecraft/world/level/storage/loot/predicates/TimeCheck	net/minecraft/server/1_15_R1/LootItemConditionTimeCheck	net/minecraft/world/storage/loot/conditions/TimeCheck	net/minecraft/class_4571
+net/minecraft/world/level/storage/loot/predicates/TimeCheck$Serializer		net/minecraft/world/storage/loot/conditions/TimeCheck$Serializer	net/minecraft/class_4571$class_4572
+net/minecraft/world/level/storage/loot/predicates/WeatherCheck	net/minecraft/server/1_15_R1/LootItemConditionWeatherCheck	net/minecraft/world/storage/loot/conditions/WeatherCheck	net/minecraft/class_227
+net/minecraft/world/level/storage/loot/predicates/WeatherCheck$Serializer		net/minecraft/world/storage/loot/conditions/WeatherCheck$Serializer	net/minecraft/class_227$class_228
+net/minecraft/world/level/timers/FunctionCallback	net/minecraft/server/1_15_R1/CustomFunctionCallback	net/minecraft/command/TimedFunction	net/minecraft/class_231
+net/minecraft/world/level/timers/FunctionCallback$Serializer		net/minecraft/command/TimedFunction$Serializer	net/minecraft/class_231$class_232
+net/minecraft/world/level/timers/FunctionTagCallback	net/minecraft/server/1_15_R1/CustomFunctionCallbackTag	net/minecraft/command/TimedFunctionTag	net/minecraft/class_229
+net/minecraft/world/level/timers/FunctionTagCallback$Serializer		net/minecraft/command/TimedFunctionTag$Serializer	net/minecraft/class_229$class_230
+net/minecraft/world/level/timers/TimerCallback	net/minecraft/server/1_15_R1/CustomFunctionCallbackTimer	net/minecraft/command/ITimerCallback	net/minecraft/class_234
+net/minecraft/world/level/timers/TimerCallback$Serializer		net/minecraft/command/ITimerCallback$Serializer	net/minecraft/class_234$class_235
+net/minecraft/world/level/timers/TimerCallbacks	net/minecraft/server/1_15_R1/CustomFunctionCallbackTimers	net/minecraft/command/TimerCallbackSerializers	net/minecraft/class_233
+net/minecraft/world/level/timers/TimerQueue	net/minecraft/server/1_15_R1/CustomFunctionCallbackTimerQueue	net/minecraft/command/TimerCallbackManager	net/minecraft/class_236
+net/minecraft/world/level/timers/TimerQueue$Event		net/minecraft/command/TimerCallbackManager$Entry	net/minecraft/class_236$class_237
+net/minecraft/world/phys/AABB	net/minecraft/server/1_15_R1/AxisAlignedBB	net/minecraft/util/math/AxisAlignedBB	net/minecraft/class_238
+net/minecraft/world/phys/BlockHitResult	net/minecraft/server/1_15_R1/MovingObjectPositionBlock	net/minecraft/util/math/BlockRayTraceResult	net/minecraft/class_3965
+net/minecraft/world/phys/EntityHitResult	net/minecraft/server/1_15_R1/MovingObjectPositionEntity	net/minecraft/util/math/EntityRayTraceResult	net/minecraft/class_3966
+net/minecraft/world/phys/HitResult	net/minecraft/server/1_15_R1/MovingObjectPosition	net/minecraft/util/math/RayTraceResult	net/minecraft/class_239
+net/minecraft/world/phys/HitResult$Type	net/minecraft/server/1_15_R1/MovingObjectPosition$EnumMovingObjectType	net/minecraft/util/math/RayTraceResult$Type	net/minecraft/class_239$class_240
+net/minecraft/world/phys/Vec2	net/minecraft/server/1_15_R1/Vec2F	net/minecraft/util/math/Vec2f	net/minecraft/class_241
+net/minecraft/world/phys/Vec3	net/minecraft/server/1_15_R1/Vec3D	net/minecraft/util/math/Vec3d	net/minecraft/class_243
+net/minecraft/world/phys/shapes/ArrayVoxelShape	net/minecraft/server/1_15_R1/VoxelShapeArray	net/minecraft/util/math/shapes/VoxelShapeArray	net/minecraft/class_245
+net/minecraft/world/phys/shapes/BitSetDiscreteVoxelShape	net/minecraft/server/1_15_R1/VoxelShapeBitSet	net/minecraft/util/math/shapes/BitSetVoxelShapePart	net/minecraft/class_244
+net/minecraft/world/phys/shapes/BooleanOp	net/minecraft/server/1_15_R1/OperatorBoolean	net/minecraft/util/math/shapes/IBooleanFunction	net/minecraft/class_247
+net/minecraft/world/phys/shapes/CollisionContext	net/minecraft/server/1_15_R1/VoxelShapeCollision	net/minecraft/util/math/shapes/ISelectionContext	net/minecraft/class_3726
+net/minecraft/world/phys/shapes/CubePointRange	net/minecraft/server/1_15_R1/VoxelShapeCubePoint	net/minecraft/util/math/shapes/DoubleRangeList	net/minecraft/class_246
+net/minecraft/world/phys/shapes/CubeVoxelShape	net/minecraft/server/1_15_R1/VoxelShapeCube	net/minecraft/util/math/shapes/VoxelShapeCube	net/minecraft/class_249
+net/minecraft/world/phys/shapes/DiscreteCubeMerger	net/minecraft/server/1_15_R1/VoxelShapeCubeMerger	net/minecraft/util/math/shapes/DoubleCubeMergingList	net/minecraft/class_248
+net/minecraft/world/phys/shapes/DiscreteVoxelShape	net/minecraft/server/1_15_R1/VoxelShapeDiscrete	net/minecraft/util/math/shapes/VoxelShapePart	net/minecraft/class_251
+net/minecraft/world/phys/shapes/DiscreteVoxelShape$IntFaceConsumer		net/minecraft/util/math/shapes/VoxelShapePart$IFaceConsumer	net/minecraft/class_251$class_252
+net/minecraft/world/phys/shapes/DiscreteVoxelShape$IntLineConsumer		net/minecraft/util/math/shapes/VoxelShapePart$ILineConsumer	net/minecraft/class_251$class_253
+net/minecraft/world/phys/shapes/EntityCollisionContext	net/minecraft/server/1_15_R1/VoxelShapeCollisionEntity	net/minecraft/util/math/shapes/EntitySelectionContext	net/minecraft/class_3727
+net/minecraft/world/phys/shapes/EntityCollisionContext$1		net/minecraft/util/math/shapes/EntitySelectionContext$1	net/minecraft/class_3727$1
+net/minecraft/world/phys/shapes/IdenticalMerger	net/minecraft/server/1_15_R1/VoxelShapeMergerIdentical	net/minecraft/util/math/shapes/SimpleDoubleMerger	net/minecraft/class_250
+net/minecraft/world/phys/shapes/IndexMerger	net/minecraft/server/1_15_R1/VoxelShapeMerger	net/minecraft/util/math/shapes/IDoubleListMerger	net/minecraft/class_255
+net/minecraft/world/phys/shapes/IndexMerger$IndexConsumer		net/minecraft/util/math/shapes/IDoubleListMerger$IConsumer	net/minecraft/class_255$class_256
+net/minecraft/world/phys/shapes/IndirectMerger	net/minecraft/server/1_15_R1/VoxelShapeMergerList	net/minecraft/util/math/shapes/IndirectMerger	net/minecraft/class_254
+net/minecraft/world/phys/shapes/NonOverlappingMerger	net/minecraft/server/1_15_R1/VoxelShapeMergerDisjoint	net/minecraft/util/math/shapes/NonOverlappingMerger	net/minecraft/class_257
+net/minecraft/world/phys/shapes/OffsetDoubleList	net/minecraft/server/1_15_R1/DoubleListOffset	net/minecraft/util/math/shapes/OffsetDoubleList	net/minecraft/class_261
+net/minecraft/world/phys/shapes/Shapes	net/minecraft/server/1_15_R1/VoxelShapes	net/minecraft/util/math/shapes/VoxelShapes	net/minecraft/class_259
+net/minecraft/world/phys/shapes/Shapes$DoubleLineConsumer		net/minecraft/util/math/shapes/VoxelShapes$ILineConsumer	net/minecraft/class_259$class_260
+net/minecraft/world/phys/shapes/SliceShape	net/minecraft/server/1_15_R1/VoxelShapeSlice	net/minecraft/util/math/shapes/SplitVoxelShape	net/minecraft/class_263
+net/minecraft/world/phys/shapes/SubShape	net/minecraft/server/1_15_R1/VoxelShapeDiscreteSlice	net/minecraft/util/math/shapes/PartSplitVoxelShape	net/minecraft/class_262
+net/minecraft/world/phys/shapes/VoxelShape	net/minecraft/server/1_15_R1/VoxelShape	net/minecraft/util/math/shapes/VoxelShape	net/minecraft/class_265
+net/minecraft/world/scores/Objective	net/minecraft/server/1_15_R1/ScoreboardObjective	net/minecraft/scoreboard/ScoreObjective	net/minecraft/class_266
+net/minecraft/world/scores/PlayerTeam	net/minecraft/server/1_15_R1/ScoreboardTeam	net/minecraft/scoreboard/ScorePlayerTeam	net/minecraft/class_268
+net/minecraft/world/scores/Score	net/minecraft/server/1_15_R1/ScoreboardScore	net/minecraft/scoreboard/Score	net/minecraft/class_267
+net/minecraft/world/scores/Scoreboard	net/minecraft/server/1_15_R1/Scoreboard	net/minecraft/scoreboard/Scoreboard	net/minecraft/class_269
+net/minecraft/world/scores/ScoreboardSaveData	net/minecraft/server/1_15_R1/PersistentScoreboard	net/minecraft/scoreboard/ScoreboardSaveData	net/minecraft/class_273
+net/minecraft/world/scores/Team	net/minecraft/server/1_15_R1/ScoreboardTeamBase	net/minecraft/scoreboard/Team	net/minecraft/class_270
+net/minecraft/world/scores/Team$CollisionRule	net/minecraft/server/1_15_R1/ScoreboardTeamBase$EnumTeamPush	net/minecraft/scoreboard/Team$CollisionRule	net/minecraft/class_270$class_271
+net/minecraft/world/scores/Team$Visibility	net/minecraft/server/1_15_R1/ScoreboardTeamBase$EnumNameTagVisibility	net/minecraft/scoreboard/Team$Visible	net/minecraft/class_270$class_272
+net/minecraft/world/scores/criteria/ObjectiveCriteria	net/minecraft/server/1_15_R1/IScoreboardCriteria	net/minecraft/scoreboard/ScoreCriteria	net/minecraft/class_274
+net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType	net/minecraft/server/1_15_R1/IScoreboardCriteria$EnumScoreboardHealthDisplay	net/minecraft/scoreboard/ScoreCriteria$RenderType	net/minecraft/class_274$class_275`);

@@ -1,2750 +1,2750 @@
-updateClassIndex(`Spigot:#CA8A04	Searge:#B91C1C
-net/minecraft/server/1_13_R2/EnumChatFormat	net/minecraft/util/text/TextFormatting
-net/minecraft/server/1_13_R2/CrashReport	net/minecraft/crash/CrashReport
-net/minecraft/server/1_13_R2/CrashReportSystemDetails	net/minecraft/crash/CrashReportCategory
-net/minecraft/server/1_13_R2/CrashReportSystemDetails$CrashReportDetail	net/minecraft/crash/CrashReportCategory$Entry
-net/minecraft/server/1_13_R2/CrashReportCallable	net/minecraft/crash/ICrashReportDetail
-net/minecraft/server/1_13_R2/DefaultUncaughtExceptionHandler	net/minecraft/util/DefaultUncaughtExceptionHandler
-net/minecraft/server/1_13_R2/ThreadNamedUncaughtExceptionHandler	net/minecraft/util/DefaultUncaughtExceptionHandlerWithName
-net/minecraft/server/1_13_R2/ReportedException	net/minecraft/crash/ReportedException
-net/minecraft/server/1_13_R2/ResourceKeyInvalidException	net/minecraft/util/ResourceLocationException
-net/minecraft/server/1_13_R2/SharedConstants	net/minecraft/util/SharedConstants
-net/minecraft/server/1_13_R2/SystemUtils	net/minecraft/util/Util
-net/minecraft/server/1_13_R2/SystemUtils$IdentityHashingStrategy	net/minecraft/util/Util$IdentityStrategy
-net/minecraft/server/1_13_R2/SystemUtils$OS	net/minecraft/util/Util$EnumOS
-net/minecraft/server/1_13_R2/SystemUtils$OS$1	net/minecraft/util/Util$EnumOS$1
-net/minecraft/server/1_13_R2/SystemUtils$OS$2	net/minecraft/util/Util$EnumOS$2
-net/minecraft/server/1_13_R2/Advancement	net/minecraft/advancements/Advancement
-net/minecraft/server/1_13_R2/Advancement$SerializedAdvancement	net/minecraft/advancements/Advancement$Builder
-net/minecraft/server/1_13_R2/Advancements	net/minecraft/advancements/AdvancementList
-net/minecraft/server/1_13_R2/Advancements$a	net/minecraft/advancements/AdvancementList$Listener
-net/minecraft/server/1_13_R2/AdvancementProgress	net/minecraft/advancements/AdvancementProgress
-net/minecraft/server/1_13_R2/AdvancementProgress$a	net/minecraft/advancements/AdvancementProgress$Serializer
-net/minecraft/server/1_13_R2/AdvancementRewards	net/minecraft/advancements/AdvancementRewards
-net/minecraft/server/1_13_R2/AdvancementRewards$a	net/minecraft/advancements/AdvancementRewards$Builder
-net/minecraft/server/1_13_R2/AdvancementRewards$b	net/minecraft/advancements/AdvancementRewards$Deserializer
-net/minecraft/server/1_13_R2/CriterionTriggers	net/minecraft/advancements/CriteriaTriggers
-net/minecraft/server/1_13_R2/Criterion	net/minecraft/advancements/Criterion
-net/minecraft/server/1_13_R2/CriterionProgress	net/minecraft/advancements/CriterionProgress
-net/minecraft/server/1_13_R2/CriterionTrigger	net/minecraft/advancements/ICriterionTrigger
-net/minecraft/server/1_13_R2/CriterionTrigger$a	net/minecraft/advancements/ICriterionTrigger$Listener
-net/minecraft/server/1_13_R2/CriterionInstance	net/minecraft/advancements/ICriterionInstance
-net/minecraft/server/1_13_R2/AdvancementDisplay	net/minecraft/advancements/DisplayInfo
-net/minecraft/server/1_13_R2/AdvancementFrameType	net/minecraft/advancements/FrameType
-net/minecraft/server/1_13_R2/AdvancementRequirements	net/minecraft/advancements/RequirementsStrategy
-net/minecraft/server/1_13_R2/AdvancementTree	net/minecraft/advancements/AdvancementTreeNode
-net/minecraft/server/1_13_R2/CriterionInstanceAbstract	net/minecraft/advancements/criterion/AbstractCriterionInstance
-net/minecraft/server/1_13_R2/CriterionTriggerBredAnimals	net/minecraft/advancements/criterion/BredAnimalsTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerBredAnimals$a	net/minecraft/advancements/criterion/BredAnimalsTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerBredAnimals$b	net/minecraft/advancements/criterion/BredAnimalsTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerBrewedPotion	net/minecraft/advancements/criterion/BrewedPotionTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerBrewedPotion$a	net/minecraft/advancements/criterion/BrewedPotionTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerBrewedPotion$b	net/minecraft/advancements/criterion/BrewedPotionTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerChangedDimension	net/minecraft/advancements/criterion/ChangeDimensionTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerChangedDimension$a	net/minecraft/advancements/criterion/ChangeDimensionTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerChangedDimension$b	net/minecraft/advancements/criterion/ChangeDimensionTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerChanneledLightning	net/minecraft/advancements/criterion/ChanneledLightningTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerChanneledLightning$a	net/minecraft/advancements/criterion/ChanneledLightningTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerChanneledLightning$b	net/minecraft/advancements/criterion/ChanneledLightningTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerConstructBeacon	net/minecraft/advancements/criterion/ConstructBeaconTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerConstructBeacon$a	net/minecraft/advancements/criterion/ConstructBeaconTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerConstructBeacon$b	net/minecraft/advancements/criterion/ConstructBeaconTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerConsumeItem	net/minecraft/advancements/criterion/ConsumeItemTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerConsumeItem$a	net/minecraft/advancements/criterion/ConsumeItemTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerConsumeItem$b	net/minecraft/advancements/criterion/ConsumeItemTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerCuredZombieVillager	net/minecraft/advancements/criterion/CuredZombieVillagerTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerCuredZombieVillager$a	net/minecraft/advancements/criterion/CuredZombieVillagerTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerCuredZombieVillager$b	net/minecraft/advancements/criterion/CuredZombieVillagerTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionConditionDamage	net/minecraft/advancements/criterion/DamagePredicate
-net/minecraft/server/1_13_R2/CriterionConditionDamage$a	net/minecraft/advancements/criterion/DamagePredicate$Builder
-net/minecraft/server/1_13_R2/CriterionConditionDamageSource	net/minecraft/advancements/criterion/DamageSourcePredicate
-net/minecraft/server/1_13_R2/CriterionConditionDamageSource$a	net/minecraft/advancements/criterion/DamageSourcePredicate$Builder
-net/minecraft/server/1_13_R2/CriterionConditionDistance	net/minecraft/advancements/criterion/DistancePredicate
-net/minecraft/server/1_13_R2/CriterionTriggerEffectsChanged	net/minecraft/advancements/criterion/EffectsChangedTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerEffectsChanged$a	net/minecraft/advancements/criterion/EffectsChangedTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerEffectsChanged$b	net/minecraft/advancements/criterion/EffectsChangedTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerEnchantedItem	net/minecraft/advancements/criterion/EnchantedItemTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerEnchantedItem$a	net/minecraft/advancements/criterion/EnchantedItemTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerEnchantedItem$b	net/minecraft/advancements/criterion/EnchantedItemTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionConditionEnchantments	net/minecraft/advancements/criterion/EnchantmentPredicate
-net/minecraft/server/1_13_R2/CriterionTriggerEnterBlock	net/minecraft/advancements/criterion/EnterBlockTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerEnterBlock$a	net/minecraft/advancements/criterion/EnterBlockTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerEnterBlock$b	net/minecraft/advancements/criterion/EnterBlockTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerEntityHurtPlayer	net/minecraft/advancements/criterion/EntityHurtPlayerTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerEntityHurtPlayer$a	net/minecraft/advancements/criterion/EntityHurtPlayerTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerEntityHurtPlayer$b	net/minecraft/advancements/criterion/EntityHurtPlayerTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionConditionEntity	net/minecraft/advancements/criterion/EntityPredicate
-net/minecraft/server/1_13_R2/CriterionConditionEntity$a	net/minecraft/advancements/criterion/EntityPredicate$Builder
-net/minecraft/server/1_13_R2/CriterionConditionEntityType	net/minecraft/advancements/criterion/EntityTypePredicate
-net/minecraft/server/1_13_R2/CriterionTriggerFilledBucket	net/minecraft/advancements/criterion/FilledBucketTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerFilledBucket$a	net/minecraft/advancements/criterion/FilledBucketTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerFilledBucket$b	net/minecraft/advancements/criterion/FilledBucketTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerFishingRodHooked	net/minecraft/advancements/criterion/FishingRodHookedTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerFishingRodHooked$a	net/minecraft/advancements/criterion/FishingRodHookedTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerFishingRodHooked$b	net/minecraft/advancements/criterion/FishingRodHookedTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerImpossible	net/minecraft/advancements/criterion/ImpossibleTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerImpossible$a	net/minecraft/advancements/criterion/ImpossibleTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerInventoryChanged	net/minecraft/advancements/criterion/InventoryChangeTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerInventoryChanged$a	net/minecraft/advancements/criterion/InventoryChangeTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerInventoryChanged$b	net/minecraft/advancements/criterion/InventoryChangeTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerItemDurabilityChanged	net/minecraft/advancements/criterion/ItemDurabilityTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerItemDurabilityChanged$a	net/minecraft/advancements/criterion/ItemDurabilityTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerItemDurabilityChanged$b	net/minecraft/advancements/criterion/ItemDurabilityTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionConditionItem	net/minecraft/advancements/criterion/ItemPredicate
-net/minecraft/server/1_13_R2/CriterionConditionItem$a	net/minecraft/advancements/criterion/ItemPredicate$Builder
-net/minecraft/server/1_13_R2/CriterionTriggerKilled	net/minecraft/advancements/criterion/KilledTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerKilled$a	net/minecraft/advancements/criterion/KilledTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerKilled$b	net/minecraft/advancements/criterion/KilledTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerLevitation	net/minecraft/advancements/criterion/LevitationTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerLevitation$a	net/minecraft/advancements/criterion/LevitationTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerLevitation$b	net/minecraft/advancements/criterion/LevitationTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionConditionLocation	net/minecraft/advancements/criterion/LocationPredicate
-net/minecraft/server/1_13_R2/CriterionTriggerLocation	net/minecraft/advancements/criterion/PositionTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerLocation$a	net/minecraft/advancements/criterion/PositionTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerLocation$b	net/minecraft/advancements/criterion/PositionTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionConditionValue	net/minecraft/advancements/criterion/MinMaxBounds
-net/minecraft/server/1_13_R2/CriterionConditionValue$a	net/minecraft/advancements/criterion/MinMaxBounds$IBoundFactory
-net/minecraft/server/1_13_R2/CriterionConditionValue$b	net/minecraft/advancements/criterion/MinMaxBounds$IBoundReader
-net/minecraft/server/1_13_R2/CriterionConditionValue$FloatRange	net/minecraft/advancements/criterion/MinMaxBounds$FloatBound
-net/minecraft/server/1_13_R2/CriterionConditionValue$IntegerRange	net/minecraft/advancements/criterion/MinMaxBounds$IntBound
-net/minecraft/server/1_13_R2/CriterionConditionMobEffect	net/minecraft/advancements/criterion/MobEffectsPredicate
-net/minecraft/server/1_13_R2/CriterionConditionMobEffect$a	net/minecraft/advancements/criterion/MobEffectsPredicate$InstancePredicate
-net/minecraft/server/1_13_R2/CriterionConditionNBT	net/minecraft/advancements/criterion/NBTPredicate
-net/minecraft/server/1_13_R2/CriterionTriggerNetherTravel	net/minecraft/advancements/criterion/NetherTravelTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerNetherTravel$a	net/minecraft/advancements/criterion/NetherTravelTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerNetherTravel$b	net/minecraft/advancements/criterion/NetherTravelTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerPlacedBlock	net/minecraft/advancements/criterion/PlacedBlockTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerPlacedBlock$a	net/minecraft/advancements/criterion/PlacedBlockTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerPlacedBlock$b	net/minecraft/advancements/criterion/PlacedBlockTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerPlayerHurtEntity	net/minecraft/advancements/criterion/PlayerHurtEntityTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerPlayerHurtEntity$a	net/minecraft/advancements/criterion/PlayerHurtEntityTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerPlayerHurtEntity$b	net/minecraft/advancements/criterion/PlayerHurtEntityTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerRecipeUnlocked	net/minecraft/advancements/criterion/RecipeUnlockedTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerRecipeUnlocked$a	net/minecraft/advancements/criterion/RecipeUnlockedTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerRecipeUnlocked$b	net/minecraft/advancements/criterion/RecipeUnlockedTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerSummonedEntity	net/minecraft/advancements/criterion/SummonedEntityTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerSummonedEntity$a	net/minecraft/advancements/criterion/SummonedEntityTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerSummonedEntity$b	net/minecraft/advancements/criterion/SummonedEntityTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerTamedAnimal	net/minecraft/advancements/criterion/TameAnimalTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerTamedAnimal$a	net/minecraft/advancements/criterion/TameAnimalTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerTamedAnimal$b	net/minecraft/advancements/criterion/TameAnimalTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerTick	net/minecraft/advancements/criterion/TickTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerTick$a	net/minecraft/advancements/criterion/TickTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerTick$b	net/minecraft/advancements/criterion/TickTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerVillagerTrade	net/minecraft/advancements/criterion/VillagerTradeTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerVillagerTrade$a	net/minecraft/advancements/criterion/VillagerTradeTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerVillagerTrade$b	net/minecraft/advancements/criterion/VillagerTradeTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerUsedEnderEye	net/minecraft/advancements/criterion/UsedEnderEyeTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerUsedEnderEye$a	net/minecraft/advancements/criterion/UsedEnderEyeTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerUsedEnderEye$b	net/minecraft/advancements/criterion/UsedEnderEyeTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionTriggerUsedTotem	net/minecraft/advancements/criterion/UsedTotemTrigger
-net/minecraft/server/1_13_R2/CriterionTriggerUsedTotem$a	net/minecraft/advancements/criterion/UsedTotemTrigger$Listeners
-net/minecraft/server/1_13_R2/CriterionTriggerUsedTotem$b	net/minecraft/advancements/criterion/UsedTotemTrigger$Instance
-net/minecraft/server/1_13_R2/CriterionConditionRange	net/minecraft/advancements/criterion/MinMaxBoundsWrapped
-net/minecraft/server/1_13_R2/CommandExceptionProvider	net/minecraft/command/TranslatableExceptionProvider
-net/minecraft/server/1_13_R2/CustomFunction	net/minecraft/command/FunctionObject
-net/minecraft/server/1_13_R2/CustomFunction$a	net/minecraft/command/FunctionObject$CacheableFunction
-net/minecraft/server/1_13_R2/CustomFunction$b	net/minecraft/command/FunctionObject$CommandEntry
-net/minecraft/server/1_13_R2/CustomFunction$c	net/minecraft/command/FunctionObject$Entry
-net/minecraft/server/1_13_R2/CustomFunction$d	net/minecraft/command/FunctionObject$FunctionEntry
-net/minecraft/server/1_13_R2/CommandException	net/minecraft/command/CommandException
-net/minecraft/server/1_13_R2/ICommandListener	net/minecraft/command/ICommandSource
-net/minecraft/server/1_13_R2/CommandListenerWrapper	net/minecraft/command/CommandSource
-net/minecraft/server/1_13_R2/CommandDispatcher	net/minecraft/command/Commands
-net/minecraft/server/1_13_R2/CommandDispatcher$a	net/minecraft/command/Commands$IParser
-net/minecraft/server/1_13_R2/ICompletionProvider	net/minecraft/command/ISuggestionProvider
-net/minecraft/server/1_13_R2/ICompletionProvider$a	net/minecraft/command/ISuggestionProvider$Coordinates
-net/minecraft/server/1_13_R2/ArgumentChatFormat	net/minecraft/command/arguments/ColorArgument
-net/minecraft/server/1_13_R2/ArgumentChatComponent	net/minecraft/command/arguments/ComponentArgument
-net/minecraft/server/1_13_R2/ArgumentDimension	net/minecraft/command/arguments/DimensionArgument
-net/minecraft/server/1_13_R2/ArgumentAnchor	net/minecraft/command/arguments/EntityAnchorArgument
-net/minecraft/server/1_13_R2/ArgumentAnchor$Anchor	net/minecraft/command/arguments/EntityAnchorArgument$Type
-net/minecraft/server/1_13_R2/ArgumentEntity	net/minecraft/command/arguments/EntityArgument
-net/minecraft/server/1_13_R2/ArgumentEntity$a	net/minecraft/command/arguments/EntityArgument$Serializer
-net/minecraft/server/1_13_R2/ArgumentEntitySummon	net/minecraft/command/arguments/EntitySummonArgument
-net/minecraft/server/1_13_R2/ArgumentProfile	net/minecraft/command/arguments/GameProfileArgument
-net/minecraft/server/1_13_R2/ArgumentProfile$a	net/minecraft/command/arguments/GameProfileArgument$IProfileProvider
-net/minecraft/server/1_13_R2/ArgumentProfile$b	net/minecraft/command/arguments/GameProfileArgument$ProfileProvider
-net/minecraft/server/1_13_R2/ArgumentEnchantment	net/minecraft/command/arguments/EnchantmentArgument
-net/minecraft/server/1_13_R2/ArgumentChat	net/minecraft/command/arguments/MessageArgument
-net/minecraft/server/1_13_R2/ArgumentChat$a	net/minecraft/command/arguments/MessageArgument$Message
-net/minecraft/server/1_13_R2/ArgumentChat$b	net/minecraft/command/arguments/MessageArgument$Part
-net/minecraft/server/1_13_R2/ArgumentMobEffect	net/minecraft/command/arguments/PotionArgument
-net/minecraft/server/1_13_R2/ArgumentNBTTag	net/minecraft/command/arguments/NBTArgument
-net/minecraft/server/1_13_R2/ArgumentNBTKey	net/minecraft/command/arguments/NBTPathArgument
-net/minecraft/server/1_13_R2/ArgumentNBTKey$a	net/minecraft/command/arguments/NBTPathArgument$ChildNode
-net/minecraft/server/1_13_R2/ArgumentNBTKey$b	net/minecraft/command/arguments/NBTPathArgument$ElementNode
-net/minecraft/server/1_13_R2/ArgumentNBTKey$c	net/minecraft/command/arguments/NBTPathArgument$NBTPath
-net/minecraft/server/1_13_R2/ArgumentNBTKey$d	net/minecraft/command/arguments/NBTPathArgument$INode
-net/minecraft/server/1_13_R2/ArgumentScoreboardObjective	net/minecraft/command/arguments/ObjectiveArgument
-net/minecraft/server/1_13_R2/ArgumentScoreboardCriteria	net/minecraft/command/arguments/ObjectiveCriteriaArgument
-net/minecraft/server/1_13_R2/ArgumentMathOperation	net/minecraft/command/arguments/OperationArgument
-net/minecraft/server/1_13_R2/ArgumentMathOperation$a	net/minecraft/command/arguments/OperationArgument$IOperation
-net/minecraft/server/1_13_R2/ArgumentMathOperation$b	net/minecraft/command/arguments/OperationArgument$Operation
-net/minecraft/server/1_13_R2/ArgumentParticle	net/minecraft/command/arguments/ParticleArgument
-net/minecraft/server/1_13_R2/ArgumentCriterionValue	net/minecraft/command/arguments/RangeArgument
-net/minecraft/server/1_13_R2/ArgumentCriterionValue$a	net/minecraft/command/arguments/RangeArgument$FloatRange
-net/minecraft/server/1_13_R2/ArgumentCriterionValue$a$a	net/minecraft/command/arguments/RangeArgument$FloatRange$Serializer
-net/minecraft/server/1_13_R2/ArgumentCriterionValue$b	net/minecraft/command/arguments/RangeArgument$IntRange
-net/minecraft/server/1_13_R2/ArgumentCriterionValue$b$a	net/minecraft/command/arguments/RangeArgument$IntRange$Serializer
-net/minecraft/server/1_13_R2/ArgumentCriterionValue$c	net/minecraft/command/arguments/RangeArgument$Serializer
-net/minecraft/server/1_13_R2/ArgumentMinecraftKeyRegistered	net/minecraft/command/arguments/ResourceLocationArgument
-net/minecraft/server/1_13_R2/ArgumentScoreholder	net/minecraft/command/arguments/ScoreHolderArgument
-net/minecraft/server/1_13_R2/ArgumentScoreholder$a	net/minecraft/command/arguments/ScoreHolderArgument$INameProvider
-net/minecraft/server/1_13_R2/ArgumentScoreholder$b	net/minecraft/command/arguments/ScoreHolderArgument$NameProvider
-net/minecraft/server/1_13_R2/ArgumentScoreholder$c	net/minecraft/command/arguments/ScoreHolderArgument$Serializer
-net/minecraft/server/1_13_R2/ArgumentScoreboardSlot	net/minecraft/command/arguments/ScoreboardSlotArgument
-net/minecraft/server/1_13_R2/ArgumentInventorySlot	net/minecraft/command/arguments/SlotArgument
-net/minecraft/server/1_13_R2/ArgumentScoreboardTeam	net/minecraft/command/arguments/TeamArgument
-net/minecraft/server/1_13_R2/ArgumentTileLocation	net/minecraft/command/arguments/BlockStateInput
-net/minecraft/server/1_13_R2/ArgumentBlockPredicate	net/minecraft/command/arguments/BlockPredicateArgument
-net/minecraft/server/1_13_R2/ArgumentBlockPredicate$a	net/minecraft/command/arguments/BlockPredicateArgument$BlockPredicate
-net/minecraft/server/1_13_R2/ArgumentBlockPredicate$b	net/minecraft/command/arguments/BlockPredicateArgument$IResult
-net/minecraft/server/1_13_R2/ArgumentBlockPredicate$c	net/minecraft/command/arguments/BlockPredicateArgument$TagPredicate
-net/minecraft/server/1_13_R2/ArgumentTile	net/minecraft/command/arguments/BlockStateArgument
-net/minecraft/server/1_13_R2/ArgumentBlock	net/minecraft/command/arguments/BlockStateParser
-net/minecraft/server/1_13_R2/ArgumentPosition	net/minecraft/command/arguments/BlockPosArgument
-net/minecraft/server/1_13_R2/ArgumentVec2I	net/minecraft/command/arguments/ColumnPosArgument
-net/minecraft/server/1_13_R2/ArgumentVec2I$a	net/minecraft/command/arguments/ColumnPosArgument$ColumnPos
-net/minecraft/server/1_13_R2/IVectorPosition	net/minecraft/command/arguments/ILocationArgument
-net/minecraft/server/1_13_R2/ArgumentVectorPosition	net/minecraft/command/arguments/LocalLocationArgument
-net/minecraft/server/1_13_R2/ArgumentRotation	net/minecraft/command/arguments/RotationArgument
-net/minecraft/server/1_13_R2/ArgumentRotationAxis	net/minecraft/command/arguments/SwizzleArgument
-net/minecraft/server/1_13_R2/ArgumentVec2	net/minecraft/command/arguments/Vec2Argument
-net/minecraft/server/1_13_R2/ArgumentVec3	net/minecraft/command/arguments/Vec3Argument
-net/minecraft/server/1_13_R2/ArgumentParserPosition	net/minecraft/command/arguments/LocationPart
-net/minecraft/server/1_13_R2/VectorPosition	net/minecraft/command/arguments/LocationInput
-net/minecraft/server/1_13_R2/ArgumentTag	net/minecraft/command/arguments/FunctionArgument
-net/minecraft/server/1_13_R2/ArgumentTag$a	net/minecraft/command/arguments/FunctionArgument$IResult
-net/minecraft/server/1_13_R2/ArgumentItemStack	net/minecraft/command/arguments/ItemArgument
-net/minecraft/server/1_13_R2/ArgumentPredicateItemStack	net/minecraft/command/arguments/ItemInput
-net/minecraft/server/1_13_R2/ArgumentParserItemStack	net/minecraft/command/arguments/ItemParser
-net/minecraft/server/1_13_R2/ArgumentItemPredicate	net/minecraft/command/arguments/ItemPredicateArgument
-net/minecraft/server/1_13_R2/ArgumentItemPredicate$a	net/minecraft/command/arguments/ItemPredicateArgument$ItemPredicate
-net/minecraft/server/1_13_R2/ArgumentItemPredicate$b	net/minecraft/command/arguments/ItemPredicateArgument$IResult
-net/minecraft/server/1_13_R2/ArgumentItemPredicate$c	net/minecraft/command/arguments/ItemPredicateArgument$TagPredicate
-net/minecraft/server/1_13_R2/EntitySelector	net/minecraft/command/arguments/EntitySelector
-net/minecraft/server/1_13_R2/ArgumentParserSelector	net/minecraft/command/arguments/EntitySelectorParser
-net/minecraft/server/1_13_R2/PlayerSelector	net/minecraft/command/arguments/EntityOptions
-net/minecraft/server/1_13_R2/PlayerSelector$a	net/minecraft/command/arguments/EntityOptions$Filter
-net/minecraft/server/1_13_R2/PlayerSelector$b	net/minecraft/command/arguments/EntityOptions$IOptionHandler
-net/minecraft/server/1_13_R2/ArgumentSerializer	net/minecraft/command/arguments/IArgumentSerializer
-net/minecraft/server/1_13_R2/ArgumentRegistry	net/minecraft/command/arguments/ArgumentTypes
-net/minecraft/server/1_13_R2/ArgumentRegistry$a	net/minecraft/command/arguments/ArgumentTypes$Entry
-net/minecraft/server/1_13_R2/ArgumentSerializerVoid	net/minecraft/command/arguments/ArgumentSerializer
-net/minecraft/server/1_13_R2/CompletionProviders	net/minecraft/command/arguments/SuggestionProviders
-net/minecraft/server/1_13_R2/CompletionProviders$a	net/minecraft/command/arguments/SuggestionProviders$Wrapper
-net/minecraft/server/1_13_R2/ArgumentSerializers	net/minecraft/command/arguments/serializers/BrigadierSerializers
-net/minecraft/server/1_13_R2/ArgumentSerializerDouble	net/minecraft/command/arguments/serializers/DoubleSerializer
-net/minecraft/server/1_13_R2/ArgumentSerializerFloat	net/minecraft/command/arguments/serializers/FloatSerializer
-net/minecraft/server/1_13_R2/ArgumentSerializerInteger	net/minecraft/command/arguments/serializers/IntSerializer
-net/minecraft/server/1_13_R2/ArgumentSerializerString	net/minecraft/command/arguments/serializers/StringSerializer
-net/minecraft/server/1_13_R2/EnumAxisCycle	net/minecraft/util/AxisRotation
-net/minecraft/server/1_13_R2/EnumAxisCycle$1	net/minecraft/util/AxisRotation$1
-net/minecraft/server/1_13_R2/EnumAxisCycle$2	net/minecraft/util/AxisRotation$2
-net/minecraft/server/1_13_R2/EnumAxisCycle$3	net/minecraft/util/AxisRotation$3
-net/minecraft/server/1_13_R2/BlockPosition	net/minecraft/util/math/BlockPos
-net/minecraft/server/1_13_R2/BlockPosition$1	net/minecraft/util/math/BlockPos$1
-net/minecraft/server/1_13_R2/BlockPosition$2	net/minecraft/util/math/BlockPos$2
-net/minecraft/server/1_13_R2/BlockPosition$MutableBlockPosition	net/minecraft/util/math/BlockPos$MutableBlockPos
-net/minecraft/server/1_13_R2/BlockPosition$PooledBlockPosition	net/minecraft/util/math/BlockPos$PooledMutableBlockPos
-net/minecraft/server/1_13_R2/ISourceBlock	net/minecraft/dispenser/IBlockSource
-net/minecraft/server/1_13_R2/SourceBlock	net/minecraft/dispenser/BlockSourceImpl
-net/minecraft/server/1_13_R2/DispenseBehaviorItem	net/minecraft/dispenser/BehaviorDefaultDispenseItem
-net/minecraft/server/1_13_R2/RegistryBlocks	net/minecraft/util/registry/RegistryNamespacedDefaultedByKey
-net/minecraft/server/1_13_R2/EnumDirection	net/minecraft/util/EnumFacing
-net/minecraft/server/1_13_R2/EnumDirection$EnumAxis	net/minecraft/util/EnumFacing$Axis
-net/minecraft/server/1_13_R2/EnumDirection$EnumAxis$1	net/minecraft/util/EnumFacing$Axis$1
-net/minecraft/server/1_13_R2/EnumDirection$EnumAxis$2	net/minecraft/util/EnumFacing$Axis$2
-net/minecraft/server/1_13_R2/EnumDirection$EnumAxis$3	net/minecraft/util/EnumFacing$Axis$3
-net/minecraft/server/1_13_R2/EnumDirection$EnumAxisDirection	net/minecraft/util/EnumFacing$AxisDirection
-net/minecraft/server/1_13_R2/EnumDirection$EnumDirectionLimit	net/minecraft/util/EnumFacing$Plane
-net/minecraft/server/1_13_R2/EnumDirection8	net/minecraft/util/EnumDirection8
-net/minecraft/server/1_13_R2/IDispenseBehavior	net/minecraft/dispenser/IBehaviorDispenseItem
-net/minecraft/server/1_13_R2/Registry	net/minecraft/util/IObjectIntIterable
-net/minecraft/server/1_13_R2/RegistryBlockID	net/minecraft/util/ObjectIntIdentityMap
-net/minecraft/server/1_13_R2/ILocationSource	net/minecraft/dispenser/ILocatableSource
-net/minecraft/server/1_13_R2/ISource	net/minecraft/dispenser/ILocation
-net/minecraft/server/1_13_R2/MapGeneratorUtils	net/minecraft/util/MapPopulator
-net/minecraft/server/1_13_R2/RegistryMaterials	net/minecraft/util/registry/RegistryNamespaced
-net/minecraft/server/1_13_R2/NonNullList	net/minecraft/util/NonNullList
-net/minecraft/server/1_13_R2/IPosition	net/minecraft/dispenser/IPosition
-net/minecraft/server/1_13_R2/Position	net/minecraft/dispenser/PositionImpl
-net/minecraft/server/1_13_R2/IRegistry	net/minecraft/util/registry/IRegistry
-net/minecraft/server/1_13_R2/Vector3f	net/minecraft/util/math/Rotations
-net/minecraft/server/1_13_R2/BaseBlockPosition	net/minecraft/util/math/Vec3i
-net/minecraft/server/1_13_R2/ParticleParamBlock	net/minecraft/particles/BlockParticleData
-net/minecraft/server/1_13_R2/ParticleParamBlock$1	net/minecraft/particles/BlockParticleData$1
-net/minecraft/server/1_13_R2/ParticleParamRedstone	net/minecraft/particles/RedstoneParticleData
-net/minecraft/server/1_13_R2/ParticleParamRedstone$1	net/minecraft/particles/RedstoneParticleData$1
-net/minecraft/server/1_13_R2/ParticleParamItem	net/minecraft/particles/ItemParticleData
-net/minecraft/server/1_13_R2/ParticleParamItem$1	net/minecraft/particles/ItemParticleData$1
-net/minecraft/server/1_13_R2/ParticleParam	net/minecraft/particles/IParticleData
-net/minecraft/server/1_13_R2/ParticleParam$a	net/minecraft/particles/IParticleData$IDeserializer
-net/minecraft/server/1_13_R2/Particle	net/minecraft/particles/ParticleType
-net/minecraft/server/1_13_R2/Particles	net/minecraft/init/Particles
-net/minecraft/server/1_13_R2/ParticleType	net/minecraft/particles/BasicParticleType
-net/minecraft/server/1_13_R2/ParticleType$1	net/minecraft/particles/BasicParticleType$1
-net/minecraft/server/1_13_R2/DebugReportGenerator	net/minecraft/data/DataGenerator
-net/minecraft/server/1_13_R2/DebugReportProvider	net/minecraft/data/IDataProvider
-net/minecraft/server/1_13_R2/HashCache	net/minecraft/data/DirectoryCache
-net/minecraft/server/1_13_R2/DebugReportAdvancement	net/minecraft/data/AdvancementProvider
-net/minecraft/server/1_13_R2/DebugReportAdvancementAdventure	net/minecraft/data/advancements/AdventureAdvancements
-net/minecraft/server/1_13_R2/DebugReportAdvancementHusbandry	net/minecraft/data/advancements/HusbandryAdvancements
-net/minecraft/server/1_13_R2/DebugReportAdvancementNether	net/minecraft/data/advancements/NetherAdvancements
-net/minecraft/server/1_13_R2/DebugReportAdvancementStory	net/minecraft/data/advancements/StoryAdvancements
-net/minecraft/server/1_13_R2/DebugReportAdvancementTheEnd	net/minecraft/data/advancements/EndAdvancements
-net/minecraft/server/1_13_R2/DebugReportBlocks	net/minecraft/data/BlockListReport
-net/minecraft/server/1_13_R2/DebugReportCommands	net/minecraft/data/CommandsReport
-net/minecraft/server/1_13_R2/DebugReportItems	net/minecraft/data/ItemListReport
-net/minecraft/server/1_13_R2/DebugReportRecipeData	net/minecraft/data/IFinishedRecipe
-net/minecraft/server/1_13_R2/DebugReportRecipe	net/minecraft/data/RecipeProvider
-net/minecraft/server/1_13_R2/DebugReportRecipeShaped	net/minecraft/data/ShapedRecipeBuilder
-net/minecraft/server/1_13_R2/DebugReportRecipeShaped$a	net/minecraft/data/ShapedRecipeBuilder$Result
-net/minecraft/server/1_13_R2/DebugReportRecipeShapeless	net/minecraft/data/ShapelessRecipeBuilder
-net/minecraft/server/1_13_R2/DebugReportRecipeShapeless$a	net/minecraft/data/ShapelessRecipeBuilder$Result
-net/minecraft/server/1_13_R2/DebugReportRecipeFurnace	net/minecraft/data/FurnaceRecipeBuilder
-net/minecraft/server/1_13_R2/DebugReportRecipeFurnace$a	net/minecraft/data/FurnaceRecipeBuilder$Result
-net/minecraft/server/1_13_R2/DebugReportRecipeSpecial	net/minecraft/data/CustomRecipeBuilder
-net/minecraft/server/1_13_R2/DebugReportRecipeSpecial$1	net/minecraft/data/CustomRecipeBuilder$1
-net/minecraft/server/1_13_R2/DebugReportNBT	net/minecraft/data/NBTToSNBTConverter
-net/minecraft/server/1_13_R2/DebugReportMojangson	net/minecraft/data/SNBTToNBTConverter
-net/minecraft/server/1_13_R2/DebugReportTagsBlock	net/minecraft/data/BlockTagsProvider
-net/minecraft/server/1_13_R2/DebugReportFluidTags	net/minecraft/data/FluidTagsProvider
-net/minecraft/server/1_13_R2/DebugReportTagsItem	net/minecraft/data/ItemTagsProvider
-net/minecraft/server/1_13_R2/DebugReportTags	net/minecraft/data/TagsProvider
-net/minecraft/server/1_13_R2/LocaleLanguage	net/minecraft/util/text/translation/LanguageMap
-net/minecraft/server/1_13_R2/NBTTagByteArray	net/minecraft/nbt/NBTTagByteArray
-net/minecraft/server/1_13_R2/NBTTagByte	net/minecraft/nbt/NBTTagByte
-net/minecraft/server/1_13_R2/NBTList	net/minecraft/nbt/NBTTagCollection
-net/minecraft/server/1_13_R2/NBTTagCompound	net/minecraft/nbt/NBTTagCompound
-net/minecraft/server/1_13_R2/NBTTagDouble	net/minecraft/nbt/NBTTagDouble
-net/minecraft/server/1_13_R2/NBTTagEnd	net/minecraft/nbt/NBTTagEnd
-net/minecraft/server/1_13_R2/NBTTagFloat	net/minecraft/nbt/NBTTagFloat
-net/minecraft/server/1_13_R2/NBTTagIntArray	net/minecraft/nbt/NBTTagIntArray
-net/minecraft/server/1_13_R2/NBTTagInt	net/minecraft/nbt/NBTTagInt
-net/minecraft/server/1_13_R2/NBTTagList	net/minecraft/nbt/NBTTagList
-net/minecraft/server/1_13_R2/NBTTagLongArray	net/minecraft/nbt/NBTTagLongArray
-net/minecraft/server/1_13_R2/NBTTagLong	net/minecraft/nbt/NBTTagLong
-net/minecraft/server/1_13_R2/NBTReadLimiter	net/minecraft/nbt/NBTSizeTracker
-net/minecraft/server/1_13_R2/NBTReadLimiter$1	net/minecraft/nbt/NBTSizeTracker$1
-net/minecraft/server/1_13_R2/NBTCompressedStreamTools	net/minecraft/nbt/CompressedStreamTools
-net/minecraft/server/1_13_R2/DynamicOpsNBT	net/minecraft/nbt/NBTDynamicOps
-net/minecraft/server/1_13_R2/GameProfileSerializer	net/minecraft/nbt/NBTUtil
-net/minecraft/server/1_13_R2/NBTNumber	net/minecraft/nbt/NBTPrimitive
-net/minecraft/server/1_13_R2/NBTTagShort	net/minecraft/nbt/NBTTagShort
-net/minecraft/server/1_13_R2/NBTTagString	net/minecraft/nbt/NBTTagString
-net/minecraft/server/1_13_R2/NBTBase	net/minecraft/nbt/INBTBase
-net/minecraft/server/1_13_R2/MojangsonParser	net/minecraft/nbt/JsonToNBT
-net/minecraft/server/1_13_R2/PacketEncryptionHandler	net/minecraft/network/NettyEncryptionTranslator
-net/minecraft/server/1_13_R2/PacketDecrypter	net/minecraft/network/NettyEncryptingDecoder
-net/minecraft/server/1_13_R2/PacketEncrypter	net/minecraft/network/NettyEncryptingEncoder
-net/minecraft/server/1_13_R2/PacketDecompressor	net/minecraft/network/NettyCompressionDecoder
-net/minecraft/server/1_13_R2/PacketCompressor	net/minecraft/network/NettyCompressionEncoder
-net/minecraft/server/1_13_R2/NetworkManager	net/minecraft/network/NetworkManager
-net/minecraft/server/1_13_R2/NetworkManager$QueuedPacket	net/minecraft/network/NetworkManager$QueuedPacket
-net/minecraft/server/1_13_R2/EnumProtocol	net/minecraft/network/EnumConnectionState
-net/minecraft/server/1_13_R2/EnumProtocol$1	net/minecraft/network/EnumConnectionState$1
-net/minecraft/server/1_13_R2/EnumProtocol$2	net/minecraft/network/EnumConnectionState$2
-net/minecraft/server/1_13_R2/EnumProtocol$3	net/minecraft/network/EnumConnectionState$3
-net/minecraft/server/1_13_R2/EnumProtocol$4	net/minecraft/network/EnumConnectionState$4
-net/minecraft/server/1_13_R2/PacketDataSerializer	net/minecraft/network/PacketBuffer
-net/minecraft/server/1_13_R2/PacketDecoder	net/minecraft/network/NettyPacketDecoder
-net/minecraft/server/1_13_R2/PacketEncoder	net/minecraft/network/NettyPacketEncoder
-net/minecraft/server/1_13_R2/PacketListener	net/minecraft/network/INetHandler
-net/minecraft/server/1_13_R2/SkipEncodeException	net/minecraft/network/SkipableEncoderException
-net/minecraft/server/1_13_R2/PacketSplitter	net/minecraft/network/NettyVarint21FrameDecoder
-net/minecraft/server/1_13_R2/PacketPrepender	net/minecraft/network/NettyVarint21FrameEncoder
-net/minecraft/server/1_13_R2/ChatBaseComponent	net/minecraft/util/text/TextComponentBase
-net/minecraft/server/1_13_R2/ChatMessageType	net/minecraft/util/text/ChatType
-net/minecraft/server/1_13_R2/ChatClickable	net/minecraft/util/text/event/ClickEvent
-net/minecraft/server/1_13_R2/ChatClickable$EnumClickAction	net/minecraft/util/text/event/ClickEvent$Action
-net/minecraft/server/1_13_R2/IChatBaseComponent	net/minecraft/util/text/ITextComponent
-net/minecraft/server/1_13_R2/IChatBaseComponent$ChatSerializer	net/minecraft/util/text/ITextComponent$Serializer
-net/minecraft/server/1_13_R2/ChatComponentUtils	net/minecraft/util/text/TextComponentUtils
-net/minecraft/server/1_13_R2/ChatHoverable	net/minecraft/util/text/event/HoverEvent
-net/minecraft/server/1_13_R2/ChatHoverable$EnumHoverAction	net/minecraft/util/text/event/HoverEvent$Action
-net/minecraft/server/1_13_R2/ChatComponentKeybind	net/minecraft/util/text/TextComponentKeybind
-net/minecraft/server/1_13_R2/ChatComponentScore	net/minecraft/util/text/TextComponentScore
-net/minecraft/server/1_13_R2/ChatComponentSelector	net/minecraft/util/text/TextComponentSelector
-net/minecraft/server/1_13_R2/ChatModifier	net/minecraft/util/text/Style
-net/minecraft/server/1_13_R2/ChatModifier$1	net/minecraft/util/text/Style$1
-net/minecraft/server/1_13_R2/ChatModifier$ChatModifierSerializer	net/minecraft/util/text/Style$Serializer
-net/minecraft/server/1_13_R2/ChatComponentText	net/minecraft/util/text/TextComponentString
-net/minecraft/server/1_13_R2/ChatMessage	net/minecraft/util/text/TextComponentTranslation
-net/minecraft/server/1_13_R2/ChatMessageException	net/minecraft/util/text/TextComponentTranslationFormatException
-net/minecraft/server/1_13_R2/Packet	net/minecraft/network/Packet
-net/minecraft/server/1_13_R2/EnumProtocolDirection	net/minecraft/network/EnumPacketDirection
-net/minecraft/server/1_13_R2/PlayerConnectionUtils	net/minecraft/network/PacketThreadUtil
-net/minecraft/server/1_13_R2/PacketListenerPlayOut	net/minecraft/network/play/INetHandlerPlayClient
-net/minecraft/server/1_13_R2/PacketPlayOutSpawnEntity	net/minecraft/network/play/server/SPacketSpawnObject
-net/minecraft/server/1_13_R2/PacketPlayOutSpawnEntityExperienceOrb	net/minecraft/network/play/server/SPacketSpawnExperienceOrb
-net/minecraft/server/1_13_R2/PacketPlayOutSpawnEntityWeather	net/minecraft/network/play/server/SPacketSpawnGlobalEntity
-net/minecraft/server/1_13_R2/PacketPlayOutSpawnEntityLiving	net/minecraft/network/play/server/SPacketSpawnMob
-net/minecraft/server/1_13_R2/PacketPlayOutSpawnEntityPainting	net/minecraft/network/play/server/SPacketSpawnPainting
-net/minecraft/server/1_13_R2/PacketPlayOutNamedEntitySpawn	net/minecraft/network/play/server/SPacketSpawnPlayer
-net/minecraft/server/1_13_R2/PacketPlayOutAnimation	net/minecraft/network/play/server/SPacketAnimation
-net/minecraft/server/1_13_R2/PacketPlayOutStatistic	net/minecraft/network/play/server/SPacketStatistics
-net/minecraft/server/1_13_R2/PacketPlayOutBlockBreakAnimation	net/minecraft/network/play/server/SPacketBlockBreakAnim
-net/minecraft/server/1_13_R2/PacketPlayOutTileEntityData	net/minecraft/network/play/server/SPacketUpdateTileEntity
-net/minecraft/server/1_13_R2/PacketPlayOutBlockAction	net/minecraft/network/play/server/SPacketBlockAction
-net/minecraft/server/1_13_R2/PacketPlayOutBlockChange	net/minecraft/network/play/server/SPacketBlockChange
-net/minecraft/server/1_13_R2/PacketPlayOutBoss	net/minecraft/network/play/server/SPacketUpdateBossInfo
-net/minecraft/server/1_13_R2/PacketPlayOutBoss$Action	net/minecraft/network/play/server/SPacketUpdateBossInfo$Operation
-net/minecraft/server/1_13_R2/PacketPlayOutServerDifficulty	net/minecraft/network/play/server/SPacketServerDifficulty
-net/minecraft/server/1_13_R2/PacketPlayOutChat	net/minecraft/network/play/server/SPacketChat
-net/minecraft/server/1_13_R2/PacketPlayOutMultiBlockChange	net/minecraft/network/play/server/SPacketMultiBlockChange
-net/minecraft/server/1_13_R2/PacketPlayOutMultiBlockChange$MultiBlockChangeInfo	net/minecraft/network/play/server/SPacketMultiBlockChange$BlockUpdateData
-net/minecraft/server/1_13_R2/PacketPlayOutTabComplete	net/minecraft/network/play/server/SPacketTabComplete
-net/minecraft/server/1_13_R2/PacketPlayOutCommands	net/minecraft/network/play/server/SPacketCommandList
-net/minecraft/server/1_13_R2/PacketPlayOutCommands$a	net/minecraft/network/play/server/SPacketCommandList$Entry
-net/minecraft/server/1_13_R2/PacketPlayOutTransaction	net/minecraft/network/play/server/SPacketConfirmTransaction
-net/minecraft/server/1_13_R2/PacketPlayOutCloseWindow	net/minecraft/network/play/server/SPacketCloseWindow
-net/minecraft/server/1_13_R2/PacketPlayOutOpenWindow	net/minecraft/network/play/server/SPacketOpenWindow
-net/minecraft/server/1_13_R2/PacketPlayOutWindowItems	net/minecraft/network/play/server/SPacketWindowItems
-net/minecraft/server/1_13_R2/PacketPlayOutWindowData	net/minecraft/network/play/server/SPacketWindowProperty
-net/minecraft/server/1_13_R2/PacketPlayOutSetSlot	net/minecraft/network/play/server/SPacketSetSlot
-net/minecraft/server/1_13_R2/PacketPlayOutSetCooldown	net/minecraft/network/play/server/SPacketCooldown
-net/minecraft/server/1_13_R2/PacketPlayOutCustomPayload	net/minecraft/network/play/server/SPacketCustomPayload
-net/minecraft/server/1_13_R2/PacketPlayOutCustomSoundEffect	net/minecraft/network/play/server/SPacketCustomSound
-net/minecraft/server/1_13_R2/PacketPlayOutKickDisconnect	net/minecraft/network/play/server/SPacketDisconnect
-net/minecraft/server/1_13_R2/PacketPlayOutEntityStatus	net/minecraft/network/play/server/SPacketEntityStatus
-net/minecraft/server/1_13_R2/PacketPlayOutExplosion	net/minecraft/network/play/server/SPacketExplosion
-net/minecraft/server/1_13_R2/PacketPlayOutUnloadChunk	net/minecraft/network/play/server/SPacketUnloadChunk
-net/minecraft/server/1_13_R2/PacketPlayOutGameStateChange	net/minecraft/network/play/server/SPacketChangeGameState
-net/minecraft/server/1_13_R2/PacketPlayOutKeepAlive	net/minecraft/network/play/server/SPacketKeepAlive
-net/minecraft/server/1_13_R2/PacketPlayOutMapChunk	net/minecraft/network/play/server/SPacketChunkData
-net/minecraft/server/1_13_R2/PacketPlayOutWorldEvent	net/minecraft/network/play/server/SPacketEffect
-net/minecraft/server/1_13_R2/PacketPlayOutWorldParticles	net/minecraft/network/play/server/SPacketParticles
-net/minecraft/server/1_13_R2/PacketPlayOutLogin	net/minecraft/network/play/server/SPacketJoinGame
-net/minecraft/server/1_13_R2/PacketPlayOutMap	net/minecraft/network/play/server/SPacketMaps
-net/minecraft/server/1_13_R2/PacketPlayOutEntity	net/minecraft/network/play/server/SPacketEntity
-net/minecraft/server/1_13_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMove	net/minecraft/network/play/server/SPacketEntity$RelMove
-net/minecraft/server/1_13_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMoveLook	net/minecraft/network/play/server/SPacketEntity$Move
-net/minecraft/server/1_13_R2/PacketPlayOutEntity$PacketPlayOutEntityLook	net/minecraft/network/play/server/SPacketEntity$Look
-net/minecraft/server/1_13_R2/PacketPlayOutVehicleMove	net/minecraft/network/play/server/SPacketMoveVehicle
-net/minecraft/server/1_13_R2/PacketPlayOutOpenSignEditor	net/minecraft/network/play/server/SPacketSignEditorOpen
-net/minecraft/server/1_13_R2/PacketPlayOutAutoRecipe	net/minecraft/network/play/server/SPacketPlaceGhostRecipe
-net/minecraft/server/1_13_R2/PacketPlayOutAbilities	net/minecraft/network/play/server/SPacketPlayerAbilities
-net/minecraft/server/1_13_R2/PacketPlayOutCombatEvent	net/minecraft/network/play/server/SPacketCombatEvent
-net/minecraft/server/1_13_R2/PacketPlayOutCombatEvent$EnumCombatEventType	net/minecraft/network/play/server/SPacketCombatEvent$Event
-net/minecraft/server/1_13_R2/PacketPlayOutPlayerInfo	net/minecraft/network/play/server/SPacketPlayerListItem
-net/minecraft/server/1_13_R2/PacketPlayOutPlayerInfo$EnumPlayerInfoAction	net/minecraft/network/play/server/SPacketPlayerListItem$Action
-net/minecraft/server/1_13_R2/PacketPlayOutPlayerInfo$PlayerInfoData	net/minecraft/network/play/server/SPacketPlayerListItem$AddPlayerData
-net/minecraft/server/1_13_R2/PacketPlayOutLookAt	net/minecraft/network/play/server/SPacketPlayerLook
-net/minecraft/server/1_13_R2/PacketPlayOutPosition	net/minecraft/network/play/server/SPacketPlayerPosLook
-net/minecraft/server/1_13_R2/PacketPlayOutPosition$EnumPlayerTeleportFlags	net/minecraft/network/play/server/SPacketPlayerPosLook$EnumFlags
-net/minecraft/server/1_13_R2/PacketPlayOutBed	net/minecraft/network/play/server/SPacketUseBed
-net/minecraft/server/1_13_R2/PacketPlayOutRecipes	net/minecraft/network/play/server/SPacketRecipeBook
-net/minecraft/server/1_13_R2/PacketPlayOutRecipes$Action	net/minecraft/network/play/server/SPacketRecipeBook$State
-net/minecraft/server/1_13_R2/PacketPlayOutEntityDestroy	net/minecraft/network/play/server/SPacketDestroyEntities
-net/minecraft/server/1_13_R2/PacketPlayOutRemoveEntityEffect	net/minecraft/network/play/server/SPacketRemoveEntityEffect
-net/minecraft/server/1_13_R2/PacketPlayOutResourcePackSend	net/minecraft/network/play/server/SPacketResourcePackSend
-net/minecraft/server/1_13_R2/PacketPlayOutRespawn	net/minecraft/network/play/server/SPacketRespawn
-net/minecraft/server/1_13_R2/PacketPlayOutEntityHeadRotation	net/minecraft/network/play/server/SPacketEntityHeadLook
-net/minecraft/server/1_13_R2/PacketPlayOutSelectAdvancementTab	net/minecraft/network/play/server/SPacketSelectAdvancementsTab
-net/minecraft/server/1_13_R2/PacketPlayOutWorldBorder	net/minecraft/network/play/server/SPacketWorldBorder
-net/minecraft/server/1_13_R2/PacketPlayOutWorldBorder$EnumWorldBorderAction	net/minecraft/network/play/server/SPacketWorldBorder$Action
-net/minecraft/server/1_13_R2/PacketPlayOutCamera	net/minecraft/network/play/server/SPacketCamera
-net/minecraft/server/1_13_R2/PacketPlayOutHeldItemSlot	net/minecraft/network/play/server/SPacketHeldItemChange
-net/minecraft/server/1_13_R2/PacketPlayOutScoreboardDisplayObjective	net/minecraft/network/play/server/SPacketDisplayObjective
-net/minecraft/server/1_13_R2/PacketPlayOutEntityMetadata	net/minecraft/network/play/server/SPacketEntityMetadata
-net/minecraft/server/1_13_R2/PacketPlayOutAttachEntity	net/minecraft/network/play/server/SPacketEntityAttach
-net/minecraft/server/1_13_R2/PacketPlayOutEntityVelocity	net/minecraft/network/play/server/SPacketEntityVelocity
-net/minecraft/server/1_13_R2/PacketPlayOutEntityEquipment	net/minecraft/network/play/server/SPacketEntityEquipment
-net/minecraft/server/1_13_R2/PacketPlayOutExperience	net/minecraft/network/play/server/SPacketSetExperience
-net/minecraft/server/1_13_R2/PacketPlayOutUpdateHealth	net/minecraft/network/play/server/SPacketUpdateHealth
-net/minecraft/server/1_13_R2/PacketPlayOutScoreboardObjective	net/minecraft/network/play/server/SPacketScoreboardObjective
-net/minecraft/server/1_13_R2/PacketPlayOutMount	net/minecraft/network/play/server/SPacketSetPassengers
-net/minecraft/server/1_13_R2/PacketPlayOutScoreboardTeam	net/minecraft/network/play/server/SPacketTeams
-net/minecraft/server/1_13_R2/PacketPlayOutScoreboardScore	net/minecraft/network/play/server/SPacketUpdateScore
-net/minecraft/server/1_13_R2/PacketPlayOutSpawnPosition	net/minecraft/network/play/server/SPacketSpawnPosition
-net/minecraft/server/1_13_R2/PacketPlayOutUpdateTime	net/minecraft/network/play/server/SPacketTimeUpdate
-net/minecraft/server/1_13_R2/PacketPlayOutTitle	net/minecraft/network/play/server/SPacketTitle
-net/minecraft/server/1_13_R2/PacketPlayOutTitle$EnumTitleAction	net/minecraft/network/play/server/SPacketTitle$Type
-net/minecraft/server/1_13_R2/PacketPlayOutNamedSoundEffect	net/minecraft/network/play/server/SPacketSoundEffect
-net/minecraft/server/1_13_R2/PacketPlayOutStopSound	net/minecraft/network/play/server/SPacketStopSound
-net/minecraft/server/1_13_R2/PacketPlayOutPlayerListHeaderFooter	net/minecraft/network/play/server/SPacketPlayerListHeaderFooter
-net/minecraft/server/1_13_R2/PacketPlayOutNBTQuery	net/minecraft/network/play/server/SPacketNBTQueryResponse
-net/minecraft/server/1_13_R2/PacketPlayOutCollect	net/minecraft/network/play/server/SPacketCollectItem
-net/minecraft/server/1_13_R2/PacketPlayOutEntityTeleport	net/minecraft/network/play/server/SPacketEntityTeleport
-net/minecraft/server/1_13_R2/PacketPlayOutAdvancements	net/minecraft/network/play/server/SPacketAdvancementInfo
-net/minecraft/server/1_13_R2/PacketPlayOutUpdateAttributes	net/minecraft/network/play/server/SPacketEntityProperties
-net/minecraft/server/1_13_R2/PacketPlayOutUpdateAttributes$AttributeSnapshot	net/minecraft/network/play/server/SPacketEntityProperties$Snapshot
-net/minecraft/server/1_13_R2/PacketPlayOutEntityEffect	net/minecraft/network/play/server/SPacketEntityEffect
-net/minecraft/server/1_13_R2/PacketPlayOutRecipeUpdate	net/minecraft/network/play/server/SPacketUpdateRecipes
-net/minecraft/server/1_13_R2/PacketPlayOutTags	net/minecraft/network/play/server/SPacketTagsList
-net/minecraft/server/1_13_R2/PacketListenerPlayIn	net/minecraft/network/play/INetHandlerPlayServer
-net/minecraft/server/1_13_R2/PacketPlayInTeleportAccept	net/minecraft/network/play/client/CPacketConfirmTeleport
-net/minecraft/server/1_13_R2/PacketPlayInTileNBTQuery	net/minecraft/network/play/client/CPacketNBTQueryTileEntity
-net/minecraft/server/1_13_R2/PacketPlayInChat	net/minecraft/network/play/client/CPacketChatMessage
-net/minecraft/server/1_13_R2/PacketPlayInClientCommand	net/minecraft/network/play/client/CPacketClientStatus
-net/minecraft/server/1_13_R2/PacketPlayInClientCommand$EnumClientCommand	net/minecraft/network/play/client/CPacketClientStatus$State
-net/minecraft/server/1_13_R2/PacketPlayInSettings	net/minecraft/network/play/client/CPacketClientSettings
-net/minecraft/server/1_13_R2/PacketPlayInTabComplete	net/minecraft/network/play/client/CPacketTabComplete
-net/minecraft/server/1_13_R2/PacketPlayInTransaction	net/minecraft/network/play/client/CPacketConfirmTransaction
-net/minecraft/server/1_13_R2/PacketPlayInEnchantItem	net/minecraft/network/play/client/CPacketEnchantItem
-net/minecraft/server/1_13_R2/PacketPlayInWindowClick	net/minecraft/network/play/client/CPacketClickWindow
-net/minecraft/server/1_13_R2/PacketPlayInCloseWindow	net/minecraft/network/play/client/CPacketCloseWindow
-net/minecraft/server/1_13_R2/PacketPlayInCustomPayload	net/minecraft/network/play/client/CPacketCustomPayload
-net/minecraft/server/1_13_R2/PacketPlayInBEdit	net/minecraft/network/play/client/CPacketEditBook
-net/minecraft/server/1_13_R2/PacketPlayInEntityNBTQuery	net/minecraft/network/play/client/CPacketNBTQueryEntity
-net/minecraft/server/1_13_R2/PacketPlayInUseEntity	net/minecraft/network/play/client/CPacketUseEntity
-net/minecraft/server/1_13_R2/PacketPlayInUseEntity$EnumEntityUseAction	net/minecraft/network/play/client/CPacketUseEntity$Action
-net/minecraft/server/1_13_R2/PacketPlayInKeepAlive	net/minecraft/network/play/client/CPacketKeepAlive
-net/minecraft/server/1_13_R2/PacketPlayInFlying	net/minecraft/network/play/client/CPacketPlayer
-net/minecraft/server/1_13_R2/PacketPlayInFlying$PacketPlayInPosition	net/minecraft/network/play/client/CPacketPlayer$Position
-net/minecraft/server/1_13_R2/PacketPlayInFlying$PacketPlayInPositionLook	net/minecraft/network/play/client/CPacketPlayer$PositionRotation
-net/minecraft/server/1_13_R2/PacketPlayInFlying$PacketPlayInLook	net/minecraft/network/play/client/CPacketPlayer$Rotation
-net/minecraft/server/1_13_R2/PacketPlayInVehicleMove	net/minecraft/network/play/client/CPacketVehicleMove
-net/minecraft/server/1_13_R2/PacketPlayInBoatMove	net/minecraft/network/play/client/CPacketSteerBoat
-net/minecraft/server/1_13_R2/PacketPlayInPickItem	net/minecraft/network/play/client/CPacketPickItem
-net/minecraft/server/1_13_R2/PacketPlayInAutoRecipe	net/minecraft/network/play/client/CPacketPlaceRecipe
-net/minecraft/server/1_13_R2/PacketPlayInAbilities	net/minecraft/network/play/client/CPacketPlayerAbilities
-net/minecraft/server/1_13_R2/PacketPlayInBlockDig	net/minecraft/network/play/client/CPacketPlayerDigging
-net/minecraft/server/1_13_R2/PacketPlayInBlockDig$EnumPlayerDigType	net/minecraft/network/play/client/CPacketPlayerDigging$Action
-net/minecraft/server/1_13_R2/PacketPlayInEntityAction	net/minecraft/network/play/client/CPacketEntityAction
-net/minecraft/server/1_13_R2/PacketPlayInEntityAction$EnumPlayerAction	net/minecraft/network/play/client/CPacketEntityAction$Action
-net/minecraft/server/1_13_R2/PacketPlayInSteerVehicle	net/minecraft/network/play/client/CPacketInput
-net/minecraft/server/1_13_R2/PacketPlayInRecipeDisplayed	net/minecraft/network/play/client/CPacketRecipeInfo
-net/minecraft/server/1_13_R2/PacketPlayInRecipeDisplayed$Status	net/minecraft/network/play/client/CPacketRecipeInfo$Purpose
-net/minecraft/server/1_13_R2/PacketPlayInItemName	net/minecraft/network/play/client/CPacketRenameItem
-net/minecraft/server/1_13_R2/PacketPlayInResourcePackStatus	net/minecraft/network/play/client/CPacketResourcePackStatus
-net/minecraft/server/1_13_R2/PacketPlayInResourcePackStatus$EnumResourcePackStatus	net/minecraft/network/play/client/CPacketResourcePackStatus$Action
-net/minecraft/server/1_13_R2/PacketPlayInAdvancements	net/minecraft/network/play/client/CPacketSeenAdvancements
-net/minecraft/server/1_13_R2/PacketPlayInAdvancements$Status	net/minecraft/network/play/client/CPacketSeenAdvancements$Action
-net/minecraft/server/1_13_R2/PacketPlayInTrSel	net/minecraft/network/play/client/CPacketSelectTrade
-net/minecraft/server/1_13_R2/PacketPlayInBeacon	net/minecraft/network/play/client/CPacketUpdateBeacon
-net/minecraft/server/1_13_R2/PacketPlayInHeldItemSlot	net/minecraft/network/play/client/CPacketHeldItemChange
-net/minecraft/server/1_13_R2/PacketPlayInSetCommandBlock	net/minecraft/network/play/client/CPacketUpdateCommandBlock
-net/minecraft/server/1_13_R2/PacketPlayInSetCommandMinecart	net/minecraft/network/play/client/CPacketUpdateCommandMinecart
-net/minecraft/server/1_13_R2/PacketPlayInSetCreativeSlot	net/minecraft/network/play/client/CPacketCreativeInventoryAction
-net/minecraft/server/1_13_R2/PacketPlayInStruct	net/minecraft/network/play/client/CPacketUpdateStructureBlock
-net/minecraft/server/1_13_R2/PacketPlayInUpdateSign	net/minecraft/network/play/client/CPacketUpdateSign
-net/minecraft/server/1_13_R2/PacketPlayInArmAnimation	net/minecraft/network/play/client/CPacketAnimation
-net/minecraft/server/1_13_R2/PacketPlayInSpectate	net/minecraft/network/play/client/CPacketSpectate
-net/minecraft/server/1_13_R2/PacketPlayInUseItem	net/minecraft/network/play/client/CPacketPlayerTryUseItemOnBlock
-net/minecraft/server/1_13_R2/PacketPlayInBlockPlace	net/minecraft/network/play/client/CPacketPlayerTryUseItem
-net/minecraft/server/1_13_R2/PacketHandshakingInSetProtocol	net/minecraft/network/handshake/client/CPacketHandshake
-net/minecraft/server/1_13_R2/PacketHandshakingInListener	net/minecraft/network/handshake/INetHandlerHandshakeServer
-net/minecraft/server/1_13_R2/PacketLoginOutListener	net/minecraft/network/login/INetHandlerLoginClient
-net/minecraft/server/1_13_R2/PacketLoginOutCustomPayload	net/minecraft/network/login/server/SPacketCustomPayloadLogin
-net/minecraft/server/1_13_R2/PacketLoginOutSuccess	net/minecraft/network/login/server/SPacketLoginSuccess
-net/minecraft/server/1_13_R2/PacketLoginOutEncryptionBegin	net/minecraft/network/login/server/SPacketEncryptionRequest
-net/minecraft/server/1_13_R2/PacketLoginOutSetCompression	net/minecraft/network/login/server/SPacketEnableCompression
-net/minecraft/server/1_13_R2/PacketLoginOutDisconnect	net/minecraft/network/login/server/SPacketDisconnectLogin
-net/minecraft/server/1_13_R2/PacketLoginInListener	net/minecraft/network/login/INetHandlerLoginServer
-net/minecraft/server/1_13_R2/PacketLoginInCustomPayload	net/minecraft/network/login/client/CPacketCustomPayloadLogin
-net/minecraft/server/1_13_R2/PacketLoginInStart	net/minecraft/network/login/client/CPacketLoginStart
-net/minecraft/server/1_13_R2/PacketLoginInEncryptionBegin	net/minecraft/network/login/client/CPacketEncryptionResponse
-net/minecraft/server/1_13_R2/PacketStatusOutListener	net/minecraft/network/status/INetHandlerStatusClient
-net/minecraft/server/1_13_R2/PacketStatusOutPong	net/minecraft/network/status/server/SPacketPong
-net/minecraft/server/1_13_R2/PacketStatusOutServerInfo	net/minecraft/network/status/server/SPacketServerInfo
-net/minecraft/server/1_13_R2/ServerPing	net/minecraft/network/ServerStatusResponse
-net/minecraft/server/1_13_R2/ServerPing$ServerPingPlayerSample	net/minecraft/network/ServerStatusResponse$Players
-net/minecraft/server/1_13_R2/ServerPing$ServerPingPlayerSample$Serializer	net/minecraft/network/ServerStatusResponse$Players$Serializer
-net/minecraft/server/1_13_R2/ServerPing$Serializer	net/minecraft/network/ServerStatusResponse$Serializer
-net/minecraft/server/1_13_R2/ServerPing$ServerData	net/minecraft/network/ServerStatusResponse$Version
-net/minecraft/server/1_13_R2/ServerPing$ServerData$Serializer	net/minecraft/network/ServerStatusResponse$Version$Serializer
-net/minecraft/server/1_13_R2/PacketStatusInListener	net/minecraft/network/status/INetHandlerStatusServer
-net/minecraft/server/1_13_R2/PacketStatusInPing	net/minecraft/network/status/client/CPacketPing
-net/minecraft/server/1_13_R2/PacketStatusInStart	net/minecraft/network/status/client/CPacketServerQuery
-net/minecraft/server/1_13_R2/DataWatcherObject	net/minecraft/network/datasync/DataParameter
-net/minecraft/server/1_13_R2/DataWatcherSerializer	net/minecraft/network/datasync/DataSerializer
-net/minecraft/server/1_13_R2/DataWatcherRegistry	net/minecraft/network/datasync/DataSerializers
-net/minecraft/server/1_13_R2/DataWatcherRegistry$1	net/minecraft/network/datasync/DataSerializers$1
-net/minecraft/server/1_13_R2/DataWatcherRegistry$2	net/minecraft/network/datasync/DataSerializers$10
-net/minecraft/server/1_13_R2/DataWatcherRegistry$3	net/minecraft/network/datasync/DataSerializers$11
-net/minecraft/server/1_13_R2/DataWatcherRegistry$4	net/minecraft/network/datasync/DataSerializers$12
-net/minecraft/server/1_13_R2/DataWatcherRegistry$5	net/minecraft/network/datasync/DataSerializers$13
-net/minecraft/server/1_13_R2/DataWatcherRegistry$6	net/minecraft/network/datasync/DataSerializers$14
-net/minecraft/server/1_13_R2/DataWatcherRegistry$7	net/minecraft/network/datasync/DataSerializers$15
-net/minecraft/server/1_13_R2/DataWatcherRegistry$8	net/minecraft/network/datasync/DataSerializers$16
-net/minecraft/server/1_13_R2/DataWatcherRegistry$9	net/minecraft/network/datasync/DataSerializers$2
-net/minecraft/server/1_13_R2/DataWatcherRegistry$10	net/minecraft/network/datasync/DataSerializers$3
-net/minecraft/server/1_13_R2/DataWatcherRegistry$11	net/minecraft/network/datasync/DataSerializers$4
-net/minecraft/server/1_13_R2/DataWatcherRegistry$12	net/minecraft/network/datasync/DataSerializers$5
-net/minecraft/server/1_13_R2/DataWatcherRegistry$13	net/minecraft/network/datasync/DataSerializers$6
-net/minecraft/server/1_13_R2/DataWatcherRegistry$14	net/minecraft/network/datasync/DataSerializers$7
-net/minecraft/server/1_13_R2/DataWatcherRegistry$15	net/minecraft/network/datasync/DataSerializers$8
-net/minecraft/server/1_13_R2/DataWatcherRegistry$16	net/minecraft/network/datasync/DataSerializers$9
-net/minecraft/server/1_13_R2/DataWatcher	net/minecraft/network/datasync/EntityDataManager
-net/minecraft/server/1_13_R2/DataWatcher$Item	net/minecraft/network/datasync/EntityDataManager$DataEntry
-net/minecraft/server/1_13_R2/AutoRecipeAbstract	net/minecraft/item/crafting/IRecipePlacer
-net/minecraft/server/1_13_R2/AutoRecipe	net/minecraft/item/crafting/ServerRecipePlacer
-net/minecraft/server/1_13_R2/AutoRecipeFurnace	net/minecraft/item/crafting/ServerRecipePlacerFurnace
-net/minecraft/server/1_13_R2/MinecraftKey	net/minecraft/util/ResourceLocation
-net/minecraft/server/1_13_R2/MinecraftKey$a	net/minecraft/util/ResourceLocation$Serializer
-net/minecraft/server/1_13_R2/DispenseBehaviorProjectile	net/minecraft/dispenser/BehaviorProjectileDispense
-net/minecraft/server/1_13_R2/DispenserRegistry	net/minecraft/init/Bootstrap
-net/minecraft/server/1_13_R2/DispenserRegistry$1	net/minecraft/init/Bootstrap$1
-net/minecraft/server/1_13_R2/DispenserRegistry$2	net/minecraft/init/Bootstrap$10
-net/minecraft/server/1_13_R2/DispenserRegistry$3	net/minecraft/init/Bootstrap$11
-net/minecraft/server/1_13_R2/DispenserRegistry$4	net/minecraft/init/Bootstrap$12
-net/minecraft/server/1_13_R2/DispenserRegistry$5	net/minecraft/init/Bootstrap$13
-net/minecraft/server/1_13_R2/DispenserRegistry$6	net/minecraft/init/Bootstrap$14
-net/minecraft/server/1_13_R2/DispenserRegistry$7	net/minecraft/init/Bootstrap$15
-net/minecraft/server/1_13_R2/DispenserRegistry$8	net/minecraft/init/Bootstrap$16
-net/minecraft/server/1_13_R2/DispenserRegistry$9	net/minecraft/init/Bootstrap$17
-net/minecraft/server/1_13_R2/DispenserRegistry$a	net/minecraft/init/Bootstrap$BehaviorDispenseBoat
-net/minecraft/server/1_13_R2/DispenserRegistry$b	net/minecraft/init/Bootstrap$DispensePlaceContext
-net/minecraft/server/1_13_R2/DispenserRegistry$DispenseBehaviorMaybe	net/minecraft/init/Bootstrap$BehaviorDispenseOptional
-net/minecraft/server/1_13_R2/DispenserRegistry$d	net/minecraft/init/Bootstrap$BehaviorDispenseShulkerBox
-net/minecraft/server/1_13_R2/DispenserRegistry$10	net/minecraft/init/Bootstrap$18
-net/minecraft/server/1_13_R2/DispenserRegistry$11	net/minecraft/init/Bootstrap$19
-net/minecraft/server/1_13_R2/DispenserRegistry$12	net/minecraft/init/Bootstrap$2
-net/minecraft/server/1_13_R2/DispenserRegistry$14	net/minecraft/init/Bootstrap$3
-net/minecraft/server/1_13_R2/DispenserRegistry$15	net/minecraft/init/Bootstrap$4
-net/minecraft/server/1_13_R2/DispenserRegistry$16	net/minecraft/init/Bootstrap$5
-net/minecraft/server/1_13_R2/DispenserRegistry$17	net/minecraft/init/Bootstrap$6
-net/minecraft/server/1_13_R2/DispenserRegistry$18	net/minecraft/init/Bootstrap$7
-net/minecraft/server/1_13_R2/DispenserRegistry$18$1	net/minecraft/init/Bootstrap$7$1
-net/minecraft/server/1_13_R2/DispenserRegistry$19	net/minecraft/init/Bootstrap$8
-net/minecraft/server/1_13_R2/DispenserRegistry$19$1	net/minecraft/init/Bootstrap$8$1
-net/minecraft/server/1_13_R2/DispenserRegistry$20	net/minecraft/init/Bootstrap$9
-net/minecraft/server/1_13_R2/ServerCommand	net/minecraft/server/dedicated/PendingCommand
-net/minecraft/server/1_13_R2/DebugOutputStream	net/minecraft/server/DebugLoggingPrintStream
-net/minecraft/server/1_13_R2/EULA	net/minecraft/server/ServerEula
-net/minecraft/server/1_13_R2/RedirectStream	net/minecraft/util/LoggingPrintStream
-net/minecraft/server/1_13_R2/AdvancementDataPlayer	net/minecraft/advancements/PlayerAdvancements
-net/minecraft/server/1_13_R2/AdvancementDataPlayer$1	net/minecraft/advancements/PlayerAdvancements$1
-net/minecraft/server/1_13_R2/CancelledPacketHandleException	net/minecraft/network/ThreadQuickExitException
-net/minecraft/server/1_13_R2/AdvancementDataWorld	net/minecraft/advancements/AdvancementManager
-net/minecraft/server/1_13_R2/CustomFunctionData	net/minecraft/advancements/FunctionManager
-net/minecraft/server/1_13_R2/CustomFunctionData$a	net/minecraft/advancements/FunctionManager$QueuedCommand
-net/minecraft/server/1_13_R2/IMinecraftServer	net/minecraft/network/rcon/IServer
-net/minecraft/server/1_13_R2/ScoreboardServer	net/minecraft/scoreboard/ServerScoreboard
-net/minecraft/server/1_13_R2/ScoreboardServer$Action	net/minecraft/scoreboard/ServerScoreboard$Action
-net/minecraft/server/1_13_R2/PropertyManager	net/minecraft/server/dedicated/PropertyManager
-net/minecraft/server/1_13_R2/ITickable	net/minecraft/util/ITickable
-net/minecraft/server/1_13_R2/BossBattleCustom	net/minecraft/server/CustomBossEvent
-net/minecraft/server/1_13_R2/BossBattleCustomData	net/minecraft/server/CustomBossEvents
-net/minecraft/server/1_13_R2/CommandAdvancement	net/minecraft/command/impl/AdvancementCommand
-net/minecraft/server/1_13_R2/CommandAdvancement$Action	net/minecraft/command/impl/AdvancementCommand$Action
-net/minecraft/server/1_13_R2/CommandAdvancement$Action$1	net/minecraft/command/impl/AdvancementCommand$Action$1
-net/minecraft/server/1_13_R2/CommandAdvancement$Action$2	net/minecraft/command/impl/AdvancementCommand$Action$2
-net/minecraft/server/1_13_R2/CommandAdvancement$Filter	net/minecraft/command/impl/AdvancementCommand$Mode
-net/minecraft/server/1_13_R2/CommandBanIp	net/minecraft/command/impl/BanIpCommand
-net/minecraft/server/1_13_R2/CommandBanList	net/minecraft/command/impl/BanListCommand
-net/minecraft/server/1_13_R2/CommandBan	net/minecraft/command/impl/BanCommand
-net/minecraft/server/1_13_R2/CommandBossBar	net/minecraft/command/impl/BossBarCommand
-net/minecraft/server/1_13_R2/CommandClear	net/minecraft/command/impl/ClearCommand
-net/minecraft/server/1_13_R2/CommandClone	net/minecraft/command/impl/CloneCommand
-net/minecraft/server/1_13_R2/CommandClone$CommandCloneStoredTileEntity	net/minecraft/command/impl/CloneCommand$BlockInfo
-net/minecraft/server/1_13_R2/CommandClone$Mode	net/minecraft/command/impl/CloneCommand$Mode
-net/minecraft/server/1_13_R2/CommandDatapack	net/minecraft/command/impl/DataPackCommand
-net/minecraft/server/1_13_R2/CommandDatapack$a	net/minecraft/command/impl/DataPackCommand$IHandler
-net/minecraft/server/1_13_R2/CommandDeop	net/minecraft/command/impl/DeOpCommand
-net/minecraft/server/1_13_R2/CommandDebug	net/minecraft/command/impl/DebugCommand
-net/minecraft/server/1_13_R2/CommandGamemodeDefault	net/minecraft/command/impl/DefaultGameModeCommand
-net/minecraft/server/1_13_R2/CommandDifficulty	net/minecraft/command/impl/DifficultyCommand
-net/minecraft/server/1_13_R2/CommandEffect	net/minecraft/command/impl/EffectCommand
-net/minecraft/server/1_13_R2/CommandMe	net/minecraft/command/impl/MeCommand
-net/minecraft/server/1_13_R2/CommandEnchant	net/minecraft/command/impl/EnchantCommand
-net/minecraft/server/1_13_R2/CommandExecute	net/minecraft/command/impl/ExecuteCommand
-net/minecraft/server/1_13_R2/CommandExecute$a	net/minecraft/command/impl/ExecuteCommand$ExecuteTest
-net/minecraft/server/1_13_R2/CommandXp	net/minecraft/command/impl/ExperienceCommand
-net/minecraft/server/1_13_R2/CommandXp$Unit	net/minecraft/command/impl/ExperienceCommand$Type
-net/minecraft/server/1_13_R2/CommandFill	net/minecraft/command/impl/FillCommand
-net/minecraft/server/1_13_R2/CommandFill$Mode	net/minecraft/command/impl/FillCommand$Mode
-net/minecraft/server/1_13_R2/CommandForceload	net/minecraft/command/impl/ForceLoadCommand
-net/minecraft/server/1_13_R2/CommandFunction	net/minecraft/command/impl/FunctionCommand
-net/minecraft/server/1_13_R2/CommandGamemode	net/minecraft/command/impl/GameModeCommand
-net/minecraft/server/1_13_R2/CommandGamerule	net/minecraft/command/impl/GameRuleCommand
-net/minecraft/server/1_13_R2/CommandGive	net/minecraft/command/impl/GiveCommand
-net/minecraft/server/1_13_R2/CommandHelp	net/minecraft/command/impl/HelpCommand
-net/minecraft/server/1_13_R2/CommandKick	net/minecraft/command/impl/KickCommand
-net/minecraft/server/1_13_R2/CommandKill	net/minecraft/command/impl/KillCommand
-net/minecraft/server/1_13_R2/CommandList	net/minecraft/command/impl/ListCommand
-net/minecraft/server/1_13_R2/CommandLocate	net/minecraft/command/impl/LocateCommand
-net/minecraft/server/1_13_R2/CommandTell	net/minecraft/command/impl/MessageCommand
-net/minecraft/server/1_13_R2/CommandOp	net/minecraft/command/impl/OpCommand
-net/minecraft/server/1_13_R2/CommandPardon	net/minecraft/command/impl/PardonCommand
-net/minecraft/server/1_13_R2/CommandPardonIP	net/minecraft/command/impl/PardonIpCommand
-net/minecraft/server/1_13_R2/CommandParticle	net/minecraft/command/impl/ParticleCommand
-net/minecraft/server/1_13_R2/CommandPlaySound	net/minecraft/command/impl/PlaySoundCommand
-net/minecraft/server/1_13_R2/CommandPublish	net/minecraft/command/impl/PublishCommand
-net/minecraft/server/1_13_R2/CommandRecipe	net/minecraft/command/impl/RecipeCommand
-net/minecraft/server/1_13_R2/CommandReload	net/minecraft/command/impl/ReloadCommand
-net/minecraft/server/1_13_R2/CommandReplaceItem	net/minecraft/command/impl/ReplaceItemCommand
-net/minecraft/server/1_13_R2/CommandSaveAll	net/minecraft/command/impl/SaveAllCommand
-net/minecraft/server/1_13_R2/CommandSaveOff	net/minecraft/command/impl/SaveOffCommand
-net/minecraft/server/1_13_R2/CommandSaveOn	net/minecraft/command/impl/SaveOnCommand
-net/minecraft/server/1_13_R2/CommandSay	net/minecraft/command/impl/SayCommand
-net/minecraft/server/1_13_R2/CommandScoreboard	net/minecraft/command/impl/ScoreboardCommand
-net/minecraft/server/1_13_R2/CommandSeed	net/minecraft/command/impl/SeedCommand
-net/minecraft/server/1_13_R2/CommandSetBlock	net/minecraft/command/impl/SetBlockCommand
-net/minecraft/server/1_13_R2/CommandSetBlock$Filter	net/minecraft/command/impl/SetBlockCommand$IFilter
-net/minecraft/server/1_13_R2/CommandSetBlock$Mode	net/minecraft/command/impl/SetBlockCommand$Mode
-net/minecraft/server/1_13_R2/CommandIdleTimeout	net/minecraft/command/impl/SetIdleTimeoutCommand
-net/minecraft/server/1_13_R2/CommandSpawnpoint	net/minecraft/command/impl/SpawnPointCommand
-net/minecraft/server/1_13_R2/CommandSetWorldSpawn	net/minecraft/command/impl/SetWorldSpawnCommand
-net/minecraft/server/1_13_R2/CommandSpreadPlayers	net/minecraft/command/impl/SpreadPlayersCommand
-net/minecraft/server/1_13_R2/CommandSpreadPlayers$a	net/minecraft/command/impl/SpreadPlayersCommand$Position
-net/minecraft/server/1_13_R2/CommandStop	net/minecraft/command/impl/StopCommand
-net/minecraft/server/1_13_R2/CommandStopSound	net/minecraft/command/impl/StopSoundCommand
-net/minecraft/server/1_13_R2/CommandSummon	net/minecraft/command/impl/SummonCommand
-net/minecraft/server/1_13_R2/CommandTag	net/minecraft/command/impl/TagCommand
-net/minecraft/server/1_13_R2/CommandTeam	net/minecraft/command/impl/TeamCommand
-net/minecraft/server/1_13_R2/CommandTeleport	net/minecraft/command/impl/TeleportCommand
-net/minecraft/server/1_13_R2/CommandTeleport$a	net/minecraft/command/impl/TeleportCommand$Facing
-net/minecraft/server/1_13_R2/CommandTellRaw	net/minecraft/command/impl/TellRawCommand
-net/minecraft/server/1_13_R2/CommandTime	net/minecraft/command/impl/TimeCommand
-net/minecraft/server/1_13_R2/CommandTitle	net/minecraft/command/impl/TitleCommand
-net/minecraft/server/1_13_R2/CommandTrigger	net/minecraft/command/impl/TriggerCommand
-net/minecraft/server/1_13_R2/CommandWeather	net/minecraft/command/impl/WeatherCommand
-net/minecraft/server/1_13_R2/CommandWhitelist	net/minecraft/command/impl/WhitelistCommand
-net/minecraft/server/1_13_R2/CommandWorldBorder	net/minecraft/command/impl/WorldBorderCommand
-net/minecraft/server/1_13_R2/CommandDataAccessorTile	net/minecraft/command/impl/data/BlockDataAccessor
-net/minecraft/server/1_13_R2/CommandDataAccessorTile$1	net/minecraft/command/impl/data/BlockDataAccessor$1
-net/minecraft/server/1_13_R2/CommandDataAccessor	net/minecraft/command/impl/data/IDataAccessor
-net/minecraft/server/1_13_R2/CommandData	net/minecraft/command/impl/data/DataCommand
-net/minecraft/server/1_13_R2/CommandData$a	net/minecraft/command/impl/data/DataCommand$IDataProvider
-net/minecraft/server/1_13_R2/CommandDataAccessorEntity	net/minecraft/command/impl/data/EntityDataAccessor
-net/minecraft/server/1_13_R2/CommandDataAccessorEntity$1	net/minecraft/command/impl/data/EntityDataAccessor$1
-net/minecraft/server/1_13_R2/DedicatedPlayerList	net/minecraft/server/dedicated/DedicatedPlayerList
-net/minecraft/server/1_13_R2/DedicatedServer	net/minecraft/server/dedicated/DedicatedServer
-net/minecraft/server/1_13_R2/DedicatedServer$1	net/minecraft/server/dedicated/DedicatedServer$1
-net/minecraft/server/1_13_R2/DedicatedServer$2	net/minecraft/server/dedicated/DedicatedServer$2
-net/minecraft/server/1_13_R2/ThreadWatchdog	net/minecraft/server/dedicated/ServerHangWatchdog
-net/minecraft/server/1_13_R2/ThreadWatchdog$1	net/minecraft/server/dedicated/ServerHangWatchdog$1
-net/minecraft/server/1_13_R2/ServerGUI	net/minecraft/server/gui/MinecraftServerGui
-net/minecraft/server/1_13_R2/ServerGUI$1	net/minecraft/server/gui/MinecraftServerGui$1
-net/minecraft/server/1_13_R2/ServerGUI$2	net/minecraft/server/gui/MinecraftServerGui$2
-net/minecraft/server/1_13_R2/PlayerListBox	net/minecraft/server/gui/PlayerListComponent
-net/minecraft/server/1_13_R2/GuiStatsComponent	net/minecraft/server/gui/StatsComponent
-net/minecraft/server/1_13_R2/DemoWorldServer	net/minecraft/world/WorldServerDemo
-net/minecraft/server/1_13_R2/DemoPlayerInteractManager	net/minecraft/server/management/DemoPlayerInteractionManager
-net/minecraft/server/1_13_R2/SecondaryWorldServer	net/minecraft/world/WorldServerMulti
-net/minecraft/server/1_13_R2/SecondaryWorldServer$1	net/minecraft/world/WorldServerMulti$1
-net/minecraft/server/1_13_R2/EntityTracker	net/minecraft/entity/EntityTracker
-net/minecraft/server/1_13_R2/ChunkMap	net/minecraft/world/gen/ChunkCacheNeighborNotification
-net/minecraft/server/1_13_R2/BossBattleServer	net/minecraft/world/BossInfoServer
-net/minecraft/server/1_13_R2/ChunkProviderServer	net/minecraft/world/gen/ChunkProviderServer
-net/minecraft/server/1_13_R2/WorldServer	net/minecraft/world/WorldServer
-net/minecraft/server/1_13_R2/WorldManager	net/minecraft/world/ServerWorldEventHandler
-net/minecraft/server/1_13_R2/EntityPlayer	net/minecraft/entity/player/EntityPlayerMP
-net/minecraft/server/1_13_R2/PlayerInteractManager	net/minecraft/server/management/PlayerInteractionManager
-net/minecraft/server/1_13_R2/EntityTrackerEntry	net/minecraft/entity/EntityTrackerEntry
-net/minecraft/server/1_13_R2/RegionLimitedWorldAccess	net/minecraft/world/gen/WorldGenRegion
-net/minecraft/server/1_13_R2/TickListWorldGen	net/minecraft/world/WorldGenTickList
-net/minecraft/server/1_13_R2/PlayerChunk	net/minecraft/server/management/PlayerChunkMapEntry
-net/minecraft/server/1_13_R2/PlayerChunkMap	net/minecraft/server/management/PlayerChunkMap
-net/minecraft/server/1_13_R2/PlayerChunkMap$1	net/minecraft/server/management/PlayerChunkMap$1
-net/minecraft/server/1_13_R2/ChunkTaskBase	net/minecraft/world/gen/tasks/BaseChunkTask
-net/minecraft/server/1_13_R2/ChunkTaskCarve	net/minecraft/world/gen/tasks/CarveChunkTask
-net/minecraft/server/1_13_R2/ChunkTask	net/minecraft/world/gen/tasks/ChunkTask
-net/minecraft/server/1_13_R2/ChunkTaskDecorate	net/minecraft/world/gen/tasks/DecorateChunkTask
-net/minecraft/server/1_13_R2/ChunkTaskNull	net/minecraft/world/gen/tasks/DummyChunkTask
-net/minecraft/server/1_13_R2/ChunkTaskFinalize	net/minecraft/world/gen/tasks/FinializeChunkTask
-net/minecraft/server/1_13_R2/ChunkTaskLight	net/minecraft/world/gen/tasks/LightChunkTask
-net/minecraft/server/1_13_R2/ChunkTaskLiquidCarve	net/minecraft/world/gen/tasks/LiquidCarveChunkTask
-net/minecraft/server/1_13_R2/ChunkTaskSpawnMobs	net/minecraft/world/gen/tasks/SpawnMobsTask
-net/minecraft/server/1_13_R2/ChunkTaskScheduler	net/minecraft/world/gen/tasks/ProtoChunkScheduler
-net/minecraft/server/1_13_R2/ChunkTaskScheduler$1	net/minecraft/world/gen/tasks/ProtoChunkScheduler$1
-net/minecraft/server/1_13_R2/LegacyPingHandler	net/minecraft/network/LegacyPingHandler
-net/minecraft/server/1_13_R2/ServerConnection	net/minecraft/network/NetworkSystem
-net/minecraft/server/1_13_R2/ServerConnection$1	net/minecraft/network/NetworkSystem$1
-net/minecraft/server/1_13_R2/PlayerConnection	net/minecraft/network/NetHandlerPlayServer
-net/minecraft/server/1_13_R2/HandshakeListener	net/minecraft/network/NetHandlerHandshakeTCP
-net/minecraft/server/1_13_R2/LoginListener	net/minecraft/network/NetHandlerLoginServer
-net/minecraft/server/1_13_R2/LoginListener$1	net/minecraft/network/NetHandlerLoginServer$1
-net/minecraft/server/1_13_R2/LoginListener$EnumProtocolState	net/minecraft/network/NetHandlerLoginServer$LoginState
-net/minecraft/server/1_13_R2/PacketStatusListener	net/minecraft/network/NetHandlerStatusServer
-net/minecraft/server/1_13_R2/ResourcePackAbstract	net/minecraft/resources/AbstractResourcePack
-net/minecraft/server/1_13_R2/ResourcePackFile	net/minecraft/resources/FilePack
-net/minecraft/server/1_13_R2/ResourcePackFolder	net/minecraft/resources/FolderPack
-net/minecraft/server/1_13_R2/IResourcePack	net/minecraft/resources/IResourcePack
-net/minecraft/server/1_13_R2/EnumResourcePackType	net/minecraft/resources/ResourcePackType
-net/minecraft/server/1_13_R2/ResourceNotFoundException	net/minecraft/resources/ResourcePackFileNotFoundException
-net/minecraft/server/1_13_R2/ResourcePackVanilla	net/minecraft/resources/VanillaPack
-net/minecraft/server/1_13_R2/ResourcePackMetaParser	net/minecraft/resources/data/IMetadataSectionSerializer
-net/minecraft/server/1_13_R2/ResourcePackInfo	net/minecraft/resources/data/PackMetadataSection
-net/minecraft/server/1_13_R2/ResourcePackInfoDeserializer	net/minecraft/resources/data/PackMetadataSectionSerializer
-net/minecraft/server/1_13_R2/ResourcePackSourceFolder	net/minecraft/resources/FolderPackFinder
-net/minecraft/server/1_13_R2/EnumResourcePackVersion	net/minecraft/resources/PackCompatibility
-net/minecraft/server/1_13_R2/ResourcePackRepository	net/minecraft/resources/ResourcePackList
-net/minecraft/server/1_13_R2/ResourcePackSource	net/minecraft/resources/IPackFinder
-net/minecraft/server/1_13_R2/ResourcePackSourceVanilla	net/minecraft/resources/ServerPackFinder
-net/minecraft/server/1_13_R2/ResourcePackLoader	net/minecraft/resources/ResourcePackInfo
-net/minecraft/server/1_13_R2/ResourcePackLoader$Position	net/minecraft/resources/ResourcePackInfo$Priority
-net/minecraft/server/1_13_R2/ResourcePackLoader$b	net/minecraft/resources/ResourcePackInfo$IFactory
-net/minecraft/server/1_13_R2/ResourceManagerFallback	net/minecraft/resources/FallbackResourceManager
-net/minecraft/server/1_13_R2/ResourceManagerFallback$a	net/minecraft/resources/FallbackResourceManager$LeakComplainerInputStream
-net/minecraft/server/1_13_R2/IReloadableResourceManager	net/minecraft/resources/IReloadableResourceManager
-net/minecraft/server/1_13_R2/IResource	net/minecraft/resources/IResource
-net/minecraft/server/1_13_R2/IResourceManager	net/minecraft/resources/IResourceManager
-net/minecraft/server/1_13_R2/IResourcePackListener	net/minecraft/resources/IResourceManagerReloadListener
-net/minecraft/server/1_13_R2/ResourceManager	net/minecraft/resources/SimpleReloadableResourceManager
-net/minecraft/server/1_13_R2/Resource	net/minecraft/resources/SimpleResource
-net/minecraft/server/1_13_R2/ExpirableListEntry	net/minecraft/server/management/UserListEntryBan
-net/minecraft/server/1_13_R2/UserCache	net/minecraft/server/management/PlayerProfileCache
-net/minecraft/server/1_13_R2/UserCache$1	net/minecraft/server/management/PlayerProfileCache$1
-net/minecraft/server/1_13_R2/UserCache$2	net/minecraft/server/management/PlayerProfileCache$2
-net/minecraft/server/1_13_R2/UserCache$UserCacheEntry	net/minecraft/server/management/PlayerProfileCache$ProfileEntry
-net/minecraft/server/1_13_R2/UserCache$BanEntrySerializer	net/minecraft/server/management/PlayerProfileCache$Serializer
-net/minecraft/server/1_13_R2/IpBanList	net/minecraft/server/management/UserListIPBans
-net/minecraft/server/1_13_R2/IpBanEntry	net/minecraft/server/management/UserListIPBansEntry
-net/minecraft/server/1_13_R2/NameReferencingFileConverter	net/minecraft/server/management/PreYggdrasilConverter
-net/minecraft/server/1_13_R2/NameReferencingFileConverter$1	net/minecraft/server/management/PreYggdrasilConverter$1
-net/minecraft/server/1_13_R2/NameReferencingFileConverter$2	net/minecraft/server/management/PreYggdrasilConverter$2
-net/minecraft/server/1_13_R2/NameReferencingFileConverter$3	net/minecraft/server/management/PreYggdrasilConverter$3
-net/minecraft/server/1_13_R2/NameReferencingFileConverter$4	net/minecraft/server/management/PreYggdrasilConverter$4
-net/minecraft/server/1_13_R2/NameReferencingFileConverter$5	net/minecraft/server/management/PreYggdrasilConverter$5
-net/minecraft/server/1_13_R2/NameReferencingFileConverter$FileConversionException	net/minecraft/server/management/PreYggdrasilConverter$ConversionError
-net/minecraft/server/1_13_R2/PlayerList	net/minecraft/server/management/PlayerList
-net/minecraft/server/1_13_R2/PlayerList$1	net/minecraft/server/management/PlayerList$1
-net/minecraft/server/1_13_R2/OpList	net/minecraft/server/management/UserListOps
-net/minecraft/server/1_13_R2/OpListEntry	net/minecraft/server/management/UserListOpsEntry
-net/minecraft/server/1_13_R2/JsonListEntry	net/minecraft/server/management/UserListEntry
-net/minecraft/server/1_13_R2/JsonList	net/minecraft/server/management/UserList
-net/minecraft/server/1_13_R2/JsonList$1	net/minecraft/server/management/UserList$1
-net/minecraft/server/1_13_R2/JsonList$JsonListEntrySerializer	net/minecraft/server/management/UserList$Serializer
-net/minecraft/server/1_13_R2/GameProfileBanList	net/minecraft/server/management/UserListBans
-net/minecraft/server/1_13_R2/GameProfileBanEntry	net/minecraft/server/management/UserListBansEntry
-net/minecraft/server/1_13_R2/WhiteList	net/minecraft/server/management/UserListWhitelist
-net/minecraft/server/1_13_R2/WhiteListEntry	net/minecraft/server/management/UserListWhitelistEntry
-net/minecraft/server/1_13_R2/RemoteStatusReply	net/minecraft/network/rcon/RConOutputStream
-net/minecraft/server/1_13_R2/StatusChallengeUtils	net/minecraft/network/rcon/RConUtils
-net/minecraft/server/1_13_R2/RemoteControlCommandListener	net/minecraft/network/rcon/RConConsoleSource
-net/minecraft/server/1_13_R2/RemoteConnectionThread	net/minecraft/network/rcon/RConThreadBase
-net/minecraft/server/1_13_R2/RemoteStatusListener	net/minecraft/network/rcon/RConThreadQuery
-net/minecraft/server/1_13_R2/RemoteStatusListener$RemoteStatusChallenge	net/minecraft/network/rcon/RConThreadQuery$Auth
-net/minecraft/server/1_13_R2/RemoteControlSession	net/minecraft/network/rcon/RConThreadClient
-net/minecraft/server/1_13_R2/RemoteControlListener	net/minecraft/network/rcon/RConThreadMain
-net/minecraft/server/1_13_R2/SoundEffect	net/minecraft/util/SoundEvent
-net/minecraft/server/1_13_R2/SoundEffects	net/minecraft/init/SoundEvents
-net/minecraft/server/1_13_R2/SoundCategory	net/minecraft/util/SoundCategory
-net/minecraft/server/1_13_R2/RecipeBook	net/minecraft/item/crafting/RecipeBook
-net/minecraft/server/1_13_R2/RecipeBookServer	net/minecraft/item/crafting/ServerRecipeBook
-net/minecraft/server/1_13_R2/ServerStatisticManager	net/minecraft/stats/StatisticsManagerServer
-net/minecraft/server/1_13_R2/Statistic	net/minecraft/stats/Stat
-net/minecraft/server/1_13_R2/Counter	net/minecraft/stats/IStatFormater
-net/minecraft/server/1_13_R2/StatisticWrapper	net/minecraft/stats/StatType
-net/minecraft/server/1_13_R2/StatisticList	net/minecraft/stats/StatList
-net/minecraft/server/1_13_R2/StatisticManager	net/minecraft/stats/StatisticsManager
-net/minecraft/server/1_13_R2/TagsBlock	net/minecraft/tags/BlockTags
-net/minecraft/server/1_13_R2/TagsBlock$a	net/minecraft/tags/BlockTags$Wrapper
-net/minecraft/server/1_13_R2/TagsFluid	net/minecraft/tags/FluidTags
-net/minecraft/server/1_13_R2/TagsFluid$a	net/minecraft/tags/FluidTags$Wrapper
-net/minecraft/server/1_13_R2/TagsItem	net/minecraft/tags/ItemTags
-net/minecraft/server/1_13_R2/TagsItem$a	net/minecraft/tags/ItemTags$Wrapper
-net/minecraft/server/1_13_R2/TagsServer	net/minecraft/tags/NetworkTagCollection
-net/minecraft/server/1_13_R2/Tag	net/minecraft/tags/Tag
-net/minecraft/server/1_13_R2/Tag$a	net/minecraft/tags/Tag$Builder
-net/minecraft/server/1_13_R2/Tag$b	net/minecraft/tags/Tag$ITagEntry
-net/minecraft/server/1_13_R2/Tag$c	net/minecraft/tags/Tag$TagEntry
-net/minecraft/server/1_13_R2/Tag$d	net/minecraft/tags/Tag$ListEntry
-net/minecraft/server/1_13_R2/Tags	net/minecraft/tags/TagCollection
-net/minecraft/server/1_13_R2/TagRegistry	net/minecraft/tags/NetworkTagManager
-net/minecraft/server/1_13_R2/DataBits	net/minecraft/util/BitArray
-net/minecraft/server/1_13_R2/EntitySlice	net/minecraft/util/ClassInheritanceMultiMap
-net/minecraft/server/1_13_R2/RegistryID	net/minecraft/util/IntIdentityHashBiMap
-net/minecraft/server/1_13_R2/MinecraftEncryption	net/minecraft/util/CryptManager
-net/minecraft/server/1_13_R2/ChatDeserializer	net/minecraft/util/JsonUtils
-net/minecraft/server/1_13_R2/HttpUtilities	net/minecraft/util/HttpUtil
-net/minecraft/server/1_13_R2/InsensitiveStringMap	net/minecraft/util/LowerStringMap
-net/minecraft/server/1_13_R2/IntHashMap	net/minecraft/util/IntHashMap
-net/minecraft/server/1_13_R2/IntHashMap$IntHashMapEntry	net/minecraft/util/IntHashMap$Entry
-net/minecraft/server/1_13_R2/LazyInitVar	net/minecraft/util/LazyLoadBase
-net/minecraft/server/1_13_R2/ChatTypeAdapterFactory	net/minecraft/util/EnumTypeAdapterFactory
-net/minecraft/server/1_13_R2/ChatTypeAdapterFactory$1	net/minecraft/util/EnumTypeAdapterFactory$1
-net/minecraft/server/1_13_R2/MathHelper	net/minecraft/util/math/MathHelper
-net/minecraft/server/1_13_R2/MethodProfiler	net/minecraft/profiler/Profiler
-net/minecraft/server/1_13_R2/MethodProfiler$ProfilerInfo	net/minecraft/profiler/Profiler$Result
-net/minecraft/server/1_13_R2/IProgressUpdate	net/minecraft/util/IProgressUpdate
-net/minecraft/server/1_13_R2/StreamAccumulator	net/minecraft/util/ReuseableStream
-net/minecraft/server/1_13_R2/StreamAccumulator$1	net/minecraft/util/ReuseableStream$1
-net/minecraft/server/1_13_R2/INamable	net/minecraft/util/IStringSerializable
-net/minecraft/server/1_13_R2/UtilColor	net/minecraft/util/StringUtils
-net/minecraft/server/1_13_R2/Tuple	net/minecraft/util/Tuple
-net/minecraft/server/1_13_R2/WeightedRandom	net/minecraft/util/WeightedRandom
-net/minecraft/server/1_13_R2/WeightedRandom$WeightedRandomChoice	net/minecraft/util/WeightedRandom$Item
-net/minecraft/server/1_13_R2/DataConverterRegistry	net/minecraft/util/datafix/DataFixesManager
-net/minecraft/server/1_13_R2/DataConverterRegistry$1	net/minecraft/util/datafix/DataFixesManager$1
-net/minecraft/server/1_13_R2/DataConverterRegistry$2	net/minecraft/util/datafix/DataFixesManager$2
-net/minecraft/server/1_13_R2/DataConverterAddChoices	net/minecraft/util/datafix/fixes/AddNewChoices
-net/minecraft/server/1_13_R2/DataConverterAdvancement	net/minecraft/util/datafix/fixes/AdvancementsFix
-net/minecraft/server/1_13_R2/DataConverterBedBlock	net/minecraft/util/datafix/fixes/AddBedTileEntity
-net/minecraft/server/1_13_R2/DataConverterBedItem	net/minecraft/util/datafix/fixes/BedItemColor
-net/minecraft/server/1_13_R2/DataConverterBiome	net/minecraft/util/datafix/fixes/BiomeRenames
-net/minecraft/server/1_13_R2/DataConverterBannerColour	net/minecraft/util/datafix/fixes/BlockEntityBannerColor
-net/minecraft/server/1_13_R2/DataConverterPiston	net/minecraft/util/datafix/fixes/PistonPushedBlock
-net/minecraft/server/1_13_R2/DataConverterCustomNameTile	net/minecraft/util/datafix/fixes/CustomNameStringToComponentFixTileEntity
-net/minecraft/server/1_13_R2/DataConverterTileEntity	net/minecraft/util/datafix/fixes/TileEntityId
-net/minecraft/server/1_13_R2/DataConverterJukeBox	net/minecraft/util/datafix/fixes/JukeboxRecordItem
-net/minecraft/server/1_13_R2/DataConverterBlockEntityKeepPacked	net/minecraft/util/datafix/fixes/BlockEntityKeepPacked
-net/minecraft/server/1_13_R2/DataConverterShulkerBoxBlock	net/minecraft/util/datafix/fixes/ShulkerBoxTileColor
-net/minecraft/server/1_13_R2/DataConverterSignText	net/minecraft/util/datafix/fixes/SignStrictJSON
-net/minecraft/server/1_13_R2/DataConverterSignText$1	net/minecraft/util/datafix/fixes/SignStrictJSON$1
-net/minecraft/server/1_13_R2/DataConverterBlockName	net/minecraft/util/datafix/fixes/BlockNameFlattening
-net/minecraft/server/1_13_R2/DataConverterBlockRename	net/minecraft/util/datafix/fixes/BlockRename
-net/minecraft/server/1_13_R2/DataConverterBlockRename$1	net/minecraft/util/datafix/fixes/BlockRename$1
-net/minecraft/server/1_13_R2/DataConverterFlattenData	net/minecraft/util/datafix/fixes/BlockStateFlatteningMap
-net/minecraft/server/1_13_R2/DataConverterFlattenState	net/minecraft/util/datafix/fixes/BlockStateFlattenStructures
-net/minecraft/server/1_13_R2/ChunkConverterPalette	net/minecraft/util/datafix/fixes/ChunkPaletteFormat
-net/minecraft/server/1_13_R2/ChunkConverterPalette$a	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$NibbleArray
-net/minecraft/server/1_13_R2/ChunkConverterPalette$Direction	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Direction
-net/minecraft/server/1_13_R2/ChunkConverterPalette$Direction$Axis	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Direction$Axis
-net/minecraft/server/1_13_R2/ChunkConverterPalette$Direction$AxisDirection	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Direction$Offset
-net/minecraft/server/1_13_R2/ChunkConverterPalette$c	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$Section
-net/minecraft/server/1_13_R2/ChunkConverterPalette$d	net/minecraft/util/datafix/fixes/ChunkPaletteFormat$UpgradeChunk
-net/minecraft/server/1_13_R2/DataConverterChunkStructuresTemplateRename	net/minecraft/util/datafix/fixes/ChunkStructuresTemplateRenameFix
-net/minecraft/server/1_13_R2/DataConverterProtoChunk	net/minecraft/util/datafix/fixes/ChunkGenStatus
-net/minecraft/server/1_13_R2/DataConverterColorlessShulkerEntity	net/minecraft/util/datafix/fixes/ColorlessShulkerEntityFix
-net/minecraft/server/1_13_R2/DataConverterArmorStand	net/minecraft/util/datafix/fixes/ArmorStandSilent
-net/minecraft/server/1_13_R2/DataConverterEntityBlockState	net/minecraft/util/datafix/fixes/BlockStateFlatternEntities
-net/minecraft/server/1_13_R2/DataConverterEntityCodSalmon	net/minecraft/util/datafix/fixes/EntityCodSalmonFix
-net/minecraft/server/1_13_R2/DataConverterCustomNameEntity	net/minecraft/util/datafix/fixes/CustomNameStringToComponentEntity
-net/minecraft/server/1_13_R2/DataConverterGuardian	net/minecraft/util/datafix/fixes/ElderGuardianSplit
-net/minecraft/server/1_13_R2/DataConverterEquipment	net/minecraft/util/datafix/fixes/EntityArmorAndHeld
-net/minecraft/server/1_13_R2/DataConverterHealth	net/minecraft/util/datafix/fixes/EntityHealth
-net/minecraft/server/1_13_R2/DataConverterSaddle	net/minecraft/util/datafix/fixes/HorseSaddle
-net/minecraft/server/1_13_R2/DataConverterHorse	net/minecraft/util/datafix/fixes/HorseSplit
-net/minecraft/server/1_13_R2/DataConverterEntity	net/minecraft/util/datafix/fixes/EntityId
-net/minecraft/server/1_13_R2/DataConverterItemFrame	net/minecraft/util/datafix/fixes/EntityItemFrameFacing
-net/minecraft/server/1_13_R2/DataConverterMinecart	net/minecraft/util/datafix/fixes/MinecartEntityTypes
-net/minecraft/server/1_13_R2/DataConverterHanging	net/minecraft/util/datafix/fixes/PaintingDirection
-net/minecraft/server/1_13_R2/DataConverterPainting	net/minecraft/util/datafix/fixes/PaintingMotive
-net/minecraft/server/1_13_R2/DataConverterEntityPufferfish	net/minecraft/util/datafix/fixes/PufferfishRename
-net/minecraft/server/1_13_R2/DataConverterDropChances	net/minecraft/util/datafix/fixes/RedundantChanceTags
-net/minecraft/server/1_13_R2/DataConverterEntityName	net/minecraft/util/datafix/fixes/EntityRename
-net/minecraft/server/1_13_R2/DataConverterRiding	net/minecraft/util/datafix/fixes/RidingToPassengers
-net/minecraft/server/1_13_R2/DataConverterShulker	net/minecraft/util/datafix/fixes/ShulkerBoxEntityColor
-net/minecraft/server/1_13_R2/DataConverterSkeleton	net/minecraft/util/datafix/fixes/SkeletonSplit
-net/minecraft/server/1_13_R2/DataConverterUUID	net/minecraft/util/datafix/fixes/StringToUUID
-net/minecraft/server/1_13_R2/DataConverterEntityRename	net/minecraft/util/datafix/fixes/EntityRenameing1510
-net/minecraft/server/1_13_R2/DataConverterEntityTippedArrow	net/minecraft/util/datafix/fixes/TippedArrow
-net/minecraft/server/1_13_R2/DataConverterWolf	net/minecraft/util/datafix/fixes/WolfCollarColor
-net/minecraft/server/1_13_R2/DataConverterZombieType	net/minecraft/util/datafix/fixes/ZombieSplit
-net/minecraft/server/1_13_R2/DataConverterZombie	net/minecraft/util/datafix/fixes/ZombieProfToType
-net/minecraft/server/1_13_R2/DataConverterHeightmapRenaming	net/minecraft/util/datafix/fixes/HeightmapRenamingFix
-net/minecraft/server/1_13_R2/DataConverterIglooMetadataRemoval	net/minecraft/util/datafix/fixes/IglooMetadataRemoval
-net/minecraft/server/1_13_R2/DataConverterBanner	net/minecraft/util/datafix/fixes/BannerItemColor
-net/minecraft/server/1_13_R2/DataConverterCustomNameItem	net/minecraft/util/datafix/fixes/CustomNameStringToComponentItem
-net/minecraft/server/1_13_R2/DataConverterMaterialId	net/minecraft/util/datafix/fixes/ItemIntIDToString
-net/minecraft/server/1_13_R2/DataConverterPotionId	net/minecraft/util/datafix/fixes/PotionItems
-net/minecraft/server/1_13_R2/DataConverterItemName	net/minecraft/util/datafix/fixes/ItemRename
-net/minecraft/server/1_13_R2/DataConverterItemName$1	net/minecraft/util/datafix/fixes/ItemRename$1
-net/minecraft/server/1_13_R2/DataConverterShulkerBoxItem	net/minecraft/util/datafix/fixes/ShulkerBoxItemColor
-net/minecraft/server/1_13_R2/DataConverterSpawnEgg	net/minecraft/util/datafix/fixes/SpawnEggNames
-net/minecraft/server/1_13_R2/DataConverterItemStackEnchantment	net/minecraft/util/datafix/fixes/ItemStackEnchantmentFix
-net/minecraft/server/1_13_R2/DataConverterMap	net/minecraft/util/datafix/fixes/ItemFilledMapMetadata
-net/minecraft/server/1_13_R2/DataConverterFlattenSpawnEgg	net/minecraft/util/datafix/fixes/ItemSpawnEggSplit
-net/minecraft/server/1_13_R2/DataConverterFlatten	net/minecraft/util/datafix/fixes/ItemStackDataFlattening
-net/minecraft/server/1_13_R2/DataConverterPotionWater	net/minecraft/util/datafix/fixes/PotionWater
-net/minecraft/server/1_13_R2/DataConverterBook	net/minecraft/util/datafix/fixes/BookPagesStrictJSON
-net/minecraft/server/1_13_R2/DataConverterLeaves	net/minecraft/util/datafix/fixes/LeavesFix
-net/minecraft/server/1_13_R2/DataConverterLeaves$a	net/minecraft/util/datafix/fixes/LeavesFix$LeavesSection
-net/minecraft/server/1_13_R2/DataConverterLeaves$b	net/minecraft/util/datafix/fixes/LeavesFix$Section
-net/minecraft/server/1_13_R2/DataConverterLevelDataGeneratorOptions	net/minecraft/util/datafix/fixes/LevelDataGeneratorOptionsFix
-net/minecraft/server/1_13_R2/DataConverterWorldGenSettings	net/minecraft/util/datafix/fixes/BlockStateFlattenGenOptions
-net/minecraft/server/1_13_R2/DataConverterMobSpawner	net/minecraft/util/datafix/fixes/SpawnerEntityTypes
-net/minecraft/server/1_13_R2/DataConverterNamedEntity	net/minecraft/util/datafix/fixes/NamedEntityFix
-net/minecraft/server/1_13_R2/DataConverterObjectiveDisplayName	net/minecraft/util/datafix/fixes/ObjectiveDisplayName
-net/minecraft/server/1_13_R2/DataConverterObjectiveRenderType	net/minecraft/util/datafix/fixes/ObjectiveRenderType
-net/minecraft/server/1_13_R2/DataConverterVBO	net/minecraft/util/datafix/fixes/ForceVBOOn
-net/minecraft/server/1_13_R2/DataConverterKeybind	net/minecraft/util/datafix/fixes/LWJGL3KeyOptions
-net/minecraft/server/1_13_R2/DataConverterKeybind2	net/minecraft/util/datafix/fixes/KeyOptionsTranslation
-net/minecraft/server/1_13_R2/DataConverterLang	net/minecraft/util/datafix/fixes/OptionsLowerCaseLanguage
-net/minecraft/server/1_13_R2/DataConverterRecipes	net/minecraft/util/datafix/fixes/RenamedRecipes
-net/minecraft/server/1_13_R2/DataConverterRecipeRename	net/minecraft/util/datafix/fixes/RecipesRenaming
-net/minecraft/server/1_13_R2/DataConverterTypes	net/minecraft/util/datafix/TypeReferences
-net/minecraft/server/1_13_R2/DataConverterCoralFan	net/minecraft/util/datafix/fixes/CoralFansRenameList
-net/minecraft/server/1_13_R2/DataConverterCoral	net/minecraft/util/datafix/fixes/RenamedCoral
-net/minecraft/server/1_13_R2/DataConverterVillage	net/minecraft/util/datafix/fixes/BlockStateFlattenVillageCrops
-net/minecraft/server/1_13_R2/DataConverterEntityNameAbstract	net/minecraft/util/datafix/fixes/EntityRenameHelper
-net/minecraft/server/1_13_R2/DataConverterEntityRenameAbstract	net/minecraft/util/datafix/fixes/TypedEntityRenameHelper
-net/minecraft/server/1_13_R2/DataConverterStatistic	net/minecraft/util/datafix/fixes/StatsRenaming
-net/minecraft/server/1_13_R2/DataConverterSwimStats	net/minecraft/util/datafix/fixes/SwimStatsRename
-net/minecraft/server/1_13_R2/DataConverterTeamDisplayName	net/minecraft/util/datafix/fixes/TeamDisplayName
-net/minecraft/server/1_13_R2/DataConverterTrappedChest	net/minecraft/util/datafix/fixes/TrappedChestTileEntitySplit
-net/minecraft/server/1_13_R2/DataConverterTrappedChest$a	net/minecraft/util/datafix/fixes/TrappedChestTileEntitySplit$Section
-net/minecraft/server/1_13_R2/DataConverterVillagerTrade	net/minecraft/util/datafix/fixes/VillagerTrades
-net/minecraft/server/1_13_R2/DataConverterShoulderEntity	net/minecraft/util/datafix/WriteAndReadDataFix
-net/minecraft/server/1_13_R2/DataConverterSchemaNamed	net/minecraft/util/datafix/NamespacedSchema
-net/minecraft/server/1_13_R2/DataConverterSchemaV100	net/minecraft/util/datafix/versions/V0100
-net/minecraft/server/1_13_R2/DataConverterSchemaV102	net/minecraft/util/datafix/versions/V0102
-net/minecraft/server/1_13_R2/DataConverterSchemaV1022	net/minecraft/util/datafix/versions/V1022
-net/minecraft/server/1_13_R2/DataConverterSchemaV106	net/minecraft/util/datafix/versions/V0106
-net/minecraft/server/1_13_R2/DataConverterSchemaV107	net/minecraft/util/datafix/versions/V0107
-net/minecraft/server/1_13_R2/DataConverterSchemaV1125	net/minecraft/util/datafix/versions/V1125
-net/minecraft/server/1_13_R2/DataConverterSchemaV135	net/minecraft/util/datafix/versions/V0135
-net/minecraft/server/1_13_R2/DataConverterSchemaV143	net/minecraft/util/datafix/versions/V0143
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451	net/minecraft/util/datafix/versions/V1451
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451_1	net/minecraft/util/datafix/versions/V1451_1
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451_2	net/minecraft/util/datafix/versions/V1451_2
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451_3	net/minecraft/util/datafix/versions/V1451_3
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451_4	net/minecraft/util/datafix/versions/V1451_4
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451_5	net/minecraft/util/datafix/versions/V1451_5
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451_6	net/minecraft/util/datafix/versions/V1451_6
-net/minecraft/server/1_13_R2/DataConverterSchemaV1451_7	net/minecraft/util/datafix/versions/V1451_7
-net/minecraft/server/1_13_R2/DataConverterSchemaV1460	net/minecraft/util/datafix/versions/V1460
-net/minecraft/server/1_13_R2/DataConverterSchemaV1466	net/minecraft/util/datafix/versions/V1466
-net/minecraft/server/1_13_R2/DataConverterSchemaV1470	net/minecraft/util/datafix/versions/V1470
-net/minecraft/server/1_13_R2/DataConverterSchemaV1481	net/minecraft/util/datafix/versions/V1481
-net/minecraft/server/1_13_R2/DataConverterSchemaV1483	net/minecraft/util/datafix/versions/V1483
-net/minecraft/server/1_13_R2/DataConverterSchemaV1486	net/minecraft/util/datafix/versions/V1486
-net/minecraft/server/1_13_R2/DataConverterSchemaV1510	net/minecraft/util/datafix/versions/V1510
-net/minecraft/server/1_13_R2/DataConverterSchemaV501	net/minecraft/util/datafix/versions/V0501
-net/minecraft/server/1_13_R2/DataConverterSchemaV700	net/minecraft/util/datafix/versions/V0700
-net/minecraft/server/1_13_R2/DataConverterSchemaV701	net/minecraft/util/datafix/versions/V0701
-net/minecraft/server/1_13_R2/DataConverterSchemaV702	net/minecraft/util/datafix/versions/V0702
-net/minecraft/server/1_13_R2/DataConverterSchemaV703	net/minecraft/util/datafix/versions/V0703
-net/minecraft/server/1_13_R2/DataConverterSchemaV704	net/minecraft/util/datafix/versions/V0704
-net/minecraft/server/1_13_R2/DataConverterSchemaV704$1	net/minecraft/util/datafix/versions/V0704$1
-net/minecraft/server/1_13_R2/DataConverterSchemaV705	net/minecraft/util/datafix/versions/V0705
-net/minecraft/server/1_13_R2/DataConverterSchemaV705$1	net/minecraft/util/datafix/versions/V0705$1
-net/minecraft/server/1_13_R2/DataConverterSchemaV808	net/minecraft/util/datafix/versions/V0808
-net/minecraft/server/1_13_R2/DataConverterSchemaV99	net/minecraft/util/datafix/versions/V0099
-net/minecraft/server/1_13_R2/DataConverterSchemaV99$1	net/minecraft/util/datafix/versions/V0099$1
-net/minecraft/server/1_13_R2/NamedIncrementingThreadFactory	net/minecraft/util/NamedThreadFactory
-net/minecraft/server/1_13_R2/Scheduler	net/minecraft/util/Scheduler
-net/minecraft/server/1_13_R2/Scheduler$1	net/minecraft/util/Scheduler$1
-net/minecraft/server/1_13_R2/Scheduler$a	net/minecraft/util/Scheduler$FutureWrapper
-net/minecraft/server/1_13_R2/IAsyncTaskHandler	net/minecraft/util/IThreadListener
-net/minecraft/server/1_13_R2/SchedulerBatch	net/minecraft/util/TaskManager
-net/minecraft/server/1_13_R2/SchedulerTask	net/minecraft/util/ITaskType
-net/minecraft/server/1_13_R2/WorldUpgraderIterator	net/minecraft/util/WorldChunkEnumerator
-net/minecraft/server/1_13_R2/WorldUpgrader	net/minecraft/util/WorldOptimizer
-net/minecraft/server/1_13_R2/BossBattle	net/minecraft/world/BossInfo
-net/minecraft/server/1_13_R2/BossBattle$BarColor	net/minecraft/world/BossInfo$Color
-net/minecraft/server/1_13_R2/BossBattle$BarStyle	net/minecraft/world/BossInfo$Overlay
-net/minecraft/server/1_13_R2/InventoryLargeChest	net/minecraft/inventory/InventoryLargeChest
-net/minecraft/server/1_13_R2/IInventory	net/minecraft/inventory/IInventory
-net/minecraft/server/1_13_R2/ContainerUtil	net/minecraft/inventory/ItemStackHelper
-net/minecraft/server/1_13_R2/IInventoryListener	net/minecraft/inventory/IInventoryChangedListener
-net/minecraft/server/1_13_R2/InventoryUtils	net/minecraft/inventory/InventoryHelper
-net/minecraft/server/1_13_R2/EnumDifficulty	net/minecraft/world/EnumDifficulty
-net/minecraft/server/1_13_R2/DifficultyDamageScaler	net/minecraft/world/DifficultyInstance
-net/minecraft/server/1_13_R2/EnumHand	net/minecraft/util/EnumHand
-net/minecraft/server/1_13_R2/ITileEntityContainer	net/minecraft/world/IInteractionObject
-net/minecraft/server/1_13_R2/EnumInteractionResult	net/minecraft/util/EnumActionResult
-net/minecraft/server/1_13_R2/InteractionResultWrapper	net/minecraft/util/ActionResult
-net/minecraft/server/1_13_R2/ChestLock	net/minecraft/world/LockCode
-net/minecraft/server/1_13_R2/ITileInventory	net/minecraft/world/ILockableContainer
-net/minecraft/server/1_13_R2/INamableTileEntity	net/minecraft/util/INameable
-net/minecraft/server/1_13_R2/ILootable	net/minecraft/world/storage/loot/ILootContainer
-net/minecraft/server/1_13_R2/InventorySubcontainer	net/minecraft/inventory/InventoryBasic
-net/minecraft/server/1_13_R2/MojangStatisticsGenerator	net/minecraft/profiler/Snooper
-net/minecraft/server/1_13_R2/IMojangStatistics	net/minecraft/profiler/ISnooperInfo
-net/minecraft/server/1_13_R2/IWorldInventory	net/minecraft/inventory/ISidedInventory
-net/minecraft/server/1_13_R2/CombatEntry	net/minecraft/util/CombatEntry
-net/minecraft/server/1_13_R2/CombatMath	net/minecraft/util/CombatRules
-net/minecraft/server/1_13_R2/CombatTracker	net/minecraft/util/CombatTracker
-net/minecraft/server/1_13_R2/DamageSource	net/minecraft/util/DamageSource
-net/minecraft/server/1_13_R2/EntityDamageSource	net/minecraft/util/EntityDamageSource
-net/minecraft/server/1_13_R2/EntityDamageSourceIndirect	net/minecraft/util/EntityDamageSourceIndirect
-net/minecraft/server/1_13_R2/DamageSourceNetherBed	net/minecraft/util/DamageSourceNetherBed
-net/minecraft/server/1_13_R2/MobEffectAbsorption	net/minecraft/potion/PotionAbsorption
-net/minecraft/server/1_13_R2/MobEffectAttackDamage	net/minecraft/potion/PotionAttackDamage
-net/minecraft/server/1_13_R2/MobEffectHealthBoost	net/minecraft/potion/PotionHealthBoost
-net/minecraft/server/1_13_R2/InstantMobEffect	net/minecraft/potion/PotionInstant
-net/minecraft/server/1_13_R2/MobEffectList	net/minecraft/potion/Potion
-net/minecraft/server/1_13_R2/MobEffect	net/minecraft/potion/PotionEffect
-net/minecraft/server/1_13_R2/MobEffectUtil	net/minecraft/potion/PotionUtil
-net/minecraft/server/1_13_R2/MobEffects	net/minecraft/init/MobEffects
-net/minecraft/server/1_13_R2/EntityAgeable	net/minecraft/entity/EntityAgeable
-net/minecraft/server/1_13_R2/EntityAreaEffectCloud	net/minecraft/entity/EntityAreaEffectCloud
-net/minecraft/server/1_13_R2/IAnimal	net/minecraft/entity/passive/IAnimal
-net/minecraft/server/1_13_R2/Entity	net/minecraft/entity/Entity
-net/minecraft/server/1_13_R2/IEntitySelector	net/minecraft/util/EntitySelectors
-net/minecraft/server/1_13_R2/IEntitySelector$EntitySelectorEquipable	net/minecraft/util/EntitySelectors$ArmoredMob
-net/minecraft/server/1_13_R2/EntityTypes	net/minecraft/entity/EntityType
-net/minecraft/server/1_13_R2/EntityTypes$a	net/minecraft/entity/EntityType$Builder
-net/minecraft/server/1_13_R2/EnumItemSlot	net/minecraft/inventory/EntityEquipmentSlot
-net/minecraft/server/1_13_R2/EnumItemSlot$Function	net/minecraft/inventory/EntityEquipmentSlot$Type
-net/minecraft/server/1_13_R2/EntityExperienceOrb	net/minecraft/entity/item/EntityXPOrb
-net/minecraft/server/1_13_R2/EntityFlying	net/minecraft/entity/EntityFlying
-net/minecraft/server/1_13_R2/EnumMainHand	net/minecraft/util/EnumHandSide
-net/minecraft/server/1_13_R2/EntityLiving	net/minecraft/entity/EntityLivingBase
-net/minecraft/server/1_13_R2/EntityInsentient	net/minecraft/entity/EntityLiving
-net/minecraft/server/1_13_R2/EnumCreatureType	net/minecraft/entity/EnumCreatureType
-net/minecraft/server/1_13_R2/EnumMonsterType	net/minecraft/entity/CreatureAttribute
-net/minecraft/server/1_13_R2/EnumMoveType	net/minecraft/entity/MoverType
-net/minecraft/server/1_13_R2/EntityOwnable	net/minecraft/entity/IEntityOwnable
-net/minecraft/server/1_13_R2/EntityCreature	net/minecraft/entity/EntityCreature
-net/minecraft/server/1_13_R2/IJumpable	net/minecraft/entity/IJumpingMount
-net/minecraft/server/1_13_R2/GroupDataEntity	net/minecraft/entity/IEntityLivingData
-net/minecraft/server/1_13_R2/EntityPositionTypes	net/minecraft/entity/EntitySpawnPlacementRegistry
-net/minecraft/server/1_13_R2/EntityPositionTypes$a	net/minecraft/entity/EntitySpawnPlacementRegistry$Entry
-net/minecraft/server/1_13_R2/EntityPositionTypes$Surface	net/minecraft/entity/EntitySpawnPlacementRegistry$SpawnPlacementType
-net/minecraft/server/1_13_R2/EntityTameableAnimal	net/minecraft/entity/passive/EntityTameable
-net/minecraft/server/1_13_R2/IAttribute	net/minecraft/entity/ai/attributes/IAttribute
-net/minecraft/server/1_13_R2/AttributeInstance	net/minecraft/entity/ai/attributes/IAttributeInstance
-net/minecraft/server/1_13_R2/AttributeModifier	net/minecraft/entity/ai/attributes/AttributeModifier
-net/minecraft/server/1_13_R2/AttributeBase	net/minecraft/entity/ai/attributes/BaseAttribute
-net/minecraft/server/1_13_R2/AttributeMapBase	net/minecraft/entity/ai/attributes/AbstractAttributeMap
-net/minecraft/server/1_13_R2/AttributeModifiable	net/minecraft/entity/ai/attributes/ModifiableAttributeInstance
-net/minecraft/server/1_13_R2/AttributeMapServer	net/minecraft/entity/ai/attributes/AttributeMap
-net/minecraft/server/1_13_R2/AttributeRanged	net/minecraft/entity/ai/attributes/RangedAttribute
-net/minecraft/server/1_13_R2/EntityAIBodyControl	net/minecraft/entity/EntityBodyHelper
-net/minecraft/server/1_13_R2/ControllerLookDolphin	net/minecraft/entity/ai/EntityDolphinHelper
-net/minecraft/server/1_13_R2/ControllerMoveFlying	net/minecraft/entity/ai/EntityFlyHelper
-net/minecraft/server/1_13_R2/ControllerJump	net/minecraft/entity/ai/EntityJumpHelper
-net/minecraft/server/1_13_R2/ControllerLook	net/minecraft/entity/ai/EntityLookHelper
-net/minecraft/server/1_13_R2/ControllerMove	net/minecraft/entity/ai/EntityMoveHelper
-net/minecraft/server/1_13_R2/ControllerMove$Operation	net/minecraft/entity/ai/EntityMoveHelper$Action
-net/minecraft/server/1_13_R2/PathfinderGoalAvoidTarget	net/minecraft/entity/ai/EntityAIAvoidEntity
-net/minecraft/server/1_13_R2/PathfinderGoalAvoidTarget$1	net/minecraft/entity/ai/EntityAIAvoidEntity$1
-net/minecraft/server/1_13_R2/PathfinderGoalBeg	net/minecraft/entity/ai/EntityAIBeg
-net/minecraft/server/1_13_R2/PathfinderGoalBoat	net/minecraft/entity/ai/BoatGoals
-net/minecraft/server/1_13_R2/PathfinderGoalBreakDoor	net/minecraft/entity/ai/EntityAIBreakDoor
-net/minecraft/server/1_13_R2/PathfinderGoalBreath	net/minecraft/entity/ai/EntityAIBreathAir
-net/minecraft/server/1_13_R2/PathfinderGoalBreed	net/minecraft/entity/ai/EntityAIMate
-net/minecraft/server/1_13_R2/PathfinderGoalDoorInteract	net/minecraft/entity/ai/EntityAIDoorInteract
-net/minecraft/server/1_13_R2/PathfinderGoalEatTile	net/minecraft/entity/ai/EntityAIEatGrass
-net/minecraft/server/1_13_R2/PathfinderGoalFleeSun	net/minecraft/entity/ai/EntityAIFleeSun
-net/minecraft/server/1_13_R2/PathfinderGoalFloat	net/minecraft/entity/ai/EntityAISwimming
-net/minecraft/server/1_13_R2/PathfinderGoalFollowBoat	net/minecraft/entity/ai/EntityAIFollowBoat
-net/minecraft/server/1_13_R2/PathfinderGoalFishSchool	net/minecraft/entity/ai/EntityAIFollowGroupLeader
-net/minecraft/server/1_13_R2/PathfinderGoalFollowEntity	net/minecraft/entity/ai/EntityAIFollow
-net/minecraft/server/1_13_R2/PathfinderGoalFollowOwnerParrot	net/minecraft/entity/ai/EntityAIFollowOwnerFlying
-net/minecraft/server/1_13_R2/PathfinderGoalFollowOwner	net/minecraft/entity/ai/EntityAIFollowOwner
-net/minecraft/server/1_13_R2/PathfinderGoalFollowParent	net/minecraft/entity/ai/EntityAIFollowParent
-net/minecraft/server/1_13_R2/PathfinderGoal	net/minecraft/entity/ai/EntityAIBase
-net/minecraft/server/1_13_R2/PathfinderGoalSelector	net/minecraft/entity/ai/EntityAITasks
-net/minecraft/server/1_13_R2/PathfinderGoalSelector$PathfinderGoalSelectorItem	net/minecraft/entity/ai/EntityAITasks$EntityAITaskEntry
-net/minecraft/server/1_13_R2/PathfinderGoalVillagerFarm	net/minecraft/entity/ai/EntityAIHarvestFarmland
-net/minecraft/server/1_13_R2/PathfinderGoalInteract	net/minecraft/entity/ai/EntityAIWatchClosestWithoutMoving
-net/minecraft/server/1_13_R2/PathfinderGoalWaterJump	net/minecraft/entity/ai/EntityAIJump
-net/minecraft/server/1_13_R2/PathfinderGoalPerch	net/minecraft/entity/ai/EntityAILandOnOwnersShoulder
-net/minecraft/server/1_13_R2/PathfinderGoalLeapAtTarget	net/minecraft/entity/ai/EntityAILeapAtTarget
-net/minecraft/server/1_13_R2/PathfinderGoalLlamaFollow	net/minecraft/entity/ai/EntityAILlamaFollowCaravan
-net/minecraft/server/1_13_R2/PathfinderGoalLookAtPlayer	net/minecraft/entity/ai/EntityAIWatchClosest
-net/minecraft/server/1_13_R2/PathfinderGoalLookAtTradingPlayer	net/minecraft/entity/ai/EntityAILookAtTradePlayer
-net/minecraft/server/1_13_R2/PathfinderGoalMakeLove	net/minecraft/entity/ai/EntityAIVillagerMate
-net/minecraft/server/1_13_R2/PathfinderGoalMeleeAttack	net/minecraft/entity/ai/EntityAIAttackMelee
-net/minecraft/server/1_13_R2/PathfinderGoalMoveIndoors	net/minecraft/entity/ai/EntityAIMoveIndoors
-net/minecraft/server/1_13_R2/PathfinderGoalMoveThroughVillage	net/minecraft/entity/ai/EntityAIMoveThroughVillage
-net/minecraft/server/1_13_R2/PathfinderGoalGotoTarget	net/minecraft/entity/ai/EntityAIMoveToBlock
-net/minecraft/server/1_13_R2/PathfinderGoalMoveTowardsRestriction	net/minecraft/entity/ai/EntityAIMoveTowardsRestriction
-net/minecraft/server/1_13_R2/PathfinderGoalMoveTowardsTarget	net/minecraft/entity/ai/EntityAIMoveTowardsTarget
-net/minecraft/server/1_13_R2/PathfinderGoalOcelotAttack	net/minecraft/entity/ai/EntityAIOcelotAttack
-net/minecraft/server/1_13_R2/PathfinderGoalJumpOnBlock	net/minecraft/entity/ai/EntityAIOcelotSit
-net/minecraft/server/1_13_R2/PathfinderGoalOfferFlower	net/minecraft/entity/ai/EntityAILookAtVillager
-net/minecraft/server/1_13_R2/PathfinderGoalOpenDoor	net/minecraft/entity/ai/EntityAIOpenDoor
-net/minecraft/server/1_13_R2/PathfinderGoalPanic	net/minecraft/entity/ai/EntityAIPanic
-net/minecraft/server/1_13_R2/PathfinderGoalPlay	net/minecraft/entity/ai/EntityAIPlay
-net/minecraft/server/1_13_R2/PathfinderGoalRandomLookaround	net/minecraft/entity/ai/EntityAILookIdle
-net/minecraft/server/1_13_R2/PathfinderGoalRandomStroll	net/minecraft/entity/ai/EntityAIWander
-net/minecraft/server/1_13_R2/PathfinderGoalRandomSwim	net/minecraft/entity/ai/EntityAIWanderSwim
-net/minecraft/server/1_13_R2/PathfinderGoalArrowAttack	net/minecraft/entity/ai/EntityAIAttackRanged
-net/minecraft/server/1_13_R2/PathfinderGoalBowShoot	net/minecraft/entity/ai/EntityAIAttackRangedBow
-net/minecraft/server/1_13_R2/PathfinderGoalRemoveBlock	net/minecraft/entity/ai/EntityAIBreakBlock
-net/minecraft/server/1_13_R2/PathfinderGoalRestrictOpenDoor	net/minecraft/entity/ai/EntityAIRestrictOpenDoor
-net/minecraft/server/1_13_R2/PathfinderGoalRestrictSun	net/minecraft/entity/ai/EntityAIRestrictSun
-net/minecraft/server/1_13_R2/PathfinderGoalTame	net/minecraft/entity/ai/EntityAIRunAroundLikeCrazy
-net/minecraft/server/1_13_R2/PathfinderGoalSit	net/minecraft/entity/ai/EntityAISit
-net/minecraft/server/1_13_R2/PathfinderGoalSwell	net/minecraft/entity/ai/EntityAICreeperSwell
-net/minecraft/server/1_13_R2/PathfinderGoalTakeFlower	net/minecraft/entity/ai/EntityAIFollowGolem
-net/minecraft/server/1_13_R2/PathfinderGoalTempt	net/minecraft/entity/ai/EntityAITempt
-net/minecraft/server/1_13_R2/PathfinderGoalTradeWithPlayer	net/minecraft/entity/ai/EntityAITradePlayer
-net/minecraft/server/1_13_R2/PathfinderGoalWater	net/minecraft/entity/ai/EntityAIFindWater
-net/minecraft/server/1_13_R2/PathfinderGoalInteractVillagers	net/minecraft/entity/ai/EntityAIVillagerInteract
-net/minecraft/server/1_13_R2/PathfinderGoalRandomFly	net/minecraft/entity/ai/EntityAIWanderAvoidWaterFlying
-net/minecraft/server/1_13_R2/PathfinderGoalRandomStrollLand	net/minecraft/entity/ai/EntityAIWanderAvoidWater
-net/minecraft/server/1_13_R2/PathfinderGoalZombieAttack	net/minecraft/entity/ai/EntityAIZombieAttack
-net/minecraft/server/1_13_R2/PathfinderGoalDefendVillage	net/minecraft/entity/ai/EntityAIDefendVillage
-net/minecraft/server/1_13_R2/PathfinderGoalHurtByTarget	net/minecraft/entity/ai/EntityAIHurtByTarget
-net/minecraft/server/1_13_R2/PathfinderGoalNearestAttackableTargetInsentient	net/minecraft/entity/ai/EntityAIFindEntityNearest
-net/minecraft/server/1_13_R2/PathfinderGoalTargetNearestPlayer	net/minecraft/entity/ai/EntityAIFindEntityNearestPlayer
-net/minecraft/server/1_13_R2/PathfinderGoalNearestAttackableTarget	net/minecraft/entity/ai/EntityAINearestAttackableTarget
-net/minecraft/server/1_13_R2/PathfinderGoalNearestAttackableTarget$1	net/minecraft/entity/ai/EntityAINearestAttackableTarget$1
-net/minecraft/server/1_13_R2/PathfinderGoalNearestAttackableTarget$DistanceComparator	net/minecraft/entity/ai/EntityAINearestAttackableTarget$Sorter
-net/minecraft/server/1_13_R2/PathfinderGoalRandomTargetNonTamed	net/minecraft/entity/ai/EntityAITargetNonTamed
-net/minecraft/server/1_13_R2/PathfinderGoalOwnerHurtByTarget	net/minecraft/entity/ai/EntityAIOwnerHurtByTarget
-net/minecraft/server/1_13_R2/PathfinderGoalOwnerHurtTarget	net/minecraft/entity/ai/EntityAIOwnerHurtTarget
-net/minecraft/server/1_13_R2/PathfinderGoalTarget	net/minecraft/entity/ai/EntityAITarget
-net/minecraft/server/1_13_R2/NavigationFlying	net/minecraft/pathfinding/PathNavigateFlying
-net/minecraft/server/1_13_R2/Navigation	net/minecraft/pathfinding/PathNavigateGround
-net/minecraft/server/1_13_R2/NavigationAbstract	net/minecraft/pathfinding/PathNavigate
-net/minecraft/server/1_13_R2/NavigationListener	net/minecraft/pathfinding/PathWorldListener
-net/minecraft/server/1_13_R2/NavigationSpider	net/minecraft/pathfinding/PathNavigateClimber
-net/minecraft/server/1_13_R2/NavigationGuardian	net/minecraft/pathfinding/PathNavigateSwimmer
-net/minecraft/server/1_13_R2/EntitySenses	net/minecraft/entity/ai/EntitySenses
-net/minecraft/server/1_13_R2/RandomPositionGenerator	net/minecraft/entity/ai/RandomPositionGenerator
-net/minecraft/server/1_13_R2/VillageDoor	net/minecraft/village/VillageDoorInfo
-net/minecraft/server/1_13_R2/Village	net/minecraft/village/Village
-net/minecraft/server/1_13_R2/Village$Aggressor	net/minecraft/village/Village$VillageAggressor
-net/minecraft/server/1_13_R2/VillageSiege	net/minecraft/village/VillageSiege
-net/minecraft/server/1_13_R2/PersistentVillage	net/minecraft/village/VillageCollection
-net/minecraft/server/1_13_R2/EntityAmbient	net/minecraft/entity/passive/EntityAmbientCreature
-net/minecraft/server/1_13_R2/EntityBat	net/minecraft/entity/passive/EntityBat
-net/minecraft/server/1_13_R2/EntityFish	net/minecraft/entity/passive/AbstractFish
-net/minecraft/server/1_13_R2/EntityFish$a	net/minecraft/entity/passive/AbstractFish$MoveHelper
-net/minecraft/server/1_13_R2/EntityFish$b	net/minecraft/entity/passive/AbstractFish$AISwim
-net/minecraft/server/1_13_R2/EntityGolem	net/minecraft/entity/monster/EntityGolem
-net/minecraft/server/1_13_R2/EntityFishSchool	net/minecraft/entity/passive/AbstractGroupFish
-net/minecraft/server/1_13_R2/EntityFishSchool$a	net/minecraft/entity/passive/AbstractGroupFish$GroupData
-net/minecraft/server/1_13_R2/EntityAnimal	net/minecraft/entity/passive/EntityAnimal
-net/minecraft/server/1_13_R2/EntityChicken	net/minecraft/entity/passive/EntityChicken
-net/minecraft/server/1_13_R2/EntityCod	net/minecraft/entity/passive/EntityCod
-net/minecraft/server/1_13_R2/EntityCow	net/minecraft/entity/passive/EntityCow
-net/minecraft/server/1_13_R2/EntityDolphin	net/minecraft/entity/passive/EntityDolphin
-net/minecraft/server/1_13_R2/EntityDolphin$a	net/minecraft/entity/passive/EntityDolphin$MoveHelper
-net/minecraft/server/1_13_R2/EntityDolphin$b	net/minecraft/entity/passive/EntityDolphin$AISwimToTreasure
-net/minecraft/server/1_13_R2/EntityDolphin$c	net/minecraft/entity/passive/EntityDolphin$AISwimWithPlayer
-net/minecraft/server/1_13_R2/EntityDolphin$d	net/minecraft/entity/passive/EntityDolphin$AIPlayWithItems
-net/minecraft/server/1_13_R2/EntityBird	net/minecraft/entity/passive/IFlyingAnimal
-net/minecraft/server/1_13_R2/EntityIronGolem	net/minecraft/entity/monster/EntityIronGolem
-net/minecraft/server/1_13_R2/EntityMushroomCow	net/minecraft/entity/passive/EntityMooshroom
-net/minecraft/server/1_13_R2/EntityOcelot	net/minecraft/entity/passive/EntityOcelot
-net/minecraft/server/1_13_R2/EntityParrot	net/minecraft/entity/passive/EntityParrot
-net/minecraft/server/1_13_R2/EntityParrot$1	net/minecraft/entity/passive/EntityParrot$1
-net/minecraft/server/1_13_R2/EntityPig	net/minecraft/entity/passive/EntityPig
-net/minecraft/server/1_13_R2/EntityPolarBear	net/minecraft/entity/monster/EntityPolarBear
-net/minecraft/server/1_13_R2/EntityPolarBear$a	net/minecraft/entity/monster/EntityPolarBear$AIAttackPlayer
-net/minecraft/server/1_13_R2/EntityPolarBear$b	net/minecraft/entity/monster/EntityPolarBear$GroupData
-net/minecraft/server/1_13_R2/EntityPolarBear$c	net/minecraft/entity/monster/EntityPolarBear$AIHurtByTarget
-net/minecraft/server/1_13_R2/EntityPolarBear$d	net/minecraft/entity/monster/EntityPolarBear$AIMeleeAttack
-net/minecraft/server/1_13_R2/EntityPolarBear$e	net/minecraft/entity/monster/EntityPolarBear$AIPanic
-net/minecraft/server/1_13_R2/EntityPufferFish	net/minecraft/entity/passive/EntityPufferFish
-net/minecraft/server/1_13_R2/EntityPufferFish$a	net/minecraft/entity/passive/EntityPufferFish$AIPuff
-net/minecraft/server/1_13_R2/EntityRabbit	net/minecraft/entity/passive/EntityRabbit
-net/minecraft/server/1_13_R2/EntityRabbit$PathfinderGoalKillerRabbitMeleeAttack	net/minecraft/entity/passive/EntityRabbit$AIEvilAttack
-net/minecraft/server/1_13_R2/EntityRabbit$PathfinderGoalRabbitAvoidTarget	net/minecraft/entity/passive/EntityRabbit$AIAvoidEntity
-net/minecraft/server/1_13_R2/EntityRabbit$GroupDataRabbit	net/minecraft/entity/passive/EntityRabbit$RabbitTypeData
-net/minecraft/server/1_13_R2/EntityRabbit$ControllerJumpRabbit	net/minecraft/entity/passive/EntityRabbit$RabbitJumpHelper
-net/minecraft/server/1_13_R2/EntityRabbit$ControllerMoveRabbit	net/minecraft/entity/passive/EntityRabbit$RabbitMoveHelper
-net/minecraft/server/1_13_R2/EntityRabbit$PathfinderGoalRabbitPanic	net/minecraft/entity/passive/EntityRabbit$AIPanic
-net/minecraft/server/1_13_R2/EntityRabbit$PathfinderGoalEatCarrots	net/minecraft/entity/passive/EntityRabbit$AIRaidFarm
-net/minecraft/server/1_13_R2/EntitySalmon	net/minecraft/entity/passive/EntitySalmon
-net/minecraft/server/1_13_R2/EntitySheep	net/minecraft/entity/passive/EntitySheep
-net/minecraft/server/1_13_R2/EntitySheep$1	net/minecraft/entity/passive/EntitySheep$1
-net/minecraft/server/1_13_R2/EntityPerchable	net/minecraft/entity/passive/EntityShoulderRiding
-net/minecraft/server/1_13_R2/EntitySnowman	net/minecraft/entity/monster/EntitySnowman
-net/minecraft/server/1_13_R2/EntitySquid	net/minecraft/entity/passive/EntitySquid
-net/minecraft/server/1_13_R2/EntitySquid$a	net/minecraft/entity/passive/EntitySquid$AIFlee
-net/minecraft/server/1_13_R2/EntitySquid$PathfinderGoalSquid	net/minecraft/entity/passive/EntitySquid$AIMoveRandom
-net/minecraft/server/1_13_R2/EntityTropicalFish	net/minecraft/entity/passive/EntityTropicalFish
-net/minecraft/server/1_13_R2/EntityTropicalFish$Variant	net/minecraft/entity/passive/EntityTropicalFish$Type
-net/minecraft/server/1_13_R2/EntityTropicalFish$b	net/minecraft/entity/passive/EntityTropicalFish$GroupData
-net/minecraft/server/1_13_R2/EntityTurtle	net/minecraft/entity/passive/EntityTurtle
-net/minecraft/server/1_13_R2/EntityTurtle$a	net/minecraft/entity/passive/EntityTurtle$AIMate
-net/minecraft/server/1_13_R2/EntityTurtle$b	net/minecraft/entity/passive/EntityTurtle$AIGoHome
-net/minecraft/server/1_13_R2/EntityTurtle$c	net/minecraft/entity/passive/EntityTurtle$AIGoToWater
-net/minecraft/server/1_13_R2/EntityTurtle$d	net/minecraft/entity/passive/EntityTurtle$AILayEgg
-net/minecraft/server/1_13_R2/EntityTurtle$e	net/minecraft/entity/passive/EntityTurtle$MoveHelper
-net/minecraft/server/1_13_R2/EntityTurtle$f	net/minecraft/entity/passive/EntityTurtle$AIPanic
-net/minecraft/server/1_13_R2/EntityTurtle$g	net/minecraft/entity/passive/EntityTurtle$PathNavigater
-net/minecraft/server/1_13_R2/EntityTurtle$h	net/minecraft/entity/passive/EntityTurtle$AIWander
-net/minecraft/server/1_13_R2/EntityTurtle$i	net/minecraft/entity/passive/EntityTurtle$AIPlayerTempt
-net/minecraft/server/1_13_R2/EntityTurtle$j	net/minecraft/entity/passive/EntityTurtle$AITravel
-net/minecraft/server/1_13_R2/EntityWaterAnimal	net/minecraft/entity/passive/EntityWaterMob
-net/minecraft/server/1_13_R2/EntityWolf	net/minecraft/entity/passive/EntityWolf
-net/minecraft/server/1_13_R2/EntityWolf$a	net/minecraft/entity/passive/EntityWolf$AIAvoidEntity
-net/minecraft/server/1_13_R2/EntityHorseChestedAbstract	net/minecraft/entity/passive/AbstractChestHorse
-net/minecraft/server/1_13_R2/EntityHorseAbstract	net/minecraft/entity/passive/AbstractHorse
-net/minecraft/server/1_13_R2/EntityHorseDonkey	net/minecraft/entity/passive/EntityDonkey
-net/minecraft/server/1_13_R2/EntityHorse	net/minecraft/entity/passive/EntityHorse
-net/minecraft/server/1_13_R2/EntityHorse$a	net/minecraft/entity/passive/EntityHorse$GroupData
-net/minecraft/server/1_13_R2/EnumHorseArmor	net/minecraft/entity/passive/HorseArmorType
-net/minecraft/server/1_13_R2/EntityLlama	net/minecraft/entity/passive/EntityLlama
-net/minecraft/server/1_13_R2/EntityLlama$a	net/minecraft/entity/passive/EntityLlama$AIDefendTarget
-net/minecraft/server/1_13_R2/EntityLlama$b	net/minecraft/entity/passive/EntityLlama$GroupData
-net/minecraft/server/1_13_R2/EntityLlama$c	net/minecraft/entity/passive/EntityLlama$AIHurtByTarget
-net/minecraft/server/1_13_R2/EntityHorseMule	net/minecraft/entity/passive/EntityMule
-net/minecraft/server/1_13_R2/EntityHorseSkeleton	net/minecraft/entity/passive/EntitySkeletonHorse
-net/minecraft/server/1_13_R2/PathfinderGoalHorseTrap	net/minecraft/entity/ai/EntityAISkeletonRiders
-net/minecraft/server/1_13_R2/EntityHorseZombie	net/minecraft/entity/passive/EntityZombieHorse
-net/minecraft/server/1_13_R2/IComplex	net/minecraft/entity/IEntityMultiPart
-net/minecraft/server/1_13_R2/EntityComplexPart	net/minecraft/entity/MultiPartEntityPart
-net/minecraft/server/1_13_R2/EntityEnderCrystal	net/minecraft/entity/item/EntityEnderCrystal
-net/minecraft/server/1_13_R2/EntityEnderDragon	net/minecraft/entity/boss/EntityDragon
-net/minecraft/server/1_13_R2/AbstractDragonController	net/minecraft/entity/boss/dragon/phase/PhaseBase
-net/minecraft/server/1_13_R2/AbstractDragonControllerLanded	net/minecraft/entity/boss/dragon/phase/PhaseSittingBase
-net/minecraft/server/1_13_R2/DragonControllerCharge	net/minecraft/entity/boss/dragon/phase/PhaseChargingPlayer
-net/minecraft/server/1_13_R2/DragonControllerDying	net/minecraft/entity/boss/dragon/phase/PhaseDying
-net/minecraft/server/1_13_R2/DragonControllerHold	net/minecraft/entity/boss/dragon/phase/PhaseHoldingPattern
-net/minecraft/server/1_13_R2/DragonControllerHover	net/minecraft/entity/boss/dragon/phase/PhaseHover
-net/minecraft/server/1_13_R2/DragonControllerLandingFly	net/minecraft/entity/boss/dragon/phase/PhaseLandingApproach
-net/minecraft/server/1_13_R2/DragonControllerLanding	net/minecraft/entity/boss/dragon/phase/PhaseLanding
-net/minecraft/server/1_13_R2/IDragonController	net/minecraft/entity/boss/dragon/phase/IPhase
-net/minecraft/server/1_13_R2/DragonControllerLandedAttack	net/minecraft/entity/boss/dragon/phase/PhaseSittingAttacking
-net/minecraft/server/1_13_R2/DragonControllerLandedFlame	net/minecraft/entity/boss/dragon/phase/PhaseSittingFlaming
-net/minecraft/server/1_13_R2/DragonControllerLandedSearch	net/minecraft/entity/boss/dragon/phase/PhaseSittingScanning
-net/minecraft/server/1_13_R2/DragonControllerStrafe	net/minecraft/entity/boss/dragon/phase/PhaseStrafePlayer
-net/minecraft/server/1_13_R2/DragonControllerFly	net/minecraft/entity/boss/dragon/phase/PhaseTakeoff
-net/minecraft/server/1_13_R2/DragonControllerPhase	net/minecraft/entity/boss/dragon/phase/PhaseType
-net/minecraft/server/1_13_R2/DragonControllerManager	net/minecraft/entity/boss/dragon/phase/PhaseManager
-net/minecraft/server/1_13_R2/EntityWither	net/minecraft/entity/boss/EntityWither
-net/minecraft/server/1_13_R2/EntityWither$a	net/minecraft/entity/boss/EntityWither$AIDoNothing
-net/minecraft/server/1_13_R2/EntityArmorStand	net/minecraft/entity/item/EntityArmorStand
-net/minecraft/server/1_13_R2/EntityHanging	net/minecraft/entity/EntityHanging
-net/minecraft/server/1_13_R2/EntityItemFrame	net/minecraft/entity/item/EntityItemFrame
-net/minecraft/server/1_13_R2/EntityLeash	net/minecraft/entity/EntityLeashKnot
-net/minecraft/server/1_13_R2/Paintings	net/minecraft/entity/item/PaintingType
-net/minecraft/server/1_13_R2/EntityPainting	net/minecraft/entity/item/EntityPainting
-net/minecraft/server/1_13_R2/EntityFishingHook	net/minecraft/entity/projectile/EntityFishHook
-net/minecraft/server/1_13_R2/EntityFishingHook$HookState	net/minecraft/entity/projectile/EntityFishHook$State
-net/minecraft/server/1_13_R2/EntityWeather	net/minecraft/entity/effect/EntityWeatherEffect
-net/minecraft/server/1_13_R2/EntityLightning	net/minecraft/entity/effect/EntityLightningBolt
-net/minecraft/server/1_13_R2/EntityFallingBlock	net/minecraft/entity/item/EntityFallingBlock
-net/minecraft/server/1_13_R2/EntityItem	net/minecraft/entity/item/EntityItem
-net/minecraft/server/1_13_R2/EntityTNTPrimed	net/minecraft/entity/item/EntityTNTPrimed
-net/minecraft/server/1_13_R2/EntityIllagerAbstract	net/minecraft/entity/monster/AbstractIllager
-net/minecraft/server/1_13_R2/EntitySkeletonAbstract	net/minecraft/entity/monster/AbstractSkeleton
-net/minecraft/server/1_13_R2/EntitySkeletonAbstract$1	net/minecraft/entity/monster/AbstractSkeleton$1
-net/minecraft/server/1_13_R2/EntityBlaze	net/minecraft/entity/monster/EntityBlaze
-net/minecraft/server/1_13_R2/EntityBlaze$PathfinderGoalBlazeFireball	net/minecraft/entity/monster/EntityBlaze$AIFireballAttack
-net/minecraft/server/1_13_R2/EntityCaveSpider	net/minecraft/entity/monster/EntityCaveSpider
-net/minecraft/server/1_13_R2/EntityCreeper	net/minecraft/entity/monster/EntityCreeper
-net/minecraft/server/1_13_R2/EntityDrowned	net/minecraft/entity/monster/EntityDrowned
-net/minecraft/server/1_13_R2/EntityDrowned$a	net/minecraft/entity/monster/EntityDrowned$AIAttack
-net/minecraft/server/1_13_R2/EntityDrowned$b	net/minecraft/entity/monster/EntityDrowned$AttackTargetPredicate
-net/minecraft/server/1_13_R2/EntityDrowned$c	net/minecraft/entity/monster/EntityDrowned$AIGoToBeach
-net/minecraft/server/1_13_R2/EntityDrowned$d	net/minecraft/entity/monster/EntityDrowned$AIGoToWater
-net/minecraft/server/1_13_R2/EntityDrowned$e	net/minecraft/entity/monster/EntityDrowned$MoveHelper
-net/minecraft/server/1_13_R2/EntityDrowned$f	net/minecraft/entity/monster/EntityDrowned$AISwimUp
-net/minecraft/server/1_13_R2/EntityDrowned$g	net/minecraft/entity/monster/EntityDrowned$AITridentAttack
-net/minecraft/server/1_13_R2/EntityGuardianElder	net/minecraft/entity/monster/EntityElderGuardian
-net/minecraft/server/1_13_R2/EntityEnderman	net/minecraft/entity/monster/EntityEnderman
-net/minecraft/server/1_13_R2/EntityEnderman$PathfinderGoalEndermanPlaceBlock	net/minecraft/entity/monster/EntityEnderman$AIPlaceBlock
-net/minecraft/server/1_13_R2/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget	net/minecraft/entity/monster/EntityEnderman$AIFindPlayer
-net/minecraft/server/1_13_R2/EntityEnderman$PathfinderGoalEndermanPickupBlock	net/minecraft/entity/monster/EntityEnderman$AITakeBlock
-net/minecraft/server/1_13_R2/EntityEndermite	net/minecraft/entity/monster/EntityEndermite
-net/minecraft/server/1_13_R2/IMonster	net/minecraft/entity/monster/IMob
-net/minecraft/server/1_13_R2/EntityEvoker	net/minecraft/entity/monster/EntityEvoker
-net/minecraft/server/1_13_R2/EntityEvoker$a	net/minecraft/entity/monster/EntityEvoker$AIAttackSpell
-net/minecraft/server/1_13_R2/EntityEvoker$b	net/minecraft/entity/monster/EntityEvoker$AICastingSpell
-net/minecraft/server/1_13_R2/EntityEvoker$c	net/minecraft/entity/monster/EntityEvoker$AISummonSpell
-net/minecraft/server/1_13_R2/EntityEvoker$d	net/minecraft/entity/monster/EntityEvoker$AIWololoSpell
-net/minecraft/server/1_13_R2/EntityGhast	net/minecraft/entity/monster/EntityGhast
-net/minecraft/server/1_13_R2/EntityGhast$PathfinderGoalGhastMoveTowardsTarget	net/minecraft/entity/monster/EntityGhast$AILookAround
-net/minecraft/server/1_13_R2/EntityGhast$ControllerGhast	net/minecraft/entity/monster/EntityGhast$GhastMoveHelper
-net/minecraft/server/1_13_R2/EntityGhast$PathfinderGoalGhastAttackTarget	net/minecraft/entity/monster/EntityGhast$AIFireballAttack
-net/minecraft/server/1_13_R2/EntityGhast$PathfinderGoalGhastIdleMove	net/minecraft/entity/monster/EntityGhast$AIRandomFly
-net/minecraft/server/1_13_R2/EntityGiantZombie	net/minecraft/entity/monster/EntityGiantZombie
-net/minecraft/server/1_13_R2/EntityGuardian	net/minecraft/entity/monster/EntityGuardian
-net/minecraft/server/1_13_R2/EntityGuardian$PathfinderGoalGuardianAttack	net/minecraft/entity/monster/EntityGuardian$AIGuardianAttack
-net/minecraft/server/1_13_R2/EntityGuardian$EntitySelectorGuardianTargetHumanSquid	net/minecraft/entity/monster/EntityGuardian$GuardianTargetSelector
-net/minecraft/server/1_13_R2/EntityGuardian$ControllerMoveGuardian	net/minecraft/entity/monster/EntityGuardian$GuardianMoveHelper
-net/minecraft/server/1_13_R2/EntityZombieHusk	net/minecraft/entity/monster/EntityHusk
-net/minecraft/server/1_13_R2/EntityIllagerIllusioner	net/minecraft/entity/monster/EntityIllusionIllager
-net/minecraft/server/1_13_R2/EntityIllagerIllusioner$a	net/minecraft/entity/monster/EntityIllusionIllager$AIBlindnessSpell
-net/minecraft/server/1_13_R2/EntityIllagerIllusioner$b	net/minecraft/entity/monster/EntityIllusionIllager$AIMirriorSpell
-net/minecraft/server/1_13_R2/EntityMagmaCube	net/minecraft/entity/monster/EntityMagmaCube
-net/minecraft/server/1_13_R2/EntityMonster	net/minecraft/entity/monster/EntityMob
-net/minecraft/server/1_13_R2/EntityPhantom	net/minecraft/entity/monster/EntityPhantom
-net/minecraft/server/1_13_R2/EntityPhantom$AttackPhase	net/minecraft/entity/monster/EntityPhantom$AttackPhase
-net/minecraft/server/1_13_R2/EntityPhantom$b	net/minecraft/entity/monster/EntityPhantom$AIAttackPlayer
-net/minecraft/server/1_13_R2/EntityPhantom$c	net/minecraft/entity/monster/EntityPhantom$AIPickAttack
-net/minecraft/server/1_13_R2/EntityPhantom$d	net/minecraft/entity/monster/EntityPhantom$BodyHelper
-net/minecraft/server/1_13_R2/EntityPhantom$e	net/minecraft/entity/monster/EntityPhantom$AIOrbitPoint
-net/minecraft/server/1_13_R2/EntityPhantom$f	net/minecraft/entity/monster/EntityPhantom$LookHelper
-net/minecraft/server/1_13_R2/EntityPhantom$g	net/minecraft/entity/monster/EntityPhantom$MoveHelper
-net/minecraft/server/1_13_R2/EntityPhantom$h	net/minecraft/entity/monster/EntityPhantom$AIMove
-net/minecraft/server/1_13_R2/EntityPhantom$i	net/minecraft/entity/monster/EntityPhantom$AISweepAttack
-net/minecraft/server/1_13_R2/EntityPigZombie	net/minecraft/entity/monster/EntityPigZombie
-net/minecraft/server/1_13_R2/EntityPigZombie$PathfinderGoalAnger	net/minecraft/entity/monster/EntityPigZombie$AITargetAggressor
-net/minecraft/server/1_13_R2/EntityPigZombie$PathfinderGoalAngerOther	net/minecraft/entity/monster/EntityPigZombie$AIHurtByAggressor
-net/minecraft/server/1_13_R2/IRangedEntity	net/minecraft/entity/IRangedAttackMob
-net/minecraft/server/1_13_R2/GenericAttributes	net/minecraft/entity/SharedMonsterAttributes
-net/minecraft/server/1_13_R2/EntityShulker	net/minecraft/entity/monster/EntityShulker
-net/minecraft/server/1_13_R2/EntityShulker$a	net/minecraft/entity/monster/EntityShulker$AIAttack
-net/minecraft/server/1_13_R2/EntityShulker$b	net/minecraft/entity/monster/EntityShulker$BodyHelper
-net/minecraft/server/1_13_R2/EntityShulker$c	net/minecraft/entity/monster/EntityShulker$AIDefenseAttack
-net/minecraft/server/1_13_R2/EntityShulker$d	net/minecraft/entity/monster/EntityShulker$AIAttackNearest
-net/minecraft/server/1_13_R2/EntityShulker$e	net/minecraft/entity/monster/EntityShulker$AIPeek
-net/minecraft/server/1_13_R2/EntitySilverfish	net/minecraft/entity/monster/EntitySilverfish
-net/minecraft/server/1_13_R2/EntitySilverfish$PathfinderGoalSilverfishHideInBlock	net/minecraft/entity/monster/EntitySilverfish$AIHideInStone
-net/minecraft/server/1_13_R2/EntitySilverfish$PathfinderGoalSilverfishWakeOthers	net/minecraft/entity/monster/EntitySilverfish$AISummonSilverfish
-net/minecraft/server/1_13_R2/EntitySkeleton	net/minecraft/entity/monster/EntitySkeleton
-net/minecraft/server/1_13_R2/EntitySlime	net/minecraft/entity/monster/EntitySlime
-net/minecraft/server/1_13_R2/EntitySlime$PathfinderGoalSlimeNearestPlayer	net/minecraft/entity/monster/EntitySlime$AISlimeAttack
-net/minecraft/server/1_13_R2/EntitySlime$PathfinderGoalSlimeRandomJump	net/minecraft/entity/monster/EntitySlime$AISlimeFloat
-net/minecraft/server/1_13_R2/EntitySlime$PathfinderGoalSlimeIdle	net/minecraft/entity/monster/EntitySlime$AISlimeHop
-net/minecraft/server/1_13_R2/EntitySlime$ControllerMoveSlime	net/minecraft/entity/monster/EntitySlime$SlimeMoveHelper
-net/minecraft/server/1_13_R2/EntitySlime$PathfinderGoalSlimeRandomDirection	net/minecraft/entity/monster/EntitySlime$AISlimeFaceRandom
-net/minecraft/server/1_13_R2/EntityIllagerWizard	net/minecraft/entity/monster/EntitySpellcasterIllager
-net/minecraft/server/1_13_R2/EntityIllagerWizard$Spell	net/minecraft/entity/monster/EntitySpellcasterIllager$SpellType
-net/minecraft/server/1_13_R2/EntityIllagerWizard$b	net/minecraft/entity/monster/EntitySpellcasterIllager$AICastingApell
-net/minecraft/server/1_13_R2/EntityIllagerWizard$c	net/minecraft/entity/monster/EntitySpellcasterIllager$AIUseSpell
-net/minecraft/server/1_13_R2/EntitySpider	net/minecraft/entity/monster/EntitySpider
-net/minecraft/server/1_13_R2/EntitySpider$PathfinderGoalSpiderMeleeAttack	net/minecraft/entity/monster/EntitySpider$AISpiderAttack
-net/minecraft/server/1_13_R2/EntitySpider$GroupDataSpider	net/minecraft/entity/monster/EntitySpider$GroupData
-net/minecraft/server/1_13_R2/EntitySpider$PathfinderGoalSpiderNearestAttackableTarget	net/minecraft/entity/monster/EntitySpider$AISpiderTarget
-net/minecraft/server/1_13_R2/EntitySkeletonStray	net/minecraft/entity/monster/EntityStray
-net/minecraft/server/1_13_R2/EntityVex	net/minecraft/entity/monster/EntityVex
-net/minecraft/server/1_13_R2/EntityVex$a	net/minecraft/entity/monster/EntityVex$AIChargeAttack
-net/minecraft/server/1_13_R2/EntityVex$b	net/minecraft/entity/monster/EntityVex$AICopyOwnerTarget
-net/minecraft/server/1_13_R2/EntityVex$c	net/minecraft/entity/monster/EntityVex$AIMoveControl
-net/minecraft/server/1_13_R2/EntityVex$d	net/minecraft/entity/monster/EntityVex$AIMoveRandom
-net/minecraft/server/1_13_R2/EntityVindicator	net/minecraft/entity/monster/EntityVindicator
-net/minecraft/server/1_13_R2/EntityVindicator$a	net/minecraft/entity/monster/EntityVindicator$AIJohnnyAttack
-net/minecraft/server/1_13_R2/EntityWitch	net/minecraft/entity/monster/EntityWitch
-net/minecraft/server/1_13_R2/EntitySkeletonWither	net/minecraft/entity/monster/EntityWitherSkeleton
-net/minecraft/server/1_13_R2/EntityZombie	net/minecraft/entity/monster/EntityZombie
-net/minecraft/server/1_13_R2/EntityZombie$a	net/minecraft/entity/monster/EntityZombie$AIAttackTurtleEgg
-net/minecraft/server/1_13_R2/EntityZombie$GroupDataZombie	net/minecraft/entity/monster/EntityZombie$GroupData
-net/minecraft/server/1_13_R2/EntityZombieVillager	net/minecraft/entity/monster/EntityZombieVillager
-net/minecraft/server/1_13_R2/NPC	net/minecraft/entity/INpc
-net/minecraft/server/1_13_R2/EntityVillager	net/minecraft/entity/passive/EntityVillager
-net/minecraft/server/1_13_R2/EntityVillager$MerchantRecipeOptionBuy	net/minecraft/entity/passive/EntityVillager$EmeraldForItems
-net/minecraft/server/1_13_R2/EntityVillager$MerchantRecipeOptionBook	net/minecraft/entity/passive/EntityVillager$ListEnchantedBookForEmeralds
-net/minecraft/server/1_13_R2/EntityVillager$MerchantRecipeOptionEnchant	net/minecraft/entity/passive/EntityVillager$ListEnchantedItemForEmeralds
-net/minecraft/server/1_13_R2/EntityVillager$MerchantRecipeOptionProcess	net/minecraft/entity/passive/EntityVillager$ItemAndEmeraldToItem
-net/minecraft/server/1_13_R2/EntityVillager$MerchantRecipeOptionSell	net/minecraft/entity/passive/EntityVillager$ListItemForEmeralds
-net/minecraft/server/1_13_R2/EntityVillager$IMerchantRecipeOption	net/minecraft/entity/passive/EntityVillager$ITradeList
-net/minecraft/server/1_13_R2/EntityVillager$MerchantOptionRandomRange	net/minecraft/entity/passive/EntityVillager$PriceInfo
-net/minecraft/server/1_13_R2/EntityVillager$h	net/minecraft/entity/passive/EntityVillager$TreasureMapForEmeralds
-net/minecraft/server/1_13_R2/PlayerAbilities	net/minecraft/entity/player/PlayerCapabilities
-net/minecraft/server/1_13_R2/PlayerInventory	net/minecraft/entity/player/InventoryPlayer
-net/minecraft/server/1_13_R2/EntityHuman	net/minecraft/entity/player/EntityPlayer
-net/minecraft/server/1_13_R2/EntityHuman$EnumBedResult	net/minecraft/entity/player/EntityPlayer$SleepResult
-net/minecraft/server/1_13_R2/EntityHuman$EnumChatVisibility	net/minecraft/entity/player/EntityPlayer$EnumChatVisibility
-net/minecraft/server/1_13_R2/EntityHuman$c	net/minecraft/entity/player/EntityPlayer$SleepEnemyPredicate
-net/minecraft/server/1_13_R2/AutoRecipeStackManager	net/minecraft/item/crafting/RecipeItemHelper
-net/minecraft/server/1_13_R2/AutoRecipeStackManager$a	net/minecraft/item/crafting/RecipeItemHelper$RecipePicker
-net/minecraft/server/1_13_R2/EntityArrow	net/minecraft/entity/projectile/EntityArrow
-net/minecraft/server/1_13_R2/EntityArrow$PickupStatus	net/minecraft/entity/projectile/EntityArrow$PickupStatus
-net/minecraft/server/1_13_R2/EntityFireball	net/minecraft/entity/projectile/EntityFireball
-net/minecraft/server/1_13_R2/EntityTippedArrow	net/minecraft/entity/projectile/EntityTippedArrow
-net/minecraft/server/1_13_R2/EntityDragonFireball	net/minecraft/entity/projectile/EntityDragonFireball
-net/minecraft/server/1_13_R2/EntityEvokerFangs	net/minecraft/entity/projectile/EntityEvokerFangs
-net/minecraft/server/1_13_R2/EntityEnderSignal	net/minecraft/entity/item/EntityEnderEye
-net/minecraft/server/1_13_R2/EntityFireworks	net/minecraft/entity/item/EntityFireworkRocket
-net/minecraft/server/1_13_R2/EntityLargeFireball	net/minecraft/entity/projectile/EntityLargeFireball
-net/minecraft/server/1_13_R2/EntityLlamaSpit	net/minecraft/entity/projectile/EntityLlamaSpit
-net/minecraft/server/1_13_R2/IProjectile	net/minecraft/entity/IProjectile
-net/minecraft/server/1_13_R2/ProjectileHelper	net/minecraft/entity/projectile/ProjectileHelper
-net/minecraft/server/1_13_R2/EntityShulkerBullet	net/minecraft/entity/projectile/EntityShulkerBullet
-net/minecraft/server/1_13_R2/EntitySmallFireball	net/minecraft/entity/projectile/EntitySmallFireball
-net/minecraft/server/1_13_R2/EntitySnowball	net/minecraft/entity/projectile/EntitySnowball
-net/minecraft/server/1_13_R2/EntitySpectralArrow	net/minecraft/entity/projectile/EntitySpectralArrow
-net/minecraft/server/1_13_R2/EntityProjectile	net/minecraft/entity/projectile/EntityThrowable
-net/minecraft/server/1_13_R2/EntityEgg	net/minecraft/entity/projectile/EntityEgg
-net/minecraft/server/1_13_R2/EntityEnderPearl	net/minecraft/entity/item/EntityEnderPearl
-net/minecraft/server/1_13_R2/EntityThrownExpBottle	net/minecraft/entity/item/EntityExpBottle
-net/minecraft/server/1_13_R2/EntityPotion	net/minecraft/entity/projectile/EntityPotion
-net/minecraft/server/1_13_R2/EntityThrownTrident	net/minecraft/entity/projectile/EntityTrident
-net/minecraft/server/1_13_R2/EntityWitherSkull	net/minecraft/entity/projectile/EntityWitherSkull
-net/minecraft/server/1_13_R2/EntityMinecartAbstract	net/minecraft/entity/item/EntityMinecart
-net/minecraft/server/1_13_R2/EntityMinecartAbstract$EnumMinecartType	net/minecraft/entity/item/EntityMinecart$Type
-net/minecraft/server/1_13_R2/EntityMinecartContainer	net/minecraft/entity/item/EntityMinecartContainer
-net/minecraft/server/1_13_R2/EntityBoat	net/minecraft/entity/item/EntityBoat
-net/minecraft/server/1_13_R2/EntityBoat$EnumStatus	net/minecraft/entity/item/EntityBoat$Status
-net/minecraft/server/1_13_R2/EntityBoat$EnumBoatType	net/minecraft/entity/item/EntityBoat$Type
-net/minecraft/server/1_13_R2/EntityMinecartRideable	net/minecraft/entity/item/EntityMinecartEmpty
-net/minecraft/server/1_13_R2/EntityMinecartChest	net/minecraft/entity/item/EntityMinecartChest
-net/minecraft/server/1_13_R2/EntityMinecartCommandBlock	net/minecraft/entity/item/EntityMinecartCommandBlock
-net/minecraft/server/1_13_R2/EntityMinecartCommandBlock$a	net/minecraft/entity/item/EntityMinecartCommandBlock$MinecartCommandLogic
-net/minecraft/server/1_13_R2/EntityMinecartFurnace	net/minecraft/entity/item/EntityMinecartFurnace
-net/minecraft/server/1_13_R2/EntityMinecartHopper	net/minecraft/entity/item/EntityMinecartHopper
-net/minecraft/server/1_13_R2/EntityMinecartMobSpawner	net/minecraft/entity/item/EntityMinecartMobSpawner
-net/minecraft/server/1_13_R2/EntityMinecartMobSpawner$1	net/minecraft/entity/item/EntityMinecartMobSpawner$1
-net/minecraft/server/1_13_R2/EntityMinecartTNT	net/minecraft/entity/item/EntityMinecartTNT
-net/minecraft/server/1_13_R2/FoodMetaData	net/minecraft/util/FoodStats
-net/minecraft/server/1_13_R2/Container	net/minecraft/inventory/Container
-net/minecraft/server/1_13_R2/ContainerAnvil	net/minecraft/inventory/ContainerRepair
-net/minecraft/server/1_13_R2/ContainerAnvil$1	net/minecraft/inventory/ContainerRepair$1
-net/minecraft/server/1_13_R2/ContainerAnvil$2	net/minecraft/inventory/ContainerRepair$2
-net/minecraft/server/1_13_R2/ContainerBeacon	net/minecraft/inventory/ContainerBeacon
-net/minecraft/server/1_13_R2/ContainerBeacon$SlotBeacon	net/minecraft/inventory/ContainerBeacon$BeaconSlot
-net/minecraft/server/1_13_R2/ContainerBrewingStand	net/minecraft/inventory/ContainerBrewingStand
-net/minecraft/server/1_13_R2/ContainerBrewingStand$a	net/minecraft/inventory/ContainerBrewingStand$Fuel
-net/minecraft/server/1_13_R2/ContainerBrewingStand$SlotBrewing	net/minecraft/inventory/ContainerBrewingStand$Ingredient
-net/minecraft/server/1_13_R2/ContainerBrewingStand$SlotPotionBottle	net/minecraft/inventory/ContainerBrewingStand$Potion
-net/minecraft/server/1_13_R2/ContainerChest	net/minecraft/inventory/ContainerChest
-net/minecraft/server/1_13_R2/InventoryClickType	net/minecraft/inventory/ClickType
-net/minecraft/server/1_13_R2/ICrafting	net/minecraft/inventory/IContainerListener
-net/minecraft/server/1_13_R2/InventoryCrafting	net/minecraft/inventory/InventoryCrafting
-net/minecraft/server/1_13_R2/ContainerWorkbench	net/minecraft/inventory/ContainerWorkbench
-net/minecraft/server/1_13_R2/ContainerDispenser	net/minecraft/inventory/ContainerDispenser
-net/minecraft/server/1_13_R2/ContainerEnchantTable	net/minecraft/inventory/ContainerEnchantment
-net/minecraft/server/1_13_R2/ContainerEnchantTable$1	net/minecraft/inventory/ContainerEnchantment$1
-net/minecraft/server/1_13_R2/ContainerEnchantTable$2	net/minecraft/inventory/ContainerEnchantment$2
-net/minecraft/server/1_13_R2/ContainerEnchantTable$3	net/minecraft/inventory/ContainerEnchantment$3
-net/minecraft/server/1_13_R2/SlotFurnaceFuel	net/minecraft/inventory/SlotFurnaceFuel
-net/minecraft/server/1_13_R2/ContainerFurnace	net/minecraft/inventory/ContainerFurnace
-net/minecraft/server/1_13_R2/SlotFurnaceResult	net/minecraft/inventory/SlotFurnaceOutput
-net/minecraft/server/1_13_R2/ContainerHopper	net/minecraft/inventory/ContainerHopper
-net/minecraft/server/1_13_R2/InventoryHorseChest	net/minecraft/inventory/ContainerHorseChest
-net/minecraft/server/1_13_R2/ContainerHorse	net/minecraft/inventory/ContainerHorseInventory
-net/minecraft/server/1_13_R2/ContainerHorse$1	net/minecraft/inventory/ContainerHorseInventory$1
-net/minecraft/server/1_13_R2/ContainerHorse$2	net/minecraft/inventory/ContainerHorseInventory$2
-net/minecraft/server/1_13_R2/ContainerPlayer	net/minecraft/inventory/ContainerPlayer
-net/minecraft/server/1_13_R2/ContainerPlayer$1	net/minecraft/inventory/ContainerPlayer$1
-net/minecraft/server/1_13_R2/ContainerPlayer$2	net/minecraft/inventory/ContainerPlayer$2
-net/minecraft/server/1_13_R2/InventoryMerchant	net/minecraft/inventory/InventoryMerchant
-net/minecraft/server/1_13_R2/ContainerMerchant	net/minecraft/inventory/ContainerMerchant
-net/minecraft/server/1_13_R2/SlotMerchantResult	net/minecraft/inventory/SlotMerchantResult
-net/minecraft/server/1_13_R2/InventoryEnderChest	net/minecraft/inventory/InventoryEnderChest
-net/minecraft/server/1_13_R2/ContainerRecipeBook	net/minecraft/inventory/ContainerRecipeBook
-net/minecraft/server/1_13_R2/RecipeHolder	net/minecraft/inventory/IRecipeHolder
-net/minecraft/server/1_13_R2/InventoryCraftResult	net/minecraft/inventory/InventoryCraftResult
-net/minecraft/server/1_13_R2/SlotResult	net/minecraft/inventory/SlotCrafting
-net/minecraft/server/1_13_R2/ContainerShulkerBox	net/minecraft/inventory/ContainerShulkerBox
-net/minecraft/server/1_13_R2/SlotShulkerBox	net/minecraft/inventory/SlotShulkerBox
-net/minecraft/server/1_13_R2/Slot	net/minecraft/inventory/Slot
-net/minecraft/server/1_13_R2/AutoRecipeOutput	net/minecraft/inventory/IRecipeHelperPopulator
-net/minecraft/server/1_13_R2/ItemAir	net/minecraft/item/ItemAir
-net/minecraft/server/1_13_R2/ItemArmor	net/minecraft/item/ItemArmor
-net/minecraft/server/1_13_R2/ItemArmor$1	net/minecraft/item/ItemArmor$1
-net/minecraft/server/1_13_R2/ArmorMaterial	net/minecraft/item/IArmorMaterial
-net/minecraft/server/1_13_R2/EnumArmorMaterial	net/minecraft/item/ArmorMaterial
-net/minecraft/server/1_13_R2/ItemArmorStand	net/minecraft/item/ItemArmorStand
-net/minecraft/server/1_13_R2/ItemArrow	net/minecraft/item/ItemArrow
-net/minecraft/server/1_13_R2/ItemAxe	net/minecraft/item/ItemAxe
-net/minecraft/server/1_13_R2/ItemBanner	net/minecraft/item/ItemBanner
-net/minecraft/server/1_13_R2/ItemBed	net/minecraft/item/ItemBed
-net/minecraft/server/1_13_R2/ItemBlock	net/minecraft/item/ItemBlock
-net/minecraft/server/1_13_R2/BlockActionContext	net/minecraft/item/BlockItemUseContext
-net/minecraft/server/1_13_R2/ItemBoat	net/minecraft/item/ItemBoat
-net/minecraft/server/1_13_R2/ItemBoneMeal	net/minecraft/item/ItemBoneMeal
-net/minecraft/server/1_13_R2/ItemBook	net/minecraft/item/ItemBook
-net/minecraft/server/1_13_R2/ItemGlassBottle	net/minecraft/item/ItemGlassBottle
-net/minecraft/server/1_13_R2/ItemBow	net/minecraft/item/ItemBow
-net/minecraft/server/1_13_R2/ItemSoup	net/minecraft/item/ItemSoup
-net/minecraft/server/1_13_R2/ItemBucket	net/minecraft/item/ItemBucket
-net/minecraft/server/1_13_R2/ItemCarrotStick	net/minecraft/item/ItemCarrotOnAStick
-net/minecraft/server/1_13_R2/ItemChorusFruit	net/minecraft/item/ItemChorusFruit
-net/minecraft/server/1_13_R2/ItemClock	net/minecraft/item/ItemClock
-net/minecraft/server/1_13_R2/ItemClock$1	net/minecraft/item/ItemClock$1
-net/minecraft/server/1_13_R2/ItemCocoa	net/minecraft/item/ItemCocoa
-net/minecraft/server/1_13_R2/ItemCompass	net/minecraft/item/ItemCompass
-net/minecraft/server/1_13_R2/ItemCompass$1	net/minecraft/item/ItemCompass$1
-net/minecraft/server/1_13_R2/ItemWorldMapBase	net/minecraft/item/ItemMapBase
-net/minecraft/server/1_13_R2/CreativeModeTab	net/minecraft/item/ItemGroup
-net/minecraft/server/1_13_R2/CreativeModeTab$1	net/minecraft/item/ItemGroup$1
-net/minecraft/server/1_13_R2/CreativeModeTab$2	net/minecraft/item/ItemGroup$10
-net/minecraft/server/1_13_R2/CreativeModeTab$3	net/minecraft/item/ItemGroup$11
-net/minecraft/server/1_13_R2/CreativeModeTab$4	net/minecraft/item/ItemGroup$12
-net/minecraft/server/1_13_R2/CreativeModeTab$5	net/minecraft/item/ItemGroup$2
-net/minecraft/server/1_13_R2/CreativeModeTab$6	net/minecraft/item/ItemGroup$3
-net/minecraft/server/1_13_R2/CreativeModeTab$7	net/minecraft/item/ItemGroup$4
-net/minecraft/server/1_13_R2/CreativeModeTab$8	net/minecraft/item/ItemGroup$5
-net/minecraft/server/1_13_R2/CreativeModeTab$9	net/minecraft/item/ItemGroup$6
-net/minecraft/server/1_13_R2/CreativeModeTab$10	net/minecraft/item/ItemGroup$7
-net/minecraft/server/1_13_R2/CreativeModeTab$11	net/minecraft/item/ItemGroup$8
-net/minecraft/server/1_13_R2/CreativeModeTab$12	net/minecraft/item/ItemGroup$9
-net/minecraft/server/1_13_R2/ItemDebugStick	net/minecraft/item/ItemDebugStick
-net/minecraft/server/1_13_R2/ItemTool	net/minecraft/item/ItemTool
-net/minecraft/server/1_13_R2/ItemBisected	net/minecraft/item/ItemBlockTall
-net/minecraft/server/1_13_R2/EnumColor	net/minecraft/item/EnumDyeColor
-net/minecraft/server/1_13_R2/ItemDye	net/minecraft/item/ItemDye
-net/minecraft/server/1_13_R2/ItemArmorColorable	net/minecraft/item/ItemArmorDyeable
-net/minecraft/server/1_13_R2/ItemEgg	net/minecraft/item/ItemEgg
-net/minecraft/server/1_13_R2/ItemElytra	net/minecraft/item/ItemElytra
-net/minecraft/server/1_13_R2/ItemMapEmpty	net/minecraft/item/ItemEmptyMap
-net/minecraft/server/1_13_R2/ItemEnchantedBook	net/minecraft/item/ItemEnchantedBook
-net/minecraft/server/1_13_R2/ItemGoldenAppleEnchanted	net/minecraft/item/ItemAppleGoldEnchanted
-net/minecraft/server/1_13_R2/ItemEndCrystal	net/minecraft/item/ItemEndCrystal
-net/minecraft/server/1_13_R2/ItemEnderEye	net/minecraft/item/ItemEnderEye
-net/minecraft/server/1_13_R2/ItemEnderPearl	net/minecraft/item/ItemEnderPearl
-net/minecraft/server/1_13_R2/ItemExpBottle	net/minecraft/item/ItemExpBottle
-net/minecraft/server/1_13_R2/ItemFireball	net/minecraft/item/ItemFireCharge
-net/minecraft/server/1_13_R2/ItemFireworks	net/minecraft/item/ItemFireworkRocket
-net/minecraft/server/1_13_R2/ItemFireworks$EffectType	net/minecraft/item/ItemFireworkRocket$Shape
-net/minecraft/server/1_13_R2/ItemFireworksCharge	net/minecraft/item/ItemFireworkStar
-net/minecraft/server/1_13_R2/ItemFishBucket	net/minecraft/item/ItemBucketFish
-net/minecraft/server/1_13_R2/ItemFish	net/minecraft/item/ItemFishFood
-net/minecraft/server/1_13_R2/ItemFish$EnumFish	net/minecraft/item/ItemFishFood$FishType
-net/minecraft/server/1_13_R2/ItemFishingRod	net/minecraft/item/ItemFishingRod
-net/minecraft/server/1_13_R2/ItemFlintAndSteel	net/minecraft/item/ItemFlintAndSteel
-net/minecraft/server/1_13_R2/ItemFood	net/minecraft/item/ItemFood
-net/minecraft/server/1_13_R2/ItemRestricted	net/minecraft/item/ItemGMOnly
-net/minecraft/server/1_13_R2/ItemGoldenApple	net/minecraft/item/ItemAppleGold
-net/minecraft/server/1_13_R2/ItemHanging	net/minecraft/item/ItemHangingEntity
-net/minecraft/server/1_13_R2/ItemHoe	net/minecraft/item/ItemHoe
-net/minecraft/server/1_13_R2/Item	net/minecraft/item/Item
-net/minecraft/server/1_13_R2/Item$Info	net/minecraft/item/Item$Properties
-net/minecraft/server/1_13_R2/ItemCooldown	net/minecraft/util/CooldownTracker
-net/minecraft/server/1_13_R2/ItemCooldown$Info	net/minecraft/util/CooldownTracker$Cooldown
-net/minecraft/server/1_13_R2/ItemItemFrame	net/minecraft/item/ItemItemFrame
-net/minecraft/server/1_13_R2/IDynamicTexture	net/minecraft/item/IItemPropertyGetter
-net/minecraft/server/1_13_R2/ItemStack	net/minecraft/item/ItemStack
-net/minecraft/server/1_13_R2/Items	net/minecraft/init/Items
-net/minecraft/server/1_13_R2/ItemKnowledgeBook	net/minecraft/item/ItemKnowledgeBook
-net/minecraft/server/1_13_R2/ItemLeash	net/minecraft/item/ItemLead
-net/minecraft/server/1_13_R2/ItemLingeringPotion	net/minecraft/item/ItemLingeringPotion
-net/minecraft/server/1_13_R2/ItemWorldMap	net/minecraft/item/ItemMap
-net/minecraft/server/1_13_R2/ItemMilkBucket	net/minecraft/item/ItemBucketMilk
-net/minecraft/server/1_13_R2/ItemMinecart	net/minecraft/item/ItemMinecart
-net/minecraft/server/1_13_R2/ItemMinecart$1	net/minecraft/item/ItemMinecart$1
-net/minecraft/server/1_13_R2/ItemNameTag	net/minecraft/item/ItemNameTag
-net/minecraft/server/1_13_R2/ItemPickaxe	net/minecraft/item/ItemPickaxe
-net/minecraft/server/1_13_R2/ItemSkullPlayer	net/minecraft/item/ItemSkull
-net/minecraft/server/1_13_R2/ItemPotion	net/minecraft/item/ItemPotion
-net/minecraft/server/1_13_R2/EnumItemRarity	net/minecraft/item/EnumRarity
-net/minecraft/server/1_13_R2/ItemRecord	net/minecraft/item/ItemRecord
-net/minecraft/server/1_13_R2/ItemSaddle	net/minecraft/item/ItemSaddle
-net/minecraft/server/1_13_R2/ItemSeedFood	net/minecraft/item/ItemSeedFood
-net/minecraft/server/1_13_R2/ItemSeeds	net/minecraft/item/ItemSeeds
-net/minecraft/server/1_13_R2/ItemCooldownPlayer	net/minecraft/util/CooldownTrackerServer
-net/minecraft/server/1_13_R2/ItemShears	net/minecraft/item/ItemShears
-net/minecraft/server/1_13_R2/ItemShield	net/minecraft/item/ItemShield
-net/minecraft/server/1_13_R2/ItemSpade	net/minecraft/item/ItemSpade
-net/minecraft/server/1_13_R2/ItemSign	net/minecraft/item/ItemSign
-net/minecraft/server/1_13_R2/ItemNetherStar	net/minecraft/item/ItemSimpleFoiled
-net/minecraft/server/1_13_R2/ItemSnowball	net/minecraft/item/ItemSnowball
-net/minecraft/server/1_13_R2/ItemMonsterEgg	net/minecraft/item/ItemSpawnEgg
-net/minecraft/server/1_13_R2/ItemSpectralArrow	net/minecraft/item/ItemSpectralArrow
-net/minecraft/server/1_13_R2/ItemSplashPotion	net/minecraft/item/ItemSplashPotion
-net/minecraft/server/1_13_R2/ItemBlockWallable	net/minecraft/item/ItemWallOrFloor
-net/minecraft/server/1_13_R2/ItemString	net/minecraft/item/ItemString
-net/minecraft/server/1_13_R2/ItemSword	net/minecraft/item/ItemSword
-net/minecraft/server/1_13_R2/ToolMaterial	net/minecraft/item/IItemTier
-net/minecraft/server/1_13_R2/ItemToolMaterial	net/minecraft/item/ItemTiered
-net/minecraft/server/1_13_R2/EnumToolMaterial	net/minecraft/item/ItemTier
-net/minecraft/server/1_13_R2/ItemTippedArrow	net/minecraft/item/ItemTippedArrow
-net/minecraft/server/1_13_R2/ItemTrident	net/minecraft/item/ItemTrident
-net/minecraft/server/1_13_R2/EnumAnimation	net/minecraft/item/EnumAction
-net/minecraft/server/1_13_R2/ItemActionContext	net/minecraft/item/ItemUseContext
-net/minecraft/server/1_13_R2/ItemWaterLily	net/minecraft/item/ItemLilyPad
-net/minecraft/server/1_13_R2/ItemBookAndQuill	net/minecraft/item/ItemWritableBook
-net/minecraft/server/1_13_R2/ItemWrittenBook	net/minecraft/item/ItemWrittenBook
-net/minecraft/server/1_13_R2/PotionRegistry	net/minecraft/potion/PotionType
-net/minecraft/server/1_13_R2/PotionBrewer	net/minecraft/potion/PotionBrewing
-net/minecraft/server/1_13_R2/PotionBrewer$PredicatedCombination	net/minecraft/potion/PotionBrewing$MixPredicate
-net/minecraft/server/1_13_R2/PotionUtil	net/minecraft/potion/PotionUtils
-net/minecraft/server/1_13_R2/Potions	net/minecraft/init/PotionTypes
-net/minecraft/server/1_13_R2/RecipeArmorDye	net/minecraft/item/crafting/RecipesArmorDyes
-net/minecraft/server/1_13_R2/RecipeBannerAdd	net/minecraft/item/crafting/BannerAddPatternRecipe
-net/minecraft/server/1_13_R2/RecipeBannerDuplicate	net/minecraft/item/crafting/BannerDuplicateRecipe
-net/minecraft/server/1_13_R2/RecipeBookClone	net/minecraft/item/crafting/RecipeBookCloning
-net/minecraft/server/1_13_R2/IRecipeComplex	net/minecraft/item/crafting/IRecipeHidden
-net/minecraft/server/1_13_R2/RecipeFireworks	net/minecraft/item/crafting/FireworkRocketRecipe
-net/minecraft/server/1_13_R2/RecipeFireworksFade	net/minecraft/item/crafting/FireworkStarFadeRecipe
-net/minecraft/server/1_13_R2/RecipeFireworksStar	net/minecraft/item/crafting/FireworkStarRecipe
-net/minecraft/server/1_13_R2/RecipeItemStack	net/minecraft/item/crafting/Ingredient
-net/minecraft/server/1_13_R2/RecipeItemStack$StackProvider	net/minecraft/item/crafting/Ingredient$SingleItemList
-net/minecraft/server/1_13_R2/RecipeItemStack$b	net/minecraft/item/crafting/Ingredient$TagList
-net/minecraft/server/1_13_R2/RecipeItemStack$Provider	net/minecraft/item/crafting/Ingredient$IItemList
-net/minecraft/server/1_13_R2/RecipeMapClone	net/minecraft/item/crafting/RecipesMapCloning
-net/minecraft/server/1_13_R2/RecipeMapExtend	net/minecraft/item/crafting/RecipesMapExtending
-net/minecraft/server/1_13_R2/IRecipe	net/minecraft/item/crafting/IRecipe
-net/minecraft/server/1_13_R2/CraftingManager	net/minecraft/item/crafting/RecipeManager
-net/minecraft/server/1_13_R2/RecipeSerializer	net/minecraft/item/crafting/IRecipeSerializer
-net/minecraft/server/1_13_R2/RecipeSerializers	net/minecraft/item/crafting/RecipeSerializers
-net/minecraft/server/1_13_R2/RecipeSerializers$a	net/minecraft/item/crafting/RecipeSerializers$SimpleSerializer
-net/minecraft/server/1_13_R2/RecipeRepair	net/minecraft/item/crafting/RecipeRepairItem
-net/minecraft/server/1_13_R2/ShapedRecipes	net/minecraft/item/crafting/ShapedRecipe
-net/minecraft/server/1_13_R2/ShapedRecipes$a	net/minecraft/item/crafting/ShapedRecipe$Serializer
-net/minecraft/server/1_13_R2/ShapelessRecipes	net/minecraft/item/crafting/ShapelessRecipe
-net/minecraft/server/1_13_R2/ShapelessRecipes$a	net/minecraft/item/crafting/ShapelessRecipe$Serializer
-net/minecraft/server/1_13_R2/RecipiesShield	net/minecraft/item/crafting/ShieldRecipes
-net/minecraft/server/1_13_R2/RecipeShulkerBox	net/minecraft/item/crafting/ShulkerBoxColoringRecipe
-net/minecraft/server/1_13_R2/FurnaceRecipe	net/minecraft/item/crafting/FurnaceRecipe
-net/minecraft/server/1_13_R2/FurnaceRecipe$a	net/minecraft/item/crafting/FurnaceRecipe$Serializer
-net/minecraft/server/1_13_R2/RecipeTippedArrow	net/minecraft/item/crafting/RecipeTippedArrow
-net/minecraft/server/1_13_R2/EnchantmentArrowDamage	net/minecraft/enchantment/EnchantmentArrowDamage
-net/minecraft/server/1_13_R2/EnchantmentFlameArrows	net/minecraft/enchantment/EnchantmentArrowFire
-net/minecraft/server/1_13_R2/EnchantmentInfiniteArrows	net/minecraft/enchantment/EnchantmentArrowInfinite
-net/minecraft/server/1_13_R2/EnchantmentArrowKnockback	net/minecraft/enchantment/EnchantmentArrowKnockback
-net/minecraft/server/1_13_R2/EnchantmentBinding	net/minecraft/enchantment/EnchantmentBindingCurse
-net/minecraft/server/1_13_R2/EnchantmentWeaponDamage	net/minecraft/enchantment/EnchantmentDamage
-net/minecraft/server/1_13_R2/EnchantmentDurability	net/minecraft/enchantment/EnchantmentDurability
-net/minecraft/server/1_13_R2/EnchantmentDigging	net/minecraft/enchantment/EnchantmentDigging
-net/minecraft/server/1_13_R2/Enchantment	net/minecraft/enchantment/Enchantment
-net/minecraft/server/1_13_R2/Enchantment$Rarity	net/minecraft/enchantment/Enchantment$Rarity
-net/minecraft/server/1_13_R2/EnchantmentSlotType	net/minecraft/enchantment/EnumEnchantmentType
-net/minecraft/server/1_13_R2/EnchantmentSlotType$1	net/minecraft/enchantment/EnumEnchantmentType$1
-net/minecraft/server/1_13_R2/EnchantmentSlotType$2	net/minecraft/enchantment/EnumEnchantmentType$10
-net/minecraft/server/1_13_R2/EnchantmentSlotType$3	net/minecraft/enchantment/EnumEnchantmentType$11
-net/minecraft/server/1_13_R2/EnchantmentSlotType$4	net/minecraft/enchantment/EnumEnchantmentType$12
-net/minecraft/server/1_13_R2/EnchantmentSlotType$5	net/minecraft/enchantment/EnumEnchantmentType$13
-net/minecraft/server/1_13_R2/EnchantmentSlotType$6	net/minecraft/enchantment/EnumEnchantmentType$2
-net/minecraft/server/1_13_R2/EnchantmentSlotType$7	net/minecraft/enchantment/EnumEnchantmentType$3
-net/minecraft/server/1_13_R2/EnchantmentSlotType$8	net/minecraft/enchantment/EnumEnchantmentType$4
-net/minecraft/server/1_13_R2/EnchantmentSlotType$9	net/minecraft/enchantment/EnumEnchantmentType$5
-net/minecraft/server/1_13_R2/EnchantmentSlotType$10	net/minecraft/enchantment/EnumEnchantmentType$6
-net/minecraft/server/1_13_R2/EnchantmentSlotType$11	net/minecraft/enchantment/EnumEnchantmentType$7
-net/minecraft/server/1_13_R2/EnchantmentSlotType$12	net/minecraft/enchantment/EnumEnchantmentType$8
-net/minecraft/server/1_13_R2/EnchantmentSlotType$13	net/minecraft/enchantment/EnumEnchantmentType$9
-net/minecraft/server/1_13_R2/EnchantmentManager	net/minecraft/enchantment/EnchantmentHelper
-net/minecraft/server/1_13_R2/EnchantmentManager$a	net/minecraft/enchantment/EnchantmentHelper$IEnchantmentVisitor
-net/minecraft/server/1_13_R2/WeightedRandomEnchant	net/minecraft/enchantment/EnchantmentData
-net/minecraft/server/1_13_R2/Enchantments	net/minecraft/init/Enchantments
-net/minecraft/server/1_13_R2/EnchantmentFire	net/minecraft/enchantment/EnchantmentFireAspect
-net/minecraft/server/1_13_R2/EnchantmentLure	net/minecraft/enchantment/EnchantmentFishingSpeed
-net/minecraft/server/1_13_R2/EnchantmentFrostWalker	net/minecraft/enchantment/EnchantmentFrostWalker
-net/minecraft/server/1_13_R2/EnchantmentKnockback	net/minecraft/enchantment/EnchantmentKnockback
-net/minecraft/server/1_13_R2/EnchantmentLootBonus	net/minecraft/enchantment/EnchantmentLootBonus
-net/minecraft/server/1_13_R2/EnchantmentMending	net/minecraft/enchantment/EnchantmentMending
-net/minecraft/server/1_13_R2/EnchantmentOxygen	net/minecraft/enchantment/EnchantmentOxygen
-net/minecraft/server/1_13_R2/EnchantmentProtection	net/minecraft/enchantment/EnchantmentProtection
-net/minecraft/server/1_13_R2/EnchantmentProtection$DamageType	net/minecraft/enchantment/EnchantmentProtection$Type
-net/minecraft/server/1_13_R2/EnchantmentSweeping	net/minecraft/enchantment/EnchantmentSweepingEdge
-net/minecraft/server/1_13_R2/EnchantmentThorns	net/minecraft/enchantment/EnchantmentThorns
-net/minecraft/server/1_13_R2/EnchantmentTridentChanneling	net/minecraft/enchantment/EnchantmentChanneling
-net/minecraft/server/1_13_R2/EnchantmentTridentImpaling	net/minecraft/enchantment/EnchantmentImpaling
-net/minecraft/server/1_13_R2/EnchantmentTridentLoyalty	net/minecraft/enchantment/EnchantmentLoyalty
-net/minecraft/server/1_13_R2/EnchantmentTridentRiptide	net/minecraft/enchantment/EnchantmentRiptide
-net/minecraft/server/1_13_R2/EnchantmentSilkTouch	net/minecraft/enchantment/EnchantmentUntouching
-net/minecraft/server/1_13_R2/EnchantmentVanishing	net/minecraft/enchantment/EnchantmentVanishingCurse
-net/minecraft/server/1_13_R2/EnchantmentDepthStrider	net/minecraft/enchantment/EnchantmentWaterWalker
-net/minecraft/server/1_13_R2/EnchantmentWaterWorker	net/minecraft/enchantment/EnchantmentWaterWorker
-net/minecraft/server/1_13_R2/IMerchant	net/minecraft/entity/IMerchant
-net/minecraft/server/1_13_R2/MerchantRecipe	net/minecraft/village/MerchantRecipe
-net/minecraft/server/1_13_R2/MerchantRecipeList	net/minecraft/village/MerchantRecipeList
-net/minecraft/server/1_13_R2/CommandBlockListenerAbstract	net/minecraft/tileentity/CommandBlockBaseLogic
-net/minecraft/server/1_13_R2/MobSpawnerAbstract	net/minecraft/tileentity/MobSpawnerBaseLogic
-net/minecraft/server/1_13_R2/BlockActionData	net/minecraft/block/BlockEventData
-net/minecraft/server/1_13_R2/IBlockAccess	net/minecraft/world/IBlockReader
-net/minecraft/server/1_13_R2/TextureType	net/minecraft/util/BlockRenderLayer
-net/minecraft/server/1_13_R2/ChunkCoordIntPair	net/minecraft/util/math/ChunkPos
-net/minecraft/server/1_13_R2/IEntityAccess	net/minecraft/world/IEntityReader
-net/minecraft/server/1_13_R2/ExpiringMap	net/minecraft/util/ExpiringMap
-net/minecraft/server/1_13_R2/Explosion	net/minecraft/world/Explosion
-net/minecraft/server/1_13_R2/ForcedChunk	net/minecraft/world/ForcedChunksSaveData
-net/minecraft/server/1_13_R2/GameRules	net/minecraft/world/GameRules
-net/minecraft/server/1_13_R2/GameRules$GameRuleValue	net/minecraft/world/GameRules$Value
-net/minecraft/server/1_13_R2/GameRules$GameRuleDefinition	net/minecraft/world/GameRules$ValueDefinition
-net/minecraft/server/1_13_R2/GameRules$EnumGameRuleType	net/minecraft/world/GameRules$ValueType
-net/minecraft/server/1_13_R2/EnumGamemode	net/minecraft/world/GameType
-net/minecraft/server/1_13_R2/IMaterial	net/minecraft/util/IItemProvider
-net/minecraft/server/1_13_R2/World	net/minecraft/world/World
-net/minecraft/server/1_13_R2/GeneratorAccess	net/minecraft/world/IWorld
-net/minecraft/server/1_13_R2/ExceptionWorldConflict	net/minecraft/world/storage/SessionLockException
-net/minecraft/server/1_13_R2/IWorldAccess	net/minecraft/world/IWorldEventListener
-net/minecraft/server/1_13_R2/IWorldReader	net/minecraft/world/IWorldReaderBase
-net/minecraft/server/1_13_R2/WorldSettings	net/minecraft/world/WorldSettings
-net/minecraft/server/1_13_R2/IIBlockAccess	net/minecraft/world/IWorldReader
-net/minecraft/server/1_13_R2/IPersistentAccess	net/minecraft/world/ISaveDataAccess
-net/minecraft/server/1_13_R2/WorldType	net/minecraft/world/WorldType
-net/minecraft/server/1_13_R2/IWorldWriter	net/minecraft/world/IWorldWriter
-net/minecraft/server/1_13_R2/EnumSkyBlock	net/minecraft/world/EnumLightType
-net/minecraft/server/1_13_R2/SpawnerCreature	net/minecraft/world/WorldEntitySpawner
-net/minecraft/server/1_13_R2/PortalTravelAgent	net/minecraft/world/Teleporter
-net/minecraft/server/1_13_R2/PortalTravelAgent$ChunkCoordinatesPortal	net/minecraft/world/Teleporter$PortalPosition
-net/minecraft/server/1_13_R2/ChunkCache	net/minecraft/world/Region
-net/minecraft/server/1_13_R2/TickListServer	net/minecraft/world/ServerTickList
-net/minecraft/server/1_13_R2/MobSpawnerData	net/minecraft/util/WeightedSpawnerEntity
-net/minecraft/server/1_13_R2/TickList	net/minecraft/world/ITickList
-net/minecraft/server/1_13_R2/NextTickListEntry	net/minecraft/world/NextTickListEntry
-net/minecraft/server/1_13_R2/TickListPriority	net/minecraft/world/TickPriority
-net/minecraft/server/1_13_R2/BiomeMesa	net/minecraft/world/biome/BadlandsBiome
-net/minecraft/server/1_13_R2/BiomeMesaPlataeuClear	net/minecraft/world/biome/BadlandsPlateauBiome
-net/minecraft/server/1_13_R2/BiomeBeach	net/minecraft/world/biome/BeachBiome
-net/minecraft/server/1_13_R2/BiomeBase	net/minecraft/world/biome/Biome
-net/minecraft/server/1_13_R2/BiomeBase$a	net/minecraft/world/biome/Biome$BiomeBuilder
-net/minecraft/server/1_13_R2/BiomeBase$Geography	net/minecraft/world/biome/Biome$Category
-net/minecraft/server/1_13_R2/BiomeBase$EnumTemperature	net/minecraft/world/biome/Biome$TempCategory
-net/minecraft/server/1_13_R2/BiomeBase$Precipitation	net/minecraft/world/biome/Biome$RainType
-net/minecraft/server/1_13_R2/BiomeBase$BiomeMeta	net/minecraft/world/biome/Biome$SpawnListEntry
-net/minecraft/server/1_13_R2/BiomeCache	net/minecraft/world/biome/BiomeCache
-net/minecraft/server/1_13_R2/BiomeCache$1	net/minecraft/world/biome/BiomeCache$1
-net/minecraft/server/1_13_R2/BiomeCache$a	net/minecraft/world/biome/BiomeCache$Entry
-net/minecraft/server/1_13_R2/WorldChunkManager	net/minecraft/world/biome/provider/BiomeProvider
-net/minecraft/server/1_13_R2/BiomeLayoutConfiguration	net/minecraft/world/biome/provider/IBiomeProviderSettings
-net/minecraft/server/1_13_R2/BiomeLayout	net/minecraft/world/biome/provider/BiomeProviderType
-net/minecraft/server/1_13_R2/Biomes	net/minecraft/init/Biomes
-net/minecraft/server/1_13_R2/BiomeBirchForest	net/minecraft/world/biome/BirchForestBiome
-net/minecraft/server/1_13_R2/BiomeBirchForestHills	net/minecraft/world/biome/BirchForestHillsBiome
-net/minecraft/server/1_13_R2/WorldChunkManagerCheckerBoard	net/minecraft/world/biome/provider/CheckerboardBiomeProvider
-net/minecraft/server/1_13_R2/BiomeLayoutCheckerboardConfiguration	net/minecraft/world/biome/provider/CheckerboardBiomeProviderSettings
-net/minecraft/server/1_13_R2/BiomeColdOcean	net/minecraft/world/biome/ColdOceanBiome
-net/minecraft/server/1_13_R2/BiomeRoofedForest	net/minecraft/world/biome/DarkForestBiome
-net/minecraft/server/1_13_R2/BiomeRoofedForestMutated	net/minecraft/world/biome/DarkForestHillsBiome
-net/minecraft/server/1_13_R2/BiomeColdDeepOcean	net/minecraft/world/biome/DeepColdOceanBiome
-net/minecraft/server/1_13_R2/BiomeFrozenDeepOcean	net/minecraft/world/biome/DeepFrozenOceanBiome
-net/minecraft/server/1_13_R2/BiomeLukewarmDeepOcean	net/minecraft/world/biome/DeepLukewarmOceanBiome
-net/minecraft/server/1_13_R2/BiomeDeepOcean	net/minecraft/world/biome/DeepOceanBiome
-net/minecraft/server/1_13_R2/BiomeWarmDeepOcean	net/minecraft/world/biome/DeepWarmOceanBiome
-net/minecraft/server/1_13_R2/BiomeDesert	net/minecraft/world/biome/DesertBiome
-net/minecraft/server/1_13_R2/BiomeDesertHills	net/minecraft/world/biome/DesertHillsBiome
-net/minecraft/server/1_13_R2/BiomeDesertMutated	net/minecraft/world/biome/DesertLakesBiome
-net/minecraft/server/1_13_R2/BiomeTheEndBarrenIsland	net/minecraft/world/biome/EndBarrensBiome
-net/minecraft/server/1_13_R2/BiomeTheEndHighIsland	net/minecraft/world/biome/EndHighlandsBiome
-net/minecraft/server/1_13_R2/BiomeTheEndMediumIsland	net/minecraft/world/biome/EndMidlandsBiome
-net/minecraft/server/1_13_R2/BiomeMesaBryce	net/minecraft/world/biome/ErodedBadlandsBiome
-net/minecraft/server/1_13_R2/WorldChunkManagerHell	net/minecraft/world/biome/provider/SingleBiomeProvider
-net/minecraft/server/1_13_R2/BiomeLayoutFixedConfiguration	net/minecraft/world/biome/provider/SingleBiomeProviderSettings
-net/minecraft/server/1_13_R2/BiomeForest	net/minecraft/world/biome/ForestBiome
-net/minecraft/server/1_13_R2/BiomeFlowerForest	net/minecraft/world/biome/FlowerForestBiome
-net/minecraft/server/1_13_R2/BiomeFrozenOcean	net/minecraft/world/biome/FrozenOceanBiome
-net/minecraft/server/1_13_R2/BiomeFrozenRiver	net/minecraft/world/biome/FrozenRiverBiome
-net/minecraft/server/1_13_R2/BiomeMegaSpruceTaiga	net/minecraft/world/biome/GiantSpruceTaigaBiome
-net/minecraft/server/1_13_R2/BiomeRedwoodTaigaHillsMutated	net/minecraft/world/biome/GiantSpruceTaigaHillsBiome
-net/minecraft/server/1_13_R2/BiomeMegaTaiga	net/minecraft/world/biome/GiantTreeTaigaBiome
-net/minecraft/server/1_13_R2/BiomeMegaTaigaHills	net/minecraft/world/biome/GiantTreeTaigaHillsBiome
-net/minecraft/server/1_13_R2/BiomeExtremeHillsMutated	net/minecraft/world/biome/GravellyMountainsBiome
-net/minecraft/server/1_13_R2/BiomeIcePlainsSpikes	net/minecraft/world/biome/IceSpikesBiome
-net/minecraft/server/1_13_R2/BiomeJungle	net/minecraft/world/biome/JungleBiome
-net/minecraft/server/1_13_R2/BiomeJungleEdge	net/minecraft/world/biome/JungleEdgeBiome
-net/minecraft/server/1_13_R2/BiomeJungleHills	net/minecraft/world/biome/JungleHillsBiome
-net/minecraft/server/1_13_R2/BiomeLukewarmOcean	net/minecraft/world/biome/LukewarmOceanBiome
-net/minecraft/server/1_13_R2/BiomeMesaPlateauClearMutated	net/minecraft/world/biome/ModifiedBadlandsPlateauBiome
-net/minecraft/server/1_13_R2/BiomeExtremeHillsWithTreesMutated	net/minecraft/world/biome/ModifiedGravellyMountainsBiome
-net/minecraft/server/1_13_R2/BiomeJungleMutated	net/minecraft/world/biome/ModifiedJungleBiome
-net/minecraft/server/1_13_R2/BiomeJungleEdgeMutated	net/minecraft/world/biome/ModifiedJungleEdgeBiome
-net/minecraft/server/1_13_R2/BiomeMesaPlateauMutated	net/minecraft/world/biome/ModifiedWoodedBadlandsPlateauBiome
-net/minecraft/server/1_13_R2/BiomeBigHills	net/minecraft/world/biome/MountainsBiome
-net/minecraft/server/1_13_R2/BiomeExtremeHillsEdge	net/minecraft/world/biome/MountainEdgeBiome
-net/minecraft/server/1_13_R2/BiomeMushrooms	net/minecraft/world/biome/MushroomFieldsBiome
-net/minecraft/server/1_13_R2/BiomeMushroomIslandShore	net/minecraft/world/biome/MushroomFieldShoreBiome
-net/minecraft/server/1_13_R2/BiomeHell	net/minecraft/world/biome/NetherBiome
-net/minecraft/server/1_13_R2/BiomeOcean	net/minecraft/world/biome/OceanBiome
-net/minecraft/server/1_13_R2/WorldChunkManagerOverworld	net/minecraft/world/biome/provider/OverworldBiomeProvider
-net/minecraft/server/1_13_R2/BiomeLayoutOverworldConfiguration	net/minecraft/world/biome/provider/OverworldBiomeProviderSettings
-net/minecraft/server/1_13_R2/BiomePlains	net/minecraft/world/biome/PlainsBiome
-net/minecraft/server/1_13_R2/BiomeRiver	net/minecraft/world/biome/RiverBiome
-net/minecraft/server/1_13_R2/BiomeSavanna	net/minecraft/world/biome/SavannaBiome
-net/minecraft/server/1_13_R2/BiomeSavannaPlateau	net/minecraft/world/biome/SavannaPlateauBiome
-net/minecraft/server/1_13_R2/BiomeSavannaMutated	net/minecraft/world/biome/ShatteredSavannaBiome
-net/minecraft/server/1_13_R2/BiomeSavannaPlateauMutated	net/minecraft/world/biome/ShatteredSavannaPlateauBiome
-net/minecraft/server/1_13_R2/BiomeTheEndFloatingIslands	net/minecraft/world/biome/SmallEndIslandsBiome
-net/minecraft/server/1_13_R2/BiomeColdBeach	net/minecraft/world/biome/SnowyBeachBiome
-net/minecraft/server/1_13_R2/BiomeIceMountains	net/minecraft/world/biome/SnowyMountainsBiome
-net/minecraft/server/1_13_R2/BiomeColdTaiga	net/minecraft/world/biome/SnowyTaigaBiome
-net/minecraft/server/1_13_R2/BiomeColdTaigaHills	net/minecraft/world/biome/SnowyTaigaHillsBiome
-net/minecraft/server/1_13_R2/BiomeColdTaigaMutated	net/minecraft/world/biome/SnowyTaigaMountainsBiome
-net/minecraft/server/1_13_R2/BiomeIcePlains	net/minecraft/world/biome/SnowyTundraBiome
-net/minecraft/server/1_13_R2/BiomeStoneBeach	net/minecraft/world/biome/StoneShoreBiome
-net/minecraft/server/1_13_R2/BiomeSunflowerPlains	net/minecraft/world/biome/SunflowerPlainsBiome
-net/minecraft/server/1_13_R2/BiomeSwamp	net/minecraft/world/biome/SwampBiome
-net/minecraft/server/1_13_R2/BiomeSwamplandMutated	net/minecraft/world/biome/SwampHillsBiome
-net/minecraft/server/1_13_R2/BiomeTaiga	net/minecraft/world/biome/TaigaBiome
-net/minecraft/server/1_13_R2/BiomeTaigaHills	net/minecraft/world/biome/TaigaHillsBiome
-net/minecraft/server/1_13_R2/BiomeTaigaMutated	net/minecraft/world/biome/TaigaMountainsBiome
-net/minecraft/server/1_13_R2/BiomeBirchForestMutated	net/minecraft/world/biome/TallBirchForestBiome
-net/minecraft/server/1_13_R2/BiomeBirchForestHillsMutated	net/minecraft/world/biome/TallBirchHillsBiome
-net/minecraft/server/1_13_R2/BiomeTheEnd	net/minecraft/world/biome/TheEndBiome
-net/minecraft/server/1_13_R2/WorldChunkManagerTheEnd	net/minecraft/world/biome/provider/EndBiomeProvider
-net/minecraft/server/1_13_R2/BiomeLayoutTheEndConfiguration	net/minecraft/world/biome/provider/EndBiomeProviderSettings
-net/minecraft/server/1_13_R2/BiomeVoid	net/minecraft/world/biome/TheVoidBiome
-net/minecraft/server/1_13_R2/BiomeWarmOcean	net/minecraft/world/biome/WarmOceanBiome
-net/minecraft/server/1_13_R2/BiomeMesaPlataeu	net/minecraft/world/biome/WoodedBadlandsPlateauBiome
-net/minecraft/server/1_13_R2/BiomeForestHills	net/minecraft/world/biome/WoodedHillsBiome
-net/minecraft/server/1_13_R2/BiomeExtremeHillsWithTrees	net/minecraft/world/biome/WoodedMountainsBiome
-net/minecraft/server/1_13_R2/BlockBannerAbstract	net/minecraft/block/BlockAbstractBanner
-net/minecraft/server/1_13_R2/BlockSkullAbstract	net/minecraft/block/BlockAbstractSkull
-net/minecraft/server/1_13_R2/BlockAir	net/minecraft/block/BlockAir
-net/minecraft/server/1_13_R2/BlockAnvil	net/minecraft/block/BlockAnvil
-net/minecraft/server/1_13_R2/BlockAnvil$TileEntityContainerAnvil	net/minecraft/block/BlockAnvil$Anvil
-net/minecraft/server/1_13_R2/BlockStemAttached	net/minecraft/block/BlockAttachedStem
-net/minecraft/server/1_13_R2/BlockBanner	net/minecraft/block/BlockBanner
-net/minecraft/server/1_13_R2/BlockBarrier	net/minecraft/block/BlockBarrier
-net/minecraft/server/1_13_R2/BlockCoralFanAbstract	net/minecraft/block/BlockCoralFan
-net/minecraft/server/1_13_R2/BlockCoralDead	net/minecraft/block/BlockCoralPlantDead
-net/minecraft/server/1_13_R2/BlockCoralBase	net/minecraft/block/BlockCoralPlantBase
-net/minecraft/server/1_13_R2/BlockCoralFanWallAbstract	net/minecraft/block/BlockCoralWallFanDead
-net/minecraft/server/1_13_R2/BlockTileEntity	net/minecraft/block/BlockContainer
-net/minecraft/server/1_13_R2/BlockPressurePlateAbstract	net/minecraft/block/BlockBasePressurePlate
-net/minecraft/server/1_13_R2/BlockMinecartTrackAbstract	net/minecraft/block/BlockRailBase
-net/minecraft/server/1_13_R2/BlockBeacon	net/minecraft/block/BlockBeacon
-net/minecraft/server/1_13_R2/BlockBed	net/minecraft/block/BlockBed
-net/minecraft/server/1_13_R2/BlockBeetroot	net/minecraft/block/BlockBeetroot
-net/minecraft/server/1_13_R2/Block	net/minecraft/block/Block
-net/minecraft/server/1_13_R2/Block$1	net/minecraft/block/Block$1
-net/minecraft/server/1_13_R2/Block$a	net/minecraft/block/Block$RenderSideCacheKey
-net/minecraft/server/1_13_R2/Block$EnumRandomOffset	net/minecraft/block/Block$EnumOffsetType
-net/minecraft/server/1_13_R2/Block$Info	net/minecraft/block/Block$Properties
-net/minecraft/server/1_13_R2/Blocks	net/minecraft/init/Blocks
-net/minecraft/server/1_13_R2/BlockBlueIce	net/minecraft/block/BlockBlueIce
-net/minecraft/server/1_13_R2/IBlockFragilePlantElement	net/minecraft/block/IGrowable
-net/minecraft/server/1_13_R2/BlockBookshelf	net/minecraft/block/BlockBookshelf
-net/minecraft/server/1_13_R2/BlockBrewingStand	net/minecraft/block/BlockBrewingStand
-net/minecraft/server/1_13_R2/BlockBubbleColumn	net/minecraft/block/BlockBubbleColumn
-net/minecraft/server/1_13_R2/IFluidSource	net/minecraft/block/IBucketPickupHandler
-net/minecraft/server/1_13_R2/BlockPlant	net/minecraft/block/BlockBush
-net/minecraft/server/1_13_R2/BlockButtonAbstract	net/minecraft/block/BlockButton
-net/minecraft/server/1_13_R2/BlockCactus	net/minecraft/block/BlockCactus
-net/minecraft/server/1_13_R2/BlockCake	net/minecraft/block/BlockCake
-net/minecraft/server/1_13_R2/BlockCarrots	net/minecraft/block/BlockCarrot
-net/minecraft/server/1_13_R2/BlockPumpkinCarved	net/minecraft/block/BlockCarvedPumpkin
-net/minecraft/server/1_13_R2/BlockCauldron	net/minecraft/block/BlockCauldron
-net/minecraft/server/1_13_R2/BlockChest	net/minecraft/block/BlockChest
-net/minecraft/server/1_13_R2/BlockChorusFlower	net/minecraft/block/BlockChorusFlower
-net/minecraft/server/1_13_R2/BlockChorusFruit	net/minecraft/block/BlockChorusPlant
-net/minecraft/server/1_13_R2/BlockClay	net/minecraft/block/BlockClay
-net/minecraft/server/1_13_R2/BlockCocoa	net/minecraft/block/BlockCocoa
-net/minecraft/server/1_13_R2/BlockCommand	net/minecraft/block/BlockCommandBlock
-net/minecraft/server/1_13_R2/BlockRedstoneComparator	net/minecraft/block/BlockRedstoneComparator
-net/minecraft/server/1_13_R2/BlockConcretePowder	net/minecraft/block/BlockConcretePowder
-net/minecraft/server/1_13_R2/BlockConduit	net/minecraft/block/BlockConduit
-net/minecraft/server/1_13_R2/BlockCoral	net/minecraft/block/BlockCoral
-net/minecraft/server/1_13_R2/BlockCoralFan	net/minecraft/block/BlockCoralFin
-net/minecraft/server/1_13_R2/BlockCoralPlant	net/minecraft/block/BlockCoralPlant
-net/minecraft/server/1_13_R2/BlockCoralFanWall	net/minecraft/block/BlockCoralWallFan
-net/minecraft/server/1_13_R2/BlockWorkbench	net/minecraft/block/BlockWorkbench
-net/minecraft/server/1_13_R2/BlockWorkbench$TileEntityContainerWorkbench	net/minecraft/block/BlockWorkbench$InterfaceCraftingTable
-net/minecraft/server/1_13_R2/BlockCrops	net/minecraft/block/BlockCrops
-net/minecraft/server/1_13_R2/BlockTall	net/minecraft/block/BlockFourWay
-net/minecraft/server/1_13_R2/BlockDaylightDetector	net/minecraft/block/BlockDaylightDetector
-net/minecraft/server/1_13_R2/BlockDeadBush	net/minecraft/block/BlockDeadBush
-net/minecraft/server/1_13_R2/BlockMinecartDetector	net/minecraft/block/BlockRailDetector
-net/minecraft/server/1_13_R2/BlockDiodeAbstract	net/minecraft/block/BlockRedstoneDiode
-net/minecraft/server/1_13_R2/BlockDirectional	net/minecraft/block/BlockDirectional
-net/minecraft/server/1_13_R2/BlockDispenser	net/minecraft/block/BlockDispenser
-net/minecraft/server/1_13_R2/BlockDoor	net/minecraft/block/BlockDoor
-net/minecraft/server/1_13_R2/BlockTallPlant	net/minecraft/block/BlockDoublePlant
-net/minecraft/server/1_13_R2/BlockDragonEgg	net/minecraft/block/BlockDragonEgg
-net/minecraft/server/1_13_R2/BlockDropper	net/minecraft/block/BlockDropper
-net/minecraft/server/1_13_R2/BlockEnchantmentTable	net/minecraft/block/BlockEnchantmentTable
-net/minecraft/server/1_13_R2/BlockEndGateway	net/minecraft/block/BlockEndGateway
-net/minecraft/server/1_13_R2/BlockEnderPortal	net/minecraft/block/BlockEndPortal
-net/minecraft/server/1_13_R2/BlockEnderPortalFrame	net/minecraft/block/BlockEndPortalFrame
-net/minecraft/server/1_13_R2/BlockEndRod	net/minecraft/block/BlockEndRod
-net/minecraft/server/1_13_R2/BlockEnderChest	net/minecraft/block/BlockEnderChest
-net/minecraft/server/1_13_R2/ITileEntity	net/minecraft/block/ITileEntityProvider
-net/minecraft/server/1_13_R2/BlockAttachable	net/minecraft/block/BlockHorizontalFace
-net/minecraft/server/1_13_R2/BlockFalling	net/minecraft/block/BlockFalling
-net/minecraft/server/1_13_R2/BlockSoil	net/minecraft/block/BlockFarmland
-net/minecraft/server/1_13_R2/BlockFence	net/minecraft/block/BlockFence
-net/minecraft/server/1_13_R2/BlockFenceGate	net/minecraft/block/BlockFenceGate
-net/minecraft/server/1_13_R2/BlockFire	net/minecraft/block/BlockFire
-net/minecraft/server/1_13_R2/BlockFlowers	net/minecraft/block/BlockFlower
-net/minecraft/server/1_13_R2/BlockFlowerPot	net/minecraft/block/BlockFlowerPot
-net/minecraft/server/1_13_R2/BlockIceFrost	net/minecraft/block/BlockFrostedIce
-net/minecraft/server/1_13_R2/BlockFurnace	net/minecraft/block/BlockFurnace
-net/minecraft/server/1_13_R2/BlockGlass	net/minecraft/block/BlockGlass
-net/minecraft/server/1_13_R2/BlockGlassPane	net/minecraft/block/BlockGlassPane
-net/minecraft/server/1_13_R2/BlockGlazedTerracotta	net/minecraft/block/BlockGlazedTerracotta
-net/minecraft/server/1_13_R2/BlockLightStone	net/minecraft/block/BlockGlowstone
-net/minecraft/server/1_13_R2/BlockGrass	net/minecraft/block/BlockGrass
-net/minecraft/server/1_13_R2/BlockGrassPath	net/minecraft/block/BlockGrassPath
-net/minecraft/server/1_13_R2/BlockGravel	net/minecraft/block/BlockGravel
-net/minecraft/server/1_13_R2/BlockHalfTransparent	net/minecraft/block/BlockBreakable
-net/minecraft/server/1_13_R2/BlockHay	net/minecraft/block/BlockHay
-net/minecraft/server/1_13_R2/BlockHopper	net/minecraft/block/BlockHopper
-net/minecraft/server/1_13_R2/BlockFacingHorizontal	net/minecraft/block/BlockHorizontal
-net/minecraft/server/1_13_R2/BlockHugeMushroom	net/minecraft/block/BlockHugeMushroom
-net/minecraft/server/1_13_R2/BlockIce	net/minecraft/block/BlockIce
-net/minecraft/server/1_13_R2/BlockMonsterEggs	net/minecraft/block/BlockSilverfish
-net/minecraft/server/1_13_R2/BlockIronBars	net/minecraft/block/BlockPane
-net/minecraft/server/1_13_R2/BlockJukeBox	net/minecraft/block/BlockJukebox
-net/minecraft/server/1_13_R2/BlockKelp	net/minecraft/block/BlockKelpTop
-net/minecraft/server/1_13_R2/BlockKelpPlant	net/minecraft/block/BlockKelp
-net/minecraft/server/1_13_R2/BlockLadder	net/minecraft/block/BlockLadder
-net/minecraft/server/1_13_R2/BlockLeaves	net/minecraft/block/BlockLeaves
-net/minecraft/server/1_13_R2/BlockLever	net/minecraft/block/BlockLever
-net/minecraft/server/1_13_R2/BlockFluids	net/minecraft/block/BlockFlowingFluid
-net/minecraft/server/1_13_R2/IFluidContainer	net/minecraft/block/ILiquidContainer
-net/minecraft/server/1_13_R2/BlockLogAbstract	net/minecraft/block/BlockLog
-net/minecraft/server/1_13_R2/BlockMagma	net/minecraft/block/BlockMagma
-net/minecraft/server/1_13_R2/BlockMelon	net/minecraft/block/BlockMelon
-net/minecraft/server/1_13_R2/EnumBlockMirror	net/minecraft/util/Mirror
-net/minecraft/server/1_13_R2/BlockMushroom	net/minecraft/block/BlockMushroom
-net/minecraft/server/1_13_R2/BlockMycel	net/minecraft/block/BlockMycelium
-net/minecraft/server/1_13_R2/BlockPortal	net/minecraft/block/BlockPortal
-net/minecraft/server/1_13_R2/BlockPortal$Shape	net/minecraft/block/BlockPortal$Size
-net/minecraft/server/1_13_R2/BlockNetherWart	net/minecraft/block/BlockNetherWart
-net/minecraft/server/1_13_R2/BlockNoDrop	net/minecraft/block/BlockEmptyDrops
-net/minecraft/server/1_13_R2/BlockNote	net/minecraft/block/BlockNote
-net/minecraft/server/1_13_R2/BlockObserver	net/minecraft/block/BlockObserver
-net/minecraft/server/1_13_R2/BlockOre	net/minecraft/block/BlockOre
-net/minecraft/server/1_13_R2/BlockPackedIce	net/minecraft/block/BlockPackedIce
-net/minecraft/server/1_13_R2/BlockSprawling	net/minecraft/block/BlockSixWay
-net/minecraft/server/1_13_R2/BlockSkullPlayer	net/minecraft/block/BlockSkullPlayer
-net/minecraft/server/1_13_R2/BlockSkullPlayerWall	net/minecraft/block/BlockSkullWallPlayer
-net/minecraft/server/1_13_R2/BlockPotatoes	net/minecraft/block/BlockPotato
-net/minecraft/server/1_13_R2/BlockPowered	net/minecraft/block/BlockRedstone
-net/minecraft/server/1_13_R2/BlockPoweredRail	net/minecraft/block/BlockRailPowered
-net/minecraft/server/1_13_R2/BlockPressurePlateBinary	net/minecraft/block/BlockPressurePlate
-net/minecraft/server/1_13_R2/BlockPressurePlateBinary$EnumMobType	net/minecraft/block/BlockPressurePlate$Sensitivity
-net/minecraft/server/1_13_R2/BlockPumpkin	net/minecraft/block/BlockPumpkin
-net/minecraft/server/1_13_R2/BlockMinecartTrack	net/minecraft/block/BlockRail
-net/minecraft/server/1_13_R2/MinecartTrackLogic	net/minecraft/block/BlockRailState
-net/minecraft/server/1_13_R2/BlockRedstoneOre	net/minecraft/block/BlockRedstoneOre
-net/minecraft/server/1_13_R2/BlockRedstoneWire	net/minecraft/block/BlockRedstoneWire
-net/minecraft/server/1_13_R2/BlockRedstoneLamp	net/minecraft/block/BlockRedstoneLamp
-net/minecraft/server/1_13_R2/BlockRedstoneTorch	net/minecraft/block/BlockRedstoneTorch
-net/minecraft/server/1_13_R2/BlockRedstoneTorch$RedstoneUpdateInfo	net/minecraft/block/BlockRedstoneTorch$Toggle
-net/minecraft/server/1_13_R2/BlockRedstoneTorchWall	net/minecraft/block/BlockRedstoneTorchWall
-net/minecraft/server/1_13_R2/EnumRenderType	net/minecraft/util/EnumBlockRenderType
-net/minecraft/server/1_13_R2/BlockRepeater	net/minecraft/block/BlockRedstoneRepeater
-net/minecraft/server/1_13_R2/BlockRotatable	net/minecraft/block/BlockRotatedPillar
-net/minecraft/server/1_13_R2/EnumBlockRotation	net/minecraft/util/Rotation
-net/minecraft/server/1_13_R2/BlockSand	net/minecraft/block/BlockSand
-net/minecraft/server/1_13_R2/BlockSapling	net/minecraft/block/BlockSapling
-net/minecraft/server/1_13_R2/BlockSeaLantern	net/minecraft/block/BlockSeaLantern
-net/minecraft/server/1_13_R2/BlockSeaPickle	net/minecraft/block/BlockSeaPickle
-net/minecraft/server/1_13_R2/BlockSeaGrass	net/minecraft/block/BlockSeaGrass
-net/minecraft/server/1_13_R2/BlockTallPlantShearable	net/minecraft/block/BlockShearableDoublePlant
-net/minecraft/server/1_13_R2/BlockShulkerBox	net/minecraft/block/BlockShulkerBox
-net/minecraft/server/1_13_R2/BlockSign	net/minecraft/block/BlockSign
-net/minecraft/server/1_13_R2/BlockSkull	net/minecraft/block/BlockSkull
-net/minecraft/server/1_13_R2/BlockSkull$a	net/minecraft/block/BlockSkull$ISkullType
-net/minecraft/server/1_13_R2/BlockSkull$Type	net/minecraft/block/BlockSkull$Types
-net/minecraft/server/1_13_R2/BlockStepAbstract	net/minecraft/block/BlockSlab
-net/minecraft/server/1_13_R2/BlockSlime	net/minecraft/block/BlockSlime
-net/minecraft/server/1_13_R2/BlockSnowBlock	net/minecraft/block/BlockSnow
-net/minecraft/server/1_13_R2/BlockSnow	net/minecraft/block/BlockSnowLayer
-net/minecraft/server/1_13_R2/BlockDirtSnow	net/minecraft/block/BlockDirtSnowy
-net/minecraft/server/1_13_R2/BlockSlowSand	net/minecraft/block/BlockSoulSand
-net/minecraft/server/1_13_R2/SoundEffectType	net/minecraft/block/SoundType
-net/minecraft/server/1_13_R2/BlockMobSpawner	net/minecraft/block/BlockMobSpawner
-net/minecraft/server/1_13_R2/BlockSponge	net/minecraft/block/BlockSponge
-net/minecraft/server/1_13_R2/BlockDirtSnowSpreadable	net/minecraft/block/BlockDirtSnowySpreadable
-net/minecraft/server/1_13_R2/BlockStainedGlass	net/minecraft/block/BlockStainedGlass
-net/minecraft/server/1_13_R2/BlockStainedGlassPane	net/minecraft/block/BlockStainedGlassPane
-net/minecraft/server/1_13_R2/BlockStairs	net/minecraft/block/BlockStairs
-net/minecraft/server/1_13_R2/BlockFloorSign	net/minecraft/block/BlockStandingSign
-net/minecraft/server/1_13_R2/BlockStem	net/minecraft/block/BlockStem
-net/minecraft/server/1_13_R2/BlockStemmed	net/minecraft/block/BlockStemGrown
-net/minecraft/server/1_13_R2/BlockStone	net/minecraft/block/BlockStone
-net/minecraft/server/1_13_R2/BlockStoneButton	net/minecraft/block/BlockButtonStone
-net/minecraft/server/1_13_R2/BlockStructure	net/minecraft/block/BlockStructure
-net/minecraft/server/1_13_R2/BlockStructureVoid	net/minecraft/block/BlockStructureVoid
-net/minecraft/server/1_13_R2/BlockReed	net/minecraft/block/BlockReed
-net/minecraft/server/1_13_R2/BlockTallPlantFlower	net/minecraft/block/BlockTallFlower
-net/minecraft/server/1_13_R2/BlockLongGrass	net/minecraft/block/BlockTallGrass
-net/minecraft/server/1_13_R2/BlockTallSeaGrass	net/minecraft/block/BlockSeaGrassTall
-net/minecraft/server/1_13_R2/BlockTNT	net/minecraft/block/BlockTNT
-net/minecraft/server/1_13_R2/BlockTorch	net/minecraft/block/BlockTorch
-net/minecraft/server/1_13_R2/BlockTrapdoor	net/minecraft/block/BlockTrapDoor
-net/minecraft/server/1_13_R2/BlockChestTrapped	net/minecraft/block/BlockTrappedChest
-net/minecraft/server/1_13_R2/BlockTripwire	net/minecraft/block/BlockTripWire
-net/minecraft/server/1_13_R2/BlockTripwireHook	net/minecraft/block/BlockTripWireHook
-net/minecraft/server/1_13_R2/BlockTurtleEgg	net/minecraft/block/BlockTurtleEgg
-net/minecraft/server/1_13_R2/BlockVine	net/minecraft/block/BlockVine
-net/minecraft/server/1_13_R2/BlockBannerWall	net/minecraft/block/BlockBannerWall
-net/minecraft/server/1_13_R2/BlockCobbleWall	net/minecraft/block/BlockWall
-net/minecraft/server/1_13_R2/BlockWallSign	net/minecraft/block/BlockWallSign
-net/minecraft/server/1_13_R2/BlockSkullWall	net/minecraft/block/BlockSkullWall
-net/minecraft/server/1_13_R2/BlockTorchWall	net/minecraft/block/BlockTorchWall
-net/minecraft/server/1_13_R2/BlockWaterLily	net/minecraft/block/BlockLilyPad
-net/minecraft/server/1_13_R2/BlockWeb	net/minecraft/block/BlockWeb
-net/minecraft/server/1_13_R2/BlockPressurePlateWeighted	net/minecraft/block/BlockPressurePlateWeighted
-net/minecraft/server/1_13_R2/BlockWetSponge	net/minecraft/block/BlockWetSponge
-net/minecraft/server/1_13_R2/BlockWitherSkull	net/minecraft/block/BlockSkullWither
-net/minecraft/server/1_13_R2/BlockWitherSkullWall	net/minecraft/block/BlockSkullWitherWall
-net/minecraft/server/1_13_R2/BlockWoodButton	net/minecraft/block/BlockButtonWood
-net/minecraft/server/1_13_R2/BlockCarpet	net/minecraft/block/BlockCarpet
-net/minecraft/server/1_13_R2/TileEntityBanner	net/minecraft/tileentity/TileEntityBanner
-net/minecraft/server/1_13_R2/EnumBannerPatternType	net/minecraft/tileentity/BannerPattern
-net/minecraft/server/1_13_R2/TileEntityBeacon	net/minecraft/tileentity/TileEntityBeacon
-net/minecraft/server/1_13_R2/TileEntityBeacon$BeaconColorTracker	net/minecraft/tileentity/TileEntityBeacon$BeamSegment
-net/minecraft/server/1_13_R2/TileEntityBed	net/minecraft/tileentity/TileEntityBed
-net/minecraft/server/1_13_R2/TileEntity	net/minecraft/tileentity/TileEntity
-net/minecraft/server/1_13_R2/TileEntityTypes	net/minecraft/tileentity/TileEntityType
-net/minecraft/server/1_13_R2/TileEntityTypes$a	net/minecraft/tileentity/TileEntityType$Builder
-net/minecraft/server/1_13_R2/TileEntityBrewingStand	net/minecraft/tileentity/TileEntityBrewingStand
-net/minecraft/server/1_13_R2/TileEntityChest	net/minecraft/tileentity/TileEntityChest
-net/minecraft/server/1_13_R2/TileEntityCommand	net/minecraft/tileentity/TileEntityCommandBlock
-net/minecraft/server/1_13_R2/TileEntityCommand$1	net/minecraft/tileentity/TileEntityCommandBlock$1
-net/minecraft/server/1_13_R2/TileEntityCommand$Type	net/minecraft/tileentity/TileEntityCommandBlock$Mode
-net/minecraft/server/1_13_R2/TileEntityComparator	net/minecraft/tileentity/TileEntityComparator
-net/minecraft/server/1_13_R2/TileEntityConduit	net/minecraft/tileentity/TileEntityConduit
-net/minecraft/server/1_13_R2/TileEntityLightDetector	net/minecraft/tileentity/TileEntityDaylightDetector
-net/minecraft/server/1_13_R2/TileEntityDispenser	net/minecraft/tileentity/TileEntityDispenser
-net/minecraft/server/1_13_R2/TileEntityDropper	net/minecraft/tileentity/TileEntityDropper
-net/minecraft/server/1_13_R2/TileEntityEnchantTable	net/minecraft/tileentity/TileEntityEnchantmentTable
-net/minecraft/server/1_13_R2/TileEntityEnderChest	net/minecraft/tileentity/TileEntityEnderChest
-net/minecraft/server/1_13_R2/TileEntityFurnace	net/minecraft/tileentity/TileEntityFurnace
-net/minecraft/server/1_13_R2/IHopper	net/minecraft/tileentity/IHopper
-net/minecraft/server/1_13_R2/TileEntityHopper	net/minecraft/tileentity/TileEntityHopper
-net/minecraft/server/1_13_R2/TileEntityJukeBox	net/minecraft/tileentity/TileEntityJukebox
-net/minecraft/server/1_13_R2/TileEntityContainer	net/minecraft/tileentity/TileEntityLockable
-net/minecraft/server/1_13_R2/TileEntityLootable	net/minecraft/tileentity/TileEntityLockableLoot
-net/minecraft/server/1_13_R2/TileEntityShulkerBox	net/minecraft/tileentity/TileEntityShulkerBox
-net/minecraft/server/1_13_R2/TileEntityShulkerBox$AnimationPhase	net/minecraft/tileentity/TileEntityShulkerBox$AnimationStatus
-net/minecraft/server/1_13_R2/TileEntitySign	net/minecraft/tileentity/TileEntitySign
-net/minecraft/server/1_13_R2/TileEntitySkull	net/minecraft/tileentity/TileEntitySkull
-net/minecraft/server/1_13_R2/TileEntityMobSpawner	net/minecraft/tileentity/TileEntityMobSpawner
-net/minecraft/server/1_13_R2/TileEntityMobSpawner$1	net/minecraft/tileentity/TileEntityMobSpawner$1
-net/minecraft/server/1_13_R2/TileEntityStructure	net/minecraft/tileentity/TileEntityStructure
-net/minecraft/server/1_13_R2/TileEntityStructure$UpdateType	net/minecraft/tileentity/TileEntityStructure$UpdateCommand
-net/minecraft/server/1_13_R2/TileEntityEndGateway	net/minecraft/tileentity/TileEntityEndGateway
-net/minecraft/server/1_13_R2/TileEntityEnderPortal	net/minecraft/tileentity/TileEntityEndPortal
-net/minecraft/server/1_13_R2/TileEntityChestTrapped	net/minecraft/tileentity/TileEntityTrappedChest
-net/minecraft/server/1_13_R2/WorldGenMegaTreeProvider	net/minecraft/block/trees/AbstractBigTree
-net/minecraft/server/1_13_R2/WorldGenTreeProvider	net/minecraft/block/trees/AbstractTree
-net/minecraft/server/1_13_R2/WorldGenTreeProviderAcacia	net/minecraft/block/trees/AcaciaTree
-net/minecraft/server/1_13_R2/WorldGenTreeProviderBirch	net/minecraft/block/trees/BirchTree
-net/minecraft/server/1_13_R2/WorldGenMegaTreeProviderDarkOak	net/minecraft/block/trees/DarkOakTree
-net/minecraft/server/1_13_R2/WorldGenMegaTreeProviderJungle	net/minecraft/block/trees/JungleTree
-net/minecraft/server/1_13_R2/WorldGenTreeProviderOak	net/minecraft/block/trees/OakTree
-net/minecraft/server/1_13_R2/WorldGenTreeProviderSpruce	net/minecraft/block/trees/SpruceTree
-net/minecraft/server/1_13_R2/BlockPistonMoving	net/minecraft/block/BlockPistonMoving
-net/minecraft/server/1_13_R2/BlockPiston	net/minecraft/block/BlockPistonBase
-net/minecraft/server/1_13_R2/BlockPistonExtension	net/minecraft/block/BlockPistonExtension
-net/minecraft/server/1_13_R2/TileEntityPiston	net/minecraft/tileentity/TileEntityPiston
-net/minecraft/server/1_13_R2/TileEntityPiston$1	net/minecraft/tileentity/TileEntityPiston$1
-net/minecraft/server/1_13_R2/PistonExtendsChecker	net/minecraft/block/state/BlockPistonStructureHelper
-net/minecraft/server/1_13_R2/BlockDataAbstract	net/minecraft/state/AbstractStateHolder
-net/minecraft/server/1_13_R2/BlockDataAbstract$1	net/minecraft/state/AbstractStateHolder$1
-net/minecraft/server/1_13_R2/EnumBlockFaceShape	net/minecraft/block/state/BlockFaceShape
-net/minecraft/server/1_13_R2/IBlockData	net/minecraft/block/state/IBlockState
-net/minecraft/server/1_13_R2/BlockData	net/minecraft/block/state/BlockState
-net/minecraft/server/1_13_R2/BlockStateList	net/minecraft/state/StateContainer
-net/minecraft/server/1_13_R2/BlockStateList$a	net/minecraft/state/StateContainer$Builder
-net/minecraft/server/1_13_R2/BlockStateList$b	net/minecraft/state/StateContainer$IFactory
-net/minecraft/server/1_13_R2/IBlockDataHolder	net/minecraft/state/IStateHolder
-net/minecraft/server/1_13_R2/ShapeDetectorBlock	net/minecraft/block/state/BlockWorldState
-net/minecraft/server/1_13_R2/ShapeDetector	net/minecraft/block/state/pattern/BlockPattern
-net/minecraft/server/1_13_R2/ShapeDetector$BlockLoader	net/minecraft/block/state/pattern/BlockPattern$CacheLoader
-net/minecraft/server/1_13_R2/ShapeDetector$ShapeDetectorCollection	net/minecraft/block/state/pattern/BlockPattern$PatternHelper
-net/minecraft/server/1_13_R2/ShapeDetectorBuilder	net/minecraft/block/state/pattern/FactoryBlockPattern
-net/minecraft/server/1_13_R2/PredicateBlockType	net/minecraft/block/state/pattern/BlockMatcherReaderAware
-net/minecraft/server/1_13_R2/PredicateBlock	net/minecraft/block/state/pattern/IBlockMatcherReaderAware
-net/minecraft/server/1_13_R2/MaterialPredicate	net/minecraft/block/state/pattern/BlockMaterialMatcher
-net/minecraft/server/1_13_R2/MaterialPredicate$1	net/minecraft/block/state/pattern/BlockMaterialMatcher$1
-net/minecraft/server/1_13_R2/BlockPredicate	net/minecraft/block/state/pattern/BlockMatcher
-net/minecraft/server/1_13_R2/BlockStatePredicate	net/minecraft/block/state/pattern/BlockStateMatcher
-net/minecraft/server/1_13_R2/PredicateBlocks	net/minecraft/block/state/pattern/ReaderAwareMatchers
-net/minecraft/server/1_13_R2/PredicateBlocks$b	net/minecraft/block/state/pattern/ReaderAwareMatchers$NotMatcher
-net/minecraft/server/1_13_R2/PredicateBlocks$c	net/minecraft/block/state/pattern/ReaderAwareMatchers$OrMatcher
-net/minecraft/server/1_13_R2/PredicateBlockLightTransmission	net/minecraft/block/state/pattern/LightEmittingMatcher
-net/minecraft/server/1_13_R2/PredicateBlockLiquid	net/minecraft/block/state/pattern/LiquidBlockMatcher
-net/minecraft/server/1_13_R2/PredicateBlockNotSolidOrLiquid	net/minecraft/block/state/pattern/AllowsMovementAndSolidMatcher
-net/minecraft/server/1_13_R2/PredicateBlockSolid	net/minecraft/block/state/pattern/AllowsMovementMatcher
-net/minecraft/server/1_13_R2/PredicateBlockTag	net/minecraft/block/state/pattern/BlockTagMatcher
-net/minecraft/server/1_13_R2/BlockState	net/minecraft/state/AbstractProperty
-net/minecraft/server/1_13_R2/BlockPropertyAttachPosition	net/minecraft/state/properties/AttachFace
-net/minecraft/server/1_13_R2/BlockPropertyBedPart	net/minecraft/state/properties/BedPart
-net/minecraft/server/1_13_R2/BlockProperties	net/minecraft/state/properties/BlockStateProperties
-net/minecraft/server/1_13_R2/BlockStateBoolean	net/minecraft/state/BooleanProperty
-net/minecraft/server/1_13_R2/BlockPropertyChestType	net/minecraft/state/properties/ChestType
-net/minecraft/server/1_13_R2/BlockPropertyComparatorMode	net/minecraft/state/properties/ComparatorMode
-net/minecraft/server/1_13_R2/BlockStateDirection	net/minecraft/state/DirectionProperty
-net/minecraft/server/1_13_R2/BlockPropertyDoorHinge	net/minecraft/state/properties/DoorHingeSide
-net/minecraft/server/1_13_R2/BlockPropertyDoubleBlockHalf	net/minecraft/state/properties/DoubleBlockHalf
-net/minecraft/server/1_13_R2/BlockStateEnum	net/minecraft/state/EnumProperty
-net/minecraft/server/1_13_R2/BlockPropertyHalf	net/minecraft/state/properties/Half
-net/minecraft/server/1_13_R2/BlockStateInteger	net/minecraft/state/IntegerProperty
-net/minecraft/server/1_13_R2/BlockPropertyInstrument	net/minecraft/state/properties/NoteBlockInstrument
-net/minecraft/server/1_13_R2/BlockPropertyPistonType	net/minecraft/state/properties/PistonType
-net/minecraft/server/1_13_R2/IBlockState	net/minecraft/state/IProperty
-net/minecraft/server/1_13_R2/BlockPropertyTrackPosition	net/minecraft/state/properties/RailShape
-net/minecraft/server/1_13_R2/BlockPropertyRedstoneSide	net/minecraft/state/properties/RedstoneSide
-net/minecraft/server/1_13_R2/BlockPropertySlabType	net/minecraft/state/properties/SlabType
-net/minecraft/server/1_13_R2/BlockPropertyStairsShape	net/minecraft/state/properties/StairsShape
-net/minecraft/server/1_13_R2/BlockPropertyStructureMode	net/minecraft/state/properties/StructureMode
-net/minecraft/server/1_13_R2/IWorldBorderListener	net/minecraft/world/border/IBorderListener
-net/minecraft/server/1_13_R2/WorldBorder	net/minecraft/world/border/WorldBorder
-net/minecraft/server/1_13_R2/WorldBorder$a	net/minecraft/world/border/WorldBorder$IBorderInfo
-net/minecraft/server/1_13_R2/WorldBorder$b	net/minecraft/world/border/WorldBorder$MovingBorderInfo
-net/minecraft/server/1_13_R2/WorldBorder$c	net/minecraft/world/border/WorldBorder$StationaryBorderInfo
-net/minecraft/server/1_13_R2/IChunkAccess	net/minecraft/world/chunk/IChunk
-net/minecraft/server/1_13_R2/ChunkGenerator	net/minecraft/world/gen/IChunkGenerator
-net/minecraft/server/1_13_R2/ChunkGeneratorAbstract	net/minecraft/world/gen/AbstractChunkGenerator
-net/minecraft/server/1_13_R2/ChunkGeneratorFactory	net/minecraft/world/gen/IChunkGeneratorFactory
-net/minecraft/server/1_13_R2/ChunkGeneratorType	net/minecraft/world/gen/ChunkGeneratorType
-net/minecraft/server/1_13_R2/IChunkProvider	net/minecraft/world/chunk/IChunkProvider
-net/minecraft/server/1_13_R2/ChunkStatus	net/minecraft/world/chunk/ChunkStatus
-net/minecraft/server/1_13_R2/ChunkStatus$1	net/minecraft/world/chunk/ChunkStatus$1
-net/minecraft/server/1_13_R2/ChunkStatus$Type	net/minecraft/world/chunk/ChunkStatus$Type
-net/minecraft/server/1_13_R2/NibbleArray	net/minecraft/world/chunk/NibbleArray
-net/minecraft/server/1_13_R2/DataPaletteGlobal	net/minecraft/world/chunk/BlockStatePaletteRegistry
-net/minecraft/server/1_13_R2/DataPaletteHash	net/minecraft/world/chunk/BlockStatePaletteHashMap
-net/minecraft/server/1_13_R2/ProtoChunkExtension	net/minecraft/world/chunk/ChunkPrimerWrapper
-net/minecraft/server/1_13_R2/Chunk	net/minecraft/world/chunk/Chunk
-net/minecraft/server/1_13_R2/Chunk$EnumTileEntityState	net/minecraft/world/chunk/Chunk$EnumCreateEntityType
-net/minecraft/server/1_13_R2/ChunkSection	net/minecraft/world/chunk/ChunkSection
-net/minecraft/server/1_13_R2/DataPaletteLinear	net/minecraft/world/chunk/BlockStatePaletteLinear
-net/minecraft/server/1_13_R2/OldNibbleArray	net/minecraft/world/chunk/storage/NibbleArrayReader
-net/minecraft/server/1_13_R2/DataPalette	net/minecraft/world/chunk/IBlockStatePalette
-net/minecraft/server/1_13_R2/DataPaletteExpandable	net/minecraft/world/chunk/IBlockStatePaletteResizer
-net/minecraft/server/1_13_R2/DataPaletteBlock	net/minecraft/world/chunk/BlockStateContainer
-net/minecraft/server/1_13_R2/ProtoChunk	net/minecraft/world/chunk/ChunkPrimer
-net/minecraft/server/1_13_R2/ProtoChunkTickList	net/minecraft/world/chunk/ChunkPrimerTickList
-net/minecraft/server/1_13_R2/ChunkConverter	net/minecraft/world/chunk/UpgradeData
-net/minecraft/server/1_13_R2/ChunkConverter$a	net/minecraft/world/chunk/UpgradeData$IBlockFixer
-net/minecraft/server/1_13_R2/ChunkConverter$Type	net/minecraft/world/chunk/UpgradeData$BlockFixers
-net/minecraft/server/1_13_R2/ChunkConverter$Type$1	net/minecraft/world/chunk/UpgradeData$BlockFixers$1
-net/minecraft/server/1_13_R2/ChunkConverter$Type$2	net/minecraft/world/chunk/UpgradeData$BlockFixers$2
-net/minecraft/server/1_13_R2/ChunkConverter$Type$3	net/minecraft/world/chunk/UpgradeData$BlockFixers$3
-net/minecraft/server/1_13_R2/ChunkConverter$Type$4	net/minecraft/world/chunk/UpgradeData$BlockFixers$4
-net/minecraft/server/1_13_R2/ChunkConverter$Type$5	net/minecraft/world/chunk/UpgradeData$BlockFixers$5
-net/minecraft/server/1_13_R2/ChunkRegionLoader	net/minecraft/world/chunk/storage/AnvilChunkLoader
-net/minecraft/server/1_13_R2/IChunkLoader	net/minecraft/world/chunk/storage/IChunkLoader
-net/minecraft/server/1_13_R2/OldChunkLoader	net/minecraft/world/chunk/storage/ChunkLoader
-net/minecraft/server/1_13_R2/OldChunkLoader$OldChunk	net/minecraft/world/chunk/storage/ChunkLoader$AnvilConverterData
-net/minecraft/server/1_13_R2/RegionFile	net/minecraft/world/chunk/storage/RegionFile
-net/minecraft/server/1_13_R2/RegionFile$ChunkBuffer	net/minecraft/world/chunk/storage/RegionFile$ChunkBuffer
-net/minecraft/server/1_13_R2/RegionFileCache	net/minecraft/world/chunk/storage/RegionFileCache
-net/minecraft/server/1_13_R2/WorldProvider	net/minecraft/world/dimension/Dimension
-net/minecraft/server/1_13_R2/DimensionManager	net/minecraft/world/dimension/DimensionType
-net/minecraft/server/1_13_R2/WorldProviderHell	net/minecraft/world/dimension/NetherDimension
-net/minecraft/server/1_13_R2/WorldProviderHell$1	net/minecraft/world/dimension/NetherDimension$1
-net/minecraft/server/1_13_R2/WorldProviderNormal	net/minecraft/world/dimension/OverworldDimension
-net/minecraft/server/1_13_R2/EnumDragonRespawn	net/minecraft/world/end/DragonSpawnState
-net/minecraft/server/1_13_R2/EnumDragonRespawn$1	net/minecraft/world/end/DragonSpawnState$1
-net/minecraft/server/1_13_R2/EnumDragonRespawn$2	net/minecraft/world/end/DragonSpawnState$2
-net/minecraft/server/1_13_R2/EnumDragonRespawn$3	net/minecraft/world/end/DragonSpawnState$3
-net/minecraft/server/1_13_R2/EnumDragonRespawn$4	net/minecraft/world/end/DragonSpawnState$4
-net/minecraft/server/1_13_R2/EnumDragonRespawn$5	net/minecraft/world/end/DragonSpawnState$5
-net/minecraft/server/1_13_R2/EnderDragonBattle	net/minecraft/world/end/DragonFightManager
-net/minecraft/server/1_13_R2/EnderDragonBattle$LoadState	net/minecraft/world/end/DragonFightManager$LoadState
-net/minecraft/server/1_13_R2/EnderDragonBattle$b	net/minecraft/world/end/DragonFightManager$LoadManager
-net/minecraft/server/1_13_R2/WorldProviderTheEnd	net/minecraft/world/dimension/EndDimension
-net/minecraft/server/1_13_R2/GeneratorSettingsDefault	net/minecraft/world/gen/ChunkGenSettings
-net/minecraft/server/1_13_R2/GeneratorSettings	net/minecraft/world/gen/IChunkGenSettings
-net/minecraft/server/1_13_R2/GeneratorSettingsDebug	net/minecraft/world/gen/DebugGenSettings
-net/minecraft/server/1_13_R2/ChunkProviderDebug	net/minecraft/world/gen/ChunkGeneratorDebug
-net/minecraft/server/1_13_R2/ChunkProviderFlat	net/minecraft/world/gen/ChunkGeneratorFlat
-net/minecraft/server/1_13_R2/ChunkProviderFlat$a	net/minecraft/world/gen/ChunkGeneratorFlat$BiomeWrapper
-net/minecraft/server/1_13_R2/WorldGenStage	net/minecraft/world/gen/GenerationStage
-net/minecraft/server/1_13_R2/WorldGenStage$Features	net/minecraft/world/gen/GenerationStage$Carving
-net/minecraft/server/1_13_R2/WorldGenStage$Decoration	net/minecraft/world/gen/GenerationStage$Decoration
-net/minecraft/server/1_13_R2/HeightMap	net/minecraft/world/gen/Heightmap
-net/minecraft/server/1_13_R2/HeightMap$Type	net/minecraft/world/gen/Heightmap$Type
-net/minecraft/server/1_13_R2/HeightMap$Use	net/minecraft/world/gen/Heightmap$Usage
-net/minecraft/server/1_13_R2/GeneratorSettingsNether	net/minecraft/world/gen/NetherGenSettings
-net/minecraft/server/1_13_R2/ChunkProviderHell	net/minecraft/world/gen/ChunkGeneratorNether
-net/minecraft/server/1_13_R2/GeneratorSettingsOverworld	net/minecraft/world/gen/OverworldGenSettings
-net/minecraft/server/1_13_R2/ChunkProviderGenerate	net/minecraft/world/gen/ChunkGeneratorOverworld
-net/minecraft/server/1_13_R2/MobSpawnerPhantom	net/minecraft/world/PhantomSpawner
-net/minecraft/server/1_13_R2/GeneratorSettingsEnd	net/minecraft/world/gen/EndGenSettings
-net/minecraft/server/1_13_R2/ChunkProviderTheEnd	net/minecraft/world/gen/ChunkGeneratorEnd
-net/minecraft/server/1_13_R2/SeededRandom	net/minecraft/util/SharedSeedRandom
-net/minecraft/server/1_13_R2/WorldGenTreeAbstract	net/minecraft/world/gen/feature/AbstractTreeFeature
-net/minecraft/server/1_13_R2/WorldGenBigTree	net/minecraft/world/gen/feature/BigTreeFeature
-net/minecraft/server/1_13_R2/WorldGenBigTree$Position	net/minecraft/world/gen/feature/BigTreeFeature$FoliageCoordinates
-net/minecraft/server/1_13_R2/WorldGenForest	net/minecraft/world/gen/feature/BirchTreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureBlockOffsetConfiguration	net/minecraft/world/gen/feature/BlockBlobConfig
-net/minecraft/server/1_13_R2/WorldGenTaigaStructure	net/minecraft/world/gen/feature/BlockBlobFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureBlueIce	net/minecraft/world/gen/feature/BlueIceFeature
-net/minecraft/server/1_13_R2/WorldGenBonusChest	net/minecraft/world/gen/feature/BonusChestFeature
-net/minecraft/server/1_13_R2/WorldGenBuriedTreasureConfiguration	net/minecraft/world/gen/feature/structure/BuriedTreasureConfig
-net/minecraft/server/1_13_R2/WorldGenBuriedTreasure	net/minecraft/world/gen/feature/structure/BuriedTreasureStructure
-net/minecraft/server/1_13_R2/WorldGenBuriedTreasure$a	net/minecraft/world/gen/feature/structure/BuriedTreasureStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureMushroomConfiguration	net/minecraft/world/gen/feature/BushConfig
-net/minecraft/server/1_13_R2/WorldGenMushrooms	net/minecraft/world/gen/feature/BushFeature
-net/minecraft/server/1_13_R2/WorldGenCactus	net/minecraft/world/gen/feature/CactusFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureChorusPlant	net/minecraft/world/gen/feature/ChorusPlantFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureComposite	net/minecraft/world/gen/feature/CompositeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureCoralClaw	net/minecraft/world/gen/feature/CoralClawFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureCoral	net/minecraft/world/gen/feature/CoralFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureCoralMushroom	net/minecraft/world/gen/feature/CoralMushroomFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureCoralTree	net/minecraft/world/gen/feature/CoralTreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureChanceDecorator	net/minecraft/world/gen/placement/AtSurfaceWithChanceMultiple
-net/minecraft/server/1_13_R2/WorldGenFeatureChanceDecoratorHeight	net/minecraft/world/gen/placement/TwiceSurfaceWithChanceMultiple
-net/minecraft/server/1_13_R2/WorldGenFeatureKelpConfiguration	net/minecraft/world/gen/placement/CountConfig
-net/minecraft/server/1_13_R2/WorldGenDeadBush	net/minecraft/world/gen/feature/DeadBushFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureChanceDecoratorRangeConfiguration	net/minecraft/world/gen/placement/ChanceRangeConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureDecoratorConfiguration	net/minecraft/world/gen/placement/IPlacementConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureChanceDecoratorCountConfiguration	net/minecraft/world/gen/placement/CountRangeConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureDecoratorNoiseConfiguration	net/minecraft/world/gen/placement/NoiseDependant
-net/minecraft/server/1_13_R2/WorldGenFeatureFlower	net/minecraft/world/gen/feature/DefaultFlowersFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureDesertPyramidConfiguration	net/minecraft/world/gen/feature/structure/DesertPyramidConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureDesertPyramid	net/minecraft/world/gen/feature/structure/DesertPyramidStructure
-net/minecraft/server/1_13_R2/WorldGenFeatureDesertPyramid$a	net/minecraft/world/gen/feature/structure/DesertPyramidStructure$Start
-net/minecraft/server/1_13_R2/WorldGenDesertWell	net/minecraft/world/gen/feature/DesertWellsFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureCircleConfiguration	net/minecraft/world/gen/feature/SphereReplaceConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureCircle	net/minecraft/world/gen/feature/SphereReplaceFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureDoublePlantConfiguration	net/minecraft/world/gen/feature/DoublePlantConfig
-net/minecraft/server/1_13_R2/WorldGenTallPlant	net/minecraft/world/gen/feature/DoublePlantFeature
-net/minecraft/server/1_13_R2/WorldGenEndCityConfiguration	net/minecraft/world/gen/feature/structure/EndCityConfig
-net/minecraft/server/1_13_R2/WorldGenEndCity	net/minecraft/world/gen/feature/structure/EndCityStructure
-net/minecraft/server/1_13_R2/WorldGenEndCity$a	net/minecraft/world/gen/feature/structure/EndCityStructure$Start
-net/minecraft/server/1_13_R2/WorldGenEndGatewayConfiguration	net/minecraft/world/gen/feature/EndGatewayConfig
-net/minecraft/server/1_13_R2/WorldGenEndGateway	net/minecraft/world/gen/feature/EndGatewayFeature
-net/minecraft/server/1_13_R2/WorldGenEndIsland	net/minecraft/world/gen/feature/EndIslandFeature
-net/minecraft/server/1_13_R2/WorldGenEndTrophy	net/minecraft/world/gen/feature/EndPodiumFeature
-net/minecraft/server/1_13_R2/WorldGenerator	net/minecraft/world/gen/feature/Feature
-net/minecraft/server/1_13_R2/WorldGenFeatureConfiguration	net/minecraft/world/gen/feature/IFeatureConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureRadiusConfiguration	net/minecraft/world/gen/feature/FeatureRadiusConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureCompositeFlower	net/minecraft/world/gen/feature/CompositeFlowerFeature
-net/minecraft/server/1_13_R2/WorldGenFlowers	net/minecraft/world/gen/feature/AbstractFlowersFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureFlowerForest	net/minecraft/world/gen/feature/ForestFlowersFeature
-net/minecraft/server/1_13_R2/WorldGenFossils	net/minecraft/world/gen/feature/FossilsFeature
-net/minecraft/server/1_13_R2/WorldGenGroundBush	net/minecraft/world/gen/feature/ShrubFeature
-net/minecraft/server/1_13_R2/WorldGenFire	net/minecraft/world/gen/feature/FireFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureHellFlowingLavaConfiguration	net/minecraft/world/gen/feature/HellLavaConfig
-net/minecraft/server/1_13_R2/WorldGenHellLava	net/minecraft/world/gen/feature/HellLavaFeature
-net/minecraft/server/1_13_R2/WorldGenHugeMushroomBrown	net/minecraft/world/gen/feature/BigBrownMushroomFeature
-net/minecraft/server/1_13_R2/WorldGenHugeMushroomRed	net/minecraft/world/gen/feature/BigRedMushroomFeature
-net/minecraft/server/1_13_R2/WorldGenPackedIce1	net/minecraft/world/gen/feature/IcePathFeature
-net/minecraft/server/1_13_R2/WorldGenPackedIce2	net/minecraft/world/gen/feature/IceSpikeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureIceburgConfiguration	net/minecraft/world/gen/feature/IcebergConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureIceburg	net/minecraft/world/gen/feature/IcebergFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureIglooConfiguration	net/minecraft/world/gen/feature/structure/IglooConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureIgloo	net/minecraft/world/gen/feature/structure/IglooStructure
-net/minecraft/server/1_13_R2/WorldGenFeatureIgloo$a	net/minecraft/world/gen/feature/structure/IglooStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureJungleGrass	net/minecraft/world/gen/feature/JungleGrassFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureJunglePyramidConfiguration	net/minecraft/world/gen/feature/structure/JunglePyramidConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureJunglePyramid	net/minecraft/world/gen/feature/structure/JunglePyramidStructure
-net/minecraft/server/1_13_R2/WorldGenFeatureJunglePyramid$a	net/minecraft/world/gen/feature/structure/JunglePyramidStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureJungleTree	net/minecraft/world/gen/feature/JungleTreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureKelp	net/minecraft/world/gen/feature/KelpFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureLakeConfiguration	net/minecraft/world/gen/feature/LakesConfig
-net/minecraft/server/1_13_R2/WorldGenLakes	net/minecraft/world/gen/feature/LakesFeature
-net/minecraft/server/1_13_R2/WorldGenLightStone1	net/minecraft/world/gen/feature/GlowstoneFeature
-net/minecraft/server/1_13_R2/WorldGenJungleTree	net/minecraft/world/gen/feature/MegaJungleFeature
-net/minecraft/server/1_13_R2/WorldGenMegaTree	net/minecraft/world/gen/feature/MegaPineTree
-net/minecraft/server/1_13_R2/WorldGenMegaTreeAbstract	net/minecraft/world/gen/feature/HugeTreesFeature
-net/minecraft/server/1_13_R2/WorldGenMelon	net/minecraft/world/gen/feature/MelonFeature
-net/minecraft/server/1_13_R2/WorldGenMineshaftConfiguration	net/minecraft/world/gen/feature/structure/MineshaftConfig
-net/minecraft/server/1_13_R2/WorldGenMineshaft	net/minecraft/world/gen/feature/structure/MineshaftStructure
-net/minecraft/server/1_13_R2/WorldGenMineshaft$a	net/minecraft/world/gen/feature/structure/MineshaftStructure$Start
-net/minecraft/server/1_13_R2/WorldGenMineshaft$Type	net/minecraft/world/gen/feature/structure/MineshaftStructure$Type
-net/minecraft/server/1_13_R2/WorldGenDungeons	net/minecraft/world/gen/feature/DungeonsFeature
-net/minecraft/server/1_13_R2/WorldGenNetherConfiguration	net/minecraft/world/gen/feature/structure/FortressConfig
-net/minecraft/server/1_13_R2/WorldGenNether	net/minecraft/world/gen/feature/structure/FortressStructure
-net/minecraft/server/1_13_R2/WorldGenNether$a	net/minecraft/world/gen/feature/structure/FortressStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureDecoratorEmptyConfiguration	net/minecraft/world/gen/placement/NoPlacementConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureEmptyConfiguration	net/minecraft/world/gen/feature/NoFeatureConfig
-net/minecraft/server/1_13_R2/WorldGenMonumentConfiguration	net/minecraft/world/gen/feature/structure/OceanMonumentConfig
-net/minecraft/server/1_13_R2/WorldGenMonument	net/minecraft/world/gen/feature/structure/OceanMonumentStructure
-net/minecraft/server/1_13_R2/WorldGenMonument$a	net/minecraft/world/gen/feature/structure/OceanMonumentStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureOceanRuinConfiguration	net/minecraft/world/gen/feature/structure/OceanRuinConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureOreConfiguration	net/minecraft/world/gen/feature/MinableConfig
-net/minecraft/server/1_13_R2/WorldGenMinable	net/minecraft/world/gen/feature/MinableFeature
-net/minecraft/server/1_13_R2/WorldGenTaiga1	net/minecraft/world/gen/feature/PointyTaigaTreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureFlowerPlain	net/minecraft/world/gen/feature/PlainsFlowersFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureConfigurationChance	net/minecraft/world/gen/feature/ProbabilityConfig
-net/minecraft/server/1_13_R2/WorldGenPumpkin	net/minecraft/world/gen/feature/PumpkinFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureChoiceConfiguration	net/minecraft/world/gen/feature/TwoFeatureChoiceConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureChoice	net/minecraft/world/gen/feature/TwoFeatureChoiceFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureRandomChoiceConfiguration	net/minecraft/world/gen/feature/RandomDefaultFeatureListConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureRandom	net/minecraft/world/gen/feature/RandomDefaultFeatureList
-net/minecraft/server/1_13_R2/WorldGenFeatureRandomConfiguration	net/minecraft/world/gen/feature/RandomFeatureListConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureRandomScattered	net/minecraft/world/gen/feature/structure/ScatteredStructure
-net/minecraft/server/1_13_R2/WorldGenFeatureRandomChoice	net/minecraft/world/gen/feature/RandomFeatureList
-net/minecraft/server/1_13_R2/WorldGenReed	net/minecraft/world/gen/feature/ReedFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureReplaceBlockConfiguration	net/minecraft/world/gen/feature/ReplaceBlockConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureReplaceBlock	net/minecraft/world/gen/feature/ReplaceBlockFeature
-net/minecraft/server/1_13_R2/WorldGenForestTree	net/minecraft/world/gen/feature/CanopyTreeFeature
-net/minecraft/server/1_13_R2/WorldGenAcaciaTree	net/minecraft/world/gen/feature/SavannaTreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureSeaPickel	net/minecraft/world/gen/feature/SeaPickleFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureSeaGrass	net/minecraft/world/gen/feature/SeaGrassFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureSeaGrassConfiguration	net/minecraft/world/gen/feature/SeaGrassConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureShipwreckConfiguration	net/minecraft/world/gen/feature/structure/ShipwreckConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureShipwreck	net/minecraft/world/gen/feature/structure/ShipwreckStructure
-net/minecraft/server/1_13_R2/WorldGenFeatureShipwreck$a	net/minecraft/world/gen/feature/structure/ShipwreckStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureBlockConfiguration	net/minecraft/world/gen/feature/BlockWithContextConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureBlock	net/minecraft/world/gen/feature/BlockWithContextFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureRandom2	net/minecraft/world/gen/feature/RandomFeatureWithConfigConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureRandom2Configuration	net/minecraft/world/gen/feature/RandomFeatureWithConfigFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureIceSnow	net/minecraft/world/gen/feature/IceAndSnowFeature
-net/minecraft/server/1_13_R2/WorldGenEnder	net/minecraft/world/gen/feature/EndCrystalTowerFeature
-net/minecraft/server/1_13_R2/WorldGenEnder$Spike	net/minecraft/world/gen/feature/EndCrystalTowerFeature$EndSpike
-net/minecraft/server/1_13_R2/WorldGenFeatureFlowingConfiguration	net/minecraft/world/gen/feature/LiquidsConfig
-net/minecraft/server/1_13_R2/WorldGenLiquids	net/minecraft/world/gen/feature/LiquidsFeature
-net/minecraft/server/1_13_R2/WorldGenTaiga2	net/minecraft/world/gen/feature/TallTaigaTreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureStrongholdConfiguration	net/minecraft/world/gen/feature/structure/StrongholdConfig
-net/minecraft/server/1_13_R2/WorldGenStronghold	net/minecraft/world/gen/feature/structure/StrongholdStructure
-net/minecraft/server/1_13_R2/WorldGenStronghold$a	net/minecraft/world/gen/feature/structure/StrongholdStructure$Start
-net/minecraft/server/1_13_R2/StructureGenerator	net/minecraft/world/gen/feature/structure/Structure
-net/minecraft/server/1_13_R2/StructureGenerator$1	net/minecraft/world/gen/feature/structure/Structure$1
-net/minecraft/server/1_13_R2/WorldGenFeatureFlowerSwamp	net/minecraft/world/gen/feature/SwampFlowersFeature
-net/minecraft/server/1_13_R2/WorldGenSwampTree	net/minecraft/world/gen/feature/SwampTreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureSwampHutConfiguration	net/minecraft/world/gen/feature/structure/SwampHutConfig
-net/minecraft/server/1_13_R2/WorldGenFeatureSwampHut	net/minecraft/world/gen/feature/structure/SwampHutStructure
-net/minecraft/server/1_13_R2/WorldGenFeatureSwampHut$a	net/minecraft/world/gen/feature/structure/SwampHutStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureTaigaGrass	net/minecraft/world/gen/feature/TaigaGrassFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureTallGrassConfiguration	net/minecraft/world/gen/feature/TallGrassConfig
-net/minecraft/server/1_13_R2/WorldGenGrass	net/minecraft/world/gen/feature/TallGrassFeature
-net/minecraft/server/1_13_R2/WorldGenTrees	net/minecraft/world/gen/feature/TreeFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureVillageConfiguration	net/minecraft/world/gen/feature/structure/VillageConfig
-net/minecraft/server/1_13_R2/WorldGenVillage	net/minecraft/world/gen/feature/structure/VillageStructure
-net/minecraft/server/1_13_R2/WorldGenVillage$a	net/minecraft/world/gen/feature/structure/VillageStructure$Start
-net/minecraft/server/1_13_R2/WorldGenVines	net/minecraft/world/gen/feature/VinesFeature
-net/minecraft/server/1_13_R2/WorldGenFeatureEndPlatform	net/minecraft/world/gen/feature/VoidStartPlatformFeature
-net/minecraft/server/1_13_R2/WorldGenWaterLily	net/minecraft/world/gen/feature/WaterlilyFeature
-net/minecraft/server/1_13_R2/WorldGenMansionConfiguration	net/minecraft/world/gen/feature/structure/WoodlandMansionConfig
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansion	net/minecraft/world/gen/feature/structure/WoodlandMansionStructure
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansion$a	net/minecraft/world/gen/feature/structure/WoodlandMansionStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFlatLayerInfo	net/minecraft/world/gen/FlatLayerInfo
-net/minecraft/server/1_13_R2/GeneratorSettingsFlat	net/minecraft/world/gen/FlatGenSettings
-net/minecraft/server/1_13_R2/WorldGenDecoratorCarveMask	net/minecraft/world/gen/placement/CaveEdge
-net/minecraft/server/1_13_R2/WorldGenDecoratorChance	net/minecraft/world/gen/placement/AtSurfaceWithChance
-net/minecraft/server/1_13_R2/WorldGenDecoratorChanceHeight	net/minecraft/world/gen/placement/TwiceSurfaceWithChance
-net/minecraft/server/1_13_R2/WorldGenDecoratorChancePass	net/minecraft/world/gen/placement/WithChance
-net/minecraft/server/1_13_R2/WorldGenDecoratorSkyVisibleBiased	net/minecraft/world/gen/placement/TopSolidWithChance
-net/minecraft/server/1_13_R2/WorldGenDecoratorChorusPlant	net/minecraft/world/gen/placement/ChorusPlant
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeightBiased	net/minecraft/world/gen/placement/HeightBiasedRange
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeightAverage	net/minecraft/world/gen/placement/DepthAverage
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeightDouble	net/minecraft/world/gen/placement/TwiceSurface
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeight64	net/minecraft/world/gen/placement/AtHeight64
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeight32	net/minecraft/world/gen/placement/SurfacePlus32
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeight	net/minecraft/world/gen/placement/AtSurface
-net/minecraft/server/1_13_R2/WorldGenDecoratorSkyVisible	net/minecraft/world/gen/placement/TopSolid
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeightBiased2	net/minecraft/world/gen/placement/HeightVeryBiasedRange
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeightExtraChance	net/minecraft/world/gen/placement/AtSurfaceWithExtra
-net/minecraft/server/1_13_R2/WorldGenDecoratorCarveMaskConfiguration	net/minecraft/world/gen/placement/CaveEdgeConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorChanceConfiguration	net/minecraft/world/gen/placement/ChanceConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorFrequencyConfiguration	net/minecraft/world/gen/placement/FrequencyConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorFrequencyChanceConfiguration	net/minecraft/world/gen/placement/HeightWithChanceConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorFrequencyExtraChanceConfiguration	net/minecraft/world/gen/placement/AtSurfaceWithExtraConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorNoiseConfiguration	net/minecraft/world/gen/placement/TopSolidWithNoiseConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorRangeConfiguration	net/minecraft/world/gen/placement/TopSolidRangeConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorHeightAverageConfiguration	net/minecraft/world/gen/placement/DepthAverageConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorEmerald	net/minecraft/world/gen/placement/Height4To32
-net/minecraft/server/1_13_R2/WorldGenDecoratorEndGateway	net/minecraft/world/gen/placement/EndGateway
-net/minecraft/server/1_13_R2/WorldGenDecoratorEndIsland	net/minecraft/world/gen/placement/EndIsland
-net/minecraft/server/1_13_R2/WorldGenDecorator	net/minecraft/world/gen/placement/BasePlacement
-net/minecraft/server/1_13_R2/WorldGenDecoratorForestRock	net/minecraft/world/gen/placement/AtSurfaceRandomCount
-net/minecraft/server/1_13_R2/WorldGenDecoratorIceburg	net/minecraft/world/gen/placement/IcebergPlacement
-net/minecraft/server/1_13_R2/WorldGenDecoratorLakeChanceConfiguration	net/minecraft/world/gen/placement/LakeChanceConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorLakeLava	net/minecraft/world/gen/placement/LakeLava
-net/minecraft/server/1_13_R2/WorldGenDecoratorLakeWater	net/minecraft/world/gen/placement/LakeWater
-net/minecraft/server/1_13_R2/WorldGenDecoratorDungeonConfiguration	net/minecraft/world/gen/placement/DungeonRoomConfig
-net/minecraft/server/1_13_R2/WorldGenDecoratorDungeon	net/minecraft/world/gen/placement/DungeonRoom
-net/minecraft/server/1_13_R2/WorldGenDecoratorNoiseHeight32	net/minecraft/world/gen/placement/SurfacePlus32WithNoise
-net/minecraft/server/1_13_R2/WorldGenDecoratorNoiseHeightDouble	net/minecraft/world/gen/placement/TwiceSurfaceWithNoise
-net/minecraft/server/1_13_R2/WorldGenDecoratorEmpty	net/minecraft/world/gen/placement/Passthrough
-net/minecraft/server/1_13_R2/WorldGenDecoratorRoofedTree	net/minecraft/world/gen/placement/RoofedTree
-net/minecraft/server/1_13_R2/WorldGenDecoratorSpike	net/minecraft/world/gen/placement/EndSpikes
-net/minecraft/server/1_13_R2/WorldGenDecoratorSpike$a	net/minecraft/world/gen/placement/EndSpikes$CacheLoader
-net/minecraft/server/1_13_R2/WorldGenDecoratorSolidTop	net/minecraft/world/gen/placement/TopSolidOnce
-net/minecraft/server/1_13_R2/WorldGenDecoratorSolidTopNoise	net/minecraft/world/gen/placement/TopSolidWithNoise
-net/minecraft/server/1_13_R2/WorldGenDecoratorSolidTopHeight	net/minecraft/world/gen/placement/TopSolidRange
-net/minecraft/server/1_13_R2/WorldGenDecoratorNetherChance	net/minecraft/world/gen/placement/ChanceRange
-net/minecraft/server/1_13_R2/WorldGenDecoratorNetherHeight	net/minecraft/world/gen/placement/CountRange
-net/minecraft/server/1_13_R2/WorldGenDecoratorNetherFire	net/minecraft/world/gen/placement/NetherFire
-net/minecraft/server/1_13_R2/WorldGenDecoratorNetherGlowstone	net/minecraft/world/gen/placement/NetherGlowstone
-net/minecraft/server/1_13_R2/WorldGenDecoratorNetherMagma	net/minecraft/world/gen/placement/NetherMagma
-net/minecraft/server/1_13_R2/WorldGenDecoratorNetherRandomCount	net/minecraft/world/gen/placement/RandomCountWithRange
-net/minecraft/server/1_13_R2/WorldGenCarverAbstract	net/minecraft/world/gen/carver/WorldCarver
-net/minecraft/server/1_13_R2/StructureBoundingBox	net/minecraft/util/math/MutableBoundingBox
-net/minecraft/server/1_13_R2/WorldGenBuriedTreasurePieces	net/minecraft/world/gen/feature/structure/BuriedTreasurePieces
-net/minecraft/server/1_13_R2/WorldGenBuriedTreasurePieces$a	net/minecraft/world/gen/feature/structure/BuriedTreasurePieces$Piece
-net/minecraft/server/1_13_R2/WorldGenCanyon	net/minecraft/world/gen/carver/CanyonWorldCarver
-net/minecraft/server/1_13_R2/WorldGenCaves	net/minecraft/world/gen/carver/CaveWorldCarver
-net/minecraft/server/1_13_R2/WorldGenCarverWrapper	net/minecraft/world/gen/carver/WorldCarverWrapper
-net/minecraft/server/1_13_R2/WorldGenDesertPyramidPiece	net/minecraft/world/gen/feature/structure/DesertPyramidPiece
-net/minecraft/server/1_13_R2/WorldGenEndCityPieces	net/minecraft/world/gen/feature/structure/EndCityPieces
-net/minecraft/server/1_13_R2/WorldGenEndCityPieces$1	net/minecraft/world/gen/feature/structure/EndCityPieces$1
-net/minecraft/server/1_13_R2/WorldGenEndCityPieces$2	net/minecraft/world/gen/feature/structure/EndCityPieces$2
-net/minecraft/server/1_13_R2/WorldGenEndCityPieces$3	net/minecraft/world/gen/feature/structure/EndCityPieces$3
-net/minecraft/server/1_13_R2/WorldGenEndCityPieces$4	net/minecraft/world/gen/feature/structure/EndCityPieces$4
-net/minecraft/server/1_13_R2/WorldGenEndCityPieces$Piece	net/minecraft/world/gen/feature/structure/EndCityPieces$CityTemplate
-net/minecraft/server/1_13_R2/WorldGenEndCityPieces$PieceGenerator	net/minecraft/world/gen/feature/structure/EndCityPieces$IGenerator
-net/minecraft/server/1_13_R2/WorldGenCavesHell	net/minecraft/world/gen/carver/NetherCaveWorldCarver
-net/minecraft/server/1_13_R2/WorldGenIglooPiece	net/minecraft/world/gen/feature/structure/IglooPieces
-net/minecraft/server/1_13_R2/WorldGenIglooPiece$a	net/minecraft/world/gen/feature/structure/IglooPieces$Piece
-net/minecraft/server/1_13_R2/WorldGenJunglePyramidPiece	net/minecraft/world/gen/feature/structure/JunglePyramidPiece
-net/minecraft/server/1_13_R2/WorldGenJunglePyramidPiece$a	net/minecraft/world/gen/feature/structure/JunglePyramidPiece$MossStoneSelector
-net/minecraft/server/1_13_R2/PersistentStructureLegacy	net/minecraft/world/gen/feature/structure/LegacyStructureDataUtil
-net/minecraft/server/1_13_R2/PersistentStructureLegacy$a	net/minecraft/world/gen/feature/structure/LegacyStructureDataUtil$Nether
-net/minecraft/server/1_13_R2/PersistentStructureLegacy$b	net/minecraft/world/gen/feature/structure/LegacyStructureDataUtil$Overworld
-net/minecraft/server/1_13_R2/PersistentStructureLegacy$c	net/minecraft/world/gen/feature/structure/LegacyStructureDataUtil$End
-net/minecraft/server/1_13_R2/WorldGenMineshaftPieces	net/minecraft/world/gen/feature/structure/MineshaftPieces
-net/minecraft/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftCorridor	net/minecraft/world/gen/feature/structure/MineshaftPieces$Corridor
-net/minecraft/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftCross	net/minecraft/world/gen/feature/structure/MineshaftPieces$Cross
-net/minecraft/server/1_13_R2/WorldGenMineshaftPieces$c	net/minecraft/world/gen/feature/structure/MineshaftPieces$Piece
-net/minecraft/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftRoom	net/minecraft/world/gen/feature/structure/MineshaftPieces$Room
-net/minecraft/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftStairs	net/minecraft/world/gen/feature/structure/MineshaftPieces$Stairs
-net/minecraft/server/1_13_R2/WorldGenNetherPieces	net/minecraft/world/gen/feature/structure/FortressPieces
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece1	net/minecraft/world/gen/feature/structure/FortressPieces$Crossing3
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece2	net/minecraft/world/gen/feature/structure/FortressPieces$End
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece3	net/minecraft/world/gen/feature/structure/FortressPieces$Straight
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece4	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor3
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece5	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor4
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece6	net/minecraft/world/gen/feature/structure/FortressPieces$Entrance
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece7	net/minecraft/world/gen/feature/structure/FortressPieces$Crossing2
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece8	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece9	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor5
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece10	net/minecraft/world/gen/feature/structure/FortressPieces$Corridor2
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece11	net/minecraft/world/gen/feature/structure/FortressPieces$NetherStalkRoom
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece12	net/minecraft/world/gen/feature/structure/FortressPieces$Throne
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece	net/minecraft/world/gen/feature/structure/FortressPieces$Piece
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPieceWeight	net/minecraft/world/gen/feature/structure/FortressPieces$PieceWeight
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece13	net/minecraft/world/gen/feature/structure/FortressPieces$Crossing
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece14	net/minecraft/world/gen/feature/structure/FortressPieces$Stairs
-net/minecraft/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece15	net/minecraft/world/gen/feature/structure/FortressPieces$Start
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces	net/minecraft/world/gen/feature/structure/OceanMonumentPieces
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector7	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$XDoubleRoomFitHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector6	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$XYDoubleRoomFitHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector5	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$YDoubleRoomFitHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector4	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$YZDoubleRoomFitHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector3	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$ZDoubleRoomFitHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector2	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$FitSimpleRoomHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector1	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$FitSimpleRoomTopHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece1	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$MonumentBuilding
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$IWorldGenMonumentPieceSelector	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$MonumentRoomFitHelper
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece2	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$MonumentCoreRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece3	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleXRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece4	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleXYRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece5	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleYRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece6	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleYZRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece7	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$DoubleZRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceEntry	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$EntryRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$Penthouse
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$Piece
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimple	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$SimpleRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$SimpleTopRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece8	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$WingRoom
-net/minecraft/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentStateTracker	net/minecraft/world/gen/feature/structure/OceanMonumentPieces$RoomDefinition
-net/minecraft/server/1_13_R2/WorldGenFeatureOceanRuin	net/minecraft/world/gen/feature/structure/OceanRuinStructure
-net/minecraft/server/1_13_R2/WorldGenFeatureOceanRuin$a	net/minecraft/world/gen/feature/structure/OceanRuinStructure$Start
-net/minecraft/server/1_13_R2/WorldGenFeatureOceanRuin$Temperature	net/minecraft/world/gen/feature/structure/OceanRuinStructure$Type
-net/minecraft/server/1_13_R2/WorldGenFeatureOceanRuinPieces	net/minecraft/world/gen/feature/structure/OceanRuinPieces
-net/minecraft/server/1_13_R2/WorldGenFeatureOceanRuinPieces$a	net/minecraft/world/gen/feature/structure/OceanRuinPieces$Piece
-net/minecraft/server/1_13_R2/WorldGenScatteredPiece	net/minecraft/world/gen/feature/structure/ScatteredStructurePiece
-net/minecraft/server/1_13_R2/WorldGenShipwreck	net/minecraft/world/gen/feature/structure/ShipwreckPieces
-net/minecraft/server/1_13_R2/WorldGenShipwreck$a	net/minecraft/world/gen/feature/structure/ShipwreckPieces$Piece
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces	net/minecraft/world/gen/feature/structure/StrongholdPieces
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$1	net/minecraft/world/gen/feature/structure/StrongholdPieces$1
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$2	net/minecraft/world/gen/feature/structure/StrongholdPieces$2
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor	net/minecraft/world/gen/feature/structure/StrongholdPieces$ChestCorridor
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdCorridor	net/minecraft/world/gen/feature/structure/StrongholdPieces$Corridor
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdCrossing	net/minecraft/world/gen/feature/structure/StrongholdPieces$Crossing
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn	net/minecraft/world/gen/feature/structure/StrongholdPieces$LeftTurn
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdLibrary	net/minecraft/world/gen/feature/structure/StrongholdPieces$Library
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPieceWeight	net/minecraft/world/gen/feature/structure/StrongholdPieces$PieceWeight
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom	net/minecraft/world/gen/feature/structure/StrongholdPieces$PortalRoom
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPrison	net/minecraft/world/gen/feature/structure/StrongholdPieces$Prison
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdRightTurn	net/minecraft/world/gen/feature/structure/StrongholdPieces$RightTurn
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing	net/minecraft/world/gen/feature/structure/StrongholdPieces$RoomCrossing
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStones	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stones
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs2	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stairs
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStart	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stairs2
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs	net/minecraft/world/gen/feature/structure/StrongholdPieces$Straight
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight	net/minecraft/world/gen/feature/structure/StrongholdPieces$StairsStraight
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stronghold
-net/minecraft/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece$WorldGenStrongholdDoorType	net/minecraft/world/gen/feature/structure/StrongholdPieces$Stronghold$Door
-net/minecraft/server/1_13_R2/WorldGenFactory	net/minecraft/world/gen/feature/structure/StructureIO
-net/minecraft/server/1_13_R2/PersistentIndexed	net/minecraft/world/gen/feature/structure/StructureIndexesSavedData
-net/minecraft/server/1_13_R2/StructurePiece	net/minecraft/world/gen/feature/structure/StructurePiece
-net/minecraft/server/1_13_R2/StructurePiece$StructurePieceBlockSelector	net/minecraft/world/gen/feature/structure/StructurePiece$BlockSelector
-net/minecraft/server/1_13_R2/StructureStart	net/minecraft/world/gen/feature/structure/StructureStart
-net/minecraft/server/1_13_R2/WorldGenWitchHut	net/minecraft/world/gen/feature/structure/SwampHutPiece
-net/minecraft/server/1_13_R2/DefinedStructurePiece	net/minecraft/world/gen/feature/structure/TemplateStructurePiece
-net/minecraft/server/1_13_R2/WorldGenCanyonOcean	net/minecraft/world/gen/carver/UnderwaterCanyonWorldCarver
-net/minecraft/server/1_13_R2/WorldGenCavesOcean	net/minecraft/world/gen/carver/UnderwaterCaveWorldCarver
-net/minecraft/server/1_13_R2/WorldGenVillagePieces	net/minecraft/world/gen/feature/structure/VillagePieces
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageLibrary	net/minecraft/world/gen/feature/structure/VillagePieces$House1
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageFarm2	net/minecraft/world/gen/feature/structure/VillagePieces$Field1
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageFarm	net/minecraft/world/gen/feature/structure/VillagePieces$Field2
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageLight	net/minecraft/world/gen/feature/structure/VillagePieces$Torch
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillagePieceWeight	net/minecraft/world/gen/feature/structure/VillagePieces$PieceWeight
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageButcher	net/minecraft/world/gen/feature/structure/VillagePieces$Hall
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageHouse	net/minecraft/world/gen/feature/structure/VillagePieces$House4Garden
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageHut	net/minecraft/world/gen/feature/structure/VillagePieces$WoodHut
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageTemple	net/minecraft/world/gen/feature/structure/VillagePieces$Church
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageBlacksmith	net/minecraft/world/gen/feature/structure/VillagePieces$House2
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageStartPiece	net/minecraft/world/gen/feature/structure/VillagePieces$Start
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageRoad	net/minecraft/world/gen/feature/structure/VillagePieces$Path
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageHouse2	net/minecraft/world/gen/feature/structure/VillagePieces$House3
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$Material	net/minecraft/world/gen/feature/structure/VillagePieces$Type
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillagePiece	net/minecraft/world/gen/feature/structure/VillagePieces$Village
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageRoadPiece	net/minecraft/world/gen/feature/structure/VillagePieces$Road
-net/minecraft/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageWell	net/minecraft/world/gen/feature/structure/VillagePieces$Well
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$a	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$FirstFloor
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$b	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$RoomCollection
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$c	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$Grid
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$d	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$Placer
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$e	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$PlacementData
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$f	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$SecondFloor
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$g	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$SimpleGrid
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$h	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$ThirdFloor
-net/minecraft/server/1_13_R2/WorldGenWoodlandMansionPieces$i	net/minecraft/world/gen/feature/structure/WoodlandMansionPieces$MansionTemplate
-net/minecraft/server/1_13_R2/WorldGenCarver	net/minecraft/world/gen/carver/IWorldCarver
-net/minecraft/server/1_13_R2/DefinedStructureProcessorRotation	net/minecraft/world/gen/feature/template/IntegrityProcessor
-net/minecraft/server/1_13_R2/DefinedStructureManager	net/minecraft/world/gen/feature/template/TemplateManager
-net/minecraft/server/1_13_R2/DefinedStructureInfo	net/minecraft/world/gen/feature/template/PlacementSettings
-net/minecraft/server/1_13_R2/DefinedStructureProcessor	net/minecraft/world/gen/feature/template/ITemplateProcessor
-net/minecraft/server/1_13_R2/DefinedStructure	net/minecraft/world/gen/feature/template/Template
-net/minecraft/server/1_13_R2/DefinedStructure$a	net/minecraft/world/gen/feature/template/Template$BasicPalette
-net/minecraft/server/1_13_R2/DefinedStructure$BlockInfo	net/minecraft/world/gen/feature/template/Template$BlockInfo
-net/minecraft/server/1_13_R2/DefinedStructure$EntityInfo	net/minecraft/world/gen/feature/template/Template$EntityInfo
-net/minecraft/server/1_13_R2/WorldGenSurfaceComposite	net/minecraft/world/gen/surfacebuilders/CompositeSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceDefaultBlock	net/minecraft/world/gen/surfacebuilders/DefaultSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceExtremeHillMutated	net/minecraft/world/gen/surfacebuilders/ExtremeHillsMutatedSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceExtremeHills	net/minecraft/world/gen/surfacebuilders/ExtremeHillsSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceFrozenOcean	net/minecraft/world/gen/surfacebuilders/FrozenOceanSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceMesaBryce	net/minecraft/world/gen/surfacebuilders/MesaBryceSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceMesaForest	net/minecraft/world/gen/surfacebuilders/MesaForestSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceMesa	net/minecraft/world/gen/surfacebuilders/MesaSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceNether	net/minecraft/world/gen/surfacebuilders/NetherSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceEmpty	net/minecraft/world/gen/surfacebuilders/NoopSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceSavannaMutated	net/minecraft/world/gen/surfacebuilders/SavanaMutatedSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurface	net/minecraft/world/gen/surfacebuilders/ISurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceConfigurationBase	net/minecraft/world/gen/surfacebuilders/SurfaceBuilderConfig
-net/minecraft/server/1_13_R2/WorldGenSurfaceConfiguration	net/minecraft/world/gen/surfacebuilders/ISurfaceBuilderConfig
-net/minecraft/server/1_13_R2/WorldGenSurfaceSwamp	net/minecraft/world/gen/surfacebuilders/SwampSurfaceBuilder
-net/minecraft/server/1_13_R2/WorldGenSurfaceTaigaMega	net/minecraft/world/gen/surfacebuilders/TaigaMegaSurfaceBuilder
-net/minecraft/server/1_13_R2/NoiseGeneratorPerlin	net/minecraft/world/gen/NoiseGeneratorImproved
-net/minecraft/server/1_13_R2/NoiseGeneratorOctaves	net/minecraft/world/gen/NoiseGeneratorOctaves
-net/minecraft/server/1_13_R2/NoiseGenerator3	net/minecraft/world/gen/NoiseGeneratorPerlin
-net/minecraft/server/1_13_R2/NoiseGenerator3Handler	net/minecraft/world/gen/NoiseGeneratorSimplex
-net/minecraft/server/1_13_R2/NoiseGenerator	net/minecraft/world/gen/NoiseGenerator
-net/minecraft/server/1_13_R2/LightEngine	net/minecraft/world/lighting/BaseLightEngine
-net/minecraft/server/1_13_R2/LightEngineBlock	net/minecraft/world/lighting/BlockLightEngine
-net/minecraft/server/1_13_R2/ILightEngine	net/minecraft/world/lighting/ILightEngine
-net/minecraft/server/1_13_R2/LightEngineSky	net/minecraft/world/lighting/SkyLightEngine
-net/minecraft/server/1_13_R2/FluidTypeEmpty	net/minecraft/fluid/EmptyFluid
-net/minecraft/server/1_13_R2/FluidTypeFlowing	net/minecraft/fluid/FlowingFluid
-net/minecraft/server/1_13_R2/FluidTypeFlowing$1	net/minecraft/fluid/FlowingFluid$1
-net/minecraft/server/1_13_R2/FluidType	net/minecraft/fluid/Fluid
-net/minecraft/server/1_13_R2/Fluid	net/minecraft/fluid/IFluidState
-net/minecraft/server/1_13_R2/FluidImpl	net/minecraft/fluid/FluidState
-net/minecraft/server/1_13_R2/FluidTypes	net/minecraft/init/Fluids
-net/minecraft/server/1_13_R2/FluidTypeLava	net/minecraft/fluid/LavaFluid
-net/minecraft/server/1_13_R2/FluidTypeLava$a	net/minecraft/fluid/LavaFluid$Flowing
-net/minecraft/server/1_13_R2/FluidTypeLava$b	net/minecraft/fluid/LavaFluid$Source
-net/minecraft/server/1_13_R2/Material	net/minecraft/block/material/Material
-net/minecraft/server/1_13_R2/Material$a	net/minecraft/block/material/Material$Builder
-net/minecraft/server/1_13_R2/MaterialMapColor	net/minecraft/block/material/MaterialColor
-net/minecraft/server/1_13_R2/EnumPistonReaction	net/minecraft/block/material/EnumPushReaction
-net/minecraft/server/1_13_R2/FluidTypeWater	net/minecraft/fluid/WaterFluid
-net/minecraft/server/1_13_R2/FluidTypeWater$a	net/minecraft/fluid/WaterFluid$Flowing
-net/minecraft/server/1_13_R2/FluidTypeWater$b	net/minecraft/fluid/WaterFluid$Source
-net/minecraft/server/1_13_R2/Area	net/minecraft/world/gen/area/IArea
-net/minecraft/server/1_13_R2/AreaDimension	net/minecraft/world/gen/area/AreaDimension
-net/minecraft/server/1_13_R2/AreaFactory	net/minecraft/world/gen/area/IAreaFactory
-net/minecraft/server/1_13_R2/AreaLazy	net/minecraft/world/gen/area/LazyArea
-net/minecraft/server/1_13_R2/AreaContextTransformed	net/minecraft/world/gen/IContextExtended
-net/minecraft/server/1_13_R2/WorldGenContext	net/minecraft/world/gen/IContext
-net/minecraft/server/1_13_R2/WorldGenContextLayer	net/minecraft/world/gen/LayerContext
-net/minecraft/server/1_13_R2/WorldGenContextArea	net/minecraft/world/gen/LazyAreaLayerContext
-net/minecraft/server/1_13_R2/GenLayerDeepOcean	net/minecraft/world/gen/layer/GenLayerDeepOcean
-net/minecraft/server/1_13_R2/GenLayerSpecial	net/minecraft/world/gen/layer/GenLayerEdge
-net/minecraft/server/1_13_R2/GenLayerSpecial$Special1	net/minecraft/world/gen/layer/GenLayerEdge$CoolWarm
-net/minecraft/server/1_13_R2/GenLayerSpecial$Special2	net/minecraft/world/gen/layer/GenLayerEdge$HeatIce
-net/minecraft/server/1_13_R2/GenLayerSpecial$Special3	net/minecraft/world/gen/layer/GenLayerEdge$Special
-net/minecraft/server/1_13_R2/GenLayerIsland	net/minecraft/world/gen/layer/GenLayerAddIsland
-net/minecraft/server/1_13_R2/GenLayerMushroomIsland	net/minecraft/world/gen/layer/GenLayerAddMushroomIsland
-net/minecraft/server/1_13_R2/GenLayerTopSoil	net/minecraft/world/gen/layer/GenLayerAddSnow
-net/minecraft/server/1_13_R2/GenLayerDesert	net/minecraft/world/gen/layer/GenLayerBiomeEdge
-net/minecraft/server/1_13_R2/GenLayerBiome	net/minecraft/world/gen/layer/GenLayerBiome
-net/minecraft/server/1_13_R2/LayerIsland	net/minecraft/world/gen/layer/GenLayerIsland
-net/minecraft/server/1_13_R2/GenLayer	net/minecraft/world/gen/layer/GenLayer
-net/minecraft/server/1_13_R2/GenLayers	net/minecraft/world/gen/layer/LayerUtil
-net/minecraft/server/1_13_R2/GenLayerOceanEdge	net/minecraft/world/gen/layer/OceanLayer
-net/minecraft/server/1_13_R2/GenLayerOcean	net/minecraft/world/gen/layer/GenLayerMixOceans
-net/minecraft/server/1_13_R2/GenLayerPlains	net/minecraft/world/gen/layer/GenLayerRareBiome
-net/minecraft/server/1_13_R2/GenLayerRegionHills	net/minecraft/world/gen/layer/GenLayerHills
-net/minecraft/server/1_13_R2/GenLayerIcePlains	net/minecraft/world/gen/layer/GenLayerRemoveTooMuchOcean
-net/minecraft/server/1_13_R2/GenLayerCleaner	net/minecraft/world/gen/layer/GenLayerRiverInit
-net/minecraft/server/1_13_R2/GenLayerRiver	net/minecraft/world/gen/layer/GenLayerRiver
-net/minecraft/server/1_13_R2/GenLayerRiverMix	net/minecraft/world/gen/layer/GenLayerRiverMix
-net/minecraft/server/1_13_R2/GenLayerMushroomShore	net/minecraft/world/gen/layer/GenLayerShore
-net/minecraft/server/1_13_R2/GenLayerSmooth	net/minecraft/world/gen/layer/GenLayerSmooth
-net/minecraft/server/1_13_R2/GenLayerZoomVoronoi	net/minecraft/world/gen/layer/GenLayerVoronoiZoom
-net/minecraft/server/1_13_R2/GenLayerZoom	net/minecraft/world/gen/layer/GenLayerZoom
-net/minecraft/server/1_13_R2/GenLayerZoom$1	net/minecraft/world/gen/layer/GenLayerZoom$1
-net/minecraft/server/1_13_R2/AreaTransformer1	net/minecraft/world/gen/layer/traits/IAreaTransformer0
-net/minecraft/server/1_13_R2/AreaTransformer2	net/minecraft/world/gen/layer/traits/IAreaTransformer1
-net/minecraft/server/1_13_R2/AreaTransformer3	net/minecraft/world/gen/layer/traits/IAreaTransformer2
-net/minecraft/server/1_13_R2/AreaTransformer4	net/minecraft/world/gen/layer/traits/IBishopTransformer
-net/minecraft/server/1_13_R2/AreaTransformer5	net/minecraft/world/gen/layer/traits/IC0Transformer
-net/minecraft/server/1_13_R2/AreaTransformer6	net/minecraft/world/gen/layer/traits/IC1Transformer
-net/minecraft/server/1_13_R2/AreaTransformer7	net/minecraft/world/gen/layer/traits/ICastleTransformer
-net/minecraft/server/1_13_R2/AreaTransformerIdentity	net/minecraft/world/gen/layer/traits/IDimOffset0Transformer
-net/minecraft/server/1_13_R2/AreaTransformerOffset1	net/minecraft/world/gen/layer/traits/IDimOffset1Transformer
-net/minecraft/server/1_13_R2/AreaTransformer	net/minecraft/world/gen/layer/traits/IDimTransformer
-net/minecraft/server/1_13_R2/AreaTransformer8	net/minecraft/world/gen/layer/traits/IPixelTransformer
-net/minecraft/server/1_13_R2/Path	net/minecraft/pathfinding/PathHeap
-net/minecraft/server/1_13_R2/PathType	net/minecraft/pathfinding/PathNodeType
-net/minecraft/server/1_13_R2/PathfinderFlying	net/minecraft/pathfinding/FlyingNodeProcessor
-net/minecraft/server/1_13_R2/PathPoint	net/minecraft/pathfinding/PathPoint
-net/minecraft/server/1_13_R2/PathfinderAbstract	net/minecraft/pathfinding/NodeProcessor
-net/minecraft/server/1_13_R2/PathEntity	net/minecraft/pathfinding/Path
-net/minecraft/server/1_13_R2/PathMode	net/minecraft/pathfinding/PathType
-net/minecraft/server/1_13_R2/Pathfinder	net/minecraft/pathfinding/PathFinder
-net/minecraft/server/1_13_R2/PathfinderWater	net/minecraft/pathfinding/SwimNodeProcessor
-net/minecraft/server/1_13_R2/PathfinderTurtle	net/minecraft/pathfinding/WalkAndSwimNodeProcessor
-net/minecraft/server/1_13_R2/PathfinderNormal	net/minecraft/pathfinding/WalkNodeProcessor
-net/minecraft/server/1_13_R2/RunnableSaveScoreboard	net/minecraft/world/storage/WorldSavedDataCallableSave
-net/minecraft/server/1_13_R2/PersistentBase	net/minecraft/world/storage/WorldSavedData
-net/minecraft/server/1_13_R2/MapIconBanner	net/minecraft/world/storage/MapBanner
-net/minecraft/server/1_13_R2/MapIcon	net/minecraft/world/storage/MapDecoration
-net/minecraft/server/1_13_R2/MapIcon$Type	net/minecraft/world/storage/MapDecoration$Type
-net/minecraft/server/1_13_R2/WorldMapFrame	net/minecraft/world/storage/MapFrame
-net/minecraft/server/1_13_R2/WorldMap	net/minecraft/world/storage/MapData
-net/minecraft/server/1_13_R2/WorldMap$WorldMapHumanTracker	net/minecraft/world/storage/MapData$MapInfo
-net/minecraft/server/1_13_R2/ServerNBTManager	net/minecraft/world/chunk/storage/AnvilSaveHandler
-net/minecraft/server/1_13_R2/WorldLoaderServer	net/minecraft/world/chunk/storage/AnvilSaveConverter
-net/minecraft/server/1_13_R2/SecondaryWorldData	net/minecraft/world/storage/DerivedWorldInfo
-net/minecraft/server/1_13_R2/WorldPersistentData	net/minecraft/world/storage/DimensionSavedDataManager
-net/minecraft/server/1_13_R2/WorldNBTStorage	net/minecraft/world/storage/SaveHandler
-net/minecraft/server/1_13_R2/WorldLoader	net/minecraft/world/storage/SaveFormatOld
-net/minecraft/server/1_13_R2/WorldData	net/minecraft/world/storage/WorldInfo
-net/minecraft/server/1_13_R2/IDataManager	net/minecraft/world/storage/ISaveHandler
-net/minecraft/server/1_13_R2/Convertable	net/minecraft/world/storage/ISaveFormat
-net/minecraft/server/1_13_R2/IPlayerFileData	net/minecraft/world/storage/IPlayerFileData
-net/minecraft/server/1_13_R2/PersistentCollection	net/minecraft/world/storage/WorldSavedDataStorage
-net/minecraft/server/1_13_R2/LootTables	net/minecraft/world/storage/loot/LootTableList
-net/minecraft/server/1_13_R2/LootSelectorEmpty	net/minecraft/world/storage/loot/LootEntryEmpty
-net/minecraft/server/1_13_R2/LootItem	net/minecraft/world/storage/loot/LootEntryItem
-net/minecraft/server/1_13_R2/LootSelector	net/minecraft/world/storage/loot/LootPool
-net/minecraft/server/1_13_R2/LootSelector$a	net/minecraft/world/storage/loot/LootPool$Serializer
-net/minecraft/server/1_13_R2/LootSelectorEntry	net/minecraft/world/storage/loot/LootEntry
-net/minecraft/server/1_13_R2/LootSelectorEntry$a	net/minecraft/world/storage/loot/LootEntry$Serializer
-net/minecraft/server/1_13_R2/LootTable	net/minecraft/world/storage/loot/LootTable
-net/minecraft/server/1_13_R2/LootTable$a	net/minecraft/world/storage/loot/LootTable$Serializer
-net/minecraft/server/1_13_R2/LootTableInfo	net/minecraft/world/storage/loot/LootContext
-net/minecraft/server/1_13_R2/LootTableInfo$Builder	net/minecraft/world/storage/loot/LootContext$Builder
-net/minecraft/server/1_13_R2/LootTableInfo$EntityTarget	net/minecraft/world/storage/loot/LootContext$EntityTarget
-net/minecraft/server/1_13_R2/LootTableInfo$EntityTarget$a	net/minecraft/world/storage/loot/LootContext$EntityTarget$Serializer
-net/minecraft/server/1_13_R2/LootSelectorLootTable	net/minecraft/world/storage/loot/LootEntryTable
-net/minecraft/server/1_13_R2/LootTableRegistry	net/minecraft/world/storage/loot/LootTableManager
-net/minecraft/server/1_13_R2/LootValueBounds	net/minecraft/world/storage/loot/RandomValueRange
-net/minecraft/server/1_13_R2/LootValueBounds$a	net/minecraft/world/storage/loot/RandomValueRange$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionEnchant	net/minecraft/world/storage/loot/functions/EnchantRandomly
-net/minecraft/server/1_13_R2/LootItemFunctionEnchant$a	net/minecraft/world/storage/loot/functions/EnchantRandomly$Serializer
-net/minecraft/server/1_13_R2/LootEnchantLevel	net/minecraft/world/storage/loot/functions/EnchantWithLevels
-net/minecraft/server/1_13_R2/LootEnchantLevel$a	net/minecraft/world/storage/loot/functions/EnchantWithLevels$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionExplorationMap	net/minecraft/world/storage/loot/functions/ExplorationMap
-net/minecraft/server/1_13_R2/LootItemFunctionExplorationMap$a	net/minecraft/world/storage/loot/functions/ExplorationMap$Serializer
-net/minecraft/server/1_13_R2/LootItemFunction	net/minecraft/world/storage/loot/functions/LootFunction
-net/minecraft/server/1_13_R2/LootItemFunction$a	net/minecraft/world/storage/loot/functions/LootFunction$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctions	net/minecraft/world/storage/loot/functions/LootFunctionManager
-net/minecraft/server/1_13_R2/LootItemFunctions$a	net/minecraft/world/storage/loot/functions/LootFunctionManager$Serializer
-net/minecraft/server/1_13_R2/LootEnchantFunction	net/minecraft/world/storage/loot/functions/LootingEnchantBonus
-net/minecraft/server/1_13_R2/LootEnchantFunction$a	net/minecraft/world/storage/loot/functions/LootingEnchantBonus$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionSetAttribute	net/minecraft/world/storage/loot/functions/SetAttributes
-net/minecraft/server/1_13_R2/LootItemFunctionSetAttribute$a	net/minecraft/world/storage/loot/functions/SetAttributes$Modifier
-net/minecraft/server/1_13_R2/LootItemFunctionSetAttribute$b	net/minecraft/world/storage/loot/functions/SetAttributes$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionSetCount	net/minecraft/world/storage/loot/functions/SetCount
-net/minecraft/server/1_13_R2/LootItemFunctionSetCount$a	net/minecraft/world/storage/loot/functions/SetCount$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionSetDamage	net/minecraft/world/storage/loot/functions/SetDamage
-net/minecraft/server/1_13_R2/LootItemFunctionSetDamage$a	net/minecraft/world/storage/loot/functions/SetDamage$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionSetName	net/minecraft/world/storage/loot/functions/SetName
-net/minecraft/server/1_13_R2/LootItemFunctionSetName$a	net/minecraft/world/storage/loot/functions/SetName$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionSetTag	net/minecraft/world/storage/loot/functions/SetNBT
-net/minecraft/server/1_13_R2/LootItemFunctionSetTag$a	net/minecraft/world/storage/loot/functions/SetNBT$Serializer
-net/minecraft/server/1_13_R2/LootItemFunctionSmelt	net/minecraft/world/storage/loot/functions/Smelt
-net/minecraft/server/1_13_R2/LootItemFunctionSmelt$a	net/minecraft/world/storage/loot/functions/Smelt$Serializer
-net/minecraft/server/1_13_R2/LootItemConditionEntityScore	net/minecraft/world/storage/loot/conditions/EntityHasScore
-net/minecraft/server/1_13_R2/LootItemConditionEntityScore$a	net/minecraft/world/storage/loot/conditions/EntityHasScore$Serializer
-net/minecraft/server/1_13_R2/LootItemCondition	net/minecraft/world/storage/loot/conditions/LootCondition
-net/minecraft/server/1_13_R2/LootItemCondition$a	net/minecraft/world/storage/loot/conditions/LootCondition$Serializer
-net/minecraft/server/1_13_R2/LootItemConditions	net/minecraft/world/storage/loot/conditions/LootConditionManager
-net/minecraft/server/1_13_R2/LootItemConditions$a	net/minecraft/world/storage/loot/conditions/LootConditionManager$Serializer
-net/minecraft/server/1_13_R2/LootItemConditionEntityProperty	net/minecraft/world/storage/loot/conditions/EntityHasProperty
-net/minecraft/server/1_13_R2/LootItemConditionEntityProperty$a	net/minecraft/world/storage/loot/conditions/EntityHasProperty$Serializer
-net/minecraft/server/1_13_R2/LootItemConditionKilledByPlayer	net/minecraft/world/storage/loot/conditions/KilledByPlayer
-net/minecraft/server/1_13_R2/LootItemConditionKilledByPlayer$a	net/minecraft/world/storage/loot/conditions/KilledByPlayer$Serializer
-net/minecraft/server/1_13_R2/LootItemConditionRandomChance	net/minecraft/world/storage/loot/conditions/RandomChance
-net/minecraft/server/1_13_R2/LootItemConditionRandomChance$a	net/minecraft/world/storage/loot/conditions/RandomChance$Serializer
-net/minecraft/server/1_13_R2/LootItemConditionRandomChanceWithLooting	net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting
-net/minecraft/server/1_13_R2/LootItemConditionRandomChanceWithLooting$a	net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting$Serializer
-net/minecraft/server/1_13_R2/LootEntityProperties	net/minecraft/world/storage/loot/properties/EntityPropertyManager
-net/minecraft/server/1_13_R2/LootEntityProperty	net/minecraft/world/storage/loot/properties/EntityProperty
-net/minecraft/server/1_13_R2/LootEntityProperty$a	net/minecraft/world/storage/loot/properties/EntityProperty$Serializer
-net/minecraft/server/1_13_R2/LootEntityPropertyOnFire	net/minecraft/world/storage/loot/properties/EntityOnFire
-net/minecraft/server/1_13_R2/LootEntityPropertyOnFire$a	net/minecraft/world/storage/loot/properties/EntityOnFire$Serializer
-net/minecraft/server/1_13_R2/FileIOThread	net/minecraft/world/storage/ThreadedFileIOBase
-net/minecraft/server/1_13_R2/IAsyncChunkSaver	net/minecraft/world/storage/IThreadedFileIO
-net/minecraft/server/1_13_R2/AxisAlignedBB	net/minecraft/util/math/AxisAlignedBB
-net/minecraft/server/1_13_R2/MovingObjectPosition	net/minecraft/util/math/RayTraceResult
-net/minecraft/server/1_13_R2/MovingObjectPosition$EnumMovingObjectType	net/minecraft/util/math/RayTraceResult$Type
-net/minecraft/server/1_13_R2/FluidCollisionOption	net/minecraft/util/math/RayTraceFluidMode
-net/minecraft/server/1_13_R2/Vec2F	net/minecraft/util/math/Vec2f
-net/minecraft/server/1_13_R2/Vec3D	net/minecraft/util/math/Vec3d
-net/minecraft/server/1_13_R2/VoxelShapeArray	net/minecraft/util/math/shapes/VoxelShapeArray
-net/minecraft/server/1_13_R2/VoxelShapeBitSet	net/minecraft/util/math/shapes/VoxelShapePartBitSet
-net/minecraft/server/1_13_R2/OperatorBoolean	net/minecraft/util/math/shapes/IBooleanFunction
-net/minecraft/server/1_13_R2/VoxelShapeCubePoint	net/minecraft/util/math/shapes/DoubleRangeList
-net/minecraft/server/1_13_R2/VoxelShapeCube	net/minecraft/util/math/shapes/VoxelShapeCube
-net/minecraft/server/1_13_R2/VoxelShapeCubeMerger	net/minecraft/util/math/shapes/DoubleCubeMergingList
-net/minecraft/server/1_13_R2/VoxelShapeDiscrete	net/minecraft/util/math/shapes/VoxelShapePart
-net/minecraft/server/1_13_R2/VoxelShapeDiscrete$a	net/minecraft/util/math/shapes/VoxelShapePart$FaceConsumer
-net/minecraft/server/1_13_R2/VoxelShapeDiscrete$b	net/minecraft/util/math/shapes/VoxelShapePart$LineConsumer
-net/minecraft/server/1_13_R2/VoxelShapeMergerIdentical	net/minecraft/util/math/shapes/SimpleDoubleMerger
-net/minecraft/server/1_13_R2/VoxelShapeMerger	net/minecraft/util/math/shapes/IDoubleListMerger
-net/minecraft/server/1_13_R2/VoxelShapeMerger$a	net/minecraft/util/math/shapes/IDoubleListMerger$Consumer
-net/minecraft/server/1_13_R2/VoxelShapeMergerList	net/minecraft/util/math/shapes/IndirectMerger
-net/minecraft/server/1_13_R2/DoubleListRange	net/minecraft/util/math/shapes/IntRangeList
-net/minecraft/server/1_13_R2/VoxelShapeMergerDisjoint	net/minecraft/util/math/shapes/NonOverlappingMerger
-net/minecraft/server/1_13_R2/DoubleListOffset	net/minecraft/util/math/shapes/OffsetDoubleList
-net/minecraft/server/1_13_R2/VoxelShapes	net/minecraft/util/math/shapes/VoxelShapes
-net/minecraft/server/1_13_R2/VoxelShapes$a	net/minecraft/util/math/shapes/VoxelShapes$LineConsumer
-net/minecraft/server/1_13_R2/VoxelShapeSlice	net/minecraft/util/math/shapes/VoxelShapeSplit
-net/minecraft/server/1_13_R2/VoxelShapeDiscreteSlice	net/minecraft/util/math/shapes/VoxelShapePartSplit
-net/minecraft/server/1_13_R2/VoxelShape	net/minecraft/util/math/shapes/VoxelShape
-net/minecraft/server/1_13_R2/VoxelShapeWorldRegion	net/minecraft/util/math/shapes/VoxelShapeInt
-net/minecraft/server/1_13_R2/ScoreboardObjective	net/minecraft/scoreboard/ScoreObjective
-net/minecraft/server/1_13_R2/ScoreboardTeam	net/minecraft/scoreboard/ScorePlayerTeam
-net/minecraft/server/1_13_R2/ScoreboardScore	net/minecraft/scoreboard/Score
-net/minecraft/server/1_13_R2/Scoreboard	net/minecraft/scoreboard/Scoreboard
-net/minecraft/server/1_13_R2/PersistentScoreboard	net/minecraft/scoreboard/ScoreboardSaveData
-net/minecraft/server/1_13_R2/ScoreboardTeamBase	net/minecraft/scoreboard/Team
-net/minecraft/server/1_13_R2/ScoreboardTeamBase$EnumTeamPush	net/minecraft/scoreboard/Team$CollisionRule
-net/minecraft/server/1_13_R2/ScoreboardTeamBase$EnumNameTagVisibility	net/minecraft/scoreboard/Team$EnumVisible
-net/minecraft/server/1_13_R2/IScoreboardCriteria	net/minecraft/scoreboard/ScoreCriteria
-net/minecraft/server/1_13_R2/IScoreboardCriteria$EnumScoreboardHealthDisplay	net/minecraft/scoreboard/ScoreCriteria$RenderType
-	net/minecraft/data/Main
-	net/minecraft/server/MinecraftServer
-	net/minecraft/server/MinecraftServer$1
-	net/minecraft/server/MinecraftServer$2`);
+updateClassIndex(`Spigot:#CA8A04	Searge:#B91C1C	Obfuscated:#581C87
+%nm/server/1_13_R2/EnumChatFormat	%nm/util/text/TextFormatting	a
+%nm/server/1_13_R2/CrashReport	%nm/crash/CrashReport	b
+%nm/server/1_13_R2/CrashReportSystemDetails	%nm/crash/CrashReportCategory	c
+%nm/server/1_13_R2/CrashReportSystemDetails$CrashReportDetail	%nm/crash/CrashReportCategory$Entry	c$a
+%nm/server/1_13_R2/CrashReportCallable	%nm/crash/ICrashReportDetail	d
+%nm/server/1_13_R2/DefaultUncaughtExceptionHandler	%nm/util/DefaultUncaughtExceptionHandler	e
+%nm/server/1_13_R2/ThreadNamedUncaughtExceptionHandler	%nm/util/DefaultUncaughtExceptionHandlerWithName	f
+%nm/server/1_13_R2/ReportedException	%nm/crash/ReportedException	h
+%nm/server/1_13_R2/ResourceKeyInvalidException	%nm/util/ResourceLocationException	i
+%nm/server/1_13_R2/SharedConstants	%nm/util/SharedConstants	j
+%nm/server/1_13_R2/SystemUtils	%nm/util/Util	k
+%nm/server/1_13_R2/SystemUtils$IdentityHashingStrategy	%nm/util/Util$IdentityStrategy	k$a
+%nm/server/1_13_R2/SystemUtils$OS	%nm/util/Util$EnumOS	k$b
+%nm/server/1_13_R2/SystemUtils$OS$1	%nm/util/Util$EnumOS$1	k$b$1
+%nm/server/1_13_R2/SystemUtils$OS$2	%nm/util/Util$EnumOS$2	k$b$2
+%nm/server/1_13_R2/Advancement	%nm/advancements/Advancement	l
+%nm/server/1_13_R2/Advancement$SerializedAdvancement	%nm/advancements/Advancement$Builder	l$a
+%nm/server/1_13_R2/Advancements	%nm/advancements/AdvancementList	m
+%nm/server/1_13_R2/Advancements$a	%nm/advancements/AdvancementList$Listener	m$a
+%nm/server/1_13_R2/AdvancementProgress	%nm/advancements/AdvancementProgress	n
+%nm/server/1_13_R2/AdvancementProgress$a	%nm/advancements/AdvancementProgress$Serializer	n$a
+%nm/server/1_13_R2/AdvancementRewards	%nm/advancements/AdvancementRewards	o
+%nm/server/1_13_R2/AdvancementRewards$a	%nm/advancements/AdvancementRewards$Builder	o$a
+%nm/server/1_13_R2/AdvancementRewards$b	%nm/advancements/AdvancementRewards$Deserializer	o$b
+%nm/server/1_13_R2/CriterionTriggers	%nm/advancements/CriteriaTriggers	p
+%nm/server/1_13_R2/Criterion	%nm/advancements/Criterion	q
+%nm/server/1_13_R2/CriterionProgress	%nm/advancements/CriterionProgress	r
+%nm/server/1_13_R2/CriterionTrigger	%nm/advancements/ICriterionTrigger	s
+%nm/server/1_13_R2/CriterionTrigger$a	%nm/advancements/ICriterionTrigger$Listener	s$a
+%nm/server/1_13_R2/CriterionInstance	%nm/advancements/ICriterionInstance	t
+%nm/server/1_13_R2/AdvancementDisplay	%nm/advancements/DisplayInfo	u
+%nm/server/1_13_R2/AdvancementFrameType	%nm/advancements/FrameType	v
+%nm/server/1_13_R2/AdvancementRequirements	%nm/advancements/RequirementsStrategy	w
+%nm/server/1_13_R2/AdvancementTree	%nm/advancements/AdvancementTreeNode	x
+%nm/server/1_13_R2/CriterionInstanceAbstract	%nm/advancements/criterion/AbstractCriterionInstance	y
+%nm/server/1_13_R2/CriterionTriggerBredAnimals	%nm/advancements/criterion/BredAnimalsTrigger	z
+%nm/server/1_13_R2/CriterionTriggerBredAnimals$a	%nm/advancements/criterion/BredAnimalsTrigger$Listeners	z$a
+%nm/server/1_13_R2/CriterionTriggerBredAnimals$b	%nm/advancements/criterion/BredAnimalsTrigger$Instance	z$b
+%nm/server/1_13_R2/CriterionTriggerBrewedPotion	%nm/advancements/criterion/BrewedPotionTrigger	aa
+%nm/server/1_13_R2/CriterionTriggerBrewedPotion$a	%nm/advancements/criterion/BrewedPotionTrigger$Listeners	aa$a
+%nm/server/1_13_R2/CriterionTriggerBrewedPotion$b	%nm/advancements/criterion/BrewedPotionTrigger$Instance	aa$b
+%nm/server/1_13_R2/CriterionTriggerChangedDimension	%nm/advancements/criterion/ChangeDimensionTrigger	ab
+%nm/server/1_13_R2/CriterionTriggerChangedDimension$a	%nm/advancements/criterion/ChangeDimensionTrigger$Listeners	ab$a
+%nm/server/1_13_R2/CriterionTriggerChangedDimension$b	%nm/advancements/criterion/ChangeDimensionTrigger$Instance	ab$b
+%nm/server/1_13_R2/CriterionTriggerChanneledLightning	%nm/advancements/criterion/ChanneledLightningTrigger	ac
+%nm/server/1_13_R2/CriterionTriggerChanneledLightning$a	%nm/advancements/criterion/ChanneledLightningTrigger$Listeners	ac$a
+%nm/server/1_13_R2/CriterionTriggerChanneledLightning$b	%nm/advancements/criterion/ChanneledLightningTrigger$Instance	ac$b
+%nm/server/1_13_R2/CriterionTriggerConstructBeacon	%nm/advancements/criterion/ConstructBeaconTrigger	ad
+%nm/server/1_13_R2/CriterionTriggerConstructBeacon$a	%nm/advancements/criterion/ConstructBeaconTrigger$Listeners	ad$a
+%nm/server/1_13_R2/CriterionTriggerConstructBeacon$b	%nm/advancements/criterion/ConstructBeaconTrigger$Instance	ad$b
+%nm/server/1_13_R2/CriterionTriggerConsumeItem	%nm/advancements/criterion/ConsumeItemTrigger	ae
+%nm/server/1_13_R2/CriterionTriggerConsumeItem$a	%nm/advancements/criterion/ConsumeItemTrigger$Listeners	ae$a
+%nm/server/1_13_R2/CriterionTriggerConsumeItem$b	%nm/advancements/criterion/ConsumeItemTrigger$Instance	ae$b
+%nm/server/1_13_R2/CriterionTriggerCuredZombieVillager	%nm/advancements/criterion/CuredZombieVillagerTrigger	af
+%nm/server/1_13_R2/CriterionTriggerCuredZombieVillager$a	%nm/advancements/criterion/CuredZombieVillagerTrigger$Listeners	af$a
+%nm/server/1_13_R2/CriterionTriggerCuredZombieVillager$b	%nm/advancements/criterion/CuredZombieVillagerTrigger$Instance	af$b
+%nm/server/1_13_R2/CriterionConditionDamage	%nm/advancements/criterion/DamagePredicate	ag
+%nm/server/1_13_R2/CriterionConditionDamage$a	%nm/advancements/criterion/DamagePredicate$Builder	ag$a
+%nm/server/1_13_R2/CriterionConditionDamageSource	%nm/advancements/criterion/DamageSourcePredicate	ah
+%nm/server/1_13_R2/CriterionConditionDamageSource$a	%nm/advancements/criterion/DamageSourcePredicate$Builder	ah$a
+%nm/server/1_13_R2/CriterionConditionDistance	%nm/advancements/criterion/DistancePredicate	ai
+%nm/server/1_13_R2/CriterionTriggerEffectsChanged	%nm/advancements/criterion/EffectsChangedTrigger	aj
+%nm/server/1_13_R2/CriterionTriggerEffectsChanged$a	%nm/advancements/criterion/EffectsChangedTrigger$Listeners	aj$a
+%nm/server/1_13_R2/CriterionTriggerEffectsChanged$b	%nm/advancements/criterion/EffectsChangedTrigger$Instance	aj$b
+%nm/server/1_13_R2/CriterionTriggerEnchantedItem	%nm/advancements/criterion/EnchantedItemTrigger	ak
+%nm/server/1_13_R2/CriterionTriggerEnchantedItem$a	%nm/advancements/criterion/EnchantedItemTrigger$Listeners	ak$a
+%nm/server/1_13_R2/CriterionTriggerEnchantedItem$b	%nm/advancements/criterion/EnchantedItemTrigger$Instance	ak$b
+%nm/server/1_13_R2/CriterionConditionEnchantments	%nm/advancements/criterion/EnchantmentPredicate	al
+%nm/server/1_13_R2/CriterionTriggerEnterBlock	%nm/advancements/criterion/EnterBlockTrigger	am
+%nm/server/1_13_R2/CriterionTriggerEnterBlock$a	%nm/advancements/criterion/EnterBlockTrigger$Listeners	am$a
+%nm/server/1_13_R2/CriterionTriggerEnterBlock$b	%nm/advancements/criterion/EnterBlockTrigger$Instance	am$b
+%nm/server/1_13_R2/CriterionTriggerEntityHurtPlayer	%nm/advancements/criterion/EntityHurtPlayerTrigger	an
+%nm/server/1_13_R2/CriterionTriggerEntityHurtPlayer$a	%nm/advancements/criterion/EntityHurtPlayerTrigger$Listeners	an$a
+%nm/server/1_13_R2/CriterionTriggerEntityHurtPlayer$b	%nm/advancements/criterion/EntityHurtPlayerTrigger$Instance	an$b
+%nm/server/1_13_R2/CriterionConditionEntity	%nm/advancements/criterion/EntityPredicate	ao
+%nm/server/1_13_R2/CriterionConditionEntity$a	%nm/advancements/criterion/EntityPredicate$Builder	ao$a
+%nm/server/1_13_R2/CriterionConditionEntityType	%nm/advancements/criterion/EntityTypePredicate	ap
+%nm/server/1_13_R2/CriterionTriggerFilledBucket	%nm/advancements/criterion/FilledBucketTrigger	aq
+%nm/server/1_13_R2/CriterionTriggerFilledBucket$a	%nm/advancements/criterion/FilledBucketTrigger$Listeners	aq$a
+%nm/server/1_13_R2/CriterionTriggerFilledBucket$b	%nm/advancements/criterion/FilledBucketTrigger$Instance	aq$b
+%nm/server/1_13_R2/CriterionTriggerFishingRodHooked	%nm/advancements/criterion/FishingRodHookedTrigger	ar
+%nm/server/1_13_R2/CriterionTriggerFishingRodHooked$a	%nm/advancements/criterion/FishingRodHookedTrigger$Listeners	ar$a
+%nm/server/1_13_R2/CriterionTriggerFishingRodHooked$b	%nm/advancements/criterion/FishingRodHookedTrigger$Instance	ar$b
+%nm/server/1_13_R2/CriterionTriggerImpossible	%nm/advancements/criterion/ImpossibleTrigger	as
+%nm/server/1_13_R2/CriterionTriggerImpossible$a	%nm/advancements/criterion/ImpossibleTrigger$Instance	as$a
+%nm/server/1_13_R2/CriterionTriggerInventoryChanged	%nm/advancements/criterion/InventoryChangeTrigger	at
+%nm/server/1_13_R2/CriterionTriggerInventoryChanged$a	%nm/advancements/criterion/InventoryChangeTrigger$Listeners	at$a
+%nm/server/1_13_R2/CriterionTriggerInventoryChanged$b	%nm/advancements/criterion/InventoryChangeTrigger$Instance	at$b
+%nm/server/1_13_R2/CriterionTriggerItemDurabilityChanged	%nm/advancements/criterion/ItemDurabilityTrigger	au
+%nm/server/1_13_R2/CriterionTriggerItemDurabilityChanged$a	%nm/advancements/criterion/ItemDurabilityTrigger$Listeners	au$a
+%nm/server/1_13_R2/CriterionTriggerItemDurabilityChanged$b	%nm/advancements/criterion/ItemDurabilityTrigger$Instance	au$b
+%nm/server/1_13_R2/CriterionConditionItem	%nm/advancements/criterion/ItemPredicate	av
+%nm/server/1_13_R2/CriterionConditionItem$a	%nm/advancements/criterion/ItemPredicate$Builder	av$a
+%nm/server/1_13_R2/CriterionTriggerKilled	%nm/advancements/criterion/KilledTrigger	aw
+%nm/server/1_13_R2/CriterionTriggerKilled$a	%nm/advancements/criterion/KilledTrigger$Listeners	aw$a
+%nm/server/1_13_R2/CriterionTriggerKilled$b	%nm/advancements/criterion/KilledTrigger$Instance	aw$b
+%nm/server/1_13_R2/CriterionTriggerLevitation	%nm/advancements/criterion/LevitationTrigger	ax
+%nm/server/1_13_R2/CriterionTriggerLevitation$a	%nm/advancements/criterion/LevitationTrigger$Listeners	ax$a
+%nm/server/1_13_R2/CriterionTriggerLevitation$b	%nm/advancements/criterion/LevitationTrigger$Instance	ax$b
+%nm/server/1_13_R2/CriterionConditionLocation	%nm/advancements/criterion/LocationPredicate	ay
+%nm/server/1_13_R2/CriterionTriggerLocation	%nm/advancements/criterion/PositionTrigger	az
+%nm/server/1_13_R2/CriterionTriggerLocation$a	%nm/advancements/criterion/PositionTrigger$Listeners	az$a
+%nm/server/1_13_R2/CriterionTriggerLocation$b	%nm/advancements/criterion/PositionTrigger$Instance	az$b
+%nm/server/1_13_R2/CriterionConditionValue	%nm/advancements/criterion/MinMaxBounds	ba
+%nm/server/1_13_R2/CriterionConditionValue$a	%nm/advancements/criterion/MinMaxBounds$IBoundFactory	ba$a
+%nm/server/1_13_R2/CriterionConditionValue$b	%nm/advancements/criterion/MinMaxBounds$IBoundReader	ba$b
+%nm/server/1_13_R2/CriterionConditionValue$FloatRange	%nm/advancements/criterion/MinMaxBounds$FloatBound	ba$c
+%nm/server/1_13_R2/CriterionConditionValue$IntegerRange	%nm/advancements/criterion/MinMaxBounds$IntBound	ba$d
+%nm/server/1_13_R2/CriterionConditionMobEffect	%nm/advancements/criterion/MobEffectsPredicate	bb
+%nm/server/1_13_R2/CriterionConditionMobEffect$a	%nm/advancements/criterion/MobEffectsPredicate$InstancePredicate	bb$a
+%nm/server/1_13_R2/CriterionConditionNBT	%nm/advancements/criterion/NBTPredicate	bc
+%nm/server/1_13_R2/CriterionTriggerNetherTravel	%nm/advancements/criterion/NetherTravelTrigger	bd
+%nm/server/1_13_R2/CriterionTriggerNetherTravel$a	%nm/advancements/criterion/NetherTravelTrigger$Listeners	bd$a
+%nm/server/1_13_R2/CriterionTriggerNetherTravel$b	%nm/advancements/criterion/NetherTravelTrigger$Instance	bd$b
+%nm/server/1_13_R2/CriterionTriggerPlacedBlock	%nm/advancements/criterion/PlacedBlockTrigger	be
+%nm/server/1_13_R2/CriterionTriggerPlacedBlock$a	%nm/advancements/criterion/PlacedBlockTrigger$Listeners	be$a
+%nm/server/1_13_R2/CriterionTriggerPlacedBlock$b	%nm/advancements/criterion/PlacedBlockTrigger$Instance	be$b
+%nm/server/1_13_R2/CriterionTriggerPlayerHurtEntity	%nm/advancements/criterion/PlayerHurtEntityTrigger	bf
+%nm/server/1_13_R2/CriterionTriggerPlayerHurtEntity$a	%nm/advancements/criterion/PlayerHurtEntityTrigger$Listeners	bf$a
+%nm/server/1_13_R2/CriterionTriggerPlayerHurtEntity$b	%nm/advancements/criterion/PlayerHurtEntityTrigger$Instance	bf$b
+%nm/server/1_13_R2/CriterionTriggerRecipeUnlocked	%nm/advancements/criterion/RecipeUnlockedTrigger	bg
+%nm/server/1_13_R2/CriterionTriggerRecipeUnlocked$a	%nm/advancements/criterion/RecipeUnlockedTrigger$Listeners	bg$a
+%nm/server/1_13_R2/CriterionTriggerRecipeUnlocked$b	%nm/advancements/criterion/RecipeUnlockedTrigger$Instance	bg$b
+%nm/server/1_13_R2/CriterionTriggerSummonedEntity	%nm/advancements/criterion/SummonedEntityTrigger	bh
+%nm/server/1_13_R2/CriterionTriggerSummonedEntity$a	%nm/advancements/criterion/SummonedEntityTrigger$Listeners	bh$a
+%nm/server/1_13_R2/CriterionTriggerSummonedEntity$b	%nm/advancements/criterion/SummonedEntityTrigger$Instance	bh$b
+%nm/server/1_13_R2/CriterionTriggerTamedAnimal	%nm/advancements/criterion/TameAnimalTrigger	bi
+%nm/server/1_13_R2/CriterionTriggerTamedAnimal$a	%nm/advancements/criterion/TameAnimalTrigger$Listeners	bi$a
+%nm/server/1_13_R2/CriterionTriggerTamedAnimal$b	%nm/advancements/criterion/TameAnimalTrigger$Instance	bi$b
+%nm/server/1_13_R2/CriterionTriggerTick	%nm/advancements/criterion/TickTrigger	bj
+%nm/server/1_13_R2/CriterionTriggerTick$a	%nm/advancements/criterion/TickTrigger$Listeners	bj$a
+%nm/server/1_13_R2/CriterionTriggerTick$b	%nm/advancements/criterion/TickTrigger$Instance	bj$b
+%nm/server/1_13_R2/CriterionTriggerVillagerTrade	%nm/advancements/criterion/VillagerTradeTrigger	bk
+%nm/server/1_13_R2/CriterionTriggerVillagerTrade$a	%nm/advancements/criterion/VillagerTradeTrigger$Listeners	bk$a
+%nm/server/1_13_R2/CriterionTriggerVillagerTrade$b	%nm/advancements/criterion/VillagerTradeTrigger$Instance	bk$b
+%nm/server/1_13_R2/CriterionTriggerUsedEnderEye	%nm/advancements/criterion/UsedEnderEyeTrigger	bl
+%nm/server/1_13_R2/CriterionTriggerUsedEnderEye$a	%nm/advancements/criterion/UsedEnderEyeTrigger$Listeners	bl$a
+%nm/server/1_13_R2/CriterionTriggerUsedEnderEye$b	%nm/advancements/criterion/UsedEnderEyeTrigger$Instance	bl$b
+%nm/server/1_13_R2/CriterionTriggerUsedTotem	%nm/advancements/criterion/UsedTotemTrigger	bm
+%nm/server/1_13_R2/CriterionTriggerUsedTotem$a	%nm/advancements/criterion/UsedTotemTrigger$Listeners	bm$a
+%nm/server/1_13_R2/CriterionTriggerUsedTotem$b	%nm/advancements/criterion/UsedTotemTrigger$Instance	bm$b
+%nm/server/1_13_R2/CriterionConditionRange	%nm/advancements/criterion/MinMaxBoundsWrapped	bn
+%nm/server/1_13_R2/CommandExceptionProvider	%nm/command/TranslatableExceptionProvider	bq
+%nm/server/1_13_R2/CustomFunction	%nm/command/FunctionObject	br
+%nm/server/1_13_R2/CustomFunction$a	%nm/command/FunctionObject$CacheableFunction	br$a
+%nm/server/1_13_R2/CustomFunction$b	%nm/command/FunctionObject$CommandEntry	br$b
+%nm/server/1_13_R2/CustomFunction$c	%nm/command/FunctionObject$Entry	br$c
+%nm/server/1_13_R2/CustomFunction$d	%nm/command/FunctionObject$FunctionEntry	br$d
+%nm/server/1_13_R2/CommandException	%nm/command/CommandException	bs
+%nm/server/1_13_R2/ICommandListener	%nm/command/ICommandSource	bt
+%nm/server/1_13_R2/CommandListenerWrapper	%nm/command/CommandSource	bu
+%nm/server/1_13_R2/CommandDispatcher	%nm/command/Commands	bv
+%nm/server/1_13_R2/CommandDispatcher$a	%nm/command/Commands$IParser	bv$a
+%nm/server/1_13_R2/ICompletionProvider	%nm/command/ISuggestionProvider	bw
+%nm/server/1_13_R2/ICompletionProvider$a	%nm/command/ISuggestionProvider$Coordinates	bw$a
+%nm/server/1_13_R2/ArgumentChatFormat	%nm/command/arguments/ColorArgument	bx
+%nm/server/1_13_R2/ArgumentChatComponent	%nm/command/arguments/ComponentArgument	by
+%nm/server/1_13_R2/ArgumentDimension	%nm/command/arguments/DimensionArgument	bz
+%nm/server/1_13_R2/ArgumentAnchor	%nm/command/arguments/EntityAnchorArgument	ca
+%nm/server/1_13_R2/ArgumentAnchor$Anchor	%nm/command/arguments/EntityAnchorArgument$Type	ca$a
+%nm/server/1_13_R2/ArgumentEntity	%nm/command/arguments/EntityArgument	cb
+%nm/server/1_13_R2/ArgumentEntity$a	%nm/command/arguments/EntityArgument$Serializer	cb$a
+%nm/server/1_13_R2/ArgumentEntitySummon	%nm/command/arguments/EntitySummonArgument	cc
+%nm/server/1_13_R2/ArgumentProfile	%nm/command/arguments/GameProfileArgument	cd
+%nm/server/1_13_R2/ArgumentProfile$a	%nm/command/arguments/GameProfileArgument$IProfileProvider	cd$a
+%nm/server/1_13_R2/ArgumentProfile$b	%nm/command/arguments/GameProfileArgument$ProfileProvider	cd$b
+%nm/server/1_13_R2/ArgumentEnchantment	%nm/command/arguments/EnchantmentArgument	ce
+%nm/server/1_13_R2/ArgumentChat	%nm/command/arguments/MessageArgument	cf
+%nm/server/1_13_R2/ArgumentChat$a	%nm/command/arguments/MessageArgument$Message	cf$a
+%nm/server/1_13_R2/ArgumentChat$b	%nm/command/arguments/MessageArgument$Part	cf$b
+%nm/server/1_13_R2/ArgumentMobEffect	%nm/command/arguments/PotionArgument	cg
+%nm/server/1_13_R2/ArgumentNBTTag	%nm/command/arguments/NBTArgument	ch
+%nm/server/1_13_R2/ArgumentNBTKey	%nm/command/arguments/NBTPathArgument	ci
+%nm/server/1_13_R2/ArgumentNBTKey$a	%nm/command/arguments/NBTPathArgument$ChildNode	ci$a
+%nm/server/1_13_R2/ArgumentNBTKey$b	%nm/command/arguments/NBTPathArgument$ElementNode	ci$b
+%nm/server/1_13_R2/ArgumentNBTKey$c	%nm/command/arguments/NBTPathArgument$NBTPath	ci$c
+%nm/server/1_13_R2/ArgumentNBTKey$d	%nm/command/arguments/NBTPathArgument$INode	ci$d
+%nm/server/1_13_R2/ArgumentScoreboardObjective	%nm/command/arguments/ObjectiveArgument	cj
+%nm/server/1_13_R2/ArgumentScoreboardCriteria	%nm/command/arguments/ObjectiveCriteriaArgument	ck
+%nm/server/1_13_R2/ArgumentMathOperation	%nm/command/arguments/OperationArgument	cl
+%nm/server/1_13_R2/ArgumentMathOperation$a	%nm/command/arguments/OperationArgument$IOperation	cl$a
+%nm/server/1_13_R2/ArgumentMathOperation$b	%nm/command/arguments/OperationArgument$Operation	cl$b
+%nm/server/1_13_R2/ArgumentParticle	%nm/command/arguments/ParticleArgument	cm
+%nm/server/1_13_R2/ArgumentCriterionValue	%nm/command/arguments/RangeArgument	cn
+%nm/server/1_13_R2/ArgumentCriterionValue$a	%nm/command/arguments/RangeArgument$FloatRange	cn$a
+%nm/server/1_13_R2/ArgumentCriterionValue$a$a	%nm/command/arguments/RangeArgument$FloatRange$Serializer	cn$a$a
+%nm/server/1_13_R2/ArgumentCriterionValue$b	%nm/command/arguments/RangeArgument$IntRange	cn$b
+%nm/server/1_13_R2/ArgumentCriterionValue$b$a	%nm/command/arguments/RangeArgument$IntRange$Serializer	cn$b$a
+%nm/server/1_13_R2/ArgumentCriterionValue$c	%nm/command/arguments/RangeArgument$Serializer	cn$c
+%nm/server/1_13_R2/ArgumentMinecraftKeyRegistered	%nm/command/arguments/ResourceLocationArgument	co
+%nm/server/1_13_R2/ArgumentScoreholder	%nm/command/arguments/ScoreHolderArgument	cp
+%nm/server/1_13_R2/ArgumentScoreholder$a	%nm/command/arguments/ScoreHolderArgument$INameProvider	cp$a
+%nm/server/1_13_R2/ArgumentScoreholder$b	%nm/command/arguments/ScoreHolderArgument$NameProvider	cp$b
+%nm/server/1_13_R2/ArgumentScoreholder$c	%nm/command/arguments/ScoreHolderArgument$Serializer	cp$c
+%nm/server/1_13_R2/ArgumentScoreboardSlot	%nm/command/arguments/ScoreboardSlotArgument	cq
+%nm/server/1_13_R2/ArgumentInventorySlot	%nm/command/arguments/SlotArgument	cr
+%nm/server/1_13_R2/ArgumentScoreboardTeam	%nm/command/arguments/TeamArgument	cs
+%nm/server/1_13_R2/ArgumentTileLocation	%nm/command/arguments/BlockStateInput	ct
+%nm/server/1_13_R2/ArgumentBlockPredicate	%nm/command/arguments/BlockPredicateArgument	cu
+%nm/server/1_13_R2/ArgumentBlockPredicate$a	%nm/command/arguments/BlockPredicateArgument$BlockPredicate	cu$a
+%nm/server/1_13_R2/ArgumentBlockPredicate$b	%nm/command/arguments/BlockPredicateArgument$IResult	cu$b
+%nm/server/1_13_R2/ArgumentBlockPredicate$c	%nm/command/arguments/BlockPredicateArgument$TagPredicate	cu$c
+%nm/server/1_13_R2/ArgumentTile	%nm/command/arguments/BlockStateArgument	cv
+%nm/server/1_13_R2/ArgumentBlock	%nm/command/arguments/BlockStateParser	cw
+%nm/server/1_13_R2/ArgumentPosition	%nm/command/arguments/BlockPosArgument	cy
+%nm/server/1_13_R2/ArgumentVec2I	%nm/command/arguments/ColumnPosArgument	cz
+%nm/server/1_13_R2/ArgumentVec2I$a	%nm/command/arguments/ColumnPosArgument$ColumnPos	cz$a
+%nm/server/1_13_R2/IVectorPosition	%nm/command/arguments/ILocationArgument	da
+%nm/server/1_13_R2/ArgumentVectorPosition	%nm/command/arguments/LocalLocationArgument	db
+%nm/server/1_13_R2/ArgumentRotation	%nm/command/arguments/RotationArgument	dc
+%nm/server/1_13_R2/ArgumentRotationAxis	%nm/command/arguments/SwizzleArgument	dd
+%nm/server/1_13_R2/ArgumentVec2	%nm/command/arguments/Vec2Argument	de
+%nm/server/1_13_R2/ArgumentVec3	%nm/command/arguments/Vec3Argument	df
+%nm/server/1_13_R2/ArgumentParserPosition	%nm/command/arguments/LocationPart	dg
+%nm/server/1_13_R2/VectorPosition	%nm/command/arguments/LocationInput	dh
+%nm/server/1_13_R2/ArgumentTag	%nm/command/arguments/FunctionArgument	dj
+%nm/server/1_13_R2/ArgumentTag$a	%nm/command/arguments/FunctionArgument$IResult	dj$a
+%nm/server/1_13_R2/ArgumentItemStack	%nm/command/arguments/ItemArgument	dk
+%nm/server/1_13_R2/ArgumentPredicateItemStack	%nm/command/arguments/ItemInput	dl
+%nm/server/1_13_R2/ArgumentParserItemStack	%nm/command/arguments/ItemParser	dm
+%nm/server/1_13_R2/ArgumentItemPredicate	%nm/command/arguments/ItemPredicateArgument	dn
+%nm/server/1_13_R2/ArgumentItemPredicate$a	%nm/command/arguments/ItemPredicateArgument$ItemPredicate	dn$a
+%nm/server/1_13_R2/ArgumentItemPredicate$b	%nm/command/arguments/ItemPredicateArgument$IResult	dn$b
+%nm/server/1_13_R2/ArgumentItemPredicate$c	%nm/command/arguments/ItemPredicateArgument$TagPredicate	dn$c
+%nm/server/1_13_R2/EntitySelector	%nm/command/arguments/EntitySelector	dr
+%nm/server/1_13_R2/ArgumentParserSelector	%nm/command/arguments/EntitySelectorParser	ds
+%nm/server/1_13_R2/PlayerSelector	%nm/command/arguments/EntityOptions	dt
+%nm/server/1_13_R2/PlayerSelector$a	%nm/command/arguments/EntityOptions$Filter	dt$a
+%nm/server/1_13_R2/PlayerSelector$b	%nm/command/arguments/EntityOptions$IOptionHandler	dt$b
+%nm/server/1_13_R2/ArgumentSerializer	%nm/command/arguments/IArgumentSerializer	dy
+%nm/server/1_13_R2/ArgumentRegistry	%nm/command/arguments/ArgumentTypes	dz
+%nm/server/1_13_R2/ArgumentRegistry$a	%nm/command/arguments/ArgumentTypes$Entry	dz$a
+%nm/server/1_13_R2/ArgumentSerializerVoid	%nm/command/arguments/ArgumentSerializer	ea
+%nm/server/1_13_R2/CompletionProviders	%nm/command/arguments/SuggestionProviders	eb
+%nm/server/1_13_R2/CompletionProviders$a	%nm/command/arguments/SuggestionProviders$Wrapper	eb$a
+%nm/server/1_13_R2/ArgumentSerializers	%nm/command/arguments/serializers/BrigadierSerializers	ec
+%nm/server/1_13_R2/ArgumentSerializerDouble	%nm/command/arguments/serializers/DoubleSerializer	ed
+%nm/server/1_13_R2/ArgumentSerializerFloat	%nm/command/arguments/serializers/FloatSerializer	ee
+%nm/server/1_13_R2/ArgumentSerializerInteger	%nm/command/arguments/serializers/IntSerializer	ef
+%nm/server/1_13_R2/ArgumentSerializerString	%nm/command/arguments/serializers/StringSerializer	eg
+%nm/server/1_13_R2/EnumAxisCycle	%nm/util/AxisRotation	ej
+%nm/server/1_13_R2/EnumAxisCycle$1	%nm/util/AxisRotation$1	ej$1
+%nm/server/1_13_R2/EnumAxisCycle$2	%nm/util/AxisRotation$2	ej$2
+%nm/server/1_13_R2/EnumAxisCycle$3	%nm/util/AxisRotation$3	ej$3
+%nm/server/1_13_R2/BlockPosition	%nm/util/math/BlockPos	el
+%nm/server/1_13_R2/BlockPosition$1	%nm/util/math/BlockPos$1	el$1
+%nm/server/1_13_R2/BlockPosition$2	%nm/util/math/BlockPos$2	el$2
+%nm/server/1_13_R2/BlockPosition$MutableBlockPosition	%nm/util/math/BlockPos$MutableBlockPos	el$a
+%nm/server/1_13_R2/BlockPosition$PooledBlockPosition	%nm/util/math/BlockPos$PooledMutableBlockPos	el$b
+%nm/server/1_13_R2/ISourceBlock	%nm/dispenser/IBlockSource	em
+%nm/server/1_13_R2/SourceBlock	%nm/dispenser/BlockSourceImpl	en
+%nm/server/1_13_R2/DispenseBehaviorItem	%nm/dispenser/BehaviorDefaultDispenseItem	eo
+%nm/server/1_13_R2/RegistryBlocks	%nm/util/registry/RegistryNamespacedDefaultedByKey	ep
+%nm/server/1_13_R2/EnumDirection	%nm/util/EnumFacing	eq
+%nm/server/1_13_R2/EnumDirection$EnumAxis	%nm/util/EnumFacing$Axis	eq$a
+%nm/server/1_13_R2/EnumDirection$EnumAxis$1	%nm/util/EnumFacing$Axis$1	eq$a$1
+%nm/server/1_13_R2/EnumDirection$EnumAxis$2	%nm/util/EnumFacing$Axis$2	eq$a$2
+%nm/server/1_13_R2/EnumDirection$EnumAxis$3	%nm/util/EnumFacing$Axis$3	eq$a$3
+%nm/server/1_13_R2/EnumDirection$EnumAxisDirection	%nm/util/EnumFacing$AxisDirection	eq$b
+%nm/server/1_13_R2/EnumDirection$EnumDirectionLimit	%nm/util/EnumFacing$Plane	eq$c
+%nm/server/1_13_R2/EnumDirection8	%nm/util/EnumDirection8	er
+%nm/server/1_13_R2/IDispenseBehavior	%nm/dispenser/IBehaviorDispenseItem	es
+%nm/server/1_13_R2/Registry	%nm/util/IObjectIntIterable	et
+%nm/server/1_13_R2/RegistryBlockID	%nm/util/ObjectIntIdentityMap	eu
+%nm/server/1_13_R2/ILocationSource	%nm/dispenser/ILocatableSource	ev
+%nm/server/1_13_R2/ISource	%nm/dispenser/ILocation	ew
+%nm/server/1_13_R2/MapGeneratorUtils	%nm/util/MapPopulator	ex
+%nm/server/1_13_R2/RegistryMaterials	%nm/util/registry/RegistryNamespaced	ey
+%nm/server/1_13_R2/NonNullList	%nm/util/NonNullList	ez
+%nm/server/1_13_R2/IPosition	%nm/dispenser/IPosition	fa
+%nm/server/1_13_R2/Position	%nm/dispenser/PositionImpl	fb
+%nm/server/1_13_R2/IRegistry	%nm/util/registry/IRegistry	fc
+%nm/server/1_13_R2/Vector3f	%nm/util/math/Rotations	fd
+%nm/server/1_13_R2/BaseBlockPosition	%nm/util/math/Vec3i	ff
+%nm/server/1_13_R2/ParticleParamBlock	%nm/particles/BlockParticleData	fh
+%nm/server/1_13_R2/ParticleParamBlock$1	%nm/particles/BlockParticleData$1	fh$1
+%nm/server/1_13_R2/ParticleParamRedstone	%nm/particles/RedstoneParticleData	fi
+%nm/server/1_13_R2/ParticleParamRedstone$1	%nm/particles/RedstoneParticleData$1	fi$1
+%nm/server/1_13_R2/ParticleParamItem	%nm/particles/ItemParticleData	fj
+%nm/server/1_13_R2/ParticleParamItem$1	%nm/particles/ItemParticleData$1	fj$1
+%nm/server/1_13_R2/ParticleParam	%nm/particles/IParticleData	fk
+%nm/server/1_13_R2/ParticleParam$a	%nm/particles/IParticleData$IDeserializer	fk$a
+%nm/server/1_13_R2/Particle	%nm/particles/ParticleType	fl
+%nm/server/1_13_R2/Particles	%nm/init/Particles	fm
+%nm/server/1_13_R2/ParticleType	%nm/particles/BasicParticleType	fn
+%nm/server/1_13_R2/ParticleType$1	%nm/particles/BasicParticleType$1	fn$1
+%nm/server/1_13_R2/DebugReportGenerator	%nm/data/DataGenerator	fp
+%nm/server/1_13_R2/DebugReportProvider	%nm/data/IDataProvider	fq
+%nm/server/1_13_R2/HashCache	%nm/data/DirectoryCache	fr
+%nm/server/1_13_R2/DebugReportAdvancement	%nm/data/AdvancementProvider	fs
+%nm/server/1_13_R2/DebugReportAdvancementAdventure	%nm/data/advancements/AdventureAdvancements	ft
+%nm/server/1_13_R2/DebugReportAdvancementHusbandry	%nm/data/advancements/HusbandryAdvancements	fu
+%nm/server/1_13_R2/DebugReportAdvancementNether	%nm/data/advancements/NetherAdvancements	fv
+%nm/server/1_13_R2/DebugReportAdvancementStory	%nm/data/advancements/StoryAdvancements	fw
+%nm/server/1_13_R2/DebugReportAdvancementTheEnd	%nm/data/advancements/EndAdvancements	fx
+%nm/server/1_13_R2/DebugReportBlocks	%nm/data/BlockListReport	fz
+%nm/server/1_13_R2/DebugReportCommands	%nm/data/CommandsReport	ga
+%nm/server/1_13_R2/DebugReportItems	%nm/data/ItemListReport	gb
+%nm/server/1_13_R2/DebugReportRecipeData	%nm/data/IFinishedRecipe	ge
+%nm/server/1_13_R2/DebugReportRecipe	%nm/data/RecipeProvider	gf
+%nm/server/1_13_R2/DebugReportRecipeShaped	%nm/data/ShapedRecipeBuilder	gg
+%nm/server/1_13_R2/DebugReportRecipeShaped$a	%nm/data/ShapedRecipeBuilder$Result	gg$a
+%nm/server/1_13_R2/DebugReportRecipeShapeless	%nm/data/ShapelessRecipeBuilder	gh
+%nm/server/1_13_R2/DebugReportRecipeShapeless$a	%nm/data/ShapelessRecipeBuilder$Result	gh$a
+%nm/server/1_13_R2/DebugReportRecipeFurnace	%nm/data/FurnaceRecipeBuilder	gi
+%nm/server/1_13_R2/DebugReportRecipeFurnace$a	%nm/data/FurnaceRecipeBuilder$Result	gi$a
+%nm/server/1_13_R2/DebugReportRecipeSpecial	%nm/data/CustomRecipeBuilder	gj
+%nm/server/1_13_R2/DebugReportRecipeSpecial$1	%nm/data/CustomRecipeBuilder$1	gj$1
+%nm/server/1_13_R2/DebugReportNBT	%nm/data/NBTToSNBTConverter	gl
+%nm/server/1_13_R2/DebugReportMojangson	%nm/data/SNBTToNBTConverter	gm
+%nm/server/1_13_R2/DebugReportTagsBlock	%nm/data/BlockTagsProvider	go
+%nm/server/1_13_R2/DebugReportFluidTags	%nm/data/FluidTagsProvider	gp
+%nm/server/1_13_R2/DebugReportTagsItem	%nm/data/ItemTagsProvider	gq
+%nm/server/1_13_R2/DebugReportTags	%nm/data/TagsProvider	gr
+%nm/server/1_13_R2/LocaleLanguage	%nm/util/text/translation/LanguageMap	gt
+%nm/server/1_13_R2/NBTTagByteArray	%nm/nbt/NBTTagByteArray	gv
+%nm/server/1_13_R2/NBTTagByte	%nm/nbt/NBTTagByte	gw
+%nm/server/1_13_R2/NBTList	%nm/nbt/NBTTagCollection	gx
+%nm/server/1_13_R2/NBTTagCompound	%nm/nbt/NBTTagCompound	gy
+%nm/server/1_13_R2/NBTTagDouble	%nm/nbt/NBTTagDouble	gz
+%nm/server/1_13_R2/NBTTagEnd	%nm/nbt/NBTTagEnd	ha
+%nm/server/1_13_R2/NBTTagFloat	%nm/nbt/NBTTagFloat	hb
+%nm/server/1_13_R2/NBTTagIntArray	%nm/nbt/NBTTagIntArray	hc
+%nm/server/1_13_R2/NBTTagInt	%nm/nbt/NBTTagInt	hd
+%nm/server/1_13_R2/NBTTagList	%nm/nbt/NBTTagList	he
+%nm/server/1_13_R2/NBTTagLongArray	%nm/nbt/NBTTagLongArray	hf
+%nm/server/1_13_R2/NBTTagLong	%nm/nbt/NBTTagLong	hg
+%nm/server/1_13_R2/NBTReadLimiter	%nm/nbt/NBTSizeTracker	hh
+%nm/server/1_13_R2/NBTReadLimiter$1	%nm/nbt/NBTSizeTracker$1	hh$1
+%nm/server/1_13_R2/NBTCompressedStreamTools	%nm/nbt/CompressedStreamTools	hi
+%nm/server/1_13_R2/DynamicOpsNBT	%nm/nbt/NBTDynamicOps	hj
+%nm/server/1_13_R2/GameProfileSerializer	%nm/nbt/NBTUtil	hk
+%nm/server/1_13_R2/NBTNumber	%nm/nbt/NBTPrimitive	hl
+%nm/server/1_13_R2/NBTTagShort	%nm/nbt/NBTTagShort	hm
+%nm/server/1_13_R2/NBTTagString	%nm/nbt/NBTTagString	hn
+%nm/server/1_13_R2/NBTBase	%nm/nbt/INBTBase	ho
+%nm/server/1_13_R2/MojangsonParser	%nm/nbt/JsonToNBT	hp
+%nm/server/1_13_R2/PacketEncryptionHandler	%nm/network/NettyEncryptionTranslator	hr
+%nm/server/1_13_R2/PacketDecrypter	%nm/network/NettyEncryptingDecoder	hs
+%nm/server/1_13_R2/PacketEncrypter	%nm/network/NettyEncryptingEncoder	ht
+%nm/server/1_13_R2/PacketDecompressor	%nm/network/NettyCompressionDecoder	hu
+%nm/server/1_13_R2/PacketCompressor	%nm/network/NettyCompressionEncoder	hv
+%nm/server/1_13_R2/NetworkManager	%nm/network/NetworkManager	hw
+%nm/server/1_13_R2/NetworkManager$QueuedPacket	%nm/network/NetworkManager$QueuedPacket	hw$a
+%nm/server/1_13_R2/EnumProtocol	%nm/network/EnumConnectionState	hx
+%nm/server/1_13_R2/EnumProtocol$1	%nm/network/EnumConnectionState$1	hx$1
+%nm/server/1_13_R2/EnumProtocol$2	%nm/network/EnumConnectionState$2	hx$2
+%nm/server/1_13_R2/EnumProtocol$3	%nm/network/EnumConnectionState$3	hx$3
+%nm/server/1_13_R2/EnumProtocol$4	%nm/network/EnumConnectionState$4	hx$4
+%nm/server/1_13_R2/PacketDataSerializer	%nm/network/PacketBuffer	hy
+%nm/server/1_13_R2/PacketDecoder	%nm/network/NettyPacketDecoder	hz
+%nm/server/1_13_R2/PacketEncoder	%nm/network/NettyPacketEncoder	ia
+%nm/server/1_13_R2/PacketListener	%nm/network/INetHandler	ib
+%nm/server/1_13_R2/SkipEncodeException	%nm/network/SkipableEncoderException	ic
+%nm/server/1_13_R2/PacketSplitter	%nm/network/NettyVarint21FrameDecoder	id
+%nm/server/1_13_R2/PacketPrepender	%nm/network/NettyVarint21FrameEncoder	ie
+%nm/server/1_13_R2/ChatBaseComponent	%nm/util/text/TextComponentBase	ig
+%nm/server/1_13_R2/ChatMessageType	%nm/util/text/ChatType	ih
+%nm/server/1_13_R2/ChatClickable	%nm/util/text/event/ClickEvent	ii
+%nm/server/1_13_R2/ChatClickable$EnumClickAction	%nm/util/text/event/ClickEvent$Action	ii$a
+%nm/server/1_13_R2/IChatBaseComponent	%nm/util/text/ITextComponent	ij
+%nm/server/1_13_R2/IChatBaseComponent$ChatSerializer	%nm/util/text/ITextComponent$Serializer	ij$a
+%nm/server/1_13_R2/ChatComponentUtils	%nm/util/text/TextComponentUtils	ik
+%nm/server/1_13_R2/ChatHoverable	%nm/util/text/event/HoverEvent	il
+%nm/server/1_13_R2/ChatHoverable$EnumHoverAction	%nm/util/text/event/HoverEvent$Action	il$a
+%nm/server/1_13_R2/ChatComponentKeybind	%nm/util/text/TextComponentKeybind	im
+%nm/server/1_13_R2/ChatComponentScore	%nm/util/text/TextComponentScore	in
+%nm/server/1_13_R2/ChatComponentSelector	%nm/util/text/TextComponentSelector	io
+%nm/server/1_13_R2/ChatModifier	%nm/util/text/Style	ip
+%nm/server/1_13_R2/ChatModifier$1	%nm/util/text/Style$1	ip$1
+%nm/server/1_13_R2/ChatModifier$ChatModifierSerializer	%nm/util/text/Style$Serializer	ip$a
+%nm/server/1_13_R2/ChatComponentText	%nm/util/text/TextComponentString	iq
+%nm/server/1_13_R2/ChatMessage	%nm/util/text/TextComponentTranslation	ir
+%nm/server/1_13_R2/ChatMessageException	%nm/util/text/TextComponentTranslationFormatException	is
+%nm/server/1_13_R2/Packet	%nm/network/Packet	iv
+%nm/server/1_13_R2/EnumProtocolDirection	%nm/network/EnumPacketDirection	iw
+%nm/server/1_13_R2/PlayerConnectionUtils	%nm/network/PacketThreadUtil	ix
+%nm/server/1_13_R2/PacketListenerPlayOut	%nm/network/play/INetHandlerPlayClient	iy
+%nm/server/1_13_R2/PacketPlayOutSpawnEntity	%nm/network/play/server/SPacketSpawnObject	iz
+%nm/server/1_13_R2/PacketPlayOutSpawnEntityExperienceOrb	%nm/network/play/server/SPacketSpawnExperienceOrb	ja
+%nm/server/1_13_R2/PacketPlayOutSpawnEntityWeather	%nm/network/play/server/SPacketSpawnGlobalEntity	jb
+%nm/server/1_13_R2/PacketPlayOutSpawnEntityLiving	%nm/network/play/server/SPacketSpawnMob	jc
+%nm/server/1_13_R2/PacketPlayOutSpawnEntityPainting	%nm/network/play/server/SPacketSpawnPainting	jd
+%nm/server/1_13_R2/PacketPlayOutNamedEntitySpawn	%nm/network/play/server/SPacketSpawnPlayer	je
+%nm/server/1_13_R2/PacketPlayOutAnimation	%nm/network/play/server/SPacketAnimation	jf
+%nm/server/1_13_R2/PacketPlayOutStatistic	%nm/network/play/server/SPacketStatistics	jg
+%nm/server/1_13_R2/PacketPlayOutBlockBreakAnimation	%nm/network/play/server/SPacketBlockBreakAnim	jh
+%nm/server/1_13_R2/PacketPlayOutTileEntityData	%nm/network/play/server/SPacketUpdateTileEntity	ji
+%nm/server/1_13_R2/PacketPlayOutBlockAction	%nm/network/play/server/SPacketBlockAction	jj
+%nm/server/1_13_R2/PacketPlayOutBlockChange	%nm/network/play/server/SPacketBlockChange	jk
+%nm/server/1_13_R2/PacketPlayOutBoss	%nm/network/play/server/SPacketUpdateBossInfo	jl
+%nm/server/1_13_R2/PacketPlayOutBoss$Action	%nm/network/play/server/SPacketUpdateBossInfo$Operation	jl$a
+%nm/server/1_13_R2/PacketPlayOutServerDifficulty	%nm/network/play/server/SPacketServerDifficulty	jm
+%nm/server/1_13_R2/PacketPlayOutChat	%nm/network/play/server/SPacketChat	jn
+%nm/server/1_13_R2/PacketPlayOutMultiBlockChange	%nm/network/play/server/SPacketMultiBlockChange	jo
+%nm/server/1_13_R2/PacketPlayOutMultiBlockChange$MultiBlockChangeInfo	%nm/network/play/server/SPacketMultiBlockChange$BlockUpdateData	jo$a
+%nm/server/1_13_R2/PacketPlayOutTabComplete	%nm/network/play/server/SPacketTabComplete	jp
+%nm/server/1_13_R2/PacketPlayOutCommands	%nm/network/play/server/SPacketCommandList	jq
+%nm/server/1_13_R2/PacketPlayOutCommands$a	%nm/network/play/server/SPacketCommandList$Entry	jq$a
+%nm/server/1_13_R2/PacketPlayOutTransaction	%nm/network/play/server/SPacketConfirmTransaction	jr
+%nm/server/1_13_R2/PacketPlayOutCloseWindow	%nm/network/play/server/SPacketCloseWindow	js
+%nm/server/1_13_R2/PacketPlayOutOpenWindow	%nm/network/play/server/SPacketOpenWindow	jt
+%nm/server/1_13_R2/PacketPlayOutWindowItems	%nm/network/play/server/SPacketWindowItems	ju
+%nm/server/1_13_R2/PacketPlayOutWindowData	%nm/network/play/server/SPacketWindowProperty	jv
+%nm/server/1_13_R2/PacketPlayOutSetSlot	%nm/network/play/server/SPacketSetSlot	jw
+%nm/server/1_13_R2/PacketPlayOutSetCooldown	%nm/network/play/server/SPacketCooldown	jx
+%nm/server/1_13_R2/PacketPlayOutCustomPayload	%nm/network/play/server/SPacketCustomPayload	jy
+%nm/server/1_13_R2/PacketPlayOutCustomSoundEffect	%nm/network/play/server/SPacketCustomSound	jz
+%nm/server/1_13_R2/PacketPlayOutKickDisconnect	%nm/network/play/server/SPacketDisconnect	ka
+%nm/server/1_13_R2/PacketPlayOutEntityStatus	%nm/network/play/server/SPacketEntityStatus	kb
+%nm/server/1_13_R2/PacketPlayOutExplosion	%nm/network/play/server/SPacketExplosion	kc
+%nm/server/1_13_R2/PacketPlayOutUnloadChunk	%nm/network/play/server/SPacketUnloadChunk	kd
+%nm/server/1_13_R2/PacketPlayOutGameStateChange	%nm/network/play/server/SPacketChangeGameState	ke
+%nm/server/1_13_R2/PacketPlayOutKeepAlive	%nm/network/play/server/SPacketKeepAlive	kf
+%nm/server/1_13_R2/PacketPlayOutMapChunk	%nm/network/play/server/SPacketChunkData	kg
+%nm/server/1_13_R2/PacketPlayOutWorldEvent	%nm/network/play/server/SPacketEffect	kh
+%nm/server/1_13_R2/PacketPlayOutWorldParticles	%nm/network/play/server/SPacketParticles	ki
+%nm/server/1_13_R2/PacketPlayOutLogin	%nm/network/play/server/SPacketJoinGame	kj
+%nm/server/1_13_R2/PacketPlayOutMap	%nm/network/play/server/SPacketMaps	kk
+%nm/server/1_13_R2/PacketPlayOutEntity	%nm/network/play/server/SPacketEntity	kl
+%nm/server/1_13_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMove	%nm/network/play/server/SPacketEntity$RelMove	kl$a
+%nm/server/1_13_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMoveLook	%nm/network/play/server/SPacketEntity$Move	kl$b
+%nm/server/1_13_R2/PacketPlayOutEntity$PacketPlayOutEntityLook	%nm/network/play/server/SPacketEntity$Look	kl$c
+%nm/server/1_13_R2/PacketPlayOutVehicleMove	%nm/network/play/server/SPacketMoveVehicle	km
+%nm/server/1_13_R2/PacketPlayOutOpenSignEditor	%nm/network/play/server/SPacketSignEditorOpen	kn
+%nm/server/1_13_R2/PacketPlayOutAutoRecipe	%nm/network/play/server/SPacketPlaceGhostRecipe	ko
+%nm/server/1_13_R2/PacketPlayOutAbilities	%nm/network/play/server/SPacketPlayerAbilities	kp
+%nm/server/1_13_R2/PacketPlayOutCombatEvent	%nm/network/play/server/SPacketCombatEvent	kq
+%nm/server/1_13_R2/PacketPlayOutCombatEvent$EnumCombatEventType	%nm/network/play/server/SPacketCombatEvent$Event	kq$a
+%nm/server/1_13_R2/PacketPlayOutPlayerInfo	%nm/network/play/server/SPacketPlayerListItem	kr
+%nm/server/1_13_R2/PacketPlayOutPlayerInfo$EnumPlayerInfoAction	%nm/network/play/server/SPacketPlayerListItem$Action	kr$a
+%nm/server/1_13_R2/PacketPlayOutPlayerInfo$PlayerInfoData	%nm/network/play/server/SPacketPlayerListItem$AddPlayerData	kr$b
+%nm/server/1_13_R2/PacketPlayOutLookAt	%nm/network/play/server/SPacketPlayerLook	ks
+%nm/server/1_13_R2/PacketPlayOutPosition	%nm/network/play/server/SPacketPlayerPosLook	kt
+%nm/server/1_13_R2/PacketPlayOutPosition$EnumPlayerTeleportFlags	%nm/network/play/server/SPacketPlayerPosLook$EnumFlags	kt$a
+%nm/server/1_13_R2/PacketPlayOutBed	%nm/network/play/server/SPacketUseBed	ku
+%nm/server/1_13_R2/PacketPlayOutRecipes	%nm/network/play/server/SPacketRecipeBook	kv
+%nm/server/1_13_R2/PacketPlayOutRecipes$Action	%nm/network/play/server/SPacketRecipeBook$State	kv$a
+%nm/server/1_13_R2/PacketPlayOutEntityDestroy	%nm/network/play/server/SPacketDestroyEntities	kw
+%nm/server/1_13_R2/PacketPlayOutRemoveEntityEffect	%nm/network/play/server/SPacketRemoveEntityEffect	kx
+%nm/server/1_13_R2/PacketPlayOutResourcePackSend	%nm/network/play/server/SPacketResourcePackSend	ky
+%nm/server/1_13_R2/PacketPlayOutRespawn	%nm/network/play/server/SPacketRespawn	kz
+%nm/server/1_13_R2/PacketPlayOutEntityHeadRotation	%nm/network/play/server/SPacketEntityHeadLook	la
+%nm/server/1_13_R2/PacketPlayOutSelectAdvancementTab	%nm/network/play/server/SPacketSelectAdvancementsTab	lb
+%nm/server/1_13_R2/PacketPlayOutWorldBorder	%nm/network/play/server/SPacketWorldBorder	lc
+%nm/server/1_13_R2/PacketPlayOutWorldBorder$EnumWorldBorderAction	%nm/network/play/server/SPacketWorldBorder$Action	lc$a
+%nm/server/1_13_R2/PacketPlayOutCamera	%nm/network/play/server/SPacketCamera	ld
+%nm/server/1_13_R2/PacketPlayOutHeldItemSlot	%nm/network/play/server/SPacketHeldItemChange	le
+%nm/server/1_13_R2/PacketPlayOutScoreboardDisplayObjective	%nm/network/play/server/SPacketDisplayObjective	lf
+%nm/server/1_13_R2/PacketPlayOutEntityMetadata	%nm/network/play/server/SPacketEntityMetadata	lg
+%nm/server/1_13_R2/PacketPlayOutAttachEntity	%nm/network/play/server/SPacketEntityAttach	lh
+%nm/server/1_13_R2/PacketPlayOutEntityVelocity	%nm/network/play/server/SPacketEntityVelocity	li
+%nm/server/1_13_R2/PacketPlayOutEntityEquipment	%nm/network/play/server/SPacketEntityEquipment	lj
+%nm/server/1_13_R2/PacketPlayOutExperience	%nm/network/play/server/SPacketSetExperience	lk
+%nm/server/1_13_R2/PacketPlayOutUpdateHealth	%nm/network/play/server/SPacketUpdateHealth	ll
+%nm/server/1_13_R2/PacketPlayOutScoreboardObjective	%nm/network/play/server/SPacketScoreboardObjective	lm
+%nm/server/1_13_R2/PacketPlayOutMount	%nm/network/play/server/SPacketSetPassengers	ln
+%nm/server/1_13_R2/PacketPlayOutScoreboardTeam	%nm/network/play/server/SPacketTeams	lo
+%nm/server/1_13_R2/PacketPlayOutScoreboardScore	%nm/network/play/server/SPacketUpdateScore	lp
+%nm/server/1_13_R2/PacketPlayOutSpawnPosition	%nm/network/play/server/SPacketSpawnPosition	lq
+%nm/server/1_13_R2/PacketPlayOutUpdateTime	%nm/network/play/server/SPacketTimeUpdate	lr
+%nm/server/1_13_R2/PacketPlayOutTitle	%nm/network/play/server/SPacketTitle	ls
+%nm/server/1_13_R2/PacketPlayOutTitle$EnumTitleAction	%nm/network/play/server/SPacketTitle$Type	ls$a
+%nm/server/1_13_R2/PacketPlayOutNamedSoundEffect	%nm/network/play/server/SPacketSoundEffect	lt
+%nm/server/1_13_R2/PacketPlayOutStopSound	%nm/network/play/server/SPacketStopSound	lu
+%nm/server/1_13_R2/PacketPlayOutPlayerListHeaderFooter	%nm/network/play/server/SPacketPlayerListHeaderFooter	lv
+%nm/server/1_13_R2/PacketPlayOutNBTQuery	%nm/network/play/server/SPacketNBTQueryResponse	lw
+%nm/server/1_13_R2/PacketPlayOutCollect	%nm/network/play/server/SPacketCollectItem	lx
+%nm/server/1_13_R2/PacketPlayOutEntityTeleport	%nm/network/play/server/SPacketEntityTeleport	ly
+%nm/server/1_13_R2/PacketPlayOutAdvancements	%nm/network/play/server/SPacketAdvancementInfo	lz
+%nm/server/1_13_R2/PacketPlayOutUpdateAttributes	%nm/network/play/server/SPacketEntityProperties	ma
+%nm/server/1_13_R2/PacketPlayOutUpdateAttributes$AttributeSnapshot	%nm/network/play/server/SPacketEntityProperties$Snapshot	ma$a
+%nm/server/1_13_R2/PacketPlayOutEntityEffect	%nm/network/play/server/SPacketEntityEffect	mb
+%nm/server/1_13_R2/PacketPlayOutRecipeUpdate	%nm/network/play/server/SPacketUpdateRecipes	mc
+%nm/server/1_13_R2/PacketPlayOutTags	%nm/network/play/server/SPacketTagsList	md
+%nm/server/1_13_R2/PacketListenerPlayIn	%nm/network/play/INetHandlerPlayServer	me
+%nm/server/1_13_R2/PacketPlayInTeleportAccept	%nm/network/play/client/CPacketConfirmTeleport	mf
+%nm/server/1_13_R2/PacketPlayInTileNBTQuery	%nm/network/play/client/CPacketNBTQueryTileEntity	mg
+%nm/server/1_13_R2/PacketPlayInChat	%nm/network/play/client/CPacketChatMessage	mh
+%nm/server/1_13_R2/PacketPlayInClientCommand	%nm/network/play/client/CPacketClientStatus	mi
+%nm/server/1_13_R2/PacketPlayInClientCommand$EnumClientCommand	%nm/network/play/client/CPacketClientStatus$State	mi$a
+%nm/server/1_13_R2/PacketPlayInSettings	%nm/network/play/client/CPacketClientSettings	mj
+%nm/server/1_13_R2/PacketPlayInTabComplete	%nm/network/play/client/CPacketTabComplete	mk
+%nm/server/1_13_R2/PacketPlayInTransaction	%nm/network/play/client/CPacketConfirmTransaction	ml
+%nm/server/1_13_R2/PacketPlayInEnchantItem	%nm/network/play/client/CPacketEnchantItem	mm
+%nm/server/1_13_R2/PacketPlayInWindowClick	%nm/network/play/client/CPacketClickWindow	mn
+%nm/server/1_13_R2/PacketPlayInCloseWindow	%nm/network/play/client/CPacketCloseWindow	mo
+%nm/server/1_13_R2/PacketPlayInCustomPayload	%nm/network/play/client/CPacketCustomPayload	mp
+%nm/server/1_13_R2/PacketPlayInBEdit	%nm/network/play/client/CPacketEditBook	mq
+%nm/server/1_13_R2/PacketPlayInEntityNBTQuery	%nm/network/play/client/CPacketNBTQueryEntity	mr
+%nm/server/1_13_R2/PacketPlayInUseEntity	%nm/network/play/client/CPacketUseEntity	ms
+%nm/server/1_13_R2/PacketPlayInUseEntity$EnumEntityUseAction	%nm/network/play/client/CPacketUseEntity$Action	ms$a
+%nm/server/1_13_R2/PacketPlayInKeepAlive	%nm/network/play/client/CPacketKeepAlive	mt
+%nm/server/1_13_R2/PacketPlayInFlying	%nm/network/play/client/CPacketPlayer	mu
+%nm/server/1_13_R2/PacketPlayInFlying$PacketPlayInPosition	%nm/network/play/client/CPacketPlayer$Position	mu$a
+%nm/server/1_13_R2/PacketPlayInFlying$PacketPlayInPositionLook	%nm/network/play/client/CPacketPlayer$PositionRotation	mu$b
+%nm/server/1_13_R2/PacketPlayInFlying$PacketPlayInLook	%nm/network/play/client/CPacketPlayer$Rotation	mu$c
+%nm/server/1_13_R2/PacketPlayInVehicleMove	%nm/network/play/client/CPacketVehicleMove	mv
+%nm/server/1_13_R2/PacketPlayInBoatMove	%nm/network/play/client/CPacketSteerBoat	mw
+%nm/server/1_13_R2/PacketPlayInPickItem	%nm/network/play/client/CPacketPickItem	mx
+%nm/server/1_13_R2/PacketPlayInAutoRecipe	%nm/network/play/client/CPacketPlaceRecipe	my
+%nm/server/1_13_R2/PacketPlayInAbilities	%nm/network/play/client/CPacketPlayerAbilities	mz
+%nm/server/1_13_R2/PacketPlayInBlockDig	%nm/network/play/client/CPacketPlayerDigging	na
+%nm/server/1_13_R2/PacketPlayInBlockDig$EnumPlayerDigType	%nm/network/play/client/CPacketPlayerDigging$Action	na$a
+%nm/server/1_13_R2/PacketPlayInEntityAction	%nm/network/play/client/CPacketEntityAction	nb
+%nm/server/1_13_R2/PacketPlayInEntityAction$EnumPlayerAction	%nm/network/play/client/CPacketEntityAction$Action	nb$a
+%nm/server/1_13_R2/PacketPlayInSteerVehicle	%nm/network/play/client/CPacketInput	nc
+%nm/server/1_13_R2/PacketPlayInRecipeDisplayed	%nm/network/play/client/CPacketRecipeInfo	nd
+%nm/server/1_13_R2/PacketPlayInRecipeDisplayed$Status	%nm/network/play/client/CPacketRecipeInfo$Purpose	nd$a
+%nm/server/1_13_R2/PacketPlayInItemName	%nm/network/play/client/CPacketRenameItem	ne
+%nm/server/1_13_R2/PacketPlayInResourcePackStatus	%nm/network/play/client/CPacketResourcePackStatus	nf
+%nm/server/1_13_R2/PacketPlayInResourcePackStatus$EnumResourcePackStatus	%nm/network/play/client/CPacketResourcePackStatus$Action	nf$a
+%nm/server/1_13_R2/PacketPlayInAdvancements	%nm/network/play/client/CPacketSeenAdvancements	ng
+%nm/server/1_13_R2/PacketPlayInAdvancements$Status	%nm/network/play/client/CPacketSeenAdvancements$Action	ng$a
+%nm/server/1_13_R2/PacketPlayInTrSel	%nm/network/play/client/CPacketSelectTrade	nh
+%nm/server/1_13_R2/PacketPlayInBeacon	%nm/network/play/client/CPacketUpdateBeacon	ni
+%nm/server/1_13_R2/PacketPlayInHeldItemSlot	%nm/network/play/client/CPacketHeldItemChange	nj
+%nm/server/1_13_R2/PacketPlayInSetCommandBlock	%nm/network/play/client/CPacketUpdateCommandBlock	nk
+%nm/server/1_13_R2/PacketPlayInSetCommandMinecart	%nm/network/play/client/CPacketUpdateCommandMinecart	nl
+%nm/server/1_13_R2/PacketPlayInSetCreativeSlot	%nm/network/play/client/CPacketCreativeInventoryAction	nm
+%nm/server/1_13_R2/PacketPlayInStruct	%nm/network/play/client/CPacketUpdateStructureBlock	nn
+%nm/server/1_13_R2/PacketPlayInUpdateSign	%nm/network/play/client/CPacketUpdateSign	no
+%nm/server/1_13_R2/PacketPlayInArmAnimation	%nm/network/play/client/CPacketAnimation	np
+%nm/server/1_13_R2/PacketPlayInSpectate	%nm/network/play/client/CPacketSpectate	nq
+%nm/server/1_13_R2/PacketPlayInUseItem	%nm/network/play/client/CPacketPlayerTryUseItemOnBlock	nr
+%nm/server/1_13_R2/PacketPlayInBlockPlace	%nm/network/play/client/CPacketPlayerTryUseItem	ns
+%nm/server/1_13_R2/PacketHandshakingInSetProtocol	%nm/network/handshake/client/CPacketHandshake	nu
+%nm/server/1_13_R2/PacketHandshakingInListener	%nm/network/handshake/INetHandlerHandshakeServer	nv
+%nm/server/1_13_R2/PacketLoginOutListener	%nm/network/login/INetHandlerLoginClient	nx
+%nm/server/1_13_R2/PacketLoginOutCustomPayload	%nm/network/login/server/SPacketCustomPayloadLogin	ny
+%nm/server/1_13_R2/PacketLoginOutSuccess	%nm/network/login/server/SPacketLoginSuccess	nz
+%nm/server/1_13_R2/PacketLoginOutEncryptionBegin	%nm/network/login/server/SPacketEncryptionRequest	oa
+%nm/server/1_13_R2/PacketLoginOutSetCompression	%nm/network/login/server/SPacketEnableCompression	ob
+%nm/server/1_13_R2/PacketLoginOutDisconnect	%nm/network/login/server/SPacketDisconnectLogin	oc
+%nm/server/1_13_R2/PacketLoginInListener	%nm/network/login/INetHandlerLoginServer	od
+%nm/server/1_13_R2/PacketLoginInCustomPayload	%nm/network/login/client/CPacketCustomPayloadLogin	oe
+%nm/server/1_13_R2/PacketLoginInStart	%nm/network/login/client/CPacketLoginStart	of
+%nm/server/1_13_R2/PacketLoginInEncryptionBegin	%nm/network/login/client/CPacketEncryptionResponse	og
+%nm/server/1_13_R2/PacketStatusOutListener	%nm/network/status/INetHandlerStatusClient	oj
+%nm/server/1_13_R2/PacketStatusOutPong	%nm/network/status/server/SPacketPong	ok
+%nm/server/1_13_R2/PacketStatusOutServerInfo	%nm/network/status/server/SPacketServerInfo	ol
+%nm/server/1_13_R2/ServerPing	%nm/network/ServerStatusResponse	om
+%nm/server/1_13_R2/ServerPing$ServerPingPlayerSample	%nm/network/ServerStatusResponse$Players	om$a
+%nm/server/1_13_R2/ServerPing$ServerPingPlayerSample$Serializer	%nm/network/ServerStatusResponse$Players$Serializer	om$a$a
+%nm/server/1_13_R2/ServerPing$Serializer	%nm/network/ServerStatusResponse$Serializer	om$b
+%nm/server/1_13_R2/ServerPing$ServerData	%nm/network/ServerStatusResponse$Version	om$c
+%nm/server/1_13_R2/ServerPing$ServerData$Serializer	%nm/network/ServerStatusResponse$Version$Serializer	om$c$a
+%nm/server/1_13_R2/PacketStatusInListener	%nm/network/status/INetHandlerStatusServer	on
+%nm/server/1_13_R2/PacketStatusInPing	%nm/network/status/client/CPacketPing	oo
+%nm/server/1_13_R2/PacketStatusInStart	%nm/network/status/client/CPacketServerQuery	op
+%nm/server/1_13_R2/DataWatcherObject	%nm/network/datasync/DataParameter	or
+%nm/server/1_13_R2/DataWatcherSerializer	%nm/network/datasync/DataSerializer	os
+%nm/server/1_13_R2/DataWatcherRegistry	%nm/network/datasync/DataSerializers	ot
+%nm/server/1_13_R2/DataWatcherRegistry$1	%nm/network/datasync/DataSerializers$1	ot$1
+%nm/server/1_13_R2/DataWatcherRegistry$2	%nm/network/datasync/DataSerializers$10	ot$2
+%nm/server/1_13_R2/DataWatcherRegistry$3	%nm/network/datasync/DataSerializers$11	ot$3
+%nm/server/1_13_R2/DataWatcherRegistry$4	%nm/network/datasync/DataSerializers$12	ot$4
+%nm/server/1_13_R2/DataWatcherRegistry$5	%nm/network/datasync/DataSerializers$13	ot$5
+%nm/server/1_13_R2/DataWatcherRegistry$6	%nm/network/datasync/DataSerializers$14	ot$6
+%nm/server/1_13_R2/DataWatcherRegistry$7	%nm/network/datasync/DataSerializers$15	ot$7
+%nm/server/1_13_R2/DataWatcherRegistry$8	%nm/network/datasync/DataSerializers$16	ot$8
+%nm/server/1_13_R2/DataWatcherRegistry$9	%nm/network/datasync/DataSerializers$2	ot$9
+%nm/server/1_13_R2/DataWatcherRegistry$10	%nm/network/datasync/DataSerializers$3	ot$10
+%nm/server/1_13_R2/DataWatcherRegistry$11	%nm/network/datasync/DataSerializers$4	ot$11
+%nm/server/1_13_R2/DataWatcherRegistry$12	%nm/network/datasync/DataSerializers$5	ot$12
+%nm/server/1_13_R2/DataWatcherRegistry$13	%nm/network/datasync/DataSerializers$6	ot$13
+%nm/server/1_13_R2/DataWatcherRegistry$14	%nm/network/datasync/DataSerializers$7	ot$14
+%nm/server/1_13_R2/DataWatcherRegistry$15	%nm/network/datasync/DataSerializers$8	ot$15
+%nm/server/1_13_R2/DataWatcherRegistry$16	%nm/network/datasync/DataSerializers$9	ot$16
+%nm/server/1_13_R2/DataWatcher	%nm/network/datasync/EntityDataManager	ou
+%nm/server/1_13_R2/DataWatcher$Item	%nm/network/datasync/EntityDataManager$DataEntry	ou$a
+%nm/server/1_13_R2/AutoRecipeAbstract	%nm/item/crafting/IRecipePlacer	oy
+%nm/server/1_13_R2/AutoRecipe	%nm/item/crafting/ServerRecipePlacer	oz
+%nm/server/1_13_R2/AutoRecipeFurnace	%nm/item/crafting/ServerRecipePlacerFurnace	pa
+%nm/server/1_13_R2/MinecraftKey	%nm/util/ResourceLocation	pc
+%nm/server/1_13_R2/MinecraftKey$a	%nm/util/ResourceLocation$Serializer	pc$a
+%nm/server/1_13_R2/DispenseBehaviorProjectile	%nm/dispenser/BehaviorProjectileDispense	pe
+%nm/server/1_13_R2/DispenserRegistry	%nm/init/Bootstrap	pf
+%nm/server/1_13_R2/DispenserRegistry$1	%nm/init/Bootstrap$1	pf$1
+%nm/server/1_13_R2/DispenserRegistry$2	%nm/init/Bootstrap$10	pf$2
+%nm/server/1_13_R2/DispenserRegistry$3	%nm/init/Bootstrap$11	pf$3
+%nm/server/1_13_R2/DispenserRegistry$4	%nm/init/Bootstrap$12	pf$4
+%nm/server/1_13_R2/DispenserRegistry$5	%nm/init/Bootstrap$13	pf$5
+%nm/server/1_13_R2/DispenserRegistry$6	%nm/init/Bootstrap$14	pf$6
+%nm/server/1_13_R2/DispenserRegistry$7	%nm/init/Bootstrap$15	pf$7
+%nm/server/1_13_R2/DispenserRegistry$8	%nm/init/Bootstrap$16	pf$8
+%nm/server/1_13_R2/DispenserRegistry$9	%nm/init/Bootstrap$17	pf$9
+%nm/server/1_13_R2/DispenserRegistry$a	%nm/init/Bootstrap$BehaviorDispenseBoat	pf$a
+%nm/server/1_13_R2/DispenserRegistry$b	%nm/init/Bootstrap$DispensePlaceContext	pf$b
+%nm/server/1_13_R2/DispenserRegistry$DispenseBehaviorMaybe	%nm/init/Bootstrap$BehaviorDispenseOptional	pf$c
+%nm/server/1_13_R2/DispenserRegistry$d	%nm/init/Bootstrap$BehaviorDispenseShulkerBox	pf$d
+%nm/server/1_13_R2/DispenserRegistry$10	%nm/init/Bootstrap$18	pf$10
+%nm/server/1_13_R2/DispenserRegistry$11	%nm/init/Bootstrap$19	pf$11
+%nm/server/1_13_R2/DispenserRegistry$12	%nm/init/Bootstrap$2	pf$12
+%nm/server/1_13_R2/DispenserRegistry$14	%nm/init/Bootstrap$3	pf$14
+%nm/server/1_13_R2/DispenserRegistry$15	%nm/init/Bootstrap$4	pf$15
+%nm/server/1_13_R2/DispenserRegistry$16	%nm/init/Bootstrap$5	pf$16
+%nm/server/1_13_R2/DispenserRegistry$17	%nm/init/Bootstrap$6	pf$17
+%nm/server/1_13_R2/DispenserRegistry$18	%nm/init/Bootstrap$7	pf$18
+%nm/server/1_13_R2/DispenserRegistry$18$1	%nm/init/Bootstrap$7$1	pf$18$1
+%nm/server/1_13_R2/DispenserRegistry$19	%nm/init/Bootstrap$8	pf$19
+%nm/server/1_13_R2/DispenserRegistry$19$1	%nm/init/Bootstrap$8$1	pf$19$1
+%nm/server/1_13_R2/DispenserRegistry$20	%nm/init/Bootstrap$9	pf$20
+%nm/server/1_13_R2/ServerCommand	%nm/server/dedicated/PendingCommand	ph
+%nm/server/1_13_R2/DebugOutputStream	%nm/server/DebugLoggingPrintStream	pj
+%nm/server/1_13_R2/EULA	%nm/server/ServerEula	pk
+%nm/server/1_13_R2/RedirectStream	%nm/util/LoggingPrintStream	pl
+%nm/server/1_13_R2/AdvancementDataPlayer	%nm/advancements/PlayerAdvancements	pm
+%nm/server/1_13_R2/AdvancementDataPlayer$1	%nm/advancements/PlayerAdvancements$1	pm$1
+%nm/server/1_13_R2/CancelledPacketHandleException	%nm/network/ThreadQuickExitException	pn
+%nm/server/1_13_R2/AdvancementDataWorld	%nm/advancements/AdvancementManager	po
+%nm/server/1_13_R2/CustomFunctionData	%nm/advancements/FunctionManager	pp
+%nm/server/1_13_R2/CustomFunctionData$a	%nm/advancements/FunctionManager$QueuedCommand	pp$a
+%nm/server/1_13_R2/IMinecraftServer	%nm/network/rcon/IServer	pq
+%nm/server/1_13_R2/ScoreboardServer	%nm/scoreboard/ServerScoreboard	pr
+%nm/server/1_13_R2/ScoreboardServer$Action	%nm/scoreboard/ServerScoreboard$Action	pr$a
+%nm/server/1_13_R2/PropertyManager	%nm/server/dedicated/PropertyManager	ps
+%nm/server/1_13_R2/ITickable	%nm/util/ITickable	pt
+%nm/server/1_13_R2/BossBattleCustom	%nm/server/CustomBossEvent	pu
+%nm/server/1_13_R2/BossBattleCustomData	%nm/server/CustomBossEvents	pv
+%nm/server/1_13_R2/CommandAdvancement	%nm/command/impl/AdvancementCommand	px
+%nm/server/1_13_R2/CommandAdvancement$Action	%nm/command/impl/AdvancementCommand$Action	px$a
+%nm/server/1_13_R2/CommandAdvancement$Action$1	%nm/command/impl/AdvancementCommand$Action$1	px$a$1
+%nm/server/1_13_R2/CommandAdvancement$Action$2	%nm/command/impl/AdvancementCommand$Action$2	px$a$2
+%nm/server/1_13_R2/CommandAdvancement$Filter	%nm/command/impl/AdvancementCommand$Mode	px$b
+%nm/server/1_13_R2/CommandBanIp	%nm/command/impl/BanIpCommand	py
+%nm/server/1_13_R2/CommandBanList	%nm/command/impl/BanListCommand	pz
+%nm/server/1_13_R2/CommandBan	%nm/command/impl/BanCommand	qa
+%nm/server/1_13_R2/CommandBossBar	%nm/command/impl/BossBarCommand	qb
+%nm/server/1_13_R2/CommandClear	%nm/command/impl/ClearCommand	qc
+%nm/server/1_13_R2/CommandClone	%nm/command/impl/CloneCommand	qd
+%nm/server/1_13_R2/CommandClone$CommandCloneStoredTileEntity	%nm/command/impl/CloneCommand$BlockInfo	qd$a
+%nm/server/1_13_R2/CommandClone$Mode	%nm/command/impl/CloneCommand$Mode	qd$b
+%nm/server/1_13_R2/CommandDatapack	%nm/command/impl/DataPackCommand	qe
+%nm/server/1_13_R2/CommandDatapack$a	%nm/command/impl/DataPackCommand$IHandler	qe$a
+%nm/server/1_13_R2/CommandDeop	%nm/command/impl/DeOpCommand	qf
+%nm/server/1_13_R2/CommandDebug	%nm/command/impl/DebugCommand	qg
+%nm/server/1_13_R2/CommandGamemodeDefault	%nm/command/impl/DefaultGameModeCommand	qh
+%nm/server/1_13_R2/CommandDifficulty	%nm/command/impl/DifficultyCommand	qi
+%nm/server/1_13_R2/CommandEffect	%nm/command/impl/EffectCommand	qj
+%nm/server/1_13_R2/CommandMe	%nm/command/impl/MeCommand	qk
+%nm/server/1_13_R2/CommandEnchant	%nm/command/impl/EnchantCommand	ql
+%nm/server/1_13_R2/CommandExecute	%nm/command/impl/ExecuteCommand	qm
+%nm/server/1_13_R2/CommandExecute$a	%nm/command/impl/ExecuteCommand$ExecuteTest	qm$a
+%nm/server/1_13_R2/CommandXp	%nm/command/impl/ExperienceCommand	qn
+%nm/server/1_13_R2/CommandXp$Unit	%nm/command/impl/ExperienceCommand$Type	qn$a
+%nm/server/1_13_R2/CommandFill	%nm/command/impl/FillCommand	qo
+%nm/server/1_13_R2/CommandFill$Mode	%nm/command/impl/FillCommand$Mode	qo$a
+%nm/server/1_13_R2/CommandForceload	%nm/command/impl/ForceLoadCommand	qp
+%nm/server/1_13_R2/CommandFunction	%nm/command/impl/FunctionCommand	qq
+%nm/server/1_13_R2/CommandGamemode	%nm/command/impl/GameModeCommand	qr
+%nm/server/1_13_R2/CommandGamerule	%nm/command/impl/GameRuleCommand	qs
+%nm/server/1_13_R2/CommandGive	%nm/command/impl/GiveCommand	qt
+%nm/server/1_13_R2/CommandHelp	%nm/command/impl/HelpCommand	qu
+%nm/server/1_13_R2/CommandKick	%nm/command/impl/KickCommand	qv
+%nm/server/1_13_R2/CommandKill	%nm/command/impl/KillCommand	qw
+%nm/server/1_13_R2/CommandList	%nm/command/impl/ListCommand	qx
+%nm/server/1_13_R2/CommandLocate	%nm/command/impl/LocateCommand	qy
+%nm/server/1_13_R2/CommandTell	%nm/command/impl/MessageCommand	qz
+%nm/server/1_13_R2/CommandOp	%nm/command/impl/OpCommand	ra
+%nm/server/1_13_R2/CommandPardon	%nm/command/impl/PardonCommand	rb
+%nm/server/1_13_R2/CommandPardonIP	%nm/command/impl/PardonIpCommand	rc
+%nm/server/1_13_R2/CommandParticle	%nm/command/impl/ParticleCommand	rd
+%nm/server/1_13_R2/CommandPlaySound	%nm/command/impl/PlaySoundCommand	re
+%nm/server/1_13_R2/CommandPublish	%nm/command/impl/PublishCommand	rf
+%nm/server/1_13_R2/CommandRecipe	%nm/command/impl/RecipeCommand	rg
+%nm/server/1_13_R2/CommandReload	%nm/command/impl/ReloadCommand	rh
+%nm/server/1_13_R2/CommandReplaceItem	%nm/command/impl/ReplaceItemCommand	ri
+%nm/server/1_13_R2/CommandSaveAll	%nm/command/impl/SaveAllCommand	rj
+%nm/server/1_13_R2/CommandSaveOff	%nm/command/impl/SaveOffCommand	rk
+%nm/server/1_13_R2/CommandSaveOn	%nm/command/impl/SaveOnCommand	rl
+%nm/server/1_13_R2/CommandSay	%nm/command/impl/SayCommand	rm
+%nm/server/1_13_R2/CommandScoreboard	%nm/command/impl/ScoreboardCommand	rn
+%nm/server/1_13_R2/CommandSeed	%nm/command/impl/SeedCommand	ro
+%nm/server/1_13_R2/CommandSetBlock	%nm/command/impl/SetBlockCommand	rp
+%nm/server/1_13_R2/CommandSetBlock$Filter	%nm/command/impl/SetBlockCommand$IFilter	rp$a
+%nm/server/1_13_R2/CommandSetBlock$Mode	%nm/command/impl/SetBlockCommand$Mode	rp$b
+%nm/server/1_13_R2/CommandIdleTimeout	%nm/command/impl/SetIdleTimeoutCommand	rq
+%nm/server/1_13_R2/CommandSpawnpoint	%nm/command/impl/SpawnPointCommand	rr
+%nm/server/1_13_R2/CommandSetWorldSpawn	%nm/command/impl/SetWorldSpawnCommand	rs
+%nm/server/1_13_R2/CommandSpreadPlayers	%nm/command/impl/SpreadPlayersCommand	rt
+%nm/server/1_13_R2/CommandSpreadPlayers$a	%nm/command/impl/SpreadPlayersCommand$Position	rt$a
+%nm/server/1_13_R2/CommandStop	%nm/command/impl/StopCommand	ru
+%nm/server/1_13_R2/CommandStopSound	%nm/command/impl/StopSoundCommand	rv
+%nm/server/1_13_R2/CommandSummon	%nm/command/impl/SummonCommand	rw
+%nm/server/1_13_R2/CommandTag	%nm/command/impl/TagCommand	rx
+%nm/server/1_13_R2/CommandTeam	%nm/command/impl/TeamCommand	ry
+%nm/server/1_13_R2/CommandTeleport	%nm/command/impl/TeleportCommand	rz
+%nm/server/1_13_R2/CommandTeleport$a	%nm/command/impl/TeleportCommand$Facing	rz$a
+%nm/server/1_13_R2/CommandTellRaw	%nm/command/impl/TellRawCommand	sa
+%nm/server/1_13_R2/CommandTime	%nm/command/impl/TimeCommand	sb
+%nm/server/1_13_R2/CommandTitle	%nm/command/impl/TitleCommand	sc
+%nm/server/1_13_R2/CommandTrigger	%nm/command/impl/TriggerCommand	sd
+%nm/server/1_13_R2/CommandWeather	%nm/command/impl/WeatherCommand	se
+%nm/server/1_13_R2/CommandWhitelist	%nm/command/impl/WhitelistCommand	sf
+%nm/server/1_13_R2/CommandWorldBorder	%nm/command/impl/WorldBorderCommand	sg
+%nm/server/1_13_R2/CommandDataAccessorTile	%nm/command/impl/data/BlockDataAccessor	sh
+%nm/server/1_13_R2/CommandDataAccessorTile$1	%nm/command/impl/data/BlockDataAccessor$1	sh$1
+%nm/server/1_13_R2/CommandDataAccessor	%nm/command/impl/data/IDataAccessor	si
+%nm/server/1_13_R2/CommandData	%nm/command/impl/data/DataCommand	sj
+%nm/server/1_13_R2/CommandData$a	%nm/command/impl/data/DataCommand$IDataProvider	sj$a
+%nm/server/1_13_R2/CommandDataAccessorEntity	%nm/command/impl/data/EntityDataAccessor	sk
+%nm/server/1_13_R2/CommandDataAccessorEntity$1	%nm/command/impl/data/EntityDataAccessor$1	sk$1
+%nm/server/1_13_R2/DedicatedPlayerList	%nm/server/dedicated/DedicatedPlayerList	sn
+%nm/server/1_13_R2/DedicatedServer	%nm/server/dedicated/DedicatedServer	so
+%nm/server/1_13_R2/DedicatedServer$1	%nm/server/dedicated/DedicatedServer$1	so$1
+%nm/server/1_13_R2/DedicatedServer$2	%nm/server/dedicated/DedicatedServer$2	so$2
+%nm/server/1_13_R2/ThreadWatchdog	%nm/server/dedicated/ServerHangWatchdog	sp
+%nm/server/1_13_R2/ThreadWatchdog$1	%nm/server/dedicated/ServerHangWatchdog$1	sp$1
+%nm/server/1_13_R2/ServerGUI	%nm/server/gui/MinecraftServerGui	sr
+%nm/server/1_13_R2/ServerGUI$1	%nm/server/gui/MinecraftServerGui$1	sr$1
+%nm/server/1_13_R2/ServerGUI$2	%nm/server/gui/MinecraftServerGui$2	sr$2
+%nm/server/1_13_R2/PlayerListBox	%nm/server/gui/PlayerListComponent	ss
+%nm/server/1_13_R2/GuiStatsComponent	%nm/server/gui/StatsComponent	st
+%nm/server/1_13_R2/DemoWorldServer	%nm/world/WorldServerDemo	sw
+%nm/server/1_13_R2/DemoPlayerInteractManager	%nm/server/management/DemoPlayerInteractionManager	sx
+%nm/server/1_13_R2/SecondaryWorldServer	%nm/world/WorldServerMulti	sy
+%nm/server/1_13_R2/SecondaryWorldServer$1	%nm/world/WorldServerMulti$1	sy$1
+%nm/server/1_13_R2/EntityTracker	%nm/entity/EntityTracker	sz
+%nm/server/1_13_R2/ChunkMap	%nm/world/gen/ChunkCacheNeighborNotification	ta
+%nm/server/1_13_R2/BossBattleServer	%nm/world/BossInfoServer	tb
+%nm/server/1_13_R2/ChunkProviderServer	%nm/world/gen/ChunkProviderServer	tc
+%nm/server/1_13_R2/WorldServer	%nm/world/WorldServer	td
+%nm/server/1_13_R2/WorldManager	%nm/world/ServerWorldEventHandler	te
+%nm/server/1_13_R2/EntityPlayer	%nm/entity/player/EntityPlayerMP	tf
+%nm/server/1_13_R2/PlayerInteractManager	%nm/server/management/PlayerInteractionManager	tg
+%nm/server/1_13_R2/EntityTrackerEntry	%nm/entity/EntityTrackerEntry	th
+%nm/server/1_13_R2/RegionLimitedWorldAccess	%nm/world/gen/WorldGenRegion	ti
+%nm/server/1_13_R2/TickListWorldGen	%nm/world/WorldGenTickList	tj
+%nm/server/1_13_R2/PlayerChunk	%nm/server/management/PlayerChunkMapEntry	tk
+%nm/server/1_13_R2/PlayerChunkMap	%nm/server/management/PlayerChunkMap	tl
+%nm/server/1_13_R2/PlayerChunkMap$1	%nm/server/management/PlayerChunkMap$1	tl$1
+%nm/server/1_13_R2/ChunkTaskBase	%nm/world/gen/tasks/BaseChunkTask	to
+%nm/server/1_13_R2/ChunkTaskCarve	%nm/world/gen/tasks/CarveChunkTask	tp
+%nm/server/1_13_R2/ChunkTask	%nm/world/gen/tasks/ChunkTask	tq
+%nm/server/1_13_R2/ChunkTaskDecorate	%nm/world/gen/tasks/DecorateChunkTask	tr
+%nm/server/1_13_R2/ChunkTaskNull	%nm/world/gen/tasks/DummyChunkTask	ts
+%nm/server/1_13_R2/ChunkTaskFinalize	%nm/world/gen/tasks/FinializeChunkTask	tt
+%nm/server/1_13_R2/ChunkTaskLight	%nm/world/gen/tasks/LightChunkTask	tu
+%nm/server/1_13_R2/ChunkTaskLiquidCarve	%nm/world/gen/tasks/LiquidCarveChunkTask	tv
+%nm/server/1_13_R2/ChunkTaskSpawnMobs	%nm/world/gen/tasks/SpawnMobsTask	tw
+%nm/server/1_13_R2/ChunkTaskScheduler	%nm/world/gen/tasks/ProtoChunkScheduler	tx
+%nm/server/1_13_R2/ChunkTaskScheduler$1	%nm/world/gen/tasks/ProtoChunkScheduler$1	tx$1
+%nm/server/1_13_R2/LegacyPingHandler	%nm/network/LegacyPingHandler	tz
+%nm/server/1_13_R2/ServerConnection	%nm/network/NetworkSystem	ub
+%nm/server/1_13_R2/ServerConnection$1	%nm/network/NetworkSystem$1	ub$1
+%nm/server/1_13_R2/PlayerConnection	%nm/network/NetHandlerPlayServer	uc
+%nm/server/1_13_R2/HandshakeListener	%nm/network/NetHandlerHandshakeTCP	ud
+%nm/server/1_13_R2/LoginListener	%nm/network/NetHandlerLoginServer	ue
+%nm/server/1_13_R2/LoginListener$1	%nm/network/NetHandlerLoginServer$1	ue$1
+%nm/server/1_13_R2/LoginListener$EnumProtocolState	%nm/network/NetHandlerLoginServer$LoginState	ue$a
+%nm/server/1_13_R2/PacketStatusListener	%nm/network/NetHandlerStatusServer	uf
+%nm/server/1_13_R2/ResourcePackAbstract	%nm/resources/AbstractResourcePack	ui
+%nm/server/1_13_R2/ResourcePackFile	%nm/resources/FilePack	uj
+%nm/server/1_13_R2/ResourcePackFolder	%nm/resources/FolderPack	uk
+%nm/server/1_13_R2/IResourcePack	%nm/resources/IResourcePack	ul
+%nm/server/1_13_R2/EnumResourcePackType	%nm/resources/ResourcePackType	um
+%nm/server/1_13_R2/ResourceNotFoundException	%nm/resources/ResourcePackFileNotFoundException	un
+%nm/server/1_13_R2/ResourcePackVanilla	%nm/resources/VanillaPack	uo
+%nm/server/1_13_R2/ResourcePackMetaParser	%nm/resources/data/IMetadataSectionSerializer	up
+%nm/server/1_13_R2/ResourcePackInfo	%nm/resources/data/PackMetadataSection	uq
+%nm/server/1_13_R2/ResourcePackInfoDeserializer	%nm/resources/data/PackMetadataSectionSerializer	ur
+%nm/server/1_13_R2/ResourcePackSourceFolder	%nm/resources/FolderPackFinder	uv
+%nm/server/1_13_R2/EnumResourcePackVersion	%nm/resources/PackCompatibility	uw
+%nm/server/1_13_R2/ResourcePackRepository	%nm/resources/ResourcePackList	ux
+%nm/server/1_13_R2/ResourcePackSource	%nm/resources/IPackFinder	uy
+%nm/server/1_13_R2/ResourcePackSourceVanilla	%nm/resources/ServerPackFinder	uz
+%nm/server/1_13_R2/ResourcePackLoader	%nm/resources/ResourcePackInfo	va
+%nm/server/1_13_R2/ResourcePackLoader$Position	%nm/resources/ResourcePackInfo$Priority	va$a
+%nm/server/1_13_R2/ResourcePackLoader$b	%nm/resources/ResourcePackInfo$IFactory	va$b
+%nm/server/1_13_R2/ResourceManagerFallback	%nm/resources/FallbackResourceManager	vc
+%nm/server/1_13_R2/ResourceManagerFallback$a	%nm/resources/FallbackResourceManager$LeakComplainerInputStream	vc$a
+%nm/server/1_13_R2/IReloadableResourceManager	%nm/resources/IReloadableResourceManager	vd
+%nm/server/1_13_R2/IResource	%nm/resources/IResource	ve
+%nm/server/1_13_R2/IResourceManager	%nm/resources/IResourceManager	vf
+%nm/server/1_13_R2/IResourcePackListener	%nm/resources/IResourceManagerReloadListener	vg
+%nm/server/1_13_R2/ResourceManager	%nm/resources/SimpleReloadableResourceManager	vh
+%nm/server/1_13_R2/Resource	%nm/resources/SimpleResource	vi
+%nm/server/1_13_R2/ExpirableListEntry	%nm/server/management/UserListEntryBan	vk
+%nm/server/1_13_R2/UserCache	%nm/server/management/PlayerProfileCache	vl
+%nm/server/1_13_R2/UserCache$1	%nm/server/management/PlayerProfileCache$1	vl$1
+%nm/server/1_13_R2/UserCache$2	%nm/server/management/PlayerProfileCache$2	vl$2
+%nm/server/1_13_R2/UserCache$UserCacheEntry	%nm/server/management/PlayerProfileCache$ProfileEntry	vl$a
+%nm/server/1_13_R2/UserCache$BanEntrySerializer	%nm/server/management/PlayerProfileCache$Serializer	vl$b
+%nm/server/1_13_R2/IpBanList	%nm/server/management/UserListIPBans	vm
+%nm/server/1_13_R2/IpBanEntry	%nm/server/management/UserListIPBansEntry	vn
+%nm/server/1_13_R2/NameReferencingFileConverter	%nm/server/management/PreYggdrasilConverter	vo
+%nm/server/1_13_R2/NameReferencingFileConverter$1	%nm/server/management/PreYggdrasilConverter$1	vo$1
+%nm/server/1_13_R2/NameReferencingFileConverter$2	%nm/server/management/PreYggdrasilConverter$2	vo$2
+%nm/server/1_13_R2/NameReferencingFileConverter$3	%nm/server/management/PreYggdrasilConverter$3	vo$3
+%nm/server/1_13_R2/NameReferencingFileConverter$4	%nm/server/management/PreYggdrasilConverter$4	vo$4
+%nm/server/1_13_R2/NameReferencingFileConverter$5	%nm/server/management/PreYggdrasilConverter$5	vo$5
+%nm/server/1_13_R2/NameReferencingFileConverter$FileConversionException	%nm/server/management/PreYggdrasilConverter$ConversionError	vo$a
+%nm/server/1_13_R2/PlayerList	%nm/server/management/PlayerList	vp
+%nm/server/1_13_R2/PlayerList$1	%nm/server/management/PlayerList$1	vp$1
+%nm/server/1_13_R2/OpList	%nm/server/management/UserListOps	vq
+%nm/server/1_13_R2/OpListEntry	%nm/server/management/UserListOpsEntry	vr
+%nm/server/1_13_R2/JsonListEntry	%nm/server/management/UserListEntry	vs
+%nm/server/1_13_R2/JsonList	%nm/server/management/UserList	vt
+%nm/server/1_13_R2/JsonList$1	%nm/server/management/UserList$1	vt$1
+%nm/server/1_13_R2/JsonList$JsonListEntrySerializer	%nm/server/management/UserList$Serializer	vt$a
+%nm/server/1_13_R2/GameProfileBanList	%nm/server/management/UserListBans	vu
+%nm/server/1_13_R2/GameProfileBanEntry	%nm/server/management/UserListBansEntry	vv
+%nm/server/1_13_R2/WhiteList	%nm/server/management/UserListWhitelist	vw
+%nm/server/1_13_R2/WhiteListEntry	%nm/server/management/UserListWhitelistEntry	vx
+%nm/server/1_13_R2/RemoteStatusReply	%nm/network/rcon/RConOutputStream	vz
+%nm/server/1_13_R2/StatusChallengeUtils	%nm/network/rcon/RConUtils	wa
+%nm/server/1_13_R2/RemoteControlCommandListener	%nm/network/rcon/RConConsoleSource	wb
+%nm/server/1_13_R2/RemoteConnectionThread	%nm/network/rcon/RConThreadBase	wd
+%nm/server/1_13_R2/RemoteStatusListener	%nm/network/rcon/RConThreadQuery	we
+%nm/server/1_13_R2/RemoteStatusListener$RemoteStatusChallenge	%nm/network/rcon/RConThreadQuery$Auth	we$a
+%nm/server/1_13_R2/RemoteControlSession	%nm/network/rcon/RConThreadClient	wf
+%nm/server/1_13_R2/RemoteControlListener	%nm/network/rcon/RConThreadMain	wg
+%nm/server/1_13_R2/SoundEffect	%nm/util/SoundEvent	wi
+%nm/server/1_13_R2/SoundEffects	%nm/init/SoundEvents	wj
+%nm/server/1_13_R2/SoundCategory	%nm/util/SoundCategory	wk
+%nm/server/1_13_R2/RecipeBook	%nm/item/crafting/RecipeBook	wm
+%nm/server/1_13_R2/RecipeBookServer	%nm/item/crafting/ServerRecipeBook	wn
+%nm/server/1_13_R2/ServerStatisticManager	%nm/stats/StatisticsManagerServer	wo
+%nm/server/1_13_R2/Statistic	%nm/stats/Stat	wp
+%nm/server/1_13_R2/Counter	%nm/stats/IStatFormater	wq
+%nm/server/1_13_R2/StatisticWrapper	%nm/stats/StatType	wr
+%nm/server/1_13_R2/StatisticList	%nm/stats/StatList	ws
+%nm/server/1_13_R2/StatisticManager	%nm/stats/StatisticsManager	wt
+%nm/server/1_13_R2/TagsBlock	%nm/tags/BlockTags	wv
+%nm/server/1_13_R2/TagsBlock$a	%nm/tags/BlockTags$Wrapper	wv$a
+%nm/server/1_13_R2/TagsFluid	%nm/tags/FluidTags	ww
+%nm/server/1_13_R2/TagsFluid$a	%nm/tags/FluidTags$Wrapper	ww$a
+%nm/server/1_13_R2/TagsItem	%nm/tags/ItemTags	wx
+%nm/server/1_13_R2/TagsItem$a	%nm/tags/ItemTags$Wrapper	wx$a
+%nm/server/1_13_R2/TagsServer	%nm/tags/NetworkTagCollection	wy
+%nm/server/1_13_R2/Tag	%nm/tags/Tag	wz
+%nm/server/1_13_R2/Tag$a	%nm/tags/Tag$Builder	wz$a
+%nm/server/1_13_R2/Tag$b	%nm/tags/Tag$ITagEntry	wz$b
+%nm/server/1_13_R2/Tag$c	%nm/tags/Tag$TagEntry	wz$c
+%nm/server/1_13_R2/Tag$d	%nm/tags/Tag$ListEntry	wz$d
+%nm/server/1_13_R2/Tags	%nm/tags/TagCollection	xa
+%nm/server/1_13_R2/TagRegistry	%nm/tags/NetworkTagManager	xb
+%nm/server/1_13_R2/DataBits	%nm/util/BitArray	xd
+%nm/server/1_13_R2/EntitySlice	%nm/util/ClassInheritanceMultiMap	xe
+%nm/server/1_13_R2/RegistryID	%nm/util/IntIdentityHashBiMap	xg
+%nm/server/1_13_R2/MinecraftEncryption	%nm/util/CryptManager	xh
+%nm/server/1_13_R2/ChatDeserializer	%nm/util/JsonUtils	xj
+%nm/server/1_13_R2/HttpUtilities	%nm/util/HttpUtil	xk
+%nm/server/1_13_R2/InsensitiveStringMap	%nm/util/LowerStringMap	xl
+%nm/server/1_13_R2/IntHashMap	%nm/util/IntHashMap	xm
+%nm/server/1_13_R2/IntHashMap$IntHashMapEntry	%nm/util/IntHashMap$Entry	xm$a
+%nm/server/1_13_R2/LazyInitVar	%nm/util/LazyLoadBase	xn
+%nm/server/1_13_R2/ChatTypeAdapterFactory	%nm/util/EnumTypeAdapterFactory	xp
+%nm/server/1_13_R2/ChatTypeAdapterFactory$1	%nm/util/EnumTypeAdapterFactory$1	xp$1
+%nm/server/1_13_R2/MathHelper	%nm/util/math/MathHelper	xq
+%nm/server/1_13_R2/MethodProfiler	%nm/profiler/Profiler	xr
+%nm/server/1_13_R2/MethodProfiler$ProfilerInfo	%nm/profiler/Profiler$Result	xr$a
+%nm/server/1_13_R2/IProgressUpdate	%nm/util/IProgressUpdate	xs
+%nm/server/1_13_R2/StreamAccumulator	%nm/util/ReuseableStream	xt
+%nm/server/1_13_R2/StreamAccumulator$1	%nm/util/ReuseableStream$1	xt$1
+%nm/server/1_13_R2/INamable	%nm/util/IStringSerializable	xv
+%nm/server/1_13_R2/UtilColor	%nm/util/StringUtils	xw
+%nm/server/1_13_R2/Tuple	%nm/util/Tuple	xx
+%nm/server/1_13_R2/WeightedRandom	%nm/util/WeightedRandom	xy
+%nm/server/1_13_R2/WeightedRandom$WeightedRandomChoice	%nm/util/WeightedRandom$Item	xy$a
+%nm/server/1_13_R2/DataConverterRegistry	%nm/util/datafix/DataFixesManager	xz
+%nm/server/1_13_R2/DataConverterRegistry$1	%nm/util/datafix/DataFixesManager$1	xz$1
+%nm/server/1_13_R2/DataConverterRegistry$2	%nm/util/datafix/DataFixesManager$2	xz$2
+%nm/server/1_13_R2/DataConverterAddChoices	%nm/util/datafix/fixes/AddNewChoices	ya
+%nm/server/1_13_R2/DataConverterAdvancement	%nm/util/datafix/fixes/AdvancementsFix	yb
+%nm/server/1_13_R2/DataConverterBedBlock	%nm/util/datafix/fixes/AddBedTileEntity	yc
+%nm/server/1_13_R2/DataConverterBedItem	%nm/util/datafix/fixes/BedItemColor	yd
+%nm/server/1_13_R2/DataConverterBiome	%nm/util/datafix/fixes/BiomeRenames	ye
+%nm/server/1_13_R2/DataConverterBannerColour	%nm/util/datafix/fixes/BlockEntityBannerColor	yf
+%nm/server/1_13_R2/DataConverterPiston	%nm/util/datafix/fixes/PistonPushedBlock	yg
+%nm/server/1_13_R2/DataConverterCustomNameTile	%nm/util/datafix/fixes/CustomNameStringToComponentFixTileEntity	yh
+%nm/server/1_13_R2/DataConverterTileEntity	%nm/util/datafix/fixes/TileEntityId	yi
+%nm/server/1_13_R2/DataConverterJukeBox	%nm/util/datafix/fixes/JukeboxRecordItem	yj
+%nm/server/1_13_R2/DataConverterBlockEntityKeepPacked	%nm/util/datafix/fixes/BlockEntityKeepPacked	yk
+%nm/server/1_13_R2/DataConverterShulkerBoxBlock	%nm/util/datafix/fixes/ShulkerBoxTileColor	yl
+%nm/server/1_13_R2/DataConverterSignText	%nm/util/datafix/fixes/SignStrictJSON	ym
+%nm/server/1_13_R2/DataConverterSignText$1	%nm/util/datafix/fixes/SignStrictJSON$1	ym$1
+%nm/server/1_13_R2/DataConverterBlockName	%nm/util/datafix/fixes/BlockNameFlattening	yn
+%nm/server/1_13_R2/DataConverterBlockRename	%nm/util/datafix/fixes/BlockRename	yo
+%nm/server/1_13_R2/DataConverterBlockRename$1	%nm/util/datafix/fixes/BlockRename$1	yo$1
+%nm/server/1_13_R2/DataConverterFlattenData	%nm/util/datafix/fixes/BlockStateFlatteningMap	yp
+%nm/server/1_13_R2/DataConverterFlattenState	%nm/util/datafix/fixes/BlockStateFlattenStructures	yq
+%nm/server/1_13_R2/ChunkConverterPalette	%nm/util/datafix/fixes/ChunkPaletteFormat	yr
+%nm/server/1_13_R2/ChunkConverterPalette$a	%nm/util/datafix/fixes/ChunkPaletteFormat$NibbleArray	yr$a
+%nm/server/1_13_R2/ChunkConverterPalette$Direction	%nm/util/datafix/fixes/ChunkPaletteFormat$Direction	yr$b
+%nm/server/1_13_R2/ChunkConverterPalette$Direction$Axis	%nm/util/datafix/fixes/ChunkPaletteFormat$Direction$Axis	yr$b$a
+%nm/server/1_13_R2/ChunkConverterPalette$Direction$AxisDirection	%nm/util/datafix/fixes/ChunkPaletteFormat$Direction$Offset	yr$b$b
+%nm/server/1_13_R2/ChunkConverterPalette$c	%nm/util/datafix/fixes/ChunkPaletteFormat$Section	yr$c
+%nm/server/1_13_R2/ChunkConverterPalette$d	%nm/util/datafix/fixes/ChunkPaletteFormat$UpgradeChunk	yr$d
+%nm/server/1_13_R2/DataConverterChunkStructuresTemplateRename	%nm/util/datafix/fixes/ChunkStructuresTemplateRenameFix	ys
+%nm/server/1_13_R2/DataConverterProtoChunk	%nm/util/datafix/fixes/ChunkGenStatus	yt
+%nm/server/1_13_R2/DataConverterColorlessShulkerEntity	%nm/util/datafix/fixes/ColorlessShulkerEntityFix	yu
+%nm/server/1_13_R2/DataConverterArmorStand	%nm/util/datafix/fixes/ArmorStandSilent	yv
+%nm/server/1_13_R2/DataConverterEntityBlockState	%nm/util/datafix/fixes/BlockStateFlatternEntities	yw
+%nm/server/1_13_R2/DataConverterEntityCodSalmon	%nm/util/datafix/fixes/EntityCodSalmonFix	yx
+%nm/server/1_13_R2/DataConverterCustomNameEntity	%nm/util/datafix/fixes/CustomNameStringToComponentEntity	yy
+%nm/server/1_13_R2/DataConverterGuardian	%nm/util/datafix/fixes/ElderGuardianSplit	yz
+%nm/server/1_13_R2/DataConverterEquipment	%nm/util/datafix/fixes/EntityArmorAndHeld	za
+%nm/server/1_13_R2/DataConverterHealth	%nm/util/datafix/fixes/EntityHealth	zb
+%nm/server/1_13_R2/DataConverterSaddle	%nm/util/datafix/fixes/HorseSaddle	zc
+%nm/server/1_13_R2/DataConverterHorse	%nm/util/datafix/fixes/HorseSplit	zd
+%nm/server/1_13_R2/DataConverterEntity	%nm/util/datafix/fixes/EntityId	ze
+%nm/server/1_13_R2/DataConverterItemFrame	%nm/util/datafix/fixes/EntityItemFrameFacing	zf
+%nm/server/1_13_R2/DataConverterMinecart	%nm/util/datafix/fixes/MinecartEntityTypes	zg
+%nm/server/1_13_R2/DataConverterHanging	%nm/util/datafix/fixes/PaintingDirection	zh
+%nm/server/1_13_R2/DataConverterPainting	%nm/util/datafix/fixes/PaintingMotive	zi
+%nm/server/1_13_R2/DataConverterEntityPufferfish	%nm/util/datafix/fixes/PufferfishRename	zj
+%nm/server/1_13_R2/DataConverterDropChances	%nm/util/datafix/fixes/RedundantChanceTags	zk
+%nm/server/1_13_R2/DataConverterEntityName	%nm/util/datafix/fixes/EntityRename	zl
+%nm/server/1_13_R2/DataConverterRiding	%nm/util/datafix/fixes/RidingToPassengers	zm
+%nm/server/1_13_R2/DataConverterShulker	%nm/util/datafix/fixes/ShulkerBoxEntityColor	zn
+%nm/server/1_13_R2/DataConverterSkeleton	%nm/util/datafix/fixes/SkeletonSplit	zo
+%nm/server/1_13_R2/DataConverterUUID	%nm/util/datafix/fixes/StringToUUID	zp
+%nm/server/1_13_R2/DataConverterEntityRename	%nm/util/datafix/fixes/EntityRenameing1510	zq
+%nm/server/1_13_R2/DataConverterEntityTippedArrow	%nm/util/datafix/fixes/TippedArrow	zr
+%nm/server/1_13_R2/DataConverterWolf	%nm/util/datafix/fixes/WolfCollarColor	zs
+%nm/server/1_13_R2/DataConverterZombieType	%nm/util/datafix/fixes/ZombieSplit	zt
+%nm/server/1_13_R2/DataConverterZombie	%nm/util/datafix/fixes/ZombieProfToType	zu
+%nm/server/1_13_R2/DataConverterHeightmapRenaming	%nm/util/datafix/fixes/HeightmapRenamingFix	zv
+%nm/server/1_13_R2/DataConverterIglooMetadataRemoval	%nm/util/datafix/fixes/IglooMetadataRemoval	zw
+%nm/server/1_13_R2/DataConverterBanner	%nm/util/datafix/fixes/BannerItemColor	zx
+%nm/server/1_13_R2/DataConverterCustomNameItem	%nm/util/datafix/fixes/CustomNameStringToComponentItem	zy
+%nm/server/1_13_R2/DataConverterMaterialId	%nm/util/datafix/fixes/ItemIntIDToString	zz
+%nm/server/1_13_R2/DataConverterPotionId	%nm/util/datafix/fixes/PotionItems	aaa
+%nm/server/1_13_R2/DataConverterItemName	%nm/util/datafix/fixes/ItemRename	aab
+%nm/server/1_13_R2/DataConverterItemName$1	%nm/util/datafix/fixes/ItemRename$1	aab$1
+%nm/server/1_13_R2/DataConverterShulkerBoxItem	%nm/util/datafix/fixes/ShulkerBoxItemColor	aac
+%nm/server/1_13_R2/DataConverterSpawnEgg	%nm/util/datafix/fixes/SpawnEggNames	aad
+%nm/server/1_13_R2/DataConverterItemStackEnchantment	%nm/util/datafix/fixes/ItemStackEnchantmentFix	aae
+%nm/server/1_13_R2/DataConverterMap	%nm/util/datafix/fixes/ItemFilledMapMetadata	aaf
+%nm/server/1_13_R2/DataConverterFlattenSpawnEgg	%nm/util/datafix/fixes/ItemSpawnEggSplit	aag
+%nm/server/1_13_R2/DataConverterFlatten	%nm/util/datafix/fixes/ItemStackDataFlattening	aah
+%nm/server/1_13_R2/DataConverterPotionWater	%nm/util/datafix/fixes/PotionWater	aai
+%nm/server/1_13_R2/DataConverterBook	%nm/util/datafix/fixes/BookPagesStrictJSON	aaj
+%nm/server/1_13_R2/DataConverterLeaves	%nm/util/datafix/fixes/LeavesFix	aak
+%nm/server/1_13_R2/DataConverterLeaves$a	%nm/util/datafix/fixes/LeavesFix$LeavesSection	aak$a
+%nm/server/1_13_R2/DataConverterLeaves$b	%nm/util/datafix/fixes/LeavesFix$Section	aak$b
+%nm/server/1_13_R2/DataConverterLevelDataGeneratorOptions	%nm/util/datafix/fixes/LevelDataGeneratorOptionsFix	aal
+%nm/server/1_13_R2/DataConverterWorldGenSettings	%nm/util/datafix/fixes/BlockStateFlattenGenOptions	aam
+%nm/server/1_13_R2/DataConverterMobSpawner	%nm/util/datafix/fixes/SpawnerEntityTypes	aan
+%nm/server/1_13_R2/DataConverterNamedEntity	%nm/util/datafix/fixes/NamedEntityFix	aao
+%nm/server/1_13_R2/DataConverterObjectiveDisplayName	%nm/util/datafix/fixes/ObjectiveDisplayName	aap
+%nm/server/1_13_R2/DataConverterObjectiveRenderType	%nm/util/datafix/fixes/ObjectiveRenderType	aaq
+%nm/server/1_13_R2/DataConverterVBO	%nm/util/datafix/fixes/ForceVBOOn	aar
+%nm/server/1_13_R2/DataConverterKeybind	%nm/util/datafix/fixes/LWJGL3KeyOptions	aas
+%nm/server/1_13_R2/DataConverterKeybind2	%nm/util/datafix/fixes/KeyOptionsTranslation	aat
+%nm/server/1_13_R2/DataConverterLang	%nm/util/datafix/fixes/OptionsLowerCaseLanguage	aau
+%nm/server/1_13_R2/DataConverterRecipes	%nm/util/datafix/fixes/RenamedRecipes	aav
+%nm/server/1_13_R2/DataConverterRecipeRename	%nm/util/datafix/fixes/RecipesRenaming	aaw
+%nm/server/1_13_R2/DataConverterTypes	%nm/util/datafix/TypeReferences	aax
+%nm/server/1_13_R2/DataConverterCoralFan	%nm/util/datafix/fixes/CoralFansRenameList	aay
+%nm/server/1_13_R2/DataConverterCoral	%nm/util/datafix/fixes/RenamedCoral	aaz
+%nm/server/1_13_R2/DataConverterVillage	%nm/util/datafix/fixes/BlockStateFlattenVillageCrops	aba
+%nm/server/1_13_R2/DataConverterEntityNameAbstract	%nm/util/datafix/fixes/EntityRenameHelper	abb
+%nm/server/1_13_R2/DataConverterEntityRenameAbstract	%nm/util/datafix/fixes/TypedEntityRenameHelper	abc
+%nm/server/1_13_R2/DataConverterStatistic	%nm/util/datafix/fixes/StatsRenaming	abd
+%nm/server/1_13_R2/DataConverterSwimStats	%nm/util/datafix/fixes/SwimStatsRename	abe
+%nm/server/1_13_R2/DataConverterTeamDisplayName	%nm/util/datafix/fixes/TeamDisplayName	abf
+%nm/server/1_13_R2/DataConverterTrappedChest	%nm/util/datafix/fixes/TrappedChestTileEntitySplit	abg
+%nm/server/1_13_R2/DataConverterTrappedChest$a	%nm/util/datafix/fixes/TrappedChestTileEntitySplit$Section	abg$a
+%nm/server/1_13_R2/DataConverterVillagerTrade	%nm/util/datafix/fixes/VillagerTrades	abh
+%nm/server/1_13_R2/DataConverterShoulderEntity	%nm/util/datafix/WriteAndReadDataFix	abi
+%nm/server/1_13_R2/DataConverterSchemaNamed	%nm/util/datafix/NamespacedSchema	abl
+%nm/server/1_13_R2/DataConverterSchemaV100	%nm/util/datafix/versions/V0100	abm
+%nm/server/1_13_R2/DataConverterSchemaV102	%nm/util/datafix/versions/V0102	abn
+%nm/server/1_13_R2/DataConverterSchemaV1022	%nm/util/datafix/versions/V1022	abo
+%nm/server/1_13_R2/DataConverterSchemaV106	%nm/util/datafix/versions/V0106	abp
+%nm/server/1_13_R2/DataConverterSchemaV107	%nm/util/datafix/versions/V0107	abq
+%nm/server/1_13_R2/DataConverterSchemaV1125	%nm/util/datafix/versions/V1125	abr
+%nm/server/1_13_R2/DataConverterSchemaV135	%nm/util/datafix/versions/V0135	abs
+%nm/server/1_13_R2/DataConverterSchemaV143	%nm/util/datafix/versions/V0143	abt
+%nm/server/1_13_R2/DataConverterSchemaV1451	%nm/util/datafix/versions/V1451	abu
+%nm/server/1_13_R2/DataConverterSchemaV1451_1	%nm/util/datafix/versions/V1451_1	abv
+%nm/server/1_13_R2/DataConverterSchemaV1451_2	%nm/util/datafix/versions/V1451_2	abw
+%nm/server/1_13_R2/DataConverterSchemaV1451_3	%nm/util/datafix/versions/V1451_3	abx
+%nm/server/1_13_R2/DataConverterSchemaV1451_4	%nm/util/datafix/versions/V1451_4	aby
+%nm/server/1_13_R2/DataConverterSchemaV1451_5	%nm/util/datafix/versions/V1451_5	abz
+%nm/server/1_13_R2/DataConverterSchemaV1451_6	%nm/util/datafix/versions/V1451_6	aca
+%nm/server/1_13_R2/DataConverterSchemaV1451_7	%nm/util/datafix/versions/V1451_7	acb
+%nm/server/1_13_R2/DataConverterSchemaV1460	%nm/util/datafix/versions/V1460	acc
+%nm/server/1_13_R2/DataConverterSchemaV1466	%nm/util/datafix/versions/V1466	acd
+%nm/server/1_13_R2/DataConverterSchemaV1470	%nm/util/datafix/versions/V1470	ace
+%nm/server/1_13_R2/DataConverterSchemaV1481	%nm/util/datafix/versions/V1481	acf
+%nm/server/1_13_R2/DataConverterSchemaV1483	%nm/util/datafix/versions/V1483	acg
+%nm/server/1_13_R2/DataConverterSchemaV1486	%nm/util/datafix/versions/V1486	ach
+%nm/server/1_13_R2/DataConverterSchemaV1510	%nm/util/datafix/versions/V1510	aci
+%nm/server/1_13_R2/DataConverterSchemaV501	%nm/util/datafix/versions/V0501	acj
+%nm/server/1_13_R2/DataConverterSchemaV700	%nm/util/datafix/versions/V0700	ack
+%nm/server/1_13_R2/DataConverterSchemaV701	%nm/util/datafix/versions/V0701	acl
+%nm/server/1_13_R2/DataConverterSchemaV702	%nm/util/datafix/versions/V0702	acm
+%nm/server/1_13_R2/DataConverterSchemaV703	%nm/util/datafix/versions/V0703	acn
+%nm/server/1_13_R2/DataConverterSchemaV704	%nm/util/datafix/versions/V0704	aco
+%nm/server/1_13_R2/DataConverterSchemaV704$1	%nm/util/datafix/versions/V0704$1	aco$1
+%nm/server/1_13_R2/DataConverterSchemaV705	%nm/util/datafix/versions/V0705	acp
+%nm/server/1_13_R2/DataConverterSchemaV705$1	%nm/util/datafix/versions/V0705$1	acp$1
+%nm/server/1_13_R2/DataConverterSchemaV808	%nm/util/datafix/versions/V0808	acq
+%nm/server/1_13_R2/DataConverterSchemaV99	%nm/util/datafix/versions/V0099	acr
+%nm/server/1_13_R2/DataConverterSchemaV99$1	%nm/util/datafix/versions/V0099$1	acr$1
+%nm/server/1_13_R2/NamedIncrementingThreadFactory	%nm/util/NamedThreadFactory	act
+%nm/server/1_13_R2/Scheduler	%nm/util/Scheduler	acu
+%nm/server/1_13_R2/Scheduler$1	%nm/util/Scheduler$1	acu$1
+%nm/server/1_13_R2/Scheduler$a	%nm/util/Scheduler$FutureWrapper	acu$a
+%nm/server/1_13_R2/IAsyncTaskHandler	%nm/util/IThreadListener	acv
+%nm/server/1_13_R2/SchedulerBatch	%nm/util/TaskManager	acw
+%nm/server/1_13_R2/SchedulerTask	%nm/util/ITaskType	acx
+%nm/server/1_13_R2/WorldUpgraderIterator	%nm/util/WorldChunkEnumerator	acz
+%nm/server/1_13_R2/WorldUpgrader	%nm/util/WorldOptimizer	ada
+%nm/server/1_13_R2/BossBattle	%nm/world/BossInfo	adc
+%nm/server/1_13_R2/BossBattle$BarColor	%nm/world/BossInfo$Color	adc$a
+%nm/server/1_13_R2/BossBattle$BarStyle	%nm/world/BossInfo$Overlay	adc$b
+%nm/server/1_13_R2/InventoryLargeChest	%nm/inventory/InventoryLargeChest	add
+%nm/server/1_13_R2/IInventory	%nm/inventory/IInventory	ade
+%nm/server/1_13_R2/ContainerUtil	%nm/inventory/ItemStackHelper	adf
+%nm/server/1_13_R2/IInventoryListener	%nm/inventory/IInventoryChangedListener	adg
+%nm/server/1_13_R2/InventoryUtils	%nm/inventory/InventoryHelper	adh
+%nm/server/1_13_R2/EnumDifficulty	%nm/world/EnumDifficulty	adi
+%nm/server/1_13_R2/DifficultyDamageScaler	%nm/world/DifficultyInstance	adj
+%nm/server/1_13_R2/EnumHand	%nm/util/EnumHand	adk
+%nm/server/1_13_R2/ITileEntityContainer	%nm/world/IInteractionObject	adl
+%nm/server/1_13_R2/EnumInteractionResult	%nm/util/EnumActionResult	adm
+%nm/server/1_13_R2/InteractionResultWrapper	%nm/util/ActionResult	adn
+%nm/server/1_13_R2/ChestLock	%nm/world/LockCode	adp
+%nm/server/1_13_R2/ITileInventory	%nm/world/ILockableContainer	adq
+%nm/server/1_13_R2/INamableTileEntity	%nm/util/INameable	adr
+%nm/server/1_13_R2/ILootable	%nm/world/storage/loot/ILootContainer	ads
+%nm/server/1_13_R2/InventorySubcontainer	%nm/inventory/InventoryBasic	adt
+%nm/server/1_13_R2/MojangStatisticsGenerator	%nm/profiler/Snooper	adu
+%nm/server/1_13_R2/IMojangStatistics	%nm/profiler/ISnooperInfo	adv
+%nm/server/1_13_R2/IWorldInventory	%nm/inventory/ISidedInventory	adw
+%nm/server/1_13_R2/CombatEntry	%nm/util/CombatEntry	adx
+%nm/server/1_13_R2/CombatMath	%nm/util/CombatRules	ady
+%nm/server/1_13_R2/CombatTracker	%nm/util/CombatTracker	adz
+%nm/server/1_13_R2/DamageSource	%nm/util/DamageSource	aea
+%nm/server/1_13_R2/EntityDamageSource	%nm/util/EntityDamageSource	aeb
+%nm/server/1_13_R2/EntityDamageSourceIndirect	%nm/util/EntityDamageSourceIndirect	aec
+%nm/server/1_13_R2/DamageSourceNetherBed	%nm/util/DamageSourceNetherBed	aed
+%nm/server/1_13_R2/MobEffectAbsorption	%nm/potion/PotionAbsorption	aef
+%nm/server/1_13_R2/MobEffectAttackDamage	%nm/potion/PotionAttackDamage	aeg
+%nm/server/1_13_R2/MobEffectHealthBoost	%nm/potion/PotionHealthBoost	aeh
+%nm/server/1_13_R2/InstantMobEffect	%nm/potion/PotionInstant	aei
+%nm/server/1_13_R2/MobEffectList	%nm/potion/Potion	aej
+%nm/server/1_13_R2/MobEffect	%nm/potion/PotionEffect	aek
+%nm/server/1_13_R2/MobEffectUtil	%nm/potion/PotionUtil	ael
+%nm/server/1_13_R2/MobEffects	%nm/init/MobEffects	aem
+%nm/server/1_13_R2/EntityAgeable	%nm/entity/EntityAgeable	aeo
+%nm/server/1_13_R2/EntityAreaEffectCloud	%nm/entity/EntityAreaEffectCloud	aep
+%nm/server/1_13_R2/IAnimal	%nm/entity/passive/IAnimal	aeq
+%nm/server/1_13_R2/Entity	%nm/entity/Entity	aer
+%nm/server/1_13_R2/IEntitySelector	%nm/util/EntitySelectors	aeu
+%nm/server/1_13_R2/IEntitySelector$EntitySelectorEquipable	%nm/util/EntitySelectors$ArmoredMob	aeu$a
+%nm/server/1_13_R2/EntityTypes	%nm/entity/EntityType	aev
+%nm/server/1_13_R2/EntityTypes$a	%nm/entity/EntityType$Builder	aev$a
+%nm/server/1_13_R2/EnumItemSlot	%nm/inventory/EntityEquipmentSlot	aew
+%nm/server/1_13_R2/EnumItemSlot$Function	%nm/inventory/EntityEquipmentSlot$Type	aew$a
+%nm/server/1_13_R2/EntityExperienceOrb	%nm/entity/item/EntityXPOrb	aex
+%nm/server/1_13_R2/EntityFlying	%nm/entity/EntityFlying	aey
+%nm/server/1_13_R2/EnumMainHand	%nm/util/EnumHandSide	aez
+%nm/server/1_13_R2/EntityLiving	%nm/entity/EntityLivingBase	afa
+%nm/server/1_13_R2/EntityInsentient	%nm/entity/EntityLiving	afb
+%nm/server/1_13_R2/EnumCreatureType	%nm/entity/EnumCreatureType	afc
+%nm/server/1_13_R2/EnumMonsterType	%nm/entity/CreatureAttribute	afd
+%nm/server/1_13_R2/EnumMoveType	%nm/entity/MoverType	afe
+%nm/server/1_13_R2/EntityOwnable	%nm/entity/IEntityOwnable	aff
+%nm/server/1_13_R2/EntityCreature	%nm/entity/EntityCreature	afg
+%nm/server/1_13_R2/IJumpable	%nm/entity/IJumpingMount	afi
+%nm/server/1_13_R2/GroupDataEntity	%nm/entity/IEntityLivingData	afj
+%nm/server/1_13_R2/EntityPositionTypes	%nm/entity/EntitySpawnPlacementRegistry	afk
+%nm/server/1_13_R2/EntityPositionTypes$a	%nm/entity/EntitySpawnPlacementRegistry$Entry	afk$a
+%nm/server/1_13_R2/EntityPositionTypes$Surface	%nm/entity/EntitySpawnPlacementRegistry$SpawnPlacementType	afk$b
+%nm/server/1_13_R2/EntityTameableAnimal	%nm/entity/passive/EntityTameable	afl
+%nm/server/1_13_R2/IAttribute	%nm/entity/ai/attributes/IAttribute	afm
+%nm/server/1_13_R2/AttributeInstance	%nm/entity/ai/attributes/IAttributeInstance	afn
+%nm/server/1_13_R2/AttributeModifier	%nm/entity/ai/attributes/AttributeModifier	afo
+%nm/server/1_13_R2/AttributeBase	%nm/entity/ai/attributes/BaseAttribute	afp
+%nm/server/1_13_R2/AttributeMapBase	%nm/entity/ai/attributes/AbstractAttributeMap	afq
+%nm/server/1_13_R2/AttributeModifiable	%nm/entity/ai/attributes/ModifiableAttributeInstance	afr
+%nm/server/1_13_R2/AttributeMapServer	%nm/entity/ai/attributes/AttributeMap	afs
+%nm/server/1_13_R2/AttributeRanged	%nm/entity/ai/attributes/RangedAttribute	aft
+%nm/server/1_13_R2/EntityAIBodyControl	%nm/entity/EntityBodyHelper	afv
+%nm/server/1_13_R2/ControllerLookDolphin	%nm/entity/ai/EntityDolphinHelper	afx
+%nm/server/1_13_R2/ControllerMoveFlying	%nm/entity/ai/EntityFlyHelper	afy
+%nm/server/1_13_R2/ControllerJump	%nm/entity/ai/EntityJumpHelper	afz
+%nm/server/1_13_R2/ControllerLook	%nm/entity/ai/EntityLookHelper	aga
+%nm/server/1_13_R2/ControllerMove	%nm/entity/ai/EntityMoveHelper	agb
+%nm/server/1_13_R2/ControllerMove$Operation	%nm/entity/ai/EntityMoveHelper$Action	agb$a
+%nm/server/1_13_R2/PathfinderGoalAvoidTarget	%nm/entity/ai/EntityAIAvoidEntity	agd
+%nm/server/1_13_R2/PathfinderGoalAvoidTarget$1	%nm/entity/ai/EntityAIAvoidEntity$1	agd$1
+%nm/server/1_13_R2/PathfinderGoalBeg	%nm/entity/ai/EntityAIBeg	age
+%nm/server/1_13_R2/PathfinderGoalBoat	%nm/entity/ai/BoatGoals	agf
+%nm/server/1_13_R2/PathfinderGoalBreakDoor	%nm/entity/ai/EntityAIBreakDoor	agg
+%nm/server/1_13_R2/PathfinderGoalBreath	%nm/entity/ai/EntityAIBreathAir	agh
+%nm/server/1_13_R2/PathfinderGoalBreed	%nm/entity/ai/EntityAIMate	agi
+%nm/server/1_13_R2/PathfinderGoalDoorInteract	%nm/entity/ai/EntityAIDoorInteract	agj
+%nm/server/1_13_R2/PathfinderGoalEatTile	%nm/entity/ai/EntityAIEatGrass	agk
+%nm/server/1_13_R2/PathfinderGoalFleeSun	%nm/entity/ai/EntityAIFleeSun	agl
+%nm/server/1_13_R2/PathfinderGoalFloat	%nm/entity/ai/EntityAISwimming	agm
+%nm/server/1_13_R2/PathfinderGoalFollowBoat	%nm/entity/ai/EntityAIFollowBoat	agn
+%nm/server/1_13_R2/PathfinderGoalFishSchool	%nm/entity/ai/EntityAIFollowGroupLeader	ago
+%nm/server/1_13_R2/PathfinderGoalFollowEntity	%nm/entity/ai/EntityAIFollow	agp
+%nm/server/1_13_R2/PathfinderGoalFollowOwnerParrot	%nm/entity/ai/EntityAIFollowOwnerFlying	agq
+%nm/server/1_13_R2/PathfinderGoalFollowOwner	%nm/entity/ai/EntityAIFollowOwner	agr
+%nm/server/1_13_R2/PathfinderGoalFollowParent	%nm/entity/ai/EntityAIFollowParent	ags
+%nm/server/1_13_R2/PathfinderGoal	%nm/entity/ai/EntityAIBase	agt
+%nm/server/1_13_R2/PathfinderGoalSelector	%nm/entity/ai/EntityAITasks	agu
+%nm/server/1_13_R2/PathfinderGoalSelector$PathfinderGoalSelectorItem	%nm/entity/ai/EntityAITasks$EntityAITaskEntry	agu$a
+%nm/server/1_13_R2/PathfinderGoalVillagerFarm	%nm/entity/ai/EntityAIHarvestFarmland	agv
+%nm/server/1_13_R2/PathfinderGoalInteract	%nm/entity/ai/EntityAIWatchClosestWithoutMoving	agw
+%nm/server/1_13_R2/PathfinderGoalWaterJump	%nm/entity/ai/EntityAIJump	agx
+%nm/server/1_13_R2/PathfinderGoalPerch	%nm/entity/ai/EntityAILandOnOwnersShoulder	agy
+%nm/server/1_13_R2/PathfinderGoalLeapAtTarget	%nm/entity/ai/EntityAILeapAtTarget	agz
+%nm/server/1_13_R2/PathfinderGoalLlamaFollow	%nm/entity/ai/EntityAILlamaFollowCaravan	aha
+%nm/server/1_13_R2/PathfinderGoalLookAtPlayer	%nm/entity/ai/EntityAIWatchClosest	ahb
+%nm/server/1_13_R2/PathfinderGoalLookAtTradingPlayer	%nm/entity/ai/EntityAILookAtTradePlayer	ahc
+%nm/server/1_13_R2/PathfinderGoalMakeLove	%nm/entity/ai/EntityAIVillagerMate	ahd
+%nm/server/1_13_R2/PathfinderGoalMeleeAttack	%nm/entity/ai/EntityAIAttackMelee	ahe
+%nm/server/1_13_R2/PathfinderGoalMoveIndoors	%nm/entity/ai/EntityAIMoveIndoors	ahf
+%nm/server/1_13_R2/PathfinderGoalMoveThroughVillage	%nm/entity/ai/EntityAIMoveThroughVillage	ahg
+%nm/server/1_13_R2/PathfinderGoalGotoTarget	%nm/entity/ai/EntityAIMoveToBlock	ahh
+%nm/server/1_13_R2/PathfinderGoalMoveTowardsRestriction	%nm/entity/ai/EntityAIMoveTowardsRestriction	ahi
+%nm/server/1_13_R2/PathfinderGoalMoveTowardsTarget	%nm/entity/ai/EntityAIMoveTowardsTarget	ahj
+%nm/server/1_13_R2/PathfinderGoalOcelotAttack	%nm/entity/ai/EntityAIOcelotAttack	ahk
+%nm/server/1_13_R2/PathfinderGoalJumpOnBlock	%nm/entity/ai/EntityAIOcelotSit	ahl
+%nm/server/1_13_R2/PathfinderGoalOfferFlower	%nm/entity/ai/EntityAILookAtVillager	ahm
+%nm/server/1_13_R2/PathfinderGoalOpenDoor	%nm/entity/ai/EntityAIOpenDoor	ahn
+%nm/server/1_13_R2/PathfinderGoalPanic	%nm/entity/ai/EntityAIPanic	aho
+%nm/server/1_13_R2/PathfinderGoalPlay	%nm/entity/ai/EntityAIPlay	ahp
+%nm/server/1_13_R2/PathfinderGoalRandomLookaround	%nm/entity/ai/EntityAILookIdle	ahq
+%nm/server/1_13_R2/PathfinderGoalRandomStroll	%nm/entity/ai/EntityAIWander	ahr
+%nm/server/1_13_R2/PathfinderGoalRandomSwim	%nm/entity/ai/EntityAIWanderSwim	ahs
+%nm/server/1_13_R2/PathfinderGoalArrowAttack	%nm/entity/ai/EntityAIAttackRanged	aht
+%nm/server/1_13_R2/PathfinderGoalBowShoot	%nm/entity/ai/EntityAIAttackRangedBow	ahu
+%nm/server/1_13_R2/PathfinderGoalRemoveBlock	%nm/entity/ai/EntityAIBreakBlock	ahv
+%nm/server/1_13_R2/PathfinderGoalRestrictOpenDoor	%nm/entity/ai/EntityAIRestrictOpenDoor	ahw
+%nm/server/1_13_R2/PathfinderGoalRestrictSun	%nm/entity/ai/EntityAIRestrictSun	ahx
+%nm/server/1_13_R2/PathfinderGoalTame	%nm/entity/ai/EntityAIRunAroundLikeCrazy	ahy
+%nm/server/1_13_R2/PathfinderGoalSit	%nm/entity/ai/EntityAISit	ahz
+%nm/server/1_13_R2/PathfinderGoalSwell	%nm/entity/ai/EntityAICreeperSwell	aia
+%nm/server/1_13_R2/PathfinderGoalTakeFlower	%nm/entity/ai/EntityAIFollowGolem	aib
+%nm/server/1_13_R2/PathfinderGoalTempt	%nm/entity/ai/EntityAITempt	aic
+%nm/server/1_13_R2/PathfinderGoalTradeWithPlayer	%nm/entity/ai/EntityAITradePlayer	aid
+%nm/server/1_13_R2/PathfinderGoalWater	%nm/entity/ai/EntityAIFindWater	aie
+%nm/server/1_13_R2/PathfinderGoalInteractVillagers	%nm/entity/ai/EntityAIVillagerInteract	aif
+%nm/server/1_13_R2/PathfinderGoalRandomFly	%nm/entity/ai/EntityAIWanderAvoidWaterFlying	aig
+%nm/server/1_13_R2/PathfinderGoalRandomStrollLand	%nm/entity/ai/EntityAIWanderAvoidWater	aih
+%nm/server/1_13_R2/PathfinderGoalZombieAttack	%nm/entity/ai/EntityAIZombieAttack	aii
+%nm/server/1_13_R2/PathfinderGoalDefendVillage	%nm/entity/ai/EntityAIDefendVillage	aik
+%nm/server/1_13_R2/PathfinderGoalHurtByTarget	%nm/entity/ai/EntityAIHurtByTarget	ail
+%nm/server/1_13_R2/PathfinderGoalNearestAttackableTargetInsentient	%nm/entity/ai/EntityAIFindEntityNearest	aim
+%nm/server/1_13_R2/PathfinderGoalTargetNearestPlayer	%nm/entity/ai/EntityAIFindEntityNearestPlayer	ain
+%nm/server/1_13_R2/PathfinderGoalNearestAttackableTarget	%nm/entity/ai/EntityAINearestAttackableTarget	aio
+%nm/server/1_13_R2/PathfinderGoalNearestAttackableTarget$1	%nm/entity/ai/EntityAINearestAttackableTarget$1	aio$1
+%nm/server/1_13_R2/PathfinderGoalNearestAttackableTarget$DistanceComparator	%nm/entity/ai/EntityAINearestAttackableTarget$Sorter	aio$a
+%nm/server/1_13_R2/PathfinderGoalRandomTargetNonTamed	%nm/entity/ai/EntityAITargetNonTamed	aip
+%nm/server/1_13_R2/PathfinderGoalOwnerHurtByTarget	%nm/entity/ai/EntityAIOwnerHurtByTarget	aiq
+%nm/server/1_13_R2/PathfinderGoalOwnerHurtTarget	%nm/entity/ai/EntityAIOwnerHurtTarget	air
+%nm/server/1_13_R2/PathfinderGoalTarget	%nm/entity/ai/EntityAITarget	ais
+%nm/server/1_13_R2/NavigationFlying	%nm/pathfinding/PathNavigateFlying	aiu
+%nm/server/1_13_R2/Navigation	%nm/pathfinding/PathNavigateGround	aiv
+%nm/server/1_13_R2/NavigationAbstract	%nm/pathfinding/PathNavigate	aiw
+%nm/server/1_13_R2/NavigationListener	%nm/pathfinding/PathWorldListener	aix
+%nm/server/1_13_R2/NavigationSpider	%nm/pathfinding/PathNavigateClimber	aiy
+%nm/server/1_13_R2/NavigationGuardian	%nm/pathfinding/PathNavigateSwimmer	aiz
+%nm/server/1_13_R2/EntitySenses	%nm/entity/ai/EntitySenses	ajb
+%nm/server/1_13_R2/RandomPositionGenerator	%nm/entity/ai/RandomPositionGenerator	ajd
+%nm/server/1_13_R2/VillageDoor	%nm/village/VillageDoorInfo	ajf
+%nm/server/1_13_R2/Village	%nm/village/Village	ajg
+%nm/server/1_13_R2/Village$Aggressor	%nm/village/Village$VillageAggressor	ajg$a
+%nm/server/1_13_R2/VillageSiege	%nm/village/VillageSiege	ajh
+%nm/server/1_13_R2/PersistentVillage	%nm/village/VillageCollection	aji
+%nm/server/1_13_R2/EntityAmbient	%nm/entity/passive/EntityAmbientCreature	ajk
+%nm/server/1_13_R2/EntityBat	%nm/entity/passive/EntityBat	ajl
+%nm/server/1_13_R2/EntityFish	%nm/entity/passive/AbstractFish	ajn
+%nm/server/1_13_R2/EntityFish$a	%nm/entity/passive/AbstractFish$MoveHelper	ajn$a
+%nm/server/1_13_R2/EntityFish$b	%nm/entity/passive/AbstractFish$AISwim	ajn$b
+%nm/server/1_13_R2/EntityGolem	%nm/entity/monster/EntityGolem	ajo
+%nm/server/1_13_R2/EntityFishSchool	%nm/entity/passive/AbstractGroupFish	ajp
+%nm/server/1_13_R2/EntityFishSchool$a	%nm/entity/passive/AbstractGroupFish$GroupData	ajp$a
+%nm/server/1_13_R2/EntityAnimal	%nm/entity/passive/EntityAnimal	ajq
+%nm/server/1_13_R2/EntityChicken	%nm/entity/passive/EntityChicken	ajr
+%nm/server/1_13_R2/EntityCod	%nm/entity/passive/EntityCod	ajs
+%nm/server/1_13_R2/EntityCow	%nm/entity/passive/EntityCow	ajt
+%nm/server/1_13_R2/EntityDolphin	%nm/entity/passive/EntityDolphin	aju
+%nm/server/1_13_R2/EntityDolphin$a	%nm/entity/passive/EntityDolphin$MoveHelper	aju$a
+%nm/server/1_13_R2/EntityDolphin$b	%nm/entity/passive/EntityDolphin$AISwimToTreasure	aju$b
+%nm/server/1_13_R2/EntityDolphin$c	%nm/entity/passive/EntityDolphin$AISwimWithPlayer	aju$c
+%nm/server/1_13_R2/EntityDolphin$d	%nm/entity/passive/EntityDolphin$AIPlayWithItems	aju$d
+%nm/server/1_13_R2/EntityBird	%nm/entity/passive/IFlyingAnimal	ajv
+%nm/server/1_13_R2/EntityIronGolem	%nm/entity/monster/EntityIronGolem	ajw
+%nm/server/1_13_R2/EntityMushroomCow	%nm/entity/passive/EntityMooshroom	ajx
+%nm/server/1_13_R2/EntityOcelot	%nm/entity/passive/EntityOcelot	ajy
+%nm/server/1_13_R2/EntityParrot	%nm/entity/passive/EntityParrot	ajz
+%nm/server/1_13_R2/EntityParrot$1	%nm/entity/passive/EntityParrot$1	ajz$1
+%nm/server/1_13_R2/EntityPig	%nm/entity/passive/EntityPig	aka
+%nm/server/1_13_R2/EntityPolarBear	%nm/entity/monster/EntityPolarBear	akb
+%nm/server/1_13_R2/EntityPolarBear$a	%nm/entity/monster/EntityPolarBear$AIAttackPlayer	akb$a
+%nm/server/1_13_R2/EntityPolarBear$b	%nm/entity/monster/EntityPolarBear$GroupData	akb$b
+%nm/server/1_13_R2/EntityPolarBear$c	%nm/entity/monster/EntityPolarBear$AIHurtByTarget	akb$c
+%nm/server/1_13_R2/EntityPolarBear$d	%nm/entity/monster/EntityPolarBear$AIMeleeAttack	akb$d
+%nm/server/1_13_R2/EntityPolarBear$e	%nm/entity/monster/EntityPolarBear$AIPanic	akb$e
+%nm/server/1_13_R2/EntityPufferFish	%nm/entity/passive/EntityPufferFish	akc
+%nm/server/1_13_R2/EntityPufferFish$a	%nm/entity/passive/EntityPufferFish$AIPuff	akc$a
+%nm/server/1_13_R2/EntityRabbit	%nm/entity/passive/EntityRabbit	akd
+%nm/server/1_13_R2/EntityRabbit$PathfinderGoalKillerRabbitMeleeAttack	%nm/entity/passive/EntityRabbit$AIEvilAttack	akd$a
+%nm/server/1_13_R2/EntityRabbit$PathfinderGoalRabbitAvoidTarget	%nm/entity/passive/EntityRabbit$AIAvoidEntity	akd$b
+%nm/server/1_13_R2/EntityRabbit$GroupDataRabbit	%nm/entity/passive/EntityRabbit$RabbitTypeData	akd$c
+%nm/server/1_13_R2/EntityRabbit$ControllerJumpRabbit	%nm/entity/passive/EntityRabbit$RabbitJumpHelper	akd$d
+%nm/server/1_13_R2/EntityRabbit$ControllerMoveRabbit	%nm/entity/passive/EntityRabbit$RabbitMoveHelper	akd$e
+%nm/server/1_13_R2/EntityRabbit$PathfinderGoalRabbitPanic	%nm/entity/passive/EntityRabbit$AIPanic	akd$f
+%nm/server/1_13_R2/EntityRabbit$PathfinderGoalEatCarrots	%nm/entity/passive/EntityRabbit$AIRaidFarm	akd$g
+%nm/server/1_13_R2/EntitySalmon	%nm/entity/passive/EntitySalmon	ake
+%nm/server/1_13_R2/EntitySheep	%nm/entity/passive/EntitySheep	akf
+%nm/server/1_13_R2/EntitySheep$1	%nm/entity/passive/EntitySheep$1	akf$1
+%nm/server/1_13_R2/EntityPerchable	%nm/entity/passive/EntityShoulderRiding	akg
+%nm/server/1_13_R2/EntitySnowman	%nm/entity/monster/EntitySnowman	akh
+%nm/server/1_13_R2/EntitySquid	%nm/entity/passive/EntitySquid	aki
+%nm/server/1_13_R2/EntitySquid$a	%nm/entity/passive/EntitySquid$AIFlee	aki$a
+%nm/server/1_13_R2/EntitySquid$PathfinderGoalSquid	%nm/entity/passive/EntitySquid$AIMoveRandom	aki$b
+%nm/server/1_13_R2/EntityTropicalFish	%nm/entity/passive/EntityTropicalFish	akj
+%nm/server/1_13_R2/EntityTropicalFish$Variant	%nm/entity/passive/EntityTropicalFish$Type	akj$a
+%nm/server/1_13_R2/EntityTropicalFish$b	%nm/entity/passive/EntityTropicalFish$GroupData	akj$b
+%nm/server/1_13_R2/EntityTurtle	%nm/entity/passive/EntityTurtle	akk
+%nm/server/1_13_R2/EntityTurtle$a	%nm/entity/passive/EntityTurtle$AIMate	akk$a
+%nm/server/1_13_R2/EntityTurtle$b	%nm/entity/passive/EntityTurtle$AIGoHome	akk$b
+%nm/server/1_13_R2/EntityTurtle$c	%nm/entity/passive/EntityTurtle$AIGoToWater	akk$c
+%nm/server/1_13_R2/EntityTurtle$d	%nm/entity/passive/EntityTurtle$AILayEgg	akk$d
+%nm/server/1_13_R2/EntityTurtle$e	%nm/entity/passive/EntityTurtle$MoveHelper	akk$e
+%nm/server/1_13_R2/EntityTurtle$f	%nm/entity/passive/EntityTurtle$AIPanic	akk$f
+%nm/server/1_13_R2/EntityTurtle$g	%nm/entity/passive/EntityTurtle$PathNavigater	akk$g
+%nm/server/1_13_R2/EntityTurtle$h	%nm/entity/passive/EntityTurtle$AIWander	akk$h
+%nm/server/1_13_R2/EntityTurtle$i	%nm/entity/passive/EntityTurtle$AIPlayerTempt	akk$i
+%nm/server/1_13_R2/EntityTurtle$j	%nm/entity/passive/EntityTurtle$AITravel	akk$j
+%nm/server/1_13_R2/EntityWaterAnimal	%nm/entity/passive/EntityWaterMob	akl
+%nm/server/1_13_R2/EntityWolf	%nm/entity/passive/EntityWolf	akm
+%nm/server/1_13_R2/EntityWolf$a	%nm/entity/passive/EntityWolf$AIAvoidEntity	akm$a
+%nm/server/1_13_R2/EntityHorseChestedAbstract	%nm/entity/passive/AbstractChestHorse	akn
+%nm/server/1_13_R2/EntityHorseAbstract	%nm/entity/passive/AbstractHorse	ako
+%nm/server/1_13_R2/EntityHorseDonkey	%nm/entity/passive/EntityDonkey	akp
+%nm/server/1_13_R2/EntityHorse	%nm/entity/passive/EntityHorse	akq
+%nm/server/1_13_R2/EntityHorse$a	%nm/entity/passive/EntityHorse$GroupData	akq$a
+%nm/server/1_13_R2/EnumHorseArmor	%nm/entity/passive/HorseArmorType	akr
+%nm/server/1_13_R2/EntityLlama	%nm/entity/passive/EntityLlama	aks
+%nm/server/1_13_R2/EntityLlama$a	%nm/entity/passive/EntityLlama$AIDefendTarget	aks$a
+%nm/server/1_13_R2/EntityLlama$b	%nm/entity/passive/EntityLlama$GroupData	aks$b
+%nm/server/1_13_R2/EntityLlama$c	%nm/entity/passive/EntityLlama$AIHurtByTarget	aks$c
+%nm/server/1_13_R2/EntityHorseMule	%nm/entity/passive/EntityMule	akt
+%nm/server/1_13_R2/EntityHorseSkeleton	%nm/entity/passive/EntitySkeletonHorse	aku
+%nm/server/1_13_R2/PathfinderGoalHorseTrap	%nm/entity/ai/EntityAISkeletonRiders	akv
+%nm/server/1_13_R2/EntityHorseZombie	%nm/entity/passive/EntityZombieHorse	akw
+%nm/server/1_13_R2/IComplex	%nm/entity/IEntityMultiPart	ala
+%nm/server/1_13_R2/EntityComplexPart	%nm/entity/MultiPartEntityPart	alb
+%nm/server/1_13_R2/EntityEnderCrystal	%nm/entity/item/EntityEnderCrystal	alc
+%nm/server/1_13_R2/EntityEnderDragon	%nm/entity/boss/EntityDragon	ald
+%nm/server/1_13_R2/AbstractDragonController	%nm/entity/boss/dragon/phase/PhaseBase	alf
+%nm/server/1_13_R2/AbstractDragonControllerLanded	%nm/entity/boss/dragon/phase/PhaseSittingBase	alg
+%nm/server/1_13_R2/DragonControllerCharge	%nm/entity/boss/dragon/phase/PhaseChargingPlayer	alh
+%nm/server/1_13_R2/DragonControllerDying	%nm/entity/boss/dragon/phase/PhaseDying	ali
+%nm/server/1_13_R2/DragonControllerHold	%nm/entity/boss/dragon/phase/PhaseHoldingPattern	alj
+%nm/server/1_13_R2/DragonControllerHover	%nm/entity/boss/dragon/phase/PhaseHover	alk
+%nm/server/1_13_R2/DragonControllerLandingFly	%nm/entity/boss/dragon/phase/PhaseLandingApproach	all
+%nm/server/1_13_R2/DragonControllerLanding	%nm/entity/boss/dragon/phase/PhaseLanding	alm
+%nm/server/1_13_R2/IDragonController	%nm/entity/boss/dragon/phase/IPhase	aln
+%nm/server/1_13_R2/DragonControllerLandedAttack	%nm/entity/boss/dragon/phase/PhaseSittingAttacking	alo
+%nm/server/1_13_R2/DragonControllerLandedFlame	%nm/entity/boss/dragon/phase/PhaseSittingFlaming	alp
+%nm/server/1_13_R2/DragonControllerLandedSearch	%nm/entity/boss/dragon/phase/PhaseSittingScanning	alq
+%nm/server/1_13_R2/DragonControllerStrafe	%nm/entity/boss/dragon/phase/PhaseStrafePlayer	alr
+%nm/server/1_13_R2/DragonControllerFly	%nm/entity/boss/dragon/phase/PhaseTakeoff	als
+%nm/server/1_13_R2/DragonControllerPhase	%nm/entity/boss/dragon/phase/PhaseType	alt
+%nm/server/1_13_R2/DragonControllerManager	%nm/entity/boss/dragon/phase/PhaseManager	alu
+%nm/server/1_13_R2/EntityWither	%nm/entity/boss/EntityWither	alx
+%nm/server/1_13_R2/EntityWither$a	%nm/entity/boss/EntityWither$AIDoNothing	alx$a
+%nm/server/1_13_R2/EntityArmorStand	%nm/entity/item/EntityArmorStand	alz
+%nm/server/1_13_R2/EntityHanging	%nm/entity/EntityHanging	ama
+%nm/server/1_13_R2/EntityItemFrame	%nm/entity/item/EntityItemFrame	amb
+%nm/server/1_13_R2/EntityLeash	%nm/entity/EntityLeashKnot	amc
+%nm/server/1_13_R2/Paintings	%nm/entity/item/PaintingType	amd
+%nm/server/1_13_R2/EntityPainting	%nm/entity/item/EntityPainting	ame
+%nm/server/1_13_R2/EntityFishingHook	%nm/entity/projectile/EntityFishHook	amg
+%nm/server/1_13_R2/EntityFishingHook$HookState	%nm/entity/projectile/EntityFishHook$State	amg$a
+%nm/server/1_13_R2/EntityWeather	%nm/entity/effect/EntityWeatherEffect	ami
+%nm/server/1_13_R2/EntityLightning	%nm/entity/effect/EntityLightningBolt	amj
+%nm/server/1_13_R2/EntityFallingBlock	%nm/entity/item/EntityFallingBlock	aml
+%nm/server/1_13_R2/EntityItem	%nm/entity/item/EntityItem	amm
+%nm/server/1_13_R2/EntityTNTPrimed	%nm/entity/item/EntityTNTPrimed	amn
+%nm/server/1_13_R2/EntityIllagerAbstract	%nm/entity/monster/AbstractIllager	amp
+%nm/server/1_13_R2/EntitySkeletonAbstract	%nm/entity/monster/AbstractSkeleton	amq
+%nm/server/1_13_R2/EntitySkeletonAbstract$1	%nm/entity/monster/AbstractSkeleton$1	amq$1
+%nm/server/1_13_R2/EntityBlaze	%nm/entity/monster/EntityBlaze	amr
+%nm/server/1_13_R2/EntityBlaze$PathfinderGoalBlazeFireball	%nm/entity/monster/EntityBlaze$AIFireballAttack	amr$a
+%nm/server/1_13_R2/EntityCaveSpider	%nm/entity/monster/EntityCaveSpider	ams
+%nm/server/1_13_R2/EntityCreeper	%nm/entity/monster/EntityCreeper	amt
+%nm/server/1_13_R2/EntityDrowned	%nm/entity/monster/EntityDrowned	amu
+%nm/server/1_13_R2/EntityDrowned$a	%nm/entity/monster/EntityDrowned$AIAttack	amu$a
+%nm/server/1_13_R2/EntityDrowned$b	%nm/entity/monster/EntityDrowned$AttackTargetPredicate	amu$b
+%nm/server/1_13_R2/EntityDrowned$c	%nm/entity/monster/EntityDrowned$AIGoToBeach	amu$c
+%nm/server/1_13_R2/EntityDrowned$d	%nm/entity/monster/EntityDrowned$AIGoToWater	amu$d
+%nm/server/1_13_R2/EntityDrowned$e	%nm/entity/monster/EntityDrowned$MoveHelper	amu$e
+%nm/server/1_13_R2/EntityDrowned$f	%nm/entity/monster/EntityDrowned$AISwimUp	amu$f
+%nm/server/1_13_R2/EntityDrowned$g	%nm/entity/monster/EntityDrowned$AITridentAttack	amu$g
+%nm/server/1_13_R2/EntityGuardianElder	%nm/entity/monster/EntityElderGuardian	amv
+%nm/server/1_13_R2/EntityEnderman	%nm/entity/monster/EntityEnderman	amw
+%nm/server/1_13_R2/EntityEnderman$PathfinderGoalEndermanPlaceBlock	%nm/entity/monster/EntityEnderman$AIPlaceBlock	amw$a
+%nm/server/1_13_R2/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget	%nm/entity/monster/EntityEnderman$AIFindPlayer	amw$b
+%nm/server/1_13_R2/EntityEnderman$PathfinderGoalEndermanPickupBlock	%nm/entity/monster/EntityEnderman$AITakeBlock	amw$c
+%nm/server/1_13_R2/EntityEndermite	%nm/entity/monster/EntityEndermite	amx
+%nm/server/1_13_R2/IMonster	%nm/entity/monster/IMob	amy
+%nm/server/1_13_R2/EntityEvoker	%nm/entity/monster/EntityEvoker	amz
+%nm/server/1_13_R2/EntityEvoker$a	%nm/entity/monster/EntityEvoker$AIAttackSpell	amz$a
+%nm/server/1_13_R2/EntityEvoker$b	%nm/entity/monster/EntityEvoker$AICastingSpell	amz$b
+%nm/server/1_13_R2/EntityEvoker$c	%nm/entity/monster/EntityEvoker$AISummonSpell	amz$c
+%nm/server/1_13_R2/EntityEvoker$d	%nm/entity/monster/EntityEvoker$AIWololoSpell	amz$d
+%nm/server/1_13_R2/EntityGhast	%nm/entity/monster/EntityGhast	ana
+%nm/server/1_13_R2/EntityGhast$PathfinderGoalGhastMoveTowardsTarget	%nm/entity/monster/EntityGhast$AILookAround	ana$a
+%nm/server/1_13_R2/EntityGhast$ControllerGhast	%nm/entity/monster/EntityGhast$GhastMoveHelper	ana$b
+%nm/server/1_13_R2/EntityGhast$PathfinderGoalGhastAttackTarget	%nm/entity/monster/EntityGhast$AIFireballAttack	ana$c
+%nm/server/1_13_R2/EntityGhast$PathfinderGoalGhastIdleMove	%nm/entity/monster/EntityGhast$AIRandomFly	ana$d
+%nm/server/1_13_R2/EntityGiantZombie	%nm/entity/monster/EntityGiantZombie	anb
+%nm/server/1_13_R2/EntityGuardian	%nm/entity/monster/EntityGuardian	anc
+%nm/server/1_13_R2/EntityGuardian$PathfinderGoalGuardianAttack	%nm/entity/monster/EntityGuardian$AIGuardianAttack	anc$a
+%nm/server/1_13_R2/EntityGuardian$EntitySelectorGuardianTargetHumanSquid	%nm/entity/monster/EntityGuardian$GuardianTargetSelector	anc$b
+%nm/server/1_13_R2/EntityGuardian$ControllerMoveGuardian	%nm/entity/monster/EntityGuardian$GuardianMoveHelper	anc$c
+%nm/server/1_13_R2/EntityZombieHusk	%nm/entity/monster/EntityHusk	and
+%nm/server/1_13_R2/EntityIllagerIllusioner	%nm/entity/monster/EntityIllusionIllager	ane
+%nm/server/1_13_R2/EntityIllagerIllusioner$a	%nm/entity/monster/EntityIllusionIllager$AIBlindnessSpell	ane$a
+%nm/server/1_13_R2/EntityIllagerIllusioner$b	%nm/entity/monster/EntityIllusionIllager$AIMirriorSpell	ane$b
+%nm/server/1_13_R2/EntityMagmaCube	%nm/entity/monster/EntityMagmaCube	anf
+%nm/server/1_13_R2/EntityMonster	%nm/entity/monster/EntityMob	ang
+%nm/server/1_13_R2/EntityPhantom	%nm/entity/monster/EntityPhantom	anh
+%nm/server/1_13_R2/EntityPhantom$AttackPhase	%nm/entity/monster/EntityPhantom$AttackPhase	anh$a
+%nm/server/1_13_R2/EntityPhantom$b	%nm/entity/monster/EntityPhantom$AIAttackPlayer	anh$b
+%nm/server/1_13_R2/EntityPhantom$c	%nm/entity/monster/EntityPhantom$AIPickAttack	anh$c
+%nm/server/1_13_R2/EntityPhantom$d	%nm/entity/monster/EntityPhantom$BodyHelper	anh$d
+%nm/server/1_13_R2/EntityPhantom$e	%nm/entity/monster/EntityPhantom$AIOrbitPoint	anh$e
+%nm/server/1_13_R2/EntityPhantom$f	%nm/entity/monster/EntityPhantom$LookHelper	anh$f
+%nm/server/1_13_R2/EntityPhantom$g	%nm/entity/monster/EntityPhantom$MoveHelper	anh$g
+%nm/server/1_13_R2/EntityPhantom$h	%nm/entity/monster/EntityPhantom$AIMove	anh$h
+%nm/server/1_13_R2/EntityPhantom$i	%nm/entity/monster/EntityPhantom$AISweepAttack	anh$i
+%nm/server/1_13_R2/EntityPigZombie	%nm/entity/monster/EntityPigZombie	ani
+%nm/server/1_13_R2/EntityPigZombie$PathfinderGoalAnger	%nm/entity/monster/EntityPigZombie$AITargetAggressor	ani$a
+%nm/server/1_13_R2/EntityPigZombie$PathfinderGoalAngerOther	%nm/entity/monster/EntityPigZombie$AIHurtByAggressor	ani$b
+%nm/server/1_13_R2/IRangedEntity	%nm/entity/IRangedAttackMob	anj
+%nm/server/1_13_R2/GenericAttributes	%nm/entity/SharedMonsterAttributes	ank
+%nm/server/1_13_R2/EntityShulker	%nm/entity/monster/EntityShulker	anl
+%nm/server/1_13_R2/EntityShulker$a	%nm/entity/monster/EntityShulker$AIAttack	anl$a
+%nm/server/1_13_R2/EntityShulker$b	%nm/entity/monster/EntityShulker$BodyHelper	anl$b
+%nm/server/1_13_R2/EntityShulker$c	%nm/entity/monster/EntityShulker$AIDefenseAttack	anl$c
+%nm/server/1_13_R2/EntityShulker$d	%nm/entity/monster/EntityShulker$AIAttackNearest	anl$d
+%nm/server/1_13_R2/EntityShulker$e	%nm/entity/monster/EntityShulker$AIPeek	anl$e
+%nm/server/1_13_R2/EntitySilverfish	%nm/entity/monster/EntitySilverfish	anm
+%nm/server/1_13_R2/EntitySilverfish$PathfinderGoalSilverfishHideInBlock	%nm/entity/monster/EntitySilverfish$AIHideInStone	anm$a
+%nm/server/1_13_R2/EntitySilverfish$PathfinderGoalSilverfishWakeOthers	%nm/entity/monster/EntitySilverfish$AISummonSilverfish	anm$b
+%nm/server/1_13_R2/EntitySkeleton	%nm/entity/monster/EntitySkeleton	ann
+%nm/server/1_13_R2/EntitySlime	%nm/entity/monster/EntitySlime	ano
+%nm/server/1_13_R2/EntitySlime$PathfinderGoalSlimeNearestPlayer	%nm/entity/monster/EntitySlime$AISlimeAttack	ano$a
+%nm/server/1_13_R2/EntitySlime$PathfinderGoalSlimeRandomJump	%nm/entity/monster/EntitySlime$AISlimeFloat	ano$b
+%nm/server/1_13_R2/EntitySlime$PathfinderGoalSlimeIdle	%nm/entity/monster/EntitySlime$AISlimeHop	ano$c
+%nm/server/1_13_R2/EntitySlime$ControllerMoveSlime	%nm/entity/monster/EntitySlime$SlimeMoveHelper	ano$d
+%nm/server/1_13_R2/EntitySlime$PathfinderGoalSlimeRandomDirection	%nm/entity/monster/EntitySlime$AISlimeFaceRandom	ano$e
+%nm/server/1_13_R2/EntityIllagerWizard	%nm/entity/monster/EntitySpellcasterIllager	anp
+%nm/server/1_13_R2/EntityIllagerWizard$Spell	%nm/entity/monster/EntitySpellcasterIllager$SpellType	anp$a
+%nm/server/1_13_R2/EntityIllagerWizard$b	%nm/entity/monster/EntitySpellcasterIllager$AICastingApell	anp$b
+%nm/server/1_13_R2/EntityIllagerWizard$c	%nm/entity/monster/EntitySpellcasterIllager$AIUseSpell	anp$c
+%nm/server/1_13_R2/EntitySpider	%nm/entity/monster/EntitySpider	anq
+%nm/server/1_13_R2/EntitySpider$PathfinderGoalSpiderMeleeAttack	%nm/entity/monster/EntitySpider$AISpiderAttack	anq$a
+%nm/server/1_13_R2/EntitySpider$GroupDataSpider	%nm/entity/monster/EntitySpider$GroupData	anq$b
+%nm/server/1_13_R2/EntitySpider$PathfinderGoalSpiderNearestAttackableTarget	%nm/entity/monster/EntitySpider$AISpiderTarget	anq$c
+%nm/server/1_13_R2/EntitySkeletonStray	%nm/entity/monster/EntityStray	anr
+%nm/server/1_13_R2/EntityVex	%nm/entity/monster/EntityVex	ans
+%nm/server/1_13_R2/EntityVex$a	%nm/entity/monster/EntityVex$AIChargeAttack	ans$a
+%nm/server/1_13_R2/EntityVex$b	%nm/entity/monster/EntityVex$AICopyOwnerTarget	ans$b
+%nm/server/1_13_R2/EntityVex$c	%nm/entity/monster/EntityVex$AIMoveControl	ans$c
+%nm/server/1_13_R2/EntityVex$d	%nm/entity/monster/EntityVex$AIMoveRandom	ans$d
+%nm/server/1_13_R2/EntityVindicator	%nm/entity/monster/EntityVindicator	ant
+%nm/server/1_13_R2/EntityVindicator$a	%nm/entity/monster/EntityVindicator$AIJohnnyAttack	ant$a
+%nm/server/1_13_R2/EntityWitch	%nm/entity/monster/EntityWitch	anu
+%nm/server/1_13_R2/EntitySkeletonWither	%nm/entity/monster/EntityWitherSkeleton	anv
+%nm/server/1_13_R2/EntityZombie	%nm/entity/monster/EntityZombie	anw
+%nm/server/1_13_R2/EntityZombie$a	%nm/entity/monster/EntityZombie$AIAttackTurtleEgg	anw$a
+%nm/server/1_13_R2/EntityZombie$GroupDataZombie	%nm/entity/monster/EntityZombie$GroupData	anw$b
+%nm/server/1_13_R2/EntityZombieVillager	%nm/entity/monster/EntityZombieVillager	anx
+%nm/server/1_13_R2/NPC	%nm/entity/INpc	aoa
+%nm/server/1_13_R2/EntityVillager	%nm/entity/passive/EntityVillager	aob
+%nm/server/1_13_R2/EntityVillager$MerchantRecipeOptionBuy	%nm/entity/passive/EntityVillager$EmeraldForItems	aob$a
+%nm/server/1_13_R2/EntityVillager$MerchantRecipeOptionBook	%nm/entity/passive/EntityVillager$ListEnchantedBookForEmeralds	aob$b
+%nm/server/1_13_R2/EntityVillager$MerchantRecipeOptionEnchant	%nm/entity/passive/EntityVillager$ListEnchantedItemForEmeralds	aob$c
+%nm/server/1_13_R2/EntityVillager$MerchantRecipeOptionProcess	%nm/entity/passive/EntityVillager$ItemAndEmeraldToItem	aob$d
+%nm/server/1_13_R2/EntityVillager$MerchantRecipeOptionSell	%nm/entity/passive/EntityVillager$ListItemForEmeralds	aob$e
+%nm/server/1_13_R2/EntityVillager$IMerchantRecipeOption	%nm/entity/passive/EntityVillager$ITradeList	aob$f
+%nm/server/1_13_R2/EntityVillager$MerchantOptionRandomRange	%nm/entity/passive/EntityVillager$PriceInfo	aob$g
+%nm/server/1_13_R2/EntityVillager$h	%nm/entity/passive/EntityVillager$TreasureMapForEmeralds	aob$h
+%nm/server/1_13_R2/PlayerAbilities	%nm/entity/player/PlayerCapabilities	aoe
+%nm/server/1_13_R2/PlayerInventory	%nm/entity/player/InventoryPlayer	aof
+%nm/server/1_13_R2/EntityHuman	%nm/entity/player/EntityPlayer	aog
+%nm/server/1_13_R2/EntityHuman$EnumBedResult	%nm/entity/player/EntityPlayer$SleepResult	aog$a
+%nm/server/1_13_R2/EntityHuman$EnumChatVisibility	%nm/entity/player/EntityPlayer$EnumChatVisibility	aog$b
+%nm/server/1_13_R2/EntityHuman$c	%nm/entity/player/EntityPlayer$SleepEnemyPredicate	aog$c
+%nm/server/1_13_R2/AutoRecipeStackManager	%nm/item/crafting/RecipeItemHelper	aoi
+%nm/server/1_13_R2/AutoRecipeStackManager$a	%nm/item/crafting/RecipeItemHelper$RecipePicker	aoi$a
+%nm/server/1_13_R2/EntityArrow	%nm/entity/projectile/EntityArrow	aok
+%nm/server/1_13_R2/EntityArrow$PickupStatus	%nm/entity/projectile/EntityArrow$PickupStatus	aok$a
+%nm/server/1_13_R2/EntityFireball	%nm/entity/projectile/EntityFireball	aol
+%nm/server/1_13_R2/EntityTippedArrow	%nm/entity/projectile/EntityTippedArrow	aom
+%nm/server/1_13_R2/EntityDragonFireball	%nm/entity/projectile/EntityDragonFireball	aon
+%nm/server/1_13_R2/EntityEvokerFangs	%nm/entity/projectile/EntityEvokerFangs	aoo
+%nm/server/1_13_R2/EntityEnderSignal	%nm/entity/item/EntityEnderEye	aop
+%nm/server/1_13_R2/EntityFireworks	%nm/entity/item/EntityFireworkRocket	aoq
+%nm/server/1_13_R2/EntityLargeFireball	%nm/entity/projectile/EntityLargeFireball	aor
+%nm/server/1_13_R2/EntityLlamaSpit	%nm/entity/projectile/EntityLlamaSpit	aos
+%nm/server/1_13_R2/IProjectile	%nm/entity/IProjectile	aot
+%nm/server/1_13_R2/ProjectileHelper	%nm/entity/projectile/ProjectileHelper	aou
+%nm/server/1_13_R2/EntityShulkerBullet	%nm/entity/projectile/EntityShulkerBullet	aov
+%nm/server/1_13_R2/EntitySmallFireball	%nm/entity/projectile/EntitySmallFireball	aow
+%nm/server/1_13_R2/EntitySnowball	%nm/entity/projectile/EntitySnowball	aox
+%nm/server/1_13_R2/EntitySpectralArrow	%nm/entity/projectile/EntitySpectralArrow	aoy
+%nm/server/1_13_R2/EntityProjectile	%nm/entity/projectile/EntityThrowable	aoz
+%nm/server/1_13_R2/EntityEgg	%nm/entity/projectile/EntityEgg	apa
+%nm/server/1_13_R2/EntityEnderPearl	%nm/entity/item/EntityEnderPearl	apb
+%nm/server/1_13_R2/EntityThrownExpBottle	%nm/entity/item/EntityExpBottle	apc
+%nm/server/1_13_R2/EntityPotion	%nm/entity/projectile/EntityPotion	apd
+%nm/server/1_13_R2/EntityThrownTrident	%nm/entity/projectile/EntityTrident	ape
+%nm/server/1_13_R2/EntityWitherSkull	%nm/entity/projectile/EntityWitherSkull	apf
+%nm/server/1_13_R2/EntityMinecartAbstract	%nm/entity/item/EntityMinecart	aph
+%nm/server/1_13_R2/EntityMinecartAbstract$EnumMinecartType	%nm/entity/item/EntityMinecart$Type	aph$a
+%nm/server/1_13_R2/EntityMinecartContainer	%nm/entity/item/EntityMinecartContainer	api
+%nm/server/1_13_R2/EntityBoat	%nm/entity/item/EntityBoat	apj
+%nm/server/1_13_R2/EntityBoat$EnumStatus	%nm/entity/item/EntityBoat$Status	apj$a
+%nm/server/1_13_R2/EntityBoat$EnumBoatType	%nm/entity/item/EntityBoat$Type	apj$b
+%nm/server/1_13_R2/EntityMinecartRideable	%nm/entity/item/EntityMinecartEmpty	apk
+%nm/server/1_13_R2/EntityMinecartChest	%nm/entity/item/EntityMinecartChest	apl
+%nm/server/1_13_R2/EntityMinecartCommandBlock	%nm/entity/item/EntityMinecartCommandBlock	apm
+%nm/server/1_13_R2/EntityMinecartCommandBlock$a	%nm/entity/item/EntityMinecartCommandBlock$MinecartCommandLogic	apm$a
+%nm/server/1_13_R2/EntityMinecartFurnace	%nm/entity/item/EntityMinecartFurnace	apn
+%nm/server/1_13_R2/EntityMinecartHopper	%nm/entity/item/EntityMinecartHopper	apo
+%nm/server/1_13_R2/EntityMinecartMobSpawner	%nm/entity/item/EntityMinecartMobSpawner	app
+%nm/server/1_13_R2/EntityMinecartMobSpawner$1	%nm/entity/item/EntityMinecartMobSpawner$1	app$1
+%nm/server/1_13_R2/EntityMinecartTNT	%nm/entity/item/EntityMinecartTNT	apq
+%nm/server/1_13_R2/FoodMetaData	%nm/util/FoodStats	apt
+%nm/server/1_13_R2/Container	%nm/inventory/Container	apv
+%nm/server/1_13_R2/ContainerAnvil	%nm/inventory/ContainerRepair	apw
+%nm/server/1_13_R2/ContainerAnvil$1	%nm/inventory/ContainerRepair$1	apw$1
+%nm/server/1_13_R2/ContainerAnvil$2	%nm/inventory/ContainerRepair$2	apw$2
+%nm/server/1_13_R2/ContainerBeacon	%nm/inventory/ContainerBeacon	apx
+%nm/server/1_13_R2/ContainerBeacon$SlotBeacon	%nm/inventory/ContainerBeacon$BeaconSlot	apx$a
+%nm/server/1_13_R2/ContainerBrewingStand	%nm/inventory/ContainerBrewingStand	apy
+%nm/server/1_13_R2/ContainerBrewingStand$a	%nm/inventory/ContainerBrewingStand$Fuel	apy$a
+%nm/server/1_13_R2/ContainerBrewingStand$SlotBrewing	%nm/inventory/ContainerBrewingStand$Ingredient	apy$b
+%nm/server/1_13_R2/ContainerBrewingStand$SlotPotionBottle	%nm/inventory/ContainerBrewingStand$Potion	apy$c
+%nm/server/1_13_R2/ContainerChest	%nm/inventory/ContainerChest	apz
+%nm/server/1_13_R2/InventoryClickType	%nm/inventory/ClickType	aqa
+%nm/server/1_13_R2/ICrafting	%nm/inventory/IContainerListener	aqb
+%nm/server/1_13_R2/InventoryCrafting	%nm/inventory/InventoryCrafting	aqc
+%nm/server/1_13_R2/ContainerWorkbench	%nm/inventory/ContainerWorkbench	aqd
+%nm/server/1_13_R2/ContainerDispenser	%nm/inventory/ContainerDispenser	aqe
+%nm/server/1_13_R2/ContainerEnchantTable	%nm/inventory/ContainerEnchantment	aqf
+%nm/server/1_13_R2/ContainerEnchantTable$1	%nm/inventory/ContainerEnchantment$1	aqf$1
+%nm/server/1_13_R2/ContainerEnchantTable$2	%nm/inventory/ContainerEnchantment$2	aqf$2
+%nm/server/1_13_R2/ContainerEnchantTable$3	%nm/inventory/ContainerEnchantment$3	aqf$3
+%nm/server/1_13_R2/SlotFurnaceFuel	%nm/inventory/SlotFurnaceFuel	aqg
+%nm/server/1_13_R2/ContainerFurnace	%nm/inventory/ContainerFurnace	aqh
+%nm/server/1_13_R2/SlotFurnaceResult	%nm/inventory/SlotFurnaceOutput	aqi
+%nm/server/1_13_R2/ContainerHopper	%nm/inventory/ContainerHopper	aqj
+%nm/server/1_13_R2/InventoryHorseChest	%nm/inventory/ContainerHorseChest	aqk
+%nm/server/1_13_R2/ContainerHorse	%nm/inventory/ContainerHorseInventory	aql
+%nm/server/1_13_R2/ContainerHorse$1	%nm/inventory/ContainerHorseInventory$1	aql$1
+%nm/server/1_13_R2/ContainerHorse$2	%nm/inventory/ContainerHorseInventory$2	aql$2
+%nm/server/1_13_R2/ContainerPlayer	%nm/inventory/ContainerPlayer	aqm
+%nm/server/1_13_R2/ContainerPlayer$1	%nm/inventory/ContainerPlayer$1	aqm$1
+%nm/server/1_13_R2/ContainerPlayer$2	%nm/inventory/ContainerPlayer$2	aqm$2
+%nm/server/1_13_R2/InventoryMerchant	%nm/inventory/InventoryMerchant	aqn
+%nm/server/1_13_R2/ContainerMerchant	%nm/inventory/ContainerMerchant	aqo
+%nm/server/1_13_R2/SlotMerchantResult	%nm/inventory/SlotMerchantResult	aqp
+%nm/server/1_13_R2/InventoryEnderChest	%nm/inventory/InventoryEnderChest	aqq
+%nm/server/1_13_R2/ContainerRecipeBook	%nm/inventory/ContainerRecipeBook	aqr
+%nm/server/1_13_R2/RecipeHolder	%nm/inventory/IRecipeHolder	aqs
+%nm/server/1_13_R2/InventoryCraftResult	%nm/inventory/InventoryCraftResult	aqt
+%nm/server/1_13_R2/SlotResult	%nm/inventory/SlotCrafting	aqu
+%nm/server/1_13_R2/ContainerShulkerBox	%nm/inventory/ContainerShulkerBox	aqv
+%nm/server/1_13_R2/SlotShulkerBox	%nm/inventory/SlotShulkerBox	aqw
+%nm/server/1_13_R2/Slot	%nm/inventory/Slot	aqx
+%nm/server/1_13_R2/AutoRecipeOutput	%nm/inventory/IRecipeHelperPopulator	aqy
+%nm/server/1_13_R2/ItemAir	%nm/item/ItemAir	ara
+%nm/server/1_13_R2/ItemArmor	%nm/item/ItemArmor	arb
+%nm/server/1_13_R2/ItemArmor$1	%nm/item/ItemArmor$1	arb$1
+%nm/server/1_13_R2/ArmorMaterial	%nm/item/IArmorMaterial	arc
+%nm/server/1_13_R2/EnumArmorMaterial	%nm/item/ArmorMaterial	ard
+%nm/server/1_13_R2/ItemArmorStand	%nm/item/ItemArmorStand	are
+%nm/server/1_13_R2/ItemArrow	%nm/item/ItemArrow	arf
+%nm/server/1_13_R2/ItemAxe	%nm/item/ItemAxe	arg
+%nm/server/1_13_R2/ItemBanner	%nm/item/ItemBanner	arh
+%nm/server/1_13_R2/ItemBed	%nm/item/ItemBed	ari
+%nm/server/1_13_R2/ItemBlock	%nm/item/ItemBlock	arj
+%nm/server/1_13_R2/BlockActionContext	%nm/item/BlockItemUseContext	ark
+%nm/server/1_13_R2/ItemBoat	%nm/item/ItemBoat	arl
+%nm/server/1_13_R2/ItemBoneMeal	%nm/item/ItemBoneMeal	arm
+%nm/server/1_13_R2/ItemBook	%nm/item/ItemBook	arn
+%nm/server/1_13_R2/ItemGlassBottle	%nm/item/ItemGlassBottle	aro
+%nm/server/1_13_R2/ItemBow	%nm/item/ItemBow	arp
+%nm/server/1_13_R2/ItemSoup	%nm/item/ItemSoup	arq
+%nm/server/1_13_R2/ItemBucket	%nm/item/ItemBucket	arr
+%nm/server/1_13_R2/ItemCarrotStick	%nm/item/ItemCarrotOnAStick	ars
+%nm/server/1_13_R2/ItemChorusFruit	%nm/item/ItemChorusFruit	art
+%nm/server/1_13_R2/ItemClock	%nm/item/ItemClock	aru
+%nm/server/1_13_R2/ItemClock$1	%nm/item/ItemClock$1	aru$1
+%nm/server/1_13_R2/ItemCocoa	%nm/item/ItemCocoa	arv
+%nm/server/1_13_R2/ItemCompass	%nm/item/ItemCompass	arw
+%nm/server/1_13_R2/ItemCompass$1	%nm/item/ItemCompass$1	arw$1
+%nm/server/1_13_R2/ItemWorldMapBase	%nm/item/ItemMapBase	arx
+%nm/server/1_13_R2/CreativeModeTab	%nm/item/ItemGroup	ary
+%nm/server/1_13_R2/CreativeModeTab$1	%nm/item/ItemGroup$1	ary$1
+%nm/server/1_13_R2/CreativeModeTab$2	%nm/item/ItemGroup$10	ary$2
+%nm/server/1_13_R2/CreativeModeTab$3	%nm/item/ItemGroup$11	ary$3
+%nm/server/1_13_R2/CreativeModeTab$4	%nm/item/ItemGroup$12	ary$4
+%nm/server/1_13_R2/CreativeModeTab$5	%nm/item/ItemGroup$2	ary$5
+%nm/server/1_13_R2/CreativeModeTab$6	%nm/item/ItemGroup$3	ary$6
+%nm/server/1_13_R2/CreativeModeTab$7	%nm/item/ItemGroup$4	ary$7
+%nm/server/1_13_R2/CreativeModeTab$8	%nm/item/ItemGroup$5	ary$8
+%nm/server/1_13_R2/CreativeModeTab$9	%nm/item/ItemGroup$6	ary$9
+%nm/server/1_13_R2/CreativeModeTab$10	%nm/item/ItemGroup$7	ary$10
+%nm/server/1_13_R2/CreativeModeTab$11	%nm/item/ItemGroup$8	ary$11
+%nm/server/1_13_R2/CreativeModeTab$12	%nm/item/ItemGroup$9	ary$12
+%nm/server/1_13_R2/ItemDebugStick	%nm/item/ItemDebugStick	arz
+%nm/server/1_13_R2/ItemTool	%nm/item/ItemTool	asa
+%nm/server/1_13_R2/ItemBisected	%nm/item/ItemBlockTall	asb
+%nm/server/1_13_R2/EnumColor	%nm/item/EnumDyeColor	asc
+%nm/server/1_13_R2/ItemDye	%nm/item/ItemDye	asd
+%nm/server/1_13_R2/ItemArmorColorable	%nm/item/ItemArmorDyeable	ase
+%nm/server/1_13_R2/ItemEgg	%nm/item/ItemEgg	asf
+%nm/server/1_13_R2/ItemElytra	%nm/item/ItemElytra	asg
+%nm/server/1_13_R2/ItemMapEmpty	%nm/item/ItemEmptyMap	ash
+%nm/server/1_13_R2/ItemEnchantedBook	%nm/item/ItemEnchantedBook	asi
+%nm/server/1_13_R2/ItemGoldenAppleEnchanted	%nm/item/ItemAppleGoldEnchanted	asj
+%nm/server/1_13_R2/ItemEndCrystal	%nm/item/ItemEndCrystal	ask
+%nm/server/1_13_R2/ItemEnderEye	%nm/item/ItemEnderEye	asl
+%nm/server/1_13_R2/ItemEnderPearl	%nm/item/ItemEnderPearl	asm
+%nm/server/1_13_R2/ItemExpBottle	%nm/item/ItemExpBottle	asn
+%nm/server/1_13_R2/ItemFireball	%nm/item/ItemFireCharge	aso
+%nm/server/1_13_R2/ItemFireworks	%nm/item/ItemFireworkRocket	asp
+%nm/server/1_13_R2/ItemFireworks$EffectType	%nm/item/ItemFireworkRocket$Shape	asp$a
+%nm/server/1_13_R2/ItemFireworksCharge	%nm/item/ItemFireworkStar	asq
+%nm/server/1_13_R2/ItemFishBucket	%nm/item/ItemBucketFish	asr
+%nm/server/1_13_R2/ItemFish	%nm/item/ItemFishFood	ass
+%nm/server/1_13_R2/ItemFish$EnumFish	%nm/item/ItemFishFood$FishType	ass$a
+%nm/server/1_13_R2/ItemFishingRod	%nm/item/ItemFishingRod	ast
+%nm/server/1_13_R2/ItemFlintAndSteel	%nm/item/ItemFlintAndSteel	asu
+%nm/server/1_13_R2/ItemFood	%nm/item/ItemFood	asv
+%nm/server/1_13_R2/ItemRestricted	%nm/item/ItemGMOnly	asw
+%nm/server/1_13_R2/ItemGoldenApple	%nm/item/ItemAppleGold	asx
+%nm/server/1_13_R2/ItemHanging	%nm/item/ItemHangingEntity	asy
+%nm/server/1_13_R2/ItemHoe	%nm/item/ItemHoe	asz
+%nm/server/1_13_R2/Item	%nm/item/Item	ata
+%nm/server/1_13_R2/Item$Info	%nm/item/Item$Properties	ata$a
+%nm/server/1_13_R2/ItemCooldown	%nm/util/CooldownTracker	atb
+%nm/server/1_13_R2/ItemCooldown$Info	%nm/util/CooldownTracker$Cooldown	atb$a
+%nm/server/1_13_R2/ItemItemFrame	%nm/item/ItemItemFrame	atc
+%nm/server/1_13_R2/IDynamicTexture	%nm/item/IItemPropertyGetter	atd
+%nm/server/1_13_R2/ItemStack	%nm/item/ItemStack	ate
+%nm/server/1_13_R2/Items	%nm/init/Items	atf
+%nm/server/1_13_R2/ItemKnowledgeBook	%nm/item/ItemKnowledgeBook	atg
+%nm/server/1_13_R2/ItemLeash	%nm/item/ItemLead	ath
+%nm/server/1_13_R2/ItemLingeringPotion	%nm/item/ItemLingeringPotion	ati
+%nm/server/1_13_R2/ItemWorldMap	%nm/item/ItemMap	atj
+%nm/server/1_13_R2/ItemMilkBucket	%nm/item/ItemBucketMilk	atk
+%nm/server/1_13_R2/ItemMinecart	%nm/item/ItemMinecart	atl
+%nm/server/1_13_R2/ItemMinecart$1	%nm/item/ItemMinecart$1	atl$1
+%nm/server/1_13_R2/ItemNameTag	%nm/item/ItemNameTag	atm
+%nm/server/1_13_R2/ItemPickaxe	%nm/item/ItemPickaxe	atn
+%nm/server/1_13_R2/ItemSkullPlayer	%nm/item/ItemSkull	ato
+%nm/server/1_13_R2/ItemPotion	%nm/item/ItemPotion	atp
+%nm/server/1_13_R2/EnumItemRarity	%nm/item/EnumRarity	atq
+%nm/server/1_13_R2/ItemRecord	%nm/item/ItemRecord	atr
+%nm/server/1_13_R2/ItemSaddle	%nm/item/ItemSaddle	ats
+%nm/server/1_13_R2/ItemSeedFood	%nm/item/ItemSeedFood	att
+%nm/server/1_13_R2/ItemSeeds	%nm/item/ItemSeeds	atu
+%nm/server/1_13_R2/ItemCooldownPlayer	%nm/util/CooldownTrackerServer	atv
+%nm/server/1_13_R2/ItemShears	%nm/item/ItemShears	atw
+%nm/server/1_13_R2/ItemShield	%nm/item/ItemShield	atx
+%nm/server/1_13_R2/ItemSpade	%nm/item/ItemSpade	aty
+%nm/server/1_13_R2/ItemSign	%nm/item/ItemSign	atz
+%nm/server/1_13_R2/ItemNetherStar	%nm/item/ItemSimpleFoiled	aua
+%nm/server/1_13_R2/ItemSnowball	%nm/item/ItemSnowball	aub
+%nm/server/1_13_R2/ItemMonsterEgg	%nm/item/ItemSpawnEgg	auc
+%nm/server/1_13_R2/ItemSpectralArrow	%nm/item/ItemSpectralArrow	aud
+%nm/server/1_13_R2/ItemSplashPotion	%nm/item/ItemSplashPotion	aue
+%nm/server/1_13_R2/ItemBlockWallable	%nm/item/ItemWallOrFloor	auf
+%nm/server/1_13_R2/ItemString	%nm/item/ItemString	aug
+%nm/server/1_13_R2/ItemSword	%nm/item/ItemSword	auh
+%nm/server/1_13_R2/ToolMaterial	%nm/item/IItemTier	aui
+%nm/server/1_13_R2/ItemToolMaterial	%nm/item/ItemTiered	auj
+%nm/server/1_13_R2/EnumToolMaterial	%nm/item/ItemTier	auk
+%nm/server/1_13_R2/ItemTippedArrow	%nm/item/ItemTippedArrow	aul
+%nm/server/1_13_R2/ItemTrident	%nm/item/ItemTrident	aun
+%nm/server/1_13_R2/EnumAnimation	%nm/item/EnumAction	auo
+%nm/server/1_13_R2/ItemActionContext	%nm/item/ItemUseContext	aup
+%nm/server/1_13_R2/ItemWaterLily	%nm/item/ItemLilyPad	auq
+%nm/server/1_13_R2/ItemBookAndQuill	%nm/item/ItemWritableBook	aur
+%nm/server/1_13_R2/ItemWrittenBook	%nm/item/ItemWrittenBook	aus
+%nm/server/1_13_R2/PotionRegistry	%nm/potion/PotionType	aut
+%nm/server/1_13_R2/PotionBrewer	%nm/potion/PotionBrewing	auu
+%nm/server/1_13_R2/PotionBrewer$PredicatedCombination	%nm/potion/PotionBrewing$MixPredicate	auu$a
+%nm/server/1_13_R2/PotionUtil	%nm/potion/PotionUtils	auv
+%nm/server/1_13_R2/Potions	%nm/init/PotionTypes	auw
+%nm/server/1_13_R2/RecipeArmorDye	%nm/item/crafting/RecipesArmorDyes	auz
+%nm/server/1_13_R2/RecipeBannerAdd	%nm/item/crafting/BannerAddPatternRecipe	ava
+%nm/server/1_13_R2/RecipeBannerDuplicate	%nm/item/crafting/BannerDuplicateRecipe	avb
+%nm/server/1_13_R2/RecipeBookClone	%nm/item/crafting/RecipeBookCloning	avc
+%nm/server/1_13_R2/IRecipeComplex	%nm/item/crafting/IRecipeHidden	avd
+%nm/server/1_13_R2/RecipeFireworks	%nm/item/crafting/FireworkRocketRecipe	ave
+%nm/server/1_13_R2/RecipeFireworksFade	%nm/item/crafting/FireworkStarFadeRecipe	avf
+%nm/server/1_13_R2/RecipeFireworksStar	%nm/item/crafting/FireworkStarRecipe	avg
+%nm/server/1_13_R2/RecipeItemStack	%nm/item/crafting/Ingredient	avh
+%nm/server/1_13_R2/RecipeItemStack$StackProvider	%nm/item/crafting/Ingredient$SingleItemList	avh$a
+%nm/server/1_13_R2/RecipeItemStack$b	%nm/item/crafting/Ingredient$TagList	avh$b
+%nm/server/1_13_R2/RecipeItemStack$Provider	%nm/item/crafting/Ingredient$IItemList	avh$c
+%nm/server/1_13_R2/RecipeMapClone	%nm/item/crafting/RecipesMapCloning	avi
+%nm/server/1_13_R2/RecipeMapExtend	%nm/item/crafting/RecipesMapExtending	avj
+%nm/server/1_13_R2/IRecipe	%nm/item/crafting/IRecipe	avk
+%nm/server/1_13_R2/CraftingManager	%nm/item/crafting/RecipeManager	avl
+%nm/server/1_13_R2/RecipeSerializer	%nm/item/crafting/IRecipeSerializer	avm
+%nm/server/1_13_R2/RecipeSerializers	%nm/item/crafting/RecipeSerializers	avn
+%nm/server/1_13_R2/RecipeSerializers$a	%nm/item/crafting/RecipeSerializers$SimpleSerializer	avn$a
+%nm/server/1_13_R2/RecipeRepair	%nm/item/crafting/RecipeRepairItem	avo
+%nm/server/1_13_R2/ShapedRecipes	%nm/item/crafting/ShapedRecipe	avp
+%nm/server/1_13_R2/ShapedRecipes$a	%nm/item/crafting/ShapedRecipe$Serializer	avp$a
+%nm/server/1_13_R2/ShapelessRecipes	%nm/item/crafting/ShapelessRecipe	avq
+%nm/server/1_13_R2/ShapelessRecipes$a	%nm/item/crafting/ShapelessRecipe$Serializer	avq$a
+%nm/server/1_13_R2/RecipiesShield	%nm/item/crafting/ShieldRecipes	avr
+%nm/server/1_13_R2/RecipeShulkerBox	%nm/item/crafting/ShulkerBoxColoringRecipe	avs
+%nm/server/1_13_R2/FurnaceRecipe	%nm/item/crafting/FurnaceRecipe	avt
+%nm/server/1_13_R2/FurnaceRecipe$a	%nm/item/crafting/FurnaceRecipe$Serializer	avt$a
+%nm/server/1_13_R2/RecipeTippedArrow	%nm/item/crafting/RecipeTippedArrow	avu
+%nm/server/1_13_R2/EnchantmentArrowDamage	%nm/enchantment/EnchantmentArrowDamage	avw
+%nm/server/1_13_R2/EnchantmentFlameArrows	%nm/enchantment/EnchantmentArrowFire	avx
+%nm/server/1_13_R2/EnchantmentInfiniteArrows	%nm/enchantment/EnchantmentArrowInfinite	avy
+%nm/server/1_13_R2/EnchantmentArrowKnockback	%nm/enchantment/EnchantmentArrowKnockback	avz
+%nm/server/1_13_R2/EnchantmentBinding	%nm/enchantment/EnchantmentBindingCurse	awa
+%nm/server/1_13_R2/EnchantmentWeaponDamage	%nm/enchantment/EnchantmentDamage	awb
+%nm/server/1_13_R2/EnchantmentDurability	%nm/enchantment/EnchantmentDurability	awc
+%nm/server/1_13_R2/EnchantmentDigging	%nm/enchantment/EnchantmentDigging	awd
+%nm/server/1_13_R2/Enchantment	%nm/enchantment/Enchantment	awe
+%nm/server/1_13_R2/Enchantment$Rarity	%nm/enchantment/Enchantment$Rarity	awe$a
+%nm/server/1_13_R2/EnchantmentSlotType	%nm/enchantment/EnumEnchantmentType	awf
+%nm/server/1_13_R2/EnchantmentSlotType$1	%nm/enchantment/EnumEnchantmentType$1	awf$1
+%nm/server/1_13_R2/EnchantmentSlotType$2	%nm/enchantment/EnumEnchantmentType$10	awf$2
+%nm/server/1_13_R2/EnchantmentSlotType$3	%nm/enchantment/EnumEnchantmentType$11	awf$3
+%nm/server/1_13_R2/EnchantmentSlotType$4	%nm/enchantment/EnumEnchantmentType$12	awf$4
+%nm/server/1_13_R2/EnchantmentSlotType$5	%nm/enchantment/EnumEnchantmentType$13	awf$5
+%nm/server/1_13_R2/EnchantmentSlotType$6	%nm/enchantment/EnumEnchantmentType$2	awf$6
+%nm/server/1_13_R2/EnchantmentSlotType$7	%nm/enchantment/EnumEnchantmentType$3	awf$7
+%nm/server/1_13_R2/EnchantmentSlotType$8	%nm/enchantment/EnumEnchantmentType$4	awf$8
+%nm/server/1_13_R2/EnchantmentSlotType$9	%nm/enchantment/EnumEnchantmentType$5	awf$9
+%nm/server/1_13_R2/EnchantmentSlotType$10	%nm/enchantment/EnumEnchantmentType$6	awf$10
+%nm/server/1_13_R2/EnchantmentSlotType$11	%nm/enchantment/EnumEnchantmentType$7	awf$11
+%nm/server/1_13_R2/EnchantmentSlotType$12	%nm/enchantment/EnumEnchantmentType$8	awf$12
+%nm/server/1_13_R2/EnchantmentSlotType$13	%nm/enchantment/EnumEnchantmentType$9	awf$13
+%nm/server/1_13_R2/EnchantmentManager	%nm/enchantment/EnchantmentHelper	awg
+%nm/server/1_13_R2/EnchantmentManager$a	%nm/enchantment/EnchantmentHelper$IEnchantmentVisitor	awg$a
+%nm/server/1_13_R2/WeightedRandomEnchant	%nm/enchantment/EnchantmentData	awh
+%nm/server/1_13_R2/Enchantments	%nm/init/Enchantments	awi
+%nm/server/1_13_R2/EnchantmentFire	%nm/enchantment/EnchantmentFireAspect	awj
+%nm/server/1_13_R2/EnchantmentLure	%nm/enchantment/EnchantmentFishingSpeed	awk
+%nm/server/1_13_R2/EnchantmentFrostWalker	%nm/enchantment/EnchantmentFrostWalker	awl
+%nm/server/1_13_R2/EnchantmentKnockback	%nm/enchantment/EnchantmentKnockback	awm
+%nm/server/1_13_R2/EnchantmentLootBonus	%nm/enchantment/EnchantmentLootBonus	awn
+%nm/server/1_13_R2/EnchantmentMending	%nm/enchantment/EnchantmentMending	awo
+%nm/server/1_13_R2/EnchantmentOxygen	%nm/enchantment/EnchantmentOxygen	awp
+%nm/server/1_13_R2/EnchantmentProtection	%nm/enchantment/EnchantmentProtection	awq
+%nm/server/1_13_R2/EnchantmentProtection$DamageType	%nm/enchantment/EnchantmentProtection$Type	awq$a
+%nm/server/1_13_R2/EnchantmentSweeping	%nm/enchantment/EnchantmentSweepingEdge	awr
+%nm/server/1_13_R2/EnchantmentThorns	%nm/enchantment/EnchantmentThorns	aws
+%nm/server/1_13_R2/EnchantmentTridentChanneling	%nm/enchantment/EnchantmentChanneling	awt
+%nm/server/1_13_R2/EnchantmentTridentImpaling	%nm/enchantment/EnchantmentImpaling	awu
+%nm/server/1_13_R2/EnchantmentTridentLoyalty	%nm/enchantment/EnchantmentLoyalty	awv
+%nm/server/1_13_R2/EnchantmentTridentRiptide	%nm/enchantment/EnchantmentRiptide	aww
+%nm/server/1_13_R2/EnchantmentSilkTouch	%nm/enchantment/EnchantmentUntouching	awx
+%nm/server/1_13_R2/EnchantmentVanishing	%nm/enchantment/EnchantmentVanishingCurse	awy
+%nm/server/1_13_R2/EnchantmentDepthStrider	%nm/enchantment/EnchantmentWaterWalker	awz
+%nm/server/1_13_R2/EnchantmentWaterWorker	%nm/enchantment/EnchantmentWaterWorker	axa
+%nm/server/1_13_R2/IMerchant	%nm/entity/IMerchant	axd
+%nm/server/1_13_R2/MerchantRecipe	%nm/village/MerchantRecipe	axe
+%nm/server/1_13_R2/MerchantRecipeList	%nm/village/MerchantRecipeList	axf
+%nm/server/1_13_R2/CommandBlockListenerAbstract	%nm/tileentity/CommandBlockBaseLogic	axh
+%nm/server/1_13_R2/MobSpawnerAbstract	%nm/tileentity/MobSpawnerBaseLogic	axi
+%nm/server/1_13_R2/BlockActionData	%nm/block/BlockEventData	axj
+%nm/server/1_13_R2/IBlockAccess	%nm/world/IBlockReader	axk
+%nm/server/1_13_R2/TextureType	%nm/util/BlockRenderLayer	axl
+%nm/server/1_13_R2/ChunkCoordIntPair	%nm/util/math/ChunkPos	axm
+%nm/server/1_13_R2/IEntityAccess	%nm/world/IEntityReader	axp
+%nm/server/1_13_R2/ExpiringMap	%nm/util/ExpiringMap	axq
+%nm/server/1_13_R2/Explosion	%nm/world/Explosion	axr
+%nm/server/1_13_R2/ForcedChunk	%nm/world/ForcedChunksSaveData	axt
+%nm/server/1_13_R2/GameRules	%nm/world/GameRules	axu
+%nm/server/1_13_R2/GameRules$GameRuleValue	%nm/world/GameRules$Value	axu$a
+%nm/server/1_13_R2/GameRules$GameRuleDefinition	%nm/world/GameRules$ValueDefinition	axu$b
+%nm/server/1_13_R2/GameRules$EnumGameRuleType	%nm/world/GameRules$ValueType	axu$c
+%nm/server/1_13_R2/EnumGamemode	%nm/world/GameType	axv
+%nm/server/1_13_R2/IMaterial	%nm/util/IItemProvider	axx
+%nm/server/1_13_R2/World	%nm/world/World	axy
+%nm/server/1_13_R2/GeneratorAccess	%nm/world/IWorld	axz
+%nm/server/1_13_R2/ExceptionWorldConflict	%nm/world/storage/SessionLockException	aya
+%nm/server/1_13_R2/IWorldAccess	%nm/world/IWorldEventListener	ayb
+%nm/server/1_13_R2/IWorldReader	%nm/world/IWorldReaderBase	ayc
+%nm/server/1_13_R2/WorldSettings	%nm/world/WorldSettings	ayd
+%nm/server/1_13_R2/IIBlockAccess	%nm/world/IWorldReader	aye
+%nm/server/1_13_R2/IPersistentAccess	%nm/world/ISaveDataAccess	ayf
+%nm/server/1_13_R2/WorldType	%nm/world/WorldType	ayg
+%nm/server/1_13_R2/IWorldWriter	%nm/world/IWorldWriter	ayh
+%nm/server/1_13_R2/EnumSkyBlock	%nm/world/EnumLightType	ayi
+%nm/server/1_13_R2/SpawnerCreature	%nm/world/WorldEntitySpawner	ayj
+%nm/server/1_13_R2/PortalTravelAgent	%nm/world/Teleporter	ayk
+%nm/server/1_13_R2/PortalTravelAgent$ChunkCoordinatesPortal	%nm/world/Teleporter$PortalPosition	ayk$a
+%nm/server/1_13_R2/ChunkCache	%nm/world/Region	ayl
+%nm/server/1_13_R2/TickListServer	%nm/world/ServerTickList	aym
+%nm/server/1_13_R2/MobSpawnerData	%nm/util/WeightedSpawnerEntity	ayn
+%nm/server/1_13_R2/TickList	%nm/world/ITickList	ayo
+%nm/server/1_13_R2/NextTickListEntry	%nm/world/NextTickListEntry	ayp
+%nm/server/1_13_R2/TickListPriority	%nm/world/TickPriority	ayq
+%nm/server/1_13_R2/BiomeMesa	%nm/world/biome/BadlandsBiome	ayr
+%nm/server/1_13_R2/BiomeMesaPlataeuClear	%nm/world/biome/BadlandsPlateauBiome	ays
+%nm/server/1_13_R2/BiomeBeach	%nm/world/biome/BeachBiome	ayt
+%nm/server/1_13_R2/BiomeBase	%nm/world/biome/Biome	ayu
+%nm/server/1_13_R2/BiomeBase$a	%nm/world/biome/Biome$BiomeBuilder	ayu$a
+%nm/server/1_13_R2/BiomeBase$Geography	%nm/world/biome/Biome$Category	ayu$b
+%nm/server/1_13_R2/BiomeBase$EnumTemperature	%nm/world/biome/Biome$TempCategory	ayu$c
+%nm/server/1_13_R2/BiomeBase$Precipitation	%nm/world/biome/Biome$RainType	ayu$d
+%nm/server/1_13_R2/BiomeBase$BiomeMeta	%nm/world/biome/Biome$SpawnListEntry	ayu$e
+%nm/server/1_13_R2/BiomeCache	%nm/world/biome/BiomeCache	ayv
+%nm/server/1_13_R2/BiomeCache$1	%nm/world/biome/BiomeCache$1	ayv$1
+%nm/server/1_13_R2/BiomeCache$a	%nm/world/biome/BiomeCache$Entry	ayv$a
+%nm/server/1_13_R2/WorldChunkManager	%nm/world/biome/provider/BiomeProvider	ayw
+%nm/server/1_13_R2/BiomeLayoutConfiguration	%nm/world/biome/provider/IBiomeProviderSettings	ayx
+%nm/server/1_13_R2/BiomeLayout	%nm/world/biome/provider/BiomeProviderType	ayy
+%nm/server/1_13_R2/Biomes	%nm/init/Biomes	ayz
+%nm/server/1_13_R2/BiomeBirchForest	%nm/world/biome/BirchForestBiome	aza
+%nm/server/1_13_R2/BiomeBirchForestHills	%nm/world/biome/BirchForestHillsBiome	azb
+%nm/server/1_13_R2/WorldChunkManagerCheckerBoard	%nm/world/biome/provider/CheckerboardBiomeProvider	azc
+%nm/server/1_13_R2/BiomeLayoutCheckerboardConfiguration	%nm/world/biome/provider/CheckerboardBiomeProviderSettings	azd
+%nm/server/1_13_R2/BiomeColdOcean	%nm/world/biome/ColdOceanBiome	aze
+%nm/server/1_13_R2/BiomeRoofedForest	%nm/world/biome/DarkForestBiome	azf
+%nm/server/1_13_R2/BiomeRoofedForestMutated	%nm/world/biome/DarkForestHillsBiome	azg
+%nm/server/1_13_R2/BiomeColdDeepOcean	%nm/world/biome/DeepColdOceanBiome	azh
+%nm/server/1_13_R2/BiomeFrozenDeepOcean	%nm/world/biome/DeepFrozenOceanBiome	azi
+%nm/server/1_13_R2/BiomeLukewarmDeepOcean	%nm/world/biome/DeepLukewarmOceanBiome	azj
+%nm/server/1_13_R2/BiomeDeepOcean	%nm/world/biome/DeepOceanBiome	azk
+%nm/server/1_13_R2/BiomeWarmDeepOcean	%nm/world/biome/DeepWarmOceanBiome	azl
+%nm/server/1_13_R2/BiomeDesert	%nm/world/biome/DesertBiome	azm
+%nm/server/1_13_R2/BiomeDesertHills	%nm/world/biome/DesertHillsBiome	azn
+%nm/server/1_13_R2/BiomeDesertMutated	%nm/world/biome/DesertLakesBiome	azo
+%nm/server/1_13_R2/BiomeTheEndBarrenIsland	%nm/world/biome/EndBarrensBiome	azp
+%nm/server/1_13_R2/BiomeTheEndHighIsland	%nm/world/biome/EndHighlandsBiome	azq
+%nm/server/1_13_R2/BiomeTheEndMediumIsland	%nm/world/biome/EndMidlandsBiome	azr
+%nm/server/1_13_R2/BiomeMesaBryce	%nm/world/biome/ErodedBadlandsBiome	azs
+%nm/server/1_13_R2/WorldChunkManagerHell	%nm/world/biome/provider/SingleBiomeProvider	azt
+%nm/server/1_13_R2/BiomeLayoutFixedConfiguration	%nm/world/biome/provider/SingleBiomeProviderSettings	azu
+%nm/server/1_13_R2/BiomeForest	%nm/world/biome/ForestBiome	azv
+%nm/server/1_13_R2/BiomeFlowerForest	%nm/world/biome/FlowerForestBiome	azw
+%nm/server/1_13_R2/BiomeFrozenOcean	%nm/world/biome/FrozenOceanBiome	azx
+%nm/server/1_13_R2/BiomeFrozenRiver	%nm/world/biome/FrozenRiverBiome	azy
+%nm/server/1_13_R2/BiomeMegaSpruceTaiga	%nm/world/biome/GiantSpruceTaigaBiome	azz
+%nm/server/1_13_R2/BiomeRedwoodTaigaHillsMutated	%nm/world/biome/GiantSpruceTaigaHillsBiome	baa
+%nm/server/1_13_R2/BiomeMegaTaiga	%nm/world/biome/GiantTreeTaigaBiome	bab
+%nm/server/1_13_R2/BiomeMegaTaigaHills	%nm/world/biome/GiantTreeTaigaHillsBiome	bac
+%nm/server/1_13_R2/BiomeExtremeHillsMutated	%nm/world/biome/GravellyMountainsBiome	bad
+%nm/server/1_13_R2/BiomeIcePlainsSpikes	%nm/world/biome/IceSpikesBiome	bae
+%nm/server/1_13_R2/BiomeJungle	%nm/world/biome/JungleBiome	baf
+%nm/server/1_13_R2/BiomeJungleEdge	%nm/world/biome/JungleEdgeBiome	bag
+%nm/server/1_13_R2/BiomeJungleHills	%nm/world/biome/JungleHillsBiome	bah
+%nm/server/1_13_R2/BiomeLukewarmOcean	%nm/world/biome/LukewarmOceanBiome	bai
+%nm/server/1_13_R2/BiomeMesaPlateauClearMutated	%nm/world/biome/ModifiedBadlandsPlateauBiome	baj
+%nm/server/1_13_R2/BiomeExtremeHillsWithTreesMutated	%nm/world/biome/ModifiedGravellyMountainsBiome	bak
+%nm/server/1_13_R2/BiomeJungleMutated	%nm/world/biome/ModifiedJungleBiome	bal
+%nm/server/1_13_R2/BiomeJungleEdgeMutated	%nm/world/biome/ModifiedJungleEdgeBiome	bam
+%nm/server/1_13_R2/BiomeMesaPlateauMutated	%nm/world/biome/ModifiedWoodedBadlandsPlateauBiome	ban
+%nm/server/1_13_R2/BiomeBigHills	%nm/world/biome/MountainsBiome	bao
+%nm/server/1_13_R2/BiomeExtremeHillsEdge	%nm/world/biome/MountainEdgeBiome	bap
+%nm/server/1_13_R2/BiomeMushrooms	%nm/world/biome/MushroomFieldsBiome	baq
+%nm/server/1_13_R2/BiomeMushroomIslandShore	%nm/world/biome/MushroomFieldShoreBiome	bar
+%nm/server/1_13_R2/BiomeHell	%nm/world/biome/NetherBiome	bas
+%nm/server/1_13_R2/BiomeOcean	%nm/world/biome/OceanBiome	bat
+%nm/server/1_13_R2/WorldChunkManagerOverworld	%nm/world/biome/provider/OverworldBiomeProvider	bau
+%nm/server/1_13_R2/BiomeLayoutOverworldConfiguration	%nm/world/biome/provider/OverworldBiomeProviderSettings	bav
+%nm/server/1_13_R2/BiomePlains	%nm/world/biome/PlainsBiome	baw
+%nm/server/1_13_R2/BiomeRiver	%nm/world/biome/RiverBiome	bax
+%nm/server/1_13_R2/BiomeSavanna	%nm/world/biome/SavannaBiome	bay
+%nm/server/1_13_R2/BiomeSavannaPlateau	%nm/world/biome/SavannaPlateauBiome	baz
+%nm/server/1_13_R2/BiomeSavannaMutated	%nm/world/biome/ShatteredSavannaBiome	bba
+%nm/server/1_13_R2/BiomeSavannaPlateauMutated	%nm/world/biome/ShatteredSavannaPlateauBiome	bbb
+%nm/server/1_13_R2/BiomeTheEndFloatingIslands	%nm/world/biome/SmallEndIslandsBiome	bbc
+%nm/server/1_13_R2/BiomeColdBeach	%nm/world/biome/SnowyBeachBiome	bbd
+%nm/server/1_13_R2/BiomeIceMountains	%nm/world/biome/SnowyMountainsBiome	bbe
+%nm/server/1_13_R2/BiomeColdTaiga	%nm/world/biome/SnowyTaigaBiome	bbf
+%nm/server/1_13_R2/BiomeColdTaigaHills	%nm/world/biome/SnowyTaigaHillsBiome	bbg
+%nm/server/1_13_R2/BiomeColdTaigaMutated	%nm/world/biome/SnowyTaigaMountainsBiome	bbh
+%nm/server/1_13_R2/BiomeIcePlains	%nm/world/biome/SnowyTundraBiome	bbi
+%nm/server/1_13_R2/BiomeStoneBeach	%nm/world/biome/StoneShoreBiome	bbj
+%nm/server/1_13_R2/BiomeSunflowerPlains	%nm/world/biome/SunflowerPlainsBiome	bbk
+%nm/server/1_13_R2/BiomeSwamp	%nm/world/biome/SwampBiome	bbl
+%nm/server/1_13_R2/BiomeSwamplandMutated	%nm/world/biome/SwampHillsBiome	bbm
+%nm/server/1_13_R2/BiomeTaiga	%nm/world/biome/TaigaBiome	bbn
+%nm/server/1_13_R2/BiomeTaigaHills	%nm/world/biome/TaigaHillsBiome	bbo
+%nm/server/1_13_R2/BiomeTaigaMutated	%nm/world/biome/TaigaMountainsBiome	bbp
+%nm/server/1_13_R2/BiomeBirchForestMutated	%nm/world/biome/TallBirchForestBiome	bbq
+%nm/server/1_13_R2/BiomeBirchForestHillsMutated	%nm/world/biome/TallBirchHillsBiome	bbr
+%nm/server/1_13_R2/BiomeTheEnd	%nm/world/biome/TheEndBiome	bbs
+%nm/server/1_13_R2/WorldChunkManagerTheEnd	%nm/world/biome/provider/EndBiomeProvider	bbt
+%nm/server/1_13_R2/BiomeLayoutTheEndConfiguration	%nm/world/biome/provider/EndBiomeProviderSettings	bbu
+%nm/server/1_13_R2/BiomeVoid	%nm/world/biome/TheVoidBiome	bbv
+%nm/server/1_13_R2/BiomeWarmOcean	%nm/world/biome/WarmOceanBiome	bbw
+%nm/server/1_13_R2/BiomeMesaPlataeu	%nm/world/biome/WoodedBadlandsPlateauBiome	bbx
+%nm/server/1_13_R2/BiomeForestHills	%nm/world/biome/WoodedHillsBiome	bby
+%nm/server/1_13_R2/BiomeExtremeHillsWithTrees	%nm/world/biome/WoodedMountainsBiome	bbz
+%nm/server/1_13_R2/BlockBannerAbstract	%nm/block/BlockAbstractBanner	bcb
+%nm/server/1_13_R2/BlockSkullAbstract	%nm/block/BlockAbstractSkull	bcc
+%nm/server/1_13_R2/BlockAir	%nm/block/BlockAir	bcd
+%nm/server/1_13_R2/BlockAnvil	%nm/block/BlockAnvil	bce
+%nm/server/1_13_R2/BlockAnvil$TileEntityContainerAnvil	%nm/block/BlockAnvil$Anvil	bce$a
+%nm/server/1_13_R2/BlockStemAttached	%nm/block/BlockAttachedStem	bcf
+%nm/server/1_13_R2/BlockBanner	%nm/block/BlockBanner	bcg
+%nm/server/1_13_R2/BlockBarrier	%nm/block/BlockBarrier	bch
+%nm/server/1_13_R2/BlockCoralFanAbstract	%nm/block/BlockCoralFan	bci
+%nm/server/1_13_R2/BlockCoralDead	%nm/block/BlockCoralPlantDead	bcj
+%nm/server/1_13_R2/BlockCoralBase	%nm/block/BlockCoralPlantBase	bck
+%nm/server/1_13_R2/BlockCoralFanWallAbstract	%nm/block/BlockCoralWallFanDead	bcl
+%nm/server/1_13_R2/BlockTileEntity	%nm/block/BlockContainer	bcm
+%nm/server/1_13_R2/BlockPressurePlateAbstract	%nm/block/BlockBasePressurePlate	bcn
+%nm/server/1_13_R2/BlockMinecartTrackAbstract	%nm/block/BlockRailBase	bco
+%nm/server/1_13_R2/BlockBeacon	%nm/block/BlockBeacon	bcp
+%nm/server/1_13_R2/BlockBed	%nm/block/BlockBed	bcq
+%nm/server/1_13_R2/BlockBeetroot	%nm/block/BlockBeetroot	bcr
+%nm/server/1_13_R2/Block	%nm/block/Block	bcs
+%nm/server/1_13_R2/Block$1	%nm/block/Block$1	bcs$1
+%nm/server/1_13_R2/Block$a	%nm/block/Block$RenderSideCacheKey	bcs$a
+%nm/server/1_13_R2/Block$EnumRandomOffset	%nm/block/Block$EnumOffsetType	bcs$b
+%nm/server/1_13_R2/Block$Info	%nm/block/Block$Properties	bcs$c
+%nm/server/1_13_R2/Blocks	%nm/init/Blocks	bct
+%nm/server/1_13_R2/BlockBlueIce	%nm/block/BlockBlueIce	bcu
+%nm/server/1_13_R2/IBlockFragilePlantElement	%nm/block/IGrowable	bcv
+%nm/server/1_13_R2/BlockBookshelf	%nm/block/BlockBookshelf	bcw
+%nm/server/1_13_R2/BlockBrewingStand	%nm/block/BlockBrewingStand	bcx
+%nm/server/1_13_R2/BlockBubbleColumn	%nm/block/BlockBubbleColumn	bcy
+%nm/server/1_13_R2/IFluidSource	%nm/block/IBucketPickupHandler	bcz
+%nm/server/1_13_R2/BlockPlant	%nm/block/BlockBush	bda
+%nm/server/1_13_R2/BlockButtonAbstract	%nm/block/BlockButton	bdb
+%nm/server/1_13_R2/BlockCactus	%nm/block/BlockCactus	bdc
+%nm/server/1_13_R2/BlockCake	%nm/block/BlockCake	bdd
+%nm/server/1_13_R2/BlockCarrots	%nm/block/BlockCarrot	bde
+%nm/server/1_13_R2/BlockPumpkinCarved	%nm/block/BlockCarvedPumpkin	bdf
+%nm/server/1_13_R2/BlockCauldron	%nm/block/BlockCauldron	bdg
+%nm/server/1_13_R2/BlockChest	%nm/block/BlockChest	bdh
+%nm/server/1_13_R2/BlockChorusFlower	%nm/block/BlockChorusFlower	bdi
+%nm/server/1_13_R2/BlockChorusFruit	%nm/block/BlockChorusPlant	bdj
+%nm/server/1_13_R2/BlockClay	%nm/block/BlockClay	bdk
+%nm/server/1_13_R2/BlockCocoa	%nm/block/BlockCocoa	bdl
+%nm/server/1_13_R2/BlockCommand	%nm/block/BlockCommandBlock	bdm
+%nm/server/1_13_R2/BlockRedstoneComparator	%nm/block/BlockRedstoneComparator	bdn
+%nm/server/1_13_R2/BlockConcretePowder	%nm/block/BlockConcretePowder	bdo
+%nm/server/1_13_R2/BlockConduit	%nm/block/BlockConduit	bdp
+%nm/server/1_13_R2/BlockCoral	%nm/block/BlockCoral	bdq
+%nm/server/1_13_R2/BlockCoralFan	%nm/block/BlockCoralFin	bdr
+%nm/server/1_13_R2/BlockCoralPlant	%nm/block/BlockCoralPlant	bds
+%nm/server/1_13_R2/BlockCoralFanWall	%nm/block/BlockCoralWallFan	bdt
+%nm/server/1_13_R2/BlockWorkbench	%nm/block/BlockWorkbench	bdu
+%nm/server/1_13_R2/BlockWorkbench$TileEntityContainerWorkbench	%nm/block/BlockWorkbench$InterfaceCraftingTable	bdu$a
+%nm/server/1_13_R2/BlockCrops	%nm/block/BlockCrops	bdv
+%nm/server/1_13_R2/BlockTall	%nm/block/BlockFourWay	bdw
+%nm/server/1_13_R2/BlockDaylightDetector	%nm/block/BlockDaylightDetector	bdx
+%nm/server/1_13_R2/BlockDeadBush	%nm/block/BlockDeadBush	bdy
+%nm/server/1_13_R2/BlockMinecartDetector	%nm/block/BlockRailDetector	bdz
+%nm/server/1_13_R2/BlockDiodeAbstract	%nm/block/BlockRedstoneDiode	bea
+%nm/server/1_13_R2/BlockDirectional	%nm/block/BlockDirectional	beb
+%nm/server/1_13_R2/BlockDispenser	%nm/block/BlockDispenser	bec
+%nm/server/1_13_R2/BlockDoor	%nm/block/BlockDoor	bed
+%nm/server/1_13_R2/BlockTallPlant	%nm/block/BlockDoublePlant	bee
+%nm/server/1_13_R2/BlockDragonEgg	%nm/block/BlockDragonEgg	bef
+%nm/server/1_13_R2/BlockDropper	%nm/block/BlockDropper	beg
+%nm/server/1_13_R2/BlockEnchantmentTable	%nm/block/BlockEnchantmentTable	beh
+%nm/server/1_13_R2/BlockEndGateway	%nm/block/BlockEndGateway	bei
+%nm/server/1_13_R2/BlockEnderPortal	%nm/block/BlockEndPortal	bej
+%nm/server/1_13_R2/BlockEnderPortalFrame	%nm/block/BlockEndPortalFrame	bek
+%nm/server/1_13_R2/BlockEndRod	%nm/block/BlockEndRod	bel
+%nm/server/1_13_R2/BlockEnderChest	%nm/block/BlockEnderChest	bem
+%nm/server/1_13_R2/ITileEntity	%nm/block/ITileEntityProvider	ben
+%nm/server/1_13_R2/BlockAttachable	%nm/block/BlockHorizontalFace	beo
+%nm/server/1_13_R2/BlockFalling	%nm/block/BlockFalling	bep
+%nm/server/1_13_R2/BlockSoil	%nm/block/BlockFarmland	beq
+%nm/server/1_13_R2/BlockFence	%nm/block/BlockFence	ber
+%nm/server/1_13_R2/BlockFenceGate	%nm/block/BlockFenceGate	bes
+%nm/server/1_13_R2/BlockFire	%nm/block/BlockFire	bet
+%nm/server/1_13_R2/BlockFlowers	%nm/block/BlockFlower	beu
+%nm/server/1_13_R2/BlockFlowerPot	%nm/block/BlockFlowerPot	bev
+%nm/server/1_13_R2/BlockIceFrost	%nm/block/BlockFrostedIce	bew
+%nm/server/1_13_R2/BlockFurnace	%nm/block/BlockFurnace	bex
+%nm/server/1_13_R2/BlockGlass	%nm/block/BlockGlass	bey
+%nm/server/1_13_R2/BlockGlassPane	%nm/block/BlockGlassPane	bez
+%nm/server/1_13_R2/BlockGlazedTerracotta	%nm/block/BlockGlazedTerracotta	bfa
+%nm/server/1_13_R2/BlockLightStone	%nm/block/BlockGlowstone	bfb
+%nm/server/1_13_R2/BlockGrass	%nm/block/BlockGrass	bfc
+%nm/server/1_13_R2/BlockGrassPath	%nm/block/BlockGrassPath	bfd
+%nm/server/1_13_R2/BlockGravel	%nm/block/BlockGravel	bfe
+%nm/server/1_13_R2/BlockHalfTransparent	%nm/block/BlockBreakable	bff
+%nm/server/1_13_R2/BlockHay	%nm/block/BlockHay	bfg
+%nm/server/1_13_R2/BlockHopper	%nm/block/BlockHopper	bfh
+%nm/server/1_13_R2/BlockFacingHorizontal	%nm/block/BlockHorizontal	bfi
+%nm/server/1_13_R2/BlockHugeMushroom	%nm/block/BlockHugeMushroom	bfj
+%nm/server/1_13_R2/BlockIce	%nm/block/BlockIce	bfk
+%nm/server/1_13_R2/BlockMonsterEggs	%nm/block/BlockSilverfish	bfl
+%nm/server/1_13_R2/BlockIronBars	%nm/block/BlockPane	bfm
+%nm/server/1_13_R2/BlockJukeBox	%nm/block/BlockJukebox	bfn
+%nm/server/1_13_R2/BlockKelp	%nm/block/BlockKelpTop	bfo
+%nm/server/1_13_R2/BlockKelpPlant	%nm/block/BlockKelp	bfp
+%nm/server/1_13_R2/BlockLadder	%nm/block/BlockLadder	bfq
+%nm/server/1_13_R2/BlockLeaves	%nm/block/BlockLeaves	bfr
+%nm/server/1_13_R2/BlockLever	%nm/block/BlockLever	bft
+%nm/server/1_13_R2/BlockFluids	%nm/block/BlockFlowingFluid	bfu
+%nm/server/1_13_R2/IFluidContainer	%nm/block/ILiquidContainer	bfv
+%nm/server/1_13_R2/BlockLogAbstract	%nm/block/BlockLog	bfw
+%nm/server/1_13_R2/BlockMagma	%nm/block/BlockMagma	bfx
+%nm/server/1_13_R2/BlockMelon	%nm/block/BlockMelon	bfy
+%nm/server/1_13_R2/EnumBlockMirror	%nm/util/Mirror	bfz
+%nm/server/1_13_R2/BlockMushroom	%nm/block/BlockMushroom	bga
+%nm/server/1_13_R2/BlockMycel	%nm/block/BlockMycelium	bgb
+%nm/server/1_13_R2/BlockPortal	%nm/block/BlockPortal	bgc
+%nm/server/1_13_R2/BlockPortal$Shape	%nm/block/BlockPortal$Size	bgc$a
+%nm/server/1_13_R2/BlockNetherWart	%nm/block/BlockNetherWart	bgd
+%nm/server/1_13_R2/BlockNoDrop	%nm/block/BlockEmptyDrops	bge
+%nm/server/1_13_R2/BlockNote	%nm/block/BlockNote	bgf
+%nm/server/1_13_R2/BlockObserver	%nm/block/BlockObserver	bgg
+%nm/server/1_13_R2/BlockOre	%nm/block/BlockOre	bgh
+%nm/server/1_13_R2/BlockPackedIce	%nm/block/BlockPackedIce	bgi
+%nm/server/1_13_R2/BlockSprawling	%nm/block/BlockSixWay	bgj
+%nm/server/1_13_R2/BlockSkullPlayer	%nm/block/BlockSkullPlayer	bgk
+%nm/server/1_13_R2/BlockSkullPlayerWall	%nm/block/BlockSkullWallPlayer	bgl
+%nm/server/1_13_R2/BlockPotatoes	%nm/block/BlockPotato	bgm
+%nm/server/1_13_R2/BlockPowered	%nm/block/BlockRedstone	bgn
+%nm/server/1_13_R2/BlockPoweredRail	%nm/block/BlockRailPowered	bgo
+%nm/server/1_13_R2/BlockPressurePlateBinary	%nm/block/BlockPressurePlate	bgp
+%nm/server/1_13_R2/BlockPressurePlateBinary$EnumMobType	%nm/block/BlockPressurePlate$Sensitivity	bgp$a
+%nm/server/1_13_R2/BlockPumpkin	%nm/block/BlockPumpkin	bgq
+%nm/server/1_13_R2/BlockMinecartTrack	%nm/block/BlockRail	bgr
+%nm/server/1_13_R2/MinecartTrackLogic	%nm/block/BlockRailState	bgs
+%nm/server/1_13_R2/BlockRedstoneOre	%nm/block/BlockRedstoneOre	bgt
+%nm/server/1_13_R2/BlockRedstoneWire	%nm/block/BlockRedstoneWire	bgu
+%nm/server/1_13_R2/BlockRedstoneLamp	%nm/block/BlockRedstoneLamp	bgv
+%nm/server/1_13_R2/BlockRedstoneTorch	%nm/block/BlockRedstoneTorch	bgw
+%nm/server/1_13_R2/BlockRedstoneTorch$RedstoneUpdateInfo	%nm/block/BlockRedstoneTorch$Toggle	bgw$a
+%nm/server/1_13_R2/BlockRedstoneTorchWall	%nm/block/BlockRedstoneTorchWall	bgx
+%nm/server/1_13_R2/EnumRenderType	%nm/util/EnumBlockRenderType	bgy
+%nm/server/1_13_R2/BlockRepeater	%nm/block/BlockRedstoneRepeater	bgz
+%nm/server/1_13_R2/BlockRotatable	%nm/block/BlockRotatedPillar	bha
+%nm/server/1_13_R2/EnumBlockRotation	%nm/util/Rotation	bhb
+%nm/server/1_13_R2/BlockSand	%nm/block/BlockSand	bhc
+%nm/server/1_13_R2/BlockSapling	%nm/block/BlockSapling	bhd
+%nm/server/1_13_R2/BlockSeaLantern	%nm/block/BlockSeaLantern	bhe
+%nm/server/1_13_R2/BlockSeaPickle	%nm/block/BlockSeaPickle	bhf
+%nm/server/1_13_R2/BlockSeaGrass	%nm/block/BlockSeaGrass	bhg
+%nm/server/1_13_R2/BlockTallPlantShearable	%nm/block/BlockShearableDoublePlant	bhh
+%nm/server/1_13_R2/BlockShulkerBox	%nm/block/BlockShulkerBox	bhi
+%nm/server/1_13_R2/BlockSign	%nm/block/BlockSign	bhj
+%nm/server/1_13_R2/BlockSkull	%nm/block/BlockSkull	bhk
+%nm/server/1_13_R2/BlockSkull$a	%nm/block/BlockSkull$ISkullType	bhk$a
+%nm/server/1_13_R2/BlockSkull$Type	%nm/block/BlockSkull$Types	bhk$b
+%nm/server/1_13_R2/BlockStepAbstract	%nm/block/BlockSlab	bhl
+%nm/server/1_13_R2/BlockSlime	%nm/block/BlockSlime	bhm
+%nm/server/1_13_R2/BlockSnowBlock	%nm/block/BlockSnow	bhn
+%nm/server/1_13_R2/BlockSnow	%nm/block/BlockSnowLayer	bho
+%nm/server/1_13_R2/BlockDirtSnow	%nm/block/BlockDirtSnowy	bhp
+%nm/server/1_13_R2/BlockSlowSand	%nm/block/BlockSoulSand	bhq
+%nm/server/1_13_R2/SoundEffectType	%nm/block/SoundType	bhr
+%nm/server/1_13_R2/BlockMobSpawner	%nm/block/BlockMobSpawner	bhs
+%nm/server/1_13_R2/BlockSponge	%nm/block/BlockSponge	bht
+%nm/server/1_13_R2/BlockDirtSnowSpreadable	%nm/block/BlockDirtSnowySpreadable	bhu
+%nm/server/1_13_R2/BlockStainedGlass	%nm/block/BlockStainedGlass	bhv
+%nm/server/1_13_R2/BlockStainedGlassPane	%nm/block/BlockStainedGlassPane	bhw
+%nm/server/1_13_R2/BlockStairs	%nm/block/BlockStairs	bhx
+%nm/server/1_13_R2/BlockFloorSign	%nm/block/BlockStandingSign	bhy
+%nm/server/1_13_R2/BlockStem	%nm/block/BlockStem	bhz
+%nm/server/1_13_R2/BlockStemmed	%nm/block/BlockStemGrown	bia
+%nm/server/1_13_R2/BlockStone	%nm/block/BlockStone	bib
+%nm/server/1_13_R2/BlockStoneButton	%nm/block/BlockButtonStone	bic
+%nm/server/1_13_R2/BlockStructure	%nm/block/BlockStructure	bid
+%nm/server/1_13_R2/BlockStructureVoid	%nm/block/BlockStructureVoid	bie
+%nm/server/1_13_R2/BlockReed	%nm/block/BlockReed	bif
+%nm/server/1_13_R2/BlockTallPlantFlower	%nm/block/BlockTallFlower	big
+%nm/server/1_13_R2/BlockLongGrass	%nm/block/BlockTallGrass	bih
+%nm/server/1_13_R2/BlockTallSeaGrass	%nm/block/BlockSeaGrassTall	bii
+%nm/server/1_13_R2/BlockTNT	%nm/block/BlockTNT	bij
+%nm/server/1_13_R2/BlockTorch	%nm/block/BlockTorch	bik
+%nm/server/1_13_R2/BlockTrapdoor	%nm/block/BlockTrapDoor	bil
+%nm/server/1_13_R2/BlockChestTrapped	%nm/block/BlockTrappedChest	bim
+%nm/server/1_13_R2/BlockTripwire	%nm/block/BlockTripWire	bin
+%nm/server/1_13_R2/BlockTripwireHook	%nm/block/BlockTripWireHook	bio
+%nm/server/1_13_R2/BlockTurtleEgg	%nm/block/BlockTurtleEgg	bip
+%nm/server/1_13_R2/BlockVine	%nm/block/BlockVine	biq
+%nm/server/1_13_R2/BlockBannerWall	%nm/block/BlockBannerWall	bir
+%nm/server/1_13_R2/BlockCobbleWall	%nm/block/BlockWall	bis
+%nm/server/1_13_R2/BlockWallSign	%nm/block/BlockWallSign	bit
+%nm/server/1_13_R2/BlockSkullWall	%nm/block/BlockSkullWall	biu
+%nm/server/1_13_R2/BlockTorchWall	%nm/block/BlockTorchWall	biv
+%nm/server/1_13_R2/BlockWaterLily	%nm/block/BlockLilyPad	biw
+%nm/server/1_13_R2/BlockWeb	%nm/block/BlockWeb	bix
+%nm/server/1_13_R2/BlockPressurePlateWeighted	%nm/block/BlockPressurePlateWeighted	biy
+%nm/server/1_13_R2/BlockWetSponge	%nm/block/BlockWetSponge	biz
+%nm/server/1_13_R2/BlockWitherSkull	%nm/block/BlockSkullWither	bja
+%nm/server/1_13_R2/BlockWitherSkullWall	%nm/block/BlockSkullWitherWall	bjb
+%nm/server/1_13_R2/BlockWoodButton	%nm/block/BlockButtonWood	bjc
+%nm/server/1_13_R2/BlockCarpet	%nm/block/BlockCarpet	bjd
+%nm/server/1_13_R2/TileEntityBanner	%nm/tileentity/TileEntityBanner	bje
+%nm/server/1_13_R2/EnumBannerPatternType	%nm/tileentity/BannerPattern	bjf
+%nm/server/1_13_R2/TileEntityBeacon	%nm/tileentity/TileEntityBeacon	bjg
+%nm/server/1_13_R2/TileEntityBeacon$BeaconColorTracker	%nm/tileentity/TileEntityBeacon$BeamSegment	bjg$a
+%nm/server/1_13_R2/TileEntityBed	%nm/tileentity/TileEntityBed	bjh
+%nm/server/1_13_R2/TileEntity	%nm/tileentity/TileEntity	bji
+%nm/server/1_13_R2/TileEntityTypes	%nm/tileentity/TileEntityType	bjj
+%nm/server/1_13_R2/TileEntityTypes$a	%nm/tileentity/TileEntityType$Builder	bjj$a
+%nm/server/1_13_R2/TileEntityBrewingStand	%nm/tileentity/TileEntityBrewingStand	bjk
+%nm/server/1_13_R2/TileEntityChest	%nm/tileentity/TileEntityChest	bjl
+%nm/server/1_13_R2/TileEntityCommand	%nm/tileentity/TileEntityCommandBlock	bjm
+%nm/server/1_13_R2/TileEntityCommand$1	%nm/tileentity/TileEntityCommandBlock$1	bjm$1
+%nm/server/1_13_R2/TileEntityCommand$Type	%nm/tileentity/TileEntityCommandBlock$Mode	bjm$a
+%nm/server/1_13_R2/TileEntityComparator	%nm/tileentity/TileEntityComparator	bjn
+%nm/server/1_13_R2/TileEntityConduit	%nm/tileentity/TileEntityConduit	bjo
+%nm/server/1_13_R2/TileEntityLightDetector	%nm/tileentity/TileEntityDaylightDetector	bjp
+%nm/server/1_13_R2/TileEntityDispenser	%nm/tileentity/TileEntityDispenser	bjq
+%nm/server/1_13_R2/TileEntityDropper	%nm/tileentity/TileEntityDropper	bjr
+%nm/server/1_13_R2/TileEntityEnchantTable	%nm/tileentity/TileEntityEnchantmentTable	bjs
+%nm/server/1_13_R2/TileEntityEnderChest	%nm/tileentity/TileEntityEnderChest	bjt
+%nm/server/1_13_R2/TileEntityFurnace	%nm/tileentity/TileEntityFurnace	bju
+%nm/server/1_13_R2/IHopper	%nm/tileentity/IHopper	bjv
+%nm/server/1_13_R2/TileEntityHopper	%nm/tileentity/TileEntityHopper	bjw
+%nm/server/1_13_R2/TileEntityJukeBox	%nm/tileentity/TileEntityJukebox	bjx
+%nm/server/1_13_R2/TileEntityContainer	%nm/tileentity/TileEntityLockable	bjz
+%nm/server/1_13_R2/TileEntityLootable	%nm/tileentity/TileEntityLockableLoot	bka
+%nm/server/1_13_R2/TileEntityShulkerBox	%nm/tileentity/TileEntityShulkerBox	bkb
+%nm/server/1_13_R2/TileEntityShulkerBox$AnimationPhase	%nm/tileentity/TileEntityShulkerBox$AnimationStatus	bkb$a
+%nm/server/1_13_R2/TileEntitySign	%nm/tileentity/TileEntitySign	bkc
+%nm/server/1_13_R2/TileEntitySkull	%nm/tileentity/TileEntitySkull	bkd
+%nm/server/1_13_R2/TileEntityMobSpawner	%nm/tileentity/TileEntityMobSpawner	bke
+%nm/server/1_13_R2/TileEntityMobSpawner$1	%nm/tileentity/TileEntityMobSpawner$1	bke$1
+%nm/server/1_13_R2/TileEntityStructure	%nm/tileentity/TileEntityStructure	bkf
+%nm/server/1_13_R2/TileEntityStructure$UpdateType	%nm/tileentity/TileEntityStructure$UpdateCommand	bkf$a
+%nm/server/1_13_R2/TileEntityEndGateway	%nm/tileentity/TileEntityEndGateway	bkg
+%nm/server/1_13_R2/TileEntityEnderPortal	%nm/tileentity/TileEntityEndPortal	bkh
+%nm/server/1_13_R2/TileEntityChestTrapped	%nm/tileentity/TileEntityTrappedChest	bki
+%nm/server/1_13_R2/WorldGenMegaTreeProvider	%nm/block/trees/AbstractBigTree	bkk
+%nm/server/1_13_R2/WorldGenTreeProvider	%nm/block/trees/AbstractTree	bkl
+%nm/server/1_13_R2/WorldGenTreeProviderAcacia	%nm/block/trees/AcaciaTree	bkm
+%nm/server/1_13_R2/WorldGenTreeProviderBirch	%nm/block/trees/BirchTree	bkn
+%nm/server/1_13_R2/WorldGenMegaTreeProviderDarkOak	%nm/block/trees/DarkOakTree	bko
+%nm/server/1_13_R2/WorldGenMegaTreeProviderJungle	%nm/block/trees/JungleTree	bkp
+%nm/server/1_13_R2/WorldGenTreeProviderOak	%nm/block/trees/OakTree	bkq
+%nm/server/1_13_R2/WorldGenTreeProviderSpruce	%nm/block/trees/SpruceTree	bkr
+%nm/server/1_13_R2/BlockPistonMoving	%nm/block/BlockPistonMoving	bku
+%nm/server/1_13_R2/BlockPiston	%nm/block/BlockPistonBase	bkv
+%nm/server/1_13_R2/BlockPistonExtension	%nm/block/BlockPistonExtension	bkw
+%nm/server/1_13_R2/TileEntityPiston	%nm/tileentity/TileEntityPiston	bkx
+%nm/server/1_13_R2/TileEntityPiston$1	%nm/tileentity/TileEntityPiston$1	bkx$1
+%nm/server/1_13_R2/PistonExtendsChecker	%nm/block/state/BlockPistonStructureHelper	bky
+%nm/server/1_13_R2/BlockDataAbstract	%nm/state/AbstractStateHolder	bla
+%nm/server/1_13_R2/BlockDataAbstract$1	%nm/state/AbstractStateHolder$1	bla$1
+%nm/server/1_13_R2/EnumBlockFaceShape	%nm/block/state/BlockFaceShape	blb
+%nm/server/1_13_R2/IBlockData	%nm/block/state/IBlockState	blc
+%nm/server/1_13_R2/BlockData	%nm/block/state/BlockState	bld
+%nm/server/1_13_R2/BlockStateList	%nm/state/StateContainer	ble
+%nm/server/1_13_R2/BlockStateList$a	%nm/state/StateContainer$Builder	ble$a
+%nm/server/1_13_R2/BlockStateList$b	%nm/state/StateContainer$IFactory	ble$b
+%nm/server/1_13_R2/IBlockDataHolder	%nm/state/IStateHolder	blf
+%nm/server/1_13_R2/ShapeDetectorBlock	%nm/block/state/BlockWorldState	blh
+%nm/server/1_13_R2/ShapeDetector	%nm/block/state/pattern/BlockPattern	bli
+%nm/server/1_13_R2/ShapeDetector$BlockLoader	%nm/block/state/pattern/BlockPattern$CacheLoader	bli$a
+%nm/server/1_13_R2/ShapeDetector$ShapeDetectorCollection	%nm/block/state/pattern/BlockPattern$PatternHelper	bli$b
+%nm/server/1_13_R2/ShapeDetectorBuilder	%nm/block/state/pattern/FactoryBlockPattern	blj
+%nm/server/1_13_R2/PredicateBlockType	%nm/block/state/pattern/BlockMatcherReaderAware	bll
+%nm/server/1_13_R2/PredicateBlock	%nm/block/state/pattern/IBlockMatcherReaderAware	blm
+%nm/server/1_13_R2/MaterialPredicate	%nm/block/state/pattern/BlockMaterialMatcher	bln
+%nm/server/1_13_R2/MaterialPredicate$1	%nm/block/state/pattern/BlockMaterialMatcher$1	bln$1
+%nm/server/1_13_R2/BlockPredicate	%nm/block/state/pattern/BlockMatcher	blo
+%nm/server/1_13_R2/BlockStatePredicate	%nm/block/state/pattern/BlockStateMatcher	blp
+%nm/server/1_13_R2/PredicateBlocks	%nm/block/state/pattern/ReaderAwareMatchers	blq
+%nm/server/1_13_R2/PredicateBlocks$b	%nm/block/state/pattern/ReaderAwareMatchers$NotMatcher	blq$b
+%nm/server/1_13_R2/PredicateBlocks$c	%nm/block/state/pattern/ReaderAwareMatchers$OrMatcher	blq$c
+%nm/server/1_13_R2/PredicateBlockLightTransmission	%nm/block/state/pattern/LightEmittingMatcher	blr
+%nm/server/1_13_R2/PredicateBlockLiquid	%nm/block/state/pattern/LiquidBlockMatcher	bls
+%nm/server/1_13_R2/PredicateBlockNotSolidOrLiquid	%nm/block/state/pattern/AllowsMovementAndSolidMatcher	blt
+%nm/server/1_13_R2/PredicateBlockSolid	%nm/block/state/pattern/AllowsMovementMatcher	blu
+%nm/server/1_13_R2/PredicateBlockTag	%nm/block/state/pattern/BlockTagMatcher	blv
+%nm/server/1_13_R2/BlockState	%nm/state/AbstractProperty	blx
+%nm/server/1_13_R2/BlockPropertyAttachPosition	%nm/state/properties/AttachFace	bly
+%nm/server/1_13_R2/BlockPropertyBedPart	%nm/state/properties/BedPart	blz
+%nm/server/1_13_R2/BlockProperties	%nm/state/properties/BlockStateProperties	bma
+%nm/server/1_13_R2/BlockStateBoolean	%nm/state/BooleanProperty	bmb
+%nm/server/1_13_R2/BlockPropertyChestType	%nm/state/properties/ChestType	bmc
+%nm/server/1_13_R2/BlockPropertyComparatorMode	%nm/state/properties/ComparatorMode	bmd
+%nm/server/1_13_R2/BlockStateDirection	%nm/state/DirectionProperty	bme
+%nm/server/1_13_R2/BlockPropertyDoorHinge	%nm/state/properties/DoorHingeSide	bmf
+%nm/server/1_13_R2/BlockPropertyDoubleBlockHalf	%nm/state/properties/DoubleBlockHalf	bmg
+%nm/server/1_13_R2/BlockStateEnum	%nm/state/EnumProperty	bmh
+%nm/server/1_13_R2/BlockPropertyHalf	%nm/state/properties/Half	bmi
+%nm/server/1_13_R2/BlockStateInteger	%nm/state/IntegerProperty	bmj
+%nm/server/1_13_R2/BlockPropertyInstrument	%nm/state/properties/NoteBlockInstrument	bmk
+%nm/server/1_13_R2/BlockPropertyPistonType	%nm/state/properties/PistonType	bml
+%nm/server/1_13_R2/IBlockState	%nm/state/IProperty	bmm
+%nm/server/1_13_R2/BlockPropertyTrackPosition	%nm/state/properties/RailShape	bmn
+%nm/server/1_13_R2/BlockPropertyRedstoneSide	%nm/state/properties/RedstoneSide	bmo
+%nm/server/1_13_R2/BlockPropertySlabType	%nm/state/properties/SlabType	bmp
+%nm/server/1_13_R2/BlockPropertyStairsShape	%nm/state/properties/StairsShape	bmq
+%nm/server/1_13_R2/BlockPropertyStructureMode	%nm/state/properties/StructureMode	bmr
+%nm/server/1_13_R2/IWorldBorderListener	%nm/world/border/IBorderListener	bmt
+%nm/server/1_13_R2/WorldBorder	%nm/world/border/WorldBorder	bmv
+%nm/server/1_13_R2/WorldBorder$a	%nm/world/border/WorldBorder$IBorderInfo	bmv$a
+%nm/server/1_13_R2/WorldBorder$b	%nm/world/border/WorldBorder$MovingBorderInfo	bmv$b
+%nm/server/1_13_R2/WorldBorder$c	%nm/world/border/WorldBorder$StationaryBorderInfo	bmv$c
+%nm/server/1_13_R2/IChunkAccess	%nm/world/chunk/IChunk	bmx
+%nm/server/1_13_R2/ChunkGenerator	%nm/world/gen/IChunkGenerator	bmy
+%nm/server/1_13_R2/ChunkGeneratorAbstract	%nm/world/gen/AbstractChunkGenerator	bmz
+%nm/server/1_13_R2/ChunkGeneratorFactory	%nm/world/gen/IChunkGeneratorFactory	bna
+%nm/server/1_13_R2/ChunkGeneratorType	%nm/world/gen/ChunkGeneratorType	bnb
+%nm/server/1_13_R2/IChunkProvider	%nm/world/chunk/IChunkProvider	bnc
+%nm/server/1_13_R2/ChunkStatus	%nm/world/chunk/ChunkStatus	bnd
+%nm/server/1_13_R2/ChunkStatus$1	%nm/world/chunk/ChunkStatus$1	bnd$1
+%nm/server/1_13_R2/ChunkStatus$Type	%nm/world/chunk/ChunkStatus$Type	bnd$a
+%nm/server/1_13_R2/NibbleArray	%nm/world/chunk/NibbleArray	bne
+%nm/server/1_13_R2/DataPaletteGlobal	%nm/world/chunk/BlockStatePaletteRegistry	bng
+%nm/server/1_13_R2/DataPaletteHash	%nm/world/chunk/BlockStatePaletteHashMap	bnh
+%nm/server/1_13_R2/ProtoChunkExtension	%nm/world/chunk/ChunkPrimerWrapper	bni
+%nm/server/1_13_R2/Chunk	%nm/world/chunk/Chunk	bnj
+%nm/server/1_13_R2/Chunk$EnumTileEntityState	%nm/world/chunk/Chunk$EnumCreateEntityType	bnj$a
+%nm/server/1_13_R2/ChunkSection	%nm/world/chunk/ChunkSection	bnk
+%nm/server/1_13_R2/DataPaletteLinear	%nm/world/chunk/BlockStatePaletteLinear	bnl
+%nm/server/1_13_R2/OldNibbleArray	%nm/world/chunk/storage/NibbleArrayReader	bnn
+%nm/server/1_13_R2/DataPalette	%nm/world/chunk/IBlockStatePalette	bno
+%nm/server/1_13_R2/DataPaletteExpandable	%nm/world/chunk/IBlockStatePaletteResizer	bnp
+%nm/server/1_13_R2/DataPaletteBlock	%nm/world/chunk/BlockStateContainer	bnq
+%nm/server/1_13_R2/ProtoChunk	%nm/world/chunk/ChunkPrimer	bnr
+%nm/server/1_13_R2/ProtoChunkTickList	%nm/world/chunk/ChunkPrimerTickList	bns
+%nm/server/1_13_R2/ChunkConverter	%nm/world/chunk/UpgradeData	bnt
+%nm/server/1_13_R2/ChunkConverter$a	%nm/world/chunk/UpgradeData$IBlockFixer	bnt$a
+%nm/server/1_13_R2/ChunkConverter$Type	%nm/world/chunk/UpgradeData$BlockFixers	bnt$b
+%nm/server/1_13_R2/ChunkConverter$Type$1	%nm/world/chunk/UpgradeData$BlockFixers$1	bnt$b$1
+%nm/server/1_13_R2/ChunkConverter$Type$2	%nm/world/chunk/UpgradeData$BlockFixers$2	bnt$b$2
+%nm/server/1_13_R2/ChunkConverter$Type$3	%nm/world/chunk/UpgradeData$BlockFixers$3	bnt$b$3
+%nm/server/1_13_R2/ChunkConverter$Type$4	%nm/world/chunk/UpgradeData$BlockFixers$4	bnt$b$4
+%nm/server/1_13_R2/ChunkConverter$Type$5	%nm/world/chunk/UpgradeData$BlockFixers$5	bnt$b$5
+%nm/server/1_13_R2/ChunkRegionLoader	%nm/world/chunk/storage/AnvilChunkLoader	bnv
+%nm/server/1_13_R2/IChunkLoader	%nm/world/chunk/storage/IChunkLoader	bnw
+%nm/server/1_13_R2/OldChunkLoader	%nm/world/chunk/storage/ChunkLoader	bny
+%nm/server/1_13_R2/OldChunkLoader$OldChunk	%nm/world/chunk/storage/ChunkLoader$AnvilConverterData	bny$a
+%nm/server/1_13_R2/RegionFile	%nm/world/chunk/storage/RegionFile	bnz
+%nm/server/1_13_R2/RegionFile$ChunkBuffer	%nm/world/chunk/storage/RegionFile$ChunkBuffer	bnz$a
+%nm/server/1_13_R2/RegionFileCache	%nm/world/chunk/storage/RegionFileCache	boa
+%nm/server/1_13_R2/WorldProvider	%nm/world/dimension/Dimension	boc
+%nm/server/1_13_R2/DimensionManager	%nm/world/dimension/DimensionType	bod
+%nm/server/1_13_R2/WorldProviderHell	%nm/world/dimension/NetherDimension	boe
+%nm/server/1_13_R2/WorldProviderHell$1	%nm/world/dimension/NetherDimension$1	boe$1
+%nm/server/1_13_R2/WorldProviderNormal	%nm/world/dimension/OverworldDimension	bof
+%nm/server/1_13_R2/EnumDragonRespawn	%nm/world/end/DragonSpawnState	bog
+%nm/server/1_13_R2/EnumDragonRespawn$1	%nm/world/end/DragonSpawnState$1	bog$1
+%nm/server/1_13_R2/EnumDragonRespawn$2	%nm/world/end/DragonSpawnState$2	bog$2
+%nm/server/1_13_R2/EnumDragonRespawn$3	%nm/world/end/DragonSpawnState$3	bog$3
+%nm/server/1_13_R2/EnumDragonRespawn$4	%nm/world/end/DragonSpawnState$4	bog$4
+%nm/server/1_13_R2/EnumDragonRespawn$5	%nm/world/end/DragonSpawnState$5	bog$5
+%nm/server/1_13_R2/EnderDragonBattle	%nm/world/end/DragonFightManager	boh
+%nm/server/1_13_R2/EnderDragonBattle$LoadState	%nm/world/end/DragonFightManager$LoadState	boh$a
+%nm/server/1_13_R2/EnderDragonBattle$b	%nm/world/end/DragonFightManager$LoadManager	boh$b
+%nm/server/1_13_R2/WorldProviderTheEnd	%nm/world/dimension/EndDimension	boi
+%nm/server/1_13_R2/GeneratorSettingsDefault	%nm/world/gen/ChunkGenSettings	bol
+%nm/server/1_13_R2/GeneratorSettings	%nm/world/gen/IChunkGenSettings	bom
+%nm/server/1_13_R2/GeneratorSettingsDebug	%nm/world/gen/DebugGenSettings	bon
+%nm/server/1_13_R2/ChunkProviderDebug	%nm/world/gen/ChunkGeneratorDebug	boo
+%nm/server/1_13_R2/ChunkProviderFlat	%nm/world/gen/ChunkGeneratorFlat	bop
+%nm/server/1_13_R2/ChunkProviderFlat$a	%nm/world/gen/ChunkGeneratorFlat$BiomeWrapper	bop$a
+%nm/server/1_13_R2/WorldGenStage	%nm/world/gen/GenerationStage	boq
+%nm/server/1_13_R2/WorldGenStage$Features	%nm/world/gen/GenerationStage$Carving	boq$a
+%nm/server/1_13_R2/WorldGenStage$Decoration	%nm/world/gen/GenerationStage$Decoration	boq$b
+%nm/server/1_13_R2/HeightMap	%nm/world/gen/Heightmap	bor
+%nm/server/1_13_R2/HeightMap$Type	%nm/world/gen/Heightmap$Type	bor$a
+%nm/server/1_13_R2/HeightMap$Use	%nm/world/gen/Heightmap$Usage	bor$b
+%nm/server/1_13_R2/GeneratorSettingsNether	%nm/world/gen/NetherGenSettings	bos
+%nm/server/1_13_R2/ChunkProviderHell	%nm/world/gen/ChunkGeneratorNether	bot
+%nm/server/1_13_R2/GeneratorSettingsOverworld	%nm/world/gen/OverworldGenSettings	bou
+%nm/server/1_13_R2/ChunkProviderGenerate	%nm/world/gen/ChunkGeneratorOverworld	bov
+%nm/server/1_13_R2/MobSpawnerPhantom	%nm/world/PhantomSpawner	bow
+%nm/server/1_13_R2/GeneratorSettingsEnd	%nm/world/gen/EndGenSettings	box
+%nm/server/1_13_R2/ChunkProviderTheEnd	%nm/world/gen/ChunkGeneratorEnd	boy
+%nm/server/1_13_R2/SeededRandom	%nm/util/SharedSeedRandom	boz
+%nm/server/1_13_R2/WorldGenTreeAbstract	%nm/world/gen/feature/AbstractTreeFeature	bpa
+%nm/server/1_13_R2/WorldGenBigTree	%nm/world/gen/feature/BigTreeFeature	bpb
+%nm/server/1_13_R2/WorldGenBigTree$Position	%nm/world/gen/feature/BigTreeFeature$FoliageCoordinates	bpb$a
+%nm/server/1_13_R2/WorldGenForest	%nm/world/gen/feature/BirchTreeFeature	bpc
+%nm/server/1_13_R2/WorldGenFeatureBlockOffsetConfiguration	%nm/world/gen/feature/BlockBlobConfig	bpd
+%nm/server/1_13_R2/WorldGenTaigaStructure	%nm/world/gen/feature/BlockBlobFeature	bpe
+%nm/server/1_13_R2/WorldGenFeatureBlueIce	%nm/world/gen/feature/BlueIceFeature	bpf
+%nm/server/1_13_R2/WorldGenBonusChest	%nm/world/gen/feature/BonusChestFeature	bpg
+%nm/server/1_13_R2/WorldGenBuriedTreasureConfiguration	%nm/world/gen/feature/structure/BuriedTreasureConfig	bph
+%nm/server/1_13_R2/WorldGenBuriedTreasure	%nm/world/gen/feature/structure/BuriedTreasureStructure	bpi
+%nm/server/1_13_R2/WorldGenBuriedTreasure$a	%nm/world/gen/feature/structure/BuriedTreasureStructure$Start	bpi$a
+%nm/server/1_13_R2/WorldGenFeatureMushroomConfiguration	%nm/world/gen/feature/BushConfig	bpj
+%nm/server/1_13_R2/WorldGenMushrooms	%nm/world/gen/feature/BushFeature	bpk
+%nm/server/1_13_R2/WorldGenCactus	%nm/world/gen/feature/CactusFeature	bpl
+%nm/server/1_13_R2/WorldGenFeatureChorusPlant	%nm/world/gen/feature/ChorusPlantFeature	bpm
+%nm/server/1_13_R2/WorldGenFeatureComposite	%nm/world/gen/feature/CompositeFeature	bpn
+%nm/server/1_13_R2/WorldGenFeatureCoralClaw	%nm/world/gen/feature/CoralClawFeature	bpo
+%nm/server/1_13_R2/WorldGenFeatureCoral	%nm/world/gen/feature/CoralFeature	bpp
+%nm/server/1_13_R2/WorldGenFeatureCoralMushroom	%nm/world/gen/feature/CoralMushroomFeature	bpq
+%nm/server/1_13_R2/WorldGenFeatureCoralTree	%nm/world/gen/feature/CoralTreeFeature	bpr
+%nm/server/1_13_R2/WorldGenFeatureChanceDecorator	%nm/world/gen/placement/AtSurfaceWithChanceMultiple	bps
+%nm/server/1_13_R2/WorldGenFeatureChanceDecoratorHeight	%nm/world/gen/placement/TwiceSurfaceWithChanceMultiple	bpt
+%nm/server/1_13_R2/WorldGenFeatureKelpConfiguration	%nm/world/gen/placement/CountConfig	bpu
+%nm/server/1_13_R2/WorldGenDeadBush	%nm/world/gen/feature/DeadBushFeature	bpv
+%nm/server/1_13_R2/WorldGenFeatureChanceDecoratorRangeConfiguration	%nm/world/gen/placement/ChanceRangeConfig	bpw
+%nm/server/1_13_R2/WorldGenFeatureDecoratorConfiguration	%nm/world/gen/placement/IPlacementConfig	bpx
+%nm/server/1_13_R2/WorldGenFeatureChanceDecoratorCountConfiguration	%nm/world/gen/placement/CountRangeConfig	bpy
+%nm/server/1_13_R2/WorldGenFeatureDecoratorNoiseConfiguration	%nm/world/gen/placement/NoiseDependant	bpz
+%nm/server/1_13_R2/WorldGenFeatureFlower	%nm/world/gen/feature/DefaultFlowersFeature	bqa
+%nm/server/1_13_R2/WorldGenFeatureDesertPyramidConfiguration	%nm/world/gen/feature/structure/DesertPyramidConfig	bqb
+%nm/server/1_13_R2/WorldGenFeatureDesertPyramid	%nm/world/gen/feature/structure/DesertPyramidStructure	bqc
+%nm/server/1_13_R2/WorldGenFeatureDesertPyramid$a	%nm/world/gen/feature/structure/DesertPyramidStructure$Start	bqc$a
+%nm/server/1_13_R2/WorldGenDesertWell	%nm/world/gen/feature/DesertWellsFeature	bqd
+%nm/server/1_13_R2/WorldGenFeatureCircleConfiguration	%nm/world/gen/feature/SphereReplaceConfig	bqe
+%nm/server/1_13_R2/WorldGenFeatureCircle	%nm/world/gen/feature/SphereReplaceFeature	bqf
+%nm/server/1_13_R2/WorldGenFeatureDoublePlantConfiguration	%nm/world/gen/feature/DoublePlantConfig	bqg
+%nm/server/1_13_R2/WorldGenTallPlant	%nm/world/gen/feature/DoublePlantFeature	bqh
+%nm/server/1_13_R2/WorldGenEndCityConfiguration	%nm/world/gen/feature/structure/EndCityConfig	bqi
+%nm/server/1_13_R2/WorldGenEndCity	%nm/world/gen/feature/structure/EndCityStructure	bqj
+%nm/server/1_13_R2/WorldGenEndCity$a	%nm/world/gen/feature/structure/EndCityStructure$Start	bqj$a
+%nm/server/1_13_R2/WorldGenEndGatewayConfiguration	%nm/world/gen/feature/EndGatewayConfig	bqk
+%nm/server/1_13_R2/WorldGenEndGateway	%nm/world/gen/feature/EndGatewayFeature	bql
+%nm/server/1_13_R2/WorldGenEndIsland	%nm/world/gen/feature/EndIslandFeature	bqm
+%nm/server/1_13_R2/WorldGenEndTrophy	%nm/world/gen/feature/EndPodiumFeature	bqn
+%nm/server/1_13_R2/WorldGenerator	%nm/world/gen/feature/Feature	bqo
+%nm/server/1_13_R2/WorldGenFeatureConfiguration	%nm/world/gen/feature/IFeatureConfig	bqp
+%nm/server/1_13_R2/WorldGenFeatureRadiusConfiguration	%nm/world/gen/feature/FeatureRadiusConfig	bqq
+%nm/server/1_13_R2/WorldGenFeatureCompositeFlower	%nm/world/gen/feature/CompositeFlowerFeature	bqr
+%nm/server/1_13_R2/WorldGenFlowers	%nm/world/gen/feature/AbstractFlowersFeature	bqs
+%nm/server/1_13_R2/WorldGenFeatureFlowerForest	%nm/world/gen/feature/ForestFlowersFeature	bqt
+%nm/server/1_13_R2/WorldGenFossils	%nm/world/gen/feature/FossilsFeature	bqu
+%nm/server/1_13_R2/WorldGenGroundBush	%nm/world/gen/feature/ShrubFeature	bqv
+%nm/server/1_13_R2/WorldGenFire	%nm/world/gen/feature/FireFeature	bqw
+%nm/server/1_13_R2/WorldGenFeatureHellFlowingLavaConfiguration	%nm/world/gen/feature/HellLavaConfig	bqx
+%nm/server/1_13_R2/WorldGenHellLava	%nm/world/gen/feature/HellLavaFeature	bqy
+%nm/server/1_13_R2/WorldGenHugeMushroomBrown	%nm/world/gen/feature/BigBrownMushroomFeature	bqz
+%nm/server/1_13_R2/WorldGenHugeMushroomRed	%nm/world/gen/feature/BigRedMushroomFeature	bra
+%nm/server/1_13_R2/WorldGenPackedIce1	%nm/world/gen/feature/IcePathFeature	brb
+%nm/server/1_13_R2/WorldGenPackedIce2	%nm/world/gen/feature/IceSpikeFeature	brc
+%nm/server/1_13_R2/WorldGenFeatureIceburgConfiguration	%nm/world/gen/feature/IcebergConfig	brd
+%nm/server/1_13_R2/WorldGenFeatureIceburg	%nm/world/gen/feature/IcebergFeature	bre
+%nm/server/1_13_R2/WorldGenFeatureIglooConfiguration	%nm/world/gen/feature/structure/IglooConfig	brf
+%nm/server/1_13_R2/WorldGenFeatureIgloo	%nm/world/gen/feature/structure/IglooStructure	brg
+%nm/server/1_13_R2/WorldGenFeatureIgloo$a	%nm/world/gen/feature/structure/IglooStructure$Start	brg$a
+%nm/server/1_13_R2/WorldGenFeatureJungleGrass	%nm/world/gen/feature/JungleGrassFeature	brh
+%nm/server/1_13_R2/WorldGenFeatureJunglePyramidConfiguration	%nm/world/gen/feature/structure/JunglePyramidConfig	bri
+%nm/server/1_13_R2/WorldGenFeatureJunglePyramid	%nm/world/gen/feature/structure/JunglePyramidStructure	brj
+%nm/server/1_13_R2/WorldGenFeatureJunglePyramid$a	%nm/world/gen/feature/structure/JunglePyramidStructure$Start	brj$a
+%nm/server/1_13_R2/WorldGenFeatureJungleTree	%nm/world/gen/feature/JungleTreeFeature	brk
+%nm/server/1_13_R2/WorldGenFeatureKelp	%nm/world/gen/feature/KelpFeature	brl
+%nm/server/1_13_R2/WorldGenFeatureLakeConfiguration	%nm/world/gen/feature/LakesConfig	brm
+%nm/server/1_13_R2/WorldGenLakes	%nm/world/gen/feature/LakesFeature	brn
+%nm/server/1_13_R2/WorldGenLightStone1	%nm/world/gen/feature/GlowstoneFeature	bro
+%nm/server/1_13_R2/WorldGenJungleTree	%nm/world/gen/feature/MegaJungleFeature	brp
+%nm/server/1_13_R2/WorldGenMegaTree	%nm/world/gen/feature/MegaPineTree	brq
+%nm/server/1_13_R2/WorldGenMegaTreeAbstract	%nm/world/gen/feature/HugeTreesFeature	brr
+%nm/server/1_13_R2/WorldGenMelon	%nm/world/gen/feature/MelonFeature	brs
+%nm/server/1_13_R2/WorldGenMineshaftConfiguration	%nm/world/gen/feature/structure/MineshaftConfig	brt
+%nm/server/1_13_R2/WorldGenMineshaft	%nm/world/gen/feature/structure/MineshaftStructure	bru
+%nm/server/1_13_R2/WorldGenMineshaft$a	%nm/world/gen/feature/structure/MineshaftStructure$Start	bru$a
+%nm/server/1_13_R2/WorldGenMineshaft$Type	%nm/world/gen/feature/structure/MineshaftStructure$Type	bru$b
+%nm/server/1_13_R2/WorldGenDungeons	%nm/world/gen/feature/DungeonsFeature	brv
+%nm/server/1_13_R2/WorldGenNetherConfiguration	%nm/world/gen/feature/structure/FortressConfig	brw
+%nm/server/1_13_R2/WorldGenNether	%nm/world/gen/feature/structure/FortressStructure	brx
+%nm/server/1_13_R2/WorldGenNether$a	%nm/world/gen/feature/structure/FortressStructure$Start	brx$a
+%nm/server/1_13_R2/WorldGenFeatureDecoratorEmptyConfiguration	%nm/world/gen/placement/NoPlacementConfig	bry
+%nm/server/1_13_R2/WorldGenFeatureEmptyConfiguration	%nm/world/gen/feature/NoFeatureConfig	brz
+%nm/server/1_13_R2/WorldGenMonumentConfiguration	%nm/world/gen/feature/structure/OceanMonumentConfig	bsa
+%nm/server/1_13_R2/WorldGenMonument	%nm/world/gen/feature/structure/OceanMonumentStructure	bsb
+%nm/server/1_13_R2/WorldGenMonument$a	%nm/world/gen/feature/structure/OceanMonumentStructure$Start	bsb$a
+%nm/server/1_13_R2/WorldGenFeatureOceanRuinConfiguration	%nm/world/gen/feature/structure/OceanRuinConfig	bsc
+%nm/server/1_13_R2/WorldGenFeatureOreConfiguration	%nm/world/gen/feature/MinableConfig	bsd
+%nm/server/1_13_R2/WorldGenMinable	%nm/world/gen/feature/MinableFeature	bse
+%nm/server/1_13_R2/WorldGenTaiga1	%nm/world/gen/feature/PointyTaigaTreeFeature	bsf
+%nm/server/1_13_R2/WorldGenFeatureFlowerPlain	%nm/world/gen/feature/PlainsFlowersFeature	bsg
+%nm/server/1_13_R2/WorldGenFeatureConfigurationChance	%nm/world/gen/feature/ProbabilityConfig	bsh
+%nm/server/1_13_R2/WorldGenPumpkin	%nm/world/gen/feature/PumpkinFeature	bsi
+%nm/server/1_13_R2/WorldGenFeatureChoiceConfiguration	%nm/world/gen/feature/TwoFeatureChoiceConfig	bsj
+%nm/server/1_13_R2/WorldGenFeatureChoice	%nm/world/gen/feature/TwoFeatureChoiceFeature	bsk
+%nm/server/1_13_R2/WorldGenFeatureRandomChoiceConfiguration	%nm/world/gen/feature/RandomDefaultFeatureListConfig	bsl
+%nm/server/1_13_R2/WorldGenFeatureRandom	%nm/world/gen/feature/RandomDefaultFeatureList	bsm
+%nm/server/1_13_R2/WorldGenFeatureRandomConfiguration	%nm/world/gen/feature/RandomFeatureListConfig	bsn
+%nm/server/1_13_R2/WorldGenFeatureRandomScattered	%nm/world/gen/feature/structure/ScatteredStructure	bso
+%nm/server/1_13_R2/WorldGenFeatureRandomChoice	%nm/world/gen/feature/RandomFeatureList	bsp
+%nm/server/1_13_R2/WorldGenReed	%nm/world/gen/feature/ReedFeature	bsq
+%nm/server/1_13_R2/WorldGenFeatureReplaceBlockConfiguration	%nm/world/gen/feature/ReplaceBlockConfig	bsr
+%nm/server/1_13_R2/WorldGenFeatureReplaceBlock	%nm/world/gen/feature/ReplaceBlockFeature	bss
+%nm/server/1_13_R2/WorldGenForestTree	%nm/world/gen/feature/CanopyTreeFeature	bst
+%nm/server/1_13_R2/WorldGenAcaciaTree	%nm/world/gen/feature/SavannaTreeFeature	bsu
+%nm/server/1_13_R2/WorldGenFeatureSeaPickel	%nm/world/gen/feature/SeaPickleFeature	bsv
+%nm/server/1_13_R2/WorldGenFeatureSeaGrass	%nm/world/gen/feature/SeaGrassFeature	bsw
+%nm/server/1_13_R2/WorldGenFeatureSeaGrassConfiguration	%nm/world/gen/feature/SeaGrassConfig	bsx
+%nm/server/1_13_R2/WorldGenFeatureShipwreckConfiguration	%nm/world/gen/feature/structure/ShipwreckConfig	bsy
+%nm/server/1_13_R2/WorldGenFeatureShipwreck	%nm/world/gen/feature/structure/ShipwreckStructure	bsz
+%nm/server/1_13_R2/WorldGenFeatureShipwreck$a	%nm/world/gen/feature/structure/ShipwreckStructure$Start	bsz$a
+%nm/server/1_13_R2/WorldGenFeatureBlockConfiguration	%nm/world/gen/feature/BlockWithContextConfig	bta
+%nm/server/1_13_R2/WorldGenFeatureBlock	%nm/world/gen/feature/BlockWithContextFeature	btb
+%nm/server/1_13_R2/WorldGenFeatureRandom2	%nm/world/gen/feature/RandomFeatureWithConfigConfig	btc
+%nm/server/1_13_R2/WorldGenFeatureRandom2Configuration	%nm/world/gen/feature/RandomFeatureWithConfigFeature	btd
+%nm/server/1_13_R2/WorldGenFeatureIceSnow	%nm/world/gen/feature/IceAndSnowFeature	bte
+%nm/server/1_13_R2/WorldGenEnder	%nm/world/gen/feature/EndCrystalTowerFeature	btf
+%nm/server/1_13_R2/WorldGenEnder$Spike	%nm/world/gen/feature/EndCrystalTowerFeature$EndSpike	btf$a
+%nm/server/1_13_R2/WorldGenFeatureFlowingConfiguration	%nm/world/gen/feature/LiquidsConfig	btg
+%nm/server/1_13_R2/WorldGenLiquids	%nm/world/gen/feature/LiquidsFeature	bth
+%nm/server/1_13_R2/WorldGenTaiga2	%nm/world/gen/feature/TallTaigaTreeFeature	bti
+%nm/server/1_13_R2/WorldGenFeatureStrongholdConfiguration	%nm/world/gen/feature/structure/StrongholdConfig	btj
+%nm/server/1_13_R2/WorldGenStronghold	%nm/world/gen/feature/structure/StrongholdStructure	btk
+%nm/server/1_13_R2/WorldGenStronghold$a	%nm/world/gen/feature/structure/StrongholdStructure$Start	btk$a
+%nm/server/1_13_R2/StructureGenerator	%nm/world/gen/feature/structure/Structure	btl
+%nm/server/1_13_R2/StructureGenerator$1	%nm/world/gen/feature/structure/Structure$1	btl$1
+%nm/server/1_13_R2/WorldGenFeatureFlowerSwamp	%nm/world/gen/feature/SwampFlowersFeature	btm
+%nm/server/1_13_R2/WorldGenSwampTree	%nm/world/gen/feature/SwampTreeFeature	btn
+%nm/server/1_13_R2/WorldGenFeatureSwampHutConfiguration	%nm/world/gen/feature/structure/SwampHutConfig	bto
+%nm/server/1_13_R2/WorldGenFeatureSwampHut	%nm/world/gen/feature/structure/SwampHutStructure	btp
+%nm/server/1_13_R2/WorldGenFeatureSwampHut$a	%nm/world/gen/feature/structure/SwampHutStructure$Start	btp$a
+%nm/server/1_13_R2/WorldGenFeatureTaigaGrass	%nm/world/gen/feature/TaigaGrassFeature	btq
+%nm/server/1_13_R2/WorldGenFeatureTallGrassConfiguration	%nm/world/gen/feature/TallGrassConfig	btr
+%nm/server/1_13_R2/WorldGenGrass	%nm/world/gen/feature/TallGrassFeature	bts
+%nm/server/1_13_R2/WorldGenTrees	%nm/world/gen/feature/TreeFeature	btt
+%nm/server/1_13_R2/WorldGenFeatureVillageConfiguration	%nm/world/gen/feature/structure/VillageConfig	btu
+%nm/server/1_13_R2/WorldGenVillage	%nm/world/gen/feature/structure/VillageStructure	btv
+%nm/server/1_13_R2/WorldGenVillage$a	%nm/world/gen/feature/structure/VillageStructure$Start	btv$a
+%nm/server/1_13_R2/WorldGenVines	%nm/world/gen/feature/VinesFeature	btw
+%nm/server/1_13_R2/WorldGenFeatureEndPlatform	%nm/world/gen/feature/VoidStartPlatformFeature	btx
+%nm/server/1_13_R2/WorldGenWaterLily	%nm/world/gen/feature/WaterlilyFeature	bty
+%nm/server/1_13_R2/WorldGenMansionConfiguration	%nm/world/gen/feature/structure/WoodlandMansionConfig	btz
+%nm/server/1_13_R2/WorldGenWoodlandMansion	%nm/world/gen/feature/structure/WoodlandMansionStructure	bua
+%nm/server/1_13_R2/WorldGenWoodlandMansion$a	%nm/world/gen/feature/structure/WoodlandMansionStructure$Start	bua$a
+%nm/server/1_13_R2/WorldGenFlatLayerInfo	%nm/world/gen/FlatLayerInfo	buc
+%nm/server/1_13_R2/GeneratorSettingsFlat	%nm/world/gen/FlatGenSettings	bud
+%nm/server/1_13_R2/WorldGenDecoratorCarveMask	%nm/world/gen/placement/CaveEdge	bug
+%nm/server/1_13_R2/WorldGenDecoratorChance	%nm/world/gen/placement/AtSurfaceWithChance	buh
+%nm/server/1_13_R2/WorldGenDecoratorChanceHeight	%nm/world/gen/placement/TwiceSurfaceWithChance	bui
+%nm/server/1_13_R2/WorldGenDecoratorChancePass	%nm/world/gen/placement/WithChance	buj
+%nm/server/1_13_R2/WorldGenDecoratorSkyVisibleBiased	%nm/world/gen/placement/TopSolidWithChance	buk
+%nm/server/1_13_R2/WorldGenDecoratorChorusPlant	%nm/world/gen/placement/ChorusPlant	bul
+%nm/server/1_13_R2/WorldGenDecoratorHeightBiased	%nm/world/gen/placement/HeightBiasedRange	bum
+%nm/server/1_13_R2/WorldGenDecoratorHeightAverage	%nm/world/gen/placement/DepthAverage	bun
+%nm/server/1_13_R2/WorldGenDecoratorHeightDouble	%nm/world/gen/placement/TwiceSurface	buo
+%nm/server/1_13_R2/WorldGenDecoratorHeight64	%nm/world/gen/placement/AtHeight64	bup
+%nm/server/1_13_R2/WorldGenDecoratorHeight32	%nm/world/gen/placement/SurfacePlus32	buq
+%nm/server/1_13_R2/WorldGenDecoratorHeight	%nm/world/gen/placement/AtSurface	bur
+%nm/server/1_13_R2/WorldGenDecoratorSkyVisible	%nm/world/gen/placement/TopSolid	bus
+%nm/server/1_13_R2/WorldGenDecoratorHeightBiased2	%nm/world/gen/placement/HeightVeryBiasedRange	but
+%nm/server/1_13_R2/WorldGenDecoratorHeightExtraChance	%nm/world/gen/placement/AtSurfaceWithExtra	buu
+%nm/server/1_13_R2/WorldGenDecoratorCarveMaskConfiguration	%nm/world/gen/placement/CaveEdgeConfig	buv
+%nm/server/1_13_R2/WorldGenDecoratorChanceConfiguration	%nm/world/gen/placement/ChanceConfig	buw
+%nm/server/1_13_R2/WorldGenDecoratorFrequencyConfiguration	%nm/world/gen/placement/FrequencyConfig	bux
+%nm/server/1_13_R2/WorldGenDecoratorFrequencyChanceConfiguration	%nm/world/gen/placement/HeightWithChanceConfig	buy
+%nm/server/1_13_R2/WorldGenDecoratorFrequencyExtraChanceConfiguration	%nm/world/gen/placement/AtSurfaceWithExtraConfig	buz
+%nm/server/1_13_R2/WorldGenDecoratorNoiseConfiguration	%nm/world/gen/placement/TopSolidWithNoiseConfig	bva
+%nm/server/1_13_R2/WorldGenDecoratorRangeConfiguration	%nm/world/gen/placement/TopSolidRangeConfig	bvb
+%nm/server/1_13_R2/WorldGenDecoratorHeightAverageConfiguration	%nm/world/gen/placement/DepthAverageConfig	bvc
+%nm/server/1_13_R2/WorldGenDecoratorEmerald	%nm/world/gen/placement/Height4To32	bvd
+%nm/server/1_13_R2/WorldGenDecoratorEndGateway	%nm/world/gen/placement/EndGateway	bve
+%nm/server/1_13_R2/WorldGenDecoratorEndIsland	%nm/world/gen/placement/EndIsland	bvf
+%nm/server/1_13_R2/WorldGenDecorator	%nm/world/gen/placement/BasePlacement	bvg
+%nm/server/1_13_R2/WorldGenDecoratorForestRock	%nm/world/gen/placement/AtSurfaceRandomCount	bvh
+%nm/server/1_13_R2/WorldGenDecoratorIceburg	%nm/world/gen/placement/IcebergPlacement	bvi
+%nm/server/1_13_R2/WorldGenDecoratorLakeChanceConfiguration	%nm/world/gen/placement/LakeChanceConfig	bvj
+%nm/server/1_13_R2/WorldGenDecoratorLakeLava	%nm/world/gen/placement/LakeLava	bvk
+%nm/server/1_13_R2/WorldGenDecoratorLakeWater	%nm/world/gen/placement/LakeWater	bvl
+%nm/server/1_13_R2/WorldGenDecoratorDungeonConfiguration	%nm/world/gen/placement/DungeonRoomConfig	bvm
+%nm/server/1_13_R2/WorldGenDecoratorDungeon	%nm/world/gen/placement/DungeonRoom	bvn
+%nm/server/1_13_R2/WorldGenDecoratorNoiseHeight32	%nm/world/gen/placement/SurfacePlus32WithNoise	bvo
+%nm/server/1_13_R2/WorldGenDecoratorNoiseHeightDouble	%nm/world/gen/placement/TwiceSurfaceWithNoise	bvp
+%nm/server/1_13_R2/WorldGenDecoratorEmpty	%nm/world/gen/placement/Passthrough	bvq
+%nm/server/1_13_R2/WorldGenDecoratorRoofedTree	%nm/world/gen/placement/RoofedTree	bvr
+%nm/server/1_13_R2/WorldGenDecoratorSpike	%nm/world/gen/placement/EndSpikes	bvs
+%nm/server/1_13_R2/WorldGenDecoratorSpike$a	%nm/world/gen/placement/EndSpikes$CacheLoader	bvs$a
+%nm/server/1_13_R2/WorldGenDecoratorSolidTop	%nm/world/gen/placement/TopSolidOnce	bvt
+%nm/server/1_13_R2/WorldGenDecoratorSolidTopNoise	%nm/world/gen/placement/TopSolidWithNoise	bvu
+%nm/server/1_13_R2/WorldGenDecoratorSolidTopHeight	%nm/world/gen/placement/TopSolidRange	bvv
+%nm/server/1_13_R2/WorldGenDecoratorNetherChance	%nm/world/gen/placement/ChanceRange	bvw
+%nm/server/1_13_R2/WorldGenDecoratorNetherHeight	%nm/world/gen/placement/CountRange	bvx
+%nm/server/1_13_R2/WorldGenDecoratorNetherFire	%nm/world/gen/placement/NetherFire	bvy
+%nm/server/1_13_R2/WorldGenDecoratorNetherGlowstone	%nm/world/gen/placement/NetherGlowstone	bvz
+%nm/server/1_13_R2/WorldGenDecoratorNetherMagma	%nm/world/gen/placement/NetherMagma	bwa
+%nm/server/1_13_R2/WorldGenDecoratorNetherRandomCount	%nm/world/gen/placement/RandomCountWithRange	bwb
+%nm/server/1_13_R2/WorldGenCarverAbstract	%nm/world/gen/carver/WorldCarver	bwe
+%nm/server/1_13_R2/StructureBoundingBox	%nm/util/math/MutableBoundingBox	bwf
+%nm/server/1_13_R2/WorldGenBuriedTreasurePieces	%nm/world/gen/feature/structure/BuriedTreasurePieces	bwg
+%nm/server/1_13_R2/WorldGenBuriedTreasurePieces$a	%nm/world/gen/feature/structure/BuriedTreasurePieces$Piece	bwg$a
+%nm/server/1_13_R2/WorldGenCanyon	%nm/world/gen/carver/CanyonWorldCarver	bwh
+%nm/server/1_13_R2/WorldGenCaves	%nm/world/gen/carver/CaveWorldCarver	bwi
+%nm/server/1_13_R2/WorldGenCarverWrapper	%nm/world/gen/carver/WorldCarverWrapper	bwj
+%nm/server/1_13_R2/WorldGenDesertPyramidPiece	%nm/world/gen/feature/structure/DesertPyramidPiece	bwk
+%nm/server/1_13_R2/WorldGenEndCityPieces	%nm/world/gen/feature/structure/EndCityPieces	bwl
+%nm/server/1_13_R2/WorldGenEndCityPieces$1	%nm/world/gen/feature/structure/EndCityPieces$1	bwl$1
+%nm/server/1_13_R2/WorldGenEndCityPieces$2	%nm/world/gen/feature/structure/EndCityPieces$2	bwl$2
+%nm/server/1_13_R2/WorldGenEndCityPieces$3	%nm/world/gen/feature/structure/EndCityPieces$3	bwl$3
+%nm/server/1_13_R2/WorldGenEndCityPieces$4	%nm/world/gen/feature/structure/EndCityPieces$4	bwl$4
+%nm/server/1_13_R2/WorldGenEndCityPieces$Piece	%nm/world/gen/feature/structure/EndCityPieces$CityTemplate	bwl$a
+%nm/server/1_13_R2/WorldGenEndCityPieces$PieceGenerator	%nm/world/gen/feature/structure/EndCityPieces$IGenerator	bwl$b
+%nm/server/1_13_R2/WorldGenCavesHell	%nm/world/gen/carver/NetherCaveWorldCarver	bwm
+%nm/server/1_13_R2/WorldGenIglooPiece	%nm/world/gen/feature/structure/IglooPieces	bwn
+%nm/server/1_13_R2/WorldGenIglooPiece$a	%nm/world/gen/feature/structure/IglooPieces$Piece	bwn$a
+%nm/server/1_13_R2/WorldGenJunglePyramidPiece	%nm/world/gen/feature/structure/JunglePyramidPiece	bwo
+%nm/server/1_13_R2/WorldGenJunglePyramidPiece$a	%nm/world/gen/feature/structure/JunglePyramidPiece$MossStoneSelector	bwo$a
+%nm/server/1_13_R2/PersistentStructureLegacy	%nm/world/gen/feature/structure/LegacyStructureDataUtil	bwp
+%nm/server/1_13_R2/PersistentStructureLegacy$a	%nm/world/gen/feature/structure/LegacyStructureDataUtil$Nether	bwp$a
+%nm/server/1_13_R2/PersistentStructureLegacy$b	%nm/world/gen/feature/structure/LegacyStructureDataUtil$Overworld	bwp$b
+%nm/server/1_13_R2/PersistentStructureLegacy$c	%nm/world/gen/feature/structure/LegacyStructureDataUtil$End	bwp$c
+%nm/server/1_13_R2/WorldGenMineshaftPieces	%nm/world/gen/feature/structure/MineshaftPieces	bwq
+%nm/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftCorridor	%nm/world/gen/feature/structure/MineshaftPieces$Corridor	bwq$a
+%nm/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftCross	%nm/world/gen/feature/structure/MineshaftPieces$Cross	bwq$b
+%nm/server/1_13_R2/WorldGenMineshaftPieces$c	%nm/world/gen/feature/structure/MineshaftPieces$Piece	bwq$c
+%nm/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftRoom	%nm/world/gen/feature/structure/MineshaftPieces$Room	bwq$d
+%nm/server/1_13_R2/WorldGenMineshaftPieces$WorldGenMineshaftStairs	%nm/world/gen/feature/structure/MineshaftPieces$Stairs	bwq$e
+%nm/server/1_13_R2/WorldGenNetherPieces	%nm/world/gen/feature/structure/FortressPieces	bwr
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece1	%nm/world/gen/feature/structure/FortressPieces$Crossing3	bwr$a
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece2	%nm/world/gen/feature/structure/FortressPieces$End	bwr$b
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece3	%nm/world/gen/feature/structure/FortressPieces$Straight	bwr$c
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece4	%nm/world/gen/feature/structure/FortressPieces$Corridor3	bwr$d
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece5	%nm/world/gen/feature/structure/FortressPieces$Corridor4	bwr$e
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece6	%nm/world/gen/feature/structure/FortressPieces$Entrance	bwr$f
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece7	%nm/world/gen/feature/structure/FortressPieces$Crossing2	bwr$g
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece8	%nm/world/gen/feature/structure/FortressPieces$Corridor	bwr$h
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece9	%nm/world/gen/feature/structure/FortressPieces$Corridor5	bwr$i
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece10	%nm/world/gen/feature/structure/FortressPieces$Corridor2	bwr$j
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece11	%nm/world/gen/feature/structure/FortressPieces$NetherStalkRoom	bwr$k
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece12	%nm/world/gen/feature/structure/FortressPieces$Throne	bwr$l
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece	%nm/world/gen/feature/structure/FortressPieces$Piece	bwr$m
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPieceWeight	%nm/world/gen/feature/structure/FortressPieces$PieceWeight	bwr$n
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece13	%nm/world/gen/feature/structure/FortressPieces$Crossing	bwr$o
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece14	%nm/world/gen/feature/structure/FortressPieces$Stairs	bwr$p
+%nm/server/1_13_R2/WorldGenNetherPieces$WorldGenNetherPiece15	%nm/world/gen/feature/structure/FortressPieces$Start	bwr$q
+%nm/server/1_13_R2/WorldGenMonumentPieces	%nm/world/gen/feature/structure/OceanMonumentPieces	bws
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector7	%nm/world/gen/feature/structure/OceanMonumentPieces$XDoubleRoomFitHelper	bws$a
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector6	%nm/world/gen/feature/structure/OceanMonumentPieces$XYDoubleRoomFitHelper	bws$b
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector5	%nm/world/gen/feature/structure/OceanMonumentPieces$YDoubleRoomFitHelper	bws$c
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector4	%nm/world/gen/feature/structure/OceanMonumentPieces$YZDoubleRoomFitHelper	bws$d
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector3	%nm/world/gen/feature/structure/OceanMonumentPieces$ZDoubleRoomFitHelper	bws$e
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector2	%nm/world/gen/feature/structure/OceanMonumentPieces$FitSimpleRoomHelper	bws$f
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector1	%nm/world/gen/feature/structure/OceanMonumentPieces$FitSimpleRoomTopHelper	bws$g
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece1	%nm/world/gen/feature/structure/OceanMonumentPieces$MonumentBuilding	bws$h
+%nm/server/1_13_R2/WorldGenMonumentPieces$IWorldGenMonumentPieceSelector	%nm/world/gen/feature/structure/OceanMonumentPieces$MonumentRoomFitHelper	bws$i
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece2	%nm/world/gen/feature/structure/OceanMonumentPieces$MonumentCoreRoom	bws$j
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece3	%nm/world/gen/feature/structure/OceanMonumentPieces$DoubleXRoom	bws$k
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece4	%nm/world/gen/feature/structure/OceanMonumentPieces$DoubleXYRoom	bws$l
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece5	%nm/world/gen/feature/structure/OceanMonumentPieces$DoubleYRoom	bws$m
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece6	%nm/world/gen/feature/structure/OceanMonumentPieces$DoubleYZRoom	bws$n
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece7	%nm/world/gen/feature/structure/OceanMonumentPieces$DoubleZRoom	bws$o
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceEntry	%nm/world/gen/feature/structure/OceanMonumentPieces$EntryRoom	bws$p
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse	%nm/world/gen/feature/structure/OceanMonumentPieces$Penthouse	bws$q
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece	%nm/world/gen/feature/structure/OceanMonumentPieces$Piece	bws$r
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimple	%nm/world/gen/feature/structure/OceanMonumentPieces$SimpleRoom	bws$s
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT	%nm/world/gen/feature/structure/OceanMonumentPieces$SimpleTopRoom	bws$t
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentPiece8	%nm/world/gen/feature/structure/OceanMonumentPieces$WingRoom	bws$u
+%nm/server/1_13_R2/WorldGenMonumentPieces$WorldGenMonumentStateTracker	%nm/world/gen/feature/structure/OceanMonumentPieces$RoomDefinition	bws$v
+%nm/server/1_13_R2/WorldGenFeatureOceanRuin	%nm/world/gen/feature/structure/OceanRuinStructure	bwt
+%nm/server/1_13_R2/WorldGenFeatureOceanRuin$a	%nm/world/gen/feature/structure/OceanRuinStructure$Start	bwt$a
+%nm/server/1_13_R2/WorldGenFeatureOceanRuin$Temperature	%nm/world/gen/feature/structure/OceanRuinStructure$Type	bwt$b
+%nm/server/1_13_R2/WorldGenFeatureOceanRuinPieces	%nm/world/gen/feature/structure/OceanRuinPieces	bwu
+%nm/server/1_13_R2/WorldGenFeatureOceanRuinPieces$a	%nm/world/gen/feature/structure/OceanRuinPieces$Piece	bwu$a
+%nm/server/1_13_R2/WorldGenScatteredPiece	%nm/world/gen/feature/structure/ScatteredStructurePiece	bwv
+%nm/server/1_13_R2/WorldGenShipwreck	%nm/world/gen/feature/structure/ShipwreckPieces	bww
+%nm/server/1_13_R2/WorldGenShipwreck$a	%nm/world/gen/feature/structure/ShipwreckPieces$Piece	bww$a
+%nm/server/1_13_R2/WorldGenStrongholdPieces	%nm/world/gen/feature/structure/StrongholdPieces	bwx
+%nm/server/1_13_R2/WorldGenStrongholdPieces$1	%nm/world/gen/feature/structure/StrongholdPieces$1	bwx$1
+%nm/server/1_13_R2/WorldGenStrongholdPieces$2	%nm/world/gen/feature/structure/StrongholdPieces$2	bwx$2
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor	%nm/world/gen/feature/structure/StrongholdPieces$ChestCorridor	bwx$a
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdCorridor	%nm/world/gen/feature/structure/StrongholdPieces$Corridor	bwx$b
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdCrossing	%nm/world/gen/feature/structure/StrongholdPieces$Crossing	bwx$c
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn	%nm/world/gen/feature/structure/StrongholdPieces$LeftTurn	bwx$d
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdLibrary	%nm/world/gen/feature/structure/StrongholdPieces$Library	bwx$e
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPieceWeight	%nm/world/gen/feature/structure/StrongholdPieces$PieceWeight	bwx$f
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom	%nm/world/gen/feature/structure/StrongholdPieces$PortalRoom	bwx$g
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPrison	%nm/world/gen/feature/structure/StrongholdPieces$Prison	bwx$h
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdRightTurn	%nm/world/gen/feature/structure/StrongholdPieces$RightTurn	bwx$i
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing	%nm/world/gen/feature/structure/StrongholdPieces$RoomCrossing	bwx$j
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStones	%nm/world/gen/feature/structure/StrongholdPieces$Stones	bwx$k
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs2	%nm/world/gen/feature/structure/StrongholdPieces$Stairs	bwx$l
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStart	%nm/world/gen/feature/structure/StrongholdPieces$Stairs2	bwx$m
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs	%nm/world/gen/feature/structure/StrongholdPieces$Straight	bwx$n
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight	%nm/world/gen/feature/structure/StrongholdPieces$StairsStraight	bwx$o
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece	%nm/world/gen/feature/structure/StrongholdPieces$Stronghold	bwx$p
+%nm/server/1_13_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece$WorldGenStrongholdDoorType	%nm/world/gen/feature/structure/StrongholdPieces$Stronghold$Door	bwx$p$a
+%nm/server/1_13_R2/WorldGenFactory	%nm/world/gen/feature/structure/StructureIO	bwy
+%nm/server/1_13_R2/PersistentIndexed	%nm/world/gen/feature/structure/StructureIndexesSavedData	bwz
+%nm/server/1_13_R2/StructurePiece	%nm/world/gen/feature/structure/StructurePiece	bxb
+%nm/server/1_13_R2/StructurePiece$StructurePieceBlockSelector	%nm/world/gen/feature/structure/StructurePiece$BlockSelector	bxb$a
+%nm/server/1_13_R2/StructureStart	%nm/world/gen/feature/structure/StructureStart	bxc
+%nm/server/1_13_R2/WorldGenWitchHut	%nm/world/gen/feature/structure/SwampHutPiece	bxd
+%nm/server/1_13_R2/DefinedStructurePiece	%nm/world/gen/feature/structure/TemplateStructurePiece	bxe
+%nm/server/1_13_R2/WorldGenCanyonOcean	%nm/world/gen/carver/UnderwaterCanyonWorldCarver	bxf
+%nm/server/1_13_R2/WorldGenCavesOcean	%nm/world/gen/carver/UnderwaterCaveWorldCarver	bxg
+%nm/server/1_13_R2/WorldGenVillagePieces	%nm/world/gen/feature/structure/VillagePieces	bxh
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageLibrary	%nm/world/gen/feature/structure/VillagePieces$House1	bxh$a
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageFarm2	%nm/world/gen/feature/structure/VillagePieces$Field1	bxh$b
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageFarm	%nm/world/gen/feature/structure/VillagePieces$Field2	bxh$c
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageLight	%nm/world/gen/feature/structure/VillagePieces$Torch	bxh$d
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillagePieceWeight	%nm/world/gen/feature/structure/VillagePieces$PieceWeight	bxh$e
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageButcher	%nm/world/gen/feature/structure/VillagePieces$Hall	bxh$f
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageHouse	%nm/world/gen/feature/structure/VillagePieces$House4Garden	bxh$g
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageHut	%nm/world/gen/feature/structure/VillagePieces$WoodHut	bxh$h
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageTemple	%nm/world/gen/feature/structure/VillagePieces$Church	bxh$i
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageBlacksmith	%nm/world/gen/feature/structure/VillagePieces$House2	bxh$j
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageStartPiece	%nm/world/gen/feature/structure/VillagePieces$Start	bxh$k
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageRoad	%nm/world/gen/feature/structure/VillagePieces$Path	bxh$l
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageHouse2	%nm/world/gen/feature/structure/VillagePieces$House3	bxh$m
+%nm/server/1_13_R2/WorldGenVillagePieces$Material	%nm/world/gen/feature/structure/VillagePieces$Type	bxh$n
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillagePiece	%nm/world/gen/feature/structure/VillagePieces$Village	bxh$o
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageRoadPiece	%nm/world/gen/feature/structure/VillagePieces$Road	bxh$p
+%nm/server/1_13_R2/WorldGenVillagePieces$WorldGenVillageWell	%nm/world/gen/feature/structure/VillagePieces$Well	bxh$q
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces	%nm/world/gen/feature/structure/WoodlandMansionPieces	bxi
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$a	%nm/world/gen/feature/structure/WoodlandMansionPieces$FirstFloor	bxi$a
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$b	%nm/world/gen/feature/structure/WoodlandMansionPieces$RoomCollection	bxi$b
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$c	%nm/world/gen/feature/structure/WoodlandMansionPieces$Grid	bxi$c
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$d	%nm/world/gen/feature/structure/WoodlandMansionPieces$Placer	bxi$d
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$e	%nm/world/gen/feature/structure/WoodlandMansionPieces$PlacementData	bxi$e
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$f	%nm/world/gen/feature/structure/WoodlandMansionPieces$SecondFloor	bxi$f
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$g	%nm/world/gen/feature/structure/WoodlandMansionPieces$SimpleGrid	bxi$g
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$h	%nm/world/gen/feature/structure/WoodlandMansionPieces$ThirdFloor	bxi$h
+%nm/server/1_13_R2/WorldGenWoodlandMansionPieces$i	%nm/world/gen/feature/structure/WoodlandMansionPieces$MansionTemplate	bxi$i
+%nm/server/1_13_R2/WorldGenCarver	%nm/world/gen/carver/IWorldCarver	bxj
+%nm/server/1_13_R2/DefinedStructureProcessorRotation	%nm/world/gen/feature/template/IntegrityProcessor	bxl
+%nm/server/1_13_R2/DefinedStructureManager	%nm/world/gen/feature/template/TemplateManager	bxm
+%nm/server/1_13_R2/DefinedStructureInfo	%nm/world/gen/feature/template/PlacementSettings	bxn
+%nm/server/1_13_R2/DefinedStructureProcessor	%nm/world/gen/feature/template/ITemplateProcessor	bxo
+%nm/server/1_13_R2/DefinedStructure	%nm/world/gen/feature/template/Template	bxp
+%nm/server/1_13_R2/DefinedStructure$a	%nm/world/gen/feature/template/Template$BasicPalette	bxp$a
+%nm/server/1_13_R2/DefinedStructure$BlockInfo	%nm/world/gen/feature/template/Template$BlockInfo	bxp$b
+%nm/server/1_13_R2/DefinedStructure$EntityInfo	%nm/world/gen/feature/template/Template$EntityInfo	bxp$c
+%nm/server/1_13_R2/WorldGenSurfaceComposite	%nm/world/gen/surfacebuilders/CompositeSurfaceBuilder	bxr
+%nm/server/1_13_R2/WorldGenSurfaceDefaultBlock	%nm/world/gen/surfacebuilders/DefaultSurfaceBuilder	bxs
+%nm/server/1_13_R2/WorldGenSurfaceExtremeHillMutated	%nm/world/gen/surfacebuilders/ExtremeHillsMutatedSurfaceBuilder	bxt
+%nm/server/1_13_R2/WorldGenSurfaceExtremeHills	%nm/world/gen/surfacebuilders/ExtremeHillsSurfaceBuilder	bxu
+%nm/server/1_13_R2/WorldGenSurfaceFrozenOcean	%nm/world/gen/surfacebuilders/FrozenOceanSurfaceBuilder	bxv
+%nm/server/1_13_R2/WorldGenSurfaceMesaBryce	%nm/world/gen/surfacebuilders/MesaBryceSurfaceBuilder	bxw
+%nm/server/1_13_R2/WorldGenSurfaceMesaForest	%nm/world/gen/surfacebuilders/MesaForestSurfaceBuilder	bxx
+%nm/server/1_13_R2/WorldGenSurfaceMesa	%nm/world/gen/surfacebuilders/MesaSurfaceBuilder	bxy
+%nm/server/1_13_R2/WorldGenSurfaceNether	%nm/world/gen/surfacebuilders/NetherSurfaceBuilder	bxz
+%nm/server/1_13_R2/WorldGenSurfaceEmpty	%nm/world/gen/surfacebuilders/NoopSurfaceBuilder	bya
+%nm/server/1_13_R2/WorldGenSurfaceSavannaMutated	%nm/world/gen/surfacebuilders/SavanaMutatedSurfaceBuilder	byb
+%nm/server/1_13_R2/WorldGenSurface	%nm/world/gen/surfacebuilders/ISurfaceBuilder	byc
+%nm/server/1_13_R2/WorldGenSurfaceConfigurationBase	%nm/world/gen/surfacebuilders/SurfaceBuilderConfig	byd
+%nm/server/1_13_R2/WorldGenSurfaceConfiguration	%nm/world/gen/surfacebuilders/ISurfaceBuilderConfig	bye
+%nm/server/1_13_R2/WorldGenSurfaceSwamp	%nm/world/gen/surfacebuilders/SwampSurfaceBuilder	byf
+%nm/server/1_13_R2/WorldGenSurfaceTaigaMega	%nm/world/gen/surfacebuilders/TaigaMegaSurfaceBuilder	byg
+%nm/server/1_13_R2/NoiseGeneratorPerlin	%nm/world/gen/NoiseGeneratorImproved	byi
+%nm/server/1_13_R2/NoiseGeneratorOctaves	%nm/world/gen/NoiseGeneratorOctaves	byj
+%nm/server/1_13_R2/NoiseGenerator3	%nm/world/gen/NoiseGeneratorPerlin	byk
+%nm/server/1_13_R2/NoiseGenerator3Handler	%nm/world/gen/NoiseGeneratorSimplex	byl
+%nm/server/1_13_R2/NoiseGenerator	%nm/world/gen/NoiseGenerator	bym
+%nm/server/1_13_R2/LightEngine	%nm/world/lighting/BaseLightEngine	byo
+%nm/server/1_13_R2/LightEngineBlock	%nm/world/lighting/BlockLightEngine	byp
+%nm/server/1_13_R2/ILightEngine	%nm/world/lighting/ILightEngine	byq
+%nm/server/1_13_R2/LightEngineSky	%nm/world/lighting/SkyLightEngine	byr
+%nm/server/1_13_R2/FluidTypeEmpty	%nm/fluid/EmptyFluid	byt
+%nm/server/1_13_R2/FluidTypeFlowing	%nm/fluid/FlowingFluid	byu
+%nm/server/1_13_R2/FluidTypeFlowing$1	%nm/fluid/FlowingFluid$1	byu$1
+%nm/server/1_13_R2/FluidType	%nm/fluid/Fluid	byv
+%nm/server/1_13_R2/Fluid	%nm/fluid/IFluidState	byw
+%nm/server/1_13_R2/FluidImpl	%nm/fluid/FluidState	byx
+%nm/server/1_13_R2/FluidTypes	%nm/init/Fluids	byy
+%nm/server/1_13_R2/FluidTypeLava	%nm/fluid/LavaFluid	byz
+%nm/server/1_13_R2/FluidTypeLava$a	%nm/fluid/LavaFluid$Flowing	byz$a
+%nm/server/1_13_R2/FluidTypeLava$b	%nm/fluid/LavaFluid$Source	byz$b
+%nm/server/1_13_R2/Material	%nm/block/material/Material	bza
+%nm/server/1_13_R2/Material$a	%nm/block/material/Material$Builder	bza$a
+%nm/server/1_13_R2/MaterialMapColor	%nm/block/material/MaterialColor	bzb
+%nm/server/1_13_R2/EnumPistonReaction	%nm/block/material/EnumPushReaction	bzc
+%nm/server/1_13_R2/FluidTypeWater	%nm/fluid/WaterFluid	bzd
+%nm/server/1_13_R2/FluidTypeWater$a	%nm/fluid/WaterFluid$Flowing	bzd$a
+%nm/server/1_13_R2/FluidTypeWater$b	%nm/fluid/WaterFluid$Source	bzd$b
+%nm/server/1_13_R2/Area	%nm/world/gen/area/IArea	bzf
+%nm/server/1_13_R2/AreaDimension	%nm/world/gen/area/AreaDimension	bzg
+%nm/server/1_13_R2/AreaFactory	%nm/world/gen/area/IAreaFactory	bzh
+%nm/server/1_13_R2/AreaLazy	%nm/world/gen/area/LazyArea	bzi
+%nm/server/1_13_R2/AreaContextTransformed	%nm/world/gen/IContextExtended	bzk
+%nm/server/1_13_R2/WorldGenContext	%nm/world/gen/IContext	bzl
+%nm/server/1_13_R2/WorldGenContextLayer	%nm/world/gen/LayerContext	bzm
+%nm/server/1_13_R2/WorldGenContextArea	%nm/world/gen/LazyAreaLayerContext	bzn
+%nm/server/1_13_R2/GenLayerDeepOcean	%nm/world/gen/layer/GenLayerDeepOcean	bzp
+%nm/server/1_13_R2/GenLayerSpecial	%nm/world/gen/layer/GenLayerEdge	bzq
+%nm/server/1_13_R2/GenLayerSpecial$Special1	%nm/world/gen/layer/GenLayerEdge$CoolWarm	bzq$a
+%nm/server/1_13_R2/GenLayerSpecial$Special2	%nm/world/gen/layer/GenLayerEdge$HeatIce	bzq$b
+%nm/server/1_13_R2/GenLayerSpecial$Special3	%nm/world/gen/layer/GenLayerEdge$Special	bzq$c
+%nm/server/1_13_R2/GenLayerIsland	%nm/world/gen/layer/GenLayerAddIsland	bzr
+%nm/server/1_13_R2/GenLayerMushroomIsland	%nm/world/gen/layer/GenLayerAddMushroomIsland	bzs
+%nm/server/1_13_R2/GenLayerTopSoil	%nm/world/gen/layer/GenLayerAddSnow	bzt
+%nm/server/1_13_R2/GenLayerDesert	%nm/world/gen/layer/GenLayerBiomeEdge	bzu
+%nm/server/1_13_R2/GenLayerBiome	%nm/world/gen/layer/GenLayerBiome	bzv
+%nm/server/1_13_R2/LayerIsland	%nm/world/gen/layer/GenLayerIsland	bzw
+%nm/server/1_13_R2/GenLayer	%nm/world/gen/layer/GenLayer	bzx
+%nm/server/1_13_R2/GenLayers	%nm/world/gen/layer/LayerUtil	bzy
+%nm/server/1_13_R2/GenLayerOceanEdge	%nm/world/gen/layer/OceanLayer	bzz
+%nm/server/1_13_R2/GenLayerOcean	%nm/world/gen/layer/GenLayerMixOceans	caa
+%nm/server/1_13_R2/GenLayerPlains	%nm/world/gen/layer/GenLayerRareBiome	cab
+%nm/server/1_13_R2/GenLayerRegionHills	%nm/world/gen/layer/GenLayerHills	cac
+%nm/server/1_13_R2/GenLayerIcePlains	%nm/world/gen/layer/GenLayerRemoveTooMuchOcean	cad
+%nm/server/1_13_R2/GenLayerCleaner	%nm/world/gen/layer/GenLayerRiverInit	cae
+%nm/server/1_13_R2/GenLayerRiver	%nm/world/gen/layer/GenLayerRiver	caf
+%nm/server/1_13_R2/GenLayerRiverMix	%nm/world/gen/layer/GenLayerRiverMix	cag
+%nm/server/1_13_R2/GenLayerMushroomShore	%nm/world/gen/layer/GenLayerShore	cah
+%nm/server/1_13_R2/GenLayerSmooth	%nm/world/gen/layer/GenLayerSmooth	cai
+%nm/server/1_13_R2/GenLayerZoomVoronoi	%nm/world/gen/layer/GenLayerVoronoiZoom	caj
+%nm/server/1_13_R2/GenLayerZoom	%nm/world/gen/layer/GenLayerZoom	cak
+%nm/server/1_13_R2/GenLayerZoom$1	%nm/world/gen/layer/GenLayerZoom$1	cak$1
+%nm/server/1_13_R2/AreaTransformer1	%nm/world/gen/layer/traits/IAreaTransformer0	cam
+%nm/server/1_13_R2/AreaTransformer2	%nm/world/gen/layer/traits/IAreaTransformer1	can
+%nm/server/1_13_R2/AreaTransformer3	%nm/world/gen/layer/traits/IAreaTransformer2	cao
+%nm/server/1_13_R2/AreaTransformer4	%nm/world/gen/layer/traits/IBishopTransformer	cap
+%nm/server/1_13_R2/AreaTransformer5	%nm/world/gen/layer/traits/IC0Transformer	caq
+%nm/server/1_13_R2/AreaTransformer6	%nm/world/gen/layer/traits/IC1Transformer	car
+%nm/server/1_13_R2/AreaTransformer7	%nm/world/gen/layer/traits/ICastleTransformer	cas
+%nm/server/1_13_R2/AreaTransformerIdentity	%nm/world/gen/layer/traits/IDimOffset0Transformer	cat
+%nm/server/1_13_R2/AreaTransformerOffset1	%nm/world/gen/layer/traits/IDimOffset1Transformer	cau
+%nm/server/1_13_R2/AreaTransformer	%nm/world/gen/layer/traits/IDimTransformer	cav
+%nm/server/1_13_R2/AreaTransformer8	%nm/world/gen/layer/traits/IPixelTransformer	caw
+%nm/server/1_13_R2/Path	%nm/pathfinding/PathHeap	caz
+%nm/server/1_13_R2/PathType	%nm/pathfinding/PathNodeType	cba
+%nm/server/1_13_R2/PathfinderFlying	%nm/pathfinding/FlyingNodeProcessor	cbb
+%nm/server/1_13_R2/PathPoint	%nm/pathfinding/PathPoint	cbc
+%nm/server/1_13_R2/PathfinderAbstract	%nm/pathfinding/NodeProcessor	cbd
+%nm/server/1_13_R2/PathEntity	%nm/pathfinding/Path	cbe
+%nm/server/1_13_R2/PathMode	%nm/pathfinding/PathType	cbf
+%nm/server/1_13_R2/Pathfinder	%nm/pathfinding/PathFinder	cbg
+%nm/server/1_13_R2/PathfinderWater	%nm/pathfinding/SwimNodeProcessor	cbh
+%nm/server/1_13_R2/PathfinderTurtle	%nm/pathfinding/WalkAndSwimNodeProcessor	cbi
+%nm/server/1_13_R2/PathfinderNormal	%nm/pathfinding/WalkNodeProcessor	cbj
+%nm/server/1_13_R2/RunnableSaveScoreboard	%nm/world/storage/WorldSavedDataCallableSave	cbn
+%nm/server/1_13_R2/PersistentBase	%nm/world/storage/WorldSavedData	cbo
+%nm/server/1_13_R2/MapIconBanner	%nm/world/storage/MapBanner	cbp
+%nm/server/1_13_R2/MapIcon	%nm/world/storage/MapDecoration	cbq
+%nm/server/1_13_R2/MapIcon$Type	%nm/world/storage/MapDecoration$Type	cbq$a
+%nm/server/1_13_R2/WorldMapFrame	%nm/world/storage/MapFrame	cbr
+%nm/server/1_13_R2/WorldMap	%nm/world/storage/MapData	cbs
+%nm/server/1_13_R2/WorldMap$WorldMapHumanTracker	%nm/world/storage/MapData$MapInfo	cbs$a
+%nm/server/1_13_R2/ServerNBTManager	%nm/world/chunk/storage/AnvilSaveHandler	cbv
+%nm/server/1_13_R2/WorldLoaderServer	%nm/world/chunk/storage/AnvilSaveConverter	cbw
+%nm/server/1_13_R2/SecondaryWorldData	%nm/world/storage/DerivedWorldInfo	cbx
+%nm/server/1_13_R2/WorldPersistentData	%nm/world/storage/DimensionSavedDataManager	cby
+%nm/server/1_13_R2/WorldNBTStorage	%nm/world/storage/SaveHandler	cbz
+%nm/server/1_13_R2/WorldLoader	%nm/world/storage/SaveFormatOld	cca
+%nm/server/1_13_R2/WorldData	%nm/world/storage/WorldInfo	ccb
+%nm/server/1_13_R2/IDataManager	%nm/world/storage/ISaveHandler	ccc
+%nm/server/1_13_R2/Convertable	%nm/world/storage/ISaveFormat	cce
+%nm/server/1_13_R2/IPlayerFileData	%nm/world/storage/IPlayerFileData	cci
+%nm/server/1_13_R2/PersistentCollection	%nm/world/storage/WorldSavedDataStorage	cck
+%nm/server/1_13_R2/LootTables	%nm/world/storage/loot/LootTableList	ccl
+%nm/server/1_13_R2/LootSelectorEmpty	%nm/world/storage/loot/LootEntryEmpty	ccm
+%nm/server/1_13_R2/LootItem	%nm/world/storage/loot/LootEntryItem	ccn
+%nm/server/1_13_R2/LootSelector	%nm/world/storage/loot/LootPool	cco
+%nm/server/1_13_R2/LootSelector$a	%nm/world/storage/loot/LootPool$Serializer	cco$a
+%nm/server/1_13_R2/LootSelectorEntry	%nm/world/storage/loot/LootEntry	ccp
+%nm/server/1_13_R2/LootSelectorEntry$a	%nm/world/storage/loot/LootEntry$Serializer	ccp$a
+%nm/server/1_13_R2/LootTable	%nm/world/storage/loot/LootTable	ccq
+%nm/server/1_13_R2/LootTable$a	%nm/world/storage/loot/LootTable$Serializer	ccq$a
+%nm/server/1_13_R2/LootTableInfo	%nm/world/storage/loot/LootContext	ccr
+%nm/server/1_13_R2/LootTableInfo$Builder	%nm/world/storage/loot/LootContext$Builder	ccr$a
+%nm/server/1_13_R2/LootTableInfo$EntityTarget	%nm/world/storage/loot/LootContext$EntityTarget	ccr$b
+%nm/server/1_13_R2/LootTableInfo$EntityTarget$a	%nm/world/storage/loot/LootContext$EntityTarget$Serializer	ccr$b$a
+%nm/server/1_13_R2/LootSelectorLootTable	%nm/world/storage/loot/LootEntryTable	ccs
+%nm/server/1_13_R2/LootTableRegistry	%nm/world/storage/loot/LootTableManager	cct
+%nm/server/1_13_R2/LootValueBounds	%nm/world/storage/loot/RandomValueRange	ccu
+%nm/server/1_13_R2/LootValueBounds$a	%nm/world/storage/loot/RandomValueRange$Serializer	ccu$a
+%nm/server/1_13_R2/LootItemFunctionEnchant	%nm/world/storage/loot/functions/EnchantRandomly	ccv
+%nm/server/1_13_R2/LootItemFunctionEnchant$a	%nm/world/storage/loot/functions/EnchantRandomly$Serializer	ccv$a
+%nm/server/1_13_R2/LootEnchantLevel	%nm/world/storage/loot/functions/EnchantWithLevels	ccw
+%nm/server/1_13_R2/LootEnchantLevel$a	%nm/world/storage/loot/functions/EnchantWithLevels$Serializer	ccw$a
+%nm/server/1_13_R2/LootItemFunctionExplorationMap	%nm/world/storage/loot/functions/ExplorationMap	ccx
+%nm/server/1_13_R2/LootItemFunctionExplorationMap$a	%nm/world/storage/loot/functions/ExplorationMap$Serializer	ccx$a
+%nm/server/1_13_R2/LootItemFunction	%nm/world/storage/loot/functions/LootFunction	ccy
+%nm/server/1_13_R2/LootItemFunction$a	%nm/world/storage/loot/functions/LootFunction$Serializer	ccy$a
+%nm/server/1_13_R2/LootItemFunctions	%nm/world/storage/loot/functions/LootFunctionManager	ccz
+%nm/server/1_13_R2/LootItemFunctions$a	%nm/world/storage/loot/functions/LootFunctionManager$Serializer	ccz$a
+%nm/server/1_13_R2/LootEnchantFunction	%nm/world/storage/loot/functions/LootingEnchantBonus	cda
+%nm/server/1_13_R2/LootEnchantFunction$a	%nm/world/storage/loot/functions/LootingEnchantBonus$Serializer	cda$a
+%nm/server/1_13_R2/LootItemFunctionSetAttribute	%nm/world/storage/loot/functions/SetAttributes	cdb
+%nm/server/1_13_R2/LootItemFunctionSetAttribute$a	%nm/world/storage/loot/functions/SetAttributes$Modifier	cdb$a
+%nm/server/1_13_R2/LootItemFunctionSetAttribute$b	%nm/world/storage/loot/functions/SetAttributes$Serializer	cdb$b
+%nm/server/1_13_R2/LootItemFunctionSetCount	%nm/world/storage/loot/functions/SetCount	cdc
+%nm/server/1_13_R2/LootItemFunctionSetCount$a	%nm/world/storage/loot/functions/SetCount$Serializer	cdc$a
+%nm/server/1_13_R2/LootItemFunctionSetDamage	%nm/world/storage/loot/functions/SetDamage	cdd
+%nm/server/1_13_R2/LootItemFunctionSetDamage$a	%nm/world/storage/loot/functions/SetDamage$Serializer	cdd$a
+%nm/server/1_13_R2/LootItemFunctionSetName	%nm/world/storage/loot/functions/SetName	cde
+%nm/server/1_13_R2/LootItemFunctionSetName$a	%nm/world/storage/loot/functions/SetName$Serializer	cde$a
+%nm/server/1_13_R2/LootItemFunctionSetTag	%nm/world/storage/loot/functions/SetNBT	cdf
+%nm/server/1_13_R2/LootItemFunctionSetTag$a	%nm/world/storage/loot/functions/SetNBT$Serializer	cdf$a
+%nm/server/1_13_R2/LootItemFunctionSmelt	%nm/world/storage/loot/functions/Smelt	cdg
+%nm/server/1_13_R2/LootItemFunctionSmelt$a	%nm/world/storage/loot/functions/Smelt$Serializer	cdg$a
+%nm/server/1_13_R2/LootItemConditionEntityScore	%nm/world/storage/loot/conditions/EntityHasScore	cdj
+%nm/server/1_13_R2/LootItemConditionEntityScore$a	%nm/world/storage/loot/conditions/EntityHasScore$Serializer	cdj$a
+%nm/server/1_13_R2/LootItemCondition	%nm/world/storage/loot/conditions/LootCondition	cdk
+%nm/server/1_13_R2/LootItemCondition$a	%nm/world/storage/loot/conditions/LootCondition$Serializer	cdk$a
+%nm/server/1_13_R2/LootItemConditions	%nm/world/storage/loot/conditions/LootConditionManager	cdl
+%nm/server/1_13_R2/LootItemConditions$a	%nm/world/storage/loot/conditions/LootConditionManager$Serializer	cdl$a
+%nm/server/1_13_R2/LootItemConditionEntityProperty	%nm/world/storage/loot/conditions/EntityHasProperty	cdm
+%nm/server/1_13_R2/LootItemConditionEntityProperty$a	%nm/world/storage/loot/conditions/EntityHasProperty$Serializer	cdm$a
+%nm/server/1_13_R2/LootItemConditionKilledByPlayer	%nm/world/storage/loot/conditions/KilledByPlayer	cdn
+%nm/server/1_13_R2/LootItemConditionKilledByPlayer$a	%nm/world/storage/loot/conditions/KilledByPlayer$Serializer	cdn$a
+%nm/server/1_13_R2/LootItemConditionRandomChance	%nm/world/storage/loot/conditions/RandomChance	cdo
+%nm/server/1_13_R2/LootItemConditionRandomChance$a	%nm/world/storage/loot/conditions/RandomChance$Serializer	cdo$a
+%nm/server/1_13_R2/LootItemConditionRandomChanceWithLooting	%nm/world/storage/loot/conditions/RandomChanceWithLooting	cdp
+%nm/server/1_13_R2/LootItemConditionRandomChanceWithLooting$a	%nm/world/storage/loot/conditions/RandomChanceWithLooting$Serializer	cdp$a
+%nm/server/1_13_R2/LootEntityProperties	%nm/world/storage/loot/properties/EntityPropertyManager	cdr
+%nm/server/1_13_R2/LootEntityProperty	%nm/world/storage/loot/properties/EntityProperty	cds
+%nm/server/1_13_R2/LootEntityProperty$a	%nm/world/storage/loot/properties/EntityProperty$Serializer	cds$a
+%nm/server/1_13_R2/LootEntityPropertyOnFire	%nm/world/storage/loot/properties/EntityOnFire	cdt
+%nm/server/1_13_R2/LootEntityPropertyOnFire$a	%nm/world/storage/loot/properties/EntityOnFire$Serializer	cdt$a
+%nm/server/1_13_R2/FileIOThread	%nm/world/storage/ThreadedFileIOBase	cdw
+%nm/server/1_13_R2/IAsyncChunkSaver	%nm/world/storage/IThreadedFileIO	cdx
+%nm/server/1_13_R2/AxisAlignedBB	%nm/util/math/AxisAlignedBB	cea
+%nm/server/1_13_R2/MovingObjectPosition	%nm/util/math/RayTraceResult	ceb
+%nm/server/1_13_R2/MovingObjectPosition$EnumMovingObjectType	%nm/util/math/RayTraceResult$Type	ceb$a
+%nm/server/1_13_R2/FluidCollisionOption	%nm/util/math/RayTraceFluidMode	cec
+%nm/server/1_13_R2/Vec2F	%nm/util/math/Vec2f	ced
+%nm/server/1_13_R2/Vec3D	%nm/util/math/Vec3d	cee
+%nm/server/1_13_R2/VoxelShapeArray	%nm/util/math/shapes/VoxelShapeArray	ceg
+%nm/server/1_13_R2/VoxelShapeBitSet	%nm/util/math/shapes/VoxelShapePartBitSet	ceh
+%nm/server/1_13_R2/OperatorBoolean	%nm/util/math/shapes/IBooleanFunction	cei
+%nm/server/1_13_R2/VoxelShapeCubePoint	%nm/util/math/shapes/DoubleRangeList	cej
+%nm/server/1_13_R2/VoxelShapeCube	%nm/util/math/shapes/VoxelShapeCube	cek
+%nm/server/1_13_R2/VoxelShapeCubeMerger	%nm/util/math/shapes/DoubleCubeMergingList	cel
+%nm/server/1_13_R2/VoxelShapeDiscrete	%nm/util/math/shapes/VoxelShapePart	cem
+%nm/server/1_13_R2/VoxelShapeDiscrete$a	%nm/util/math/shapes/VoxelShapePart$FaceConsumer	cem$a
+%nm/server/1_13_R2/VoxelShapeDiscrete$b	%nm/util/math/shapes/VoxelShapePart$LineConsumer	cem$b
+%nm/server/1_13_R2/VoxelShapeMergerIdentical	%nm/util/math/shapes/SimpleDoubleMerger	cen
+%nm/server/1_13_R2/VoxelShapeMerger	%nm/util/math/shapes/IDoubleListMerger	ceo
+%nm/server/1_13_R2/VoxelShapeMerger$a	%nm/util/math/shapes/IDoubleListMerger$Consumer	ceo$a
+%nm/server/1_13_R2/VoxelShapeMergerList	%nm/util/math/shapes/IndirectMerger	cep
+%nm/server/1_13_R2/DoubleListRange	%nm/util/math/shapes/IntRangeList	ceq
+%nm/server/1_13_R2/VoxelShapeMergerDisjoint	%nm/util/math/shapes/NonOverlappingMerger	cer
+%nm/server/1_13_R2/DoubleListOffset	%nm/util/math/shapes/OffsetDoubleList	ces
+%nm/server/1_13_R2/VoxelShapes	%nm/util/math/shapes/VoxelShapes	cet
+%nm/server/1_13_R2/VoxelShapes$a	%nm/util/math/shapes/VoxelShapes$LineConsumer	cet$a
+%nm/server/1_13_R2/VoxelShapeSlice	%nm/util/math/shapes/VoxelShapeSplit	ceu
+%nm/server/1_13_R2/VoxelShapeDiscreteSlice	%nm/util/math/shapes/VoxelShapePartSplit	cev
+%nm/server/1_13_R2/VoxelShape	%nm/util/math/shapes/VoxelShape	cew
+%nm/server/1_13_R2/VoxelShapeWorldRegion	%nm/util/math/shapes/VoxelShapeInt	cex
+%nm/server/1_13_R2/ScoreboardObjective	%nm/scoreboard/ScoreObjective	cez
+%nm/server/1_13_R2/ScoreboardTeam	%nm/scoreboard/ScorePlayerTeam	cfa
+%nm/server/1_13_R2/ScoreboardScore	%nm/scoreboard/Score	cfb
+%nm/server/1_13_R2/Scoreboard	%nm/scoreboard/Scoreboard	cfc
+%nm/server/1_13_R2/PersistentScoreboard	%nm/scoreboard/ScoreboardSaveData	cfd
+%nm/server/1_13_R2/ScoreboardTeamBase	%nm/scoreboard/Team	cfe
+%nm/server/1_13_R2/ScoreboardTeamBase$EnumTeamPush	%nm/scoreboard/Team$CollisionRule	cfe$a
+%nm/server/1_13_R2/ScoreboardTeamBase$EnumNameTagVisibility	%nm/scoreboard/Team$EnumVisible	cfe$b
+%nm/server/1_13_R2/IScoreboardCriteria	%nm/scoreboard/ScoreCriteria	cff
+%nm/server/1_13_R2/IScoreboardCriteria$EnumScoreboardHealthDisplay	%nm/scoreboard/ScoreCriteria$RenderType	cff$a
+	%nm/data/Main	%nm/data/Main
+	%nm/server/MinecraftServer	%nm/server/MinecraftServer
+	%nm/server/MinecraftServer$1	%nm/server/MinecraftServer$1
+	%nm/server/MinecraftServer$2	%nm/server/MinecraftServer$2`);

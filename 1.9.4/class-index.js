@@ -1,1908 +1,1908 @@
-updateClassIndex(`Spigot:#CA8A04	Searge:#B91C1C
-net/minecraft/server/1_9_R2/EnumChatFormat	net/minecraft/util/text/TextFormatting
-net/minecraft/server/1_9_R2/CommandEffect	net/minecraft/command/CommandEffect
-net/minecraft/server/1_9_R2/EntityEnderPearl	net/minecraft/entity/item/EntityEnderPearl
-net/minecraft/server/1_9_R2/EntityThrownExpBottle	net/minecraft/entity/item/EntityExpBottle
-net/minecraft/server/1_9_R2/EntityPotion	net/minecraft/entity/projectile/EntityPotion
-net/minecraft/server/1_9_R2/EntityTippedArrow	net/minecraft/entity/projectile/EntityTippedArrow
-net/minecraft/server/1_9_R2/EntityWitherSkull	net/minecraft/entity/projectile/EntityWitherSkull
-net/minecraft/server/1_9_R2/EntityBoat	net/minecraft/entity/item/EntityBoat
-net/minecraft/server/1_9_R2/EntityBoat$EnumStatus	net/minecraft/entity/item/EntityBoat$Status
-net/minecraft/server/1_9_R2/EntityBoat$EnumBoatType	net/minecraft/entity/item/EntityBoat$Type
-net/minecraft/server/1_9_R2/EntityMinecartAbstract	net/minecraft/entity/item/EntityMinecart
-net/minecraft/server/1_9_R2/EntityMinecartAbstract$EnumMinecartType	net/minecraft/entity/item/EntityMinecart$Type
-net/minecraft/server/1_9_R2/EntityMinecartChest	net/minecraft/entity/item/EntityMinecartChest
-net/minecraft/server/1_9_R2/EntityMinecartCommandBlock	net/minecraft/entity/item/EntityMinecartCommandBlock
-net/minecraft/server/1_9_R2/EntityMinecartCommandBlock$1	net/minecraft/entity/item/EntityMinecartCommandBlock$1
-net/minecraft/server/1_9_R2/EntityMinecartContainer	net/minecraft/entity/item/EntityMinecartContainer
-net/minecraft/server/1_9_R2/EntityMinecartFurnace	net/minecraft/entity/item/EntityMinecartFurnace
-net/minecraft/server/1_9_R2/EntityMinecartHopper	net/minecraft/entity/item/EntityMinecartHopper
-net/minecraft/server/1_9_R2/EntityMinecartRideable	net/minecraft/entity/item/EntityMinecartEmpty
-net/minecraft/server/1_9_R2/EntityMinecartMobSpawner	net/minecraft/entity/item/EntityMinecartMobSpawner
-net/minecraft/server/1_9_R2/EntityMinecartMobSpawner$1	net/minecraft/entity/item/EntityMinecartMobSpawner$1
-net/minecraft/server/1_9_R2/EntityMinecartTNT	net/minecraft/entity/item/EntityMinecartTNT
-net/minecraft/server/1_9_R2/FoodMetaData	net/minecraft/util/FoodStats
-net/minecraft/server/1_9_R2/Container	net/minecraft/inventory/Container
-net/minecraft/server/1_9_R2/InventoryHorseChest	net/minecraft/inventory/AnimalChest
-net/minecraft/server/1_9_R2/ContainerAnvil	net/minecraft/inventory/ContainerRepair
-net/minecraft/server/1_9_R2/ContainerAnvil$1	net/minecraft/inventory/ContainerRepair$1
-net/minecraft/server/1_9_R2/ContainerAnvil$2	net/minecraft/inventory/ContainerRepair$2
-net/minecraft/server/1_9_R2/ContainerBeacon	net/minecraft/inventory/ContainerBeacon
-net/minecraft/server/1_9_R2/ContainerBeacon$SlotBeacon	net/minecraft/inventory/ContainerBeacon$BeaconSlot
-net/minecraft/server/1_9_R2/ContainerBrewingStand	net/minecraft/inventory/ContainerBrewingStand
-net/minecraft/server/1_9_R2/ContainerBrewingStand$a	net/minecraft/inventory/ContainerBrewingStand$Fuel
-net/minecraft/server/1_9_R2/ContainerBrewingStand$SlotBrewing	net/minecraft/inventory/ContainerBrewingStand$Ingredient
-net/minecraft/server/1_9_R2/ContainerBrewingStand$SlotPotionBottle	net/minecraft/inventory/ContainerBrewingStand$Potion
-net/minecraft/server/1_9_R2/InventoryClickType	net/minecraft/inventory/ClickType
-net/minecraft/server/1_9_R2/CommandMe	net/minecraft/command/server/CommandEmote
-net/minecraft/server/1_9_R2/ICrafting	net/minecraft/inventory/IContainerListener
-net/minecraft/server/1_9_R2/ContainerChest	net/minecraft/inventory/ContainerChest
-net/minecraft/server/1_9_R2/InventoryCrafting	net/minecraft/inventory/InventoryCrafting
-net/minecraft/server/1_9_R2/ContainerWorkbench	net/minecraft/inventory/ContainerWorkbench
-net/minecraft/server/1_9_R2/ContainerDispenser	net/minecraft/inventory/ContainerDispenser
-net/minecraft/server/1_9_R2/ContainerEnchantTable	net/minecraft/inventory/ContainerEnchantment
-net/minecraft/server/1_9_R2/ContainerEnchantTable$1	net/minecraft/inventory/ContainerEnchantment$1
-net/minecraft/server/1_9_R2/ContainerEnchantTable$2	net/minecraft/inventory/ContainerEnchantment$2
-net/minecraft/server/1_9_R2/ContainerEnchantTable$3	net/minecraft/inventory/ContainerEnchantment$3
-net/minecraft/server/1_9_R2/SlotFurnaceFuel	net/minecraft/inventory/SlotFurnaceFuel
-net/minecraft/server/1_9_R2/ContainerFurnace	net/minecraft/inventory/ContainerFurnace
-net/minecraft/server/1_9_R2/SlotFurnaceResult	net/minecraft/inventory/SlotFurnaceOutput
-net/minecraft/server/1_9_R2/ContainerHopper	net/minecraft/inventory/ContainerHopper
-net/minecraft/server/1_9_R2/ContainerHorse	net/minecraft/inventory/ContainerHorseInventory
-net/minecraft/server/1_9_R2/ContainerHorse$1	net/minecraft/inventory/ContainerHorseInventory$1
-net/minecraft/server/1_9_R2/ContainerHorse$2	net/minecraft/inventory/ContainerHorseInventory$2
-net/minecraft/server/1_9_R2/ContainerPlayer	net/minecraft/inventory/ContainerPlayer
-net/minecraft/server/1_9_R2/ContainerPlayer$1	net/minecraft/inventory/ContainerPlayer$1
-net/minecraft/server/1_9_R2/ContainerPlayer$2	net/minecraft/inventory/ContainerPlayer$2
-net/minecraft/server/1_9_R2/InventoryMerchant	net/minecraft/inventory/InventoryMerchant
-net/minecraft/server/1_9_R2/ContainerMerchant	net/minecraft/inventory/ContainerMerchant
-net/minecraft/server/1_9_R2/SlotMerchantResult	net/minecraft/inventory/SlotMerchantResult
-net/minecraft/server/1_9_R2/InventoryEnderChest	net/minecraft/inventory/InventoryEnderChest
-net/minecraft/server/1_9_R2/InventoryCraftResult	net/minecraft/inventory/InventoryCraftResult
-net/minecraft/server/1_9_R2/SlotResult	net/minecraft/inventory/SlotCrafting
-net/minecraft/server/1_9_R2/Slot	net/minecraft/inventory/Slot
-net/minecraft/server/1_9_R2/ItemAnvil	net/minecraft/item/ItemAnvilBlock
-net/minecraft/server/1_9_R2/ItemArmor	net/minecraft/item/ItemArmor
-net/minecraft/server/1_9_R2/ItemArmor$1	net/minecraft/item/ItemArmor$1
-net/minecraft/server/1_9_R2/ItemArmor$EnumArmorMaterial	net/minecraft/item/ItemArmor$ArmorMaterial
-net/minecraft/server/1_9_R2/ItemArmorStand	net/minecraft/item/ItemArmorStand
-net/minecraft/server/1_9_R2/ItemArrow	net/minecraft/item/ItemArrow
-net/minecraft/server/1_9_R2/ItemAxe	net/minecraft/item/ItemAxe
-net/minecraft/server/1_9_R2/CommandEnchant	net/minecraft/command/CommandEnchant
-net/minecraft/server/1_9_R2/ItemBanner	net/minecraft/item/ItemBanner
-net/minecraft/server/1_9_R2/ItemBed	net/minecraft/item/ItemBed
-net/minecraft/server/1_9_R2/ItemBlock	net/minecraft/item/ItemBlock
-net/minecraft/server/1_9_R2/ItemReed	net/minecraft/item/ItemBlockSpecial
-net/minecraft/server/1_9_R2/ItemBoat	net/minecraft/item/ItemBoat
-net/minecraft/server/1_9_R2/ItemBook	net/minecraft/item/ItemBook
-net/minecraft/server/1_9_R2/ItemGlassBottle	net/minecraft/item/ItemGlassBottle
-net/minecraft/server/1_9_R2/ItemGlassBottle$1	net/minecraft/item/ItemGlassBottle$1
-net/minecraft/server/1_9_R2/ItemBow	net/minecraft/item/ItemBow
-net/minecraft/server/1_9_R2/ItemBow$1	net/minecraft/item/ItemBow$1
-net/minecraft/server/1_9_R2/ItemBow$2	net/minecraft/item/ItemBow$2
-net/minecraft/server/1_9_R2/ItemSoup	net/minecraft/item/ItemSoup
-net/minecraft/server/1_9_R2/ItemBucket	net/minecraft/item/ItemBucket
-net/minecraft/server/1_9_R2/ItemCarrotStick	net/minecraft/item/ItemCarrotOnAStick
-net/minecraft/server/1_9_R2/ItemChorusFruit	net/minecraft/item/ItemChorusFruit
-net/minecraft/server/1_9_R2/ItemClock	net/minecraft/item/ItemClock
-net/minecraft/server/1_9_R2/ItemClock$1	net/minecraft/item/ItemClock$1
-net/minecraft/server/1_9_R2/ItemCoal	net/minecraft/item/ItemCoal
-net/minecraft/server/1_9_R2/ItemCompass	net/minecraft/item/ItemCompass
-net/minecraft/server/1_9_R2/ItemCompass$1	net/minecraft/item/ItemCompass$1
-net/minecraft/server/1_9_R2/ItemWorldMapBase	net/minecraft/item/ItemMapBase
-net/minecraft/server/1_9_R2/CreativeModeTab	net/minecraft/creativetab/CreativeTabs
-net/minecraft/server/1_9_R2/CreativeModeTab$1	net/minecraft/creativetab/CreativeTabs$1
-net/minecraft/server/1_9_R2/CreativeModeTab$10	net/minecraft/creativetab/CreativeTabs$7
-net/minecraft/server/1_9_R2/CreativeModeTab$11	net/minecraft/creativetab/CreativeTabs$8
-net/minecraft/server/1_9_R2/CreativeModeTab$12	net/minecraft/creativetab/CreativeTabs$9
-net/minecraft/server/1_9_R2/CreativeModeTab$2	net/minecraft/creativetab/CreativeTabs$10
-net/minecraft/server/1_9_R2/CreativeModeTab$3	net/minecraft/creativetab/CreativeTabs$11
-net/minecraft/server/1_9_R2/CreativeModeTab$4	net/minecraft/creativetab/CreativeTabs$12
-net/minecraft/server/1_9_R2/CreativeModeTab$5	net/minecraft/creativetab/CreativeTabs$2
-net/minecraft/server/1_9_R2/CreativeModeTab$6	net/minecraft/creativetab/CreativeTabs$3
-net/minecraft/server/1_9_R2/CreativeModeTab$7	net/minecraft/creativetab/CreativeTabs$4
-net/minecraft/server/1_9_R2/CreativeModeTab$8	net/minecraft/creativetab/CreativeTabs$5
-net/minecraft/server/1_9_R2/CreativeModeTab$9	net/minecraft/creativetab/CreativeTabs$6
-net/minecraft/server/1_9_R2/ItemTool	net/minecraft/item/ItemTool
-net/minecraft/server/1_9_R2/ItemDoor	net/minecraft/item/ItemDoor
-net/minecraft/server/1_9_R2/EnumColor	net/minecraft/item/EnumDyeColor
-net/minecraft/server/1_9_R2/ItemDye	net/minecraft/item/ItemDye
-net/minecraft/server/1_9_R2/ItemCloth	net/minecraft/item/ItemCloth
-net/minecraft/server/1_9_R2/ItemEgg	net/minecraft/item/ItemEgg
-net/minecraft/server/1_9_R2/ItemElytra	net/minecraft/item/ItemElytra
-net/minecraft/server/1_9_R2/ItemElytra$1	net/minecraft/item/ItemElytra$1
-net/minecraft/server/1_9_R2/ItemMapEmpty	net/minecraft/item/ItemEmptyMap
-net/minecraft/server/1_9_R2/ItemEnchantedBook	net/minecraft/item/ItemEnchantedBook
-net/minecraft/server/1_9_R2/CommandEntityData	net/minecraft/command/CommandEntityData
-net/minecraft/server/1_9_R2/ItemEndCrystal	net/minecraft/item/ItemEndCrystal
-net/minecraft/server/1_9_R2/ItemEnderEye	net/minecraft/item/ItemEnderEye
-net/minecraft/server/1_9_R2/ItemEnderPearl	net/minecraft/item/ItemEnderPearl
-net/minecraft/server/1_9_R2/ItemExpBottle	net/minecraft/item/ItemExpBottle
-net/minecraft/server/1_9_R2/ItemFireball	net/minecraft/item/ItemFireball
-net/minecraft/server/1_9_R2/ItemFireworksCharge	net/minecraft/item/ItemFireworkCharge
-net/minecraft/server/1_9_R2/ItemFireworks	net/minecraft/item/ItemFirework
-net/minecraft/server/1_9_R2/ItemFish	net/minecraft/item/ItemFishFood
-net/minecraft/server/1_9_R2/ItemFish$EnumFish	net/minecraft/item/ItemFishFood$FishType
-net/minecraft/server/1_9_R2/ItemFishingRod	net/minecraft/item/ItemFishingRod
-net/minecraft/server/1_9_R2/ItemFishingRod$1	net/minecraft/item/ItemFishingRod$1
-net/minecraft/server/1_9_R2/ItemFlintAndSteel	net/minecraft/item/ItemFlintAndSteel
-net/minecraft/server/1_9_R2/ItemFood	net/minecraft/item/ItemFood
-net/minecraft/server/1_9_R2/ItemGoldenApple	net/minecraft/item/ItemAppleGold
-net/minecraft/server/1_9_R2/ItemHanging	net/minecraft/item/ItemHangingEntity
-net/minecraft/server/1_9_R2/ItemHoe	net/minecraft/item/ItemHoe
-net/minecraft/server/1_9_R2/Item	net/minecraft/item/Item
-net/minecraft/server/1_9_R2/Item$1	net/minecraft/item/Item$1
-net/minecraft/server/1_9_R2/Item$10	net/minecraft/item/Item$18
-net/minecraft/server/1_9_R2/Item$11	net/minecraft/item/Item$19
-net/minecraft/server/1_9_R2/Item$12	net/minecraft/item/Item$2
-net/minecraft/server/1_9_R2/Item$13	net/minecraft/item/Item$20
-net/minecraft/server/1_9_R2/Item$14	net/minecraft/item/Item$21
-net/minecraft/server/1_9_R2/Item$15	net/minecraft/item/Item$3
-net/minecraft/server/1_9_R2/Item$16	net/minecraft/item/Item$4
-net/minecraft/server/1_9_R2/Item$17	net/minecraft/item/Item$5
-net/minecraft/server/1_9_R2/Item$18	net/minecraft/item/Item$6
-net/minecraft/server/1_9_R2/Item$19	net/minecraft/item/Item$7
-net/minecraft/server/1_9_R2/Item$2	net/minecraft/item/Item$10
-net/minecraft/server/1_9_R2/Item$20	net/minecraft/item/Item$8
-net/minecraft/server/1_9_R2/Item$21	net/minecraft/item/Item$9
-net/minecraft/server/1_9_R2/Item$3	net/minecraft/item/Item$11
-net/minecraft/server/1_9_R2/Item$4	net/minecraft/item/Item$12
-net/minecraft/server/1_9_R2/Item$5	net/minecraft/item/Item$13
-net/minecraft/server/1_9_R2/Item$6	net/minecraft/item/Item$14
-net/minecraft/server/1_9_R2/Item$7	net/minecraft/item/Item$15
-net/minecraft/server/1_9_R2/Item$8	net/minecraft/item/Item$16
-net/minecraft/server/1_9_R2/Item$9	net/minecraft/item/Item$17
-net/minecraft/server/1_9_R2/Item$EnumToolMaterial	net/minecraft/item/Item$ToolMaterial
-net/minecraft/server/1_9_R2/ItemCooldown	net/minecraft/util/CooldownTracker
-net/minecraft/server/1_9_R2/ItemCooldown$Info	net/minecraft/util/CooldownTracker$Cooldown
-net/minecraft/server/1_9_R2/ItemStack	net/minecraft/item/ItemStack
-net/minecraft/server/1_9_R2/IDynamicTexture	net/minecraft/item/IItemPropertyGetter
-net/minecraft/server/1_9_R2/Items	net/minecraft/init/Items
-net/minecraft/server/1_9_R2/ItemLeash	net/minecraft/item/ItemLead
-net/minecraft/server/1_9_R2/ItemLeaves	net/minecraft/item/ItemLeaves
-net/minecraft/server/1_9_R2/ItemLingeringPotion	net/minecraft/item/ItemLingeringPotion
-net/minecraft/server/1_9_R2/ItemWorldMap	net/minecraft/item/ItemMap
-net/minecraft/server/1_9_R2/ItemMilkBucket	net/minecraft/item/ItemBucketMilk
-net/minecraft/server/1_9_R2/ItemMinecart	net/minecraft/item/ItemMinecart
-net/minecraft/server/1_9_R2/ItemMinecart$1	net/minecraft/item/ItemMinecart$1
-net/minecraft/server/1_9_R2/ItemMultiTexture	net/minecraft/item/ItemMultiTexture
-net/minecraft/server/1_9_R2/ItemMultiTexture$1	net/minecraft/item/ItemMultiTexture$1
-net/minecraft/server/1_9_R2/CommandExecute	net/minecraft/command/CommandExecuteAt
-net/minecraft/server/1_9_R2/CommandExecute$1	net/minecraft/command/CommandExecuteAt$1
-net/minecraft/server/1_9_R2/ItemNameTag	net/minecraft/item/ItemNameTag
-net/minecraft/server/1_9_R2/ItemPickaxe	net/minecraft/item/ItemPickaxe
-net/minecraft/server/1_9_R2/ItemPiston	net/minecraft/item/ItemPiston
-net/minecraft/server/1_9_R2/ItemPotion	net/minecraft/item/ItemPotion
-net/minecraft/server/1_9_R2/EnumItemRarity	net/minecraft/item/EnumRarity
-net/minecraft/server/1_9_R2/ItemRecord	net/minecraft/item/ItemRecord
-net/minecraft/server/1_9_R2/ItemRedstone	net/minecraft/item/ItemRedstone
-net/minecraft/server/1_9_R2/ItemSaddle	net/minecraft/item/ItemSaddle
-net/minecraft/server/1_9_R2/ItemSeedFood	net/minecraft/item/ItemSeedFood
-net/minecraft/server/1_9_R2/ItemSeeds	net/minecraft/item/ItemSeeds
-net/minecraft/server/1_9_R2/ItemCooldownPlayer	net/minecraft/util/CooldownTrackerServer
-net/minecraft/server/1_9_R2/ItemShears	net/minecraft/item/ItemShears
-net/minecraft/server/1_9_R2/ItemShield	net/minecraft/item/ItemShield
-net/minecraft/server/1_9_R2/ItemShield$1	net/minecraft/item/ItemShield$1
-net/minecraft/server/1_9_R2/ItemSpade	net/minecraft/item/ItemSpade
-net/minecraft/server/1_9_R2/ItemSign	net/minecraft/item/ItemSign
-net/minecraft/server/1_9_R2/ItemNetherStar	net/minecraft/item/ItemSimpleFoiled
-net/minecraft/server/1_9_R2/ItemSkull	net/minecraft/item/ItemSkull
-net/minecraft/server/1_9_R2/ItemStep	net/minecraft/item/ItemSlab
-net/minecraft/server/1_9_R2/ItemSnow	net/minecraft/item/ItemSnow
-net/minecraft/server/1_9_R2/ItemSnowball	net/minecraft/item/ItemSnowball
-net/minecraft/server/1_9_R2/ItemMonsterEgg	net/minecraft/item/ItemMonsterPlacer
-net/minecraft/server/1_9_R2/ItemSpectralArrow	net/minecraft/item/ItemSpectralArrow
-net/minecraft/server/1_9_R2/ItemSplashPotion	net/minecraft/item/ItemSplashPotion
-net/minecraft/server/1_9_R2/ItemSword	net/minecraft/item/ItemSword
-net/minecraft/server/1_9_R2/ItemWithAuxData	net/minecraft/item/ItemColored
-net/minecraft/server/1_9_R2/ItemTippedArrow	net/minecraft/item/ItemTippedArrow
-net/minecraft/server/1_9_R2/CommandXp	net/minecraft/command/CommandXP
-net/minecraft/server/1_9_R2/EnumAnimation	net/minecraft/item/EnumAction
-net/minecraft/server/1_9_R2/ItemWaterLily	net/minecraft/item/ItemLilyPad
-net/minecraft/server/1_9_R2/ItemBookAndQuill	net/minecraft/item/ItemWritableBook
-net/minecraft/server/1_9_R2/ItemWrittenBook	net/minecraft/item/ItemWrittenBook
-net/minecraft/server/1_9_R2/PotionRegistry	net/minecraft/potion/PotionType
-net/minecraft/server/1_9_R2/PotionBrewer	net/minecraft/potion/PotionHelper
-net/minecraft/server/1_9_R2/PotionBrewer$1	net/minecraft/potion/PotionHelper$1
-net/minecraft/server/1_9_R2/PotionBrewer$PredicateItem	net/minecraft/potion/PotionHelper$ItemPredicateInstance
-net/minecraft/server/1_9_R2/PotionBrewer$PredicatedCombination	net/minecraft/potion/PotionHelper$MixPredicate
-net/minecraft/server/1_9_R2/PotionUtil	net/minecraft/potion/PotionUtils
-net/minecraft/server/1_9_R2/Potions	net/minecraft/init/PotionTypes
-net/minecraft/server/1_9_R2/RecipeArmorDye	net/minecraft/item/crafting/RecipesArmorDyes
-net/minecraft/server/1_9_R2/RecipesArmor	net/minecraft/item/crafting/RecipesArmor
-net/minecraft/server/1_9_R2/RecipesBanner	net/minecraft/item/crafting/RecipesBanners
-net/minecraft/server/1_9_R2/RecipesBanner$AddRecipe	net/minecraft/item/crafting/RecipesBanners$RecipeAddPattern
-net/minecraft/server/1_9_R2/RecipesBanner$DuplicateRecipe	net/minecraft/item/crafting/RecipesBanners$RecipeDuplicatePattern
-net/minecraft/server/1_9_R2/RecipeBookClone	net/minecraft/item/crafting/RecipeBookCloning
-net/minecraft/server/1_9_R2/RecipesDyes	net/minecraft/item/crafting/RecipesDyes
-net/minecraft/server/1_9_R2/RecipeFireworks	net/minecraft/item/crafting/RecipeFireworks
-net/minecraft/server/1_9_R2/RecipesFood	net/minecraft/item/crafting/RecipesFood
-net/minecraft/server/1_9_R2/RecipesFurnace	net/minecraft/item/crafting/FurnaceRecipes
-net/minecraft/server/1_9_R2/RecipeMapClone	net/minecraft/item/crafting/RecipesMapCloning
-net/minecraft/server/1_9_R2/RecipeMapExtend	net/minecraft/item/crafting/RecipesMapExtending
-net/minecraft/server/1_9_R2/RecipeIngots	net/minecraft/item/crafting/RecipesIngots
-net/minecraft/server/1_9_R2/IRecipe	net/minecraft/item/crafting/IRecipe
-net/minecraft/server/1_9_R2/CraftingManager	net/minecraft/item/crafting/CraftingManager
-net/minecraft/server/1_9_R2/CraftingManager$1	net/minecraft/item/crafting/CraftingManager$1
-net/minecraft/server/1_9_R2/RecipeRepair	net/minecraft/item/crafting/RecipeRepairItem
-net/minecraft/server/1_9_R2/ShapedRecipes	net/minecraft/item/crafting/ShapedRecipes
-net/minecraft/server/1_9_R2/ShapelessRecipes	net/minecraft/item/crafting/ShapelessRecipes
-net/minecraft/server/1_9_R2/RecipiesShield	net/minecraft/item/crafting/ShieldRecipes
-net/minecraft/server/1_9_R2/RecipiesShield$Decoration	net/minecraft/item/crafting/ShieldRecipes$Decoration
-net/minecraft/server/1_9_R2/CommandFill	net/minecraft/command/CommandFill
-net/minecraft/server/1_9_R2/RecipesCrafting	net/minecraft/item/crafting/RecipesCrafting
-net/minecraft/server/1_9_R2/RecipeTippedArrow	net/minecraft/item/crafting/RecipeTippedArrow
-net/minecraft/server/1_9_R2/RecipesTools	net/minecraft/item/crafting/RecipesTools
-net/minecraft/server/1_9_R2/RecipesWeapons	net/minecraft/item/crafting/RecipesWeapons
-net/minecraft/server/1_9_R2/EnchantmentArrowDamage	net/minecraft/enchantment/EnchantmentArrowDamage
-net/minecraft/server/1_9_R2/EnchantmentFlameArrows	net/minecraft/enchantment/EnchantmentArrowFire
-net/minecraft/server/1_9_R2/EnchantmentInfiniteArrows	net/minecraft/enchantment/EnchantmentArrowInfinite
-net/minecraft/server/1_9_R2/EnchantmentArrowKnockback	net/minecraft/enchantment/EnchantmentArrowKnockback
-net/minecraft/server/1_9_R2/EnchantmentWeaponDamage	net/minecraft/enchantment/EnchantmentDamage
-net/minecraft/server/1_9_R2/EnchantmentDurability	net/minecraft/enchantment/EnchantmentDurability
-net/minecraft/server/1_9_R2/EnchantmentDigging	net/minecraft/enchantment/EnchantmentDigging
-net/minecraft/server/1_9_R2/Enchantment	net/minecraft/enchantment/Enchantment
-net/minecraft/server/1_9_R2/Enchantment$Rarity	net/minecraft/enchantment/Enchantment$Rarity
-net/minecraft/server/1_9_R2/EnchantmentSlotType	net/minecraft/enchantment/EnumEnchantmentType
-net/minecraft/server/1_9_R2/EnchantmentManager	net/minecraft/enchantment/EnchantmentHelper
-net/minecraft/server/1_9_R2/EnchantmentManager$EnchantmentModifierArthropods	net/minecraft/enchantment/EnchantmentHelper$DamageIterator
-net/minecraft/server/1_9_R2/EnchantmentManager$EnchantmentModifierThorns	net/minecraft/enchantment/EnchantmentHelper$HurtIterator
-net/minecraft/server/1_9_R2/EnchantmentManager$EnchantmentModifier	net/minecraft/enchantment/EnchantmentHelper$IModifier
-net/minecraft/server/1_9_R2/EnchantmentManager$EnchantmentModifierDamage	net/minecraft/enchantment/EnchantmentHelper$ModifierLiving
-net/minecraft/server/1_9_R2/EnchantmentManager$EnchantmentModifierProtection	net/minecraft/enchantment/EnchantmentHelper$ModifierDamage
-net/minecraft/server/1_9_R2/WeightedRandomEnchant	net/minecraft/enchantment/EnchantmentData
-net/minecraft/server/1_9_R2/Enchantments	net/minecraft/init/Enchantments
-net/minecraft/server/1_9_R2/EnchantmentFire	net/minecraft/enchantment/EnchantmentFireAspect
-net/minecraft/server/1_9_R2/EnchantmentLure	net/minecraft/enchantment/EnchantmentFishingSpeed
-net/minecraft/server/1_9_R2/EnchantmentFrostWalker	net/minecraft/enchantment/EnchantmentFrostWalker
-net/minecraft/server/1_9_R2/EnchantmentKnockback	net/minecraft/enchantment/EnchantmentKnockback
-net/minecraft/server/1_9_R2/EnchantmentLootBonus	net/minecraft/enchantment/EnchantmentLootBonus
-net/minecraft/server/1_9_R2/EnchantmentMending	net/minecraft/enchantment/EnchantmentMending
-net/minecraft/server/1_9_R2/EnchantmentOxygen	net/minecraft/enchantment/EnchantmentOxygen
-net/minecraft/server/1_9_R2/EnchantmentProtection	net/minecraft/enchantment/EnchantmentProtection
-net/minecraft/server/1_9_R2/EnchantmentProtection$DamageType	net/minecraft/enchantment/EnchantmentProtection$Type
-net/minecraft/server/1_9_R2/EnchantmentThorns	net/minecraft/enchantment/EnchantmentThorns
-net/minecraft/server/1_9_R2/CommandDifficulty	net/minecraft/command/CommandDifficulty
-net/minecraft/server/1_9_R2/EnchantmentSilkTouch	net/minecraft/enchantment/EnchantmentUntouching
-net/minecraft/server/1_9_R2/EnchantmentDepthStrider	net/minecraft/enchantment/EnchantmentWaterWalker
-net/minecraft/server/1_9_R2/EnchantmentWaterWorker	net/minecraft/enchantment/EnchantmentWaterWorker
-net/minecraft/server/1_9_R2/IMerchant	net/minecraft/entity/IMerchant
-net/minecraft/server/1_9_R2/MerchantRecipe	net/minecraft/village/MerchantRecipe
-net/minecraft/server/1_9_R2/MerchantRecipeList	net/minecraft/village/MerchantRecipeList
-net/minecraft/server/1_9_R2/CommandBlockListenerAbstract	net/minecraft/tileentity/CommandBlockBaseLogic
-net/minecraft/server/1_9_R2/CommandBlockListenerAbstract$1	net/minecraft/tileentity/CommandBlockBaseLogic$1
-net/minecraft/server/1_9_R2/CommandBlockListenerAbstract$2	net/minecraft/tileentity/CommandBlockBaseLogic$2
-net/minecraft/server/1_9_R2/MobSpawnerAbstract	net/minecraft/tileentity/MobSpawnerBaseLogic
-net/minecraft/server/1_9_R2/BlockActionData	net/minecraft/block/BlockEventData
-net/minecraft/server/1_9_R2/ChunkCoordIntPair	net/minecraft/util/math/ChunkPos
-net/minecraft/server/1_9_R2/Explosion	net/minecraft/world/Explosion
-net/minecraft/server/1_9_R2/GameRules	net/minecraft/world/GameRules
-net/minecraft/server/1_9_R2/GameRules$GameRuleValue	net/minecraft/world/GameRules$Value
-net/minecraft/server/1_9_R2/GameRules$EnumGameRuleType	net/minecraft/world/GameRules$ValueType
-net/minecraft/server/1_9_R2/World	net/minecraft/world/World
-net/minecraft/server/1_9_R2/World$1	net/minecraft/world/World$1
-net/minecraft/server/1_9_R2/World$2	net/minecraft/world/World$2
-net/minecraft/server/1_9_R2/World$3	net/minecraft/world/World$3
-net/minecraft/server/1_9_R2/World$4	net/minecraft/world/World$4
-net/minecraft/server/1_9_R2/ExceptionWorldConflict	net/minecraft/world/MinecraftException
-net/minecraft/server/1_9_R2/IWorldAccess	net/minecraft/world/IWorldEventListener
-net/minecraft/server/1_9_R2/WorldSettings	net/minecraft/world/WorldSettings
-net/minecraft/server/1_9_R2/WorldSettings$EnumGamemode	net/minecraft/world/WorldSettings$GameType
-net/minecraft/server/1_9_R2/IBlockAccess	net/minecraft/world/IBlockAccess
-net/minecraft/server/1_9_R2/WorldType	net/minecraft/world/WorldType
-net/minecraft/server/1_9_R2/EnumSkyBlock	net/minecraft/world/EnumSkyBlock
-net/minecraft/server/1_9_R2/CommandGamemode	net/minecraft/command/CommandGameMode
-net/minecraft/server/1_9_R2/SpawnerCreature	net/minecraft/world/WorldEntitySpawner
-net/minecraft/server/1_9_R2/PortalTravelAgent	net/minecraft/world/Teleporter
-net/minecraft/server/1_9_R2/PortalTravelAgent$ChunkCoordinatesPortal	net/minecraft/world/Teleporter$PortalPosition
-net/minecraft/server/1_9_R2/ChunkCache	net/minecraft/world/ChunkCache
-net/minecraft/server/1_9_R2/MobSpawnerData	net/minecraft/util/WeightedSpawnerEntity
-net/minecraft/server/1_9_R2/NextTickListEntry	net/minecraft/world/NextTickListEntry
-net/minecraft/server/1_9_R2/BiomeBeach	net/minecraft/world/biome/BiomeBeach
-net/minecraft/server/1_9_R2/BiomeBase	net/minecraft/world/biome/Biome
-net/minecraft/server/1_9_R2/BiomeBase$a	net/minecraft/world/biome/Biome$BiomeProperties
-net/minecraft/server/1_9_R2/BiomeBase$EnumTemperature	net/minecraft/world/biome/Biome$TempCategory
-net/minecraft/server/1_9_R2/BiomeBase$BiomeMeta	net/minecraft/world/biome/Biome$SpawnListEntry
-net/minecraft/server/1_9_R2/BiomeCache	net/minecraft/world/biome/BiomeCache
-net/minecraft/server/1_9_R2/BiomeCache$a	net/minecraft/world/biome/BiomeCache$Block
-net/minecraft/server/1_9_R2/BiomeDecorator	net/minecraft/world/biome/BiomeDecorator
-net/minecraft/server/1_9_R2/WorldChunkManager	net/minecraft/world/biome/BiomeProvider
-net/minecraft/server/1_9_R2/Biomes	net/minecraft/init/Biomes
-net/minecraft/server/1_9_R2/BiomeDesert	net/minecraft/world/biome/BiomeDesert
-net/minecraft/server/1_9_R2/BiomeBigHills	net/minecraft/world/biome/BiomeHills
-net/minecraft/server/1_9_R2/BiomeBigHills$Type	net/minecraft/world/biome/BiomeHills$Type
-net/minecraft/server/1_9_R2/WorldChunkManagerHell	net/minecraft/world/biome/BiomeProviderSingle
-net/minecraft/server/1_9_R2/BiomeForest	net/minecraft/world/biome/BiomeForest
-net/minecraft/server/1_9_R2/BiomeForest$Type	net/minecraft/world/biome/BiomeForest$Type
-net/minecraft/server/1_9_R2/BiomeHell	net/minecraft/world/biome/BiomeHell
-net/minecraft/server/1_9_R2/BiomeIcePlains	net/minecraft/world/biome/BiomeSnow
-net/minecraft/server/1_9_R2/BiomeJungle	net/minecraft/world/biome/BiomeJungle
-net/minecraft/server/1_9_R2/BiomeMesa	net/minecraft/world/biome/BiomeMesa
-net/minecraft/server/1_9_R2/BiomeMushrooms	net/minecraft/world/biome/BiomeMushroomIsland
-net/minecraft/server/1_9_R2/BiomeForestMutated	net/minecraft/world/biome/BiomeForestMutated
-net/minecraft/server/1_9_R2/BiomeSavannaMutated	net/minecraft/world/biome/BiomeSavannaMutated
-net/minecraft/server/1_9_R2/BiomeOcean	net/minecraft/world/biome/BiomeOcean
-net/minecraft/server/1_9_R2/BiomePlains	net/minecraft/world/biome/BiomePlains
-net/minecraft/server/1_9_R2/BiomeRiver	net/minecraft/world/biome/BiomeRiver
-net/minecraft/server/1_9_R2/CommandGamerule	net/minecraft/command/CommandGameRule
-net/minecraft/server/1_9_R2/BiomeSavanna	net/minecraft/world/biome/BiomeSavanna
-net/minecraft/server/1_9_R2/BiomeStoneBeach	net/minecraft/world/biome/BiomeStoneBeach
-net/minecraft/server/1_9_R2/BiomeSwamp	net/minecraft/world/biome/BiomeSwamp
-net/minecraft/server/1_9_R2/BiomeTaiga	net/minecraft/world/biome/BiomeTaiga
-net/minecraft/server/1_9_R2/BiomeTaiga$Type	net/minecraft/world/biome/BiomeTaiga$Type
-net/minecraft/server/1_9_R2/BiomeTheEnd	net/minecraft/world/biome/BiomeEnd
-net/minecraft/server/1_9_R2/BiomeTheEndDecorator	net/minecraft/world/biome/BiomeEndDecorator
-net/minecraft/server/1_9_R2/BiomeTheEndDecorator$SpikeCache	net/minecraft/world/biome/BiomeEndDecorator$SpikeCacheLoader
-net/minecraft/server/1_9_R2/BiomeVoid	net/minecraft/world/biome/BiomeVoid
-net/minecraft/server/1_9_R2/BiomeVoidDecorator	net/minecraft/world/biome/BiomeVoidDecorator
-net/minecraft/server/1_9_R2/BlockAir	net/minecraft/block/BlockAir
-net/minecraft/server/1_9_R2/BlockAnvil	net/minecraft/block/BlockAnvil
-net/minecraft/server/1_9_R2/BlockAnvil$TileEntityContainerAnvil	net/minecraft/block/BlockAnvil$Anvil
-net/minecraft/server/1_9_R2/BlockBanner	net/minecraft/block/BlockBanner
-net/minecraft/server/1_9_R2/BlockBanner$BlockStandingBanner	net/minecraft/block/BlockBanner$BlockBannerStanding
-net/minecraft/server/1_9_R2/BlockBanner$BlockWallBanner	net/minecraft/block/BlockBanner$BlockBannerHanging
-net/minecraft/server/1_9_R2/BlockBarrier	net/minecraft/block/BlockBarrier
-net/minecraft/server/1_9_R2/BlockTileEntity	net/minecraft/block/BlockContainer
-net/minecraft/server/1_9_R2/BlockPressurePlateAbstract	net/minecraft/block/BlockBasePressurePlate
-net/minecraft/server/1_9_R2/BlockMinecartTrackAbstract	net/minecraft/block/BlockRailBase
-net/minecraft/server/1_9_R2/BlockMinecartTrackAbstract$MinecartTrackLogic	net/minecraft/block/BlockRailBase$Rail
-net/minecraft/server/1_9_R2/BlockMinecartTrackAbstract$EnumTrackPosition	net/minecraft/block/BlockRailBase$EnumRailDirection
-net/minecraft/server/1_9_R2/BlockBeacon	net/minecraft/block/BlockBeacon
-net/minecraft/server/1_9_R2/BlockBeacon$1	net/minecraft/block/BlockBeacon$1
-net/minecraft/server/1_9_R2/BlockBeacon$1$1	net/minecraft/block/BlockBeacon$1$1
-net/minecraft/server/1_9_R2/BlockBed	net/minecraft/block/BlockBed
-net/minecraft/server/1_9_R2/BlockBed$EnumBedPart	net/minecraft/block/BlockBed$EnumPartType
-net/minecraft/server/1_9_R2/BlockBeetroot	net/minecraft/block/BlockBeetroot
-net/minecraft/server/1_9_R2/Block	net/minecraft/block/Block
-net/minecraft/server/1_9_R2/Blocks	net/minecraft/init/Blocks
-net/minecraft/server/1_9_R2/IBlockFragilePlantElement	net/minecraft/block/IGrowable
-net/minecraft/server/1_9_R2/BlockBookshelf	net/minecraft/block/BlockBookshelf
-net/minecraft/server/1_9_R2/BlockBrewingStand	net/minecraft/block/BlockBrewingStand
-net/minecraft/server/1_9_R2/BlockPlant	net/minecraft/block/BlockBush
-net/minecraft/server/1_9_R2/BlockButtonAbstract	net/minecraft/block/BlockButton
-net/minecraft/server/1_9_R2/CommandGive	net/minecraft/command/CommandGive
-net/minecraft/server/1_9_R2/BlockCactus	net/minecraft/block/BlockCactus
-net/minecraft/server/1_9_R2/BlockCake	net/minecraft/block/BlockCake
-net/minecraft/server/1_9_R2/BlockCarrots	net/minecraft/block/BlockCarrot
-net/minecraft/server/1_9_R2/BlockCauldron	net/minecraft/block/BlockCauldron
-net/minecraft/server/1_9_R2/BlockChest	net/minecraft/block/BlockChest
-net/minecraft/server/1_9_R2/BlockChest$Type	net/minecraft/block/BlockChest$Type
-net/minecraft/server/1_9_R2/BlockChorusFlower	net/minecraft/block/BlockChorusFlower
-net/minecraft/server/1_9_R2/BlockChorusFruit	net/minecraft/block/BlockChorusPlant
-net/minecraft/server/1_9_R2/BlockClay	net/minecraft/block/BlockClay
-net/minecraft/server/1_9_R2/BlockCocoa	net/minecraft/block/BlockCocoa
-net/minecraft/server/1_9_R2/BlockCloth	net/minecraft/block/BlockColored
-net/minecraft/server/1_9_R2/BlockCommand	net/minecraft/block/BlockCommandBlock
-net/minecraft/server/1_9_R2/BlockRedstoneComparator	net/minecraft/block/BlockRedstoneComparator
-net/minecraft/server/1_9_R2/BlockRedstoneComparator$1	net/minecraft/block/BlockRedstoneComparator$1
-net/minecraft/server/1_9_R2/BlockRedstoneComparator$EnumComparatorMode	net/minecraft/block/BlockRedstoneComparator$Mode
-net/minecraft/server/1_9_R2/BlockWorkbench	net/minecraft/block/BlockWorkbench
-net/minecraft/server/1_9_R2/BlockWorkbench$TileEntityContainerWorkbench	net/minecraft/block/BlockWorkbench$InterfaceCraftingTable
-net/minecraft/server/1_9_R2/BlockCrops	net/minecraft/block/BlockCrops
-net/minecraft/server/1_9_R2/BlockDaylightDetector	net/minecraft/block/BlockDaylightDetector
-net/minecraft/server/1_9_R2/BlockDeadBush	net/minecraft/block/BlockDeadBush
-net/minecraft/server/1_9_R2/BlockMinecartDetector	net/minecraft/block/BlockRailDetector
-net/minecraft/server/1_9_R2/BlockMinecartDetector$1	net/minecraft/block/BlockRailDetector$1
-net/minecraft/server/1_9_R2/BlockDiodeAbstract	net/minecraft/block/BlockRedstoneDiode
-net/minecraft/server/1_9_R2/BlockDirectional	net/minecraft/block/BlockDirectional
-net/minecraft/server/1_9_R2/BlockDirt	net/minecraft/block/BlockDirt
-net/minecraft/server/1_9_R2/BlockDirt$EnumDirtVariant	net/minecraft/block/BlockDirt$DirtType
-net/minecraft/server/1_9_R2/BlockDispenser	net/minecraft/block/BlockDispenser
-net/minecraft/server/1_9_R2/BlockDoor	net/minecraft/block/BlockDoor
-net/minecraft/server/1_9_R2/BlockDoor$EnumDoorHalf	net/minecraft/block/BlockDoor$EnumDoorHalf
-net/minecraft/server/1_9_R2/BlockDoor$EnumDoorHinge	net/minecraft/block/BlockDoor$EnumHingePosition
-net/minecraft/server/1_9_R2/BlockTallPlant	net/minecraft/block/BlockDoublePlant
-net/minecraft/server/1_9_R2/BlockTallPlant$EnumTallPlantHalf	net/minecraft/block/BlockDoublePlant$EnumBlockHalf
-net/minecraft/server/1_9_R2/BlockTallPlant$EnumTallFlowerVariants	net/minecraft/block/BlockDoublePlant$EnumPlantType
-net/minecraft/server/1_9_R2/BlockDragonEgg	net/minecraft/block/BlockDragonEgg
-net/minecraft/server/1_9_R2/BlockDropper	net/minecraft/block/BlockDropper
-net/minecraft/server/1_9_R2/BlockFlowing	net/minecraft/block/BlockDynamicLiquid
-net/minecraft/server/1_9_R2/CommandHelp	net/minecraft/command/CommandHelp
-net/minecraft/server/1_9_R2/BlockEnchantmentTable	net/minecraft/block/BlockEnchantmentTable
-net/minecraft/server/1_9_R2/BlockEndGateway	net/minecraft/block/BlockEndGateway
-net/minecraft/server/1_9_R2/BlockEnderPortal	net/minecraft/block/BlockEndPortal
-net/minecraft/server/1_9_R2/BlockEnderPortalFrame	net/minecraft/block/BlockEndPortalFrame
-net/minecraft/server/1_9_R2/BlockEndRod	net/minecraft/block/BlockEndRod
-net/minecraft/server/1_9_R2/BlockEnderChest	net/minecraft/block/BlockEnderChest
-net/minecraft/server/1_9_R2/ITileEntity	net/minecraft/block/ITileEntityProvider
-net/minecraft/server/1_9_R2/BlockFalling	net/minecraft/block/BlockFalling
-net/minecraft/server/1_9_R2/BlockSoil	net/minecraft/block/BlockFarmland
-net/minecraft/server/1_9_R2/BlockFence	net/minecraft/block/BlockFence
-net/minecraft/server/1_9_R2/BlockFenceGate	net/minecraft/block/BlockFenceGate
-net/minecraft/server/1_9_R2/BlockFire	net/minecraft/block/BlockFire
-net/minecraft/server/1_9_R2/BlockFlowers	net/minecraft/block/BlockFlower
-net/minecraft/server/1_9_R2/BlockFlowers$1	net/minecraft/block/BlockFlower$1
-net/minecraft/server/1_9_R2/BlockFlowers$EnumFlowerVarient	net/minecraft/block/BlockFlower$EnumFlowerType
-net/minecraft/server/1_9_R2/BlockFlowers$EnumFlowerVarient$1	net/minecraft/block/BlockFlower$EnumFlowerType$1
-net/minecraft/server/1_9_R2/BlockFlowers$EnumFlowerType	net/minecraft/block/BlockFlower$EnumFlowerColor
-net/minecraft/server/1_9_R2/BlockFlowerPot	net/minecraft/block/BlockFlowerPot
-net/minecraft/server/1_9_R2/BlockFlowerPot$EnumFlowerPotContents	net/minecraft/block/BlockFlowerPot$EnumFlowerType
-net/minecraft/server/1_9_R2/BlockIceFrost	net/minecraft/block/BlockFrostedIce
-net/minecraft/server/1_9_R2/BlockDoubleStoneStep2	net/minecraft/block/BlockDoubleStoneSlabNew
-net/minecraft/server/1_9_R2/BlockDoubleStep	net/minecraft/block/BlockDoubleStoneSlab
-net/minecraft/server/1_9_R2/BlockDoubleWoodStep	net/minecraft/block/BlockDoubleWoodSlab
-net/minecraft/server/1_9_R2/BlockFurnace	net/minecraft/block/BlockFurnace
-net/minecraft/server/1_9_R2/BlockGlass	net/minecraft/block/BlockGlass
-net/minecraft/server/1_9_R2/BlockLightStone	net/minecraft/block/BlockGlowstone
-net/minecraft/server/1_9_R2/BlockGrass	net/minecraft/block/BlockGrass
-net/minecraft/server/1_9_R2/BlockGrassPath	net/minecraft/block/BlockGrassPath
-net/minecraft/server/1_9_R2/BlockGravel	net/minecraft/block/BlockGravel
-net/minecraft/server/1_9_R2/BlockStoneStep2	net/minecraft/block/BlockHalfStoneSlabNew
-net/minecraft/server/1_9_R2/BlockStepAbstract	net/minecraft/block/BlockSlab
-net/minecraft/server/1_9_R2/BlockStepAbstract$EnumSlabHalf	net/minecraft/block/BlockSlab$EnumBlockHalf
-net/minecraft/server/1_9_R2/CommandKick	net/minecraft/command/CommandServerKick
-net/minecraft/server/1_9_R2/BlockStep	net/minecraft/block/BlockHalfStoneSlab
-net/minecraft/server/1_9_R2/BlockHalfTransparent	net/minecraft/block/BlockBreakable
-net/minecraft/server/1_9_R2/BlockWoodStep	net/minecraft/block/BlockHalfWoodSlab
-net/minecraft/server/1_9_R2/BlockHardenedClay	net/minecraft/block/BlockHardenedClay
-net/minecraft/server/1_9_R2/BlockHay	net/minecraft/block/BlockHay
-net/minecraft/server/1_9_R2/BlockHopper	net/minecraft/block/BlockHopper
-net/minecraft/server/1_9_R2/BlockHopper$1	net/minecraft/block/BlockHopper$1
-net/minecraft/server/1_9_R2/BlockFacingHorizontal	net/minecraft/block/BlockHorizontal
-net/minecraft/server/1_9_R2/BlockHugeMushroom	net/minecraft/block/BlockHugeMushroom
-net/minecraft/server/1_9_R2/BlockHugeMushroom$EnumHugeMushroomVariant	net/minecraft/block/BlockHugeMushroom$EnumType
-net/minecraft/server/1_9_R2/BlockIce	net/minecraft/block/BlockIce
-net/minecraft/server/1_9_R2/BlockJukeBox	net/minecraft/block/BlockJukebox
-net/minecraft/server/1_9_R2/BlockJukeBox$TileEntityRecordPlayer	net/minecraft/block/BlockJukebox$TileEntityJukebox
-net/minecraft/server/1_9_R2/BlockLadder	net/minecraft/block/BlockLadder
-net/minecraft/server/1_9_R2/BlockLeaves	net/minecraft/block/BlockLeaves
-net/minecraft/server/1_9_R2/BlockLever	net/minecraft/block/BlockLever
-net/minecraft/server/1_9_R2/BlockLever$EnumLeverPosition	net/minecraft/block/BlockLever$EnumOrientation
-net/minecraft/server/1_9_R2/BlockFluids	net/minecraft/block/BlockLiquid
-net/minecraft/server/1_9_R2/BlockLogAbstract	net/minecraft/block/BlockLog
-net/minecraft/server/1_9_R2/BlockLogAbstract$EnumLogRotation	net/minecraft/block/BlockLog$EnumAxis
-net/minecraft/server/1_9_R2/BlockMelon	net/minecraft/block/BlockMelon
-net/minecraft/server/1_9_R2/EnumBlockMirror	net/minecraft/util/Mirror
-net/minecraft/server/1_9_R2/BlockMobSpawner	net/minecraft/block/BlockMobSpawner
-net/minecraft/server/1_9_R2/BlockMonsterEggs	net/minecraft/block/BlockSilverfish
-net/minecraft/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient	net/minecraft/block/BlockSilverfish$EnumType
-net/minecraft/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$1	net/minecraft/block/BlockSilverfish$EnumType$1
-net/minecraft/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$2	net/minecraft/block/BlockSilverfish$EnumType$2
-net/minecraft/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$3	net/minecraft/block/BlockSilverfish$EnumType$3
-net/minecraft/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$4	net/minecraft/block/BlockSilverfish$EnumType$4
-net/minecraft/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$5	net/minecraft/block/BlockSilverfish$EnumType$5
-net/minecraft/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$6	net/minecraft/block/BlockSilverfish$EnumType$6
-net/minecraft/server/1_9_R2/BlockMushroom	net/minecraft/block/BlockMushroom
-net/minecraft/server/1_9_R2/BlockMycel	net/minecraft/block/BlockMycelium
-net/minecraft/server/1_9_R2/BlockNetherbrick	net/minecraft/block/BlockNetherBrick
-net/minecraft/server/1_9_R2/BlockNetherWart	net/minecraft/block/BlockNetherWart
-net/minecraft/server/1_9_R2/BlockBloodStone	net/minecraft/block/BlockNetherrack
-net/minecraft/server/1_9_R2/BlockLeaves2	net/minecraft/block/BlockNewLeaf
-net/minecraft/server/1_9_R2/BlockLeaves2$1	net/minecraft/block/BlockNewLeaf$1
-net/minecraft/server/1_9_R2/CommandKill	net/minecraft/command/CommandKill
-net/minecraft/server/1_9_R2/BlockLog2	net/minecraft/block/BlockNewLog
-net/minecraft/server/1_9_R2/BlockLog2$1	net/minecraft/block/BlockNewLog$1
-net/minecraft/server/1_9_R2/BlockDoubleStoneStepAbstract	net/minecraft/block/BlockStoneSlabNew
-net/minecraft/server/1_9_R2/BlockDoubleStoneStepAbstract$EnumStoneSlab2Variant	net/minecraft/block/BlockStoneSlabNew$EnumType
-net/minecraft/server/1_9_R2/BlockNoDrop	net/minecraft/block/BlockEmptyDrops
-net/minecraft/server/1_9_R2/BlockNote	net/minecraft/block/BlockNote
-net/minecraft/server/1_9_R2/BlockObsidian	net/minecraft/block/BlockObsidian
-net/minecraft/server/1_9_R2/BlockLeaves1	net/minecraft/block/BlockOldLeaf
-net/minecraft/server/1_9_R2/BlockLeaves1$1	net/minecraft/block/BlockOldLeaf$1
-net/minecraft/server/1_9_R2/BlockLog1	net/minecraft/block/BlockOldLog
-net/minecraft/server/1_9_R2/BlockLog1$1	net/minecraft/block/BlockOldLog$1
-net/minecraft/server/1_9_R2/BlockOre	net/minecraft/block/BlockOre
-net/minecraft/server/1_9_R2/BlockPackedIce	net/minecraft/block/BlockPackedIce
-net/minecraft/server/1_9_R2/BlockWood	net/minecraft/block/BlockPlanks
-net/minecraft/server/1_9_R2/BlockWood$EnumLogVariant	net/minecraft/block/BlockPlanks$EnumType
-net/minecraft/server/1_9_R2/BlockPortal	net/minecraft/block/BlockPortal
-net/minecraft/server/1_9_R2/BlockPortal$Shape	net/minecraft/block/BlockPortal$Size
-net/minecraft/server/1_9_R2/BlockPotatoes	net/minecraft/block/BlockPotato
-net/minecraft/server/1_9_R2/BlockPowered	net/minecraft/block/BlockCompressedPowered
-net/minecraft/server/1_9_R2/BlockPoweredRail	net/minecraft/block/BlockRailPowered
-net/minecraft/server/1_9_R2/BlockPoweredRail$1	net/minecraft/block/BlockRailPowered$1
-net/minecraft/server/1_9_R2/BlockPressurePlateBinary	net/minecraft/block/BlockPressurePlate
-net/minecraft/server/1_9_R2/BlockPressurePlateBinary$EnumMobType	net/minecraft/block/BlockPressurePlate$Sensitivity
-net/minecraft/server/1_9_R2/BlockPrismarine	net/minecraft/block/BlockPrismarine
-net/minecraft/server/1_9_R2/BlockPrismarine$EnumPrismarineVariant	net/minecraft/block/BlockPrismarine$EnumType
-net/minecraft/server/1_9_R2/BlockPumpkin	net/minecraft/block/BlockPumpkin
-net/minecraft/server/1_9_R2/BlockPumpkin$1	net/minecraft/block/BlockPumpkin$1
-net/minecraft/server/1_9_R2/BlockPurpurSlab	net/minecraft/block/BlockPurpurSlab
-net/minecraft/server/1_9_R2/BlockPurpurSlab$Default	net/minecraft/block/BlockPurpurSlab$Double
-net/minecraft/server/1_9_R2/BlockPurpurSlab$Half	net/minecraft/block/BlockPurpurSlab$Half
-net/minecraft/server/1_9_R2/BlockPurpurSlab$Type	net/minecraft/block/BlockPurpurSlab$Variant
-net/minecraft/server/1_9_R2/BlockQuartz	net/minecraft/block/BlockQuartz
-net/minecraft/server/1_9_R2/BlockQuartz$EnumQuartzVariant	net/minecraft/block/BlockQuartz$EnumType
-net/minecraft/server/1_9_R2/BlockMinecartTrack	net/minecraft/block/BlockRail
-net/minecraft/server/1_9_R2/BlockRedFlowers	net/minecraft/block/BlockRedFlower
-net/minecraft/server/1_9_R2/BlockRedSandstone	net/minecraft/block/BlockRedSandstone
-net/minecraft/server/1_9_R2/BlockRedSandstone$EnumRedSandstoneVariant	net/minecraft/block/BlockRedSandstone$EnumType
-net/minecraft/server/1_9_R2/BlockRedstoneOre	net/minecraft/block/BlockRedstoneOre
-net/minecraft/server/1_9_R2/BlockRedstoneWire	net/minecraft/block/BlockRedstoneWire
-net/minecraft/server/1_9_R2/BlockRedstoneWire$EnumRedstoneWireConnection	net/minecraft/block/BlockRedstoneWire$EnumAttachPosition
-net/minecraft/server/1_9_R2/BlockRedstoneLamp	net/minecraft/block/BlockRedstoneLight
-net/minecraft/server/1_9_R2/BlockRedstoneTorch	net/minecraft/block/BlockRedstoneTorch
-net/minecraft/server/1_9_R2/BlockRedstoneTorch$RedstoneUpdateInfo	net/minecraft/block/BlockRedstoneTorch$Toggle
-net/minecraft/server/1_9_R2/CommandBanList	net/minecraft/command/server/CommandListBans
-net/minecraft/server/1_9_R2/BlockReed	net/minecraft/block/BlockReed
-net/minecraft/server/1_9_R2/EnumRenderType	net/minecraft/util/EnumBlockRenderType
-net/minecraft/server/1_9_R2/BlockRepeater	net/minecraft/block/BlockRedstoneRepeater
-net/minecraft/server/1_9_R2/BlockRotatable	net/minecraft/block/BlockRotatedPillar
-net/minecraft/server/1_9_R2/EnumBlockRotation	net/minecraft/util/Rotation
-net/minecraft/server/1_9_R2/BlockSand	net/minecraft/block/BlockSand
-net/minecraft/server/1_9_R2/BlockSand$EnumSandVariant	net/minecraft/block/BlockSand$EnumType
-net/minecraft/server/1_9_R2/BlockSandStone	net/minecraft/block/BlockSandStone
-net/minecraft/server/1_9_R2/BlockSandStone$EnumSandstoneVariant	net/minecraft/block/BlockSandStone$EnumType
-net/minecraft/server/1_9_R2/BlockSapling	net/minecraft/block/BlockSapling
-net/minecraft/server/1_9_R2/BlockSeaLantern	net/minecraft/block/BlockSeaLantern
-net/minecraft/server/1_9_R2/BlockSign	net/minecraft/block/BlockSign
-net/minecraft/server/1_9_R2/BlockSkull	net/minecraft/block/BlockSkull
-net/minecraft/server/1_9_R2/BlockSkull$1	net/minecraft/block/BlockSkull$1
-net/minecraft/server/1_9_R2/BlockSlime	net/minecraft/block/BlockSlime
-net/minecraft/server/1_9_R2/BlockSnowBlock	net/minecraft/block/BlockSnowBlock
-net/minecraft/server/1_9_R2/BlockSnow	net/minecraft/block/BlockSnow
-net/minecraft/server/1_9_R2/BlockSlowSand	net/minecraft/block/BlockSoulSand
-net/minecraft/server/1_9_R2/SoundEffectType	net/minecraft/block/SoundType
-net/minecraft/server/1_9_R2/BlockSponge	net/minecraft/block/BlockSponge
-net/minecraft/server/1_9_R2/BlockStainedGlass	net/minecraft/block/BlockStainedGlass
-net/minecraft/server/1_9_R2/BlockStainedGlassPane	net/minecraft/block/BlockStainedGlassPane
-net/minecraft/server/1_9_R2/BlockStairs	net/minecraft/block/BlockStairs
-net/minecraft/server/1_9_R2/BlockStairs$EnumHalf	net/minecraft/block/BlockStairs$EnumHalf
-net/minecraft/server/1_9_R2/BlockStairs$EnumStairShape	net/minecraft/block/BlockStairs$EnumShape
-net/minecraft/server/1_9_R2/BlockFloorSign	net/minecraft/block/BlockStandingSign
-net/minecraft/server/1_9_R2/BlockStationary	net/minecraft/block/BlockStaticLiquid
-net/minecraft/server/1_9_R2/BlockStem	net/minecraft/block/BlockStem
-net/minecraft/server/1_9_R2/BlockStone	net/minecraft/block/BlockStone
-net/minecraft/server/1_9_R2/BlockStone$EnumStoneVariant	net/minecraft/block/BlockStone$EnumType
-net/minecraft/server/1_9_R2/BlockSmoothBrick	net/minecraft/block/BlockStoneBrick
-net/minecraft/server/1_9_R2/BlockSmoothBrick$EnumStonebrickType	net/minecraft/block/BlockStoneBrick$EnumType
-net/minecraft/server/1_9_R2/BlockStoneButton	net/minecraft/block/BlockButtonStone
-net/minecraft/server/1_9_R2/CommandList	net/minecraft/command/server/CommandListPlayers
-net/minecraft/server/1_9_R2/BlockDoubleStepAbstract	net/minecraft/block/BlockStoneSlab
-net/minecraft/server/1_9_R2/BlockDoubleStepAbstract$EnumStoneSlabVariant	net/minecraft/block/BlockStoneSlab$EnumType
-net/minecraft/server/1_9_R2/BlockStructure	net/minecraft/block/BlockStructure
-net/minecraft/server/1_9_R2/BlockLongGrass	net/minecraft/block/BlockTallGrass
-net/minecraft/server/1_9_R2/BlockLongGrass$EnumTallGrassType	net/minecraft/block/BlockTallGrass$EnumType
-net/minecraft/server/1_9_R2/BlockThin	net/minecraft/block/BlockPane
-net/minecraft/server/1_9_R2/BlockTNT	net/minecraft/block/BlockTNT
-net/minecraft/server/1_9_R2/BlockTorch	net/minecraft/block/BlockTorch
-net/minecraft/server/1_9_R2/BlockTorch$1	net/minecraft/block/BlockTorch$1
-net/minecraft/server/1_9_R2/BlockTrapdoor	net/minecraft/block/BlockTrapDoor
-net/minecraft/server/1_9_R2/BlockTrapdoor$EnumTrapdoorHalf	net/minecraft/block/BlockTrapDoor$DoorHalf
-net/minecraft/server/1_9_R2/BlockTripwire	net/minecraft/block/BlockTripWire
-net/minecraft/server/1_9_R2/BlockTripwireHook	net/minecraft/block/BlockTripWireHook
-net/minecraft/server/1_9_R2/BlockVine	net/minecraft/block/BlockVine
-net/minecraft/server/1_9_R2/BlockCobbleWall	net/minecraft/block/BlockWall
-net/minecraft/server/1_9_R2/BlockCobbleWall$EnumCobbleVariant	net/minecraft/block/BlockWall$EnumType
-net/minecraft/server/1_9_R2/BlockWallSign	net/minecraft/block/BlockWallSign
-net/minecraft/server/1_9_R2/BlockWaterLily	net/minecraft/block/BlockLilyPad
-net/minecraft/server/1_9_R2/BlockWeb	net/minecraft/block/BlockWeb
-net/minecraft/server/1_9_R2/BlockPressurePlateWeighted	net/minecraft/block/BlockPressurePlateWeighted
-net/minecraft/server/1_9_R2/BlockWoodButton	net/minecraft/block/BlockButtonWood
-net/minecraft/server/1_9_R2/BlockWoodenStep	net/minecraft/block/BlockWoodSlab
-net/minecraft/server/1_9_R2/BlockCarpet	net/minecraft/block/BlockCarpet
-net/minecraft/server/1_9_R2/BlockYellowFlowers	net/minecraft/block/BlockYellowFlower
-net/minecraft/server/1_9_R2/TileEntityBanner	net/minecraft/tileentity/TileEntityBanner
-net/minecraft/server/1_9_R2/TileEntityBanner$EnumBannerPatternType	net/minecraft/tileentity/TileEntityBanner$EnumBannerPattern
-net/minecraft/server/1_9_R2/TileEntityBeacon	net/minecraft/tileentity/TileEntityBeacon
-net/minecraft/server/1_9_R2/TileEntityBeacon$BeaconColorTracker	net/minecraft/tileentity/TileEntityBeacon$BeamSegment
-net/minecraft/server/1_9_R2/TileEntity	net/minecraft/tileentity/TileEntity
-net/minecraft/server/1_9_R2/TileEntity$1	net/minecraft/tileentity/TileEntity$1
-net/minecraft/server/1_9_R2/TileEntity$2	net/minecraft/tileentity/TileEntity$2
-net/minecraft/server/1_9_R2/TileEntity$3	net/minecraft/tileentity/TileEntity$3
-net/minecraft/server/1_9_R2/TileEntityBrewingStand	net/minecraft/tileentity/TileEntityBrewingStand
-net/minecraft/server/1_9_R2/TileEntityChest	net/minecraft/tileentity/TileEntityChest
-net/minecraft/server/1_9_R2/TileEntityCommand	net/minecraft/tileentity/TileEntityCommandBlock
-net/minecraft/server/1_9_R2/TileEntityCommand$1	net/minecraft/tileentity/TileEntityCommandBlock$1
-net/minecraft/server/1_9_R2/TileEntityCommand$Type	net/minecraft/tileentity/TileEntityCommandBlock$Mode
-net/minecraft/server/1_9_R2/TileEntityComparator	net/minecraft/tileentity/TileEntityComparator
-net/minecraft/server/1_9_R2/CommandTell	net/minecraft/command/server/CommandMessage
-net/minecraft/server/1_9_R2/TileEntityLightDetector	net/minecraft/tileentity/TileEntityDaylightDetector
-net/minecraft/server/1_9_R2/TileEntityDispenser	net/minecraft/tileentity/TileEntityDispenser
-net/minecraft/server/1_9_R2/TileEntityDropper	net/minecraft/tileentity/TileEntityDropper
-net/minecraft/server/1_9_R2/TileEntityEnchantTable	net/minecraft/tileentity/TileEntityEnchantmentTable
-net/minecraft/server/1_9_R2/TileEntityEnderChest	net/minecraft/tileentity/TileEntityEnderChest
-net/minecraft/server/1_9_R2/TileEntityFlowerPot	net/minecraft/tileentity/TileEntityFlowerPot
-net/minecraft/server/1_9_R2/TileEntityFurnace	net/minecraft/tileentity/TileEntityFurnace
-net/minecraft/server/1_9_R2/IHopper	net/minecraft/tileentity/IHopper
-net/minecraft/server/1_9_R2/TileEntityHopper	net/minecraft/tileentity/TileEntityHopper
-net/minecraft/server/1_9_R2/TileEntityContainer	net/minecraft/tileentity/TileEntityLockable
-net/minecraft/server/1_9_R2/TileEntityMobSpawner	net/minecraft/tileentity/TileEntityMobSpawner
-net/minecraft/server/1_9_R2/TileEntityMobSpawner$1	net/minecraft/tileentity/TileEntityMobSpawner$1
-net/minecraft/server/1_9_R2/TileEntityNote	net/minecraft/tileentity/TileEntityNote
-net/minecraft/server/1_9_R2/TileEntityLootable	net/minecraft/tileentity/TileEntityLockableLoot
-net/minecraft/server/1_9_R2/TileEntitySign	net/minecraft/tileentity/TileEntitySign
-net/minecraft/server/1_9_R2/TileEntitySign$1	net/minecraft/tileentity/TileEntitySign$1
-net/minecraft/server/1_9_R2/TileEntitySign$2	net/minecraft/tileentity/TileEntitySign$2
-net/minecraft/server/1_9_R2/TileEntitySkull	net/minecraft/tileentity/TileEntitySkull
-net/minecraft/server/1_9_R2/TileEntityStructure	net/minecraft/tileentity/TileEntityStructure
-net/minecraft/server/1_9_R2/TileEntityStructure$1	net/minecraft/tileentity/TileEntityStructure$1
-net/minecraft/server/1_9_R2/TileEntityStructure$UsageMode	net/minecraft/tileentity/TileEntityStructure$Mode
-net/minecraft/server/1_9_R2/TileEntityEndGateway	net/minecraft/tileentity/TileEntityEndGateway
-net/minecraft/server/1_9_R2/TileEntityEnderPortal	net/minecraft/tileentity/TileEntityEndPortal
-net/minecraft/server/1_9_R2/BlockPiston	net/minecraft/block/BlockPistonBase
-net/minecraft/server/1_9_R2/BlockPistonExtension	net/minecraft/block/BlockPistonExtension
-net/minecraft/server/1_9_R2/BlockPistonExtension$EnumPistonType	net/minecraft/block/BlockPistonExtension$EnumPistonType
-net/minecraft/server/1_9_R2/BlockPistonMoving	net/minecraft/block/BlockPistonMoving
-net/minecraft/server/1_9_R2/TileEntityPiston	net/minecraft/tileentity/TileEntityPiston
-net/minecraft/server/1_9_R2/PistonExtendsChecker	net/minecraft/block/state/BlockPistonStructureHelper
-net/minecraft/server/1_9_R2/CommandOp	net/minecraft/command/server/CommandOp
-net/minecraft/server/1_9_R2/BlockDataAbstract	net/minecraft/block/state/BlockStateBase
-net/minecraft/server/1_9_R2/BlockDataAbstract$1	net/minecraft/block/state/BlockStateBase$1
-net/minecraft/server/1_9_R2/IBlockPhysics	net/minecraft/block/state/IBlockBehaviors
-net/minecraft/server/1_9_R2/IBlockProperties	net/minecraft/block/state/IBlockProperties
-net/minecraft/server/1_9_R2/IBlockData	net/minecraft/block/state/IBlockState
-net/minecraft/server/1_9_R2/BlockStateList	net/minecraft/block/state/BlockStateContainer
-net/minecraft/server/1_9_R2/BlockStateList$1	net/minecraft/block/state/BlockStateContainer$1
-net/minecraft/server/1_9_R2/BlockStateList$BlockData	net/minecraft/block/state/BlockStateContainer$StateImplementation
-net/minecraft/server/1_9_R2/ShapeDetectorBlock	net/minecraft/block/state/BlockWorldState
-net/minecraft/server/1_9_R2/ShapeDetectorBlock$1	net/minecraft/block/state/BlockWorldState$1
-net/minecraft/server/1_9_R2/ShapeDetectorBlock$2	net/minecraft/block/state/BlockWorldState$2
-net/minecraft/server/1_9_R2/ShapeDetector	net/minecraft/block/state/pattern/BlockPattern
-net/minecraft/server/1_9_R2/ShapeDetector$BlockLoader	net/minecraft/block/state/pattern/BlockPattern$CacheLoader
-net/minecraft/server/1_9_R2/ShapeDetector$ShapeDetectorCollection	net/minecraft/block/state/pattern/BlockPattern$PatternHelper
-net/minecraft/server/1_9_R2/ShapeDetectorBuilder	net/minecraft/block/state/pattern/FactoryBlockPattern
-net/minecraft/server/1_9_R2/BlockPredicate	net/minecraft/block/state/pattern/BlockMatcher
-net/minecraft/server/1_9_R2/BlockStatePredicate	net/minecraft/block/state/pattern/BlockStateMatcher
-net/minecraft/server/1_9_R2/BlockStatePredicate$1	net/minecraft/block/state/pattern/BlockStateMatcher$1
-net/minecraft/server/1_9_R2/BlockState	net/minecraft/block/properties/PropertyHelper
-net/minecraft/server/1_9_R2/BlockStateBoolean	net/minecraft/block/properties/PropertyBool
-net/minecraft/server/1_9_R2/BlockStateDirection	net/minecraft/block/properties/PropertyDirection
-net/minecraft/server/1_9_R2/BlockStateEnum	net/minecraft/block/properties/PropertyEnum
-net/minecraft/server/1_9_R2/BlockStateInteger	net/minecraft/block/properties/PropertyInteger
-net/minecraft/server/1_9_R2/IBlockState	net/minecraft/block/properties/IProperty
-net/minecraft/server/1_9_R2/IWorldBorderListener	net/minecraft/world/border/IBorderListener
-net/minecraft/server/1_9_R2/EnumWorldBorderState	net/minecraft/world/border/EnumBorderStatus
-net/minecraft/server/1_9_R2/WorldBorder	net/minecraft/world/border/WorldBorder
-net/minecraft/server/1_9_R2/DataPaletteBlock	net/minecraft/world/chunk/BlockStateContainer
-net/minecraft/server/1_9_R2/ChunkGenerator	net/minecraft/world/chunk/IChunkGenerator
-net/minecraft/server/1_9_R2/CommandPardonIP	net/minecraft/command/server/CommandPardonIp
-net/minecraft/server/1_9_R2/IChunkProvider	net/minecraft/world/chunk/IChunkProvider
-net/minecraft/server/1_9_R2/NibbleArray	net/minecraft/world/chunk/NibbleArray
-net/minecraft/server/1_9_R2/DataPaletteGlobal	net/minecraft/world/chunk/BlockStatePaletteRegistry
-net/minecraft/server/1_9_R2/DataPaletteHash	net/minecraft/world/chunk/BlockStatePaletteHashMap
-net/minecraft/server/1_9_R2/Chunk	net/minecraft/world/chunk/Chunk
-net/minecraft/server/1_9_R2/Chunk$1	net/minecraft/world/chunk/Chunk$1
-net/minecraft/server/1_9_R2/Chunk$EnumTileEntityState	net/minecraft/world/chunk/Chunk$EnumCreateEntityType
-net/minecraft/server/1_9_R2/ChunkSection	net/minecraft/world/chunk/storage/ExtendedBlockStorage
-net/minecraft/server/1_9_R2/DataPaletteLinear	net/minecraft/world/chunk/BlockStatePaletteLinear
-net/minecraft/server/1_9_R2/OldNibbleArray	net/minecraft/world/chunk/storage/NibbleArrayReader
-net/minecraft/server/1_9_R2/DataPalette	net/minecraft/world/chunk/IBlockStatePalette
-net/minecraft/server/1_9_R2/DataPaletteExpandable	net/minecraft/world/chunk/IBlockStatePaletteResizer
-net/minecraft/server/1_9_R2/IChunkLoader	net/minecraft/world/chunk/storage/IChunkLoader
-net/minecraft/server/1_9_R2/OldChunkLoader	net/minecraft/world/chunk/storage/ChunkLoader
-net/minecraft/server/1_9_R2/OldChunkLoader$OldChunk	net/minecraft/world/chunk/storage/ChunkLoader$AnvilConverterData
-net/minecraft/server/1_9_R2/RegionFile	net/minecraft/world/chunk/storage/RegionFile
-net/minecraft/server/1_9_R2/RegionFile$ChunkBuffer	net/minecraft/world/chunk/storage/RegionFile$ChunkBuffer
-net/minecraft/server/1_9_R2/RegionFileCache	net/minecraft/world/chunk/storage/RegionFileCache
-net/minecraft/server/1_9_R2/ChunkRegionLoader	net/minecraft/world/chunk/storage/AnvilChunkLoader
-net/minecraft/server/1_9_R2/WorldProvider	net/minecraft/world/WorldProvider
-net/minecraft/server/1_9_R2/DimensionManager	net/minecraft/world/DimensionType
-net/minecraft/server/1_9_R2/WorldProviderHell	net/minecraft/world/WorldProviderHell
-net/minecraft/server/1_9_R2/WorldProviderHell$1	net/minecraft/world/WorldProviderHell$1
-net/minecraft/server/1_9_R2/WorldProviderNormal	net/minecraft/world/WorldProviderSurface
-net/minecraft/server/1_9_R2/EnumDragonRespawn	net/minecraft/world/end/DragonSpawnManager
-net/minecraft/server/1_9_R2/EnumDragonRespawn$1	net/minecraft/world/end/DragonSpawnManager$1
-net/minecraft/server/1_9_R2/EnumDragonRespawn$2	net/minecraft/world/end/DragonSpawnManager$2
-net/minecraft/server/1_9_R2/EnumDragonRespawn$3	net/minecraft/world/end/DragonSpawnManager$3
-net/minecraft/server/1_9_R2/EnumDragonRespawn$4	net/minecraft/world/end/DragonSpawnManager$4
-net/minecraft/server/1_9_R2/EnumDragonRespawn$5	net/minecraft/world/end/DragonSpawnManager$5
-net/minecraft/server/1_9_R2/CommandPardon	net/minecraft/command/server/CommandPardonPlayer
-net/minecraft/server/1_9_R2/EnderDragonBattle	net/minecraft/world/end/DragonFightManager
-net/minecraft/server/1_9_R2/WorldProviderTheEnd	net/minecraft/world/WorldProviderEnd
-net/minecraft/server/1_9_R2/WorldGenCanyon	net/minecraft/world/gen/MapGenRavine
-net/minecraft/server/1_9_R2/ChunkSnapshot	net/minecraft/world/chunk/ChunkPrimer
-net/minecraft/server/1_9_R2/CustomWorldSettingsFinal	net/minecraft/world/gen/ChunkProviderSettings
-net/minecraft/server/1_9_R2/CustomWorldSettingsFinal$CustomWorldSettings	net/minecraft/world/gen/ChunkProviderSettings$Factory
-net/minecraft/server/1_9_R2/CustomWorldSettingsFinal$CustomWorldSettingsSerializer	net/minecraft/world/gen/ChunkProviderSettings$Serializer
-net/minecraft/server/1_9_R2/ChunkProviderDebug	net/minecraft/world/gen/ChunkProviderDebug
-net/minecraft/server/1_9_R2/ChunkProviderFlat	net/minecraft/world/gen/ChunkProviderFlat
-net/minecraft/server/1_9_R2/WorldGenCaves	net/minecraft/world/gen/MapGenCaves
-net/minecraft/server/1_9_R2/WorldGenBase	net/minecraft/world/gen/MapGenBase
-net/minecraft/server/1_9_R2/WorldGenCavesHell	net/minecraft/world/gen/MapGenCavesHell
-net/minecraft/server/1_9_R2/ChunkProviderHell	net/minecraft/world/gen/ChunkProviderHell
-net/minecraft/server/1_9_R2/ChunkProviderGenerate	net/minecraft/world/gen/ChunkProviderOverworld
-net/minecraft/server/1_9_R2/ChunkProviderTheEnd	net/minecraft/world/gen/ChunkProviderEnd
-net/minecraft/server/1_9_R2/WorldGenTreeAbstract	net/minecraft/world/gen/feature/WorldGenAbstractTree
-net/minecraft/server/1_9_R2/WorldGenBigTree	net/minecraft/world/gen/feature/WorldGenBigTree
-net/minecraft/server/1_9_R2/WorldGenBigTree$Position	net/minecraft/world/gen/feature/WorldGenBigTree$FoliageCoordinates
-net/minecraft/server/1_9_R2/WorldGenForest	net/minecraft/world/gen/feature/WorldGenBirchTree
-net/minecraft/server/1_9_R2/WorldGenTaigaStructure	net/minecraft/world/gen/feature/WorldGenBlockBlob
-net/minecraft/server/1_9_R2/WorldGenBonusChest	net/minecraft/world/gen/feature/WorldGeneratorBonusChest
-net/minecraft/server/1_9_R2/WorldGenMushrooms	net/minecraft/world/gen/feature/WorldGenBush
-net/minecraft/server/1_9_R2/WorldGenCactus	net/minecraft/world/gen/feature/WorldGenCactus
-net/minecraft/server/1_9_R2/WorldGenClay	net/minecraft/world/gen/feature/WorldGenClay
-net/minecraft/server/1_9_R2/WorldGenDeadBush	net/minecraft/world/gen/feature/WorldGenDeadBush
-net/minecraft/server/1_9_R2/WorldGenDesertWell	net/minecraft/world/gen/feature/WorldGenDesertWells
-net/minecraft/server/1_9_R2/WorldGenTallPlant	net/minecraft/world/gen/feature/WorldGenDoublePlant
-net/minecraft/server/1_9_R2/CommandParticle	net/minecraft/command/CommandParticle
-net/minecraft/server/1_9_R2/WorldGenEndGateway	net/minecraft/world/gen/feature/WorldGenEndGateway
-net/minecraft/server/1_9_R2/WorldGenEndIsland	net/minecraft/world/gen/feature/WorldGenEndIsland
-net/minecraft/server/1_9_R2/WorldGenEndTrophy	net/minecraft/world/gen/feature/WorldGenEndPodium
-net/minecraft/server/1_9_R2/WorldGenerator	net/minecraft/world/gen/feature/WorldGenerator
-net/minecraft/server/1_9_R2/WorldGenFlowers	net/minecraft/world/gen/feature/WorldGenFlowers
-net/minecraft/server/1_9_R2/WorldGenGroundBush	net/minecraft/world/gen/feature/WorldGenShrub
-net/minecraft/server/1_9_R2/WorldGenFire	net/minecraft/world/gen/feature/WorldGenFire
-net/minecraft/server/1_9_R2/WorldGenLightStone2	net/minecraft/world/gen/feature/WorldGenGlowStone2
-net/minecraft/server/1_9_R2/WorldGenHellLava	net/minecraft/world/gen/feature/WorldGenHellLava
-net/minecraft/server/1_9_R2/WorldGenHugeMushroom	net/minecraft/world/gen/feature/WorldGenBigMushroom
-net/minecraft/server/1_9_R2/WorldGenPackedIce1	net/minecraft/world/gen/feature/WorldGenIcePath
-net/minecraft/server/1_9_R2/WorldGenPackedIce2	net/minecraft/world/gen/feature/WorldGenIceSpike
-net/minecraft/server/1_9_R2/WorldGenLakes	net/minecraft/world/gen/feature/WorldGenLakes
-net/minecraft/server/1_9_R2/WorldGenLightStone1	net/minecraft/world/gen/feature/WorldGenGlowStone1
-net/minecraft/server/1_9_R2/WorldGenJungleTree	net/minecraft/world/gen/feature/WorldGenMegaJungle
-net/minecraft/server/1_9_R2/WorldGenMegaTree	net/minecraft/world/gen/feature/WorldGenMegaPineTree
-net/minecraft/server/1_9_R2/WorldGenMegaTreeAbstract	net/minecraft/world/gen/feature/WorldGenHugeTrees
-net/minecraft/server/1_9_R2/WorldGenMelon	net/minecraft/world/gen/feature/WorldGenMelon
-net/minecraft/server/1_9_R2/WorldGenDungeons	net/minecraft/world/gen/feature/WorldGenDungeons
-net/minecraft/server/1_9_R2/WorldGenMinable	net/minecraft/world/gen/feature/WorldGenMinable
-net/minecraft/server/1_9_R2/WorldGenTaiga1	net/minecraft/world/gen/feature/WorldGenTaiga1
-net/minecraft/server/1_9_R2/WorldGenPumpkin	net/minecraft/world/gen/feature/WorldGenPumpkin
-net/minecraft/server/1_9_R2/WorldGenReed	net/minecraft/world/gen/feature/WorldGenReed
-net/minecraft/server/1_9_R2/WorldGenForestTree	net/minecraft/world/gen/feature/WorldGenCanopyTree
-net/minecraft/server/1_9_R2/WorldGenSand	net/minecraft/world/gen/feature/WorldGenSand
-net/minecraft/server/1_9_R2/CommandPlaySound	net/minecraft/command/CommandPlaySound
-net/minecraft/server/1_9_R2/WorldGenAcaciaTree	net/minecraft/world/gen/feature/WorldGenSavannaTree
-net/minecraft/server/1_9_R2/WorldGenEnder	net/minecraft/world/gen/feature/WorldGenSpikes
-net/minecraft/server/1_9_R2/WorldGenEnder$Spike	net/minecraft/world/gen/feature/WorldGenSpikes$EndSpike
-net/minecraft/server/1_9_R2/WorldGenLiquids	net/minecraft/world/gen/feature/WorldGenLiquids
-net/minecraft/server/1_9_R2/WorldGenTaiga2	net/minecraft/world/gen/feature/WorldGenTaiga2
-net/minecraft/server/1_9_R2/WorldGenSwampTree	net/minecraft/world/gen/feature/WorldGenSwamp
-net/minecraft/server/1_9_R2/WorldGenGrass	net/minecraft/world/gen/feature/WorldGenTallGrass
-net/minecraft/server/1_9_R2/WorldGenTrees	net/minecraft/world/gen/feature/WorldGenTrees
-net/minecraft/server/1_9_R2/WorldGenVines	net/minecraft/world/gen/feature/WorldGenVines
-net/minecraft/server/1_9_R2/WorldGenWaterLily	net/minecraft/world/gen/feature/WorldGenWaterlily
-net/minecraft/server/1_9_R2/WorldGenFlatInfo	net/minecraft/world/gen/FlatGeneratorInfo
-net/minecraft/server/1_9_R2/WorldGenFlatLayerInfo	net/minecraft/world/gen/FlatLayerInfo
-net/minecraft/server/1_9_R2/StructureBoundingBox	net/minecraft/world/gen/structure/StructureBoundingBox
-net/minecraft/server/1_9_R2/WorldGenEndCity	net/minecraft/world/gen/structure/MapGenEndCity
-net/minecraft/server/1_9_R2/WorldGenEndCity$Start	net/minecraft/world/gen/structure/MapGenEndCity$Start
-net/minecraft/server/1_9_R2/WorldGenEndCityPieces	net/minecraft/world/gen/structure/StructureEndCityPieces
-net/minecraft/server/1_9_R2/WorldGenEndCityPieces$1	net/minecraft/world/gen/structure/StructureEndCityPieces$1
-net/minecraft/server/1_9_R2/WorldGenEndCityPieces$2	net/minecraft/world/gen/structure/StructureEndCityPieces$2
-net/minecraft/server/1_9_R2/WorldGenEndCityPieces$3	net/minecraft/world/gen/structure/StructureEndCityPieces$3
-net/minecraft/server/1_9_R2/WorldGenEndCityPieces$4	net/minecraft/world/gen/structure/StructureEndCityPieces$4
-net/minecraft/server/1_9_R2/WorldGenEndCityPieces$Piece	net/minecraft/world/gen/structure/StructureEndCityPieces$CityTemplate
-net/minecraft/server/1_9_R2/WorldGenEndCityPieces$PieceGenerator	net/minecraft/world/gen/structure/StructureEndCityPieces$IGenerator
-net/minecraft/server/1_9_R2/WorldGenMineshaft	net/minecraft/world/gen/structure/MapGenMineshaft
-net/minecraft/server/1_9_R2/WorldGenMineshaftPieces	net/minecraft/world/gen/structure/StructureMineshaftPieces
-net/minecraft/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftCorridor	net/minecraft/world/gen/structure/StructureMineshaftPieces$Corridor
-net/minecraft/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftCross	net/minecraft/world/gen/structure/StructureMineshaftPieces$Cross
-net/minecraft/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftRoom	net/minecraft/world/gen/structure/StructureMineshaftPieces$Room
-net/minecraft/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftStairs	net/minecraft/world/gen/structure/StructureMineshaftPieces$Stairs
-net/minecraft/server/1_9_R2/WorldGenMineshaftStart	net/minecraft/world/gen/structure/StructureMineshaftStart
-net/minecraft/server/1_9_R2/WorldGenNether	net/minecraft/world/gen/structure/MapGenNetherBridge
-net/minecraft/server/1_9_R2/WorldGenNether$WorldGenNetherStart	net/minecraft/world/gen/structure/MapGenNetherBridge$Start
-net/minecraft/server/1_9_R2/WorldGenNetherPieces	net/minecraft/world/gen/structure/StructureNetherBridgePieces
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece1	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Crossing3
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece2	net/minecraft/world/gen/structure/StructureNetherBridgePieces$End
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece3	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Straight
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece4	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Corridor3
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece5	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Corridor4
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece6	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Entrance
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece7	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Crossing2
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece8	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Corridor
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece9	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Corridor5
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece10	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Corridor2
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece11	net/minecraft/world/gen/structure/StructureNetherBridgePieces$NetherStalkRoom
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece12	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Throne
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Piece
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPieceWeight	net/minecraft/world/gen/structure/StructureNetherBridgePieces$PieceWeight
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece13	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Crossing
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece14	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Stairs
-net/minecraft/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece15	net/minecraft/world/gen/structure/StructureNetherBridgePieces$Start
-net/minecraft/server/1_9_R2/WorldGenMonument	net/minecraft/world/gen/structure/StructureOceanMonument
-net/minecraft/server/1_9_R2/WorldGenMonument$WorldGenMonumentStart	net/minecraft/world/gen/structure/StructureOceanMonument$StartMonument
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces	net/minecraft/world/gen/structure/StructureOceanMonumentPieces
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector7	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$XDoubleRoomFitHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector6	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$XYDoubleRoomFitHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector5	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$YDoubleRoomFitHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector4	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$YZDoubleRoomFitHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector3	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$ZDoubleRoomFitHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector2	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$FitSimpleRoomHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector1	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$FitSimpleRoomTopHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece1	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$IWorldGenMonumentPieceSelector	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentRoomFitHelper
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece2	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentCoreRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece3	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$DoubleXRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece4	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$DoubleXYRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece5	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$DoubleYRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece6	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$DoubleYZRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece7	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$DoubleZRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceEntry	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$EntryRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$Penthouse
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$Piece
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimple	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$SimpleRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$SimpleTopRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece8	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$WingRoom
-net/minecraft/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentStateTracker	net/minecraft/world/gen/structure/StructureOceanMonumentPieces$RoomDefinition
-net/minecraft/server/1_9_R2/WorldGenLargeFeature	net/minecraft/world/gen/structure/MapGenScatteredFeature
-net/minecraft/server/1_9_R2/WorldGenLargeFeature$WorldGenLargeFeatureStart	net/minecraft/world/gen/structure/MapGenScatteredFeature$Start
-net/minecraft/server/1_9_R2/CommandPublish	net/minecraft/command/server/CommandPublishLocalServer
-net/minecraft/server/1_9_R2/WorldGenRegistration	net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces
-net/minecraft/server/1_9_R2/WorldGenRegistration$WorldGenPyramidPiece	net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$DesertPyramid
-net/minecraft/server/1_9_R2/WorldGenRegistration$b	net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$Igloo
-net/minecraft/server/1_9_R2/WorldGenRegistration$WorldGenJungleTemple	net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid
-net/minecraft/server/1_9_R2/WorldGenRegistration$WorldGenJungleTemple$WorldGenJungleTemplePiece	net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid$Stones
-net/minecraft/server/1_9_R2/WorldGenRegistration$WorldGenScatteredPiece	net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$Feature
-net/minecraft/server/1_9_R2/WorldGenRegistration$WorldGenWitchHut	net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$SwampHut
-net/minecraft/server/1_9_R2/WorldGenStronghold	net/minecraft/world/gen/structure/MapGenStronghold
-net/minecraft/server/1_9_R2/WorldGenStronghold$WorldGenStronghold2Start	net/minecraft/world/gen/structure/MapGenStronghold$Start
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces	net/minecraft/world/gen/structure/StructureStrongholdPieces
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$1	net/minecraft/world/gen/structure/StructureStrongholdPieces$1
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$2	net/minecraft/world/gen/structure/StructureStrongholdPieces$2
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor	net/minecraft/world/gen/structure/StructureStrongholdPieces$ChestCorridor
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdCorridor	net/minecraft/world/gen/structure/StructureStrongholdPieces$Corridor
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdCrossing	net/minecraft/world/gen/structure/StructureStrongholdPieces$Crossing
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn	net/minecraft/world/gen/structure/StructureStrongholdPieces$LeftTurn
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdLibrary	net/minecraft/world/gen/structure/StructureStrongholdPieces$Library
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPieceWeight	net/minecraft/world/gen/structure/StructureStrongholdPieces$PieceWeight
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom	net/minecraft/world/gen/structure/StructureStrongholdPieces$PortalRoom
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPrison	net/minecraft/world/gen/structure/StructureStrongholdPieces$Prison
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdRightTurn	net/minecraft/world/gen/structure/StructureStrongholdPieces$RightTurn
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing	net/minecraft/world/gen/structure/StructureStrongholdPieces$RoomCrossing
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStones	net/minecraft/world/gen/structure/StructureStrongholdPieces$Stones
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs2	net/minecraft/world/gen/structure/StructureStrongholdPieces$Stairs
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStart	net/minecraft/world/gen/structure/StructureStrongholdPieces$Stairs2
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs	net/minecraft/world/gen/structure/StructureStrongholdPieces$Straight
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight	net/minecraft/world/gen/structure/StructureStrongholdPieces$StairsStraight
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece	net/minecraft/world/gen/structure/StructureStrongholdPieces$Stronghold
-net/minecraft/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece$WorldGenStrongholdDoorType	net/minecraft/world/gen/structure/StructureStrongholdPieces$Stronghold$Door
-net/minecraft/server/1_9_R2/StructureGenerator	net/minecraft/world/gen/structure/MapGenStructure
-net/minecraft/server/1_9_R2/StructureGenerator$1	net/minecraft/world/gen/structure/MapGenStructure$1
-net/minecraft/server/1_9_R2/StructureGenerator$2	net/minecraft/world/gen/structure/MapGenStructure$2
-net/minecraft/server/1_9_R2/StructureGenerator$3	net/minecraft/world/gen/structure/MapGenStructure$3
-net/minecraft/server/1_9_R2/WorldGenFactory	net/minecraft/world/gen/structure/MapGenStructureIO
-net/minecraft/server/1_9_R2/PersistentStructure	net/minecraft/world/gen/structure/MapGenStructureData
-net/minecraft/server/1_9_R2/StructurePiece	net/minecraft/world/gen/structure/StructureComponent
-net/minecraft/server/1_9_R2/StructurePiece$StructurePieceBlockSelector	net/minecraft/world/gen/structure/StructureComponent$BlockSelector
-net/minecraft/server/1_9_R2/StructureStart	net/minecraft/world/gen/structure/StructureStart
-net/minecraft/server/1_9_R2/DefinedStructurePiece	net/minecraft/world/gen/structure/StructureComponentTemplate
-net/minecraft/server/1_9_R2/WorldGenVillage	net/minecraft/world/gen/structure/MapGenVillage
-net/minecraft/server/1_9_R2/WorldGenVillage$WorldGenVillageStart	net/minecraft/world/gen/structure/MapGenVillage$Start
-net/minecraft/server/1_9_R2/WorldGenVillagePieces	net/minecraft/world/gen/structure/StructureVillagePieces
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageLibrary	net/minecraft/world/gen/structure/StructureVillagePieces$House1
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageFarm2	net/minecraft/world/gen/structure/StructureVillagePieces$Field1
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageFarm	net/minecraft/world/gen/structure/StructureVillagePieces$Field2
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageLight	net/minecraft/world/gen/structure/StructureVillagePieces$Torch
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillagePieceWeight	net/minecraft/world/gen/structure/StructureVillagePieces$PieceWeight
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageButcher	net/minecraft/world/gen/structure/StructureVillagePieces$Hall
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageHouse	net/minecraft/world/gen/structure/StructureVillagePieces$House4Garden
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageHut	net/minecraft/world/gen/structure/StructureVillagePieces$WoodHut
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageTemple	net/minecraft/world/gen/structure/StructureVillagePieces$Church
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageBlacksmith	net/minecraft/world/gen/structure/StructureVillagePieces$House2
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageStartPiece	net/minecraft/world/gen/structure/StructureVillagePieces$Start
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageRoad	net/minecraft/world/gen/structure/StructureVillagePieces$Path
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageHouse2	net/minecraft/world/gen/structure/StructureVillagePieces$House3
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillagePiece	net/minecraft/world/gen/structure/StructureVillagePieces$Village
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageRoadPiece	net/minecraft/world/gen/structure/StructureVillagePieces$Road
-net/minecraft/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageWell	net/minecraft/world/gen/structure/StructureVillagePieces$Well
-net/minecraft/server/1_9_R2/DefinedStructureManager	net/minecraft/world/gen/structure/template/TemplateManager
-net/minecraft/server/1_9_R2/DefinedStructureInfo	net/minecraft/world/gen/structure/template/PlacementSettings
-net/minecraft/server/1_9_R2/DefinedStructure	net/minecraft/world/gen/structure/template/Template
-net/minecraft/server/1_9_R2/DefinedStructure$1	net/minecraft/world/gen/structure/template/Template$1
-net/minecraft/server/1_9_R2/DefinedStructure$BlockInfo	net/minecraft/world/gen/structure/template/Template$BlockInfo
-net/minecraft/server/1_9_R2/DefinedStructure$EntityInfo	net/minecraft/world/gen/structure/template/Template$EntityInfo
-net/minecraft/server/1_9_R2/NoiseGeneratorPerlin	net/minecraft/world/gen/NoiseGeneratorImproved
-net/minecraft/server/1_9_R2/NoiseGeneratorOctaves	net/minecraft/world/gen/NoiseGeneratorOctaves
-net/minecraft/server/1_9_R2/NoiseGenerator3	net/minecraft/world/gen/NoiseGeneratorPerlin
-net/minecraft/server/1_9_R2/NoiseGenerator3Handler	net/minecraft/world/gen/NoiseGeneratorSimplex
-net/minecraft/server/1_9_R2/NoiseGenerator	net/minecraft/world/gen/NoiseGenerator
-net/minecraft/server/1_9_R2/CommandReplaceItem	net/minecraft/command/CommandReplaceItem
-net/minecraft/server/1_9_R2/MaterialDecoration	net/minecraft/block/material/MaterialLogic
-net/minecraft/server/1_9_R2/MaterialGas	net/minecraft/block/material/MaterialTransparent
-net/minecraft/server/1_9_R2/MaterialLiquid	net/minecraft/block/material/MaterialLiquid
-net/minecraft/server/1_9_R2/Material	net/minecraft/block/material/Material
-net/minecraft/server/1_9_R2/Material$1	net/minecraft/block/material/Material$1
-net/minecraft/server/1_9_R2/MaterialMapColor	net/minecraft/block/material/MapColor
-net/minecraft/server/1_9_R2/MaterialPortal	net/minecraft/block/material/MaterialPortal
-net/minecraft/server/1_9_R2/EnumPistonReaction	net/minecraft/block/material/EnumPushReaction
-net/minecraft/server/1_9_R2/GenLayerDeepOcean	net/minecraft/world/gen/layer/GenLayerDeepOcean
-net/minecraft/server/1_9_R2/GenLayerSpecial	net/minecraft/world/gen/layer/GenLayerEdge
-net/minecraft/server/1_9_R2/GenLayerSpecial$EnumGenLayerSpecial	net/minecraft/world/gen/layer/GenLayerEdge$Mode
-net/minecraft/server/1_9_R2/GenLayerIsland	net/minecraft/world/gen/layer/GenLayerAddIsland
-net/minecraft/server/1_9_R2/GenLayerMushroomIsland	net/minecraft/world/gen/layer/GenLayerAddMushroomIsland
-net/minecraft/server/1_9_R2/GenLayerTopSoil	net/minecraft/world/gen/layer/GenLayerAddSnow
-net/minecraft/server/1_9_R2/GenLayerDesert	net/minecraft/world/gen/layer/GenLayerBiomeEdge
-net/minecraft/server/1_9_R2/GenLayerBiome	net/minecraft/world/gen/layer/GenLayerBiome
-net/minecraft/server/1_9_R2/GenLayerZoomFuzzy	net/minecraft/world/gen/layer/GenLayerFuzzyZoom
-net/minecraft/server/1_9_R2/IntCache	net/minecraft/world/gen/layer/IntCache
-net/minecraft/server/1_9_R2/LayerIsland	net/minecraft/world/gen/layer/GenLayerIsland
-net/minecraft/server/1_9_R2/GenLayer	net/minecraft/world/gen/layer/GenLayer
-net/minecraft/server/1_9_R2/GenLayerPlains	net/minecraft/world/gen/layer/GenLayerRareBiome
-net/minecraft/server/1_9_R2/GenLayerRegionHills	net/minecraft/world/gen/layer/GenLayerHills
-net/minecraft/server/1_9_R2/GenLayerIcePlains	net/minecraft/world/gen/layer/GenLayerRemoveTooMuchOcean
-net/minecraft/server/1_9_R2/GenLayerCleaner	net/minecraft/world/gen/layer/GenLayerRiverInit
-net/minecraft/server/1_9_R2/CommandSaveAll	net/minecraft/command/server/CommandSaveAll
-net/minecraft/server/1_9_R2/GenLayerRiver	net/minecraft/world/gen/layer/GenLayerRiver
-net/minecraft/server/1_9_R2/GenLayerRiverMix	net/minecraft/world/gen/layer/GenLayerRiverMix
-net/minecraft/server/1_9_R2/GenLayerMushroomShore	net/minecraft/world/gen/layer/GenLayerShore
-net/minecraft/server/1_9_R2/GenLayerSmooth	net/minecraft/world/gen/layer/GenLayerSmooth
-net/minecraft/server/1_9_R2/GenLayerZoomVoronoi	net/minecraft/world/gen/layer/GenLayerVoronoiZoom
-net/minecraft/server/1_9_R2/GenLayerZoom	net/minecraft/world/gen/layer/GenLayerZoom
-net/minecraft/server/1_9_R2/Path	net/minecraft/pathfinding/PathHeap
-net/minecraft/server/1_9_R2/PathType	net/minecraft/pathfinding/PathNodeType
-net/minecraft/server/1_9_R2/PathPoint	net/minecraft/pathfinding/PathPoint
-net/minecraft/server/1_9_R2/PathfinderAbstract	net/minecraft/pathfinding/NodeProcessor
-net/minecraft/server/1_9_R2/PathEntity	net/minecraft/pathfinding/Path
-net/minecraft/server/1_9_R2/Pathfinder	net/minecraft/pathfinding/PathFinder
-net/minecraft/server/1_9_R2/PathfinderWater	net/minecraft/pathfinding/SwimNodeProcessor
-net/minecraft/server/1_9_R2/PathfinderNormal	net/minecraft/pathfinding/WalkNodeProcessor
-net/minecraft/server/1_9_R2/RunnableSaveScoreboard	net/minecraft/world/WorldSavedDataCallableSave
-net/minecraft/server/1_9_R2/PersistentBase	net/minecraft/world/WorldSavedData
-net/minecraft/server/1_9_R2/MapIcon	net/minecraft/util/math/Vec4b
-net/minecraft/server/1_9_R2/WorldMap	net/minecraft/world/storage/MapData
-net/minecraft/server/1_9_R2/WorldMap$WorldMapHumanTracker	net/minecraft/world/storage/MapData$MapInfo
-net/minecraft/server/1_9_R2/CommandSaveOff	net/minecraft/command/server/CommandSaveOff
-net/minecraft/server/1_9_R2/ServerNBTManager	net/minecraft/world/chunk/storage/AnvilSaveHandler
-net/minecraft/server/1_9_R2/WorldLoaderServer	net/minecraft/world/chunk/storage/AnvilSaveConverter
-net/minecraft/server/1_9_R2/WorldLoaderServer$1	net/minecraft/world/chunk/storage/AnvilSaveConverter$1
-net/minecraft/server/1_9_R2/SecondaryWorldData	net/minecraft/world/storage/DerivedWorldInfo
-net/minecraft/server/1_9_R2/WorldNBTStorage	net/minecraft/world/storage/SaveHandler
-net/minecraft/server/1_9_R2/WorldLoader	net/minecraft/world/storage/SaveFormatOld
-net/minecraft/server/1_9_R2/WorldData	net/minecraft/world/storage/WorldInfo
-net/minecraft/server/1_9_R2/WorldData$1	net/minecraft/world/storage/WorldInfo$1
-net/minecraft/server/1_9_R2/WorldData$2	net/minecraft/world/storage/WorldInfo$2
-net/minecraft/server/1_9_R2/WorldData$3	net/minecraft/world/storage/WorldInfo$3
-net/minecraft/server/1_9_R2/WorldData$4	net/minecraft/world/storage/WorldInfo$4
-net/minecraft/server/1_9_R2/WorldData$5	net/minecraft/world/storage/WorldInfo$5
-net/minecraft/server/1_9_R2/WorldData$6	net/minecraft/world/storage/WorldInfo$6
-net/minecraft/server/1_9_R2/WorldData$7	net/minecraft/world/storage/WorldInfo$7
-net/minecraft/server/1_9_R2/WorldData$8	net/minecraft/world/storage/WorldInfo$8
-net/minecraft/server/1_9_R2/WorldData$9	net/minecraft/world/storage/WorldInfo$9
-net/minecraft/server/1_9_R2/IDataManager	net/minecraft/world/storage/ISaveHandler
-net/minecraft/server/1_9_R2/Convertable	net/minecraft/world/storage/ISaveFormat
-net/minecraft/server/1_9_R2/IPlayerFileData	net/minecraft/world/storage/IPlayerFileData
-net/minecraft/server/1_9_R2/PersistentCollection	net/minecraft/world/storage/MapStorage
-net/minecraft/server/1_9_R2/LootTables	net/minecraft/world/storage/loot/LootTableList
-net/minecraft/server/1_9_R2/LootSelectorEmpty	net/minecraft/world/storage/loot/LootEntryEmpty
-net/minecraft/server/1_9_R2/LootItem	net/minecraft/world/storage/loot/LootEntryItem
-net/minecraft/server/1_9_R2/LootSelector	net/minecraft/world/storage/loot/LootPool
-net/minecraft/server/1_9_R2/LootSelector$a	net/minecraft/world/storage/loot/LootPool$Serializer
-net/minecraft/server/1_9_R2/LotoSelectorEntry	net/minecraft/world/storage/loot/LootEntry
-net/minecraft/server/1_9_R2/LotoSelectorEntry$a	net/minecraft/world/storage/loot/LootEntry$Serializer
-net/minecraft/server/1_9_R2/LootTable	net/minecraft/world/storage/loot/LootTable
-net/minecraft/server/1_9_R2/LootTable$a	net/minecraft/world/storage/loot/LootTable$Serializer
-net/minecraft/server/1_9_R2/LootTableInfo	net/minecraft/world/storage/loot/LootContext
-net/minecraft/server/1_9_R2/LootTableInfo$a	net/minecraft/world/storage/loot/LootContext$Builder
-net/minecraft/server/1_9_R2/LootTableInfo$EntityTarget	net/minecraft/world/storage/loot/LootContext$EntityTarget
-net/minecraft/server/1_9_R2/LootTableInfo$EntityTarget$a	net/minecraft/world/storage/loot/LootContext$EntityTarget$Serializer
-net/minecraft/server/1_9_R2/LootSelectorLootTable	net/minecraft/world/storage/loot/LootEntryTable
-net/minecraft/server/1_9_R2/LootTableRegistry	net/minecraft/world/storage/loot/LootTableManager
-net/minecraft/server/1_9_R2/LootTableRegistry$a	net/minecraft/world/storage/loot/LootTableManager$Loader
-net/minecraft/server/1_9_R2/CrashReport	net/minecraft/crash/CrashReport
-net/minecraft/server/1_9_R2/CrashReport$1	net/minecraft/crash/CrashReport$1
-net/minecraft/server/1_9_R2/CrashReport$2	net/minecraft/crash/CrashReport$2
-net/minecraft/server/1_9_R2/CrashReport$3	net/minecraft/crash/CrashReport$3
-net/minecraft/server/1_9_R2/CrashReport$4	net/minecraft/crash/CrashReport$4
-net/minecraft/server/1_9_R2/CrashReport$5	net/minecraft/crash/CrashReport$5
-net/minecraft/server/1_9_R2/CrashReport$6	net/minecraft/crash/CrashReport$6
-net/minecraft/server/1_9_R2/CrashReport$7	net/minecraft/crash/CrashReport$7
-net/minecraft/server/1_9_R2/CommandSaveOn	net/minecraft/command/server/CommandSaveOn
-net/minecraft/server/1_9_R2/LootValueBounds	net/minecraft/world/storage/loot/RandomValueRange
-net/minecraft/server/1_9_R2/LootValueBounds$a	net/minecraft/world/storage/loot/RandomValueRange$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctionEnchant	net/minecraft/world/storage/loot/functions/EnchantRandomly
-net/minecraft/server/1_9_R2/LootItemFunctionEnchant$a	net/minecraft/world/storage/loot/functions/EnchantRandomly$Serializer
-net/minecraft/server/1_9_R2/LootEnchantLevel	net/minecraft/world/storage/loot/functions/EnchantWithLevels
-net/minecraft/server/1_9_R2/LootEnchantLevel$a	net/minecraft/world/storage/loot/functions/EnchantWithLevels$Serializer
-net/minecraft/server/1_9_R2/LootItemFunction	net/minecraft/world/storage/loot/functions/LootFunction
-net/minecraft/server/1_9_R2/LootItemFunction$a	net/minecraft/world/storage/loot/functions/LootFunction$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctions	net/minecraft/world/storage/loot/functions/LootFunctionManager
-net/minecraft/server/1_9_R2/LootItemFunctions$a	net/minecraft/world/storage/loot/functions/LootFunctionManager$Serializer
-net/minecraft/server/1_9_R2/LootEnchantFunction	net/minecraft/world/storage/loot/functions/LootingEnchantBonus
-net/minecraft/server/1_9_R2/LootEnchantFunction$a	net/minecraft/world/storage/loot/functions/LootingEnchantBonus$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctionSetAttribute	net/minecraft/world/storage/loot/functions/SetAttributes
-net/minecraft/server/1_9_R2/LootItemFunctionSetAttribute$a	net/minecraft/world/storage/loot/functions/SetAttributes$Modifier
-net/minecraft/server/1_9_R2/LootItemFunctionSetAttribute$b	net/minecraft/world/storage/loot/functions/SetAttributes$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctionSetCount	net/minecraft/world/storage/loot/functions/SetCount
-net/minecraft/server/1_9_R2/LootItemFunctionSetCount$a	net/minecraft/world/storage/loot/functions/SetCount$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctionSetDamage	net/minecraft/world/storage/loot/functions/SetDamage
-net/minecraft/server/1_9_R2/LootItemFunctionSetDamage$a	net/minecraft/world/storage/loot/functions/SetDamage$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctionSetData	net/minecraft/world/storage/loot/functions/SetMetadata
-net/minecraft/server/1_9_R2/LootItemFunctionSetData$a	net/minecraft/world/storage/loot/functions/SetMetadata$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctionSetTag	net/minecraft/world/storage/loot/functions/SetNBT
-net/minecraft/server/1_9_R2/LootItemFunctionSetTag$a	net/minecraft/world/storage/loot/functions/SetNBT$Serializer
-net/minecraft/server/1_9_R2/LootItemFunctionSmelt	net/minecraft/world/storage/loot/functions/Smelt
-net/minecraft/server/1_9_R2/LootItemFunctionSmelt$a	net/minecraft/world/storage/loot/functions/Smelt$Serializer
-net/minecraft/server/1_9_R2/LootItemConditionEntityScore	net/minecraft/world/storage/loot/conditions/EntityHasScore
-net/minecraft/server/1_9_R2/LootItemConditionEntityScore$a	net/minecraft/world/storage/loot/conditions/EntityHasScore$Serializer
-net/minecraft/server/1_9_R2/LootItemCondition	net/minecraft/world/storage/loot/conditions/LootCondition
-net/minecraft/server/1_9_R2/LootItemCondition$a	net/minecraft/world/storage/loot/conditions/LootCondition$Serializer
-net/minecraft/server/1_9_R2/LootItemConditions	net/minecraft/world/storage/loot/conditions/LootConditionManager
-net/minecraft/server/1_9_R2/LootItemConditions$a	net/minecraft/world/storage/loot/conditions/LootConditionManager$Serializer
-net/minecraft/server/1_9_R2/LootItemConditionEntityProperty	net/minecraft/world/storage/loot/conditions/EntityHasProperty
-net/minecraft/server/1_9_R2/LootItemConditionEntityProperty$a	net/minecraft/world/storage/loot/conditions/EntityHasProperty$Serializer
-net/minecraft/server/1_9_R2/LootItemConditionKilledByPlayer	net/minecraft/world/storage/loot/conditions/KilledByPlayer
-net/minecraft/server/1_9_R2/LootItemConditionKilledByPlayer$a	net/minecraft/world/storage/loot/conditions/KilledByPlayer$Serializer
-net/minecraft/server/1_9_R2/LootItemConditionRandomChance	net/minecraft/world/storage/loot/conditions/RandomChance
-net/minecraft/server/1_9_R2/LootItemConditionRandomChance$a	net/minecraft/world/storage/loot/conditions/RandomChance$Serializer
-net/minecraft/server/1_9_R2/LootItemConditionRandomChanceWithLooting	net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting
-net/minecraft/server/1_9_R2/LootItemConditionRandomChanceWithLooting$a	net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting$Serializer
-net/minecraft/server/1_9_R2/LootEntityProperties	net/minecraft/world/storage/loot/properties/EntityPropertyManager
-net/minecraft/server/1_9_R2/LootEntityProperty	net/minecraft/world/storage/loot/properties/EntityProperty
-net/minecraft/server/1_9_R2/LootEntityProperty$a	net/minecraft/world/storage/loot/properties/EntityProperty$Serializer
-net/minecraft/server/1_9_R2/LootEntityPropertyOnFire	net/minecraft/world/storage/loot/properties/EntityOnFire
-net/minecraft/server/1_9_R2/LootEntityPropertyOnFire$a	net/minecraft/world/storage/loot/properties/EntityOnFire$Serializer
-net/minecraft/server/1_9_R2/CommandSay	net/minecraft/command/server/CommandBroadcast
-net/minecraft/server/1_9_R2/FileIOThread	net/minecraft/world/storage/ThreadedFileIOBase
-net/minecraft/server/1_9_R2/IAsyncChunkSaver	net/minecraft/world/storage/IThreadedFileIO
-net/minecraft/server/1_9_R2/AxisAlignedBB	net/minecraft/util/math/AxisAlignedBB
-net/minecraft/server/1_9_R2/MovingObjectPosition	net/minecraft/util/math/RayTraceResult
-net/minecraft/server/1_9_R2/MovingObjectPosition$EnumMovingObjectType	net/minecraft/util/math/RayTraceResult$Type
-net/minecraft/server/1_9_R2/Vec3D	net/minecraft/util/math/Vec3d
-net/minecraft/server/1_9_R2/ScoreboardObjective	net/minecraft/scoreboard/ScoreObjective
-net/minecraft/server/1_9_R2/ScoreboardTeam	net/minecraft/scoreboard/ScorePlayerTeam
-net/minecraft/server/1_9_R2/ScoreboardScore	net/minecraft/scoreboard/Score
-net/minecraft/server/1_9_R2/ScoreboardScore$1	net/minecraft/scoreboard/Score$1
-net/minecraft/server/1_9_R2/Scoreboard	net/minecraft/scoreboard/Scoreboard
-net/minecraft/server/1_9_R2/PersistentScoreboard	net/minecraft/scoreboard/ScoreboardSaveData
-net/minecraft/server/1_9_R2/ScoreboardTeamBase	net/minecraft/scoreboard/Team
-net/minecraft/server/1_9_R2/ScoreboardTeamBase$EnumTeamPush	net/minecraft/scoreboard/Team$CollisionRule
-net/minecraft/server/1_9_R2/ScoreboardTeamBase$EnumNameTagVisibility	net/minecraft/scoreboard/Team$EnumVisible
-net/minecraft/server/1_9_R2/ScoreboardCriteriaInteger	net/minecraft/scoreboard/ScoreCriteriaColored
-net/minecraft/server/1_9_R2/ScoreboardBaseCriteria	net/minecraft/scoreboard/ScoreCriteria
-net/minecraft/server/1_9_R2/ScoreboardHealthCriteria	net/minecraft/scoreboard/ScoreCriteriaHealth
-net/minecraft/server/1_9_R2/IScoreboardCriteria	net/minecraft/scoreboard/IScoreCriteria
-net/minecraft/server/1_9_R2/IScoreboardCriteria$EnumScoreboardHealthDisplay	net/minecraft/scoreboard/IScoreCriteria$EnumRenderType
-net/minecraft/server/1_9_R2/ScoreboardReadOnlyCriteria	net/minecraft/scoreboard/ScoreCriteriaReadOnly
-net/minecraft/server/1_9_R2/ScoreboardStatisticCriteria	net/minecraft/scoreboard/ScoreCriteriaStat
-net/minecraft/server/1_9_R2/CommandScoreboard	net/minecraft/command/server/CommandScoreboard
-net/minecraft/server/1_9_R2/CommandDispatcher	net/minecraft/command/ServerCommandManager
-net/minecraft/server/1_9_R2/CommandSetBlock	net/minecraft/command/server/CommandSetBlock
-net/minecraft/server/1_9_R2/CommandSetWorldSpawn	net/minecraft/command/server/CommandSetDefaultSpawnpoint
-net/minecraft/server/1_9_R2/CommandIdleTimeout	net/minecraft/command/CommandSetPlayerTimeout
-net/minecraft/server/1_9_R2/CommandSpawnpoint	net/minecraft/command/CommandSetSpawnpoint
-net/minecraft/server/1_9_R2/CommandSeed	net/minecraft/command/CommandShowSeed
-net/minecraft/server/1_9_R2/CommandSpreadPlayers	net/minecraft/command/CommandSpreadPlayers
-net/minecraft/server/1_9_R2/CommandSpreadPlayers$Location2D	net/minecraft/command/CommandSpreadPlayers$Position
-net/minecraft/server/1_9_R2/CommandStats	net/minecraft/command/CommandStats
-net/minecraft/server/1_9_R2/CommandStop	net/minecraft/command/server/CommandStop
-net/minecraft/server/1_9_R2/CommandStopSound	net/minecraft/command/CommandStopSound
-net/minecraft/server/1_9_R2/CommandSummon	net/minecraft/command/server/CommandSummon
-net/minecraft/server/1_9_R2/CommandTp	net/minecraft/command/server/CommandTeleport
-net/minecraft/server/1_9_R2/CommandTellRaw	net/minecraft/command/server/CommandMessageRaw
-net/minecraft/server/1_9_R2/CommandTestForBlock	net/minecraft/command/server/CommandTestForBlock
-net/minecraft/server/1_9_R2/CommandTestFor	net/minecraft/command/server/CommandTestFor
-net/minecraft/server/1_9_R2/CommandTime	net/minecraft/command/CommandTime
-net/minecraft/server/1_9_R2/CommandTitle	net/minecraft/command/CommandTitle
-net/minecraft/server/1_9_R2/CommandToggleDownfall	net/minecraft/command/CommandToggleDownfall
-net/minecraft/server/1_9_R2/CommandTrigger	net/minecraft/command/CommandTrigger
-net/minecraft/server/1_9_R2/CommandWeather	net/minecraft/command/CommandWeather
-net/minecraft/server/1_9_R2/CommandWhitelist	net/minecraft/command/server/CommandWhitelist
-net/minecraft/server/1_9_R2/CommandWorldBorder	net/minecraft/command/CommandWorldBorder
-net/minecraft/server/1_9_R2/CrashReportSystemDetails	net/minecraft/crash/CrashReportCategory
-net/minecraft/server/1_9_R2/CrashReportSystemDetails$1	net/minecraft/crash/CrashReportCategory$1
-net/minecraft/server/1_9_R2/CrashReportSystemDetails$2	net/minecraft/crash/CrashReportCategory$2
-net/minecraft/server/1_9_R2/CrashReportSystemDetails$3	net/minecraft/crash/CrashReportCategory$3
-net/minecraft/server/1_9_R2/CrashReportSystemDetails$6	net/minecraft/crash/CrashReportCategory$6
-net/minecraft/server/1_9_R2/CrashReportSystemDetails$7	net/minecraft/crash/CrashReportCategory$7
-net/minecraft/server/1_9_R2/CrashReportSystemDetails$CrashReportDetail	net/minecraft/crash/CrashReportCategory$Entry
-net/minecraft/server/1_9_R2/CommandException	net/minecraft/command/CommandException
-net/minecraft/server/1_9_R2/ExceptionEntityNotFound	net/minecraft/command/EntityNotFoundException
-net/minecraft/server/1_9_R2/ExceptionInvalidNumber	net/minecraft/command/NumberInvalidException
-net/minecraft/server/1_9_R2/ExceptionInvalidSyntax	net/minecraft/command/SyntaxErrorException
-net/minecraft/server/1_9_R2/ExceptionPlayerNotFound	net/minecraft/command/PlayerNotFoundException
-net/minecraft/server/1_9_R2/ExceptionUnknownCommand	net/minecraft/command/CommandNotFoundException
-net/minecraft/server/1_9_R2/ExceptionUsage	net/minecraft/command/WrongUsageException
-net/minecraft/server/1_9_R2/BlockPosition	net/minecraft/util/math/BlockPos
-net/minecraft/server/1_9_R2/BlockPosition$1	net/minecraft/util/math/BlockPos$1
-net/minecraft/server/1_9_R2/BlockPosition$1$1	net/minecraft/util/math/BlockPos$1$1
-net/minecraft/server/1_9_R2/BlockPosition$2	net/minecraft/util/math/BlockPos$2
-net/minecraft/server/1_9_R2/BlockPosition$2$1	net/minecraft/util/math/BlockPos$2$1
-net/minecraft/server/1_9_R2/BlockPosition$MutableBlockPosition	net/minecraft/util/math/BlockPos$MutableBlockPos
-net/minecraft/server/1_9_R2/BlockPosition$PooledBlockPosition	net/minecraft/util/math/BlockPos$PooledMutableBlockPos
-net/minecraft/server/1_9_R2/ISourceBlock	net/minecraft/dispenser/IBlockSource
-net/minecraft/server/1_9_R2/SourceBlock	net/minecraft/block/BlockSourceImpl
-net/minecraft/server/1_9_R2/IteratorUtils	net/minecraft/util/math/Cartesian
-net/minecraft/server/1_9_R2/IteratorUtils$ArrayToList	net/minecraft/util/math/Cartesian$GetList
-net/minecraft/server/1_9_R2/IteratorUtils$ClassIterable	net/minecraft/util/math/Cartesian$Product
-net/minecraft/server/1_9_R2/IteratorUtils$ClassIterable$ClassIterator	net/minecraft/util/math/Cartesian$Product$ProductIterator
-net/minecraft/server/1_9_R2/DispenseBehaviorItem	net/minecraft/dispenser/BehaviorDefaultDispenseItem
-net/minecraft/server/1_9_R2/RegistryBlocks	net/minecraft/util/registry/RegistryNamespacedDefaultedByKey
-net/minecraft/server/1_9_R2/RegistryDefault	net/minecraft/util/registry/RegistryDefaulted
-net/minecraft/server/1_9_R2/EnumDirection	net/minecraft/util/EnumFacing
-net/minecraft/server/1_9_R2/EnumDirection$EnumAxis	net/minecraft/util/EnumFacing$Axis
-net/minecraft/server/1_9_R2/EnumDirection$EnumAxisDirection	net/minecraft/util/EnumFacing$AxisDirection
-net/minecraft/server/1_9_R2/EnumDirection$EnumDirectionLimit	net/minecraft/util/EnumFacing$Plane
-net/minecraft/server/1_9_R2/IDispenseBehavior	net/minecraft/dispenser/IBehaviorDispenseItem
-net/minecraft/server/1_9_R2/IDispenseBehavior$1	net/minecraft/dispenser/IBehaviorDispenseItem$1
-net/minecraft/server/1_9_R2/Registry	net/minecraft/util/IObjectIntIterable
-net/minecraft/server/1_9_R2/RegistryBlockID	net/minecraft/util/ObjectIntIdentityMap
-net/minecraft/server/1_9_R2/ILocationSource	net/minecraft/dispenser/ILocatableSource
-net/minecraft/server/1_9_R2/ISource	net/minecraft/dispenser/ILocation
-net/minecraft/server/1_9_R2/MapGeneratorUtils	net/minecraft/util/MapPopulator
-net/minecraft/server/1_9_R2/RegistryMaterials	net/minecraft/util/registry/RegistryNamespaced
-net/minecraft/server/1_9_R2/CrashReportCallable	net/minecraft/crash/ICrashReportDetail
-net/minecraft/server/1_9_R2/EnumParticle	net/minecraft/util/EnumParticleTypes
-net/minecraft/server/1_9_R2/IPosition	net/minecraft/dispenser/IPosition
-net/minecraft/server/1_9_R2/Position	net/minecraft/dispenser/PositionImpl
-net/minecraft/server/1_9_R2/IRegistry	net/minecraft/util/registry/IRegistry
-net/minecraft/server/1_9_R2/Vector3f	net/minecraft/util/math/Rotations
-net/minecraft/server/1_9_R2/RegistrySimple	net/minecraft/util/registry/RegistrySimple
-net/minecraft/server/1_9_R2/BaseBlockPosition	net/minecraft/util/math/Vec3i
-net/minecraft/server/1_9_R2/LocaleI18n	net/minecraft/util/text/translation/I18n
-net/minecraft/server/1_9_R2/LocaleLanguage	net/minecraft/util/text/translation/LanguageMap
-net/minecraft/server/1_9_R2/NBTTagByteArray	net/minecraft/nbt/NBTTagByteArray
-net/minecraft/server/1_9_R2/NBTTagByte	net/minecraft/nbt/NBTTagByte
-net/minecraft/server/1_9_R2/NBTTagCompound	net/minecraft/nbt/NBTTagCompound
-net/minecraft/server/1_9_R2/NBTTagCompound$1	net/minecraft/nbt/NBTTagCompound$1
-net/minecraft/server/1_9_R2/NBTTagCompound$2	net/minecraft/nbt/NBTTagCompound$2
-net/minecraft/server/1_9_R2/NBTTagDouble	net/minecraft/nbt/NBTTagDouble
-net/minecraft/server/1_9_R2/NBTTagEnd	net/minecraft/nbt/NBTTagEnd
-net/minecraft/server/1_9_R2/NBTTagFloat	net/minecraft/nbt/NBTTagFloat
-net/minecraft/server/1_9_R2/NBTTagIntArray	net/minecraft/nbt/NBTTagIntArray
-net/minecraft/server/1_9_R2/NBTTagInt	net/minecraft/nbt/NBTTagInt
-net/minecraft/server/1_9_R2/NBTTagList	net/minecraft/nbt/NBTTagList
-net/minecraft/server/1_9_R2/NBTTagLong	net/minecraft/nbt/NBTTagLong
-net/minecraft/server/1_9_R2/NBTReadLimiter	net/minecraft/nbt/NBTSizeTracker
-net/minecraft/server/1_9_R2/NBTReadLimiter$1	net/minecraft/nbt/NBTSizeTracker$1
-net/minecraft/server/1_9_R2/NBTCompressedStreamTools	net/minecraft/nbt/CompressedStreamTools
-net/minecraft/server/1_9_R2/GameProfileSerializer	net/minecraft/nbt/NBTUtil
-net/minecraft/server/1_9_R2/NBTTagShort	net/minecraft/nbt/NBTTagShort
-net/minecraft/server/1_9_R2/NBTTagString	net/minecraft/nbt/NBTTagString
-net/minecraft/server/1_9_R2/NBTBase	net/minecraft/nbt/NBTBase
-net/minecraft/server/1_9_R2/NBTBase$NBTNumber	net/minecraft/nbt/NBTBase$NBTPrimitive
-net/minecraft/server/1_9_R2/MojangsonParseException	net/minecraft/nbt/NBTException
-net/minecraft/server/1_9_R2/MojangsonParser	net/minecraft/nbt/JsonToNBT
-net/minecraft/server/1_9_R2/MojangsonParser$MojangsonTypeParser	net/minecraft/nbt/JsonToNBT$Any
-net/minecraft/server/1_9_R2/MojangsonParser$MojangsonCompoundParser	net/minecraft/nbt/JsonToNBT$Compound
-net/minecraft/server/1_9_R2/MojangsonParser$MojangsonListParser	net/minecraft/nbt/JsonToNBT$List
-net/minecraft/server/1_9_R2/MojangsonParser$MojangsonPrimitiveParser	net/minecraft/nbt/JsonToNBT$Primitive
-net/minecraft/server/1_9_R2/PacketEncryptionHandler	net/minecraft/network/NettyEncryptionTranslator
-net/minecraft/server/1_9_R2/PacketDecrypter	net/minecraft/network/NettyEncryptingDecoder
-net/minecraft/server/1_9_R2/PacketEncrypter	net/minecraft/network/NettyEncryptingEncoder
-net/minecraft/server/1_9_R2/PacketDecompressor	net/minecraft/network/NettyCompressionDecoder
-net/minecraft/server/1_9_R2/PacketCompressor	net/minecraft/network/NettyCompressionEncoder
-net/minecraft/server/1_9_R2/NetworkManager	net/minecraft/network/NetworkManager
-net/minecraft/server/1_9_R2/NetworkManager$1	net/minecraft/network/NetworkManager$1
-net/minecraft/server/1_9_R2/NetworkManager$2	net/minecraft/network/NetworkManager$2
-net/minecraft/server/1_9_R2/NetworkManager$3	net/minecraft/network/NetworkManager$3
-net/minecraft/server/1_9_R2/NetworkManager$4	net/minecraft/network/NetworkManager$4
-net/minecraft/server/1_9_R2/NetworkManager$QueuedPacket	net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener
-net/minecraft/server/1_9_R2/EnumProtocol	net/minecraft/network/EnumConnectionState
-net/minecraft/server/1_9_R2/EnumProtocol$1	net/minecraft/network/EnumConnectionState$1
-net/minecraft/server/1_9_R2/EnumProtocol$2	net/minecraft/network/EnumConnectionState$2
-net/minecraft/server/1_9_R2/EnumProtocol$3	net/minecraft/network/EnumConnectionState$3
-net/minecraft/server/1_9_R2/EnumProtocol$4	net/minecraft/network/EnumConnectionState$4
-net/minecraft/server/1_9_R2/PacketDataSerializer	net/minecraft/network/PacketBuffer
-net/minecraft/server/1_9_R2/PacketDecoder	net/minecraft/network/NettyPacketDecoder
-net/minecraft/server/1_9_R2/PacketEncoder	net/minecraft/network/NettyPacketEncoder
-net/minecraft/server/1_9_R2/PacketListener	net/minecraft/network/INetHandler
-net/minecraft/server/1_9_R2/PacketSplitter	net/minecraft/network/NettyVarint21FrameDecoder
-net/minecraft/server/1_9_R2/PacketPrepender	net/minecraft/network/NettyVarint21FrameEncoder
-net/minecraft/server/1_9_R2/ChatBaseComponent	net/minecraft/util/text/TextComponentBase
-net/minecraft/server/1_9_R2/ChatBaseComponent$1	net/minecraft/util/text/TextComponentBase$1
-net/minecraft/server/1_9_R2/ChatBaseComponent$2	net/minecraft/util/text/TextComponentBase$2
-net/minecraft/server/1_9_R2/ChatClickable	net/minecraft/util/text/event/ClickEvent
-net/minecraft/server/1_9_R2/ChatClickable$EnumClickAction	net/minecraft/util/text/event/ClickEvent$Action
-net/minecraft/server/1_9_R2/IChatBaseComponent	net/minecraft/util/text/ITextComponent
-net/minecraft/server/1_9_R2/IChatBaseComponent$ChatSerializer	net/minecraft/util/text/ITextComponent$Serializer
-net/minecraft/server/1_9_R2/ChatComponentUtils	net/minecraft/util/text/TextComponentUtils
-net/minecraft/server/1_9_R2/ChatHoverable	net/minecraft/util/text/event/HoverEvent
-net/minecraft/server/1_9_R2/ChatHoverable$EnumHoverAction	net/minecraft/util/text/event/HoverEvent$Action
-net/minecraft/server/1_9_R2/ChatComponentScore	net/minecraft/util/text/TextComponentScore
-net/minecraft/server/1_9_R2/ReportedException	net/minecraft/util/ReportedException
-net/minecraft/server/1_9_R2/ChatComponentSelector	net/minecraft/util/text/TextComponentSelector
-net/minecraft/server/1_9_R2/ChatModifier	net/minecraft/util/text/Style
-net/minecraft/server/1_9_R2/ChatModifier$1	net/minecraft/util/text/Style$1
-net/minecraft/server/1_9_R2/ChatModifier$ChatModifierSerializer	net/minecraft/util/text/Style$Serializer
-net/minecraft/server/1_9_R2/ChatComponentText	net/minecraft/util/text/TextComponentString
-net/minecraft/server/1_9_R2/ChatMessage	net/minecraft/util/text/TextComponentTranslation
-net/minecraft/server/1_9_R2/ChatMessageException	net/minecraft/util/text/TextComponentTranslationFormatException
-net/minecraft/server/1_9_R2/Packet	net/minecraft/network/Packet
-net/minecraft/server/1_9_R2/EnumProtocolDirection	net/minecraft/network/EnumPacketDirection
-net/minecraft/server/1_9_R2/PlayerConnectionUtils	net/minecraft/network/PacketThreadUtil
-net/minecraft/server/1_9_R2/PlayerConnectionUtils$1	net/minecraft/network/PacketThreadUtil$1
-net/minecraft/server/1_9_R2/PacketListenerPlayOut	net/minecraft/network/play/INetHandlerPlayClient
-net/minecraft/server/1_9_R2/PacketPlayOutSpawnEntity	net/minecraft/network/play/server/SPacketSpawnObject
-net/minecraft/server/1_9_R2/PacketPlayOutSpawnEntityExperienceOrb	net/minecraft/network/play/server/SPacketSpawnExperienceOrb
-net/minecraft/server/1_9_R2/PacketPlayOutSpawnEntityWeather	net/minecraft/network/play/server/SPacketSpawnGlobalEntity
-net/minecraft/server/1_9_R2/PacketPlayOutSpawnEntityLiving	net/minecraft/network/play/server/SPacketSpawnMob
-net/minecraft/server/1_9_R2/PacketPlayOutSpawnEntityPainting	net/minecraft/network/play/server/SPacketSpawnPainting
-net/minecraft/server/1_9_R2/PacketPlayOutNamedEntitySpawn	net/minecraft/network/play/server/SPacketSpawnPlayer
-net/minecraft/server/1_9_R2/PacketPlayOutAnimation	net/minecraft/network/play/server/SPacketAnimation
-net/minecraft/server/1_9_R2/PacketPlayOutStatistic	net/minecraft/network/play/server/SPacketStatistics
-net/minecraft/server/1_9_R2/PacketPlayOutBlockBreakAnimation	net/minecraft/network/play/server/SPacketBlockBreakAnim
-net/minecraft/server/1_9_R2/PacketPlayOutTileEntityData	net/minecraft/network/play/server/SPacketUpdateTileEntity
-net/minecraft/server/1_9_R2/PacketPlayOutBlockAction	net/minecraft/network/play/server/SPacketBlockAction
-net/minecraft/server/1_9_R2/PacketPlayOutBlockChange	net/minecraft/network/play/server/SPacketBlockChange
-net/minecraft/server/1_9_R2/PacketPlayOutBoss	net/minecraft/network/play/server/SPacketUpdateBossInfo
-net/minecraft/server/1_9_R2/PacketPlayOutBoss$Action	net/minecraft/network/play/server/SPacketUpdateBossInfo$Operation
-net/minecraft/server/1_9_R2/PacketPlayOutServerDifficulty	net/minecraft/network/play/server/SPacketServerDifficulty
-net/minecraft/server/1_9_R2/PacketPlayOutTabComplete	net/minecraft/network/play/server/SPacketTabComplete
-net/minecraft/server/1_9_R2/SharedConstants	net/minecraft/util/ChatAllowedCharacters
-net/minecraft/server/1_9_R2/PacketPlayOutChat	net/minecraft/network/play/server/SPacketChat
-net/minecraft/server/1_9_R2/PacketPlayOutMultiBlockChange	net/minecraft/network/play/server/SPacketMultiBlockChange
-net/minecraft/server/1_9_R2/PacketPlayOutMultiBlockChange$MultiBlockChangeInfo	net/minecraft/network/play/server/SPacketMultiBlockChange$BlockUpdateData
-net/minecraft/server/1_9_R2/PacketPlayOutTransaction	net/minecraft/network/play/server/SPacketConfirmTransaction
-net/minecraft/server/1_9_R2/PacketPlayOutCloseWindow	net/minecraft/network/play/server/SPacketCloseWindow
-net/minecraft/server/1_9_R2/PacketPlayOutOpenWindow	net/minecraft/network/play/server/SPacketOpenWindow
-net/minecraft/server/1_9_R2/PacketPlayOutWindowItems	net/minecraft/network/play/server/SPacketWindowItems
-net/minecraft/server/1_9_R2/PacketPlayOutWindowData	net/minecraft/network/play/server/SPacketWindowProperty
-net/minecraft/server/1_9_R2/PacketPlayOutSetSlot	net/minecraft/network/play/server/SPacketSetSlot
-net/minecraft/server/1_9_R2/PacketPlayOutSetCooldown	net/minecraft/network/play/server/SPacketCooldown
-net/minecraft/server/1_9_R2/PacketPlayOutCustomPayload	net/minecraft/network/play/server/SPacketCustomPayload
-net/minecraft/server/1_9_R2/PacketPlayOutCustomSoundEffect	net/minecraft/network/play/server/SPacketCustomSound
-net/minecraft/server/1_9_R2/PacketPlayOutKickDisconnect	net/minecraft/network/play/server/SPacketDisconnect
-net/minecraft/server/1_9_R2/PacketPlayOutEntityStatus	net/minecraft/network/play/server/SPacketEntityStatus
-net/minecraft/server/1_9_R2/PacketPlayOutExplosion	net/minecraft/network/play/server/SPacketExplosion
-net/minecraft/server/1_9_R2/PacketPlayOutUnloadChunk	net/minecraft/network/play/server/SPacketUnloadChunk
-net/minecraft/server/1_9_R2/PacketPlayOutGameStateChange	net/minecraft/network/play/server/SPacketChangeGameState
-net/minecraft/server/1_9_R2/PacketPlayOutKeepAlive	net/minecraft/network/play/server/SPacketKeepAlive
-net/minecraft/server/1_9_R2/PacketPlayOutMapChunk	net/minecraft/network/play/server/SPacketChunkData
-net/minecraft/server/1_9_R2/PacketPlayOutWorldEvent	net/minecraft/network/play/server/SPacketEffect
-net/minecraft/server/1_9_R2/PacketPlayOutWorldParticles	net/minecraft/network/play/server/SPacketParticles
-net/minecraft/server/1_9_R2/PacketPlayOutLogin	net/minecraft/network/play/server/SPacketJoinGame
-net/minecraft/server/1_9_R2/PacketPlayOutMap	net/minecraft/network/play/server/SPacketMaps
-net/minecraft/server/1_9_R2/PacketPlayOutEntity	net/minecraft/network/play/server/SPacketEntity
-net/minecraft/server/1_9_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMove	net/minecraft/network/play/server/SPacketEntity$S15PacketEntityRelMove
-net/minecraft/server/1_9_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMoveLook	net/minecraft/network/play/server/SPacketEntity$S17PacketEntityLookMove
-net/minecraft/server/1_9_R2/PacketPlayOutEntity$PacketPlayOutEntityLook	net/minecraft/network/play/server/SPacketEntity$S16PacketEntityLook
-net/minecraft/server/1_9_R2/PacketPlayOutVehicleMove	net/minecraft/network/play/server/SPacketMoveVehicle
-net/minecraft/server/1_9_R2/PacketPlayOutOpenSignEditor	net/minecraft/network/play/server/SPacketSignEditorOpen
-net/minecraft/server/1_9_R2/PacketPlayOutAbilities	net/minecraft/network/play/server/SPacketPlayerAbilities
-net/minecraft/server/1_9_R2/SystemUtils	net/minecraft/util/Util
-net/minecraft/server/1_9_R2/PacketPlayOutCombatEvent	net/minecraft/network/play/server/SPacketCombatEvent
-net/minecraft/server/1_9_R2/PacketPlayOutCombatEvent$EnumCombatEventType	net/minecraft/network/play/server/SPacketCombatEvent$Event
-net/minecraft/server/1_9_R2/PacketPlayOutPlayerInfo	net/minecraft/network/play/server/SPacketPlayerListItem
-net/minecraft/server/1_9_R2/PacketPlayOutPlayerInfo$EnumPlayerInfoAction	net/minecraft/network/play/server/SPacketPlayerListItem$Action
-net/minecraft/server/1_9_R2/PacketPlayOutPlayerInfo$PlayerInfoData	net/minecraft/network/play/server/SPacketPlayerListItem$AddPlayerData
-net/minecraft/server/1_9_R2/PacketPlayOutPosition	net/minecraft/network/play/server/SPacketPlayerPosLook
-net/minecraft/server/1_9_R2/PacketPlayOutPosition$EnumPlayerTeleportFlags	net/minecraft/network/play/server/SPacketPlayerPosLook$EnumFlags
-net/minecraft/server/1_9_R2/PacketPlayOutBed	net/minecraft/network/play/server/SPacketUseBed
-net/minecraft/server/1_9_R2/PacketPlayOutEntityDestroy	net/minecraft/network/play/server/SPacketDestroyEntities
-net/minecraft/server/1_9_R2/PacketPlayOutRemoveEntityEffect	net/minecraft/network/play/server/SPacketRemoveEntityEffect
-net/minecraft/server/1_9_R2/PacketPlayOutResourcePackSend	net/minecraft/network/play/server/SPacketResourcePackSend
-net/minecraft/server/1_9_R2/PacketPlayOutRespawn	net/minecraft/network/play/server/SPacketRespawn
-net/minecraft/server/1_9_R2/PacketPlayOutEntityHeadRotation	net/minecraft/network/play/server/SPacketEntityHeadLook
-net/minecraft/server/1_9_R2/PacketPlayOutWorldBorder	net/minecraft/network/play/server/SPacketWorldBorder
-net/minecraft/server/1_9_R2/PacketPlayOutWorldBorder$EnumWorldBorderAction	net/minecraft/network/play/server/SPacketWorldBorder$Action
-net/minecraft/server/1_9_R2/PacketPlayOutCamera	net/minecraft/network/play/server/SPacketCamera
-net/minecraft/server/1_9_R2/PacketPlayOutHeldItemSlot	net/minecraft/network/play/server/SPacketHeldItemChange
-net/minecraft/server/1_9_R2/PacketPlayOutScoreboardDisplayObjective	net/minecraft/network/play/server/SPacketDisplayObjective
-net/minecraft/server/1_9_R2/PacketPlayOutEntityMetadata	net/minecraft/network/play/server/SPacketEntityMetadata
-net/minecraft/server/1_9_R2/PacketPlayOutAttachEntity	net/minecraft/network/play/server/SPacketEntityAttach
-net/minecraft/server/1_9_R2/PacketPlayOutEntityVelocity	net/minecraft/network/play/server/SPacketEntityVelocity
-net/minecraft/server/1_9_R2/PacketPlayOutEntityEquipment	net/minecraft/network/play/server/SPacketEntityEquipment
-net/minecraft/server/1_9_R2/PacketPlayOutExperience	net/minecraft/network/play/server/SPacketSetExperience
-net/minecraft/server/1_9_R2/PacketPlayOutUpdateHealth	net/minecraft/network/play/server/SPacketUpdateHealth
-net/minecraft/server/1_9_R2/PacketPlayOutScoreboardObjective	net/minecraft/network/play/server/SPacketScoreboardObjective
-net/minecraft/server/1_9_R2/PacketPlayOutMount	net/minecraft/network/play/server/SPacketSetPassengers
-net/minecraft/server/1_9_R2/PacketPlayOutScoreboardTeam	net/minecraft/network/play/server/SPacketTeams
-net/minecraft/server/1_9_R2/PacketPlayOutScoreboardScore	net/minecraft/network/play/server/SPacketUpdateScore
-net/minecraft/server/1_9_R2/PacketPlayOutScoreboardScore$EnumScoreboardAction	net/minecraft/network/play/server/SPacketUpdateScore$Action
-net/minecraft/server/1_9_R2/PacketPlayOutSpawnPosition	net/minecraft/network/play/server/SPacketSpawnPosition
-net/minecraft/server/1_9_R2/PacketPlayOutUpdateTime	net/minecraft/network/play/server/SPacketTimeUpdate
-net/minecraft/server/1_9_R2/PacketPlayOutTitle	net/minecraft/network/play/server/SPacketTitle
-net/minecraft/server/1_9_R2/PacketPlayOutTitle$EnumTitleAction	net/minecraft/network/play/server/SPacketTitle$Type
-net/minecraft/server/1_9_R2/ICommandDispatcher	net/minecraft/command/ICommandListener
-net/minecraft/server/1_9_R2/PacketPlayOutNamedSoundEffect	net/minecraft/network/play/server/SPacketSoundEffect
-net/minecraft/server/1_9_R2/PacketPlayOutPlayerListHeaderFooter	net/minecraft/network/play/server/SPacketPlayerListHeaderFooter
-net/minecraft/server/1_9_R2/PacketPlayOutCollect	net/minecraft/network/play/server/SPacketCollectItem
-net/minecraft/server/1_9_R2/PacketPlayOutEntityTeleport	net/minecraft/network/play/server/SPacketEntityTeleport
-net/minecraft/server/1_9_R2/PacketPlayOutUpdateAttributes	net/minecraft/network/play/server/SPacketEntityProperties
-net/minecraft/server/1_9_R2/PacketPlayOutUpdateAttributes$AttributeSnapshot	net/minecraft/network/play/server/SPacketEntityProperties$Snapshot
-net/minecraft/server/1_9_R2/PacketPlayOutEntityEffect	net/minecraft/network/play/server/SPacketEntityEffect
-net/minecraft/server/1_9_R2/PacketListenerPlayIn	net/minecraft/network/play/INetHandlerPlayServer
-net/minecraft/server/1_9_R2/PacketPlayInTeleportAccept	net/minecraft/network/play/client/CPacketConfirmTeleport
-net/minecraft/server/1_9_R2/PacketPlayInTabComplete	net/minecraft/network/play/client/CPacketTabComplete
-net/minecraft/server/1_9_R2/PacketPlayInChat	net/minecraft/network/play/client/CPacketChatMessage
-net/minecraft/server/1_9_R2/PacketPlayInClientCommand	net/minecraft/network/play/client/CPacketClientStatus
-net/minecraft/server/1_9_R2/PacketPlayInClientCommand$EnumClientCommand	net/minecraft/network/play/client/CPacketClientStatus$State
-net/minecraft/server/1_9_R2/PacketPlayInSettings	net/minecraft/network/play/client/CPacketClientSettings
-net/minecraft/server/1_9_R2/PacketPlayInTransaction	net/minecraft/network/play/client/CPacketConfirmTransaction
-net/minecraft/server/1_9_R2/PacketPlayInEnchantItem	net/minecraft/network/play/client/CPacketEnchantItem
-net/minecraft/server/1_9_R2/PacketPlayInWindowClick	net/minecraft/network/play/client/CPacketClickWindow
-net/minecraft/server/1_9_R2/PacketPlayInCloseWindow	net/minecraft/network/play/client/CPacketCloseWindow
-net/minecraft/server/1_9_R2/PacketPlayInCustomPayload	net/minecraft/network/play/client/CPacketCustomPayload
-net/minecraft/server/1_9_R2/PacketPlayInUseEntity	net/minecraft/network/play/client/CPacketUseEntity
-net/minecraft/server/1_9_R2/PacketPlayInUseEntity$EnumEntityUseAction	net/minecraft/network/play/client/CPacketUseEntity$Action
-net/minecraft/server/1_9_R2/PacketPlayInKeepAlive	net/minecraft/network/play/client/CPacketKeepAlive
-net/minecraft/server/1_9_R2/PacketPlayInFlying	net/minecraft/network/play/client/CPacketPlayer
-net/minecraft/server/1_9_R2/PacketPlayInFlying$PacketPlayInPosition	net/minecraft/network/play/client/CPacketPlayer$Position
-net/minecraft/server/1_9_R2/PacketPlayInFlying$PacketPlayInPositionLook	net/minecraft/network/play/client/CPacketPlayer$PositionRotation
-net/minecraft/server/1_9_R2/PacketPlayInFlying$PacketPlayInLook	net/minecraft/network/play/client/CPacketPlayer$Rotation
-net/minecraft/server/1_9_R2/PacketPlayInVehicleMove	net/minecraft/network/play/client/CPacketVehicleMove
-net/minecraft/server/1_9_R2/PacketPlayInBoatMove	net/minecraft/network/play/client/CPacketSteerBoat
-net/minecraft/server/1_9_R2/PacketPlayInAbilities	net/minecraft/network/play/client/CPacketPlayerAbilities
-net/minecraft/server/1_9_R2/PacketPlayInBlockDig	net/minecraft/network/play/client/CPacketPlayerDigging
-net/minecraft/server/1_9_R2/PacketPlayInBlockDig$EnumPlayerDigType	net/minecraft/network/play/client/CPacketPlayerDigging$Action
-net/minecraft/server/1_9_R2/PacketPlayInEntityAction	net/minecraft/network/play/client/CPacketEntityAction
-net/minecraft/server/1_9_R2/PacketPlayInEntityAction$EnumPlayerAction	net/minecraft/network/play/client/CPacketEntityAction$Action
-net/minecraft/server/1_9_R2/CommandAbstract	net/minecraft/command/CommandBase
-net/minecraft/server/1_9_R2/CommandAbstract$CommandNumber	net/minecraft/command/CommandBase$CoordinateArg
-net/minecraft/server/1_9_R2/PacketPlayInSteerVehicle	net/minecraft/network/play/client/CPacketInput
-net/minecraft/server/1_9_R2/PacketPlayInResourcePackStatus	net/minecraft/network/play/client/CPacketResourcePackStatus
-net/minecraft/server/1_9_R2/PacketPlayInResourcePackStatus$EnumResourcePackStatus	net/minecraft/network/play/client/CPacketResourcePackStatus$Action
-net/minecraft/server/1_9_R2/PacketPlayInHeldItemSlot	net/minecraft/network/play/client/CPacketHeldItemChange
-net/minecraft/server/1_9_R2/PacketPlayInSetCreativeSlot	net/minecraft/network/play/client/CPacketCreativeInventoryAction
-net/minecraft/server/1_9_R2/PacketPlayInUpdateSign	net/minecraft/network/play/client/CPacketUpdateSign
-net/minecraft/server/1_9_R2/PacketPlayInArmAnimation	net/minecraft/network/play/client/CPacketAnimation
-net/minecraft/server/1_9_R2/PacketPlayInSpectate	net/minecraft/network/play/client/CPacketSpectate
-net/minecraft/server/1_9_R2/PacketPlayInUseItem	net/minecraft/network/play/client/CPacketPlayerTryUseItemOnBlock
-net/minecraft/server/1_9_R2/PacketPlayInBlockPlace	net/minecraft/network/play/client/CPacketPlayerTryUseItem
-net/minecraft/server/1_9_R2/PacketHandshakingInSetProtocol	net/minecraft/network/handshake/client/C00Handshake
-net/minecraft/server/1_9_R2/PacketHandshakingInListener	net/minecraft/network/handshake/INetHandlerHandshakeServer
-net/minecraft/server/1_9_R2/PacketLoginOutListener	net/minecraft/network/login/INetHandlerLoginClient
-net/minecraft/server/1_9_R2/PacketLoginOutSuccess	net/minecraft/network/login/server/SPacketLoginSuccess
-net/minecraft/server/1_9_R2/PacketLoginOutEncryptionBegin	net/minecraft/network/login/server/SPacketEncryptionRequest
-net/minecraft/server/1_9_R2/PacketLoginOutSetCompression	net/minecraft/network/login/server/SPacketEnableCompression
-net/minecraft/server/1_9_R2/PacketLoginOutDisconnect	net/minecraft/network/login/server/SPacketDisconnect
-net/minecraft/server/1_9_R2/PacketLoginInListener	net/minecraft/network/login/INetHandlerLoginServer
-net/minecraft/server/1_9_R2/PacketLoginInStart	net/minecraft/network/login/client/CPacketLoginStart
-net/minecraft/server/1_9_R2/PacketLoginInEncryptionBegin	net/minecraft/network/login/client/CPacketEncryptionResponse
-net/minecraft/server/1_9_R2/PacketStatusOutListener	net/minecraft/network/status/INetHandlerStatusClient
-net/minecraft/server/1_9_R2/PacketStatusOutPong	net/minecraft/network/status/server/SPacketPong
-net/minecraft/server/1_9_R2/PacketStatusOutServerInfo	net/minecraft/network/status/server/SPacketServerInfo
-net/minecraft/server/1_9_R2/CommandHandler	net/minecraft/command/CommandHandler
-net/minecraft/server/1_9_R2/ServerPing	net/minecraft/network/ServerStatusResponse
-net/minecraft/server/1_9_R2/ServerPing$ServerPingPlayerSample	net/minecraft/network/ServerStatusResponse$Players
-net/minecraft/server/1_9_R2/ServerPing$ServerPingPlayerSample$Serializer	net/minecraft/network/ServerStatusResponse$Players$Serializer
-net/minecraft/server/1_9_R2/ServerPing$Serializer	net/minecraft/network/ServerStatusResponse$Serializer
-net/minecraft/server/1_9_R2/ServerPing$ServerData	net/minecraft/network/ServerStatusResponse$Version
-net/minecraft/server/1_9_R2/ServerPing$ServerData$Serializer	net/minecraft/network/ServerStatusResponse$Version$Serializer
-net/minecraft/server/1_9_R2/PacketStatusInListener	net/minecraft/network/status/INetHandlerStatusServer
-net/minecraft/server/1_9_R2/PacketStatusInPing	net/minecraft/network/status/client/CPacketPing
-net/minecraft/server/1_9_R2/PacketStatusInStart	net/minecraft/network/status/client/CPacketServerQuery
-net/minecraft/server/1_9_R2/DataWatcherObject	net/minecraft/network/datasync/DataParameter
-net/minecraft/server/1_9_R2/DataWatcherSerializer	net/minecraft/network/datasync/DataSerializer
-net/minecraft/server/1_9_R2/DataWatcherRegistry	net/minecraft/network/datasync/DataSerializers
-net/minecraft/server/1_9_R2/DataWatcherRegistry$1	net/minecraft/network/datasync/DataSerializers$1
-net/minecraft/server/1_9_R2/DataWatcherRegistry$10	net/minecraft/network/datasync/DataSerializers$6
-net/minecraft/server/1_9_R2/DataWatcherRegistry$11	net/minecraft/network/datasync/DataSerializers$7
-net/minecraft/server/1_9_R2/DataWatcherRegistry$12	net/minecraft/network/datasync/DataSerializers$8
-net/minecraft/server/1_9_R2/DataWatcherRegistry$13	net/minecraft/network/datasync/DataSerializers$9
-net/minecraft/server/1_9_R2/DataWatcherRegistry$2	net/minecraft/network/datasync/DataSerializers$10
-net/minecraft/server/1_9_R2/DataWatcherRegistry$3	net/minecraft/network/datasync/DataSerializers$11
-net/minecraft/server/1_9_R2/DataWatcherRegistry$4	net/minecraft/network/datasync/DataSerializers$12
-net/minecraft/server/1_9_R2/DataWatcherRegistry$5	net/minecraft/network/datasync/DataSerializers$13
-net/minecraft/server/1_9_R2/DataWatcherRegistry$6	net/minecraft/network/datasync/DataSerializers$2
-net/minecraft/server/1_9_R2/DataWatcherRegistry$7	net/minecraft/network/datasync/DataSerializers$3
-net/minecraft/server/1_9_R2/DataWatcherRegistry$8	net/minecraft/network/datasync/DataSerializers$4
-net/minecraft/server/1_9_R2/DataWatcherRegistry$9	net/minecraft/network/datasync/DataSerializers$5
-net/minecraft/server/1_9_R2/DataWatcher	net/minecraft/network/datasync/EntityDataManager
-net/minecraft/server/1_9_R2/DataWatcher$Item	net/minecraft/network/datasync/EntityDataManager$DataEntry
-net/minecraft/server/1_9_R2/MinecraftKey	net/minecraft/util/ResourceLocation
-net/minecraft/server/1_9_R2/DispenseBehaviorProjectile	net/minecraft/dispenser/BehaviorProjectileDispense
-net/minecraft/server/1_9_R2/DispenserRegistry	net/minecraft/init/Bootstrap
-net/minecraft/server/1_9_R2/DispenserRegistry$1	net/minecraft/init/Bootstrap$1
-net/minecraft/server/1_9_R2/DispenserRegistry$10	net/minecraft/init/Bootstrap$18
-net/minecraft/server/1_9_R2/DispenserRegistry$11	net/minecraft/init/Bootstrap$2
-net/minecraft/server/1_9_R2/DispenserRegistry$12	net/minecraft/init/Bootstrap$3
-net/minecraft/server/1_9_R2/DispenserRegistry$13	net/minecraft/init/Bootstrap$4
-net/minecraft/server/1_9_R2/DispenserRegistry$14	net/minecraft/init/Bootstrap$5
-net/minecraft/server/1_9_R2/DispenserRegistry$15	net/minecraft/init/Bootstrap$6
-net/minecraft/server/1_9_R2/DispenserRegistry$16	net/minecraft/init/Bootstrap$7
-net/minecraft/server/1_9_R2/DispenserRegistry$16$1	net/minecraft/init/Bootstrap$7$1
-net/minecraft/server/1_9_R2/DispenserRegistry$17	net/minecraft/init/Bootstrap$8
-net/minecraft/server/1_9_R2/DispenserRegistry$17$1	net/minecraft/init/Bootstrap$8$1
-net/minecraft/server/1_9_R2/DispenserRegistry$18	net/minecraft/init/Bootstrap$9
-net/minecraft/server/1_9_R2/DispenserRegistry$2	net/minecraft/init/Bootstrap$10
-net/minecraft/server/1_9_R2/DispenserRegistry$3	net/minecraft/init/Bootstrap$11
-net/minecraft/server/1_9_R2/DispenserRegistry$4	net/minecraft/init/Bootstrap$12
-net/minecraft/server/1_9_R2/DispenserRegistry$5	net/minecraft/init/Bootstrap$13
-net/minecraft/server/1_9_R2/DispenserRegistry$6	net/minecraft/init/Bootstrap$14
-net/minecraft/server/1_9_R2/DispenserRegistry$7	net/minecraft/init/Bootstrap$15
-net/minecraft/server/1_9_R2/DispenserRegistry$8	net/minecraft/init/Bootstrap$16
-net/minecraft/server/1_9_R2/DispenserRegistry$9	net/minecraft/init/Bootstrap$17
-net/minecraft/server/1_9_R2/DispenserRegistry$a	net/minecraft/init/Bootstrap$BehaviorDispenseBoat
-net/minecraft/server/1_9_R2/ServerCommand	net/minecraft/server/dedicated/PendingCommand
-net/minecraft/server/1_9_R2/EULA	net/minecraft/server/ServerEula
-net/minecraft/server/1_9_R2/RedirectStream	net/minecraft/util/LoggingPrintStream
-net/minecraft/server/1_9_R2/CancelledPacketHandleException	net/minecraft/network/ThreadQuickExitException
-net/minecraft/server/1_9_R2/IMinecraftServer	net/minecraft/network/rcon/IServer
-net/minecraft/server/1_9_R2/ScoreboardServer	net/minecraft/scoreboard/ServerScoreboard
-net/minecraft/server/1_9_R2/PropertyManager	net/minecraft/server/dedicated/PropertyManager
-net/minecraft/server/1_9_R2/ITickable	net/minecraft/util/ITickable
-net/minecraft/server/1_9_R2/ICommand	net/minecraft/command/ICommand
-net/minecraft/server/1_9_R2/DedicatedPlayerList	net/minecraft/server/dedicated/DedicatedPlayerList
-net/minecraft/server/1_9_R2/DedicatedServer	net/minecraft/server/dedicated/DedicatedServer
-net/minecraft/server/1_9_R2/DedicatedServer$1	net/minecraft/server/dedicated/DedicatedServer$1
-net/minecraft/server/1_9_R2/DedicatedServer$2	net/minecraft/server/dedicated/DedicatedServer$2
-net/minecraft/server/1_9_R2/DedicatedServer$3	net/minecraft/server/dedicated/DedicatedServer$3
-net/minecraft/server/1_9_R2/DedicatedServer$4	net/minecraft/server/dedicated/DedicatedServer$4
-net/minecraft/server/1_9_R2/ThreadWatchdog	net/minecraft/server/dedicated/ServerHangWatchdog
-net/minecraft/server/1_9_R2/ThreadWatchdog$1	net/minecraft/server/dedicated/ServerHangWatchdog$1
-net/minecraft/server/1_9_R2/ServerGUI	net/minecraft/server/gui/MinecraftServerGui
-net/minecraft/server/1_9_R2/ServerGUI$1	net/minecraft/server/gui/MinecraftServerGui$1
-net/minecraft/server/1_9_R2/ServerGUI$2	net/minecraft/server/gui/MinecraftServerGui$2
-net/minecraft/server/1_9_R2/ServerGUI$3	net/minecraft/server/gui/MinecraftServerGui$3
-net/minecraft/server/1_9_R2/ServerGUI$4	net/minecraft/server/gui/MinecraftServerGui$4
-net/minecraft/server/1_9_R2/ServerGUI$5	net/minecraft/server/gui/MinecraftServerGui$5
-net/minecraft/server/1_9_R2/PlayerListBox	net/minecraft/server/gui/PlayerListComponent
-net/minecraft/server/1_9_R2/GuiStatsComponent	net/minecraft/server/gui/StatsComponent
-net/minecraft/server/1_9_R2/GuiStatsComponent$1	net/minecraft/server/gui/StatsComponent$1
-net/minecraft/server/1_9_R2/DemoWorldServer	net/minecraft/world/demo/DemoWorldServer
-net/minecraft/server/1_9_R2/DemoPlayerInteractManager	net/minecraft/world/demo/DemoWorldManager
-net/minecraft/server/1_9_R2/SecondaryWorldServer	net/minecraft/world/WorldServerMulti
-net/minecraft/server/1_9_R2/SecondaryWorldServer$1	net/minecraft/world/WorldServerMulti$1
-net/minecraft/server/1_9_R2/EntityTracker	net/minecraft/entity/EntityTracker
-net/minecraft/server/1_9_R2/EntityTracker$1	net/minecraft/entity/EntityTracker$1
-net/minecraft/server/1_9_R2/BossBattleServer	net/minecraft/world/BossInfoServer
-net/minecraft/server/1_9_R2/ChunkProviderServer	net/minecraft/world/gen/ChunkProviderServer
-net/minecraft/server/1_9_R2/WorldServer	net/minecraft/world/WorldServer
-net/minecraft/server/1_9_R2/WorldServer$1	net/minecraft/world/WorldServer$1
-net/minecraft/server/1_9_R2/WorldServer$BlockActionDataList	net/minecraft/world/WorldServer$ServerBlockEventList
-net/minecraft/server/1_9_R2/WorldManager	net/minecraft/world/ServerWorldEventHandler
-net/minecraft/server/1_9_R2/EntityPlayer	net/minecraft/entity/player/EntityPlayerMP
-net/minecraft/server/1_9_R2/PlayerInteractManager	net/minecraft/server/management/PlayerInteractionManager
-net/minecraft/server/1_9_R2/EntityTrackerEntry	net/minecraft/entity/EntityTrackerEntry
-net/minecraft/server/1_9_R2/PlayerChunk	net/minecraft/server/management/PlayerChunkMapEntry
-net/minecraft/server/1_9_R2/PlayerChunkMap	net/minecraft/server/management/PlayerChunkMap
-net/minecraft/server/1_9_R2/PlayerChunkMap$1	net/minecraft/server/management/PlayerChunkMap$1
-net/minecraft/server/1_9_R2/PlayerChunkMap$2	net/minecraft/server/management/PlayerChunkMap$2
-net/minecraft/server/1_9_R2/PlayerChunkMap$3	net/minecraft/server/management/PlayerChunkMap$3
-net/minecraft/server/1_9_R2/PlayerChunkMap$4	net/minecraft/server/management/PlayerChunkMap$4
-net/minecraft/server/1_9_R2/PlayerChunkMap$5	net/minecraft/server/management/PlayerChunkMap$5
-net/minecraft/server/1_9_R2/LegacyPingHandler	net/minecraft/network/LegacyPingHandler
-net/minecraft/server/1_9_R2/ICommandHandler	net/minecraft/command/ICommandManager
-net/minecraft/server/1_9_R2/ServerConnection	net/minecraft/network/NetworkSystem
-net/minecraft/server/1_9_R2/ServerConnection$1	net/minecraft/network/NetworkSystem$1
-net/minecraft/server/1_9_R2/ServerConnection$2	net/minecraft/network/NetworkSystem$2
-net/minecraft/server/1_9_R2/ServerConnection$3	net/minecraft/network/NetworkSystem$3
-net/minecraft/server/1_9_R2/ServerConnection$4	net/minecraft/network/NetworkSystem$4
-net/minecraft/server/1_9_R2/ServerConnection$6	net/minecraft/network/NetworkSystem$6
-net/minecraft/server/1_9_R2/ServerConnection$7	net/minecraft/network/NetworkSystem$7
-net/minecraft/server/1_9_R2/PlayerConnection	net/minecraft/network/NetHandlerPlayServer
-net/minecraft/server/1_9_R2/PlayerConnection$1	net/minecraft/network/NetHandlerPlayServer$1
-net/minecraft/server/1_9_R2/PlayerConnection$2	net/minecraft/network/NetHandlerPlayServer$2
-net/minecraft/server/1_9_R2/PlayerConnection$3	net/minecraft/network/NetHandlerPlayServer$3
-net/minecraft/server/1_9_R2/HandshakeListener	net/minecraft/server/network/NetHandlerHandshakeTCP
-net/minecraft/server/1_9_R2/LoginListener	net/minecraft/server/network/NetHandlerLoginServer
-net/minecraft/server/1_9_R2/LoginListener$1	net/minecraft/server/network/NetHandlerLoginServer$1
-net/minecraft/server/1_9_R2/LoginListener$2	net/minecraft/server/network/NetHandlerLoginServer$2
-net/minecraft/server/1_9_R2/LoginListener$EnumProtocolState	net/minecraft/server/network/NetHandlerLoginServer$LoginState
-net/minecraft/server/1_9_R2/PacketStatusListener	net/minecraft/server/network/NetHandlerStatusServer
-net/minecraft/server/1_9_R2/ExpirableListEntry	net/minecraft/server/management/UserListEntryBan
-net/minecraft/server/1_9_R2/UserCache	net/minecraft/server/management/PlayerProfileCache
-net/minecraft/server/1_9_R2/UserCache$1	net/minecraft/server/management/PlayerProfileCache$1
-net/minecraft/server/1_9_R2/UserCache$2	net/minecraft/server/management/PlayerProfileCache$2
-net/minecraft/server/1_9_R2/UserCache$UserCacheEntry	net/minecraft/server/management/PlayerProfileCache$ProfileEntry
-net/minecraft/server/1_9_R2/UserCache$BanEntrySerializer	net/minecraft/server/management/PlayerProfileCache$Serializer
-net/minecraft/server/1_9_R2/IpBanList	net/minecraft/server/management/UserListIPBans
-net/minecraft/server/1_9_R2/IpBanEntry	net/minecraft/server/management/UserListIPBansEntry
-net/minecraft/server/1_9_R2/NameReferencingFileConverter	net/minecraft/server/management/PreYggdrasilConverter
-net/minecraft/server/1_9_R2/NameReferencingFileConverter$1	net/minecraft/server/management/PreYggdrasilConverter$1
-net/minecraft/server/1_9_R2/NameReferencingFileConverter$2	net/minecraft/server/management/PreYggdrasilConverter$2
-net/minecraft/server/1_9_R2/NameReferencingFileConverter$3	net/minecraft/server/management/PreYggdrasilConverter$3
-net/minecraft/server/1_9_R2/NameReferencingFileConverter$4	net/minecraft/server/management/PreYggdrasilConverter$4
-net/minecraft/server/1_9_R2/NameReferencingFileConverter$5	net/minecraft/server/management/PreYggdrasilConverter$5
-net/minecraft/server/1_9_R2/NameReferencingFileConverter$6	net/minecraft/server/management/PreYggdrasilConverter$6
-net/minecraft/server/1_9_R2/NameReferencingFileConverter$FileConversionException	net/minecraft/server/management/PreYggdrasilConverter$ConversionError
-net/minecraft/server/1_9_R2/PlayerList	net/minecraft/server/management/PlayerList
-net/minecraft/server/1_9_R2/PlayerList$1	net/minecraft/server/management/PlayerList$1
-net/minecraft/server/1_9_R2/OpList	net/minecraft/server/management/UserListOps
-net/minecraft/server/1_9_R2/OpListEntry	net/minecraft/server/management/UserListOpsEntry
-net/minecraft/server/1_9_R2/JsonListEntry	net/minecraft/server/management/UserListEntry
-net/minecraft/server/1_9_R2/JsonList	net/minecraft/server/management/UserList
-net/minecraft/server/1_9_R2/JsonList$1	net/minecraft/server/management/UserList$1
-net/minecraft/server/1_9_R2/JsonList$JsonListEntrySerializer	net/minecraft/server/management/UserList$Serializer
-net/minecraft/server/1_9_R2/GameProfileBanList	net/minecraft/server/management/UserListBans
-net/minecraft/server/1_9_R2/GameProfileBanEntry	net/minecraft/server/management/UserListBansEntry
-net/minecraft/server/1_9_R2/WhiteList	net/minecraft/server/management/UserListWhitelist
-net/minecraft/server/1_9_R2/WhiteListEntry	net/minecraft/server/management/UserListWhitelistEntry
-net/minecraft/server/1_9_R2/RemoteStatusReply	net/minecraft/network/rcon/RConOutputStream
-net/minecraft/server/1_9_R2/StatusChallengeUtils	net/minecraft/network/rcon/RConUtils
-net/minecraft/server/1_9_R2/RemoteControlCommandListener	net/minecraft/network/rcon/RConConsoleSource
-net/minecraft/server/1_9_R2/ICommandListener	net/minecraft/command/ICommandSender
-net/minecraft/server/1_9_R2/RemoteConnectionThread	net/minecraft/network/rcon/RConThreadBase
-net/minecraft/server/1_9_R2/RemoteStatusListener	net/minecraft/network/rcon/RConThreadQuery
-net/minecraft/server/1_9_R2/RemoteStatusListener$RemoteStatusChallenge	net/minecraft/network/rcon/RConThreadQuery$Auth
-net/minecraft/server/1_9_R2/RemoteControlSession	net/minecraft/network/rcon/RConThreadClient
-net/minecraft/server/1_9_R2/RemoteControlListener	net/minecraft/network/rcon/RConThreadMain
-	net/minecraft/server/MinecraftServer
-	net/minecraft/server/MinecraftServer$1
-	net/minecraft/server/MinecraftServer$2
-	net/minecraft/server/MinecraftServer$3
-	net/minecraft/server/MinecraftServer$4
-net/minecraft/server/1_9_R2/SoundEffect	net/minecraft/util/SoundEvent
-net/minecraft/server/1_9_R2/SoundEffects	net/minecraft/init/SoundEvents
-net/minecraft/server/1_9_R2/SoundCategory	net/minecraft/util/SoundCategory
-net/minecraft/server/1_9_R2/Achievement	net/minecraft/stats/Achievement
-net/minecraft/server/1_9_R2/AchievementList	net/minecraft/stats/AchievementList
-net/minecraft/server/1_9_R2/CounterStatistic	net/minecraft/stats/StatBasic
-net/minecraft/server/1_9_R2/CraftingStatistic	net/minecraft/stats/StatCrafting
-net/minecraft/server/1_9_R2/ServerStatisticManager	net/minecraft/stats/StatisticsManagerServer
-net/minecraft/server/1_9_R2/Statistic	net/minecraft/stats/StatBase
-net/minecraft/server/1_9_R2/Statistic$1	net/minecraft/stats/StatBase$1
-net/minecraft/server/1_9_R2/Statistic$2	net/minecraft/stats/StatBase$2
-net/minecraft/server/1_9_R2/Statistic$3	net/minecraft/stats/StatBase$3
-net/minecraft/server/1_9_R2/Statistic$4	net/minecraft/stats/StatBase$4
-net/minecraft/server/1_9_R2/Counter	net/minecraft/stats/IStatType
-net/minecraft/server/1_9_R2/StatisticWrapper	net/minecraft/util/TupleIntJsonSerializable
-net/minecraft/server/1_9_R2/IJsonStatistic	net/minecraft/util/IJsonSerializable
-net/minecraft/server/1_9_R2/StatisticList	net/minecraft/stats/StatList
-net/minecraft/server/1_9_R2/StatisticManager	net/minecraft/stats/StatisticsManager
-net/minecraft/server/1_9_R2/AchievementSet	net/minecraft/util/JsonSerializableSet
-net/minecraft/server/1_9_R2/DataBits	net/minecraft/util/BitArray
-net/minecraft/server/1_9_R2/EntitySlice	net/minecraft/util/ClassInheritanceMultiMap
-net/minecraft/server/1_9_R2/EntitySlice$1	net/minecraft/util/ClassInheritanceMultiMap$1
-net/minecraft/server/1_9_R2/CommandObjectiveExecutor	net/minecraft/command/CommandResultStats
-net/minecraft/server/1_9_R2/CommandObjectiveExecutor$1	net/minecraft/command/CommandResultStats$1
-net/minecraft/server/1_9_R2/CommandObjectiveExecutor$EnumCommandResult	net/minecraft/command/CommandResultStats$Type
-net/minecraft/server/1_9_R2/RegistryID	net/minecraft/util/IntIdentityHashBiMap
-net/minecraft/server/1_9_R2/MinecraftEncryption	net/minecraft/util/CryptManager
-net/minecraft/server/1_9_R2/ChatDeserializer	net/minecraft/util/JsonUtils
-net/minecraft/server/1_9_R2/HttpUtilities	net/minecraft/util/HttpUtil
-net/minecraft/server/1_9_R2/InsensitiveStringMap	net/minecraft/util/LowerStringMap
-net/minecraft/server/1_9_R2/IntHashMap	net/minecraft/util/IntHashMap
-net/minecraft/server/1_9_R2/IntHashMap$IntHashMapEntry	net/minecraft/util/IntHashMap$Entry
-net/minecraft/server/1_9_R2/LazyInitVar	net/minecraft/util/LazyLoadBase
-net/minecraft/server/1_9_R2/ChatTypeAdapterFactory	net/minecraft/util/EnumTypeAdapterFactory
-net/minecraft/server/1_9_R2/ChatTypeAdapterFactory$1	net/minecraft/util/EnumTypeAdapterFactory$1
-net/minecraft/server/1_9_R2/MathHelper	net/minecraft/util/math/MathHelper
-net/minecraft/server/1_9_R2/MethodProfiler	net/minecraft/profiler/Profiler
-net/minecraft/server/1_9_R2/MethodProfiler$ProfilerInfo	net/minecraft/profiler/Profiler$Result
-net/minecraft/server/1_9_R2/IProgressUpdate	net/minecraft/util/IProgressUpdate
-net/minecraft/server/1_9_R2/INamable	net/minecraft/util/IStringSerializable
-net/minecraft/server/1_9_R2/UtilColor	net/minecraft/util/StringUtils
-net/minecraft/server/1_9_R2/Tuple	net/minecraft/util/Tuple
-net/minecraft/server/1_9_R2/WeightedRandom	net/minecraft/util/WeightedRandom
-net/minecraft/server/1_9_R2/WeightedRandom$WeightedRandomChoice	net/minecraft/util/WeightedRandom$Item
-net/minecraft/server/1_9_R2/IDataConverter	net/minecraft/util/datafix/IFixableData
-net/minecraft/server/1_9_R2/DataConverterType	net/minecraft/util/datafix/IFixType
-net/minecraft/server/1_9_R2/DataConverterTypes	net/minecraft/util/datafix/FixTypes
-net/minecraft/server/1_9_R2/PlayerSelector	net/minecraft/command/EntitySelector
-net/minecraft/server/1_9_R2/PlayerSelector$1	net/minecraft/command/EntitySelector$1
-net/minecraft/server/1_9_R2/PlayerSelector$10	net/minecraft/command/EntitySelector$6
-net/minecraft/server/1_9_R2/PlayerSelector$11	net/minecraft/command/EntitySelector$7
-net/minecraft/server/1_9_R2/PlayerSelector$12	net/minecraft/command/EntitySelector$8
-net/minecraft/server/1_9_R2/PlayerSelector$13	net/minecraft/command/EntitySelector$9
-net/minecraft/server/1_9_R2/PlayerSelector$2	net/minecraft/command/EntitySelector$10
-net/minecraft/server/1_9_R2/PlayerSelector$3	net/minecraft/command/EntitySelector$11
-net/minecraft/server/1_9_R2/PlayerSelector$4	net/minecraft/command/EntitySelector$12
-net/minecraft/server/1_9_R2/PlayerSelector$5	net/minecraft/command/EntitySelector$13
-net/minecraft/server/1_9_R2/PlayerSelector$6	net/minecraft/command/EntitySelector$2
-net/minecraft/server/1_9_R2/PlayerSelector$7	net/minecraft/command/EntitySelector$3
-net/minecraft/server/1_9_R2/PlayerSelector$8	net/minecraft/command/EntitySelector$4
-net/minecraft/server/1_9_R2/PlayerSelector$9	net/minecraft/command/EntitySelector$5
-net/minecraft/server/1_9_R2/DataConverter	net/minecraft/util/datafix/IDataFixer
-net/minecraft/server/1_9_R2/DataConverterManager	net/minecraft/util/datafix/DataFixer
-net/minecraft/server/1_9_R2/DataConverterRegistry	net/minecraft/util/datafix/DataFixesManager
-net/minecraft/server/1_9_R2/DataConverterRegistry$1	net/minecraft/util/datafix/DataFixesManager$1
-net/minecraft/server/1_9_R2/DataConverterRegistry$2	net/minecraft/util/datafix/DataFixesManager$2
-net/minecraft/server/1_9_R2/DataConverterRegistry$3	net/minecraft/util/datafix/DataFixesManager$3
-net/minecraft/server/1_9_R2/DataConverterRegistry$4	net/minecraft/util/datafix/DataFixesManager$4
-net/minecraft/server/1_9_R2/DataConverterRegistry$5	net/minecraft/util/datafix/DataFixesManager$5
-net/minecraft/server/1_9_R2/DataConverterRegistry$6	net/minecraft/util/datafix/DataFixesManager$6
-net/minecraft/server/1_9_R2/DataConverterRegistry$7	net/minecraft/util/datafix/DataFixesManager$7
-net/minecraft/server/1_9_R2/DataInspector	net/minecraft/util/datafix/IDataWalker
-net/minecraft/server/1_9_R2/DataConverterArmorStand	net/minecraft/util/datafix/fixes/ArmorStandSilent
-net/minecraft/server/1_9_R2/DataConverterEquipment	net/minecraft/util/datafix/fixes/EntityArmorAndHeld
-net/minecraft/server/1_9_R2/DataConverterHealth	net/minecraft/util/datafix/fixes/EntityHealth
-net/minecraft/server/1_9_R2/DataConverterSaddle	net/minecraft/util/datafix/fixes/HorseSaddle
-net/minecraft/server/1_9_R2/DataConverterHanging	net/minecraft/util/datafix/fixes/PaintingDirection
-net/minecraft/server/1_9_R2/DataConverterDropChances	net/minecraft/util/datafix/fixes/RedundantChanceTags
-net/minecraft/server/1_9_R2/DataConverterRiding	net/minecraft/util/datafix/fixes/RidingToPassengers
-net/minecraft/server/1_9_R2/DataConverterUUID	net/minecraft/util/datafix/fixes/StringToUUID
-net/minecraft/server/1_9_R2/DataConverterMaterialId	net/minecraft/util/datafix/fixes/ItemIntIDToString
-net/minecraft/server/1_9_R2/DataConverterBook	net/minecraft/util/datafix/fixes/BookPagesStrictJSON
-net/minecraft/server/1_9_R2/DataConverterMinecart	net/minecraft/util/datafix/fixes/MinecartEntityTypes
-net/minecraft/server/1_9_R2/DataConverterMobSpawner	net/minecraft/util/datafix/fixes/SpawnerEntityTypes
-net/minecraft/server/1_9_R2/DataConverterPotionId	net/minecraft/util/datafix/fixes/PotionItems
-net/minecraft/server/1_9_R2/DataConverterSignText	net/minecraft/util/datafix/fixes/SignStrictJSON
-net/minecraft/server/1_9_R2/DataConverterSignText$1	net/minecraft/util/datafix/fixes/SignStrictJSON$1
-net/minecraft/server/1_9_R2/DataConverterSpawnEgg	net/minecraft/util/datafix/fixes/SpawnEggNames
-net/minecraft/server/1_9_R2/DataInspectorItem	net/minecraft/util/datafix/walkers/ItemStackData
-net/minecraft/server/1_9_R2/DataInspectorBlockEntity	net/minecraft/util/datafix/walkers/BlockEntityTag
-net/minecraft/server/1_9_R2/DataInspectorEntity	net/minecraft/util/datafix/walkers/EntityTag
-net/minecraft/server/1_9_R2/DataInspectorItemList	net/minecraft/util/datafix/walkers/ItemStackDataLists
-net/minecraft/server/1_9_R2/DataInspectorTagged	net/minecraft/util/datafix/walkers/Filtered
-net/minecraft/server/1_9_R2/CommandAchievement	net/minecraft/command/server/CommandAchievement
-net/minecraft/server/1_9_R2/CommandAchievement$1	net/minecraft/command/server/CommandAchievement$1
-net/minecraft/server/1_9_R2/IAsyncTaskHandler	net/minecraft/util/IThreadListener
-net/minecraft/server/1_9_R2/BossBattle	net/minecraft/world/BossInfo
-net/minecraft/server/1_9_R2/BossBattle$BarColor	net/minecraft/world/BossInfo$Color
-net/minecraft/server/1_9_R2/BossBattle$BarStyle	net/minecraft/world/BossInfo$Overlay
-net/minecraft/server/1_9_R2/InventoryLargeChest	net/minecraft/inventory/InventoryLargeChest
-net/minecraft/server/1_9_R2/IInventory	net/minecraft/inventory/IInventory
-net/minecraft/server/1_9_R2/ContainerUtil	net/minecraft/inventory/ItemStackHelper
-net/minecraft/server/1_9_R2/IInventoryListener	net/minecraft/inventory/IInventoryChangedListener
-net/minecraft/server/1_9_R2/InventoryUtils	net/minecraft/inventory/InventoryHelper
-net/minecraft/server/1_9_R2/EnumDifficulty	net/minecraft/world/EnumDifficulty
-net/minecraft/server/1_9_R2/DifficultyDamageScaler	net/minecraft/world/DifficultyInstance
-net/minecraft/server/1_9_R2/EnumHand	net/minecraft/util/EnumHand
-net/minecraft/server/1_9_R2/ITileEntityContainer	net/minecraft/world/IInteractionObject
-net/minecraft/server/1_9_R2/EnumInteractionResult	net/minecraft/util/EnumActionResult
-net/minecraft/server/1_9_R2/InteractionResultWrapper	net/minecraft/util/ActionResult
-net/minecraft/server/1_9_R2/ChestLock	net/minecraft/world/LockCode
-net/minecraft/server/1_9_R2/ITileInventory	net/minecraft/world/ILockableContainer
-net/minecraft/server/1_9_R2/INamableTileEntity	net/minecraft/world/IWorldNameable
-net/minecraft/server/1_9_R2/ILootable	net/minecraft/world/storage/loot/ILootContainer
-net/minecraft/server/1_9_R2/InventorySubcontainer	net/minecraft/inventory/InventoryBasic
-net/minecraft/server/1_9_R2/MojangStatisticsGenerator	net/minecraft/profiler/Snooper
-net/minecraft/server/1_9_R2/MojangStatisticsGenerator$1	net/minecraft/profiler/Snooper$1
-net/minecraft/server/1_9_R2/IMojangStatistics	net/minecraft/profiler/ISnooperInfo
-net/minecraft/server/1_9_R2/IWorldInventory	net/minecraft/inventory/ISidedInventory
-net/minecraft/server/1_9_R2/CombatEntry	net/minecraft/util/CombatEntry
-net/minecraft/server/1_9_R2/CommandBanIp	net/minecraft/command/server/CommandBanIp
-net/minecraft/server/1_9_R2/CombatMath	net/minecraft/util/CombatRules
-net/minecraft/server/1_9_R2/CombatTracker	net/minecraft/util/CombatTracker
-net/minecraft/server/1_9_R2/DamageSource	net/minecraft/util/DamageSource
-net/minecraft/server/1_9_R2/EntityDamageSource	net/minecraft/util/EntityDamageSource
-net/minecraft/server/1_9_R2/EntityDamageSourceIndirect	net/minecraft/util/EntityDamageSourceIndirect
-net/minecraft/server/1_9_R2/MobEffectAbsorption	net/minecraft/potion/PotionAbsorption
-net/minecraft/server/1_9_R2/MobEffectAttackDamage	net/minecraft/potion/PotionAttackDamage
-net/minecraft/server/1_9_R2/MobEffectHealthBoost	net/minecraft/potion/PotionHealthBoost
-net/minecraft/server/1_9_R2/InstantMobEffect	net/minecraft/potion/PotionHealth
-net/minecraft/server/1_9_R2/MobEffectList	net/minecraft/potion/Potion
-net/minecraft/server/1_9_R2/MobEffect	net/minecraft/potion/PotionEffect
-net/minecraft/server/1_9_R2/MobEffects	net/minecraft/init/MobEffects
-net/minecraft/server/1_9_R2/EntityAgeable	net/minecraft/entity/EntityAgeable
-net/minecraft/server/1_9_R2/EntityAreaEffectCloud	net/minecraft/entity/EntityAreaEffectCloud
-net/minecraft/server/1_9_R2/IAnimal	net/minecraft/entity/passive/IAnimals
-net/minecraft/server/1_9_R2/Entity	net/minecraft/entity/Entity
-net/minecraft/server/1_9_R2/Entity$1	net/minecraft/entity/Entity$1
-net/minecraft/server/1_9_R2/Entity$2	net/minecraft/entity/Entity$2
-net/minecraft/server/1_9_R2/Entity$3	net/minecraft/entity/Entity$3
-net/minecraft/server/1_9_R2/Entity$4	net/minecraft/entity/Entity$4
-net/minecraft/server/1_9_R2/EntityTypes	net/minecraft/entity/EntityList
-net/minecraft/server/1_9_R2/EntityTypes$MonsterEggInfo	net/minecraft/entity/EntityList$EntityEggInfo
-net/minecraft/server/1_9_R2/IEntitySelector	net/minecraft/util/EntitySelectors
-net/minecraft/server/1_9_R2/IEntitySelector$1	net/minecraft/util/EntitySelectors$1
-net/minecraft/server/1_9_R2/IEntitySelector$2	net/minecraft/util/EntitySelectors$2
-net/minecraft/server/1_9_R2/IEntitySelector$3	net/minecraft/util/EntitySelectors$3
-net/minecraft/server/1_9_R2/IEntitySelector$4	net/minecraft/util/EntitySelectors$4
-net/minecraft/server/1_9_R2/IEntitySelector$5	net/minecraft/util/EntitySelectors$5
-net/minecraft/server/1_9_R2/IEntitySelector$6	net/minecraft/util/EntitySelectors$6
-net/minecraft/server/1_9_R2/IEntitySelector$7	net/minecraft/util/EntitySelectors$7
-net/minecraft/server/1_9_R2/IEntitySelector$8	net/minecraft/util/EntitySelectors$8
-net/minecraft/server/1_9_R2/IEntitySelector$EntitySelectorEquipable	net/minecraft/util/EntitySelectors$ArmoredMob
-net/minecraft/server/1_9_R2/EnumItemSlot	net/minecraft/inventory/EntityEquipmentSlot
-net/minecraft/server/1_9_R2/EnumItemSlot$Function	net/minecraft/inventory/EntityEquipmentSlot$Type
-net/minecraft/server/1_9_R2/EntityExperienceOrb	net/minecraft/entity/item/EntityXPOrb
-net/minecraft/server/1_9_R2/EntityFlying	net/minecraft/entity/EntityFlying
-net/minecraft/server/1_9_R2/EnumMainHand	net/minecraft/util/EnumHandSide
-net/minecraft/server/1_9_R2/CommandBan	net/minecraft/command/server/CommandBanPlayer
-net/minecraft/server/1_9_R2/EntityLiving	net/minecraft/entity/EntityLivingBase
-net/minecraft/server/1_9_R2/EntityInsentient	net/minecraft/entity/EntityLiving
-net/minecraft/server/1_9_R2/EntityInsentient$EnumEntityPositionType	net/minecraft/entity/EntityLiving$SpawnPlacementType
-net/minecraft/server/1_9_R2/EnumCreatureType	net/minecraft/entity/EnumCreatureType
-net/minecraft/server/1_9_R2/GroupDataEntity	net/minecraft/entity/IEntityLivingData
-net/minecraft/server/1_9_R2/EntityPositionTypes	net/minecraft/entity/EntitySpawnPlacementRegistry
-net/minecraft/server/1_9_R2/EnumMonsterType	net/minecraft/entity/EnumCreatureAttribute
-net/minecraft/server/1_9_R2/EntityOwnable	net/minecraft/entity/IEntityOwnable
-net/minecraft/server/1_9_R2/EntityCreature	net/minecraft/entity/EntityCreature
-net/minecraft/server/1_9_R2/IJumpable	net/minecraft/entity/IJumpingMount
-net/minecraft/server/1_9_R2/EntityTameableAnimal	net/minecraft/entity/passive/EntityTameable
-net/minecraft/server/1_9_R2/IAttribute	net/minecraft/entity/ai/attributes/IAttribute
-net/minecraft/server/1_9_R2/AttributeInstance	net/minecraft/entity/ai/attributes/IAttributeInstance
-net/minecraft/server/1_9_R2/AttributeModifier	net/minecraft/entity/ai/attributes/AttributeModifier
-net/minecraft/server/1_9_R2/AttributeBase	net/minecraft/entity/ai/attributes/BaseAttribute
-net/minecraft/server/1_9_R2/AttributeMapBase	net/minecraft/entity/ai/attributes/AbstractAttributeMap
-net/minecraft/server/1_9_R2/AttributeModifiable	net/minecraft/entity/ai/attributes/ModifiableAttributeInstance
-net/minecraft/server/1_9_R2/AttributeMapServer	net/minecraft/entity/ai/attributes/AttributeMap
-net/minecraft/server/1_9_R2/AttributeRanged	net/minecraft/entity/ai/attributes/RangedAttribute
-net/minecraft/server/1_9_R2/EntityAIBodyControl	net/minecraft/entity/EntityBodyHelper
-net/minecraft/server/1_9_R2/ControllerJump	net/minecraft/entity/ai/EntityJumpHelper
-net/minecraft/server/1_9_R2/ControllerLook	net/minecraft/entity/ai/EntityLookHelper
-net/minecraft/server/1_9_R2/ControllerMove	net/minecraft/entity/ai/EntityMoveHelper
-net/minecraft/server/1_9_R2/ControllerMove$Operation	net/minecraft/entity/ai/EntityMoveHelper$Action
-net/minecraft/server/1_9_R2/CommandBlockData	net/minecraft/command/CommandBlockData
-net/minecraft/server/1_9_R2/PathfinderGoalAvoidTarget	net/minecraft/entity/ai/EntityAIAvoidEntity
-net/minecraft/server/1_9_R2/PathfinderGoalAvoidTarget$1	net/minecraft/entity/ai/EntityAIAvoidEntity$1
-net/minecraft/server/1_9_R2/PathfinderGoalBeg	net/minecraft/entity/ai/EntityAIBeg
-net/minecraft/server/1_9_R2/PathfinderGoalBreakDoor	net/minecraft/entity/ai/EntityAIBreakDoor
-net/minecraft/server/1_9_R2/PathfinderGoalBreed	net/minecraft/entity/ai/EntityAIMate
-net/minecraft/server/1_9_R2/PathfinderGoalDoorInteract	net/minecraft/entity/ai/EntityAIDoorInteract
-net/minecraft/server/1_9_R2/PathfinderGoalEatTile	net/minecraft/entity/ai/EntityAIEatGrass
-net/minecraft/server/1_9_R2/PathfinderGoalFleeSun	net/minecraft/entity/ai/EntityAIFleeSun
-net/minecraft/server/1_9_R2/PathfinderGoalFloat	net/minecraft/entity/ai/EntityAISwimming
-net/minecraft/server/1_9_R2/PathfinderGoalFollowOwner	net/minecraft/entity/ai/EntityAIFollowOwner
-net/minecraft/server/1_9_R2/PathfinderGoalFollowParent	net/minecraft/entity/ai/EntityAIFollowParent
-net/minecraft/server/1_9_R2/PathfinderGoal	net/minecraft/entity/ai/EntityAIBase
-net/minecraft/server/1_9_R2/PathfinderGoalSelector	net/minecraft/entity/ai/EntityAITasks
-net/minecraft/server/1_9_R2/PathfinderGoalSelector$PathfinderGoalSelectorItem	net/minecraft/entity/ai/EntityAITasks$EntityAITaskEntry
-net/minecraft/server/1_9_R2/PathfinderGoalVillagerFarm	net/minecraft/entity/ai/EntityAIHarvestFarmland
-net/minecraft/server/1_9_R2/PathfinderGoalInteract	net/minecraft/entity/ai/EntityAIWatchClosest2
-net/minecraft/server/1_9_R2/PathfinderGoalLeapAtTarget	net/minecraft/entity/ai/EntityAILeapAtTarget
-net/minecraft/server/1_9_R2/PathfinderGoalLookAtPlayer	net/minecraft/entity/ai/EntityAIWatchClosest
-net/minecraft/server/1_9_R2/PathfinderGoalLookAtTradingPlayer	net/minecraft/entity/ai/EntityAILookAtTradePlayer
-net/minecraft/server/1_9_R2/PathfinderGoalMakeLove	net/minecraft/entity/ai/EntityAIVillagerMate
-net/minecraft/server/1_9_R2/PathfinderGoalMeleeAttack	net/minecraft/entity/ai/EntityAIAttackMelee
-net/minecraft/server/1_9_R2/PathfinderGoalMoveIndoors	net/minecraft/entity/ai/EntityAIMoveIndoors
-net/minecraft/server/1_9_R2/PathfinderGoalMoveThroughVillage	net/minecraft/entity/ai/EntityAIMoveThroughVillage
-net/minecraft/server/1_9_R2/PathfinderGoalGotoTarget	net/minecraft/entity/ai/EntityAIMoveToBlock
-net/minecraft/server/1_9_R2/PathfinderGoalMoveTowardsRestriction	net/minecraft/entity/ai/EntityAIMoveTowardsRestriction
-net/minecraft/server/1_9_R2/PathfinderGoalMoveTowardsTarget	net/minecraft/entity/ai/EntityAIMoveTowardsTarget
-net/minecraft/server/1_9_R2/PathfinderGoalOcelotAttack	net/minecraft/entity/ai/EntityAIOcelotAttack
-net/minecraft/server/1_9_R2/PathfinderGoalJumpOnBlock	net/minecraft/entity/ai/EntityAIOcelotSit
-net/minecraft/server/1_9_R2/CommandClear	net/minecraft/command/CommandClearInventory
-net/minecraft/server/1_9_R2/PathfinderGoalOfferFlower	net/minecraft/entity/ai/EntityAILookAtVillager
-net/minecraft/server/1_9_R2/PathfinderGoalOpenDoor	net/minecraft/entity/ai/EntityAIOpenDoor
-net/minecraft/server/1_9_R2/PathfinderGoalPanic	net/minecraft/entity/ai/EntityAIPanic
-net/minecraft/server/1_9_R2/PathfinderGoalPlay	net/minecraft/entity/ai/EntityAIPlay
-net/minecraft/server/1_9_R2/PathfinderGoalRandomLookaround	net/minecraft/entity/ai/EntityAILookIdle
-net/minecraft/server/1_9_R2/PathfinderGoalRandomStroll	net/minecraft/entity/ai/EntityAIWander
-net/minecraft/server/1_9_R2/PathfinderGoalArrowAttack	net/minecraft/entity/ai/EntityAIAttackRanged
-net/minecraft/server/1_9_R2/PathfinderGoalBowShoot	net/minecraft/entity/ai/EntityAIAttackRangedBow
-net/minecraft/server/1_9_R2/PathfinderGoalRestrictOpenDoor	net/minecraft/entity/ai/EntityAIRestrictOpenDoor
-net/minecraft/server/1_9_R2/PathfinderGoalRestrictSun	net/minecraft/entity/ai/EntityAIRestrictSun
-net/minecraft/server/1_9_R2/PathfinderGoalTame	net/minecraft/entity/ai/EntityAIRunAroundLikeCrazy
-net/minecraft/server/1_9_R2/PathfinderGoalSit	net/minecraft/entity/ai/EntityAISit
-net/minecraft/server/1_9_R2/PathfinderGoalSwell	net/minecraft/entity/ai/EntityAICreeperSwell
-net/minecraft/server/1_9_R2/PathfinderGoalTakeFlower	net/minecraft/entity/ai/EntityAIFollowGolem
-net/minecraft/server/1_9_R2/PathfinderGoalTempt	net/minecraft/entity/ai/EntityAITempt
-net/minecraft/server/1_9_R2/PathfinderGoalTradeWithPlayer	net/minecraft/entity/ai/EntityAITradePlayer
-net/minecraft/server/1_9_R2/PathfinderGoalInteractVillagers	net/minecraft/entity/ai/EntityAIVillagerInteract
-net/minecraft/server/1_9_R2/PathfinderGoalZombieAttack	net/minecraft/entity/ai/EntityAIZombieAttack
-net/minecraft/server/1_9_R2/PathfinderGoalDefendVillage	net/minecraft/entity/ai/EntityAIDefendVillage
-net/minecraft/server/1_9_R2/PathfinderGoalHurtByTarget	net/minecraft/entity/ai/EntityAIHurtByTarget
-net/minecraft/server/1_9_R2/PathfinderGoalNearestAttackableTargetInsentient	net/minecraft/entity/ai/EntityAIFindEntityNearest
-net/minecraft/server/1_9_R2/PathfinderGoalNearestAttackableTargetInsentient$1	net/minecraft/entity/ai/EntityAIFindEntityNearest$1
-net/minecraft/server/1_9_R2/PathfinderGoalTargetNearestPlayer	net/minecraft/entity/ai/EntityAIFindEntityNearestPlayer
-net/minecraft/server/1_9_R2/PathfinderGoalTargetNearestPlayer$1	net/minecraft/entity/ai/EntityAIFindEntityNearestPlayer$1
-net/minecraft/server/1_9_R2/PathfinderGoalNearestAttackableTarget	net/minecraft/entity/ai/EntityAINearestAttackableTarget
-net/minecraft/server/1_9_R2/PathfinderGoalNearestAttackableTarget$1	net/minecraft/entity/ai/EntityAINearestAttackableTarget$1
-net/minecraft/server/1_9_R2/PathfinderGoalNearestAttackableTarget$2	net/minecraft/entity/ai/EntityAINearestAttackableTarget$2
-net/minecraft/server/1_9_R2/PathfinderGoalNearestAttackableTarget$DistanceComparator	net/minecraft/entity/ai/EntityAINearestAttackableTarget$Sorter
-net/minecraft/server/1_9_R2/PathfinderGoalRandomTargetNonTamed	net/minecraft/entity/ai/EntityAITargetNonTamed
-net/minecraft/server/1_9_R2/CommandClone	net/minecraft/command/CommandClone
-net/minecraft/server/1_9_R2/CommandClone$CommandCloneStoredTileEntity	net/minecraft/command/CommandClone$StaticCloneData
-net/minecraft/server/1_9_R2/PathfinderGoalOwnerHurtByTarget	net/minecraft/entity/ai/EntityAIOwnerHurtByTarget
-net/minecraft/server/1_9_R2/PathfinderGoalOwnerHurtTarget	net/minecraft/entity/ai/EntityAIOwnerHurtTarget
-net/minecraft/server/1_9_R2/PathfinderGoalTarget	net/minecraft/entity/ai/EntityAITarget
-net/minecraft/server/1_9_R2/Navigation	net/minecraft/pathfinding/PathNavigateGround
-net/minecraft/server/1_9_R2/NavigationAbstract	net/minecraft/pathfinding/PathNavigate
-net/minecraft/server/1_9_R2/NavigationListener	net/minecraft/pathfinding/PathWorldListener
-net/minecraft/server/1_9_R2/NavigationSpider	net/minecraft/pathfinding/PathNavigateClimber
-net/minecraft/server/1_9_R2/NavigationGuardian	net/minecraft/pathfinding/PathNavigateSwimmer
-net/minecraft/server/1_9_R2/EntitySenses	net/minecraft/entity/ai/EntitySenses
-net/minecraft/server/1_9_R2/RandomPositionGenerator	net/minecraft/entity/ai/RandomPositionGenerator
-net/minecraft/server/1_9_R2/VillageDoor	net/minecraft/village/VillageDoorInfo
-net/minecraft/server/1_9_R2/Village	net/minecraft/village/Village
-net/minecraft/server/1_9_R2/Village$Aggressor	net/minecraft/village/Village$VillageAggressor
-net/minecraft/server/1_9_R2/VillageSiege	net/minecraft/village/VillageSiege
-net/minecraft/server/1_9_R2/PersistentVillage	net/minecraft/village/VillageCollection
-net/minecraft/server/1_9_R2/EntityAmbient	net/minecraft/entity/passive/EntityAmbientCreature
-net/minecraft/server/1_9_R2/EntityBat	net/minecraft/entity/passive/EntityBat
-net/minecraft/server/1_9_R2/EntityAnimal	net/minecraft/entity/passive/EntityAnimal
-net/minecraft/server/1_9_R2/EntityChicken	net/minecraft/entity/passive/EntityChicken
-net/minecraft/server/1_9_R2/EntityCow	net/minecraft/entity/passive/EntityCow
-net/minecraft/server/1_9_R2/EntityGolem	net/minecraft/entity/monster/EntityGolem
-net/minecraft/server/1_9_R2/CommandTestForBlocks	net/minecraft/command/CommandCompare
-net/minecraft/server/1_9_R2/EntityMushroomCow	net/minecraft/entity/passive/EntityMooshroom
-net/minecraft/server/1_9_R2/EntityOcelot	net/minecraft/entity/passive/EntityOcelot
-net/minecraft/server/1_9_R2/EntityPig	net/minecraft/entity/passive/EntityPig
-net/minecraft/server/1_9_R2/EntityRabbit	net/minecraft/entity/passive/EntityRabbit
-net/minecraft/server/1_9_R2/EntityRabbit$PathfinderGoalKillerRabbitMeleeAttack	net/minecraft/entity/passive/EntityRabbit$AIEvilAttack
-net/minecraft/server/1_9_R2/EntityRabbit$PathfinderGoalRabbitAvoidTarget	net/minecraft/entity/passive/EntityRabbit$AIAvoidEntity
-net/minecraft/server/1_9_R2/EntityRabbit$GroupDataRabbit	net/minecraft/entity/passive/EntityRabbit$RabbitTypeData
-net/minecraft/server/1_9_R2/EntityRabbit$ControllerJumpRabbit	net/minecraft/entity/passive/EntityRabbit$RabbitJumpHelper
-net/minecraft/server/1_9_R2/EntityRabbit$ControllerMoveRabbit	net/minecraft/entity/passive/EntityRabbit$RabbitMoveHelper
-net/minecraft/server/1_9_R2/EntityRabbit$PathfinderGoalRabbitPanic	net/minecraft/entity/passive/EntityRabbit$AIPanic
-net/minecraft/server/1_9_R2/EntityRabbit$PathfinderGoalEatCarrots	net/minecraft/entity/passive/EntityRabbit$AIRaidFarm
-net/minecraft/server/1_9_R2/EntitySheep	net/minecraft/entity/passive/EntitySheep
-net/minecraft/server/1_9_R2/EntitySheep$1	net/minecraft/entity/passive/EntitySheep$1
-net/minecraft/server/1_9_R2/EntitySnowman	net/minecraft/entity/monster/EntitySnowman
-net/minecraft/server/1_9_R2/EntitySquid	net/minecraft/entity/passive/EntitySquid
-net/minecraft/server/1_9_R2/EntitySquid$PathfinderGoalSquid	net/minecraft/entity/passive/EntitySquid$AIMoveRandom
-net/minecraft/server/1_9_R2/EntityIronGolem	net/minecraft/entity/monster/EntityIronGolem
-net/minecraft/server/1_9_R2/EntityIronGolem$1	net/minecraft/entity/monster/EntityIronGolem$1
-net/minecraft/server/1_9_R2/EntityWaterAnimal	net/minecraft/entity/passive/EntityWaterMob
-net/minecraft/server/1_9_R2/EntityWolf	net/minecraft/entity/passive/EntityWolf
-net/minecraft/server/1_9_R2/EntityWolf$1	net/minecraft/entity/passive/EntityWolf$1
-net/minecraft/server/1_9_R2/EntityHorse	net/minecraft/entity/passive/EntityHorse
-net/minecraft/server/1_9_R2/EntityHorse$1	net/minecraft/entity/passive/EntityHorse$1
-net/minecraft/server/1_9_R2/EntityHorse$a	net/minecraft/entity/passive/EntityHorse$GroupData
-net/minecraft/server/1_9_R2/EnumHorseArmor	net/minecraft/entity/passive/HorseArmorType
-net/minecraft/server/1_9_R2/EnumHorseType	net/minecraft/entity/passive/HorseType
-net/minecraft/server/1_9_R2/PathfinderGoalHorseTrap	net/minecraft/entity/ai/EntityAISkeletonRiders
-net/minecraft/server/1_9_R2/IComplex	net/minecraft/entity/IEntityMultiPart
-net/minecraft/server/1_9_R2/EntityComplexPart	net/minecraft/entity/boss/EntityDragonPart
-net/minecraft/server/1_9_R2/EntityEnderCrystal	net/minecraft/entity/item/EntityEnderCrystal
-net/minecraft/server/1_9_R2/EntityEnderDragon	net/minecraft/entity/boss/EntityDragon
-net/minecraft/server/1_9_R2/AbstractDragonController	net/minecraft/entity/boss/dragon/phase/PhaseBase
-net/minecraft/server/1_9_R2/AbstractDragonControllerLanded	net/minecraft/entity/boss/dragon/phase/PhaseSittingBase
-net/minecraft/server/1_9_R2/DragonControllerCharge	net/minecraft/entity/boss/dragon/phase/PhaseChargingPlayer
-net/minecraft/server/1_9_R2/DragonControllerDying	net/minecraft/entity/boss/dragon/phase/PhaseDying
-net/minecraft/server/1_9_R2/CommandDeop	net/minecraft/command/server/CommandDeOp
-net/minecraft/server/1_9_R2/DragonControllerHold	net/minecraft/entity/boss/dragon/phase/PhaseHoldingPattern
-net/minecraft/server/1_9_R2/DragonControllerHover	net/minecraft/entity/boss/dragon/phase/PhaseHover
-net/minecraft/server/1_9_R2/DragonControllerLandingFly	net/minecraft/entity/boss/dragon/phase/PhaseLandingApproach
-net/minecraft/server/1_9_R2/DragonControllerLanding	net/minecraft/entity/boss/dragon/phase/PhaseLanding
-net/minecraft/server/1_9_R2/IDragonController	net/minecraft/entity/boss/dragon/phase/IPhase
-net/minecraft/server/1_9_R2/DragonControllerLandedAttack	net/minecraft/entity/boss/dragon/phase/PhaseSittingAttacking
-net/minecraft/server/1_9_R2/DragonControllerLandedFlame	net/minecraft/entity/boss/dragon/phase/PhaseSittingFlaming
-net/minecraft/server/1_9_R2/DragonControllerLandedSearch	net/minecraft/entity/boss/dragon/phase/PhaseSittingScanning
-net/minecraft/server/1_9_R2/DragonControllerStrafe	net/minecraft/entity/boss/dragon/phase/PhaseStrafePlayer
-net/minecraft/server/1_9_R2/DragonControllerFly	net/minecraft/entity/boss/dragon/phase/PhaseTakeoff
-net/minecraft/server/1_9_R2/DragonControllerPhase	net/minecraft/entity/boss/dragon/phase/PhaseList
-net/minecraft/server/1_9_R2/DragonControllerManager	net/minecraft/entity/boss/dragon/phase/PhaseManager
-net/minecraft/server/1_9_R2/EntityWither	net/minecraft/entity/boss/EntityWither
-net/minecraft/server/1_9_R2/EntityWither$1	net/minecraft/entity/boss/EntityWither$1
-net/minecraft/server/1_9_R2/EntityWither$a	net/minecraft/entity/boss/EntityWither$AIDoNothing
-net/minecraft/server/1_9_R2/EntityArmorStand	net/minecraft/entity/item/EntityArmorStand
-net/minecraft/server/1_9_R2/EntityArmorStand$1	net/minecraft/entity/item/EntityArmorStand$1
-net/minecraft/server/1_9_R2/EntityHanging	net/minecraft/entity/EntityHanging
-net/minecraft/server/1_9_R2/EntityHanging$1	net/minecraft/entity/EntityHanging$1
-net/minecraft/server/1_9_R2/EntityItemFrame	net/minecraft/entity/item/EntityItemFrame
-net/minecraft/server/1_9_R2/EntityLeash	net/minecraft/entity/EntityLeashKnot
-net/minecraft/server/1_9_R2/EntityPainting	net/minecraft/entity/item/EntityPainting
-net/minecraft/server/1_9_R2/EntityPainting$EnumArt	net/minecraft/entity/item/EntityPainting$EnumArt
-net/minecraft/server/1_9_R2/EntityFishingHook	net/minecraft/entity/projectile/EntityFishHook
-net/minecraft/server/1_9_R2/EntityWeather	net/minecraft/entity/effect/EntityWeatherEffect
-net/minecraft/server/1_9_R2/CommandDebug	net/minecraft/command/CommandDebug
-net/minecraft/server/1_9_R2/EntityLightning	net/minecraft/entity/effect/EntityLightningBolt
-net/minecraft/server/1_9_R2/EntityFallingBlock	net/minecraft/entity/item/EntityFallingBlock
-net/minecraft/server/1_9_R2/EntityItem	net/minecraft/entity/item/EntityItem
-net/minecraft/server/1_9_R2/EntityTNTPrimed	net/minecraft/entity/item/EntityTNTPrimed
-net/minecraft/server/1_9_R2/EntityBlaze	net/minecraft/entity/monster/EntityBlaze
-net/minecraft/server/1_9_R2/EntityBlaze$PathfinderGoalBlazeFireball	net/minecraft/entity/monster/EntityBlaze$AIFireballAttack
-net/minecraft/server/1_9_R2/EntityCaveSpider	net/minecraft/entity/monster/EntityCaveSpider
-net/minecraft/server/1_9_R2/EntityCreeper	net/minecraft/entity/monster/EntityCreeper
-net/minecraft/server/1_9_R2/EntityEnderman	net/minecraft/entity/monster/EntityEnderman
-net/minecraft/server/1_9_R2/EntityEnderman$1	net/minecraft/entity/monster/EntityEnderman$1
-net/minecraft/server/1_9_R2/EntityEnderman$PathfinderGoalEndermanPlaceBlock	net/minecraft/entity/monster/EntityEnderman$AIPlaceBlock
-net/minecraft/server/1_9_R2/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget	net/minecraft/entity/monster/EntityEnderman$AIFindPlayer
-net/minecraft/server/1_9_R2/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget$1	net/minecraft/entity/monster/EntityEnderman$AIFindPlayer$1
-net/minecraft/server/1_9_R2/EntityEnderman$PathfinderGoalEndermanPickupBlock	net/minecraft/entity/monster/EntityEnderman$AITakeBlock
-net/minecraft/server/1_9_R2/EntityEndermite	net/minecraft/entity/monster/EntityEndermite
-net/minecraft/server/1_9_R2/IMonster	net/minecraft/entity/monster/IMob
-net/minecraft/server/1_9_R2/IMonster$1	net/minecraft/entity/monster/IMob$1
-net/minecraft/server/1_9_R2/IMonster$2	net/minecraft/entity/monster/IMob$2
-net/minecraft/server/1_9_R2/EntityGhast	net/minecraft/entity/monster/EntityGhast
-net/minecraft/server/1_9_R2/EntityGhast$PathfinderGoalGhastMoveTowardsTarget	net/minecraft/entity/monster/EntityGhast$AILookAround
-net/minecraft/server/1_9_R2/EntityGhast$ControllerGhast	net/minecraft/entity/monster/EntityGhast$GhastMoveHelper
-net/minecraft/server/1_9_R2/EntityGhast$PathfinderGoalGhastAttackTarget	net/minecraft/entity/monster/EntityGhast$AIFireballAttack
-net/minecraft/server/1_9_R2/EntityGhast$PathfinderGoalGhastIdleMove	net/minecraft/entity/monster/EntityGhast$AIRandomFly
-net/minecraft/server/1_9_R2/EntityGiantZombie	net/minecraft/entity/monster/EntityGiantZombie
-net/minecraft/server/1_9_R2/EntityGuardian	net/minecraft/entity/monster/EntityGuardian
-net/minecraft/server/1_9_R2/EntityGuardian$1	net/minecraft/entity/monster/EntityGuardian$1
-net/minecraft/server/1_9_R2/EntityGuardian$PathfinderGoalGuardianAttack	net/minecraft/entity/monster/EntityGuardian$AIGuardianAttack
-net/minecraft/server/1_9_R2/EntityGuardian$EntitySelectorGuardianTargetHumanSquid	net/minecraft/entity/monster/EntityGuardian$GuardianTargetSelector
-net/minecraft/server/1_9_R2/EntityGuardian$ControllerMoveGuardian	net/minecraft/entity/monster/EntityGuardian$GuardianMoveHelper
-net/minecraft/server/1_9_R2/EntityMagmaCube	net/minecraft/entity/monster/EntityMagmaCube
-net/minecraft/server/1_9_R2/EntityMonster	net/minecraft/entity/monster/EntityMob
-net/minecraft/server/1_9_R2/EntityPigZombie	net/minecraft/entity/monster/EntityPigZombie
-net/minecraft/server/1_9_R2/EntityPigZombie$PathfinderGoalAnger	net/minecraft/entity/monster/EntityPigZombie$AITargetAggressor
-net/minecraft/server/1_9_R2/EntityPigZombie$PathfinderGoalAngerOther	net/minecraft/entity/monster/EntityPigZombie$AIHurtByAggressor
-net/minecraft/server/1_9_R2/IRangedEntity	net/minecraft/entity/IRangedAttackMob
-net/minecraft/server/1_9_R2/GenericAttributes	net/minecraft/entity/SharedMonsterAttributes
-net/minecraft/server/1_9_R2/EntityShulker	net/minecraft/entity/monster/EntityShulker
-net/minecraft/server/1_9_R2/EntityShulker$a	net/minecraft/entity/monster/EntityShulker$AIAttack
-net/minecraft/server/1_9_R2/EntityShulker$b	net/minecraft/entity/monster/EntityShulker$BodyHelper
-net/minecraft/server/1_9_R2/EntityShulker$c	net/minecraft/entity/monster/EntityShulker$AIDefenseAttack
-net/minecraft/server/1_9_R2/EntityShulker$c$1	net/minecraft/entity/monster/EntityShulker$AIDefenseAttack$1
-net/minecraft/server/1_9_R2/EntityShulker$d	net/minecraft/entity/monster/EntityShulker$AIAttackNearest
-net/minecraft/server/1_9_R2/EntityShulker$e	net/minecraft/entity/monster/EntityShulker$AIPeek
-net/minecraft/server/1_9_R2/EntitySilverfish	net/minecraft/entity/monster/EntitySilverfish
-net/minecraft/server/1_9_R2/EntitySilverfish$PathfinderGoalSilverfishHideInBlock	net/minecraft/entity/monster/EntitySilverfish$AIHideInStone
-net/minecraft/server/1_9_R2/EntitySilverfish$PathfinderGoalSilverfishWakeOthers	net/minecraft/entity/monster/EntitySilverfish$AISummonSilverfish
-net/minecraft/server/1_9_R2/EntitySkeleton	net/minecraft/entity/monster/EntitySkeleton
-net/minecraft/server/1_9_R2/EntitySkeleton$1	net/minecraft/entity/monster/EntitySkeleton$1
-net/minecraft/server/1_9_R2/EntitySlime	net/minecraft/entity/monster/EntitySlime
-net/minecraft/server/1_9_R2/EntitySlime$PathfinderGoalSlimeNearestPlayer	net/minecraft/entity/monster/EntitySlime$AISlimeAttack
-net/minecraft/server/1_9_R2/EntitySlime$PathfinderGoalSlimeRandomJump	net/minecraft/entity/monster/EntitySlime$AISlimeFloat
-net/minecraft/server/1_9_R2/EntitySlime$PathfinderGoalSlimeIdle	net/minecraft/entity/monster/EntitySlime$AISlimeHop
-net/minecraft/server/1_9_R2/EntitySlime$ControllerMoveSlime	net/minecraft/entity/monster/EntitySlime$SlimeMoveHelper
-net/minecraft/server/1_9_R2/EntitySlime$PathfinderGoalSlimeRandomDirection	net/minecraft/entity/monster/EntitySlime$AISlimeFaceRandom
-net/minecraft/server/1_9_R2/EntitySpider	net/minecraft/entity/monster/EntitySpider
-net/minecraft/server/1_9_R2/EntitySpider$PathfinderGoalSpiderMeleeAttack	net/minecraft/entity/monster/EntitySpider$AISpiderAttack
-net/minecraft/server/1_9_R2/EntitySpider$GroupDataSpider	net/minecraft/entity/monster/EntitySpider$GroupData
-net/minecraft/server/1_9_R2/EntitySpider$PathfinderGoalSpiderNearestAttackableTarget	net/minecraft/entity/monster/EntitySpider$AISpiderTarget
-net/minecraft/server/1_9_R2/EntityWitch	net/minecraft/entity/monster/EntityWitch
-net/minecraft/server/1_9_R2/CommandGamemodeDefault	net/minecraft/command/CommandDefaultGameMode
-net/minecraft/server/1_9_R2/EntityZombie	net/minecraft/entity/monster/EntityZombie
-net/minecraft/server/1_9_R2/EntityZombie$GroupDataZombie	net/minecraft/entity/monster/EntityZombie$GroupData
-net/minecraft/server/1_9_R2/NPC	net/minecraft/entity/INpc
-net/minecraft/server/1_9_R2/EntityVillager	net/minecraft/entity/passive/EntityVillager
-net/minecraft/server/1_9_R2/EntityVillager$MerchantRecipeOptionBuy	net/minecraft/entity/passive/EntityVillager$EmeraldForItems
-net/minecraft/server/1_9_R2/EntityVillager$MerchantRecipeOptionBook	net/minecraft/entity/passive/EntityVillager$ListEnchantedBookForEmeralds
-net/minecraft/server/1_9_R2/EntityVillager$MerchantRecipeOptionEnchant	net/minecraft/entity/passive/EntityVillager$ListEnchantedItemForEmeralds
-net/minecraft/server/1_9_R2/EntityVillager$MerchantRecipeOptionProcess	net/minecraft/entity/passive/EntityVillager$ItemAndEmeraldToItem
-net/minecraft/server/1_9_R2/EntityVillager$MerchantRecipeOptionSell	net/minecraft/entity/passive/EntityVillager$ListItemForEmeralds
-net/minecraft/server/1_9_R2/EntityVillager$IMerchantRecipeOption	net/minecraft/entity/passive/EntityVillager$ITradeList
-net/minecraft/server/1_9_R2/EntityVillager$MerchantOptionRandomRange	net/minecraft/entity/passive/EntityVillager$PriceInfo
-net/minecraft/server/1_9_R2/PlayerAbilities	net/minecraft/entity/player/PlayerCapabilities
-net/minecraft/server/1_9_R2/PlayerInventory	net/minecraft/entity/player/InventoryPlayer
-net/minecraft/server/1_9_R2/PlayerInventory$1	net/minecraft/entity/player/InventoryPlayer$1
-net/minecraft/server/1_9_R2/EntityHuman	net/minecraft/entity/player/EntityPlayer
-net/minecraft/server/1_9_R2/EntityHuman$EnumBedResult	net/minecraft/entity/player/EntityPlayer$SleepResult
-net/minecraft/server/1_9_R2/EntityHuman$EnumChatVisibility	net/minecraft/entity/player/EntityPlayer$EnumChatVisibility
-net/minecraft/server/1_9_R2/EntityArrow	net/minecraft/entity/projectile/EntityArrow
-net/minecraft/server/1_9_R2/EntityArrow$1	net/minecraft/entity/projectile/EntityArrow$1
-net/minecraft/server/1_9_R2/EntityArrow$PickupStatus	net/minecraft/entity/projectile/EntityArrow$PickupStatus
-net/minecraft/server/1_9_R2/EntityDragonFireball	net/minecraft/entity/projectile/EntityDragonFireball
-net/minecraft/server/1_9_R2/EntityEnderSignal	net/minecraft/entity/item/EntityEnderEye
-net/minecraft/server/1_9_R2/EntityFireball	net/minecraft/entity/projectile/EntityFireball
-net/minecraft/server/1_9_R2/EntityFireworks	net/minecraft/entity/item/EntityFireworkRocket
-net/minecraft/server/1_9_R2/EntityLargeFireball	net/minecraft/entity/projectile/EntityLargeFireball
-net/minecraft/server/1_9_R2/IProjectile	net/minecraft/entity/IProjectile
-net/minecraft/server/1_9_R2/ProjectileHelper	net/minecraft/entity/projectile/ProjectileHelper
-net/minecraft/server/1_9_R2/EntityShulkerBullet	net/minecraft/entity/projectile/EntityShulkerBullet
-net/minecraft/server/1_9_R2/EntitySmallFireball	net/minecraft/entity/projectile/EntitySmallFireball
-net/minecraft/server/1_9_R2/EntitySnowball	net/minecraft/entity/projectile/EntitySnowball
-net/minecraft/server/1_9_R2/EntitySpectralArrow	net/minecraft/entity/projectile/EntitySpectralArrow
-net/minecraft/server/1_9_R2/EntityProjectile	net/minecraft/entity/projectile/EntityThrowable
-net/minecraft/server/1_9_R2/EntityEgg	net/minecraft/entity/projectile/EntityEgg`);
+updateClassIndex(`Spigot:#CA8A04	Searge:#B91C1C	Obfuscated:#581C87
+%nm/server/1_9_R2/EnumChatFormat	%nm/util/text/TextFormatting	a
+%nm/server/1_9_R2/CommandEffect	%nm/command/CommandEffect	aa
+%nm/server/1_9_R2/EntityEnderPearl	%nm/entity/item/EntityEnderPearl	aaa
+%nm/server/1_9_R2/EntityThrownExpBottle	%nm/entity/item/EntityExpBottle	aab
+%nm/server/1_9_R2/EntityPotion	%nm/entity/projectile/EntityPotion	aac
+%nm/server/1_9_R2/EntityTippedArrow	%nm/entity/projectile/EntityTippedArrow	aad
+%nm/server/1_9_R2/EntityWitherSkull	%nm/entity/projectile/EntityWitherSkull	aae
+%nm/server/1_9_R2/EntityBoat	%nm/entity/item/EntityBoat	aag
+%nm/server/1_9_R2/EntityBoat$EnumStatus	%nm/entity/item/EntityBoat$Status	aag$a
+%nm/server/1_9_R2/EntityBoat$EnumBoatType	%nm/entity/item/EntityBoat$Type	aag$b
+%nm/server/1_9_R2/EntityMinecartAbstract	%nm/entity/item/EntityMinecart	aah
+%nm/server/1_9_R2/EntityMinecartAbstract$EnumMinecartType	%nm/entity/item/EntityMinecart$Type	aah$a
+%nm/server/1_9_R2/EntityMinecartChest	%nm/entity/item/EntityMinecartChest	aai
+%nm/server/1_9_R2/EntityMinecartCommandBlock	%nm/entity/item/EntityMinecartCommandBlock	aaj
+%nm/server/1_9_R2/EntityMinecartCommandBlock$1	%nm/entity/item/EntityMinecartCommandBlock$1	aaj$1
+%nm/server/1_9_R2/EntityMinecartContainer	%nm/entity/item/EntityMinecartContainer	aak
+%nm/server/1_9_R2/EntityMinecartFurnace	%nm/entity/item/EntityMinecartFurnace	aal
+%nm/server/1_9_R2/EntityMinecartHopper	%nm/entity/item/EntityMinecartHopper	aam
+%nm/server/1_9_R2/EntityMinecartRideable	%nm/entity/item/EntityMinecartEmpty	aan
+%nm/server/1_9_R2/EntityMinecartMobSpawner	%nm/entity/item/EntityMinecartMobSpawner	aao
+%nm/server/1_9_R2/EntityMinecartMobSpawner$1	%nm/entity/item/EntityMinecartMobSpawner$1	aao$1
+%nm/server/1_9_R2/EntityMinecartTNT	%nm/entity/item/EntityMinecartTNT	aap
+%nm/server/1_9_R2/FoodMetaData	%nm/util/FoodStats	aas
+%nm/server/1_9_R2/Container	%nm/inventory/Container	aau
+%nm/server/1_9_R2/InventoryHorseChest	%nm/inventory/AnimalChest	aav
+%nm/server/1_9_R2/ContainerAnvil	%nm/inventory/ContainerRepair	aaw
+%nm/server/1_9_R2/ContainerAnvil$1	%nm/inventory/ContainerRepair$1	aaw$1
+%nm/server/1_9_R2/ContainerAnvil$2	%nm/inventory/ContainerRepair$2	aaw$2
+%nm/server/1_9_R2/ContainerBeacon	%nm/inventory/ContainerBeacon	aax
+%nm/server/1_9_R2/ContainerBeacon$SlotBeacon	%nm/inventory/ContainerBeacon$BeaconSlot	aax$a
+%nm/server/1_9_R2/ContainerBrewingStand	%nm/inventory/ContainerBrewingStand	aay
+%nm/server/1_9_R2/ContainerBrewingStand$a	%nm/inventory/ContainerBrewingStand$Fuel	aay$a
+%nm/server/1_9_R2/ContainerBrewingStand$SlotBrewing	%nm/inventory/ContainerBrewingStand$Ingredient	aay$b
+%nm/server/1_9_R2/ContainerBrewingStand$SlotPotionBottle	%nm/inventory/ContainerBrewingStand$Potion	aay$c
+%nm/server/1_9_R2/InventoryClickType	%nm/inventory/ClickType	aaz
+%nm/server/1_9_R2/CommandMe	%nm/command/server/CommandEmote	ab
+%nm/server/1_9_R2/ICrafting	%nm/inventory/IContainerListener	aba
+%nm/server/1_9_R2/ContainerChest	%nm/inventory/ContainerChest	abb
+%nm/server/1_9_R2/InventoryCrafting	%nm/inventory/InventoryCrafting	abc
+%nm/server/1_9_R2/ContainerWorkbench	%nm/inventory/ContainerWorkbench	abd
+%nm/server/1_9_R2/ContainerDispenser	%nm/inventory/ContainerDispenser	abe
+%nm/server/1_9_R2/ContainerEnchantTable	%nm/inventory/ContainerEnchantment	abf
+%nm/server/1_9_R2/ContainerEnchantTable$1	%nm/inventory/ContainerEnchantment$1	abf$1
+%nm/server/1_9_R2/ContainerEnchantTable$2	%nm/inventory/ContainerEnchantment$2	abf$2
+%nm/server/1_9_R2/ContainerEnchantTable$3	%nm/inventory/ContainerEnchantment$3	abf$3
+%nm/server/1_9_R2/SlotFurnaceFuel	%nm/inventory/SlotFurnaceFuel	abg
+%nm/server/1_9_R2/ContainerFurnace	%nm/inventory/ContainerFurnace	abh
+%nm/server/1_9_R2/SlotFurnaceResult	%nm/inventory/SlotFurnaceOutput	abi
+%nm/server/1_9_R2/ContainerHopper	%nm/inventory/ContainerHopper	abj
+%nm/server/1_9_R2/ContainerHorse	%nm/inventory/ContainerHorseInventory	abk
+%nm/server/1_9_R2/ContainerHorse$1	%nm/inventory/ContainerHorseInventory$1	abk$1
+%nm/server/1_9_R2/ContainerHorse$2	%nm/inventory/ContainerHorseInventory$2	abk$2
+%nm/server/1_9_R2/ContainerPlayer	%nm/inventory/ContainerPlayer	abl
+%nm/server/1_9_R2/ContainerPlayer$1	%nm/inventory/ContainerPlayer$1	abl$1
+%nm/server/1_9_R2/ContainerPlayer$2	%nm/inventory/ContainerPlayer$2	abl$2
+%nm/server/1_9_R2/InventoryMerchant	%nm/inventory/InventoryMerchant	abn
+%nm/server/1_9_R2/ContainerMerchant	%nm/inventory/ContainerMerchant	abo
+%nm/server/1_9_R2/SlotMerchantResult	%nm/inventory/SlotMerchantResult	abp
+%nm/server/1_9_R2/InventoryEnderChest	%nm/inventory/InventoryEnderChest	abq
+%nm/server/1_9_R2/InventoryCraftResult	%nm/inventory/InventoryCraftResult	abr
+%nm/server/1_9_R2/SlotResult	%nm/inventory/SlotCrafting	abs
+%nm/server/1_9_R2/Slot	%nm/inventory/Slot	abt
+%nm/server/1_9_R2/ItemAnvil	%nm/item/ItemAnvilBlock	abv
+%nm/server/1_9_R2/ItemArmor	%nm/item/ItemArmor	abw
+%nm/server/1_9_R2/ItemArmor$1	%nm/item/ItemArmor$1	abw$1
+%nm/server/1_9_R2/ItemArmor$EnumArmorMaterial	%nm/item/ItemArmor$ArmorMaterial	abw$a
+%nm/server/1_9_R2/ItemArmorStand	%nm/item/ItemArmorStand	abx
+%nm/server/1_9_R2/ItemArrow	%nm/item/ItemArrow	aby
+%nm/server/1_9_R2/ItemAxe	%nm/item/ItemAxe	abz
+%nm/server/1_9_R2/CommandEnchant	%nm/command/CommandEnchant	ac
+%nm/server/1_9_R2/ItemBanner	%nm/item/ItemBanner	aca
+%nm/server/1_9_R2/ItemBed	%nm/item/ItemBed	acb
+%nm/server/1_9_R2/ItemBlock	%nm/item/ItemBlock	acc
+%nm/server/1_9_R2/ItemReed	%nm/item/ItemBlockSpecial	acd
+%nm/server/1_9_R2/ItemBoat	%nm/item/ItemBoat	ace
+%nm/server/1_9_R2/ItemBook	%nm/item/ItemBook	acf
+%nm/server/1_9_R2/ItemGlassBottle	%nm/item/ItemGlassBottle	acg
+%nm/server/1_9_R2/ItemGlassBottle$1	%nm/item/ItemGlassBottle$1	acg$1
+%nm/server/1_9_R2/ItemBow	%nm/item/ItemBow	ach
+%nm/server/1_9_R2/ItemBow$1	%nm/item/ItemBow$1	ach$1
+%nm/server/1_9_R2/ItemBow$2	%nm/item/ItemBow$2	ach$2
+%nm/server/1_9_R2/ItemSoup	%nm/item/ItemSoup	aci
+%nm/server/1_9_R2/ItemBucket	%nm/item/ItemBucket	acj
+%nm/server/1_9_R2/ItemCarrotStick	%nm/item/ItemCarrotOnAStick	ack
+%nm/server/1_9_R2/ItemChorusFruit	%nm/item/ItemChorusFruit	acl
+%nm/server/1_9_R2/ItemClock	%nm/item/ItemClock	acm
+%nm/server/1_9_R2/ItemClock$1	%nm/item/ItemClock$1	acm$1
+%nm/server/1_9_R2/ItemCoal	%nm/item/ItemCoal	acn
+%nm/server/1_9_R2/ItemCompass	%nm/item/ItemCompass	aco
+%nm/server/1_9_R2/ItemCompass$1	%nm/item/ItemCompass$1	aco$1
+%nm/server/1_9_R2/ItemWorldMapBase	%nm/item/ItemMapBase	acp
+%nm/server/1_9_R2/CreativeModeTab	%nm/creativetab/CreativeTabs	acq
+%nm/server/1_9_R2/CreativeModeTab$1	%nm/creativetab/CreativeTabs$1	acq$1
+%nm/server/1_9_R2/CreativeModeTab$10	%nm/creativetab/CreativeTabs$7	acq$10
+%nm/server/1_9_R2/CreativeModeTab$11	%nm/creativetab/CreativeTabs$8	acq$11
+%nm/server/1_9_R2/CreativeModeTab$12	%nm/creativetab/CreativeTabs$9	acq$12
+%nm/server/1_9_R2/CreativeModeTab$2	%nm/creativetab/CreativeTabs$10	acq$2
+%nm/server/1_9_R2/CreativeModeTab$3	%nm/creativetab/CreativeTabs$11	acq$3
+%nm/server/1_9_R2/CreativeModeTab$4	%nm/creativetab/CreativeTabs$12	acq$4
+%nm/server/1_9_R2/CreativeModeTab$5	%nm/creativetab/CreativeTabs$2	acq$5
+%nm/server/1_9_R2/CreativeModeTab$6	%nm/creativetab/CreativeTabs$3	acq$6
+%nm/server/1_9_R2/CreativeModeTab$7	%nm/creativetab/CreativeTabs$4	acq$7
+%nm/server/1_9_R2/CreativeModeTab$8	%nm/creativetab/CreativeTabs$5	acq$8
+%nm/server/1_9_R2/CreativeModeTab$9	%nm/creativetab/CreativeTabs$6	acq$9
+%nm/server/1_9_R2/ItemTool	%nm/item/ItemTool	acr
+%nm/server/1_9_R2/ItemDoor	%nm/item/ItemDoor	acs
+%nm/server/1_9_R2/EnumColor	%nm/item/EnumDyeColor	act
+%nm/server/1_9_R2/ItemDye	%nm/item/ItemDye	acu
+%nm/server/1_9_R2/ItemCloth	%nm/item/ItemCloth	acv
+%nm/server/1_9_R2/ItemEgg	%nm/item/ItemEgg	acw
+%nm/server/1_9_R2/ItemElytra	%nm/item/ItemElytra	acx
+%nm/server/1_9_R2/ItemElytra$1	%nm/item/ItemElytra$1	acx$1
+%nm/server/1_9_R2/ItemMapEmpty	%nm/item/ItemEmptyMap	acy
+%nm/server/1_9_R2/ItemEnchantedBook	%nm/item/ItemEnchantedBook	acz
+%nm/server/1_9_R2/CommandEntityData	%nm/command/CommandEntityData	ad
+%nm/server/1_9_R2/ItemEndCrystal	%nm/item/ItemEndCrystal	ada
+%nm/server/1_9_R2/ItemEnderEye	%nm/item/ItemEnderEye	adb
+%nm/server/1_9_R2/ItemEnderPearl	%nm/item/ItemEnderPearl	adc
+%nm/server/1_9_R2/ItemExpBottle	%nm/item/ItemExpBottle	add
+%nm/server/1_9_R2/ItemFireball	%nm/item/ItemFireball	ade
+%nm/server/1_9_R2/ItemFireworksCharge	%nm/item/ItemFireworkCharge	adf
+%nm/server/1_9_R2/ItemFireworks	%nm/item/ItemFirework	adg
+%nm/server/1_9_R2/ItemFish	%nm/item/ItemFishFood	adh
+%nm/server/1_9_R2/ItemFish$EnumFish	%nm/item/ItemFishFood$FishType	adh$a
+%nm/server/1_9_R2/ItemFishingRod	%nm/item/ItemFishingRod	adi
+%nm/server/1_9_R2/ItemFishingRod$1	%nm/item/ItemFishingRod$1	adi$1
+%nm/server/1_9_R2/ItemFlintAndSteel	%nm/item/ItemFlintAndSteel	adj
+%nm/server/1_9_R2/ItemFood	%nm/item/ItemFood	adk
+%nm/server/1_9_R2/ItemGoldenApple	%nm/item/ItemAppleGold	adl
+%nm/server/1_9_R2/ItemHanging	%nm/item/ItemHangingEntity	adm
+%nm/server/1_9_R2/ItemHoe	%nm/item/ItemHoe	adn
+%nm/server/1_9_R2/Item	%nm/item/Item	ado
+%nm/server/1_9_R2/Item$1	%nm/item/Item$1	ado$1
+%nm/server/1_9_R2/Item$10	%nm/item/Item$18	ado$10
+%nm/server/1_9_R2/Item$11	%nm/item/Item$19	ado$11
+%nm/server/1_9_R2/Item$12	%nm/item/Item$2	ado$12
+%nm/server/1_9_R2/Item$13	%nm/item/Item$20	ado$13
+%nm/server/1_9_R2/Item$14	%nm/item/Item$21	ado$14
+%nm/server/1_9_R2/Item$15	%nm/item/Item$3	ado$15
+%nm/server/1_9_R2/Item$16	%nm/item/Item$4	ado$16
+%nm/server/1_9_R2/Item$17	%nm/item/Item$5	ado$17
+%nm/server/1_9_R2/Item$18	%nm/item/Item$6	ado$18
+%nm/server/1_9_R2/Item$19	%nm/item/Item$7	ado$19
+%nm/server/1_9_R2/Item$2	%nm/item/Item$10	ado$2
+%nm/server/1_9_R2/Item$20	%nm/item/Item$8	ado$20
+%nm/server/1_9_R2/Item$21	%nm/item/Item$9	ado$21
+%nm/server/1_9_R2/Item$3	%nm/item/Item$11	ado$3
+%nm/server/1_9_R2/Item$4	%nm/item/Item$12	ado$4
+%nm/server/1_9_R2/Item$5	%nm/item/Item$13	ado$5
+%nm/server/1_9_R2/Item$6	%nm/item/Item$14	ado$6
+%nm/server/1_9_R2/Item$7	%nm/item/Item$15	ado$7
+%nm/server/1_9_R2/Item$8	%nm/item/Item$16	ado$8
+%nm/server/1_9_R2/Item$9	%nm/item/Item$17	ado$9
+%nm/server/1_9_R2/Item$EnumToolMaterial	%nm/item/Item$ToolMaterial	ado$a
+%nm/server/1_9_R2/ItemCooldown	%nm/util/CooldownTracker	adp
+%nm/server/1_9_R2/ItemCooldown$Info	%nm/util/CooldownTracker$Cooldown	adp$a
+%nm/server/1_9_R2/ItemStack	%nm/item/ItemStack	adq
+%nm/server/1_9_R2/IDynamicTexture	%nm/item/IItemPropertyGetter	adr
+%nm/server/1_9_R2/Items	%nm/init/Items	ads
+%nm/server/1_9_R2/ItemLeash	%nm/item/ItemLead	adt
+%nm/server/1_9_R2/ItemLeaves	%nm/item/ItemLeaves	adu
+%nm/server/1_9_R2/ItemLingeringPotion	%nm/item/ItemLingeringPotion	adv
+%nm/server/1_9_R2/ItemWorldMap	%nm/item/ItemMap	adw
+%nm/server/1_9_R2/ItemMilkBucket	%nm/item/ItemBucketMilk	adx
+%nm/server/1_9_R2/ItemMinecart	%nm/item/ItemMinecart	ady
+%nm/server/1_9_R2/ItemMinecart$1	%nm/item/ItemMinecart$1	ady$1
+%nm/server/1_9_R2/ItemMultiTexture	%nm/item/ItemMultiTexture	adz
+%nm/server/1_9_R2/ItemMultiTexture$1	%nm/item/ItemMultiTexture$1	adz$1
+%nm/server/1_9_R2/CommandExecute	%nm/command/CommandExecuteAt	ae
+%nm/server/1_9_R2/CommandExecute$1	%nm/command/CommandExecuteAt$1	ae$1
+%nm/server/1_9_R2/ItemNameTag	%nm/item/ItemNameTag	aea
+%nm/server/1_9_R2/ItemPickaxe	%nm/item/ItemPickaxe	aeb
+%nm/server/1_9_R2/ItemPiston	%nm/item/ItemPiston	aec
+%nm/server/1_9_R2/ItemPotion	%nm/item/ItemPotion	aed
+%nm/server/1_9_R2/EnumItemRarity	%nm/item/EnumRarity	aee
+%nm/server/1_9_R2/ItemRecord	%nm/item/ItemRecord	aef
+%nm/server/1_9_R2/ItemRedstone	%nm/item/ItemRedstone	aeg
+%nm/server/1_9_R2/ItemSaddle	%nm/item/ItemSaddle	aeh
+%nm/server/1_9_R2/ItemSeedFood	%nm/item/ItemSeedFood	aei
+%nm/server/1_9_R2/ItemSeeds	%nm/item/ItemSeeds	aej
+%nm/server/1_9_R2/ItemCooldownPlayer	%nm/util/CooldownTrackerServer	aek
+%nm/server/1_9_R2/ItemShears	%nm/item/ItemShears	ael
+%nm/server/1_9_R2/ItemShield	%nm/item/ItemShield	aem
+%nm/server/1_9_R2/ItemShield$1	%nm/item/ItemShield$1	aem$1
+%nm/server/1_9_R2/ItemSpade	%nm/item/ItemSpade	aen
+%nm/server/1_9_R2/ItemSign	%nm/item/ItemSign	aeo
+%nm/server/1_9_R2/ItemNetherStar	%nm/item/ItemSimpleFoiled	aep
+%nm/server/1_9_R2/ItemSkull	%nm/item/ItemSkull	aeq
+%nm/server/1_9_R2/ItemStep	%nm/item/ItemSlab	aer
+%nm/server/1_9_R2/ItemSnow	%nm/item/ItemSnow	aes
+%nm/server/1_9_R2/ItemSnowball	%nm/item/ItemSnowball	aet
+%nm/server/1_9_R2/ItemMonsterEgg	%nm/item/ItemMonsterPlacer	aeu
+%nm/server/1_9_R2/ItemSpectralArrow	%nm/item/ItemSpectralArrow	aev
+%nm/server/1_9_R2/ItemSplashPotion	%nm/item/ItemSplashPotion	aew
+%nm/server/1_9_R2/ItemSword	%nm/item/ItemSword	aex
+%nm/server/1_9_R2/ItemWithAuxData	%nm/item/ItemColored	aey
+%nm/server/1_9_R2/ItemTippedArrow	%nm/item/ItemTippedArrow	aez
+%nm/server/1_9_R2/CommandXp	%nm/command/CommandXP	af
+%nm/server/1_9_R2/EnumAnimation	%nm/item/EnumAction	afa
+%nm/server/1_9_R2/ItemWaterLily	%nm/item/ItemLilyPad	afb
+%nm/server/1_9_R2/ItemBookAndQuill	%nm/item/ItemWritableBook	afc
+%nm/server/1_9_R2/ItemWrittenBook	%nm/item/ItemWrittenBook	afd
+%nm/server/1_9_R2/PotionRegistry	%nm/potion/PotionType	afe
+%nm/server/1_9_R2/PotionBrewer	%nm/potion/PotionHelper	aff
+%nm/server/1_9_R2/PotionBrewer$1	%nm/potion/PotionHelper$1	aff$1
+%nm/server/1_9_R2/PotionBrewer$PredicateItem	%nm/potion/PotionHelper$ItemPredicateInstance	aff$a
+%nm/server/1_9_R2/PotionBrewer$PredicatedCombination	%nm/potion/PotionHelper$MixPredicate	aff$b
+%nm/server/1_9_R2/PotionUtil	%nm/potion/PotionUtils	afg
+%nm/server/1_9_R2/Potions	%nm/init/PotionTypes	afh
+%nm/server/1_9_R2/RecipeArmorDye	%nm/item/crafting/RecipesArmorDyes	afj
+%nm/server/1_9_R2/RecipesArmor	%nm/item/crafting/RecipesArmor	afk
+%nm/server/1_9_R2/RecipesBanner	%nm/item/crafting/RecipesBanners	afl
+%nm/server/1_9_R2/RecipesBanner$AddRecipe	%nm/item/crafting/RecipesBanners$RecipeAddPattern	afl$a
+%nm/server/1_9_R2/RecipesBanner$DuplicateRecipe	%nm/item/crafting/RecipesBanners$RecipeDuplicatePattern	afl$b
+%nm/server/1_9_R2/RecipeBookClone	%nm/item/crafting/RecipeBookCloning	afm
+%nm/server/1_9_R2/RecipesDyes	%nm/item/crafting/RecipesDyes	afn
+%nm/server/1_9_R2/RecipeFireworks	%nm/item/crafting/RecipeFireworks	afo
+%nm/server/1_9_R2/RecipesFood	%nm/item/crafting/RecipesFood	afp
+%nm/server/1_9_R2/RecipesFurnace	%nm/item/crafting/FurnaceRecipes	afq
+%nm/server/1_9_R2/RecipeMapClone	%nm/item/crafting/RecipesMapCloning	afr
+%nm/server/1_9_R2/RecipeMapExtend	%nm/item/crafting/RecipesMapExtending	afs
+%nm/server/1_9_R2/RecipeIngots	%nm/item/crafting/RecipesIngots	aft
+%nm/server/1_9_R2/IRecipe	%nm/item/crafting/IRecipe	afu
+%nm/server/1_9_R2/CraftingManager	%nm/item/crafting/CraftingManager	afv
+%nm/server/1_9_R2/CraftingManager$1	%nm/item/crafting/CraftingManager$1	afv$1
+%nm/server/1_9_R2/RecipeRepair	%nm/item/crafting/RecipeRepairItem	afw
+%nm/server/1_9_R2/ShapedRecipes	%nm/item/crafting/ShapedRecipes	afx
+%nm/server/1_9_R2/ShapelessRecipes	%nm/item/crafting/ShapelessRecipes	afy
+%nm/server/1_9_R2/RecipiesShield	%nm/item/crafting/ShieldRecipes	afz
+%nm/server/1_9_R2/RecipiesShield$Decoration	%nm/item/crafting/ShieldRecipes$Decoration	afz$a
+%nm/server/1_9_R2/CommandFill	%nm/command/CommandFill	ag
+%nm/server/1_9_R2/RecipesCrafting	%nm/item/crafting/RecipesCrafting	aga
+%nm/server/1_9_R2/RecipeTippedArrow	%nm/item/crafting/RecipeTippedArrow	agb
+%nm/server/1_9_R2/RecipesTools	%nm/item/crafting/RecipesTools	agc
+%nm/server/1_9_R2/RecipesWeapons	%nm/item/crafting/RecipesWeapons	agd
+%nm/server/1_9_R2/EnchantmentArrowDamage	%nm/enchantment/EnchantmentArrowDamage	agf
+%nm/server/1_9_R2/EnchantmentFlameArrows	%nm/enchantment/EnchantmentArrowFire	agg
+%nm/server/1_9_R2/EnchantmentInfiniteArrows	%nm/enchantment/EnchantmentArrowInfinite	agh
+%nm/server/1_9_R2/EnchantmentArrowKnockback	%nm/enchantment/EnchantmentArrowKnockback	agi
+%nm/server/1_9_R2/EnchantmentWeaponDamage	%nm/enchantment/EnchantmentDamage	agj
+%nm/server/1_9_R2/EnchantmentDurability	%nm/enchantment/EnchantmentDurability	agk
+%nm/server/1_9_R2/EnchantmentDigging	%nm/enchantment/EnchantmentDigging	agl
+%nm/server/1_9_R2/Enchantment	%nm/enchantment/Enchantment	agm
+%nm/server/1_9_R2/Enchantment$Rarity	%nm/enchantment/Enchantment$Rarity	agm$a
+%nm/server/1_9_R2/EnchantmentSlotType	%nm/enchantment/EnumEnchantmentType	agn
+%nm/server/1_9_R2/EnchantmentManager	%nm/enchantment/EnchantmentHelper	ago
+%nm/server/1_9_R2/EnchantmentManager$EnchantmentModifierArthropods	%nm/enchantment/EnchantmentHelper$DamageIterator	ago$a
+%nm/server/1_9_R2/EnchantmentManager$EnchantmentModifierThorns	%nm/enchantment/EnchantmentHelper$HurtIterator	ago$b
+%nm/server/1_9_R2/EnchantmentManager$EnchantmentModifier	%nm/enchantment/EnchantmentHelper$IModifier	ago$c
+%nm/server/1_9_R2/EnchantmentManager$EnchantmentModifierDamage	%nm/enchantment/EnchantmentHelper$ModifierLiving	ago$d
+%nm/server/1_9_R2/EnchantmentManager$EnchantmentModifierProtection	%nm/enchantment/EnchantmentHelper$ModifierDamage	ago$e
+%nm/server/1_9_R2/WeightedRandomEnchant	%nm/enchantment/EnchantmentData	agp
+%nm/server/1_9_R2/Enchantments	%nm/init/Enchantments	agq
+%nm/server/1_9_R2/EnchantmentFire	%nm/enchantment/EnchantmentFireAspect	agr
+%nm/server/1_9_R2/EnchantmentLure	%nm/enchantment/EnchantmentFishingSpeed	ags
+%nm/server/1_9_R2/EnchantmentFrostWalker	%nm/enchantment/EnchantmentFrostWalker	agt
+%nm/server/1_9_R2/EnchantmentKnockback	%nm/enchantment/EnchantmentKnockback	agu
+%nm/server/1_9_R2/EnchantmentLootBonus	%nm/enchantment/EnchantmentLootBonus	agv
+%nm/server/1_9_R2/EnchantmentMending	%nm/enchantment/EnchantmentMending	agw
+%nm/server/1_9_R2/EnchantmentOxygen	%nm/enchantment/EnchantmentOxygen	agx
+%nm/server/1_9_R2/EnchantmentProtection	%nm/enchantment/EnchantmentProtection	agy
+%nm/server/1_9_R2/EnchantmentProtection$DamageType	%nm/enchantment/EnchantmentProtection$Type	agy$a
+%nm/server/1_9_R2/EnchantmentThorns	%nm/enchantment/EnchantmentThorns	agz
+%nm/server/1_9_R2/CommandDifficulty	%nm/command/CommandDifficulty	ah
+%nm/server/1_9_R2/EnchantmentSilkTouch	%nm/enchantment/EnchantmentUntouching	aha
+%nm/server/1_9_R2/EnchantmentDepthStrider	%nm/enchantment/EnchantmentWaterWalker	ahb
+%nm/server/1_9_R2/EnchantmentWaterWorker	%nm/enchantment/EnchantmentWaterWorker	ahc
+%nm/server/1_9_R2/IMerchant	%nm/entity/IMerchant	ahf
+%nm/server/1_9_R2/MerchantRecipe	%nm/village/MerchantRecipe	ahg
+%nm/server/1_9_R2/MerchantRecipeList	%nm/village/MerchantRecipeList	ahh
+%nm/server/1_9_R2/CommandBlockListenerAbstract	%nm/tileentity/CommandBlockBaseLogic	ahj
+%nm/server/1_9_R2/CommandBlockListenerAbstract$1	%nm/tileentity/CommandBlockBaseLogic$1	ahj$1
+%nm/server/1_9_R2/CommandBlockListenerAbstract$2	%nm/tileentity/CommandBlockBaseLogic$2	ahj$2
+%nm/server/1_9_R2/MobSpawnerAbstract	%nm/tileentity/MobSpawnerBaseLogic	ahk
+%nm/server/1_9_R2/BlockActionData	%nm/block/BlockEventData	ahl
+%nm/server/1_9_R2/ChunkCoordIntPair	%nm/util/math/ChunkPos	ahn
+%nm/server/1_9_R2/Explosion	%nm/world/Explosion	ahp
+%nm/server/1_9_R2/GameRules	%nm/world/GameRules	ahr
+%nm/server/1_9_R2/GameRules$GameRuleValue	%nm/world/GameRules$Value	ahr$a
+%nm/server/1_9_R2/GameRules$EnumGameRuleType	%nm/world/GameRules$ValueType	ahr$b
+%nm/server/1_9_R2/World	%nm/world/World	aht
+%nm/server/1_9_R2/World$1	%nm/world/World$1	aht$1
+%nm/server/1_9_R2/World$2	%nm/world/World$2	aht$2
+%nm/server/1_9_R2/World$3	%nm/world/World$3	aht$3
+%nm/server/1_9_R2/World$4	%nm/world/World$4	aht$4
+%nm/server/1_9_R2/ExceptionWorldConflict	%nm/world/MinecraftException	ahu
+%nm/server/1_9_R2/IWorldAccess	%nm/world/IWorldEventListener	ahv
+%nm/server/1_9_R2/WorldSettings	%nm/world/WorldSettings	ahw
+%nm/server/1_9_R2/WorldSettings$EnumGamemode	%nm/world/WorldSettings$GameType	ahw$a
+%nm/server/1_9_R2/IBlockAccess	%nm/world/IBlockAccess	ahx
+%nm/server/1_9_R2/WorldType	%nm/world/WorldType	ahy
+%nm/server/1_9_R2/EnumSkyBlock	%nm/world/EnumSkyBlock	ahz
+%nm/server/1_9_R2/CommandGamemode	%nm/command/CommandGameMode	ai
+%nm/server/1_9_R2/SpawnerCreature	%nm/world/WorldEntitySpawner	aia
+%nm/server/1_9_R2/PortalTravelAgent	%nm/world/Teleporter	aib
+%nm/server/1_9_R2/PortalTravelAgent$ChunkCoordinatesPortal	%nm/world/Teleporter$PortalPosition	aib$a
+%nm/server/1_9_R2/ChunkCache	%nm/world/ChunkCache	aic
+%nm/server/1_9_R2/MobSpawnerData	%nm/util/WeightedSpawnerEntity	aid
+%nm/server/1_9_R2/NextTickListEntry	%nm/world/NextTickListEntry	aie
+%nm/server/1_9_R2/BiomeBeach	%nm/world/biome/BiomeBeach	aif
+%nm/server/1_9_R2/BiomeBase	%nm/world/biome/Biome	aig
+%nm/server/1_9_R2/BiomeBase$a	%nm/world/biome/Biome$BiomeProperties	aig$a
+%nm/server/1_9_R2/BiomeBase$EnumTemperature	%nm/world/biome/Biome$TempCategory	aig$b
+%nm/server/1_9_R2/BiomeBase$BiomeMeta	%nm/world/biome/Biome$SpawnListEntry	aig$c
+%nm/server/1_9_R2/BiomeCache	%nm/world/biome/BiomeCache	aih
+%nm/server/1_9_R2/BiomeCache$a	%nm/world/biome/BiomeCache$Block	aih$a
+%nm/server/1_9_R2/BiomeDecorator	%nm/world/biome/BiomeDecorator	aij
+%nm/server/1_9_R2/WorldChunkManager	%nm/world/biome/BiomeProvider	aik
+%nm/server/1_9_R2/Biomes	%nm/init/Biomes	ail
+%nm/server/1_9_R2/BiomeDesert	%nm/world/biome/BiomeDesert	aim
+%nm/server/1_9_R2/BiomeBigHills	%nm/world/biome/BiomeHills	ain
+%nm/server/1_9_R2/BiomeBigHills$Type	%nm/world/biome/BiomeHills$Type	ain$a
+%nm/server/1_9_R2/WorldChunkManagerHell	%nm/world/biome/BiomeProviderSingle	aio
+%nm/server/1_9_R2/BiomeForest	%nm/world/biome/BiomeForest	aip
+%nm/server/1_9_R2/BiomeForest$Type	%nm/world/biome/BiomeForest$Type	aip$a
+%nm/server/1_9_R2/BiomeHell	%nm/world/biome/BiomeHell	aiq
+%nm/server/1_9_R2/BiomeIcePlains	%nm/world/biome/BiomeSnow	air
+%nm/server/1_9_R2/BiomeJungle	%nm/world/biome/BiomeJungle	ais
+%nm/server/1_9_R2/BiomeMesa	%nm/world/biome/BiomeMesa	ait
+%nm/server/1_9_R2/BiomeMushrooms	%nm/world/biome/BiomeMushroomIsland	aiu
+%nm/server/1_9_R2/BiomeForestMutated	%nm/world/biome/BiomeForestMutated	aiv
+%nm/server/1_9_R2/BiomeSavannaMutated	%nm/world/biome/BiomeSavannaMutated	aiw
+%nm/server/1_9_R2/BiomeOcean	%nm/world/biome/BiomeOcean	aix
+%nm/server/1_9_R2/BiomePlains	%nm/world/biome/BiomePlains	aiy
+%nm/server/1_9_R2/BiomeRiver	%nm/world/biome/BiomeRiver	aiz
+%nm/server/1_9_R2/CommandGamerule	%nm/command/CommandGameRule	aj
+%nm/server/1_9_R2/BiomeSavanna	%nm/world/biome/BiomeSavanna	aja
+%nm/server/1_9_R2/BiomeStoneBeach	%nm/world/biome/BiomeStoneBeach	ajb
+%nm/server/1_9_R2/BiomeSwamp	%nm/world/biome/BiomeSwamp	ajc
+%nm/server/1_9_R2/BiomeTaiga	%nm/world/biome/BiomeTaiga	ajd
+%nm/server/1_9_R2/BiomeTaiga$Type	%nm/world/biome/BiomeTaiga$Type	ajd$a
+%nm/server/1_9_R2/BiomeTheEnd	%nm/world/biome/BiomeEnd	aje
+%nm/server/1_9_R2/BiomeTheEndDecorator	%nm/world/biome/BiomeEndDecorator	ajf
+%nm/server/1_9_R2/BiomeTheEndDecorator$SpikeCache	%nm/world/biome/BiomeEndDecorator$SpikeCacheLoader	ajf$a
+%nm/server/1_9_R2/BiomeVoid	%nm/world/biome/BiomeVoid	ajg
+%nm/server/1_9_R2/BiomeVoidDecorator	%nm/world/biome/BiomeVoidDecorator	ajh
+%nm/server/1_9_R2/BlockAir	%nm/block/BlockAir	ajj
+%nm/server/1_9_R2/BlockAnvil	%nm/block/BlockAnvil	ajk
+%nm/server/1_9_R2/BlockAnvil$TileEntityContainerAnvil	%nm/block/BlockAnvil$Anvil	ajk$a
+%nm/server/1_9_R2/BlockBanner	%nm/block/BlockBanner	ajl
+%nm/server/1_9_R2/BlockBanner$BlockStandingBanner	%nm/block/BlockBanner$BlockBannerStanding	ajl$a
+%nm/server/1_9_R2/BlockBanner$BlockWallBanner	%nm/block/BlockBanner$BlockBannerHanging	ajl$b
+%nm/server/1_9_R2/BlockBarrier	%nm/block/BlockBarrier	ajm
+%nm/server/1_9_R2/BlockTileEntity	%nm/block/BlockContainer	ajn
+%nm/server/1_9_R2/BlockPressurePlateAbstract	%nm/block/BlockBasePressurePlate	ajo
+%nm/server/1_9_R2/BlockMinecartTrackAbstract	%nm/block/BlockRailBase	ajp
+%nm/server/1_9_R2/BlockMinecartTrackAbstract$MinecartTrackLogic	%nm/block/BlockRailBase$Rail	ajp$a
+%nm/server/1_9_R2/BlockMinecartTrackAbstract$EnumTrackPosition	%nm/block/BlockRailBase$EnumRailDirection	ajp$b
+%nm/server/1_9_R2/BlockBeacon	%nm/block/BlockBeacon	ajq
+%nm/server/1_9_R2/BlockBeacon$1	%nm/block/BlockBeacon$1	ajq$1
+%nm/server/1_9_R2/BlockBeacon$1$1	%nm/block/BlockBeacon$1$1	ajq$1$1
+%nm/server/1_9_R2/BlockBed	%nm/block/BlockBed	ajr
+%nm/server/1_9_R2/BlockBed$EnumBedPart	%nm/block/BlockBed$EnumPartType	ajr$a
+%nm/server/1_9_R2/BlockBeetroot	%nm/block/BlockBeetroot	ajs
+%nm/server/1_9_R2/Block	%nm/block/Block	ajt
+%nm/server/1_9_R2/Blocks	%nm/init/Blocks	aju
+%nm/server/1_9_R2/IBlockFragilePlantElement	%nm/block/IGrowable	ajv
+%nm/server/1_9_R2/BlockBookshelf	%nm/block/BlockBookshelf	ajw
+%nm/server/1_9_R2/BlockBrewingStand	%nm/block/BlockBrewingStand	ajx
+%nm/server/1_9_R2/BlockPlant	%nm/block/BlockBush	ajy
+%nm/server/1_9_R2/BlockButtonAbstract	%nm/block/BlockButton	ajz
+%nm/server/1_9_R2/CommandGive	%nm/command/CommandGive	ak
+%nm/server/1_9_R2/BlockCactus	%nm/block/BlockCactus	aka
+%nm/server/1_9_R2/BlockCake	%nm/block/BlockCake	akb
+%nm/server/1_9_R2/BlockCarrots	%nm/block/BlockCarrot	akc
+%nm/server/1_9_R2/BlockCauldron	%nm/block/BlockCauldron	akd
+%nm/server/1_9_R2/BlockChest	%nm/block/BlockChest	ake
+%nm/server/1_9_R2/BlockChest$Type	%nm/block/BlockChest$Type	ake$a
+%nm/server/1_9_R2/BlockChorusFlower	%nm/block/BlockChorusFlower	akf
+%nm/server/1_9_R2/BlockChorusFruit	%nm/block/BlockChorusPlant	akg
+%nm/server/1_9_R2/BlockClay	%nm/block/BlockClay	akh
+%nm/server/1_9_R2/BlockCocoa	%nm/block/BlockCocoa	aki
+%nm/server/1_9_R2/BlockCloth	%nm/block/BlockColored	akj
+%nm/server/1_9_R2/BlockCommand	%nm/block/BlockCommandBlock	akk
+%nm/server/1_9_R2/BlockRedstoneComparator	%nm/block/BlockRedstoneComparator	akl
+%nm/server/1_9_R2/BlockRedstoneComparator$1	%nm/block/BlockRedstoneComparator$1	akl$1
+%nm/server/1_9_R2/BlockRedstoneComparator$EnumComparatorMode	%nm/block/BlockRedstoneComparator$Mode	akl$a
+%nm/server/1_9_R2/BlockWorkbench	%nm/block/BlockWorkbench	akm
+%nm/server/1_9_R2/BlockWorkbench$TileEntityContainerWorkbench	%nm/block/BlockWorkbench$InterfaceCraftingTable	akm$a
+%nm/server/1_9_R2/BlockCrops	%nm/block/BlockCrops	akn
+%nm/server/1_9_R2/BlockDaylightDetector	%nm/block/BlockDaylightDetector	ako
+%nm/server/1_9_R2/BlockDeadBush	%nm/block/BlockDeadBush	akp
+%nm/server/1_9_R2/BlockMinecartDetector	%nm/block/BlockRailDetector	akq
+%nm/server/1_9_R2/BlockMinecartDetector$1	%nm/block/BlockRailDetector$1	akq$1
+%nm/server/1_9_R2/BlockDiodeAbstract	%nm/block/BlockRedstoneDiode	akr
+%nm/server/1_9_R2/BlockDirectional	%nm/block/BlockDirectional	aks
+%nm/server/1_9_R2/BlockDirt	%nm/block/BlockDirt	akt
+%nm/server/1_9_R2/BlockDirt$EnumDirtVariant	%nm/block/BlockDirt$DirtType	akt$a
+%nm/server/1_9_R2/BlockDispenser	%nm/block/BlockDispenser	aku
+%nm/server/1_9_R2/BlockDoor	%nm/block/BlockDoor	akv
+%nm/server/1_9_R2/BlockDoor$EnumDoorHalf	%nm/block/BlockDoor$EnumDoorHalf	akv$a
+%nm/server/1_9_R2/BlockDoor$EnumDoorHinge	%nm/block/BlockDoor$EnumHingePosition	akv$b
+%nm/server/1_9_R2/BlockTallPlant	%nm/block/BlockDoublePlant	akw
+%nm/server/1_9_R2/BlockTallPlant$EnumTallPlantHalf	%nm/block/BlockDoublePlant$EnumBlockHalf	akw$a
+%nm/server/1_9_R2/BlockTallPlant$EnumTallFlowerVariants	%nm/block/BlockDoublePlant$EnumPlantType	akw$b
+%nm/server/1_9_R2/BlockDragonEgg	%nm/block/BlockDragonEgg	akx
+%nm/server/1_9_R2/BlockDropper	%nm/block/BlockDropper	aky
+%nm/server/1_9_R2/BlockFlowing	%nm/block/BlockDynamicLiquid	akz
+%nm/server/1_9_R2/CommandHelp	%nm/command/CommandHelp	al
+%nm/server/1_9_R2/BlockEnchantmentTable	%nm/block/BlockEnchantmentTable	ala
+%nm/server/1_9_R2/BlockEndGateway	%nm/block/BlockEndGateway	alb
+%nm/server/1_9_R2/BlockEnderPortal	%nm/block/BlockEndPortal	alc
+%nm/server/1_9_R2/BlockEnderPortalFrame	%nm/block/BlockEndPortalFrame	ald
+%nm/server/1_9_R2/BlockEndRod	%nm/block/BlockEndRod	ale
+%nm/server/1_9_R2/BlockEnderChest	%nm/block/BlockEnderChest	alf
+%nm/server/1_9_R2/ITileEntity	%nm/block/ITileEntityProvider	alg
+%nm/server/1_9_R2/BlockFalling	%nm/block/BlockFalling	alh
+%nm/server/1_9_R2/BlockSoil	%nm/block/BlockFarmland	ali
+%nm/server/1_9_R2/BlockFence	%nm/block/BlockFence	alj
+%nm/server/1_9_R2/BlockFenceGate	%nm/block/BlockFenceGate	alk
+%nm/server/1_9_R2/BlockFire	%nm/block/BlockFire	all
+%nm/server/1_9_R2/BlockFlowers	%nm/block/BlockFlower	alm
+%nm/server/1_9_R2/BlockFlowers$1	%nm/block/BlockFlower$1	alm$1
+%nm/server/1_9_R2/BlockFlowers$EnumFlowerVarient	%nm/block/BlockFlower$EnumFlowerType	alm$a
+%nm/server/1_9_R2/BlockFlowers$EnumFlowerVarient$1	%nm/block/BlockFlower$EnumFlowerType$1	alm$a$1
+%nm/server/1_9_R2/BlockFlowers$EnumFlowerType	%nm/block/BlockFlower$EnumFlowerColor	alm$b
+%nm/server/1_9_R2/BlockFlowerPot	%nm/block/BlockFlowerPot	aln
+%nm/server/1_9_R2/BlockFlowerPot$EnumFlowerPotContents	%nm/block/BlockFlowerPot$EnumFlowerType	aln$a
+%nm/server/1_9_R2/BlockIceFrost	%nm/block/BlockFrostedIce	alo
+%nm/server/1_9_R2/BlockDoubleStoneStep2	%nm/block/BlockDoubleStoneSlabNew	alp
+%nm/server/1_9_R2/BlockDoubleStep	%nm/block/BlockDoubleStoneSlab	alq
+%nm/server/1_9_R2/BlockDoubleWoodStep	%nm/block/BlockDoubleWoodSlab	alr
+%nm/server/1_9_R2/BlockFurnace	%nm/block/BlockFurnace	als
+%nm/server/1_9_R2/BlockGlass	%nm/block/BlockGlass	alt
+%nm/server/1_9_R2/BlockLightStone	%nm/block/BlockGlowstone	alu
+%nm/server/1_9_R2/BlockGrass	%nm/block/BlockGrass	alv
+%nm/server/1_9_R2/BlockGrassPath	%nm/block/BlockGrassPath	alw
+%nm/server/1_9_R2/BlockGravel	%nm/block/BlockGravel	alx
+%nm/server/1_9_R2/BlockStoneStep2	%nm/block/BlockHalfStoneSlabNew	aly
+%nm/server/1_9_R2/BlockStepAbstract	%nm/block/BlockSlab	alz
+%nm/server/1_9_R2/BlockStepAbstract$EnumSlabHalf	%nm/block/BlockSlab$EnumBlockHalf	alz$a
+%nm/server/1_9_R2/CommandKick	%nm/command/CommandServerKick	am
+%nm/server/1_9_R2/BlockStep	%nm/block/BlockHalfStoneSlab	ama
+%nm/server/1_9_R2/BlockHalfTransparent	%nm/block/BlockBreakable	amb
+%nm/server/1_9_R2/BlockWoodStep	%nm/block/BlockHalfWoodSlab	amc
+%nm/server/1_9_R2/BlockHardenedClay	%nm/block/BlockHardenedClay	amd
+%nm/server/1_9_R2/BlockHay	%nm/block/BlockHay	ame
+%nm/server/1_9_R2/BlockHopper	%nm/block/BlockHopper	amf
+%nm/server/1_9_R2/BlockHopper$1	%nm/block/BlockHopper$1	amf$1
+%nm/server/1_9_R2/BlockFacingHorizontal	%nm/block/BlockHorizontal	amg
+%nm/server/1_9_R2/BlockHugeMushroom	%nm/block/BlockHugeMushroom	amh
+%nm/server/1_9_R2/BlockHugeMushroom$EnumHugeMushroomVariant	%nm/block/BlockHugeMushroom$EnumType	amh$a
+%nm/server/1_9_R2/BlockIce	%nm/block/BlockIce	ami
+%nm/server/1_9_R2/BlockJukeBox	%nm/block/BlockJukebox	amj
+%nm/server/1_9_R2/BlockJukeBox$TileEntityRecordPlayer	%nm/block/BlockJukebox$TileEntityJukebox	amj$a
+%nm/server/1_9_R2/BlockLadder	%nm/block/BlockLadder	amk
+%nm/server/1_9_R2/BlockLeaves	%nm/block/BlockLeaves	aml
+%nm/server/1_9_R2/BlockLever	%nm/block/BlockLever	amn
+%nm/server/1_9_R2/BlockLever$EnumLeverPosition	%nm/block/BlockLever$EnumOrientation	amn$a
+%nm/server/1_9_R2/BlockFluids	%nm/block/BlockLiquid	amo
+%nm/server/1_9_R2/BlockLogAbstract	%nm/block/BlockLog	amp
+%nm/server/1_9_R2/BlockLogAbstract$EnumLogRotation	%nm/block/BlockLog$EnumAxis	amp$a
+%nm/server/1_9_R2/BlockMelon	%nm/block/BlockMelon	amq
+%nm/server/1_9_R2/EnumBlockMirror	%nm/util/Mirror	amr
+%nm/server/1_9_R2/BlockMobSpawner	%nm/block/BlockMobSpawner	ams
+%nm/server/1_9_R2/BlockMonsterEggs	%nm/block/BlockSilverfish	amt
+%nm/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient	%nm/block/BlockSilverfish$EnumType	amt$a
+%nm/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$1	%nm/block/BlockSilverfish$EnumType$1	amt$a$1
+%nm/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$2	%nm/block/BlockSilverfish$EnumType$2	amt$a$2
+%nm/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$3	%nm/block/BlockSilverfish$EnumType$3	amt$a$3
+%nm/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$4	%nm/block/BlockSilverfish$EnumType$4	amt$a$4
+%nm/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$5	%nm/block/BlockSilverfish$EnumType$5	amt$a$5
+%nm/server/1_9_R2/BlockMonsterEggs$EnumMonsterEggVarient$6	%nm/block/BlockSilverfish$EnumType$6	amt$a$6
+%nm/server/1_9_R2/BlockMushroom	%nm/block/BlockMushroom	amu
+%nm/server/1_9_R2/BlockMycel	%nm/block/BlockMycelium	amv
+%nm/server/1_9_R2/BlockNetherbrick	%nm/block/BlockNetherBrick	amw
+%nm/server/1_9_R2/BlockNetherWart	%nm/block/BlockNetherWart	amx
+%nm/server/1_9_R2/BlockBloodStone	%nm/block/BlockNetherrack	amy
+%nm/server/1_9_R2/BlockLeaves2	%nm/block/BlockNewLeaf	amz
+%nm/server/1_9_R2/BlockLeaves2$1	%nm/block/BlockNewLeaf$1	amz$1
+%nm/server/1_9_R2/CommandKill	%nm/command/CommandKill	an
+%nm/server/1_9_R2/BlockLog2	%nm/block/BlockNewLog	ana
+%nm/server/1_9_R2/BlockLog2$1	%nm/block/BlockNewLog$1	ana$1
+%nm/server/1_9_R2/BlockDoubleStoneStepAbstract	%nm/block/BlockStoneSlabNew	anb
+%nm/server/1_9_R2/BlockDoubleStoneStepAbstract$EnumStoneSlab2Variant	%nm/block/BlockStoneSlabNew$EnumType	anb$a
+%nm/server/1_9_R2/BlockNoDrop	%nm/block/BlockEmptyDrops	anc
+%nm/server/1_9_R2/BlockNote	%nm/block/BlockNote	and
+%nm/server/1_9_R2/BlockObsidian	%nm/block/BlockObsidian	ane
+%nm/server/1_9_R2/BlockLeaves1	%nm/block/BlockOldLeaf	anf
+%nm/server/1_9_R2/BlockLeaves1$1	%nm/block/BlockOldLeaf$1	anf$1
+%nm/server/1_9_R2/BlockLog1	%nm/block/BlockOldLog	ang
+%nm/server/1_9_R2/BlockLog1$1	%nm/block/BlockOldLog$1	ang$1
+%nm/server/1_9_R2/BlockOre	%nm/block/BlockOre	anh
+%nm/server/1_9_R2/BlockPackedIce	%nm/block/BlockPackedIce	ani
+%nm/server/1_9_R2/BlockWood	%nm/block/BlockPlanks	anj
+%nm/server/1_9_R2/BlockWood$EnumLogVariant	%nm/block/BlockPlanks$EnumType	anj$a
+%nm/server/1_9_R2/BlockPortal	%nm/block/BlockPortal	ank
+%nm/server/1_9_R2/BlockPortal$Shape	%nm/block/BlockPortal$Size	ank$a
+%nm/server/1_9_R2/BlockPotatoes	%nm/block/BlockPotato	anl
+%nm/server/1_9_R2/BlockPowered	%nm/block/BlockCompressedPowered	anm
+%nm/server/1_9_R2/BlockPoweredRail	%nm/block/BlockRailPowered	ann
+%nm/server/1_9_R2/BlockPoweredRail$1	%nm/block/BlockRailPowered$1	ann$1
+%nm/server/1_9_R2/BlockPressurePlateBinary	%nm/block/BlockPressurePlate	ano
+%nm/server/1_9_R2/BlockPressurePlateBinary$EnumMobType	%nm/block/BlockPressurePlate$Sensitivity	ano$a
+%nm/server/1_9_R2/BlockPrismarine	%nm/block/BlockPrismarine	anp
+%nm/server/1_9_R2/BlockPrismarine$EnumPrismarineVariant	%nm/block/BlockPrismarine$EnumType	anp$a
+%nm/server/1_9_R2/BlockPumpkin	%nm/block/BlockPumpkin	anq
+%nm/server/1_9_R2/BlockPumpkin$1	%nm/block/BlockPumpkin$1	anq$1
+%nm/server/1_9_R2/BlockPurpurSlab	%nm/block/BlockPurpurSlab	anr
+%nm/server/1_9_R2/BlockPurpurSlab$Default	%nm/block/BlockPurpurSlab$Double	anr$a
+%nm/server/1_9_R2/BlockPurpurSlab$Half	%nm/block/BlockPurpurSlab$Half	anr$b
+%nm/server/1_9_R2/BlockPurpurSlab$Type	%nm/block/BlockPurpurSlab$Variant	anr$c
+%nm/server/1_9_R2/BlockQuartz	%nm/block/BlockQuartz	ans
+%nm/server/1_9_R2/BlockQuartz$EnumQuartzVariant	%nm/block/BlockQuartz$EnumType	ans$a
+%nm/server/1_9_R2/BlockMinecartTrack	%nm/block/BlockRail	ant
+%nm/server/1_9_R2/BlockRedFlowers	%nm/block/BlockRedFlower	anu
+%nm/server/1_9_R2/BlockRedSandstone	%nm/block/BlockRedSandstone	anv
+%nm/server/1_9_R2/BlockRedSandstone$EnumRedSandstoneVariant	%nm/block/BlockRedSandstone$EnumType	anv$a
+%nm/server/1_9_R2/BlockRedstoneOre	%nm/block/BlockRedstoneOre	anw
+%nm/server/1_9_R2/BlockRedstoneWire	%nm/block/BlockRedstoneWire	anx
+%nm/server/1_9_R2/BlockRedstoneWire$EnumRedstoneWireConnection	%nm/block/BlockRedstoneWire$EnumAttachPosition	anx$a
+%nm/server/1_9_R2/BlockRedstoneLamp	%nm/block/BlockRedstoneLight	any
+%nm/server/1_9_R2/BlockRedstoneTorch	%nm/block/BlockRedstoneTorch	anz
+%nm/server/1_9_R2/BlockRedstoneTorch$RedstoneUpdateInfo	%nm/block/BlockRedstoneTorch$Toggle	anz$a
+%nm/server/1_9_R2/CommandBanList	%nm/command/server/CommandListBans	ao
+%nm/server/1_9_R2/BlockReed	%nm/block/BlockReed	aoa
+%nm/server/1_9_R2/EnumRenderType	%nm/util/EnumBlockRenderType	aob
+%nm/server/1_9_R2/BlockRepeater	%nm/block/BlockRedstoneRepeater	aoc
+%nm/server/1_9_R2/BlockRotatable	%nm/block/BlockRotatedPillar	aod
+%nm/server/1_9_R2/EnumBlockRotation	%nm/util/Rotation	aoe
+%nm/server/1_9_R2/BlockSand	%nm/block/BlockSand	aof
+%nm/server/1_9_R2/BlockSand$EnumSandVariant	%nm/block/BlockSand$EnumType	aof$a
+%nm/server/1_9_R2/BlockSandStone	%nm/block/BlockSandStone	aog
+%nm/server/1_9_R2/BlockSandStone$EnumSandstoneVariant	%nm/block/BlockSandStone$EnumType	aog$a
+%nm/server/1_9_R2/BlockSapling	%nm/block/BlockSapling	aoh
+%nm/server/1_9_R2/BlockSeaLantern	%nm/block/BlockSeaLantern	aoi
+%nm/server/1_9_R2/BlockSign	%nm/block/BlockSign	aoj
+%nm/server/1_9_R2/BlockSkull	%nm/block/BlockSkull	aok
+%nm/server/1_9_R2/BlockSkull$1	%nm/block/BlockSkull$1	aok$1
+%nm/server/1_9_R2/BlockSlime	%nm/block/BlockSlime	aol
+%nm/server/1_9_R2/BlockSnowBlock	%nm/block/BlockSnowBlock	aom
+%nm/server/1_9_R2/BlockSnow	%nm/block/BlockSnow	aon
+%nm/server/1_9_R2/BlockSlowSand	%nm/block/BlockSoulSand	aoo
+%nm/server/1_9_R2/SoundEffectType	%nm/block/SoundType	aop
+%nm/server/1_9_R2/BlockSponge	%nm/block/BlockSponge	aoq
+%nm/server/1_9_R2/BlockStainedGlass	%nm/block/BlockStainedGlass	aor
+%nm/server/1_9_R2/BlockStainedGlassPane	%nm/block/BlockStainedGlassPane	aos
+%nm/server/1_9_R2/BlockStairs	%nm/block/BlockStairs	aot
+%nm/server/1_9_R2/BlockStairs$EnumHalf	%nm/block/BlockStairs$EnumHalf	aot$a
+%nm/server/1_9_R2/BlockStairs$EnumStairShape	%nm/block/BlockStairs$EnumShape	aot$b
+%nm/server/1_9_R2/BlockFloorSign	%nm/block/BlockStandingSign	aou
+%nm/server/1_9_R2/BlockStationary	%nm/block/BlockStaticLiquid	aov
+%nm/server/1_9_R2/BlockStem	%nm/block/BlockStem	aow
+%nm/server/1_9_R2/BlockStone	%nm/block/BlockStone	aox
+%nm/server/1_9_R2/BlockStone$EnumStoneVariant	%nm/block/BlockStone$EnumType	aox$a
+%nm/server/1_9_R2/BlockSmoothBrick	%nm/block/BlockStoneBrick	aoy
+%nm/server/1_9_R2/BlockSmoothBrick$EnumStonebrickType	%nm/block/BlockStoneBrick$EnumType	aoy$a
+%nm/server/1_9_R2/BlockStoneButton	%nm/block/BlockButtonStone	aoz
+%nm/server/1_9_R2/CommandList	%nm/command/server/CommandListPlayers	ap
+%nm/server/1_9_R2/BlockDoubleStepAbstract	%nm/block/BlockStoneSlab	apa
+%nm/server/1_9_R2/BlockDoubleStepAbstract$EnumStoneSlabVariant	%nm/block/BlockStoneSlab$EnumType	apa$a
+%nm/server/1_9_R2/BlockStructure	%nm/block/BlockStructure	apb
+%nm/server/1_9_R2/BlockLongGrass	%nm/block/BlockTallGrass	apc
+%nm/server/1_9_R2/BlockLongGrass$EnumTallGrassType	%nm/block/BlockTallGrass$EnumType	apc$a
+%nm/server/1_9_R2/BlockThin	%nm/block/BlockPane	apd
+%nm/server/1_9_R2/BlockTNT	%nm/block/BlockTNT	ape
+%nm/server/1_9_R2/BlockTorch	%nm/block/BlockTorch	apf
+%nm/server/1_9_R2/BlockTorch$1	%nm/block/BlockTorch$1	apf$1
+%nm/server/1_9_R2/BlockTrapdoor	%nm/block/BlockTrapDoor	apg
+%nm/server/1_9_R2/BlockTrapdoor$EnumTrapdoorHalf	%nm/block/BlockTrapDoor$DoorHalf	apg$a
+%nm/server/1_9_R2/BlockTripwire	%nm/block/BlockTripWire	aph
+%nm/server/1_9_R2/BlockTripwireHook	%nm/block/BlockTripWireHook	api
+%nm/server/1_9_R2/BlockVine	%nm/block/BlockVine	apj
+%nm/server/1_9_R2/BlockCobbleWall	%nm/block/BlockWall	apk
+%nm/server/1_9_R2/BlockCobbleWall$EnumCobbleVariant	%nm/block/BlockWall$EnumType	apk$a
+%nm/server/1_9_R2/BlockWallSign	%nm/block/BlockWallSign	apl
+%nm/server/1_9_R2/BlockWaterLily	%nm/block/BlockLilyPad	apm
+%nm/server/1_9_R2/BlockWeb	%nm/block/BlockWeb	apn
+%nm/server/1_9_R2/BlockPressurePlateWeighted	%nm/block/BlockPressurePlateWeighted	apo
+%nm/server/1_9_R2/BlockWoodButton	%nm/block/BlockButtonWood	app
+%nm/server/1_9_R2/BlockWoodenStep	%nm/block/BlockWoodSlab	apq
+%nm/server/1_9_R2/BlockCarpet	%nm/block/BlockCarpet	apr
+%nm/server/1_9_R2/BlockYellowFlowers	%nm/block/BlockYellowFlower	aps
+%nm/server/1_9_R2/TileEntityBanner	%nm/tileentity/TileEntityBanner	apt
+%nm/server/1_9_R2/TileEntityBanner$EnumBannerPatternType	%nm/tileentity/TileEntityBanner$EnumBannerPattern	apt$a
+%nm/server/1_9_R2/TileEntityBeacon	%nm/tileentity/TileEntityBeacon	apu
+%nm/server/1_9_R2/TileEntityBeacon$BeaconColorTracker	%nm/tileentity/TileEntityBeacon$BeamSegment	apu$a
+%nm/server/1_9_R2/TileEntity	%nm/tileentity/TileEntity	apv
+%nm/server/1_9_R2/TileEntity$1	%nm/tileentity/TileEntity$1	apv$1
+%nm/server/1_9_R2/TileEntity$2	%nm/tileentity/TileEntity$2	apv$2
+%nm/server/1_9_R2/TileEntity$3	%nm/tileentity/TileEntity$3	apv$3
+%nm/server/1_9_R2/TileEntityBrewingStand	%nm/tileentity/TileEntityBrewingStand	apw
+%nm/server/1_9_R2/TileEntityChest	%nm/tileentity/TileEntityChest	apx
+%nm/server/1_9_R2/TileEntityCommand	%nm/tileentity/TileEntityCommandBlock	apy
+%nm/server/1_9_R2/TileEntityCommand$1	%nm/tileentity/TileEntityCommandBlock$1	apy$1
+%nm/server/1_9_R2/TileEntityCommand$Type	%nm/tileentity/TileEntityCommandBlock$Mode	apy$a
+%nm/server/1_9_R2/TileEntityComparator	%nm/tileentity/TileEntityComparator	apz
+%nm/server/1_9_R2/CommandTell	%nm/command/server/CommandMessage	aq
+%nm/server/1_9_R2/TileEntityLightDetector	%nm/tileentity/TileEntityDaylightDetector	aqa
+%nm/server/1_9_R2/TileEntityDispenser	%nm/tileentity/TileEntityDispenser	aqb
+%nm/server/1_9_R2/TileEntityDropper	%nm/tileentity/TileEntityDropper	aqc
+%nm/server/1_9_R2/TileEntityEnchantTable	%nm/tileentity/TileEntityEnchantmentTable	aqd
+%nm/server/1_9_R2/TileEntityEnderChest	%nm/tileentity/TileEntityEnderChest	aqe
+%nm/server/1_9_R2/TileEntityFlowerPot	%nm/tileentity/TileEntityFlowerPot	aqf
+%nm/server/1_9_R2/TileEntityFurnace	%nm/tileentity/TileEntityFurnace	aqg
+%nm/server/1_9_R2/IHopper	%nm/tileentity/IHopper	aqh
+%nm/server/1_9_R2/TileEntityHopper	%nm/tileentity/TileEntityHopper	aqi
+%nm/server/1_9_R2/TileEntityContainer	%nm/tileentity/TileEntityLockable	aqj
+%nm/server/1_9_R2/TileEntityMobSpawner	%nm/tileentity/TileEntityMobSpawner	aqk
+%nm/server/1_9_R2/TileEntityMobSpawner$1	%nm/tileentity/TileEntityMobSpawner$1	aqk$1
+%nm/server/1_9_R2/TileEntityNote	%nm/tileentity/TileEntityNote	aql
+%nm/server/1_9_R2/TileEntityLootable	%nm/tileentity/TileEntityLockableLoot	aqm
+%nm/server/1_9_R2/TileEntitySign	%nm/tileentity/TileEntitySign	aqn
+%nm/server/1_9_R2/TileEntitySign$1	%nm/tileentity/TileEntitySign$1	aqn$1
+%nm/server/1_9_R2/TileEntitySign$2	%nm/tileentity/TileEntitySign$2	aqn$2
+%nm/server/1_9_R2/TileEntitySkull	%nm/tileentity/TileEntitySkull	aqo
+%nm/server/1_9_R2/TileEntityStructure	%nm/tileentity/TileEntityStructure	aqp
+%nm/server/1_9_R2/TileEntityStructure$1	%nm/tileentity/TileEntityStructure$1	aqp$1
+%nm/server/1_9_R2/TileEntityStructure$UsageMode	%nm/tileentity/TileEntityStructure$Mode	aqp$a
+%nm/server/1_9_R2/TileEntityEndGateway	%nm/tileentity/TileEntityEndGateway	aqq
+%nm/server/1_9_R2/TileEntityEnderPortal	%nm/tileentity/TileEntityEndPortal	aqr
+%nm/server/1_9_R2/BlockPiston	%nm/block/BlockPistonBase	aqu
+%nm/server/1_9_R2/BlockPistonExtension	%nm/block/BlockPistonExtension	aqv
+%nm/server/1_9_R2/BlockPistonExtension$EnumPistonType	%nm/block/BlockPistonExtension$EnumPistonType	aqv$a
+%nm/server/1_9_R2/BlockPistonMoving	%nm/block/BlockPistonMoving	aqw
+%nm/server/1_9_R2/TileEntityPiston	%nm/tileentity/TileEntityPiston	aqx
+%nm/server/1_9_R2/PistonExtendsChecker	%nm/block/state/BlockPistonStructureHelper	aqy
+%nm/server/1_9_R2/CommandOp	%nm/command/server/CommandOp	ar
+%nm/server/1_9_R2/BlockDataAbstract	%nm/block/state/BlockStateBase	ara
+%nm/server/1_9_R2/BlockDataAbstract$1	%nm/block/state/BlockStateBase$1	ara$1
+%nm/server/1_9_R2/IBlockPhysics	%nm/block/state/IBlockBehaviors	arb
+%nm/server/1_9_R2/IBlockProperties	%nm/block/state/IBlockProperties	arc
+%nm/server/1_9_R2/IBlockData	%nm/block/state/IBlockState	ard
+%nm/server/1_9_R2/BlockStateList	%nm/block/state/BlockStateContainer	are
+%nm/server/1_9_R2/BlockStateList$1	%nm/block/state/BlockStateContainer$1	are$1
+%nm/server/1_9_R2/BlockStateList$BlockData	%nm/block/state/BlockStateContainer$StateImplementation	are$a
+%nm/server/1_9_R2/ShapeDetectorBlock	%nm/block/state/BlockWorldState	arg
+%nm/server/1_9_R2/ShapeDetectorBlock$1	%nm/block/state/BlockWorldState$1	arg$1
+%nm/server/1_9_R2/ShapeDetectorBlock$2	%nm/block/state/BlockWorldState$2	arg$2
+%nm/server/1_9_R2/ShapeDetector	%nm/block/state/pattern/BlockPattern	arh
+%nm/server/1_9_R2/ShapeDetector$BlockLoader	%nm/block/state/pattern/BlockPattern$CacheLoader	arh$a
+%nm/server/1_9_R2/ShapeDetector$ShapeDetectorCollection	%nm/block/state/pattern/BlockPattern$PatternHelper	arh$b
+%nm/server/1_9_R2/ShapeDetectorBuilder	%nm/block/state/pattern/FactoryBlockPattern	ari
+%nm/server/1_9_R2/BlockPredicate	%nm/block/state/pattern/BlockMatcher	ark
+%nm/server/1_9_R2/BlockStatePredicate	%nm/block/state/pattern/BlockStateMatcher	arl
+%nm/server/1_9_R2/BlockStatePredicate$1	%nm/block/state/pattern/BlockStateMatcher$1	arl$1
+%nm/server/1_9_R2/BlockState	%nm/block/properties/PropertyHelper	arn
+%nm/server/1_9_R2/BlockStateBoolean	%nm/block/properties/PropertyBool	aro
+%nm/server/1_9_R2/BlockStateDirection	%nm/block/properties/PropertyDirection	arp
+%nm/server/1_9_R2/BlockStateEnum	%nm/block/properties/PropertyEnum	arq
+%nm/server/1_9_R2/BlockStateInteger	%nm/block/properties/PropertyInteger	arr
+%nm/server/1_9_R2/IBlockState	%nm/block/properties/IProperty	ars
+%nm/server/1_9_R2/IWorldBorderListener	%nm/world/border/IBorderListener	aru
+%nm/server/1_9_R2/EnumWorldBorderState	%nm/world/border/EnumBorderStatus	arv
+%nm/server/1_9_R2/WorldBorder	%nm/world/border/WorldBorder	arw
+%nm/server/1_9_R2/DataPaletteBlock	%nm/world/chunk/BlockStateContainer	ary
+%nm/server/1_9_R2/ChunkGenerator	%nm/world/chunk/IChunkGenerator	arz
+%nm/server/1_9_R2/CommandPardonIP	%nm/command/server/CommandPardonIp	as
+%nm/server/1_9_R2/IChunkProvider	%nm/world/chunk/IChunkProvider	asa
+%nm/server/1_9_R2/NibbleArray	%nm/world/chunk/NibbleArray	asb
+%nm/server/1_9_R2/DataPaletteGlobal	%nm/world/chunk/BlockStatePaletteRegistry	asd
+%nm/server/1_9_R2/DataPaletteHash	%nm/world/chunk/BlockStatePaletteHashMap	ase
+%nm/server/1_9_R2/Chunk	%nm/world/chunk/Chunk	asf
+%nm/server/1_9_R2/Chunk$1	%nm/world/chunk/Chunk$1	asf$1
+%nm/server/1_9_R2/Chunk$EnumTileEntityState	%nm/world/chunk/Chunk$EnumCreateEntityType	asf$a
+%nm/server/1_9_R2/ChunkSection	%nm/world/chunk/storage/ExtendedBlockStorage	asg
+%nm/server/1_9_R2/DataPaletteLinear	%nm/world/chunk/BlockStatePaletteLinear	ash
+%nm/server/1_9_R2/OldNibbleArray	%nm/world/chunk/storage/NibbleArrayReader	asi
+%nm/server/1_9_R2/DataPalette	%nm/world/chunk/IBlockStatePalette	asj
+%nm/server/1_9_R2/DataPaletteExpandable	%nm/world/chunk/IBlockStatePaletteResizer	ask
+%nm/server/1_9_R2/IChunkLoader	%nm/world/chunk/storage/IChunkLoader	asn
+%nm/server/1_9_R2/OldChunkLoader	%nm/world/chunk/storage/ChunkLoader	asq
+%nm/server/1_9_R2/OldChunkLoader$OldChunk	%nm/world/chunk/storage/ChunkLoader$AnvilConverterData	asq$a
+%nm/server/1_9_R2/RegionFile	%nm/world/chunk/storage/RegionFile	asr
+%nm/server/1_9_R2/RegionFile$ChunkBuffer	%nm/world/chunk/storage/RegionFile$ChunkBuffer	asr$a
+%nm/server/1_9_R2/RegionFileCache	%nm/world/chunk/storage/RegionFileCache	ass
+%nm/server/1_9_R2/ChunkRegionLoader	%nm/world/chunk/storage/AnvilChunkLoader	ast
+%nm/server/1_9_R2/WorldProvider	%nm/world/WorldProvider	asv
+%nm/server/1_9_R2/DimensionManager	%nm/world/DimensionType	asw
+%nm/server/1_9_R2/WorldProviderHell	%nm/world/WorldProviderHell	asx
+%nm/server/1_9_R2/WorldProviderHell$1	%nm/world/WorldProviderHell$1	asx$1
+%nm/server/1_9_R2/WorldProviderNormal	%nm/world/WorldProviderSurface	asy
+%nm/server/1_9_R2/EnumDragonRespawn	%nm/world/end/DragonSpawnManager	asz
+%nm/server/1_9_R2/EnumDragonRespawn$1	%nm/world/end/DragonSpawnManager$1	asz$1
+%nm/server/1_9_R2/EnumDragonRespawn$2	%nm/world/end/DragonSpawnManager$2	asz$2
+%nm/server/1_9_R2/EnumDragonRespawn$3	%nm/world/end/DragonSpawnManager$3	asz$3
+%nm/server/1_9_R2/EnumDragonRespawn$4	%nm/world/end/DragonSpawnManager$4	asz$4
+%nm/server/1_9_R2/EnumDragonRespawn$5	%nm/world/end/DragonSpawnManager$5	asz$5
+%nm/server/1_9_R2/CommandPardon	%nm/command/server/CommandPardonPlayer	at
+%nm/server/1_9_R2/EnderDragonBattle	%nm/world/end/DragonFightManager	ata
+%nm/server/1_9_R2/WorldProviderTheEnd	%nm/world/WorldProviderEnd	atb
+%nm/server/1_9_R2/WorldGenCanyon	%nm/world/gen/MapGenRavine	ate
+%nm/server/1_9_R2/ChunkSnapshot	%nm/world/chunk/ChunkPrimer	atf
+%nm/server/1_9_R2/CustomWorldSettingsFinal	%nm/world/gen/ChunkProviderSettings	atg
+%nm/server/1_9_R2/CustomWorldSettingsFinal$CustomWorldSettings	%nm/world/gen/ChunkProviderSettings$Factory	atg$a
+%nm/server/1_9_R2/CustomWorldSettingsFinal$CustomWorldSettingsSerializer	%nm/world/gen/ChunkProviderSettings$Serializer	atg$b
+%nm/server/1_9_R2/ChunkProviderDebug	%nm/world/gen/ChunkProviderDebug	ath
+%nm/server/1_9_R2/ChunkProviderFlat	%nm/world/gen/ChunkProviderFlat	ati
+%nm/server/1_9_R2/WorldGenCaves	%nm/world/gen/MapGenCaves	atj
+%nm/server/1_9_R2/WorldGenBase	%nm/world/gen/MapGenBase	atk
+%nm/server/1_9_R2/WorldGenCavesHell	%nm/world/gen/MapGenCavesHell	atl
+%nm/server/1_9_R2/ChunkProviderHell	%nm/world/gen/ChunkProviderHell	atm
+%nm/server/1_9_R2/ChunkProviderGenerate	%nm/world/gen/ChunkProviderOverworld	atn
+%nm/server/1_9_R2/ChunkProviderTheEnd	%nm/world/gen/ChunkProviderEnd	ato
+%nm/server/1_9_R2/WorldGenTreeAbstract	%nm/world/gen/feature/WorldGenAbstractTree	atp
+%nm/server/1_9_R2/WorldGenBigTree	%nm/world/gen/feature/WorldGenBigTree	atq
+%nm/server/1_9_R2/WorldGenBigTree$Position	%nm/world/gen/feature/WorldGenBigTree$FoliageCoordinates	atq$a
+%nm/server/1_9_R2/WorldGenForest	%nm/world/gen/feature/WorldGenBirchTree	atr
+%nm/server/1_9_R2/WorldGenTaigaStructure	%nm/world/gen/feature/WorldGenBlockBlob	ats
+%nm/server/1_9_R2/WorldGenBonusChest	%nm/world/gen/feature/WorldGeneratorBonusChest	att
+%nm/server/1_9_R2/WorldGenMushrooms	%nm/world/gen/feature/WorldGenBush	atu
+%nm/server/1_9_R2/WorldGenCactus	%nm/world/gen/feature/WorldGenCactus	atv
+%nm/server/1_9_R2/WorldGenClay	%nm/world/gen/feature/WorldGenClay	atw
+%nm/server/1_9_R2/WorldGenDeadBush	%nm/world/gen/feature/WorldGenDeadBush	atx
+%nm/server/1_9_R2/WorldGenDesertWell	%nm/world/gen/feature/WorldGenDesertWells	aty
+%nm/server/1_9_R2/WorldGenTallPlant	%nm/world/gen/feature/WorldGenDoublePlant	atz
+%nm/server/1_9_R2/CommandParticle	%nm/command/CommandParticle	au
+%nm/server/1_9_R2/WorldGenEndGateway	%nm/world/gen/feature/WorldGenEndGateway	aua
+%nm/server/1_9_R2/WorldGenEndIsland	%nm/world/gen/feature/WorldGenEndIsland	aub
+%nm/server/1_9_R2/WorldGenEndTrophy	%nm/world/gen/feature/WorldGenEndPodium	auc
+%nm/server/1_9_R2/WorldGenerator	%nm/world/gen/feature/WorldGenerator	aud
+%nm/server/1_9_R2/WorldGenFlowers	%nm/world/gen/feature/WorldGenFlowers	aue
+%nm/server/1_9_R2/WorldGenGroundBush	%nm/world/gen/feature/WorldGenShrub	auf
+%nm/server/1_9_R2/WorldGenFire	%nm/world/gen/feature/WorldGenFire	aug
+%nm/server/1_9_R2/WorldGenLightStone2	%nm/world/gen/feature/WorldGenGlowStone2	auh
+%nm/server/1_9_R2/WorldGenHellLava	%nm/world/gen/feature/WorldGenHellLava	aui
+%nm/server/1_9_R2/WorldGenHugeMushroom	%nm/world/gen/feature/WorldGenBigMushroom	auj
+%nm/server/1_9_R2/WorldGenPackedIce1	%nm/world/gen/feature/WorldGenIcePath	auk
+%nm/server/1_9_R2/WorldGenPackedIce2	%nm/world/gen/feature/WorldGenIceSpike	aul
+%nm/server/1_9_R2/WorldGenLakes	%nm/world/gen/feature/WorldGenLakes	aum
+%nm/server/1_9_R2/WorldGenLightStone1	%nm/world/gen/feature/WorldGenGlowStone1	aun
+%nm/server/1_9_R2/WorldGenJungleTree	%nm/world/gen/feature/WorldGenMegaJungle	auo
+%nm/server/1_9_R2/WorldGenMegaTree	%nm/world/gen/feature/WorldGenMegaPineTree	aup
+%nm/server/1_9_R2/WorldGenMegaTreeAbstract	%nm/world/gen/feature/WorldGenHugeTrees	auq
+%nm/server/1_9_R2/WorldGenMelon	%nm/world/gen/feature/WorldGenMelon	aur
+%nm/server/1_9_R2/WorldGenDungeons	%nm/world/gen/feature/WorldGenDungeons	aus
+%nm/server/1_9_R2/WorldGenMinable	%nm/world/gen/feature/WorldGenMinable	aut
+%nm/server/1_9_R2/WorldGenTaiga1	%nm/world/gen/feature/WorldGenTaiga1	auu
+%nm/server/1_9_R2/WorldGenPumpkin	%nm/world/gen/feature/WorldGenPumpkin	auv
+%nm/server/1_9_R2/WorldGenReed	%nm/world/gen/feature/WorldGenReed	auw
+%nm/server/1_9_R2/WorldGenForestTree	%nm/world/gen/feature/WorldGenCanopyTree	auy
+%nm/server/1_9_R2/WorldGenSand	%nm/world/gen/feature/WorldGenSand	auz
+%nm/server/1_9_R2/CommandPlaySound	%nm/command/CommandPlaySound	av
+%nm/server/1_9_R2/WorldGenAcaciaTree	%nm/world/gen/feature/WorldGenSavannaTree	ava
+%nm/server/1_9_R2/WorldGenEnder	%nm/world/gen/feature/WorldGenSpikes	avb
+%nm/server/1_9_R2/WorldGenEnder$Spike	%nm/world/gen/feature/WorldGenSpikes$EndSpike	avb$a
+%nm/server/1_9_R2/WorldGenLiquids	%nm/world/gen/feature/WorldGenLiquids	avc
+%nm/server/1_9_R2/WorldGenTaiga2	%nm/world/gen/feature/WorldGenTaiga2	avd
+%nm/server/1_9_R2/WorldGenSwampTree	%nm/world/gen/feature/WorldGenSwamp	ave
+%nm/server/1_9_R2/WorldGenGrass	%nm/world/gen/feature/WorldGenTallGrass	avf
+%nm/server/1_9_R2/WorldGenTrees	%nm/world/gen/feature/WorldGenTrees	avg
+%nm/server/1_9_R2/WorldGenVines	%nm/world/gen/feature/WorldGenVines	avh
+%nm/server/1_9_R2/WorldGenWaterLily	%nm/world/gen/feature/WorldGenWaterlily	avi
+%nm/server/1_9_R2/WorldGenFlatInfo	%nm/world/gen/FlatGeneratorInfo	avk
+%nm/server/1_9_R2/WorldGenFlatLayerInfo	%nm/world/gen/FlatLayerInfo	avl
+%nm/server/1_9_R2/StructureBoundingBox	%nm/world/gen/structure/StructureBoundingBox	avp
+%nm/server/1_9_R2/WorldGenEndCity	%nm/world/gen/structure/MapGenEndCity	avq
+%nm/server/1_9_R2/WorldGenEndCity$Start	%nm/world/gen/structure/MapGenEndCity$Start	avq$a
+%nm/server/1_9_R2/WorldGenEndCityPieces	%nm/world/gen/structure/StructureEndCityPieces	avr
+%nm/server/1_9_R2/WorldGenEndCityPieces$1	%nm/world/gen/structure/StructureEndCityPieces$1	avr$1
+%nm/server/1_9_R2/WorldGenEndCityPieces$2	%nm/world/gen/structure/StructureEndCityPieces$2	avr$2
+%nm/server/1_9_R2/WorldGenEndCityPieces$3	%nm/world/gen/structure/StructureEndCityPieces$3	avr$3
+%nm/server/1_9_R2/WorldGenEndCityPieces$4	%nm/world/gen/structure/StructureEndCityPieces$4	avr$4
+%nm/server/1_9_R2/WorldGenEndCityPieces$Piece	%nm/world/gen/structure/StructureEndCityPieces$CityTemplate	avr$a
+%nm/server/1_9_R2/WorldGenEndCityPieces$PieceGenerator	%nm/world/gen/structure/StructureEndCityPieces$IGenerator	avr$b
+%nm/server/1_9_R2/WorldGenMineshaft	%nm/world/gen/structure/MapGenMineshaft	avs
+%nm/server/1_9_R2/WorldGenMineshaftPieces	%nm/world/gen/structure/StructureMineshaftPieces	avt
+%nm/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftCorridor	%nm/world/gen/structure/StructureMineshaftPieces$Corridor	avt$a
+%nm/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftCross	%nm/world/gen/structure/StructureMineshaftPieces$Cross	avt$b
+%nm/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftRoom	%nm/world/gen/structure/StructureMineshaftPieces$Room	avt$c
+%nm/server/1_9_R2/WorldGenMineshaftPieces$WorldGenMineshaftStairs	%nm/world/gen/structure/StructureMineshaftPieces$Stairs	avt$d
+%nm/server/1_9_R2/WorldGenMineshaftStart	%nm/world/gen/structure/StructureMineshaftStart	avu
+%nm/server/1_9_R2/WorldGenNether	%nm/world/gen/structure/MapGenNetherBridge	avv
+%nm/server/1_9_R2/WorldGenNether$WorldGenNetherStart	%nm/world/gen/structure/MapGenNetherBridge$Start	avv$a
+%nm/server/1_9_R2/WorldGenNetherPieces	%nm/world/gen/structure/StructureNetherBridgePieces	avw
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece1	%nm/world/gen/structure/StructureNetherBridgePieces$Crossing3	avw$a
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece2	%nm/world/gen/structure/StructureNetherBridgePieces$End	avw$b
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece3	%nm/world/gen/structure/StructureNetherBridgePieces$Straight	avw$c
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece4	%nm/world/gen/structure/StructureNetherBridgePieces$Corridor3	avw$d
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece5	%nm/world/gen/structure/StructureNetherBridgePieces$Corridor4	avw$e
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece6	%nm/world/gen/structure/StructureNetherBridgePieces$Entrance	avw$f
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece7	%nm/world/gen/structure/StructureNetherBridgePieces$Crossing2	avw$g
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece8	%nm/world/gen/structure/StructureNetherBridgePieces$Corridor	avw$h
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece9	%nm/world/gen/structure/StructureNetherBridgePieces$Corridor5	avw$i
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece10	%nm/world/gen/structure/StructureNetherBridgePieces$Corridor2	avw$j
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece11	%nm/world/gen/structure/StructureNetherBridgePieces$NetherStalkRoom	avw$k
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece12	%nm/world/gen/structure/StructureNetherBridgePieces$Throne	avw$l
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece	%nm/world/gen/structure/StructureNetherBridgePieces$Piece	avw$m
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPieceWeight	%nm/world/gen/structure/StructureNetherBridgePieces$PieceWeight	avw$n
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece13	%nm/world/gen/structure/StructureNetherBridgePieces$Crossing	avw$o
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece14	%nm/world/gen/structure/StructureNetherBridgePieces$Stairs	avw$p
+%nm/server/1_9_R2/WorldGenNetherPieces$WorldGenNetherPiece15	%nm/world/gen/structure/StructureNetherBridgePieces$Start	avw$q
+%nm/server/1_9_R2/WorldGenMonument	%nm/world/gen/structure/StructureOceanMonument	avx
+%nm/server/1_9_R2/WorldGenMonument$WorldGenMonumentStart	%nm/world/gen/structure/StructureOceanMonument$StartMonument	avx$a
+%nm/server/1_9_R2/WorldGenMonumentPieces	%nm/world/gen/structure/StructureOceanMonumentPieces	avy
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector7	%nm/world/gen/structure/StructureOceanMonumentPieces$XDoubleRoomFitHelper	avy$a
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector6	%nm/world/gen/structure/StructureOceanMonumentPieces$XYDoubleRoomFitHelper	avy$b
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector5	%nm/world/gen/structure/StructureOceanMonumentPieces$YDoubleRoomFitHelper	avy$c
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector4	%nm/world/gen/structure/StructureOceanMonumentPieces$YZDoubleRoomFitHelper	avy$d
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector3	%nm/world/gen/structure/StructureOceanMonumentPieces$ZDoubleRoomFitHelper	avy$e
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector2	%nm/world/gen/structure/StructureOceanMonumentPieces$FitSimpleRoomHelper	avy$f
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSelector1	%nm/world/gen/structure/StructureOceanMonumentPieces$FitSimpleRoomTopHelper	avy$g
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece1	%nm/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding	avy$h
+%nm/server/1_9_R2/WorldGenMonumentPieces$IWorldGenMonumentPieceSelector	%nm/world/gen/structure/StructureOceanMonumentPieces$MonumentRoomFitHelper	avy$i
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece2	%nm/world/gen/structure/StructureOceanMonumentPieces$MonumentCoreRoom	avy$j
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece3	%nm/world/gen/structure/StructureOceanMonumentPieces$DoubleXRoom	avy$k
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece4	%nm/world/gen/structure/StructureOceanMonumentPieces$DoubleXYRoom	avy$l
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece5	%nm/world/gen/structure/StructureOceanMonumentPieces$DoubleYRoom	avy$m
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece6	%nm/world/gen/structure/StructureOceanMonumentPieces$DoubleYZRoom	avy$n
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece7	%nm/world/gen/structure/StructureOceanMonumentPieces$DoubleZRoom	avy$o
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceEntry	%nm/world/gen/structure/StructureOceanMonumentPieces$EntryRoom	avy$p
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse	%nm/world/gen/structure/StructureOceanMonumentPieces$Penthouse	avy$q
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece	%nm/world/gen/structure/StructureOceanMonumentPieces$Piece	avy$r
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimple	%nm/world/gen/structure/StructureOceanMonumentPieces$SimpleRoom	avy$s
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT	%nm/world/gen/structure/StructureOceanMonumentPieces$SimpleTopRoom	avy$t
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentPiece8	%nm/world/gen/structure/StructureOceanMonumentPieces$WingRoom	avy$u
+%nm/server/1_9_R2/WorldGenMonumentPieces$WorldGenMonumentStateTracker	%nm/world/gen/structure/StructureOceanMonumentPieces$RoomDefinition	avy$v
+%nm/server/1_9_R2/WorldGenLargeFeature	%nm/world/gen/structure/MapGenScatteredFeature	avz
+%nm/server/1_9_R2/WorldGenLargeFeature$WorldGenLargeFeatureStart	%nm/world/gen/structure/MapGenScatteredFeature$Start	avz$a
+%nm/server/1_9_R2/CommandPublish	%nm/command/server/CommandPublishLocalServer	aw
+%nm/server/1_9_R2/WorldGenRegistration	%nm/world/gen/structure/ComponentScatteredFeaturePieces	awa
+%nm/server/1_9_R2/WorldGenRegistration$WorldGenPyramidPiece	%nm/world/gen/structure/ComponentScatteredFeaturePieces$DesertPyramid	awa$a
+%nm/server/1_9_R2/WorldGenRegistration$b	%nm/world/gen/structure/ComponentScatteredFeaturePieces$Igloo	awa$b
+%nm/server/1_9_R2/WorldGenRegistration$WorldGenJungleTemple	%nm/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid	awa$c
+%nm/server/1_9_R2/WorldGenRegistration$WorldGenJungleTemple$WorldGenJungleTemplePiece	%nm/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid$Stones	awa$c$a
+%nm/server/1_9_R2/WorldGenRegistration$WorldGenScatteredPiece	%nm/world/gen/structure/ComponentScatteredFeaturePieces$Feature	awa$d
+%nm/server/1_9_R2/WorldGenRegistration$WorldGenWitchHut	%nm/world/gen/structure/ComponentScatteredFeaturePieces$SwampHut	awa$e
+%nm/server/1_9_R2/WorldGenStronghold	%nm/world/gen/structure/MapGenStronghold	awb
+%nm/server/1_9_R2/WorldGenStronghold$WorldGenStronghold2Start	%nm/world/gen/structure/MapGenStronghold$Start	awb$a
+%nm/server/1_9_R2/WorldGenStrongholdPieces	%nm/world/gen/structure/StructureStrongholdPieces	awc
+%nm/server/1_9_R2/WorldGenStrongholdPieces$1	%nm/world/gen/structure/StructureStrongholdPieces$1	awc$1
+%nm/server/1_9_R2/WorldGenStrongholdPieces$2	%nm/world/gen/structure/StructureStrongholdPieces$2	awc$2
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor	%nm/world/gen/structure/StructureStrongholdPieces$ChestCorridor	awc$a
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdCorridor	%nm/world/gen/structure/StructureStrongholdPieces$Corridor	awc$b
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdCrossing	%nm/world/gen/structure/StructureStrongholdPieces$Crossing	awc$c
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn	%nm/world/gen/structure/StructureStrongholdPieces$LeftTurn	awc$d
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdLibrary	%nm/world/gen/structure/StructureStrongholdPieces$Library	awc$e
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPieceWeight	%nm/world/gen/structure/StructureStrongholdPieces$PieceWeight	awc$f
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom	%nm/world/gen/structure/StructureStrongholdPieces$PortalRoom	awc$g
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPrison	%nm/world/gen/structure/StructureStrongholdPieces$Prison	awc$h
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdRightTurn	%nm/world/gen/structure/StructureStrongholdPieces$RightTurn	awc$i
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing	%nm/world/gen/structure/StructureStrongholdPieces$RoomCrossing	awc$j
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStones	%nm/world/gen/structure/StructureStrongholdPieces$Stones	awc$k
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs2	%nm/world/gen/structure/StructureStrongholdPieces$Stairs	awc$l
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStart	%nm/world/gen/structure/StructureStrongholdPieces$Stairs2	awc$m
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairs	%nm/world/gen/structure/StructureStrongholdPieces$Straight	awc$n
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight	%nm/world/gen/structure/StructureStrongholdPieces$StairsStraight	awc$o
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece	%nm/world/gen/structure/StructureStrongholdPieces$Stronghold	awc$p
+%nm/server/1_9_R2/WorldGenStrongholdPieces$WorldGenStrongholdPiece$WorldGenStrongholdDoorType	%nm/world/gen/structure/StructureStrongholdPieces$Stronghold$Door	awc$p$a
+%nm/server/1_9_R2/StructureGenerator	%nm/world/gen/structure/MapGenStructure	awd
+%nm/server/1_9_R2/StructureGenerator$1	%nm/world/gen/structure/MapGenStructure$1	awd$1
+%nm/server/1_9_R2/StructureGenerator$2	%nm/world/gen/structure/MapGenStructure$2	awd$2
+%nm/server/1_9_R2/StructureGenerator$3	%nm/world/gen/structure/MapGenStructure$3	awd$3
+%nm/server/1_9_R2/WorldGenFactory	%nm/world/gen/structure/MapGenStructureIO	awe
+%nm/server/1_9_R2/PersistentStructure	%nm/world/gen/structure/MapGenStructureData	awf
+%nm/server/1_9_R2/StructurePiece	%nm/world/gen/structure/StructureComponent	awg
+%nm/server/1_9_R2/StructurePiece$StructurePieceBlockSelector	%nm/world/gen/structure/StructureComponent$BlockSelector	awg$a
+%nm/server/1_9_R2/StructureStart	%nm/world/gen/structure/StructureStart	awh
+%nm/server/1_9_R2/DefinedStructurePiece	%nm/world/gen/structure/StructureComponentTemplate	awi
+%nm/server/1_9_R2/WorldGenVillage	%nm/world/gen/structure/MapGenVillage	awj
+%nm/server/1_9_R2/WorldGenVillage$WorldGenVillageStart	%nm/world/gen/structure/MapGenVillage$Start	awj$a
+%nm/server/1_9_R2/WorldGenVillagePieces	%nm/world/gen/structure/StructureVillagePieces	awk
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageLibrary	%nm/world/gen/structure/StructureVillagePieces$House1	awk$a
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageFarm2	%nm/world/gen/structure/StructureVillagePieces$Field1	awk$b
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageFarm	%nm/world/gen/structure/StructureVillagePieces$Field2	awk$c
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageLight	%nm/world/gen/structure/StructureVillagePieces$Torch	awk$d
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillagePieceWeight	%nm/world/gen/structure/StructureVillagePieces$PieceWeight	awk$e
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageButcher	%nm/world/gen/structure/StructureVillagePieces$Hall	awk$f
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageHouse	%nm/world/gen/structure/StructureVillagePieces$House4Garden	awk$g
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageHut	%nm/world/gen/structure/StructureVillagePieces$WoodHut	awk$h
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageTemple	%nm/world/gen/structure/StructureVillagePieces$Church	awk$i
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageBlacksmith	%nm/world/gen/structure/StructureVillagePieces$House2	awk$j
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageStartPiece	%nm/world/gen/structure/StructureVillagePieces$Start	awk$k
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageRoad	%nm/world/gen/structure/StructureVillagePieces$Path	awk$l
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageHouse2	%nm/world/gen/structure/StructureVillagePieces$House3	awk$m
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillagePiece	%nm/world/gen/structure/StructureVillagePieces$Village	awk$n
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageRoadPiece	%nm/world/gen/structure/StructureVillagePieces$Road	awk$o
+%nm/server/1_9_R2/WorldGenVillagePieces$WorldGenVillageWell	%nm/world/gen/structure/StructureVillagePieces$Well	awk$p
+%nm/server/1_9_R2/DefinedStructureManager	%nm/world/gen/structure/template/TemplateManager	awm
+%nm/server/1_9_R2/DefinedStructureInfo	%nm/world/gen/structure/template/PlacementSettings	awn
+%nm/server/1_9_R2/DefinedStructure	%nm/world/gen/structure/template/Template	awo
+%nm/server/1_9_R2/DefinedStructure$1	%nm/world/gen/structure/template/Template$1	awo$1
+%nm/server/1_9_R2/DefinedStructure$BlockInfo	%nm/world/gen/structure/template/Template$BlockInfo	awo$a
+%nm/server/1_9_R2/DefinedStructure$EntityInfo	%nm/world/gen/structure/template/Template$EntityInfo	awo$b
+%nm/server/1_9_R2/NoiseGeneratorPerlin	%nm/world/gen/NoiseGeneratorImproved	awt
+%nm/server/1_9_R2/NoiseGeneratorOctaves	%nm/world/gen/NoiseGeneratorOctaves	awu
+%nm/server/1_9_R2/NoiseGenerator3	%nm/world/gen/NoiseGeneratorPerlin	awv
+%nm/server/1_9_R2/NoiseGenerator3Handler	%nm/world/gen/NoiseGeneratorSimplex	awy
+%nm/server/1_9_R2/NoiseGenerator	%nm/world/gen/NoiseGenerator	awz
+%nm/server/1_9_R2/CommandReplaceItem	%nm/command/CommandReplaceItem	ax
+%nm/server/1_9_R2/MaterialDecoration	%nm/block/material/MaterialLogic	axb
+%nm/server/1_9_R2/MaterialGas	%nm/block/material/MaterialTransparent	axc
+%nm/server/1_9_R2/MaterialLiquid	%nm/block/material/MaterialLiquid	axd
+%nm/server/1_9_R2/Material	%nm/block/material/Material	axe
+%nm/server/1_9_R2/Material$1	%nm/block/material/Material$1	axe$1
+%nm/server/1_9_R2/MaterialMapColor	%nm/block/material/MapColor	axf
+%nm/server/1_9_R2/MaterialPortal	%nm/block/material/MaterialPortal	axg
+%nm/server/1_9_R2/EnumPistonReaction	%nm/block/material/EnumPushReaction	axh
+%nm/server/1_9_R2/GenLayerDeepOcean	%nm/world/gen/layer/GenLayerDeepOcean	axj
+%nm/server/1_9_R2/GenLayerSpecial	%nm/world/gen/layer/GenLayerEdge	axk
+%nm/server/1_9_R2/GenLayerSpecial$EnumGenLayerSpecial	%nm/world/gen/layer/GenLayerEdge$Mode	axk$a
+%nm/server/1_9_R2/GenLayerIsland	%nm/world/gen/layer/GenLayerAddIsland	axl
+%nm/server/1_9_R2/GenLayerMushroomIsland	%nm/world/gen/layer/GenLayerAddMushroomIsland	axm
+%nm/server/1_9_R2/GenLayerTopSoil	%nm/world/gen/layer/GenLayerAddSnow	axn
+%nm/server/1_9_R2/GenLayerDesert	%nm/world/gen/layer/GenLayerBiomeEdge	axo
+%nm/server/1_9_R2/GenLayerBiome	%nm/world/gen/layer/GenLayerBiome	axp
+%nm/server/1_9_R2/GenLayerZoomFuzzy	%nm/world/gen/layer/GenLayerFuzzyZoom	axr
+%nm/server/1_9_R2/IntCache	%nm/world/gen/layer/IntCache	axt
+%nm/server/1_9_R2/LayerIsland	%nm/world/gen/layer/GenLayerIsland	axu
+%nm/server/1_9_R2/GenLayer	%nm/world/gen/layer/GenLayer	axv
+%nm/server/1_9_R2/GenLayerPlains	%nm/world/gen/layer/GenLayerRareBiome	axw
+%nm/server/1_9_R2/GenLayerRegionHills	%nm/world/gen/layer/GenLayerHills	axx
+%nm/server/1_9_R2/GenLayerIcePlains	%nm/world/gen/layer/GenLayerRemoveTooMuchOcean	axy
+%nm/server/1_9_R2/GenLayerCleaner	%nm/world/gen/layer/GenLayerRiverInit	axz
+%nm/server/1_9_R2/CommandSaveAll	%nm/command/server/CommandSaveAll	ay
+%nm/server/1_9_R2/GenLayerRiver	%nm/world/gen/layer/GenLayerRiver	aya
+%nm/server/1_9_R2/GenLayerRiverMix	%nm/world/gen/layer/GenLayerRiverMix	ayb
+%nm/server/1_9_R2/GenLayerMushroomShore	%nm/world/gen/layer/GenLayerShore	ayc
+%nm/server/1_9_R2/GenLayerSmooth	%nm/world/gen/layer/GenLayerSmooth	ayd
+%nm/server/1_9_R2/GenLayerZoomVoronoi	%nm/world/gen/layer/GenLayerVoronoiZoom	ayh
+%nm/server/1_9_R2/GenLayerZoom	%nm/world/gen/layer/GenLayerZoom	ayi
+%nm/server/1_9_R2/Path	%nm/pathfinding/PathHeap	ayl
+%nm/server/1_9_R2/PathType	%nm/pathfinding/PathNodeType	aym
+%nm/server/1_9_R2/PathPoint	%nm/pathfinding/PathPoint	ayn
+%nm/server/1_9_R2/PathfinderAbstract	%nm/pathfinding/NodeProcessor	ayo
+%nm/server/1_9_R2/PathEntity	%nm/pathfinding/Path	ayp
+%nm/server/1_9_R2/Pathfinder	%nm/pathfinding/PathFinder	ayq
+%nm/server/1_9_R2/PathfinderWater	%nm/pathfinding/SwimNodeProcessor	ayr
+%nm/server/1_9_R2/PathfinderNormal	%nm/pathfinding/WalkNodeProcessor	ays
+%nm/server/1_9_R2/RunnableSaveScoreboard	%nm/world/WorldSavedDataCallableSave	ayw
+%nm/server/1_9_R2/PersistentBase	%nm/world/WorldSavedData	ayx
+%nm/server/1_9_R2/MapIcon	%nm/util/math/Vec4b	ayy
+%nm/server/1_9_R2/WorldMap	%nm/world/storage/MapData	ayz
+%nm/server/1_9_R2/WorldMap$WorldMapHumanTracker	%nm/world/storage/MapData$MapInfo	ayz$a
+%nm/server/1_9_R2/CommandSaveOff	%nm/command/server/CommandSaveOff	az
+%nm/server/1_9_R2/ServerNBTManager	%nm/world/chunk/storage/AnvilSaveHandler	azc
+%nm/server/1_9_R2/WorldLoaderServer	%nm/world/chunk/storage/AnvilSaveConverter	azd
+%nm/server/1_9_R2/WorldLoaderServer$1	%nm/world/chunk/storage/AnvilSaveConverter$1	azd$1
+%nm/server/1_9_R2/SecondaryWorldData	%nm/world/storage/DerivedWorldInfo	aze
+%nm/server/1_9_R2/WorldNBTStorage	%nm/world/storage/SaveHandler	azf
+%nm/server/1_9_R2/WorldLoader	%nm/world/storage/SaveFormatOld	azg
+%nm/server/1_9_R2/WorldData	%nm/world/storage/WorldInfo	azh
+%nm/server/1_9_R2/WorldData$1	%nm/world/storage/WorldInfo$1	azh$1
+%nm/server/1_9_R2/WorldData$2	%nm/world/storage/WorldInfo$2	azh$2
+%nm/server/1_9_R2/WorldData$3	%nm/world/storage/WorldInfo$3	azh$3
+%nm/server/1_9_R2/WorldData$4	%nm/world/storage/WorldInfo$4	azh$4
+%nm/server/1_9_R2/WorldData$5	%nm/world/storage/WorldInfo$5	azh$5
+%nm/server/1_9_R2/WorldData$6	%nm/world/storage/WorldInfo$6	azh$6
+%nm/server/1_9_R2/WorldData$7	%nm/world/storage/WorldInfo$7	azh$7
+%nm/server/1_9_R2/WorldData$8	%nm/world/storage/WorldInfo$8	azh$8
+%nm/server/1_9_R2/WorldData$9	%nm/world/storage/WorldInfo$9	azh$9
+%nm/server/1_9_R2/IDataManager	%nm/world/storage/ISaveHandler	azi
+%nm/server/1_9_R2/Convertable	%nm/world/storage/ISaveFormat	azk
+%nm/server/1_9_R2/IPlayerFileData	%nm/world/storage/IPlayerFileData	azo
+%nm/server/1_9_R2/PersistentCollection	%nm/world/storage/MapStorage	azq
+%nm/server/1_9_R2/LootTables	%nm/world/storage/loot/LootTableList	azr
+%nm/server/1_9_R2/LootSelectorEmpty	%nm/world/storage/loot/LootEntryEmpty	azs
+%nm/server/1_9_R2/LootItem	%nm/world/storage/loot/LootEntryItem	azt
+%nm/server/1_9_R2/LootSelector	%nm/world/storage/loot/LootPool	azu
+%nm/server/1_9_R2/LootSelector$a	%nm/world/storage/loot/LootPool$Serializer	azu$a
+%nm/server/1_9_R2/LotoSelectorEntry	%nm/world/storage/loot/LootEntry	azv
+%nm/server/1_9_R2/LotoSelectorEntry$a	%nm/world/storage/loot/LootEntry$Serializer	azv$a
+%nm/server/1_9_R2/LootTable	%nm/world/storage/loot/LootTable	azw
+%nm/server/1_9_R2/LootTable$a	%nm/world/storage/loot/LootTable$Serializer	azw$a
+%nm/server/1_9_R2/LootTableInfo	%nm/world/storage/loot/LootContext	azx
+%nm/server/1_9_R2/LootTableInfo$a	%nm/world/storage/loot/LootContext$Builder	azx$a
+%nm/server/1_9_R2/LootTableInfo$EntityTarget	%nm/world/storage/loot/LootContext$EntityTarget	azx$b
+%nm/server/1_9_R2/LootTableInfo$EntityTarget$a	%nm/world/storage/loot/LootContext$EntityTarget$Serializer	azx$b$a
+%nm/server/1_9_R2/LootSelectorLootTable	%nm/world/storage/loot/LootEntryTable	azy
+%nm/server/1_9_R2/LootTableRegistry	%nm/world/storage/loot/LootTableManager	azz
+%nm/server/1_9_R2/LootTableRegistry$a	%nm/world/storage/loot/LootTableManager$Loader	azz$a
+%nm/server/1_9_R2/CrashReport	%nm/crash/CrashReport	b
+%nm/server/1_9_R2/CrashReport$1	%nm/crash/CrashReport$1	b$1
+%nm/server/1_9_R2/CrashReport$2	%nm/crash/CrashReport$2	b$2
+%nm/server/1_9_R2/CrashReport$3	%nm/crash/CrashReport$3	b$3
+%nm/server/1_9_R2/CrashReport$4	%nm/crash/CrashReport$4	b$4
+%nm/server/1_9_R2/CrashReport$5	%nm/crash/CrashReport$5	b$5
+%nm/server/1_9_R2/CrashReport$6	%nm/crash/CrashReport$6	b$6
+%nm/server/1_9_R2/CrashReport$7	%nm/crash/CrashReport$7	b$7
+%nm/server/1_9_R2/CommandSaveOn	%nm/command/server/CommandSaveOn	ba
+%nm/server/1_9_R2/LootValueBounds	%nm/world/storage/loot/RandomValueRange	baa
+%nm/server/1_9_R2/LootValueBounds$a	%nm/world/storage/loot/RandomValueRange$Serializer	baa$a
+%nm/server/1_9_R2/LootItemFunctionEnchant	%nm/world/storage/loot/functions/EnchantRandomly	bab
+%nm/server/1_9_R2/LootItemFunctionEnchant$a	%nm/world/storage/loot/functions/EnchantRandomly$Serializer	bab$a
+%nm/server/1_9_R2/LootEnchantLevel	%nm/world/storage/loot/functions/EnchantWithLevels	bac
+%nm/server/1_9_R2/LootEnchantLevel$a	%nm/world/storage/loot/functions/EnchantWithLevels$Serializer	bac$a
+%nm/server/1_9_R2/LootItemFunction	%nm/world/storage/loot/functions/LootFunction	bad
+%nm/server/1_9_R2/LootItemFunction$a	%nm/world/storage/loot/functions/LootFunction$Serializer	bad$a
+%nm/server/1_9_R2/LootItemFunctions	%nm/world/storage/loot/functions/LootFunctionManager	bae
+%nm/server/1_9_R2/LootItemFunctions$a	%nm/world/storage/loot/functions/LootFunctionManager$Serializer	bae$a
+%nm/server/1_9_R2/LootEnchantFunction	%nm/world/storage/loot/functions/LootingEnchantBonus	baf
+%nm/server/1_9_R2/LootEnchantFunction$a	%nm/world/storage/loot/functions/LootingEnchantBonus$Serializer	baf$a
+%nm/server/1_9_R2/LootItemFunctionSetAttribute	%nm/world/storage/loot/functions/SetAttributes	bag
+%nm/server/1_9_R2/LootItemFunctionSetAttribute$a	%nm/world/storage/loot/functions/SetAttributes$Modifier	bag$a
+%nm/server/1_9_R2/LootItemFunctionSetAttribute$b	%nm/world/storage/loot/functions/SetAttributes$Serializer	bag$b
+%nm/server/1_9_R2/LootItemFunctionSetCount	%nm/world/storage/loot/functions/SetCount	bah
+%nm/server/1_9_R2/LootItemFunctionSetCount$a	%nm/world/storage/loot/functions/SetCount$Serializer	bah$a
+%nm/server/1_9_R2/LootItemFunctionSetDamage	%nm/world/storage/loot/functions/SetDamage	bai
+%nm/server/1_9_R2/LootItemFunctionSetDamage$a	%nm/world/storage/loot/functions/SetDamage$Serializer	bai$a
+%nm/server/1_9_R2/LootItemFunctionSetData	%nm/world/storage/loot/functions/SetMetadata	baj
+%nm/server/1_9_R2/LootItemFunctionSetData$a	%nm/world/storage/loot/functions/SetMetadata$Serializer	baj$a
+%nm/server/1_9_R2/LootItemFunctionSetTag	%nm/world/storage/loot/functions/SetNBT	bak
+%nm/server/1_9_R2/LootItemFunctionSetTag$a	%nm/world/storage/loot/functions/SetNBT$Serializer	bak$a
+%nm/server/1_9_R2/LootItemFunctionSmelt	%nm/world/storage/loot/functions/Smelt	bal
+%nm/server/1_9_R2/LootItemFunctionSmelt$a	%nm/world/storage/loot/functions/Smelt$Serializer	bal$a
+%nm/server/1_9_R2/LootItemConditionEntityScore	%nm/world/storage/loot/conditions/EntityHasScore	bao
+%nm/server/1_9_R2/LootItemConditionEntityScore$a	%nm/world/storage/loot/conditions/EntityHasScore$Serializer	bao$a
+%nm/server/1_9_R2/LootItemCondition	%nm/world/storage/loot/conditions/LootCondition	bap
+%nm/server/1_9_R2/LootItemCondition$a	%nm/world/storage/loot/conditions/LootCondition$Serializer	bap$a
+%nm/server/1_9_R2/LootItemConditions	%nm/world/storage/loot/conditions/LootConditionManager	baq
+%nm/server/1_9_R2/LootItemConditions$a	%nm/world/storage/loot/conditions/LootConditionManager$Serializer	baq$a
+%nm/server/1_9_R2/LootItemConditionEntityProperty	%nm/world/storage/loot/conditions/EntityHasProperty	bar
+%nm/server/1_9_R2/LootItemConditionEntityProperty$a	%nm/world/storage/loot/conditions/EntityHasProperty$Serializer	bar$a
+%nm/server/1_9_R2/LootItemConditionKilledByPlayer	%nm/world/storage/loot/conditions/KilledByPlayer	bas
+%nm/server/1_9_R2/LootItemConditionKilledByPlayer$a	%nm/world/storage/loot/conditions/KilledByPlayer$Serializer	bas$a
+%nm/server/1_9_R2/LootItemConditionRandomChance	%nm/world/storage/loot/conditions/RandomChance	bat
+%nm/server/1_9_R2/LootItemConditionRandomChance$a	%nm/world/storage/loot/conditions/RandomChance$Serializer	bat$a
+%nm/server/1_9_R2/LootItemConditionRandomChanceWithLooting	%nm/world/storage/loot/conditions/RandomChanceWithLooting	bau
+%nm/server/1_9_R2/LootItemConditionRandomChanceWithLooting$a	%nm/world/storage/loot/conditions/RandomChanceWithLooting$Serializer	bau$a
+%nm/server/1_9_R2/LootEntityProperties	%nm/world/storage/loot/properties/EntityPropertyManager	baw
+%nm/server/1_9_R2/LootEntityProperty	%nm/world/storage/loot/properties/EntityProperty	bax
+%nm/server/1_9_R2/LootEntityProperty$a	%nm/world/storage/loot/properties/EntityProperty$Serializer	bax$a
+%nm/server/1_9_R2/LootEntityPropertyOnFire	%nm/world/storage/loot/properties/EntityOnFire	bay
+%nm/server/1_9_R2/LootEntityPropertyOnFire$a	%nm/world/storage/loot/properties/EntityOnFire$Serializer	bay$a
+%nm/server/1_9_R2/CommandSay	%nm/command/server/CommandBroadcast	bb
+%nm/server/1_9_R2/FileIOThread	%nm/world/storage/ThreadedFileIOBase	bbb
+%nm/server/1_9_R2/IAsyncChunkSaver	%nm/world/storage/IThreadedFileIO	bbc
+%nm/server/1_9_R2/AxisAlignedBB	%nm/util/math/AxisAlignedBB	bbf
+%nm/server/1_9_R2/MovingObjectPosition	%nm/util/math/RayTraceResult	bbg
+%nm/server/1_9_R2/MovingObjectPosition$EnumMovingObjectType	%nm/util/math/RayTraceResult$Type	bbg$a
+%nm/server/1_9_R2/Vec3D	%nm/util/math/Vec3d	bbh
+%nm/server/1_9_R2/ScoreboardObjective	%nm/scoreboard/ScoreObjective	bbj
+%nm/server/1_9_R2/ScoreboardTeam	%nm/scoreboard/ScorePlayerTeam	bbk
+%nm/server/1_9_R2/ScoreboardScore	%nm/scoreboard/Score	bbl
+%nm/server/1_9_R2/ScoreboardScore$1	%nm/scoreboard/Score$1	bbl$1
+%nm/server/1_9_R2/Scoreboard	%nm/scoreboard/Scoreboard	bbn
+%nm/server/1_9_R2/PersistentScoreboard	%nm/scoreboard/ScoreboardSaveData	bbo
+%nm/server/1_9_R2/ScoreboardTeamBase	%nm/scoreboard/Team	bbp
+%nm/server/1_9_R2/ScoreboardTeamBase$EnumTeamPush	%nm/scoreboard/Team$CollisionRule	bbp$a
+%nm/server/1_9_R2/ScoreboardTeamBase$EnumNameTagVisibility	%nm/scoreboard/Team$EnumVisible	bbp$b
+%nm/server/1_9_R2/ScoreboardCriteriaInteger	%nm/scoreboard/ScoreCriteriaColored	bbq
+%nm/server/1_9_R2/ScoreboardBaseCriteria	%nm/scoreboard/ScoreCriteria	bbr
+%nm/server/1_9_R2/ScoreboardHealthCriteria	%nm/scoreboard/ScoreCriteriaHealth	bbs
+%nm/server/1_9_R2/IScoreboardCriteria	%nm/scoreboard/IScoreCriteria	bbt
+%nm/server/1_9_R2/IScoreboardCriteria$EnumScoreboardHealthDisplay	%nm/scoreboard/IScoreCriteria$EnumRenderType	bbt$a
+%nm/server/1_9_R2/ScoreboardReadOnlyCriteria	%nm/scoreboard/ScoreCriteriaReadOnly	bbu
+%nm/server/1_9_R2/ScoreboardStatisticCriteria	%nm/scoreboard/ScoreCriteriaStat	bbv
+%nm/server/1_9_R2/CommandScoreboard	%nm/command/server/CommandScoreboard	bc
+%nm/server/1_9_R2/CommandDispatcher	%nm/command/ServerCommandManager	bd
+%nm/server/1_9_R2/CommandSetBlock	%nm/command/server/CommandSetBlock	be
+%nm/server/1_9_R2/CommandSetWorldSpawn	%nm/command/server/CommandSetDefaultSpawnpoint	bf
+%nm/server/1_9_R2/CommandIdleTimeout	%nm/command/CommandSetPlayerTimeout	bg
+%nm/server/1_9_R2/CommandSpawnpoint	%nm/command/CommandSetSpawnpoint	bh
+%nm/server/1_9_R2/CommandSeed	%nm/command/CommandShowSeed	bi
+%nm/server/1_9_R2/CommandSpreadPlayers	%nm/command/CommandSpreadPlayers	bj
+%nm/server/1_9_R2/CommandSpreadPlayers$Location2D	%nm/command/CommandSpreadPlayers$Position	bj$a
+%nm/server/1_9_R2/CommandStats	%nm/command/CommandStats	bk
+%nm/server/1_9_R2/CommandStop	%nm/command/server/CommandStop	bl
+%nm/server/1_9_R2/CommandStopSound	%nm/command/CommandStopSound	bm
+%nm/server/1_9_R2/CommandSummon	%nm/command/server/CommandSummon	bn
+%nm/server/1_9_R2/CommandTp	%nm/command/server/CommandTeleport	bo
+%nm/server/1_9_R2/CommandTellRaw	%nm/command/server/CommandMessageRaw	bp
+%nm/server/1_9_R2/CommandTestForBlock	%nm/command/server/CommandTestForBlock	br
+%nm/server/1_9_R2/CommandTestFor	%nm/command/server/CommandTestFor	bs
+%nm/server/1_9_R2/CommandTime	%nm/command/CommandTime	bt
+%nm/server/1_9_R2/CommandTitle	%nm/command/CommandTitle	bu
+%nm/server/1_9_R2/CommandToggleDownfall	%nm/command/CommandToggleDownfall	bv
+%nm/server/1_9_R2/CommandTrigger	%nm/command/CommandTrigger	bw
+%nm/server/1_9_R2/CommandWeather	%nm/command/CommandWeather	bx
+%nm/server/1_9_R2/CommandWhitelist	%nm/command/server/CommandWhitelist	by
+%nm/server/1_9_R2/CommandWorldBorder	%nm/command/CommandWorldBorder	bz
+%nm/server/1_9_R2/CrashReportSystemDetails	%nm/crash/CrashReportCategory	c
+%nm/server/1_9_R2/CrashReportSystemDetails$1	%nm/crash/CrashReportCategory$1	c$1
+%nm/server/1_9_R2/CrashReportSystemDetails$2	%nm/crash/CrashReportCategory$2	c$2
+%nm/server/1_9_R2/CrashReportSystemDetails$3	%nm/crash/CrashReportCategory$3	c$3
+%nm/server/1_9_R2/CrashReportSystemDetails$6	%nm/crash/CrashReportCategory$6	c$6
+%nm/server/1_9_R2/CrashReportSystemDetails$7	%nm/crash/CrashReportCategory$7	c$7
+%nm/server/1_9_R2/CrashReportSystemDetails$CrashReportDetail	%nm/crash/CrashReportCategory$Entry	c$a
+%nm/server/1_9_R2/CommandException	%nm/command/CommandException	cb
+%nm/server/1_9_R2/ExceptionEntityNotFound	%nm/command/EntityNotFoundException	cc
+%nm/server/1_9_R2/ExceptionInvalidNumber	%nm/command/NumberInvalidException	cd
+%nm/server/1_9_R2/ExceptionInvalidSyntax	%nm/command/SyntaxErrorException	ce
+%nm/server/1_9_R2/ExceptionPlayerNotFound	%nm/command/PlayerNotFoundException	cf
+%nm/server/1_9_R2/ExceptionUnknownCommand	%nm/command/CommandNotFoundException	cg
+%nm/server/1_9_R2/ExceptionUsage	%nm/command/WrongUsageException	ch
+%nm/server/1_9_R2/BlockPosition	%nm/util/math/BlockPos	cl
+%nm/server/1_9_R2/BlockPosition$1	%nm/util/math/BlockPos$1	cl$1
+%nm/server/1_9_R2/BlockPosition$1$1	%nm/util/math/BlockPos$1$1	cl$1$1
+%nm/server/1_9_R2/BlockPosition$2	%nm/util/math/BlockPos$2	cl$2
+%nm/server/1_9_R2/BlockPosition$2$1	%nm/util/math/BlockPos$2$1	cl$2$1
+%nm/server/1_9_R2/BlockPosition$MutableBlockPosition	%nm/util/math/BlockPos$MutableBlockPos	cl$a
+%nm/server/1_9_R2/BlockPosition$PooledBlockPosition	%nm/util/math/BlockPos$PooledMutableBlockPos	cl$b
+%nm/server/1_9_R2/ISourceBlock	%nm/dispenser/IBlockSource	cm
+%nm/server/1_9_R2/SourceBlock	%nm/block/BlockSourceImpl	cn
+%nm/server/1_9_R2/IteratorUtils	%nm/util/math/Cartesian	co
+%nm/server/1_9_R2/IteratorUtils$ArrayToList	%nm/util/math/Cartesian$GetList	co$a
+%nm/server/1_9_R2/IteratorUtils$ClassIterable	%nm/util/math/Cartesian$Product	co$b
+%nm/server/1_9_R2/IteratorUtils$ClassIterable$ClassIterator	%nm/util/math/Cartesian$Product$ProductIterator	co$b$a
+%nm/server/1_9_R2/DispenseBehaviorItem	%nm/dispenser/BehaviorDefaultDispenseItem	cp
+%nm/server/1_9_R2/RegistryBlocks	%nm/util/registry/RegistryNamespacedDefaultedByKey	cq
+%nm/server/1_9_R2/RegistryDefault	%nm/util/registry/RegistryDefaulted	cr
+%nm/server/1_9_R2/EnumDirection	%nm/util/EnumFacing	cs
+%nm/server/1_9_R2/EnumDirection$EnumAxis	%nm/util/EnumFacing$Axis	cs$a
+%nm/server/1_9_R2/EnumDirection$EnumAxisDirection	%nm/util/EnumFacing$AxisDirection	cs$b
+%nm/server/1_9_R2/EnumDirection$EnumDirectionLimit	%nm/util/EnumFacing$Plane	cs$c
+%nm/server/1_9_R2/IDispenseBehavior	%nm/dispenser/IBehaviorDispenseItem	ct
+%nm/server/1_9_R2/IDispenseBehavior$1	%nm/dispenser/IBehaviorDispenseItem$1	ct$1
+%nm/server/1_9_R2/Registry	%nm/util/IObjectIntIterable	cu
+%nm/server/1_9_R2/RegistryBlockID	%nm/util/ObjectIntIdentityMap	cv
+%nm/server/1_9_R2/ILocationSource	%nm/dispenser/ILocatableSource	cw
+%nm/server/1_9_R2/ISource	%nm/dispenser/ILocation	cx
+%nm/server/1_9_R2/MapGeneratorUtils	%nm/util/MapPopulator	cy
+%nm/server/1_9_R2/RegistryMaterials	%nm/util/registry/RegistryNamespaced	cz
+%nm/server/1_9_R2/CrashReportCallable	%nm/crash/ICrashReportDetail	d
+%nm/server/1_9_R2/EnumParticle	%nm/util/EnumParticleTypes	da
+%nm/server/1_9_R2/IPosition	%nm/dispenser/IPosition	db
+%nm/server/1_9_R2/Position	%nm/dispenser/PositionImpl	dc
+%nm/server/1_9_R2/IRegistry	%nm/util/registry/IRegistry	dd
+%nm/server/1_9_R2/Vector3f	%nm/util/math/Rotations	de
+%nm/server/1_9_R2/RegistrySimple	%nm/util/registry/RegistrySimple	df
+%nm/server/1_9_R2/BaseBlockPosition	%nm/util/math/Vec3i	dh
+%nm/server/1_9_R2/LocaleI18n	%nm/util/text/translation/I18n	dk
+%nm/server/1_9_R2/LocaleLanguage	%nm/util/text/translation/LanguageMap	dl
+%nm/server/1_9_R2/NBTTagByteArray	%nm/nbt/NBTTagByteArray	dn
+%nm/server/1_9_R2/NBTTagByte	%nm/nbt/NBTTagByte	dp
+%nm/server/1_9_R2/NBTTagCompound	%nm/nbt/NBTTagCompound	dq
+%nm/server/1_9_R2/NBTTagCompound$1	%nm/nbt/NBTTagCompound$1	dq$1
+%nm/server/1_9_R2/NBTTagCompound$2	%nm/nbt/NBTTagCompound$2	dq$2
+%nm/server/1_9_R2/NBTTagDouble	%nm/nbt/NBTTagDouble	dr
+%nm/server/1_9_R2/NBTTagEnd	%nm/nbt/NBTTagEnd	ds
+%nm/server/1_9_R2/NBTTagFloat	%nm/nbt/NBTTagFloat	dt
+%nm/server/1_9_R2/NBTTagIntArray	%nm/nbt/NBTTagIntArray	du
+%nm/server/1_9_R2/NBTTagInt	%nm/nbt/NBTTagInt	dv
+%nm/server/1_9_R2/NBTTagList	%nm/nbt/NBTTagList	dw
+%nm/server/1_9_R2/NBTTagLong	%nm/nbt/NBTTagLong	dx
+%nm/server/1_9_R2/NBTReadLimiter	%nm/nbt/NBTSizeTracker	dy
+%nm/server/1_9_R2/NBTReadLimiter$1	%nm/nbt/NBTSizeTracker$1	dy$1
+%nm/server/1_9_R2/NBTCompressedStreamTools	%nm/nbt/CompressedStreamTools	dz
+%nm/server/1_9_R2/GameProfileSerializer	%nm/nbt/NBTUtil	ea
+%nm/server/1_9_R2/NBTTagShort	%nm/nbt/NBTTagShort	eb
+%nm/server/1_9_R2/NBTTagString	%nm/nbt/NBTTagString	ec
+%nm/server/1_9_R2/NBTBase	%nm/nbt/NBTBase	ed
+%nm/server/1_9_R2/NBTBase$NBTNumber	%nm/nbt/NBTBase$NBTPrimitive	ed$a
+%nm/server/1_9_R2/MojangsonParseException	%nm/nbt/NBTException	ee
+%nm/server/1_9_R2/MojangsonParser	%nm/nbt/JsonToNBT	ef
+%nm/server/1_9_R2/MojangsonParser$MojangsonTypeParser	%nm/nbt/JsonToNBT$Any	ef$a
+%nm/server/1_9_R2/MojangsonParser$MojangsonCompoundParser	%nm/nbt/JsonToNBT$Compound	ef$b
+%nm/server/1_9_R2/MojangsonParser$MojangsonListParser	%nm/nbt/JsonToNBT$List	ef$c
+%nm/server/1_9_R2/MojangsonParser$MojangsonPrimitiveParser	%nm/nbt/JsonToNBT$Primitive	ef$d
+%nm/server/1_9_R2/PacketEncryptionHandler	%nm/network/NettyEncryptionTranslator	eh
+%nm/server/1_9_R2/PacketDecrypter	%nm/network/NettyEncryptingDecoder	ei
+%nm/server/1_9_R2/PacketEncrypter	%nm/network/NettyEncryptingEncoder	ej
+%nm/server/1_9_R2/PacketDecompressor	%nm/network/NettyCompressionDecoder	ek
+%nm/server/1_9_R2/PacketCompressor	%nm/network/NettyCompressionEncoder	el
+%nm/server/1_9_R2/NetworkManager	%nm/network/NetworkManager	em
+%nm/server/1_9_R2/NetworkManager$1	%nm/network/NetworkManager$1	em$1
+%nm/server/1_9_R2/NetworkManager$2	%nm/network/NetworkManager$2	em$2
+%nm/server/1_9_R2/NetworkManager$3	%nm/network/NetworkManager$3	em$3
+%nm/server/1_9_R2/NetworkManager$4	%nm/network/NetworkManager$4	em$4
+%nm/server/1_9_R2/NetworkManager$QueuedPacket	%nm/network/NetworkManager$InboundHandlerTuplePacketListener	em$a
+%nm/server/1_9_R2/EnumProtocol	%nm/network/EnumConnectionState	en
+%nm/server/1_9_R2/EnumProtocol$1	%nm/network/EnumConnectionState$1	en$1
+%nm/server/1_9_R2/EnumProtocol$2	%nm/network/EnumConnectionState$2	en$2
+%nm/server/1_9_R2/EnumProtocol$3	%nm/network/EnumConnectionState$3	en$3
+%nm/server/1_9_R2/EnumProtocol$4	%nm/network/EnumConnectionState$4	en$4
+%nm/server/1_9_R2/PacketDataSerializer	%nm/network/PacketBuffer	eo
+%nm/server/1_9_R2/PacketDecoder	%nm/network/NettyPacketDecoder	ep
+%nm/server/1_9_R2/PacketEncoder	%nm/network/NettyPacketEncoder	eq
+%nm/server/1_9_R2/PacketListener	%nm/network/INetHandler	er
+%nm/server/1_9_R2/PacketSplitter	%nm/network/NettyVarint21FrameDecoder	es
+%nm/server/1_9_R2/PacketPrepender	%nm/network/NettyVarint21FrameEncoder	et
+%nm/server/1_9_R2/ChatBaseComponent	%nm/util/text/TextComponentBase	eu
+%nm/server/1_9_R2/ChatBaseComponent$1	%nm/util/text/TextComponentBase$1	eu$1
+%nm/server/1_9_R2/ChatBaseComponent$2	%nm/util/text/TextComponentBase$2	eu$2
+%nm/server/1_9_R2/ChatClickable	%nm/util/text/event/ClickEvent	ev
+%nm/server/1_9_R2/ChatClickable$EnumClickAction	%nm/util/text/event/ClickEvent$Action	ev$a
+%nm/server/1_9_R2/IChatBaseComponent	%nm/util/text/ITextComponent	ew
+%nm/server/1_9_R2/IChatBaseComponent$ChatSerializer	%nm/util/text/ITextComponent$Serializer	ew$a
+%nm/server/1_9_R2/ChatComponentUtils	%nm/util/text/TextComponentUtils	ex
+%nm/server/1_9_R2/ChatHoverable	%nm/util/text/event/HoverEvent	ey
+%nm/server/1_9_R2/ChatHoverable$EnumHoverAction	%nm/util/text/event/HoverEvent$Action	ey$a
+%nm/server/1_9_R2/ChatComponentScore	%nm/util/text/TextComponentScore	ez
+%nm/server/1_9_R2/ReportedException	%nm/util/ReportedException	f
+%nm/server/1_9_R2/ChatComponentSelector	%nm/util/text/TextComponentSelector	fa
+%nm/server/1_9_R2/ChatModifier	%nm/util/text/Style	fb
+%nm/server/1_9_R2/ChatModifier$1	%nm/util/text/Style$1	fb$1
+%nm/server/1_9_R2/ChatModifier$ChatModifierSerializer	%nm/util/text/Style$Serializer	fb$a
+%nm/server/1_9_R2/ChatComponentText	%nm/util/text/TextComponentString	fc
+%nm/server/1_9_R2/ChatMessage	%nm/util/text/TextComponentTranslation	fd
+%nm/server/1_9_R2/ChatMessageException	%nm/util/text/TextComponentTranslationFormatException	fe
+%nm/server/1_9_R2/Packet	%nm/network/Packet	fh
+%nm/server/1_9_R2/EnumProtocolDirection	%nm/network/EnumPacketDirection	fi
+%nm/server/1_9_R2/PlayerConnectionUtils	%nm/network/PacketThreadUtil	fj
+%nm/server/1_9_R2/PlayerConnectionUtils$1	%nm/network/PacketThreadUtil$1	fj$1
+%nm/server/1_9_R2/PacketListenerPlayOut	%nm/network/play/INetHandlerPlayClient	fk
+%nm/server/1_9_R2/PacketPlayOutSpawnEntity	%nm/network/play/server/SPacketSpawnObject	fl
+%nm/server/1_9_R2/PacketPlayOutSpawnEntityExperienceOrb	%nm/network/play/server/SPacketSpawnExperienceOrb	fm
+%nm/server/1_9_R2/PacketPlayOutSpawnEntityWeather	%nm/network/play/server/SPacketSpawnGlobalEntity	fn
+%nm/server/1_9_R2/PacketPlayOutSpawnEntityLiving	%nm/network/play/server/SPacketSpawnMob	fo
+%nm/server/1_9_R2/PacketPlayOutSpawnEntityPainting	%nm/network/play/server/SPacketSpawnPainting	fp
+%nm/server/1_9_R2/PacketPlayOutNamedEntitySpawn	%nm/network/play/server/SPacketSpawnPlayer	fq
+%nm/server/1_9_R2/PacketPlayOutAnimation	%nm/network/play/server/SPacketAnimation	fr
+%nm/server/1_9_R2/PacketPlayOutStatistic	%nm/network/play/server/SPacketStatistics	fs
+%nm/server/1_9_R2/PacketPlayOutBlockBreakAnimation	%nm/network/play/server/SPacketBlockBreakAnim	ft
+%nm/server/1_9_R2/PacketPlayOutTileEntityData	%nm/network/play/server/SPacketUpdateTileEntity	fu
+%nm/server/1_9_R2/PacketPlayOutBlockAction	%nm/network/play/server/SPacketBlockAction	fv
+%nm/server/1_9_R2/PacketPlayOutBlockChange	%nm/network/play/server/SPacketBlockChange	fw
+%nm/server/1_9_R2/PacketPlayOutBoss	%nm/network/play/server/SPacketUpdateBossInfo	fx
+%nm/server/1_9_R2/PacketPlayOutBoss$Action	%nm/network/play/server/SPacketUpdateBossInfo$Operation	fx$a
+%nm/server/1_9_R2/PacketPlayOutServerDifficulty	%nm/network/play/server/SPacketServerDifficulty	fy
+%nm/server/1_9_R2/PacketPlayOutTabComplete	%nm/network/play/server/SPacketTabComplete	fz
+%nm/server/1_9_R2/SharedConstants	%nm/util/ChatAllowedCharacters	g
+%nm/server/1_9_R2/PacketPlayOutChat	%nm/network/play/server/SPacketChat	ga
+%nm/server/1_9_R2/PacketPlayOutMultiBlockChange	%nm/network/play/server/SPacketMultiBlockChange	gb
+%nm/server/1_9_R2/PacketPlayOutMultiBlockChange$MultiBlockChangeInfo	%nm/network/play/server/SPacketMultiBlockChange$BlockUpdateData	gb$a
+%nm/server/1_9_R2/PacketPlayOutTransaction	%nm/network/play/server/SPacketConfirmTransaction	gc
+%nm/server/1_9_R2/PacketPlayOutCloseWindow	%nm/network/play/server/SPacketCloseWindow	gd
+%nm/server/1_9_R2/PacketPlayOutOpenWindow	%nm/network/play/server/SPacketOpenWindow	ge
+%nm/server/1_9_R2/PacketPlayOutWindowItems	%nm/network/play/server/SPacketWindowItems	gf
+%nm/server/1_9_R2/PacketPlayOutWindowData	%nm/network/play/server/SPacketWindowProperty	gg
+%nm/server/1_9_R2/PacketPlayOutSetSlot	%nm/network/play/server/SPacketSetSlot	gh
+%nm/server/1_9_R2/PacketPlayOutSetCooldown	%nm/network/play/server/SPacketCooldown	gi
+%nm/server/1_9_R2/PacketPlayOutCustomPayload	%nm/network/play/server/SPacketCustomPayload	gj
+%nm/server/1_9_R2/PacketPlayOutCustomSoundEffect	%nm/network/play/server/SPacketCustomSound	gk
+%nm/server/1_9_R2/PacketPlayOutKickDisconnect	%nm/network/play/server/SPacketDisconnect	gl
+%nm/server/1_9_R2/PacketPlayOutEntityStatus	%nm/network/play/server/SPacketEntityStatus	gm
+%nm/server/1_9_R2/PacketPlayOutExplosion	%nm/network/play/server/SPacketExplosion	gn
+%nm/server/1_9_R2/PacketPlayOutUnloadChunk	%nm/network/play/server/SPacketUnloadChunk	go
+%nm/server/1_9_R2/PacketPlayOutGameStateChange	%nm/network/play/server/SPacketChangeGameState	gp
+%nm/server/1_9_R2/PacketPlayOutKeepAlive	%nm/network/play/server/SPacketKeepAlive	gq
+%nm/server/1_9_R2/PacketPlayOutMapChunk	%nm/network/play/server/SPacketChunkData	gr
+%nm/server/1_9_R2/PacketPlayOutWorldEvent	%nm/network/play/server/SPacketEffect	gs
+%nm/server/1_9_R2/PacketPlayOutWorldParticles	%nm/network/play/server/SPacketParticles	gt
+%nm/server/1_9_R2/PacketPlayOutLogin	%nm/network/play/server/SPacketJoinGame	gu
+%nm/server/1_9_R2/PacketPlayOutMap	%nm/network/play/server/SPacketMaps	gv
+%nm/server/1_9_R2/PacketPlayOutEntity	%nm/network/play/server/SPacketEntity	gw
+%nm/server/1_9_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMove	%nm/network/play/server/SPacketEntity$S15PacketEntityRelMove	gw$a
+%nm/server/1_9_R2/PacketPlayOutEntity$PacketPlayOutRelEntityMoveLook	%nm/network/play/server/SPacketEntity$S17PacketEntityLookMove	gw$b
+%nm/server/1_9_R2/PacketPlayOutEntity$PacketPlayOutEntityLook	%nm/network/play/server/SPacketEntity$S16PacketEntityLook	gw$c
+%nm/server/1_9_R2/PacketPlayOutVehicleMove	%nm/network/play/server/SPacketMoveVehicle	gx
+%nm/server/1_9_R2/PacketPlayOutOpenSignEditor	%nm/network/play/server/SPacketSignEditorOpen	gy
+%nm/server/1_9_R2/PacketPlayOutAbilities	%nm/network/play/server/SPacketPlayerAbilities	gz
+%nm/server/1_9_R2/SystemUtils	%nm/util/Util	h
+%nm/server/1_9_R2/PacketPlayOutCombatEvent	%nm/network/play/server/SPacketCombatEvent	ha
+%nm/server/1_9_R2/PacketPlayOutCombatEvent$EnumCombatEventType	%nm/network/play/server/SPacketCombatEvent$Event	ha$a
+%nm/server/1_9_R2/PacketPlayOutPlayerInfo	%nm/network/play/server/SPacketPlayerListItem	hb
+%nm/server/1_9_R2/PacketPlayOutPlayerInfo$EnumPlayerInfoAction	%nm/network/play/server/SPacketPlayerListItem$Action	hb$a
+%nm/server/1_9_R2/PacketPlayOutPlayerInfo$PlayerInfoData	%nm/network/play/server/SPacketPlayerListItem$AddPlayerData	hb$b
+%nm/server/1_9_R2/PacketPlayOutPosition	%nm/network/play/server/SPacketPlayerPosLook	hc
+%nm/server/1_9_R2/PacketPlayOutPosition$EnumPlayerTeleportFlags	%nm/network/play/server/SPacketPlayerPosLook$EnumFlags	hc$a
+%nm/server/1_9_R2/PacketPlayOutBed	%nm/network/play/server/SPacketUseBed	hd
+%nm/server/1_9_R2/PacketPlayOutEntityDestroy	%nm/network/play/server/SPacketDestroyEntities	he
+%nm/server/1_9_R2/PacketPlayOutRemoveEntityEffect	%nm/network/play/server/SPacketRemoveEntityEffect	hf
+%nm/server/1_9_R2/PacketPlayOutResourcePackSend	%nm/network/play/server/SPacketResourcePackSend	hg
+%nm/server/1_9_R2/PacketPlayOutRespawn	%nm/network/play/server/SPacketRespawn	hh
+%nm/server/1_9_R2/PacketPlayOutEntityHeadRotation	%nm/network/play/server/SPacketEntityHeadLook	hi
+%nm/server/1_9_R2/PacketPlayOutWorldBorder	%nm/network/play/server/SPacketWorldBorder	hj
+%nm/server/1_9_R2/PacketPlayOutWorldBorder$EnumWorldBorderAction	%nm/network/play/server/SPacketWorldBorder$Action	hj$a
+%nm/server/1_9_R2/PacketPlayOutCamera	%nm/network/play/server/SPacketCamera	hk
+%nm/server/1_9_R2/PacketPlayOutHeldItemSlot	%nm/network/play/server/SPacketHeldItemChange	hl
+%nm/server/1_9_R2/PacketPlayOutScoreboardDisplayObjective	%nm/network/play/server/SPacketDisplayObjective	hm
+%nm/server/1_9_R2/PacketPlayOutEntityMetadata	%nm/network/play/server/SPacketEntityMetadata	hn
+%nm/server/1_9_R2/PacketPlayOutAttachEntity	%nm/network/play/server/SPacketEntityAttach	ho
+%nm/server/1_9_R2/PacketPlayOutEntityVelocity	%nm/network/play/server/SPacketEntityVelocity	hp
+%nm/server/1_9_R2/PacketPlayOutEntityEquipment	%nm/network/play/server/SPacketEntityEquipment	hq
+%nm/server/1_9_R2/PacketPlayOutExperience	%nm/network/play/server/SPacketSetExperience	hr
+%nm/server/1_9_R2/PacketPlayOutUpdateHealth	%nm/network/play/server/SPacketUpdateHealth	hs
+%nm/server/1_9_R2/PacketPlayOutScoreboardObjective	%nm/network/play/server/SPacketScoreboardObjective	ht
+%nm/server/1_9_R2/PacketPlayOutMount	%nm/network/play/server/SPacketSetPassengers	hu
+%nm/server/1_9_R2/PacketPlayOutScoreboardTeam	%nm/network/play/server/SPacketTeams	hv
+%nm/server/1_9_R2/PacketPlayOutScoreboardScore	%nm/network/play/server/SPacketUpdateScore	hw
+%nm/server/1_9_R2/PacketPlayOutScoreboardScore$EnumScoreboardAction	%nm/network/play/server/SPacketUpdateScore$Action	hw$a
+%nm/server/1_9_R2/PacketPlayOutSpawnPosition	%nm/network/play/server/SPacketSpawnPosition	hx
+%nm/server/1_9_R2/PacketPlayOutUpdateTime	%nm/network/play/server/SPacketTimeUpdate	hy
+%nm/server/1_9_R2/PacketPlayOutTitle	%nm/network/play/server/SPacketTitle	hz
+%nm/server/1_9_R2/PacketPlayOutTitle$EnumTitleAction	%nm/network/play/server/SPacketTitle$Type	hz$a
+%nm/server/1_9_R2/ICommandDispatcher	%nm/command/ICommandListener	i
+%nm/server/1_9_R2/PacketPlayOutNamedSoundEffect	%nm/network/play/server/SPacketSoundEffect	ia
+%nm/server/1_9_R2/PacketPlayOutPlayerListHeaderFooter	%nm/network/play/server/SPacketPlayerListHeaderFooter	ib
+%nm/server/1_9_R2/PacketPlayOutCollect	%nm/network/play/server/SPacketCollectItem	ic
+%nm/server/1_9_R2/PacketPlayOutEntityTeleport	%nm/network/play/server/SPacketEntityTeleport	id
+%nm/server/1_9_R2/PacketPlayOutUpdateAttributes	%nm/network/play/server/SPacketEntityProperties	ie
+%nm/server/1_9_R2/PacketPlayOutUpdateAttributes$AttributeSnapshot	%nm/network/play/server/SPacketEntityProperties$Snapshot	ie$a
+%nm/server/1_9_R2/PacketPlayOutEntityEffect	%nm/network/play/server/SPacketEntityEffect	ig
+%nm/server/1_9_R2/PacketListenerPlayIn	%nm/network/play/INetHandlerPlayServer	ih
+%nm/server/1_9_R2/PacketPlayInTeleportAccept	%nm/network/play/client/CPacketConfirmTeleport	ii
+%nm/server/1_9_R2/PacketPlayInTabComplete	%nm/network/play/client/CPacketTabComplete	ij
+%nm/server/1_9_R2/PacketPlayInChat	%nm/network/play/client/CPacketChatMessage	ik
+%nm/server/1_9_R2/PacketPlayInClientCommand	%nm/network/play/client/CPacketClientStatus	il
+%nm/server/1_9_R2/PacketPlayInClientCommand$EnumClientCommand	%nm/network/play/client/CPacketClientStatus$State	il$a
+%nm/server/1_9_R2/PacketPlayInSettings	%nm/network/play/client/CPacketClientSettings	im
+%nm/server/1_9_R2/PacketPlayInTransaction	%nm/network/play/client/CPacketConfirmTransaction	in
+%nm/server/1_9_R2/PacketPlayInEnchantItem	%nm/network/play/client/CPacketEnchantItem	io
+%nm/server/1_9_R2/PacketPlayInWindowClick	%nm/network/play/client/CPacketClickWindow	ip
+%nm/server/1_9_R2/PacketPlayInCloseWindow	%nm/network/play/client/CPacketCloseWindow	iq
+%nm/server/1_9_R2/PacketPlayInCustomPayload	%nm/network/play/client/CPacketCustomPayload	ir
+%nm/server/1_9_R2/PacketPlayInUseEntity	%nm/network/play/client/CPacketUseEntity	is
+%nm/server/1_9_R2/PacketPlayInUseEntity$EnumEntityUseAction	%nm/network/play/client/CPacketUseEntity$Action	is$a
+%nm/server/1_9_R2/PacketPlayInKeepAlive	%nm/network/play/client/CPacketKeepAlive	it
+%nm/server/1_9_R2/PacketPlayInFlying	%nm/network/play/client/CPacketPlayer	iu
+%nm/server/1_9_R2/PacketPlayInFlying$PacketPlayInPosition	%nm/network/play/client/CPacketPlayer$Position	iu$a
+%nm/server/1_9_R2/PacketPlayInFlying$PacketPlayInPositionLook	%nm/network/play/client/CPacketPlayer$PositionRotation	iu$b
+%nm/server/1_9_R2/PacketPlayInFlying$PacketPlayInLook	%nm/network/play/client/CPacketPlayer$Rotation	iu$c
+%nm/server/1_9_R2/PacketPlayInVehicleMove	%nm/network/play/client/CPacketVehicleMove	iv
+%nm/server/1_9_R2/PacketPlayInBoatMove	%nm/network/play/client/CPacketSteerBoat	iw
+%nm/server/1_9_R2/PacketPlayInAbilities	%nm/network/play/client/CPacketPlayerAbilities	ix
+%nm/server/1_9_R2/PacketPlayInBlockDig	%nm/network/play/client/CPacketPlayerDigging	iy
+%nm/server/1_9_R2/PacketPlayInBlockDig$EnumPlayerDigType	%nm/network/play/client/CPacketPlayerDigging$Action	iy$a
+%nm/server/1_9_R2/PacketPlayInEntityAction	%nm/network/play/client/CPacketEntityAction	iz
+%nm/server/1_9_R2/PacketPlayInEntityAction$EnumPlayerAction	%nm/network/play/client/CPacketEntityAction$Action	iz$a
+%nm/server/1_9_R2/CommandAbstract	%nm/command/CommandBase	j
+%nm/server/1_9_R2/CommandAbstract$CommandNumber	%nm/command/CommandBase$CoordinateArg	j$a
+%nm/server/1_9_R2/PacketPlayInSteerVehicle	%nm/network/play/client/CPacketInput	ja
+%nm/server/1_9_R2/PacketPlayInResourcePackStatus	%nm/network/play/client/CPacketResourcePackStatus	jb
+%nm/server/1_9_R2/PacketPlayInResourcePackStatus$EnumResourcePackStatus	%nm/network/play/client/CPacketResourcePackStatus$Action	jb$a
+%nm/server/1_9_R2/PacketPlayInHeldItemSlot	%nm/network/play/client/CPacketHeldItemChange	jc
+%nm/server/1_9_R2/PacketPlayInSetCreativeSlot	%nm/network/play/client/CPacketCreativeInventoryAction	jd
+%nm/server/1_9_R2/PacketPlayInUpdateSign	%nm/network/play/client/CPacketUpdateSign	je
+%nm/server/1_9_R2/PacketPlayInArmAnimation	%nm/network/play/client/CPacketAnimation	jf
+%nm/server/1_9_R2/PacketPlayInSpectate	%nm/network/play/client/CPacketSpectate	jg
+%nm/server/1_9_R2/PacketPlayInUseItem	%nm/network/play/client/CPacketPlayerTryUseItemOnBlock	jh
+%nm/server/1_9_R2/PacketPlayInBlockPlace	%nm/network/play/client/CPacketPlayerTryUseItem	ji
+%nm/server/1_9_R2/PacketHandshakingInSetProtocol	%nm/network/handshake/client/C00Handshake	jk
+%nm/server/1_9_R2/PacketHandshakingInListener	%nm/network/handshake/INetHandlerHandshakeServer	jl
+%nm/server/1_9_R2/PacketLoginOutListener	%nm/network/login/INetHandlerLoginClient	jn
+%nm/server/1_9_R2/PacketLoginOutSuccess	%nm/network/login/server/SPacketLoginSuccess	jo
+%nm/server/1_9_R2/PacketLoginOutEncryptionBegin	%nm/network/login/server/SPacketEncryptionRequest	jp
+%nm/server/1_9_R2/PacketLoginOutSetCompression	%nm/network/login/server/SPacketEnableCompression	jq
+%nm/server/1_9_R2/PacketLoginOutDisconnect	%nm/network/login/server/SPacketDisconnect	jr
+%nm/server/1_9_R2/PacketLoginInListener	%nm/network/login/INetHandlerLoginServer	js
+%nm/server/1_9_R2/PacketLoginInStart	%nm/network/login/client/CPacketLoginStart	jt
+%nm/server/1_9_R2/PacketLoginInEncryptionBegin	%nm/network/login/client/CPacketEncryptionResponse	ju
+%nm/server/1_9_R2/PacketStatusOutListener	%nm/network/status/INetHandlerStatusClient	jx
+%nm/server/1_9_R2/PacketStatusOutPong	%nm/network/status/server/SPacketPong	jy
+%nm/server/1_9_R2/PacketStatusOutServerInfo	%nm/network/status/server/SPacketServerInfo	jz
+%nm/server/1_9_R2/CommandHandler	%nm/command/CommandHandler	k
+%nm/server/1_9_R2/ServerPing	%nm/network/ServerStatusResponse	ka
+%nm/server/1_9_R2/ServerPing$ServerPingPlayerSample	%nm/network/ServerStatusResponse$Players	ka$a
+%nm/server/1_9_R2/ServerPing$ServerPingPlayerSample$Serializer	%nm/network/ServerStatusResponse$Players$Serializer	ka$a$a
+%nm/server/1_9_R2/ServerPing$Serializer	%nm/network/ServerStatusResponse$Serializer	ka$b
+%nm/server/1_9_R2/ServerPing$ServerData	%nm/network/ServerStatusResponse$Version	ka$c
+%nm/server/1_9_R2/ServerPing$ServerData$Serializer	%nm/network/ServerStatusResponse$Version$Serializer	ka$c$a
+%nm/server/1_9_R2/PacketStatusInListener	%nm/network/status/INetHandlerStatusServer	kb
+%nm/server/1_9_R2/PacketStatusInPing	%nm/network/status/client/CPacketPing	kc
+%nm/server/1_9_R2/PacketStatusInStart	%nm/network/status/client/CPacketServerQuery	kd
+%nm/server/1_9_R2/DataWatcherObject	%nm/network/datasync/DataParameter	kf
+%nm/server/1_9_R2/DataWatcherSerializer	%nm/network/datasync/DataSerializer	kg
+%nm/server/1_9_R2/DataWatcherRegistry	%nm/network/datasync/DataSerializers	kh
+%nm/server/1_9_R2/DataWatcherRegistry$1	%nm/network/datasync/DataSerializers$1	kh$1
+%nm/server/1_9_R2/DataWatcherRegistry$10	%nm/network/datasync/DataSerializers$6	kh$10
+%nm/server/1_9_R2/DataWatcherRegistry$11	%nm/network/datasync/DataSerializers$7	kh$11
+%nm/server/1_9_R2/DataWatcherRegistry$12	%nm/network/datasync/DataSerializers$8	kh$12
+%nm/server/1_9_R2/DataWatcherRegistry$13	%nm/network/datasync/DataSerializers$9	kh$13
+%nm/server/1_9_R2/DataWatcherRegistry$2	%nm/network/datasync/DataSerializers$10	kh$2
+%nm/server/1_9_R2/DataWatcherRegistry$3	%nm/network/datasync/DataSerializers$11	kh$3
+%nm/server/1_9_R2/DataWatcherRegistry$4	%nm/network/datasync/DataSerializers$12	kh$4
+%nm/server/1_9_R2/DataWatcherRegistry$5	%nm/network/datasync/DataSerializers$13	kh$5
+%nm/server/1_9_R2/DataWatcherRegistry$6	%nm/network/datasync/DataSerializers$2	kh$6
+%nm/server/1_9_R2/DataWatcherRegistry$7	%nm/network/datasync/DataSerializers$3	kh$7
+%nm/server/1_9_R2/DataWatcherRegistry$8	%nm/network/datasync/DataSerializers$4	kh$8
+%nm/server/1_9_R2/DataWatcherRegistry$9	%nm/network/datasync/DataSerializers$5	kh$9
+%nm/server/1_9_R2/DataWatcher	%nm/network/datasync/EntityDataManager	ki
+%nm/server/1_9_R2/DataWatcher$Item	%nm/network/datasync/EntityDataManager$DataEntry	ki$a
+%nm/server/1_9_R2/MinecraftKey	%nm/util/ResourceLocation	kl
+%nm/server/1_9_R2/DispenseBehaviorProjectile	%nm/dispenser/BehaviorProjectileDispense	kn
+%nm/server/1_9_R2/DispenserRegistry	%nm/init/Bootstrap	ko
+%nm/server/1_9_R2/DispenserRegistry$1	%nm/init/Bootstrap$1	ko$1
+%nm/server/1_9_R2/DispenserRegistry$10	%nm/init/Bootstrap$18	ko$10
+%nm/server/1_9_R2/DispenserRegistry$11	%nm/init/Bootstrap$2	ko$11
+%nm/server/1_9_R2/DispenserRegistry$12	%nm/init/Bootstrap$3	ko$12
+%nm/server/1_9_R2/DispenserRegistry$13	%nm/init/Bootstrap$4	ko$13
+%nm/server/1_9_R2/DispenserRegistry$14	%nm/init/Bootstrap$5	ko$14
+%nm/server/1_9_R2/DispenserRegistry$15	%nm/init/Bootstrap$6	ko$15
+%nm/server/1_9_R2/DispenserRegistry$16	%nm/init/Bootstrap$7	ko$16
+%nm/server/1_9_R2/DispenserRegistry$16$1	%nm/init/Bootstrap$7$1	ko$16$1
+%nm/server/1_9_R2/DispenserRegistry$17	%nm/init/Bootstrap$8	ko$17
+%nm/server/1_9_R2/DispenserRegistry$17$1	%nm/init/Bootstrap$8$1	ko$17$1
+%nm/server/1_9_R2/DispenserRegistry$18	%nm/init/Bootstrap$9	ko$18
+%nm/server/1_9_R2/DispenserRegistry$2	%nm/init/Bootstrap$10	ko$2
+%nm/server/1_9_R2/DispenserRegistry$3	%nm/init/Bootstrap$11	ko$3
+%nm/server/1_9_R2/DispenserRegistry$4	%nm/init/Bootstrap$12	ko$4
+%nm/server/1_9_R2/DispenserRegistry$5	%nm/init/Bootstrap$13	ko$5
+%nm/server/1_9_R2/DispenserRegistry$6	%nm/init/Bootstrap$14	ko$6
+%nm/server/1_9_R2/DispenserRegistry$7	%nm/init/Bootstrap$15	ko$7
+%nm/server/1_9_R2/DispenserRegistry$8	%nm/init/Bootstrap$16	ko$8
+%nm/server/1_9_R2/DispenserRegistry$9	%nm/init/Bootstrap$17	ko$9
+%nm/server/1_9_R2/DispenserRegistry$a	%nm/init/Bootstrap$BehaviorDispenseBoat	ko$a
+%nm/server/1_9_R2/ServerCommand	%nm/server/dedicated/PendingCommand	kq
+%nm/server/1_9_R2/EULA	%nm/server/ServerEula	ks
+%nm/server/1_9_R2/RedirectStream	%nm/util/LoggingPrintStream	kt
+%nm/server/1_9_R2/CancelledPacketHandleException	%nm/network/ThreadQuickExitException	kv
+%nm/server/1_9_R2/IMinecraftServer	%nm/network/rcon/IServer	kw
+%nm/server/1_9_R2/ScoreboardServer	%nm/scoreboard/ServerScoreboard	kx
+%nm/server/1_9_R2/PropertyManager	%nm/server/dedicated/PropertyManager	ky
+%nm/server/1_9_R2/ITickable	%nm/util/ITickable	kz
+%nm/server/1_9_R2/ICommand	%nm/command/ICommand	l
+%nm/server/1_9_R2/DedicatedPlayerList	%nm/server/dedicated/DedicatedPlayerList	la
+%nm/server/1_9_R2/DedicatedServer	%nm/server/dedicated/DedicatedServer	lb
+%nm/server/1_9_R2/DedicatedServer$1	%nm/server/dedicated/DedicatedServer$1	lb$1
+%nm/server/1_9_R2/DedicatedServer$2	%nm/server/dedicated/DedicatedServer$2	lb$2
+%nm/server/1_9_R2/DedicatedServer$3	%nm/server/dedicated/DedicatedServer$3	lb$3
+%nm/server/1_9_R2/DedicatedServer$4	%nm/server/dedicated/DedicatedServer$4	lb$4
+%nm/server/1_9_R2/ThreadWatchdog	%nm/server/dedicated/ServerHangWatchdog	lc
+%nm/server/1_9_R2/ThreadWatchdog$1	%nm/server/dedicated/ServerHangWatchdog$1	lc$1
+%nm/server/1_9_R2/ServerGUI	%nm/server/gui/MinecraftServerGui	le
+%nm/server/1_9_R2/ServerGUI$1	%nm/server/gui/MinecraftServerGui$1	le$1
+%nm/server/1_9_R2/ServerGUI$2	%nm/server/gui/MinecraftServerGui$2	le$2
+%nm/server/1_9_R2/ServerGUI$3	%nm/server/gui/MinecraftServerGui$3	le$3
+%nm/server/1_9_R2/ServerGUI$4	%nm/server/gui/MinecraftServerGui$4	le$4
+%nm/server/1_9_R2/ServerGUI$5	%nm/server/gui/MinecraftServerGui$5	le$5
+%nm/server/1_9_R2/PlayerListBox	%nm/server/gui/PlayerListComponent	lf
+%nm/server/1_9_R2/GuiStatsComponent	%nm/server/gui/StatsComponent	lg
+%nm/server/1_9_R2/GuiStatsComponent$1	%nm/server/gui/StatsComponent$1	lg$1
+%nm/server/1_9_R2/DemoWorldServer	%nm/world/demo/DemoWorldServer	lk
+%nm/server/1_9_R2/DemoPlayerInteractManager	%nm/world/demo/DemoWorldManager	ll
+%nm/server/1_9_R2/SecondaryWorldServer	%nm/world/WorldServerMulti	lm
+%nm/server/1_9_R2/SecondaryWorldServer$1	%nm/world/WorldServerMulti$1	lm$1
+%nm/server/1_9_R2/EntityTracker	%nm/entity/EntityTracker	ln
+%nm/server/1_9_R2/EntityTracker$1	%nm/entity/EntityTracker$1	ln$1
+%nm/server/1_9_R2/BossBattleServer	%nm/world/BossInfoServer	lo
+%nm/server/1_9_R2/ChunkProviderServer	%nm/world/gen/ChunkProviderServer	lp
+%nm/server/1_9_R2/WorldServer	%nm/world/WorldServer	lq
+%nm/server/1_9_R2/WorldServer$1	%nm/world/WorldServer$1	lq$1
+%nm/server/1_9_R2/WorldServer$BlockActionDataList	%nm/world/WorldServer$ServerBlockEventList	lq$a
+%nm/server/1_9_R2/WorldManager	%nm/world/ServerWorldEventHandler	lr
+%nm/server/1_9_R2/EntityPlayer	%nm/entity/player/EntityPlayerMP	ls
+%nm/server/1_9_R2/PlayerInteractManager	%nm/server/management/PlayerInteractionManager	lt
+%nm/server/1_9_R2/EntityTrackerEntry	%nm/entity/EntityTrackerEntry	lu
+%nm/server/1_9_R2/PlayerChunk	%nm/server/management/PlayerChunkMapEntry	lv
+%nm/server/1_9_R2/PlayerChunkMap	%nm/server/management/PlayerChunkMap	lw
+%nm/server/1_9_R2/PlayerChunkMap$1	%nm/server/management/PlayerChunkMap$1	lw$1
+%nm/server/1_9_R2/PlayerChunkMap$2	%nm/server/management/PlayerChunkMap$2	lw$2
+%nm/server/1_9_R2/PlayerChunkMap$3	%nm/server/management/PlayerChunkMap$3	lw$3
+%nm/server/1_9_R2/PlayerChunkMap$4	%nm/server/management/PlayerChunkMap$4	lw$4
+%nm/server/1_9_R2/PlayerChunkMap$5	%nm/server/management/PlayerChunkMap$5	lw$5
+%nm/server/1_9_R2/LegacyPingHandler	%nm/network/LegacyPingHandler	lz
+%nm/server/1_9_R2/ICommandHandler	%nm/command/ICommandManager	m
+%nm/server/1_9_R2/ServerConnection	%nm/network/NetworkSystem	mb
+%nm/server/1_9_R2/ServerConnection$1	%nm/network/NetworkSystem$1	mb$1
+%nm/server/1_9_R2/ServerConnection$2	%nm/network/NetworkSystem$2	mb$2
+%nm/server/1_9_R2/ServerConnection$3	%nm/network/NetworkSystem$3	mb$3
+%nm/server/1_9_R2/ServerConnection$4	%nm/network/NetworkSystem$4	mb$4
+%nm/server/1_9_R2/ServerConnection$6	%nm/network/NetworkSystem$6	mb$6
+%nm/server/1_9_R2/ServerConnection$7	%nm/network/NetworkSystem$7	mb$7
+%nm/server/1_9_R2/PlayerConnection	%nm/network/NetHandlerPlayServer	mc
+%nm/server/1_9_R2/PlayerConnection$1	%nm/network/NetHandlerPlayServer$1	mc$1
+%nm/server/1_9_R2/PlayerConnection$2	%nm/network/NetHandlerPlayServer$2	mc$2
+%nm/server/1_9_R2/PlayerConnection$3	%nm/network/NetHandlerPlayServer$3	mc$3
+%nm/server/1_9_R2/HandshakeListener	%nm/server/network/NetHandlerHandshakeTCP	md
+%nm/server/1_9_R2/LoginListener	%nm/server/network/NetHandlerLoginServer	me
+%nm/server/1_9_R2/LoginListener$1	%nm/server/network/NetHandlerLoginServer$1	me$1
+%nm/server/1_9_R2/LoginListener$2	%nm/server/network/NetHandlerLoginServer$2	me$2
+%nm/server/1_9_R2/LoginListener$EnumProtocolState	%nm/server/network/NetHandlerLoginServer$LoginState	me$a
+%nm/server/1_9_R2/PacketStatusListener	%nm/server/network/NetHandlerStatusServer	mf
+%nm/server/1_9_R2/ExpirableListEntry	%nm/server/management/UserListEntryBan	mi
+%nm/server/1_9_R2/UserCache	%nm/server/management/PlayerProfileCache	mj
+%nm/server/1_9_R2/UserCache$1	%nm/server/management/PlayerProfileCache$1	mj$1
+%nm/server/1_9_R2/UserCache$2	%nm/server/management/PlayerProfileCache$2	mj$2
+%nm/server/1_9_R2/UserCache$UserCacheEntry	%nm/server/management/PlayerProfileCache$ProfileEntry	mj$a
+%nm/server/1_9_R2/UserCache$BanEntrySerializer	%nm/server/management/PlayerProfileCache$Serializer	mj$b
+%nm/server/1_9_R2/IpBanList	%nm/server/management/UserListIPBans	mk
+%nm/server/1_9_R2/IpBanEntry	%nm/server/management/UserListIPBansEntry	ml
+%nm/server/1_9_R2/NameReferencingFileConverter	%nm/server/management/PreYggdrasilConverter	mm
+%nm/server/1_9_R2/NameReferencingFileConverter$1	%nm/server/management/PreYggdrasilConverter$1	mm$1
+%nm/server/1_9_R2/NameReferencingFileConverter$2	%nm/server/management/PreYggdrasilConverter$2	mm$2
+%nm/server/1_9_R2/NameReferencingFileConverter$3	%nm/server/management/PreYggdrasilConverter$3	mm$3
+%nm/server/1_9_R2/NameReferencingFileConverter$4	%nm/server/management/PreYggdrasilConverter$4	mm$4
+%nm/server/1_9_R2/NameReferencingFileConverter$5	%nm/server/management/PreYggdrasilConverter$5	mm$5
+%nm/server/1_9_R2/NameReferencingFileConverter$6	%nm/server/management/PreYggdrasilConverter$6	mm$6
+%nm/server/1_9_R2/NameReferencingFileConverter$FileConversionException	%nm/server/management/PreYggdrasilConverter$ConversionError	mm$a
+%nm/server/1_9_R2/PlayerList	%nm/server/management/PlayerList	mn
+%nm/server/1_9_R2/PlayerList$1	%nm/server/management/PlayerList$1	mn$1
+%nm/server/1_9_R2/OpList	%nm/server/management/UserListOps	mo
+%nm/server/1_9_R2/OpListEntry	%nm/server/management/UserListOpsEntry	mp
+%nm/server/1_9_R2/JsonListEntry	%nm/server/management/UserListEntry	mq
+%nm/server/1_9_R2/JsonList	%nm/server/management/UserList	mr
+%nm/server/1_9_R2/JsonList$1	%nm/server/management/UserList$1	mr$1
+%nm/server/1_9_R2/JsonList$JsonListEntrySerializer	%nm/server/management/UserList$Serializer	mr$a
+%nm/server/1_9_R2/GameProfileBanList	%nm/server/management/UserListBans	ms
+%nm/server/1_9_R2/GameProfileBanEntry	%nm/server/management/UserListBansEntry	mt
+%nm/server/1_9_R2/WhiteList	%nm/server/management/UserListWhitelist	mu
+%nm/server/1_9_R2/WhiteListEntry	%nm/server/management/UserListWhitelistEntry	mv
+%nm/server/1_9_R2/RemoteStatusReply	%nm/network/rcon/RConOutputStream	mx
+%nm/server/1_9_R2/StatusChallengeUtils	%nm/network/rcon/RConUtils	my
+%nm/server/1_9_R2/RemoteControlCommandListener	%nm/network/rcon/RConConsoleSource	mz
+%nm/server/1_9_R2/ICommandListener	%nm/command/ICommandSender	n
+%nm/server/1_9_R2/RemoteConnectionThread	%nm/network/rcon/RConThreadBase	nb
+%nm/server/1_9_R2/RemoteStatusListener	%nm/network/rcon/RConThreadQuery	nc
+%nm/server/1_9_R2/RemoteStatusListener$RemoteStatusChallenge	%nm/network/rcon/RConThreadQuery$Auth	nc$a
+%nm/server/1_9_R2/RemoteControlSession	%nm/network/rcon/RConThreadClient	nd
+%nm/server/1_9_R2/RemoteControlListener	%nm/network/rcon/RConThreadMain	ne
+	%nm/server/MinecraftServer	%nm/server/MinecraftServer
+	%nm/server/MinecraftServer$1	%nm/server/MinecraftServer$1
+	%nm/server/MinecraftServer$2	%nm/server/MinecraftServer$2
+	%nm/server/MinecraftServer$3	%nm/server/MinecraftServer$3
+	%nm/server/MinecraftServer$4	%nm/server/MinecraftServer$4
+%nm/server/1_9_R2/SoundEffect	%nm/util/SoundEvent	ng
+%nm/server/1_9_R2/SoundEffects	%nm/init/SoundEvents	nh
+%nm/server/1_9_R2/SoundCategory	%nm/util/SoundCategory	ni
+%nm/server/1_9_R2/Achievement	%nm/stats/Achievement	nk
+%nm/server/1_9_R2/AchievementList	%nm/stats/AchievementList	nl
+%nm/server/1_9_R2/CounterStatistic	%nm/stats/StatBasic	nn
+%nm/server/1_9_R2/CraftingStatistic	%nm/stats/StatCrafting	no
+%nm/server/1_9_R2/ServerStatisticManager	%nm/stats/StatisticsManagerServer	np
+%nm/server/1_9_R2/Statistic	%nm/stats/StatBase	nq
+%nm/server/1_9_R2/Statistic$1	%nm/stats/StatBase$1	nq$1
+%nm/server/1_9_R2/Statistic$2	%nm/stats/StatBase$2	nq$2
+%nm/server/1_9_R2/Statistic$3	%nm/stats/StatBase$3	nq$3
+%nm/server/1_9_R2/Statistic$4	%nm/stats/StatBase$4	nq$4
+%nm/server/1_9_R2/Counter	%nm/stats/IStatType	nr
+%nm/server/1_9_R2/StatisticWrapper	%nm/util/TupleIntJsonSerializable	ns
+%nm/server/1_9_R2/IJsonStatistic	%nm/util/IJsonSerializable	nt
+%nm/server/1_9_R2/StatisticList	%nm/stats/StatList	nu
+%nm/server/1_9_R2/StatisticManager	%nm/stats/StatisticsManager	nv
+%nm/server/1_9_R2/AchievementSet	%nm/util/JsonSerializableSet	nw
+%nm/server/1_9_R2/DataBits	%nm/util/BitArray	ny
+%nm/server/1_9_R2/EntitySlice	%nm/util/ClassInheritanceMultiMap	nz
+%nm/server/1_9_R2/EntitySlice$1	%nm/util/ClassInheritanceMultiMap$1	nz$1
+%nm/server/1_9_R2/CommandObjectiveExecutor	%nm/command/CommandResultStats	o
+%nm/server/1_9_R2/CommandObjectiveExecutor$1	%nm/command/CommandResultStats$1	o$1
+%nm/server/1_9_R2/CommandObjectiveExecutor$EnumCommandResult	%nm/command/CommandResultStats$Type	o$a
+%nm/server/1_9_R2/RegistryID	%nm/util/IntIdentityHashBiMap	ob
+%nm/server/1_9_R2/MinecraftEncryption	%nm/util/CryptManager	oc
+%nm/server/1_9_R2/ChatDeserializer	%nm/util/JsonUtils	oe
+%nm/server/1_9_R2/HttpUtilities	%nm/util/HttpUtil	of
+%nm/server/1_9_R2/InsensitiveStringMap	%nm/util/LowerStringMap	og
+%nm/server/1_9_R2/IntHashMap	%nm/util/IntHashMap	oi
+%nm/server/1_9_R2/IntHashMap$IntHashMapEntry	%nm/util/IntHashMap$Entry	oi$a
+%nm/server/1_9_R2/LazyInitVar	%nm/util/LazyLoadBase	ok
+%nm/server/1_9_R2/ChatTypeAdapterFactory	%nm/util/EnumTypeAdapterFactory	om
+%nm/server/1_9_R2/ChatTypeAdapterFactory$1	%nm/util/EnumTypeAdapterFactory$1	om$1
+%nm/server/1_9_R2/MathHelper	%nm/util/math/MathHelper	on
+%nm/server/1_9_R2/MethodProfiler	%nm/profiler/Profiler	oo
+%nm/server/1_9_R2/MethodProfiler$ProfilerInfo	%nm/profiler/Profiler$Result	oo$a
+%nm/server/1_9_R2/IProgressUpdate	%nm/util/IProgressUpdate	op
+%nm/server/1_9_R2/INamable	%nm/util/IStringSerializable	or
+%nm/server/1_9_R2/UtilColor	%nm/util/StringUtils	os
+%nm/server/1_9_R2/Tuple	%nm/util/Tuple	ou
+%nm/server/1_9_R2/WeightedRandom	%nm/util/WeightedRandom	ov
+%nm/server/1_9_R2/WeightedRandom$WeightedRandomChoice	%nm/util/WeightedRandom$Item	ov$a
+%nm/server/1_9_R2/IDataConverter	%nm/util/datafix/IFixableData	ox
+%nm/server/1_9_R2/DataConverterType	%nm/util/datafix/IFixType	oy
+%nm/server/1_9_R2/DataConverterTypes	%nm/util/datafix/FixTypes	oz
+%nm/server/1_9_R2/PlayerSelector	%nm/command/EntitySelector	p
+%nm/server/1_9_R2/PlayerSelector$1	%nm/command/EntitySelector$1	p$1
+%nm/server/1_9_R2/PlayerSelector$10	%nm/command/EntitySelector$6	p$10
+%nm/server/1_9_R2/PlayerSelector$11	%nm/command/EntitySelector$7	p$11
+%nm/server/1_9_R2/PlayerSelector$12	%nm/command/EntitySelector$8	p$12
+%nm/server/1_9_R2/PlayerSelector$13	%nm/command/EntitySelector$9	p$13
+%nm/server/1_9_R2/PlayerSelector$2	%nm/command/EntitySelector$10	p$2
+%nm/server/1_9_R2/PlayerSelector$3	%nm/command/EntitySelector$11	p$3
+%nm/server/1_9_R2/PlayerSelector$4	%nm/command/EntitySelector$12	p$4
+%nm/server/1_9_R2/PlayerSelector$5	%nm/command/EntitySelector$13	p$5
+%nm/server/1_9_R2/PlayerSelector$6	%nm/command/EntitySelector$2	p$6
+%nm/server/1_9_R2/PlayerSelector$7	%nm/command/EntitySelector$3	p$7
+%nm/server/1_9_R2/PlayerSelector$8	%nm/command/EntitySelector$4	p$8
+%nm/server/1_9_R2/PlayerSelector$9	%nm/command/EntitySelector$5	p$9
+%nm/server/1_9_R2/DataConverter	%nm/util/datafix/IDataFixer	pa
+%nm/server/1_9_R2/DataConverterManager	%nm/util/datafix/DataFixer	pb
+%nm/server/1_9_R2/DataConverterRegistry	%nm/util/datafix/DataFixesManager	pc
+%nm/server/1_9_R2/DataConverterRegistry$1	%nm/util/datafix/DataFixesManager$1	pc$1
+%nm/server/1_9_R2/DataConverterRegistry$2	%nm/util/datafix/DataFixesManager$2	pc$2
+%nm/server/1_9_R2/DataConverterRegistry$3	%nm/util/datafix/DataFixesManager$3	pc$3
+%nm/server/1_9_R2/DataConverterRegistry$4	%nm/util/datafix/DataFixesManager$4	pc$4
+%nm/server/1_9_R2/DataConverterRegistry$5	%nm/util/datafix/DataFixesManager$5	pc$5
+%nm/server/1_9_R2/DataConverterRegistry$6	%nm/util/datafix/DataFixesManager$6	pc$6
+%nm/server/1_9_R2/DataConverterRegistry$7	%nm/util/datafix/DataFixesManager$7	pc$7
+%nm/server/1_9_R2/DataInspector	%nm/util/datafix/IDataWalker	pd
+%nm/server/1_9_R2/DataConverterArmorStand	%nm/util/datafix/fixes/ArmorStandSilent	pe
+%nm/server/1_9_R2/DataConverterEquipment	%nm/util/datafix/fixes/EntityArmorAndHeld	pf
+%nm/server/1_9_R2/DataConverterHealth	%nm/util/datafix/fixes/EntityHealth	pg
+%nm/server/1_9_R2/DataConverterSaddle	%nm/util/datafix/fixes/HorseSaddle	ph
+%nm/server/1_9_R2/DataConverterHanging	%nm/util/datafix/fixes/PaintingDirection	pi
+%nm/server/1_9_R2/DataConverterDropChances	%nm/util/datafix/fixes/RedundantChanceTags	pj
+%nm/server/1_9_R2/DataConverterRiding	%nm/util/datafix/fixes/RidingToPassengers	pk
+%nm/server/1_9_R2/DataConverterUUID	%nm/util/datafix/fixes/StringToUUID	pl
+%nm/server/1_9_R2/DataConverterMaterialId	%nm/util/datafix/fixes/ItemIntIDToString	pm
+%nm/server/1_9_R2/DataConverterBook	%nm/util/datafix/fixes/BookPagesStrictJSON	pn
+%nm/server/1_9_R2/DataConverterMinecart	%nm/util/datafix/fixes/MinecartEntityTypes	po
+%nm/server/1_9_R2/DataConverterMobSpawner	%nm/util/datafix/fixes/SpawnerEntityTypes	pp
+%nm/server/1_9_R2/DataConverterPotionId	%nm/util/datafix/fixes/PotionItems	pq
+%nm/server/1_9_R2/DataConverterSignText	%nm/util/datafix/fixes/SignStrictJSON	pr
+%nm/server/1_9_R2/DataConverterSignText$1	%nm/util/datafix/fixes/SignStrictJSON$1	pr$1
+%nm/server/1_9_R2/DataConverterSpawnEgg	%nm/util/datafix/fixes/SpawnEggNames	ps
+%nm/server/1_9_R2/DataInspectorItem	%nm/util/datafix/walkers/ItemStackData	pv
+%nm/server/1_9_R2/DataInspectorBlockEntity	%nm/util/datafix/walkers/BlockEntityTag	pw
+%nm/server/1_9_R2/DataInspectorEntity	%nm/util/datafix/walkers/EntityTag	px
+%nm/server/1_9_R2/DataInspectorItemList	%nm/util/datafix/walkers/ItemStackDataLists	py
+%nm/server/1_9_R2/DataInspectorTagged	%nm/util/datafix/walkers/Filtered	pz
+%nm/server/1_9_R2/CommandAchievement	%nm/command/server/CommandAchievement	q
+%nm/server/1_9_R2/CommandAchievement$1	%nm/command/server/CommandAchievement$1	q$1
+%nm/server/1_9_R2/IAsyncTaskHandler	%nm/util/IThreadListener	qc
+%nm/server/1_9_R2/BossBattle	%nm/world/BossInfo	qe
+%nm/server/1_9_R2/BossBattle$BarColor	%nm/world/BossInfo$Color	qe$a
+%nm/server/1_9_R2/BossBattle$BarStyle	%nm/world/BossInfo$Overlay	qe$b
+%nm/server/1_9_R2/InventoryLargeChest	%nm/inventory/InventoryLargeChest	qf
+%nm/server/1_9_R2/IInventory	%nm/inventory/IInventory	qg
+%nm/server/1_9_R2/ContainerUtil	%nm/inventory/ItemStackHelper	qh
+%nm/server/1_9_R2/IInventoryListener	%nm/inventory/IInventoryChangedListener	qi
+%nm/server/1_9_R2/InventoryUtils	%nm/inventory/InventoryHelper	qj
+%nm/server/1_9_R2/EnumDifficulty	%nm/world/EnumDifficulty	qk
+%nm/server/1_9_R2/DifficultyDamageScaler	%nm/world/DifficultyInstance	ql
+%nm/server/1_9_R2/EnumHand	%nm/util/EnumHand	qm
+%nm/server/1_9_R2/ITileEntityContainer	%nm/world/IInteractionObject	qn
+%nm/server/1_9_R2/EnumInteractionResult	%nm/util/EnumActionResult	qo
+%nm/server/1_9_R2/InteractionResultWrapper	%nm/util/ActionResult	qp
+%nm/server/1_9_R2/ChestLock	%nm/world/LockCode	qr
+%nm/server/1_9_R2/ITileInventory	%nm/world/ILockableContainer	qs
+%nm/server/1_9_R2/INamableTileEntity	%nm/world/IWorldNameable	qt
+%nm/server/1_9_R2/ILootable	%nm/world/storage/loot/ILootContainer	qu
+%nm/server/1_9_R2/InventorySubcontainer	%nm/inventory/InventoryBasic	qv
+%nm/server/1_9_R2/MojangStatisticsGenerator	%nm/profiler/Snooper	qw
+%nm/server/1_9_R2/MojangStatisticsGenerator$1	%nm/profiler/Snooper$1	qw$1
+%nm/server/1_9_R2/IMojangStatistics	%nm/profiler/ISnooperInfo	qx
+%nm/server/1_9_R2/IWorldInventory	%nm/inventory/ISidedInventory	qy
+%nm/server/1_9_R2/CombatEntry	%nm/util/CombatEntry	qz
+%nm/server/1_9_R2/CommandBanIp	%nm/command/server/CommandBanIp	r
+%nm/server/1_9_R2/CombatMath	%nm/util/CombatRules	ra
+%nm/server/1_9_R2/CombatTracker	%nm/util/CombatTracker	rb
+%nm/server/1_9_R2/DamageSource	%nm/util/DamageSource	rc
+%nm/server/1_9_R2/EntityDamageSource	%nm/util/EntityDamageSource	rd
+%nm/server/1_9_R2/EntityDamageSourceIndirect	%nm/util/EntityDamageSourceIndirect	re
+%nm/server/1_9_R2/MobEffectAbsorption	%nm/potion/PotionAbsorption	rg
+%nm/server/1_9_R2/MobEffectAttackDamage	%nm/potion/PotionAttackDamage	rh
+%nm/server/1_9_R2/MobEffectHealthBoost	%nm/potion/PotionHealthBoost	ri
+%nm/server/1_9_R2/InstantMobEffect	%nm/potion/PotionHealth	rj
+%nm/server/1_9_R2/MobEffectList	%nm/potion/Potion	rk
+%nm/server/1_9_R2/MobEffect	%nm/potion/PotionEffect	rl
+%nm/server/1_9_R2/MobEffects	%nm/init/MobEffects	rm
+%nm/server/1_9_R2/EntityAgeable	%nm/entity/EntityAgeable	ro
+%nm/server/1_9_R2/EntityAreaEffectCloud	%nm/entity/EntityAreaEffectCloud	rp
+%nm/server/1_9_R2/IAnimal	%nm/entity/passive/IAnimals	rq
+%nm/server/1_9_R2/Entity	%nm/entity/Entity	rr
+%nm/server/1_9_R2/Entity$1	%nm/entity/Entity$1	rr$1
+%nm/server/1_9_R2/Entity$2	%nm/entity/Entity$2	rr$2
+%nm/server/1_9_R2/Entity$3	%nm/entity/Entity$3	rr$3
+%nm/server/1_9_R2/Entity$4	%nm/entity/Entity$4	rr$4
+%nm/server/1_9_R2/EntityTypes	%nm/entity/EntityList	rt
+%nm/server/1_9_R2/EntityTypes$MonsterEggInfo	%nm/entity/EntityList$EntityEggInfo	rt$a
+%nm/server/1_9_R2/IEntitySelector	%nm/util/EntitySelectors	rv
+%nm/server/1_9_R2/IEntitySelector$1	%nm/util/EntitySelectors$1	rv$1
+%nm/server/1_9_R2/IEntitySelector$2	%nm/util/EntitySelectors$2	rv$2
+%nm/server/1_9_R2/IEntitySelector$3	%nm/util/EntitySelectors$3	rv$3
+%nm/server/1_9_R2/IEntitySelector$4	%nm/util/EntitySelectors$4	rv$4
+%nm/server/1_9_R2/IEntitySelector$5	%nm/util/EntitySelectors$5	rv$5
+%nm/server/1_9_R2/IEntitySelector$6	%nm/util/EntitySelectors$6	rv$6
+%nm/server/1_9_R2/IEntitySelector$7	%nm/util/EntitySelectors$7	rv$7
+%nm/server/1_9_R2/IEntitySelector$8	%nm/util/EntitySelectors$8	rv$8
+%nm/server/1_9_R2/IEntitySelector$EntitySelectorEquipable	%nm/util/EntitySelectors$ArmoredMob	rv$a
+%nm/server/1_9_R2/EnumItemSlot	%nm/inventory/EntityEquipmentSlot	rw
+%nm/server/1_9_R2/EnumItemSlot$Function	%nm/inventory/EntityEquipmentSlot$Type	rw$a
+%nm/server/1_9_R2/EntityExperienceOrb	%nm/entity/item/EntityXPOrb	rx
+%nm/server/1_9_R2/EntityFlying	%nm/entity/EntityFlying	ry
+%nm/server/1_9_R2/EnumMainHand	%nm/util/EnumHandSide	rz
+%nm/server/1_9_R2/CommandBan	%nm/command/server/CommandBanPlayer	s
+%nm/server/1_9_R2/EntityLiving	%nm/entity/EntityLivingBase	sa
+%nm/server/1_9_R2/EntityInsentient	%nm/entity/EntityLiving	sb
+%nm/server/1_9_R2/EntityInsentient$EnumEntityPositionType	%nm/entity/EntityLiving$SpawnPlacementType	sb$a
+%nm/server/1_9_R2/EnumCreatureType	%nm/entity/EnumCreatureType	sc
+%nm/server/1_9_R2/GroupDataEntity	%nm/entity/IEntityLivingData	sd
+%nm/server/1_9_R2/EntityPositionTypes	%nm/entity/EntitySpawnPlacementRegistry	se
+%nm/server/1_9_R2/EnumMonsterType	%nm/entity/EnumCreatureAttribute	sf
+%nm/server/1_9_R2/EntityOwnable	%nm/entity/IEntityOwnable	sg
+%nm/server/1_9_R2/EntityCreature	%nm/entity/EntityCreature	sh
+%nm/server/1_9_R2/IJumpable	%nm/entity/IJumpingMount	sj
+%nm/server/1_9_R2/EntityTameableAnimal	%nm/entity/passive/EntityTameable	sk
+%nm/server/1_9_R2/IAttribute	%nm/entity/ai/attributes/IAttribute	sl
+%nm/server/1_9_R2/AttributeInstance	%nm/entity/ai/attributes/IAttributeInstance	sm
+%nm/server/1_9_R2/AttributeModifier	%nm/entity/ai/attributes/AttributeModifier	sn
+%nm/server/1_9_R2/AttributeBase	%nm/entity/ai/attributes/BaseAttribute	so
+%nm/server/1_9_R2/AttributeMapBase	%nm/entity/ai/attributes/AbstractAttributeMap	sp
+%nm/server/1_9_R2/AttributeModifiable	%nm/entity/ai/attributes/ModifiableAttributeInstance	sq
+%nm/server/1_9_R2/AttributeMapServer	%nm/entity/ai/attributes/AttributeMap	sr
+%nm/server/1_9_R2/AttributeRanged	%nm/entity/ai/attributes/RangedAttribute	ss
+%nm/server/1_9_R2/EntityAIBodyControl	%nm/entity/EntityBodyHelper	su
+%nm/server/1_9_R2/ControllerJump	%nm/entity/ai/EntityJumpHelper	sw
+%nm/server/1_9_R2/ControllerLook	%nm/entity/ai/EntityLookHelper	sx
+%nm/server/1_9_R2/ControllerMove	%nm/entity/ai/EntityMoveHelper	sy
+%nm/server/1_9_R2/ControllerMove$Operation	%nm/entity/ai/EntityMoveHelper$Action	sy$a
+%nm/server/1_9_R2/CommandBlockData	%nm/command/CommandBlockData	t
+%nm/server/1_9_R2/PathfinderGoalAvoidTarget	%nm/entity/ai/EntityAIAvoidEntity	ta
+%nm/server/1_9_R2/PathfinderGoalAvoidTarget$1	%nm/entity/ai/EntityAIAvoidEntity$1	ta$1
+%nm/server/1_9_R2/PathfinderGoalBeg	%nm/entity/ai/EntityAIBeg	tb
+%nm/server/1_9_R2/PathfinderGoalBreakDoor	%nm/entity/ai/EntityAIBreakDoor	tc
+%nm/server/1_9_R2/PathfinderGoalBreed	%nm/entity/ai/EntityAIMate	td
+%nm/server/1_9_R2/PathfinderGoalDoorInteract	%nm/entity/ai/EntityAIDoorInteract	te
+%nm/server/1_9_R2/PathfinderGoalEatTile	%nm/entity/ai/EntityAIEatGrass	tf
+%nm/server/1_9_R2/PathfinderGoalFleeSun	%nm/entity/ai/EntityAIFleeSun	tg
+%nm/server/1_9_R2/PathfinderGoalFloat	%nm/entity/ai/EntityAISwimming	th
+%nm/server/1_9_R2/PathfinderGoalFollowOwner	%nm/entity/ai/EntityAIFollowOwner	ti
+%nm/server/1_9_R2/PathfinderGoalFollowParent	%nm/entity/ai/EntityAIFollowParent	tj
+%nm/server/1_9_R2/PathfinderGoal	%nm/entity/ai/EntityAIBase	tk
+%nm/server/1_9_R2/PathfinderGoalSelector	%nm/entity/ai/EntityAITasks	tl
+%nm/server/1_9_R2/PathfinderGoalSelector$PathfinderGoalSelectorItem	%nm/entity/ai/EntityAITasks$EntityAITaskEntry	tl$a
+%nm/server/1_9_R2/PathfinderGoalVillagerFarm	%nm/entity/ai/EntityAIHarvestFarmland	tm
+%nm/server/1_9_R2/PathfinderGoalInteract	%nm/entity/ai/EntityAIWatchClosest2	tn
+%nm/server/1_9_R2/PathfinderGoalLeapAtTarget	%nm/entity/ai/EntityAILeapAtTarget	to
+%nm/server/1_9_R2/PathfinderGoalLookAtPlayer	%nm/entity/ai/EntityAIWatchClosest	tp
+%nm/server/1_9_R2/PathfinderGoalLookAtTradingPlayer	%nm/entity/ai/EntityAILookAtTradePlayer	tq
+%nm/server/1_9_R2/PathfinderGoalMakeLove	%nm/entity/ai/EntityAIVillagerMate	tr
+%nm/server/1_9_R2/PathfinderGoalMeleeAttack	%nm/entity/ai/EntityAIAttackMelee	ts
+%nm/server/1_9_R2/PathfinderGoalMoveIndoors	%nm/entity/ai/EntityAIMoveIndoors	tt
+%nm/server/1_9_R2/PathfinderGoalMoveThroughVillage	%nm/entity/ai/EntityAIMoveThroughVillage	tu
+%nm/server/1_9_R2/PathfinderGoalGotoTarget	%nm/entity/ai/EntityAIMoveToBlock	tv
+%nm/server/1_9_R2/PathfinderGoalMoveTowardsRestriction	%nm/entity/ai/EntityAIMoveTowardsRestriction	tw
+%nm/server/1_9_R2/PathfinderGoalMoveTowardsTarget	%nm/entity/ai/EntityAIMoveTowardsTarget	tx
+%nm/server/1_9_R2/PathfinderGoalOcelotAttack	%nm/entity/ai/EntityAIOcelotAttack	ty
+%nm/server/1_9_R2/PathfinderGoalJumpOnBlock	%nm/entity/ai/EntityAIOcelotSit	tz
+%nm/server/1_9_R2/CommandClear	%nm/command/CommandClearInventory	u
+%nm/server/1_9_R2/PathfinderGoalOfferFlower	%nm/entity/ai/EntityAILookAtVillager	ua
+%nm/server/1_9_R2/PathfinderGoalOpenDoor	%nm/entity/ai/EntityAIOpenDoor	ub
+%nm/server/1_9_R2/PathfinderGoalPanic	%nm/entity/ai/EntityAIPanic	uc
+%nm/server/1_9_R2/PathfinderGoalPlay	%nm/entity/ai/EntityAIPlay	ud
+%nm/server/1_9_R2/PathfinderGoalRandomLookaround	%nm/entity/ai/EntityAILookIdle	uf
+%nm/server/1_9_R2/PathfinderGoalRandomStroll	%nm/entity/ai/EntityAIWander	ug
+%nm/server/1_9_R2/PathfinderGoalArrowAttack	%nm/entity/ai/EntityAIAttackRanged	uh
+%nm/server/1_9_R2/PathfinderGoalBowShoot	%nm/entity/ai/EntityAIAttackRangedBow	ui
+%nm/server/1_9_R2/PathfinderGoalRestrictOpenDoor	%nm/entity/ai/EntityAIRestrictOpenDoor	uj
+%nm/server/1_9_R2/PathfinderGoalRestrictSun	%nm/entity/ai/EntityAIRestrictSun	uk
+%nm/server/1_9_R2/PathfinderGoalTame	%nm/entity/ai/EntityAIRunAroundLikeCrazy	ul
+%nm/server/1_9_R2/PathfinderGoalSit	%nm/entity/ai/EntityAISit	um
+%nm/server/1_9_R2/PathfinderGoalSwell	%nm/entity/ai/EntityAICreeperSwell	un
+%nm/server/1_9_R2/PathfinderGoalTakeFlower	%nm/entity/ai/EntityAIFollowGolem	uo
+%nm/server/1_9_R2/PathfinderGoalTempt	%nm/entity/ai/EntityAITempt	up
+%nm/server/1_9_R2/PathfinderGoalTradeWithPlayer	%nm/entity/ai/EntityAITradePlayer	uq
+%nm/server/1_9_R2/PathfinderGoalInteractVillagers	%nm/entity/ai/EntityAIVillagerInteract	ur
+%nm/server/1_9_R2/PathfinderGoalZombieAttack	%nm/entity/ai/EntityAIZombieAttack	us
+%nm/server/1_9_R2/PathfinderGoalDefendVillage	%nm/entity/ai/EntityAIDefendVillage	uu
+%nm/server/1_9_R2/PathfinderGoalHurtByTarget	%nm/entity/ai/EntityAIHurtByTarget	uv
+%nm/server/1_9_R2/PathfinderGoalNearestAttackableTargetInsentient	%nm/entity/ai/EntityAIFindEntityNearest	uw
+%nm/server/1_9_R2/PathfinderGoalNearestAttackableTargetInsentient$1	%nm/entity/ai/EntityAIFindEntityNearest$1	uw$1
+%nm/server/1_9_R2/PathfinderGoalTargetNearestPlayer	%nm/entity/ai/EntityAIFindEntityNearestPlayer	ux
+%nm/server/1_9_R2/PathfinderGoalTargetNearestPlayer$1	%nm/entity/ai/EntityAIFindEntityNearestPlayer$1	ux$1
+%nm/server/1_9_R2/PathfinderGoalNearestAttackableTarget	%nm/entity/ai/EntityAINearestAttackableTarget	uy
+%nm/server/1_9_R2/PathfinderGoalNearestAttackableTarget$1	%nm/entity/ai/EntityAINearestAttackableTarget$1	uy$1
+%nm/server/1_9_R2/PathfinderGoalNearestAttackableTarget$2	%nm/entity/ai/EntityAINearestAttackableTarget$2	uy$2
+%nm/server/1_9_R2/PathfinderGoalNearestAttackableTarget$DistanceComparator	%nm/entity/ai/EntityAINearestAttackableTarget$Sorter	uy$a
+%nm/server/1_9_R2/PathfinderGoalRandomTargetNonTamed	%nm/entity/ai/EntityAITargetNonTamed	uz
+%nm/server/1_9_R2/CommandClone	%nm/command/CommandClone	v
+%nm/server/1_9_R2/CommandClone$CommandCloneStoredTileEntity	%nm/command/CommandClone$StaticCloneData	v$a
+%nm/server/1_9_R2/PathfinderGoalOwnerHurtByTarget	%nm/entity/ai/EntityAIOwnerHurtByTarget	va
+%nm/server/1_9_R2/PathfinderGoalOwnerHurtTarget	%nm/entity/ai/EntityAIOwnerHurtTarget	vb
+%nm/server/1_9_R2/PathfinderGoalTarget	%nm/entity/ai/EntityAITarget	vc
+%nm/server/1_9_R2/Navigation	%nm/pathfinding/PathNavigateGround	ve
+%nm/server/1_9_R2/NavigationAbstract	%nm/pathfinding/PathNavigate	vf
+%nm/server/1_9_R2/NavigationListener	%nm/pathfinding/PathWorldListener	vg
+%nm/server/1_9_R2/NavigationSpider	%nm/pathfinding/PathNavigateClimber	vh
+%nm/server/1_9_R2/NavigationGuardian	%nm/pathfinding/PathNavigateSwimmer	vi
+%nm/server/1_9_R2/EntitySenses	%nm/entity/ai/EntitySenses	vk
+%nm/server/1_9_R2/RandomPositionGenerator	%nm/entity/ai/RandomPositionGenerator	vm
+%nm/server/1_9_R2/VillageDoor	%nm/village/VillageDoorInfo	vo
+%nm/server/1_9_R2/Village	%nm/village/Village	vp
+%nm/server/1_9_R2/Village$Aggressor	%nm/village/Village$VillageAggressor	vp$a
+%nm/server/1_9_R2/VillageSiege	%nm/village/VillageSiege	vq
+%nm/server/1_9_R2/PersistentVillage	%nm/village/VillageCollection	vr
+%nm/server/1_9_R2/EntityAmbient	%nm/entity/passive/EntityAmbientCreature	vt
+%nm/server/1_9_R2/EntityBat	%nm/entity/passive/EntityBat	vu
+%nm/server/1_9_R2/EntityAnimal	%nm/entity/passive/EntityAnimal	vw
+%nm/server/1_9_R2/EntityChicken	%nm/entity/passive/EntityChicken	vx
+%nm/server/1_9_R2/EntityCow	%nm/entity/passive/EntityCow	vy
+%nm/server/1_9_R2/EntityGolem	%nm/entity/monster/EntityGolem	vz
+%nm/server/1_9_R2/CommandTestForBlocks	%nm/command/CommandCompare	w
+%nm/server/1_9_R2/EntityMushroomCow	%nm/entity/passive/EntityMooshroom	wa
+%nm/server/1_9_R2/EntityOcelot	%nm/entity/passive/EntityOcelot	wb
+%nm/server/1_9_R2/EntityPig	%nm/entity/passive/EntityPig	wc
+%nm/server/1_9_R2/EntityRabbit	%nm/entity/passive/EntityRabbit	wd
+%nm/server/1_9_R2/EntityRabbit$PathfinderGoalKillerRabbitMeleeAttack	%nm/entity/passive/EntityRabbit$AIEvilAttack	wd$a
+%nm/server/1_9_R2/EntityRabbit$PathfinderGoalRabbitAvoidTarget	%nm/entity/passive/EntityRabbit$AIAvoidEntity	wd$b
+%nm/server/1_9_R2/EntityRabbit$GroupDataRabbit	%nm/entity/passive/EntityRabbit$RabbitTypeData	wd$c
+%nm/server/1_9_R2/EntityRabbit$ControllerJumpRabbit	%nm/entity/passive/EntityRabbit$RabbitJumpHelper	wd$d
+%nm/server/1_9_R2/EntityRabbit$ControllerMoveRabbit	%nm/entity/passive/EntityRabbit$RabbitMoveHelper	wd$e
+%nm/server/1_9_R2/EntityRabbit$PathfinderGoalRabbitPanic	%nm/entity/passive/EntityRabbit$AIPanic	wd$f
+%nm/server/1_9_R2/EntityRabbit$PathfinderGoalEatCarrots	%nm/entity/passive/EntityRabbit$AIRaidFarm	wd$g
+%nm/server/1_9_R2/EntitySheep	%nm/entity/passive/EntitySheep	we
+%nm/server/1_9_R2/EntitySheep$1	%nm/entity/passive/EntitySheep$1	we$1
+%nm/server/1_9_R2/EntitySnowman	%nm/entity/monster/EntitySnowman	wf
+%nm/server/1_9_R2/EntitySquid	%nm/entity/passive/EntitySquid	wg
+%nm/server/1_9_R2/EntitySquid$PathfinderGoalSquid	%nm/entity/passive/EntitySquid$AIMoveRandom	wg$a
+%nm/server/1_9_R2/EntityIronGolem	%nm/entity/monster/EntityIronGolem	wh
+%nm/server/1_9_R2/EntityIronGolem$1	%nm/entity/monster/EntityIronGolem$1	wh$1
+%nm/server/1_9_R2/EntityWaterAnimal	%nm/entity/passive/EntityWaterMob	wi
+%nm/server/1_9_R2/EntityWolf	%nm/entity/passive/EntityWolf	wj
+%nm/server/1_9_R2/EntityWolf$1	%nm/entity/passive/EntityWolf$1	wj$1
+%nm/server/1_9_R2/EntityHorse	%nm/entity/passive/EntityHorse	wk
+%nm/server/1_9_R2/EntityHorse$1	%nm/entity/passive/EntityHorse$1	wk$1
+%nm/server/1_9_R2/EntityHorse$a	%nm/entity/passive/EntityHorse$GroupData	wk$a
+%nm/server/1_9_R2/EnumHorseArmor	%nm/entity/passive/HorseArmorType	wl
+%nm/server/1_9_R2/EnumHorseType	%nm/entity/passive/HorseType	wm
+%nm/server/1_9_R2/PathfinderGoalHorseTrap	%nm/entity/ai/EntityAISkeletonRiders	wn
+%nm/server/1_9_R2/IComplex	%nm/entity/IEntityMultiPart	wr
+%nm/server/1_9_R2/EntityComplexPart	%nm/entity/boss/EntityDragonPart	ws
+%nm/server/1_9_R2/EntityEnderCrystal	%nm/entity/item/EntityEnderCrystal	wt
+%nm/server/1_9_R2/EntityEnderDragon	%nm/entity/boss/EntityDragon	wu
+%nm/server/1_9_R2/AbstractDragonController	%nm/entity/boss/dragon/phase/PhaseBase	ww
+%nm/server/1_9_R2/AbstractDragonControllerLanded	%nm/entity/boss/dragon/phase/PhaseSittingBase	wx
+%nm/server/1_9_R2/DragonControllerCharge	%nm/entity/boss/dragon/phase/PhaseChargingPlayer	wy
+%nm/server/1_9_R2/DragonControllerDying	%nm/entity/boss/dragon/phase/PhaseDying	wz
+%nm/server/1_9_R2/CommandDeop	%nm/command/server/CommandDeOp	x
+%nm/server/1_9_R2/DragonControllerHold	%nm/entity/boss/dragon/phase/PhaseHoldingPattern	xa
+%nm/server/1_9_R2/DragonControllerHover	%nm/entity/boss/dragon/phase/PhaseHover	xb
+%nm/server/1_9_R2/DragonControllerLandingFly	%nm/entity/boss/dragon/phase/PhaseLandingApproach	xc
+%nm/server/1_9_R2/DragonControllerLanding	%nm/entity/boss/dragon/phase/PhaseLanding	xd
+%nm/server/1_9_R2/IDragonController	%nm/entity/boss/dragon/phase/IPhase	xe
+%nm/server/1_9_R2/DragonControllerLandedAttack	%nm/entity/boss/dragon/phase/PhaseSittingAttacking	xf
+%nm/server/1_9_R2/DragonControllerLandedFlame	%nm/entity/boss/dragon/phase/PhaseSittingFlaming	xg
+%nm/server/1_9_R2/DragonControllerLandedSearch	%nm/entity/boss/dragon/phase/PhaseSittingScanning	xh
+%nm/server/1_9_R2/DragonControllerStrafe	%nm/entity/boss/dragon/phase/PhaseStrafePlayer	xi
+%nm/server/1_9_R2/DragonControllerFly	%nm/entity/boss/dragon/phase/PhaseTakeoff	xj
+%nm/server/1_9_R2/DragonControllerPhase	%nm/entity/boss/dragon/phase/PhaseList	xk
+%nm/server/1_9_R2/DragonControllerManager	%nm/entity/boss/dragon/phase/PhaseManager	xl
+%nm/server/1_9_R2/EntityWither	%nm/entity/boss/EntityWither	xo
+%nm/server/1_9_R2/EntityWither$1	%nm/entity/boss/EntityWither$1	xo$1
+%nm/server/1_9_R2/EntityWither$a	%nm/entity/boss/EntityWither$AIDoNothing	xo$a
+%nm/server/1_9_R2/EntityArmorStand	%nm/entity/item/EntityArmorStand	xq
+%nm/server/1_9_R2/EntityArmorStand$1	%nm/entity/item/EntityArmorStand$1	xq$1
+%nm/server/1_9_R2/EntityHanging	%nm/entity/EntityHanging	xr
+%nm/server/1_9_R2/EntityHanging$1	%nm/entity/EntityHanging$1	xr$1
+%nm/server/1_9_R2/EntityItemFrame	%nm/entity/item/EntityItemFrame	xs
+%nm/server/1_9_R2/EntityLeash	%nm/entity/EntityLeashKnot	xt
+%nm/server/1_9_R2/EntityPainting	%nm/entity/item/EntityPainting	xu
+%nm/server/1_9_R2/EntityPainting$EnumArt	%nm/entity/item/EntityPainting$EnumArt	xu$a
+%nm/server/1_9_R2/EntityFishingHook	%nm/entity/projectile/EntityFishHook	xw
+%nm/server/1_9_R2/EntityWeather	%nm/entity/effect/EntityWeatherEffect	xz
+%nm/server/1_9_R2/CommandDebug	%nm/command/CommandDebug	y
+%nm/server/1_9_R2/EntityLightning	%nm/entity/effect/EntityLightningBolt	ya
+%nm/server/1_9_R2/EntityFallingBlock	%nm/entity/item/EntityFallingBlock	yc
+%nm/server/1_9_R2/EntityItem	%nm/entity/item/EntityItem	yd
+%nm/server/1_9_R2/EntityTNTPrimed	%nm/entity/item/EntityTNTPrimed	ye
+%nm/server/1_9_R2/EntityBlaze	%nm/entity/monster/EntityBlaze	yg
+%nm/server/1_9_R2/EntityBlaze$PathfinderGoalBlazeFireball	%nm/entity/monster/EntityBlaze$AIFireballAttack	yg$a
+%nm/server/1_9_R2/EntityCaveSpider	%nm/entity/monster/EntityCaveSpider	yh
+%nm/server/1_9_R2/EntityCreeper	%nm/entity/monster/EntityCreeper	yi
+%nm/server/1_9_R2/EntityEnderman	%nm/entity/monster/EntityEnderman	yj
+%nm/server/1_9_R2/EntityEnderman$1	%nm/entity/monster/EntityEnderman$1	yj$1
+%nm/server/1_9_R2/EntityEnderman$PathfinderGoalEndermanPlaceBlock	%nm/entity/monster/EntityEnderman$AIPlaceBlock	yj$a
+%nm/server/1_9_R2/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget	%nm/entity/monster/EntityEnderman$AIFindPlayer	yj$b
+%nm/server/1_9_R2/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget$1	%nm/entity/monster/EntityEnderman$AIFindPlayer$1	yj$b$1
+%nm/server/1_9_R2/EntityEnderman$PathfinderGoalEndermanPickupBlock	%nm/entity/monster/EntityEnderman$AITakeBlock	yj$c
+%nm/server/1_9_R2/EntityEndermite	%nm/entity/monster/EntityEndermite	yk
+%nm/server/1_9_R2/IMonster	%nm/entity/monster/IMob	yl
+%nm/server/1_9_R2/IMonster$1	%nm/entity/monster/IMob$1	yl$1
+%nm/server/1_9_R2/IMonster$2	%nm/entity/monster/IMob$2	yl$2
+%nm/server/1_9_R2/EntityGhast	%nm/entity/monster/EntityGhast	ym
+%nm/server/1_9_R2/EntityGhast$PathfinderGoalGhastMoveTowardsTarget	%nm/entity/monster/EntityGhast$AILookAround	ym$a
+%nm/server/1_9_R2/EntityGhast$ControllerGhast	%nm/entity/monster/EntityGhast$GhastMoveHelper	ym$b
+%nm/server/1_9_R2/EntityGhast$PathfinderGoalGhastAttackTarget	%nm/entity/monster/EntityGhast$AIFireballAttack	ym$c
+%nm/server/1_9_R2/EntityGhast$PathfinderGoalGhastIdleMove	%nm/entity/monster/EntityGhast$AIRandomFly	ym$d
+%nm/server/1_9_R2/EntityGiantZombie	%nm/entity/monster/EntityGiantZombie	yn
+%nm/server/1_9_R2/EntityGuardian	%nm/entity/monster/EntityGuardian	yo
+%nm/server/1_9_R2/EntityGuardian$1	%nm/entity/monster/EntityGuardian$1	yo$1
+%nm/server/1_9_R2/EntityGuardian$PathfinderGoalGuardianAttack	%nm/entity/monster/EntityGuardian$AIGuardianAttack	yo$a
+%nm/server/1_9_R2/EntityGuardian$EntitySelectorGuardianTargetHumanSquid	%nm/entity/monster/EntityGuardian$GuardianTargetSelector	yo$b
+%nm/server/1_9_R2/EntityGuardian$ControllerMoveGuardian	%nm/entity/monster/EntityGuardian$GuardianMoveHelper	yo$c
+%nm/server/1_9_R2/EntityMagmaCube	%nm/entity/monster/EntityMagmaCube	yp
+%nm/server/1_9_R2/EntityMonster	%nm/entity/monster/EntityMob	yq
+%nm/server/1_9_R2/EntityPigZombie	%nm/entity/monster/EntityPigZombie	yr
+%nm/server/1_9_R2/EntityPigZombie$PathfinderGoalAnger	%nm/entity/monster/EntityPigZombie$AITargetAggressor	yr$a
+%nm/server/1_9_R2/EntityPigZombie$PathfinderGoalAngerOther	%nm/entity/monster/EntityPigZombie$AIHurtByAggressor	yr$b
+%nm/server/1_9_R2/IRangedEntity	%nm/entity/IRangedAttackMob	ys
+%nm/server/1_9_R2/GenericAttributes	%nm/entity/SharedMonsterAttributes	yt
+%nm/server/1_9_R2/EntityShulker	%nm/entity/monster/EntityShulker	yu
+%nm/server/1_9_R2/EntityShulker$a	%nm/entity/monster/EntityShulker$AIAttack	yu$a
+%nm/server/1_9_R2/EntityShulker$b	%nm/entity/monster/EntityShulker$BodyHelper	yu$b
+%nm/server/1_9_R2/EntityShulker$c	%nm/entity/monster/EntityShulker$AIDefenseAttack	yu$c
+%nm/server/1_9_R2/EntityShulker$c$1	%nm/entity/monster/EntityShulker$AIDefenseAttack$1	yu$c$1
+%nm/server/1_9_R2/EntityShulker$d	%nm/entity/monster/EntityShulker$AIAttackNearest	yu$d
+%nm/server/1_9_R2/EntityShulker$e	%nm/entity/monster/EntityShulker$AIPeek	yu$e
+%nm/server/1_9_R2/EntitySilverfish	%nm/entity/monster/EntitySilverfish	yv
+%nm/server/1_9_R2/EntitySilverfish$PathfinderGoalSilverfishHideInBlock	%nm/entity/monster/EntitySilverfish$AIHideInStone	yv$a
+%nm/server/1_9_R2/EntitySilverfish$PathfinderGoalSilverfishWakeOthers	%nm/entity/monster/EntitySilverfish$AISummonSilverfish	yv$b
+%nm/server/1_9_R2/EntitySkeleton	%nm/entity/monster/EntitySkeleton	yw
+%nm/server/1_9_R2/EntitySkeleton$1	%nm/entity/monster/EntitySkeleton$1	yw$1
+%nm/server/1_9_R2/EntitySlime	%nm/entity/monster/EntitySlime	yx
+%nm/server/1_9_R2/EntitySlime$PathfinderGoalSlimeNearestPlayer	%nm/entity/monster/EntitySlime$AISlimeAttack	yx$a
+%nm/server/1_9_R2/EntitySlime$PathfinderGoalSlimeRandomJump	%nm/entity/monster/EntitySlime$AISlimeFloat	yx$b
+%nm/server/1_9_R2/EntitySlime$PathfinderGoalSlimeIdle	%nm/entity/monster/EntitySlime$AISlimeHop	yx$c
+%nm/server/1_9_R2/EntitySlime$ControllerMoveSlime	%nm/entity/monster/EntitySlime$SlimeMoveHelper	yx$d
+%nm/server/1_9_R2/EntitySlime$PathfinderGoalSlimeRandomDirection	%nm/entity/monster/EntitySlime$AISlimeFaceRandom	yx$e
+%nm/server/1_9_R2/EntitySpider	%nm/entity/monster/EntitySpider	yy
+%nm/server/1_9_R2/EntitySpider$PathfinderGoalSpiderMeleeAttack	%nm/entity/monster/EntitySpider$AISpiderAttack	yy$a
+%nm/server/1_9_R2/EntitySpider$GroupDataSpider	%nm/entity/monster/EntitySpider$GroupData	yy$b
+%nm/server/1_9_R2/EntitySpider$PathfinderGoalSpiderNearestAttackableTarget	%nm/entity/monster/EntitySpider$AISpiderTarget	yy$c
+%nm/server/1_9_R2/EntityWitch	%nm/entity/monster/EntityWitch	yz
+%nm/server/1_9_R2/CommandGamemodeDefault	%nm/command/CommandDefaultGameMode	z
+%nm/server/1_9_R2/EntityZombie	%nm/entity/monster/EntityZombie	za
+%nm/server/1_9_R2/EntityZombie$GroupDataZombie	%nm/entity/monster/EntityZombie$GroupData	za$a
+%nm/server/1_9_R2/NPC	%nm/entity/INpc	zd
+%nm/server/1_9_R2/EntityVillager	%nm/entity/passive/EntityVillager	ze
+%nm/server/1_9_R2/EntityVillager$MerchantRecipeOptionBuy	%nm/entity/passive/EntityVillager$EmeraldForItems	ze$a
+%nm/server/1_9_R2/EntityVillager$MerchantRecipeOptionBook	%nm/entity/passive/EntityVillager$ListEnchantedBookForEmeralds	ze$b
+%nm/server/1_9_R2/EntityVillager$MerchantRecipeOptionEnchant	%nm/entity/passive/EntityVillager$ListEnchantedItemForEmeralds	ze$c
+%nm/server/1_9_R2/EntityVillager$MerchantRecipeOptionProcess	%nm/entity/passive/EntityVillager$ItemAndEmeraldToItem	ze$d
+%nm/server/1_9_R2/EntityVillager$MerchantRecipeOptionSell	%nm/entity/passive/EntityVillager$ListItemForEmeralds	ze$e
+%nm/server/1_9_R2/EntityVillager$IMerchantRecipeOption	%nm/entity/passive/EntityVillager$ITradeList	ze$f
+%nm/server/1_9_R2/EntityVillager$MerchantOptionRandomRange	%nm/entity/passive/EntityVillager$PriceInfo	ze$g
+%nm/server/1_9_R2/PlayerAbilities	%nm/entity/player/PlayerCapabilities	zh
+%nm/server/1_9_R2/PlayerInventory	%nm/entity/player/InventoryPlayer	zi
+%nm/server/1_9_R2/PlayerInventory$1	%nm/entity/player/InventoryPlayer$1	zi$1
+%nm/server/1_9_R2/EntityHuman	%nm/entity/player/EntityPlayer	zj
+%nm/server/1_9_R2/EntityHuman$EnumBedResult	%nm/entity/player/EntityPlayer$SleepResult	zj$a
+%nm/server/1_9_R2/EntityHuman$EnumChatVisibility	%nm/entity/player/EntityPlayer$EnumChatVisibility	zj$b
+%nm/server/1_9_R2/EntityArrow	%nm/entity/projectile/EntityArrow	zm
+%nm/server/1_9_R2/EntityArrow$1	%nm/entity/projectile/EntityArrow$1	zm$1
+%nm/server/1_9_R2/EntityArrow$PickupStatus	%nm/entity/projectile/EntityArrow$PickupStatus	zm$a
+%nm/server/1_9_R2/EntityDragonFireball	%nm/entity/projectile/EntityDragonFireball	zn
+%nm/server/1_9_R2/EntityEnderSignal	%nm/entity/item/EntityEnderEye	zo
+%nm/server/1_9_R2/EntityFireball	%nm/entity/projectile/EntityFireball	zp
+%nm/server/1_9_R2/EntityFireworks	%nm/entity/item/EntityFireworkRocket	zq
+%nm/server/1_9_R2/EntityLargeFireball	%nm/entity/projectile/EntityLargeFireball	zr
+%nm/server/1_9_R2/IProjectile	%nm/entity/IProjectile	zs
+%nm/server/1_9_R2/ProjectileHelper	%nm/entity/projectile/ProjectileHelper	zt
+%nm/server/1_9_R2/EntityShulkerBullet	%nm/entity/projectile/EntityShulkerBullet	zu
+%nm/server/1_9_R2/EntitySmallFireball	%nm/entity/projectile/EntitySmallFireball	zv
+%nm/server/1_9_R2/EntitySnowball	%nm/entity/projectile/EntitySnowball	zw
+%nm/server/1_9_R2/EntitySpectralArrow	%nm/entity/projectile/EntitySpectralArrow	zx
+%nm/server/1_9_R2/EntityProjectile	%nm/entity/projectile/EntityThrowable	zy
+%nm/server/1_9_R2/EntityEgg	%nm/entity/projectile/EntityEgg	zz`);

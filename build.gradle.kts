@@ -266,6 +266,7 @@ publishing {
                 }
             )
             credentials {
+                // make sure to add the `REPO_USERNAME` and `REPO_PASSWORD` secrets to the repository
                 username = System.getenv("REPO_USERNAME")
                 password = System.getenv("REPO_PASSWORD")
             }

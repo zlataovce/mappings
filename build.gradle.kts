@@ -34,8 +34,11 @@ plugins {
     id("maven-publish")
 }
 
-group = "me.kcra.takenaka"
-version = "1.8.8-1.19.4-SNAPSHOT"
+group = "me.kcra.takenaka" // change me
+// format: <oldest version>+<newest version>[-SNAPSHOT]
+// this is included in META-INF/MANIFEST.MF under Implementation-Version
+// be nice to people who use the bundles and don't change the format
+version = "1.8.8+1.19.4-SNAPSHOT" // change me
 
 /**
  * The root cache workspace.
@@ -94,7 +97,7 @@ fun buildVersions(older: String, newer: String? = null, block: VersionRangeBuild
 
 val yarnProvider = YarnMetadataProvider(sharedCacheWorkspace, xmlMapper)
 val mappingConfig = buildMappingConfig {
-    version(buildVersions("1.8.8", "1.19.4") {
+    version(buildVersions("1.8.8", "1.19.4") { // change me
         // exclude 1.16 and 1.10.1, they don't have most mappings and are basically not used at all
         // exclude 1.8.9, client-only update - no Spigot mappings, no thank you
         // exclude 1.9.1 and 1.9.3 - no mappings at all
@@ -180,15 +183,21 @@ val clean by tasks.registering {
     }
 }
 
-val createBundle by tasks.registering(Zip::class) {
+val createBundle by tasks.registering(Jar::class) {
     group = "takenaka"
-    description = "Creates a ZIP bundle of mappings for all defined versions."
+    description = "Creates a JAR bundle of mappings for all defined versions."
 
     dependsOn(resolveMappings)
 
     from(bundleWorkspace.rootDirectory)
     archiveBaseName.set("bundle") // overridden by the Maven publication, doesn't matter
     destinationDirectory.set(project.layout.buildDirectory.dir("takenaka"))
+
+    manifest {
+        attributes(mapOf(
+            "Implementation-Version" to project.version
+        ))
+    }
 }
 
 val webConfig = buildWebConfig {
@@ -219,7 +228,7 @@ val buildWeb by tasks.registering {
     }
     doLast {
         webWorkspace[".nojekyll"].writeText("")
-        webWorkspace["CNAME"].writeText("mappings.cephx.dev")
+        webWorkspace["CNAME"].writeText("mappings.cephx.dev") // change me, remove if you want to build for a *.github.io domain
     }
 }
 
@@ -227,6 +236,23 @@ publishing {
     publications {
         create<MavenPublication>("mavenBundle") {
             artifact(createBundle)
+            pom {
+                name.set("mappings")
+                description.set("A mapping bundle with a basic set of mappings for Mojang-based server development.")
+                url.set("https://github.com/zlataovce/mappings")
+                developers {
+                    developer {
+                        id.set("zlataovce")
+                        name.set("Matouš Kučera")
+                        email.set("mk@kcra.me")
+                    }
+                }
+                scm {
+                    connection.set("scm:git:github.com/zlataovce/mappings.git")
+                    developerConnection.set("scm:git:ssh://github.com/zlataovce/mappings.git")
+                    url.set("https://github.com/zlataovce/mappings/tree/master")
+                }
+            }
         }
     }
 
@@ -234,9 +260,9 @@ publishing {
         maven {
             url = uri(
                 if ((project.version as String).endsWith("-SNAPSHOT")) {
-                    "https://repo.screamingsandals.org/snapshots"
+                    "https://repo.screamingsandals.org/snapshots" // change me
                 } else {
-                    "https://repo.screamingsandals.org/releases"
+                    "https://repo.screamingsandals.org/releases" // change me
                 }
             )
             credentials {

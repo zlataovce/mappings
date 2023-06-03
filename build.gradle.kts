@@ -92,20 +92,21 @@ val objectMapper = objectMapper()
 val xmlMapper = XmlMapper()
 
 val manifest = objectMapper.versionManifest()
-fun buildVersions(older: String, newer: String? = null, block: VersionRangeBuilder.() -> Unit): List<String> =
-    VersionRangeBuilder(manifest, older, newer).apply(block).toVersionList().map(Version::id)
-
 val yarnProvider = YarnMetadataProvider(sharedCacheWorkspace, xmlMapper)
 val mappingConfig = buildMappingConfig {
-    version(buildVersions("1.8.8", "1.19.4") { // change me
-        // exclude 1.16 and 1.10.1, they don't have most mappings and are basically not used at all
-        // exclude 1.8.9, client-only update - no Spigot mappings, no thank you
-        // exclude 1.9.1 and 1.9.3 - no mappings at all
-        exclude("1.16", "1.10.1", "1.8.9", "1.9.1", "1.9.3")
+    version(
+        manifest
+            .range("1.8.8", "1.19.4") { // change me
+                // exclude 1.16 and 1.10.1, they don't have most mappings and are basically not used at all
+                // exclude 1.8.9, client-only update - no Spigot mappings, no thank you
+                // exclude 1.9.1 and 1.9.3 - no mappings at all
+                exclude("1.16", "1.10.1", "1.8.9", "1.9.1", "1.9.3")
 
-        // include only releases, no snapshots
-        includeTypes(Version.Type.RELEASE)
-    })
+                // include only releases, no snapshots
+                includeTypes(Version.Type.RELEASE)
+            }
+            .map(Version::id)
+    )
     workspace(mappingCacheWorkspace)
 
     // remove Searge's ID namespace, it's not necessary

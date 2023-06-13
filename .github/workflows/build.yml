@@ -24,14 +24,8 @@ jobs:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Deploy to GitHub Pages
-        shell: bash
-        run: |
-          cd ./build/takenaka/web
-          git init -b gh-pages .
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-          git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git add .
-          git commit -m "build: update with ${{ github.sha }}"
-          git push -f origin gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build/takenaka/web
+          single-commit: true
+          commit-message: 'build: update with ${{ github.sha }}'

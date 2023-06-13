@@ -263,7 +263,7 @@ publishing {
             pom {
                 name.set("mappings")
                 description.set("A mapping bundle with a basic set of mappings for Mojang-based server development.")
-                url.set("https://github.com/zlataovce/mappings")
+                url.set("https://github.com/zlataovce/mappings") // change me
                 developers {
                     developer {
                         id.set("zlataovce")
@@ -272,9 +272,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection.set("scm:git:github.com/zlataovce/mappings.git")
-                    developerConnection.set("scm:git:ssh://github.com/zlataovce/mappings.git")
-                    url.set("https://github.com/zlataovce/mappings/tree/master")
+                    connection.set("scm:git:github.com/zlataovce/mappings.git") // change me
+                    developerConnection.set("scm:git:ssh://github.com/zlataovce/mappings.git") // change me
+                    url.set("https://github.com/zlataovce/mappings/tree/master") // change me
                 }
             }
         }

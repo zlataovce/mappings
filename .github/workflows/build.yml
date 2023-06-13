@@ -11,21 +11,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set up JDK 8
+      - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: 8
+          java-version: 17
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build and publish with Gradle
-        run: ./gradlew publish buildWeb
+        run: ./gradlew publish buildWeb --no-daemon
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: build/takenaka/web
-          single-commit: true
-          commit-message: 'build: update with ${{ github.sha }}'
+        shell: bash
+        run: |
+          cd ./build/takenaka/web
+          git init -b gh-pages .
+          git remote add origin https://github.com/zlataovce/mappings.git
+          git add .
+          git commit -m "build: update with ${{ github.sha }}"
+          git push -f origin gh-pages

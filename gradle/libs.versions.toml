@@ -1,5 +1,5 @@
 [versions]
-takenaka = "0.0.1-SNAPSHOT"
+takenaka = "1.0.0-SNAPSHOT"
 
 [libraries]
 generator-web = { group = "me.kcra.takenaka", name = "generator-web", version.ref = "takenaka" }

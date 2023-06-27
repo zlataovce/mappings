@@ -14,7 +14,8 @@ import me.kcra.takenaka.generator.web.JDK_17_BASE_URL
 import me.kcra.takenaka.generator.web.WebGenerator
 import me.kcra.takenaka.generator.web.buildWebConfig
 import me.kcra.takenaka.generator.web.modularClassSearchIndexOf
-import me.kcra.takenaka.generator.web.transformers.Minifier
+import me.kcra.takenaka.generator.web.transformers.MinifyingTransformer
+import me.kcra.takenaka.generator.web.transformers.CSSInliningTransformer
 import net.fabricmc.mappingio.format.Tiny2Writer
 import kotlin.io.path.writeText
 import kotlin.io.path.writer
@@ -208,12 +209,7 @@ val webConfig = buildWebConfig {
             <br/>
             <p>
                 You can move through this site by following links to specific versions/packages/classes/...
-                or use the nifty search field in the top right corner (appears when in a versioned page!).<br/>
-                <i style="color: var(--text-muted);">
-                    If you want to search only in a specific namespace (i.e. kind of mappings - Mojang, Spigot, ...),
-                    prefix your search query with <code>ns:namespaceName</code>.<br/>
-                    (e.g. <code>ns:Mojang</code>; case-insensitive and you don't even need to finish the namespace name!)
-                </i>
+                or use the nifty search field in the top right corner (appears when in a versioned page!).
             </p>
             <br/>
             <p>
@@ -225,7 +221,8 @@ val webConfig = buildWebConfig {
         """.trimIndent()
     )
 
-    transformer(Minifier())
+    transformer(CSSInliningTransformer("fonts.googleapis.com"))
+    transformer(MinifyingTransformer())
     index(objectMapper.modularClassSearchIndexOf(JDK_17_BASE_URL))
 
     replaceCraftBukkitVersions("spigot")

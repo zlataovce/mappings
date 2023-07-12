@@ -1,4 +1,7 @@
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
+import kotlinx.coroutines.CoroutineName
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import me.kcra.takenaka.core.*
 import me.kcra.takenaka.core.mapping.MappingsMap
@@ -7,22 +10,20 @@ import me.kcra.takenaka.core.mapping.WrappingContributor
 import me.kcra.takenaka.core.mapping.adapter.*
 import me.kcra.takenaka.core.mapping.analysis.impl.AnalysisOptions
 import me.kcra.takenaka.core.mapping.analysis.impl.MappingAnalyzerImpl
+import me.kcra.takenaka.core.mapping.ancestry.ConstructorComputationMode
+import me.kcra.takenaka.core.mapping.ancestry.impl.collectNamespaceIds
 import me.kcra.takenaka.core.mapping.ancestry.impl.computeIndices
 import me.kcra.takenaka.core.mapping.resolve.impl.*
 import me.kcra.takenaka.core.util.objectMapper
-import me.kcra.takenaka.generator.common.provider.impl.ResolvingMappingProvider
-import me.kcra.takenaka.generator.common.provider.impl.buildMappingConfig
-import me.kcra.takenaka.generator.common.provider.impl.SimpleMappingProvider
-import me.kcra.takenaka.generator.common.provider.impl.SimpleAncestryProvider
-import me.kcra.takenaka.generator.common.provider.impl.CachedAncestryProvider
+import me.kcra.takenaka.generator.common.provider.impl.*
 import me.kcra.takenaka.generator.web.JDK_17_BASE_URL
 import me.kcra.takenaka.generator.web.WebGenerator
 import me.kcra.takenaka.generator.web.buildWebConfig
 import me.kcra.takenaka.generator.web.modularClassSearchIndexOf
 import me.kcra.takenaka.generator.web.transformers.CSSInliningTransformer
 import me.kcra.takenaka.generator.web.transformers.MinifyingTransformer
-import net.fabricmc.mappingio.tree.MappingTree
 import net.fabricmc.mappingio.format.Tiny2Writer
+import net.fabricmc.mappingio.tree.MappingTree
 import kotlin.io.path.writeText
 import kotlin.io.path.writer
 
@@ -159,7 +160,7 @@ val analyzer = MappingAnalyzerImpl(
 val ancestryIndexNs = "takenaka_node"
 val ancestryNamespaces = listOf("mojang", "spigot", "searge", "intermediary")
 
-val ancestryProvider = CachedAncestryProvider(SimpleAncestryProvider(ancestryIndexNs, ancestryNamespaces))
+val ancestryProvider = CachedAncestryProvider(SimpleAncestryProvider(null, ancestryNamespaces))
 
 val resolveMappings by tasks.registering {
     group = "takenaka"
@@ -172,12 +173,22 @@ val resolveMappings by tasks.registering {
                     analyzer.acceptResolutions()
 
                     // add ancestry indices
-                    val tree = ancestryProvider.klass<_, MappingTree.ClassMapping>(this)
-                    tree.computeIndices(ancestryIndexNs)
+                    runBlocking {
+                        val tree = ancestryProvider.klass<_, MappingTree.ClassMapping>(this@apply)
 
-                    tree.forEach { node ->
-                        ancestryProvider.field<_, _, MappingTree.FieldMapping>(node).computeIndices(ancestryIndexNs)
-                        ancestryProvider.method<_, _, MappingTree.MethodMapping>(node).computeIndices(ancestryIndexNs)
+                        val namespaceIds = tree.collectNamespaceIds(ancestryIndexNs)
+                        launch(Dispatchers.Default + CoroutineName("klass-coro")) {
+                            tree.computeIndices(namespaceIds)
+                        }
+
+                        tree.forEach { node ->
+                            launch(Dispatchers.Default + CoroutineName("field-coro")) {
+                                ancestryProvider.field<_, _, MappingTree.FieldMapping>(node).computeIndices(namespaceIds)
+                            }
+                            launch(Dispatchers.Default + CoroutineName("method-coro")) {
+                                ancestryProvider.method<_, _, MappingTree.MethodMapping>(node, constructorMode = ConstructorComputationMode.INCLUDE).computeIndices(namespaceIds)
+                            }
+                        }
                     }
                 }
         }

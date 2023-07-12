@@ -2,20 +2,26 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import kotlinx.coroutines.runBlocking
 import me.kcra.takenaka.core.*
 import me.kcra.takenaka.core.mapping.MappingsMap
+import me.kcra.takenaka.core.mapping.MutableMappingsMap
 import me.kcra.takenaka.core.mapping.WrappingContributor
 import me.kcra.takenaka.core.mapping.adapter.*
 import me.kcra.takenaka.core.mapping.analysis.impl.AnalysisOptions
 import me.kcra.takenaka.core.mapping.analysis.impl.MappingAnalyzerImpl
+import me.kcra.takenaka.core.mapping.ancestry.impl.computeIndices
 import me.kcra.takenaka.core.mapping.resolve.impl.*
 import me.kcra.takenaka.core.util.objectMapper
-import me.kcra.takenaka.generator.common.ResolvingMappingProvider
-import me.kcra.takenaka.generator.common.buildMappingConfig
+import me.kcra.takenaka.generator.common.provider.impl.ResolvingMappingProvider
+import me.kcra.takenaka.generator.common.provider.impl.buildMappingConfig
+import me.kcra.takenaka.generator.common.provider.impl.SimpleMappingProvider
+import me.kcra.takenaka.generator.common.provider.impl.SimpleAncestryProvider
+import me.kcra.takenaka.generator.common.provider.impl.CachedAncestryProvider
 import me.kcra.takenaka.generator.web.JDK_17_BASE_URL
 import me.kcra.takenaka.generator.web.WebGenerator
 import me.kcra.takenaka.generator.web.buildWebConfig
 import me.kcra.takenaka.generator.web.modularClassSearchIndexOf
-import me.kcra.takenaka.generator.web.transformers.MinifyingTransformer
 import me.kcra.takenaka.generator.web.transformers.CSSInliningTransformer
+import me.kcra.takenaka.generator.web.transformers.MinifyingTransformer
+import net.fabricmc.mappingio.tree.MappingTree
 import net.fabricmc.mappingio.format.Tiny2Writer
 import kotlin.io.path.writeText
 import kotlin.io.path.writer
@@ -47,7 +53,6 @@ version = "1.8.8+1.20.1-SNAPSHOT" // change me
 val cacheWorkspace by lazy {
     compositeWorkspace {
         rootDirectory(project.buildDir.resolve("takenaka/cache"))
-        options(DefaultWorkspaceOptions.RELAXED_CACHE)
     }
 }
 
@@ -75,7 +80,6 @@ val mappingCacheWorkspace by lazy {
 val webWorkspace by lazy {
     compositeWorkspace {
         rootDirectory(project.buildDir.resolve("takenaka/web"))
-        options(DefaultWorkspaceOptions.RELAXED_CACHE)
     }
 }
 
@@ -85,7 +89,6 @@ val webWorkspace by lazy {
 val bundleWorkspace by lazy {
     compositeWorkspace {
         rootDirectory(project.buildDir.resolve("takenaka/bundle"))
-        options(DefaultWorkspaceOptions.RELAXED_CACHE)
     }
 }
 
@@ -153,6 +156,11 @@ val analyzer = MappingAnalyzerImpl(
     )
 )
 
+val ancestryIndexNs = "takenaka_node"
+val ancestryNamespaces = listOf("mojang", "spigot", "searge", "intermediary")
+
+val ancestryProvider = CachedAncestryProvider(SimpleAncestryProvider(ancestryIndexNs, ancestryNamespaces))
+
 val resolveMappings by tasks.registering {
     group = "takenaka"
     description = "Resolves basic mappings for Mojang-based server development on all defined versions."
@@ -160,7 +168,18 @@ val resolveMappings by tasks.registering {
     doLast {
         this.extra["mappings"] = runBlocking {
             mappingProvider.get(analyzer)
-                .apply { analyzer.acceptResolutions() }
+                .apply {
+                    analyzer.acceptResolutions()
+
+                    // add ancestry indices
+                    val tree = ancestryProvider.klass<_, MappingTree.ClassMapping>(this)
+                    tree.computeIndices(ancestryIndexNs)
+
+                    tree.forEach { node ->
+                        ancestryProvider.field<_, _, MappingTree.FieldMapping>(node).computeIndices(ancestryIndexNs)
+                        ancestryProvider.method<_, _, MappingTree.MethodMapping>(node).computeIndices(ancestryIndexNs)
+                    }
+                }
         }
     }
 
@@ -244,7 +263,10 @@ val buildWeb by tasks.registering {
     doLast {
         runBlocking {
             @Suppress("UNCHECKED_CAST")
-            generator.generate(resolveMappings.get().extra["mappings"] as MappingsMap)
+            generator.generate(
+                SimpleMappingProvider(resolveMappings.get().extra["mappings"] as MutableMappingsMap),
+                ancestryProvider
+            )
         }
     }
     doLast {

@@ -132,7 +132,7 @@ val mappingConfig = buildMappingConfig {
         val prependedClasses = mutableListOf<String>()
 
         listOf(
-            VanillaMappingContributor(versionWorkspace, mojangProvider),
+            VanillaServerMappingContributor(versionWorkspace, mojangProvider),
             MojangServerMappingResolver(versionWorkspace, mojangProvider),
             IntermediaryMappingResolver(versionWorkspace, sharedCacheWorkspace),
             YarnMappingResolver(versionWorkspace, yarnProvider),
@@ -257,7 +257,7 @@ val webConfig = buildWebConfig {
 
     replaceCraftBukkitVersions("spigot")
     friendlyNamespaces("mojang", "spigot", "yarn", "searge", "intermediary", "source")
-    namespace("mojang", "Mojang", "#4D7C0F", MojangServerMappingResolver.META_LICENSE)
+    namespace("mojang", "Mojang", "#4D7C0F", AbstractMojangMappingResolver.META_LICENSE)
     namespace("spigot", "Spigot", "#CA8A04", AbstractSpigotMappingResolver.META_LICENSE)
     namespace("yarn", "Yarn", "#626262", YarnMappingResolver.META_LICENSE)
     namespace("searge", "Searge", "#B91C1C", SeargeMappingResolver.META_LICENSE)

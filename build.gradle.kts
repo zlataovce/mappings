@@ -249,7 +249,7 @@ val webConfig = buildWebConfig {
         """.trimIndent()
     )
 
-    transformer(CSSInliningTransformer("fonts.googleapis.com"))
+    transformer(CSSInliningTransformer("cdn.jsdelivr.net"))
     transformer(MinifyingTransformer())
     index(objectMapper.modularClassSearchIndexOf(JDK_17_BASE_URL))
 

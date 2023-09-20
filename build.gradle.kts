@@ -6,7 +6,6 @@ import kotlinx.coroutines.runBlocking
 import me.kcra.takenaka.core.*
 import me.kcra.takenaka.core.mapping.MappingsMap
 import me.kcra.takenaka.core.mapping.MutableMappingsMap
-import me.kcra.takenaka.core.mapping.WrappingContributor
 import me.kcra.takenaka.core.mapping.adapter.*
 import me.kcra.takenaka.core.mapping.analysis.impl.AnalysisOptions
 import me.kcra.takenaka.core.mapping.analysis.impl.MappingAnalyzerImpl
@@ -129,7 +128,7 @@ val mappingConfig = buildMappingConfig {
         val mojangProvider = MojangManifestAttributeProvider(versionWorkspace, objectMapper)
         val spigotProvider = SpigotManifestProvider(versionWorkspace, objectMapper)
 
-        val prependedClasses = mutableListOf<String>()
+        val link = LegacySpigotMappingPrepender.Link()
 
         listOf(
             VanillaServerMappingContributor(versionWorkspace, mojangProvider),
@@ -137,14 +136,13 @@ val mappingConfig = buildMappingConfig {
             IntermediaryMappingResolver(versionWorkspace, sharedCacheWorkspace),
             YarnMappingResolver(versionWorkspace, yarnProvider),
             SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace),
-            WrappingContributor(SpigotClassMappingResolver(versionWorkspace, xmlMapper, spigotProvider)) {
-                // 1.16.5 mappings have been republished with proper packages, even though the reobfuscated JAR does not have those
-                // See: https://hub.spigotmc.org/stash/projects/SPIGOT/repos/builddata/commits/80d35549ec67b87a0cdf0d897abbe826ba34ac27
-                LegacySpigotMappingPrepender(it, prependedClasses = prependedClasses, prependEverything = versionWorkspace.version.id == "1.16.5")
-            },
-            WrappingContributor(SpigotMemberMappingResolver(versionWorkspace, xmlMapper, spigotProvider)) {
-                LegacySpigotMappingPrepender(it, prependedClasses = prependedClasses)
-            }
+            // 1.16.5 mappings have been republished with proper packages, even though the reobfuscated JAR does not have those
+            // See: https://hub.spigotmc.org/stash/projects/SPIGOT/repos/builddata/commits/80d35549ec67b87a0cdf0d897abbe826ba34ac27
+            link.createPrependingContributor(
+                SpigotClassMappingResolver(versionWorkspace, xmlMapper, spigotProvider),
+                prependEverything = versionWorkspace.version.id == "1.16.5"
+            ),
+            link.createPrependingContributor(SpigotMemberMappingResolver(versionWorkspace, xmlMapper, spigotProvider))
         )
     }
 }

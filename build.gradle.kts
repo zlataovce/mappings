@@ -52,7 +52,7 @@ version = "1.8.8+1.20.1-SNAPSHOT" // change me
  */
 val cacheWorkspace by lazy {
     compositeWorkspace {
-        rootDirectory(project.buildDir.resolve("takenaka/cache"))
+        rootDirectory(layout.buildDirectory.dir("takenaka/cache").get().asFile)
     }
 }
 
@@ -79,7 +79,7 @@ val mappingCacheWorkspace by lazy {
  */
 val webWorkspace by lazy {
     compositeWorkspace {
-        rootDirectory(project.buildDir.resolve("takenaka/web"))
+        rootDirectory(layout.buildDirectory.dir("takenaka/web").get().asFile)
     }
 }
 
@@ -88,7 +88,7 @@ val webWorkspace by lazy {
  */
 val bundleWorkspace by lazy {
     compositeWorkspace {
-        rootDirectory(project.buildDir.resolve("takenaka/bundle"))
+        rootDirectory(layout.buildDirectory.dir("takenaka/bundle").get().asFile)
     }
 }
 
@@ -209,7 +209,7 @@ val clean by tasks.registering {
     description = "Removes all build artifacts."
 
     doLast {
-        project.buildDir.deleteRecursively()
+        layout.buildDirectory.get().asFile.deleteRecursively()
     }
 }
 

@@ -45,7 +45,7 @@ group = "me.kcra.takenaka" // change me
 // format: <oldest version>+<newest version>[-SNAPSHOT]
 // this is included in META-INF/MANIFEST.MF under Implementation-Version
 // be nice to people who use the bundles and don't change the format
-version = "1.8.8+1.20.2" // change me
+version = "1.8.8+1.20.2-SNAPSHOT" // change me
 
 /**
  * The root cache workspace.

@@ -18,15 +18,14 @@ jobs:
           java-version: 17
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-      - name: Publish web and bundle with Gradle
+      - name: Publish bundle with Gradle
         if: ${{ !contains(github.event.head_commit.message, 'no bundle') }}
-        run: ./gradlew publish buildWeb --no-daemon
+        run: ./gradlew publish
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Publish web with Gradle
-        if: ${{ contains(github.event.head_commit.message, 'no bundle') }}
-        run: ./gradlew buildWeb --no-daemon
+        run: ./gradlew buildWeb
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}

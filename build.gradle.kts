@@ -21,7 +21,7 @@ import me.kcra.takenaka.generator.web.buildWebConfig
 import me.kcra.takenaka.generator.web.modularClassSearchIndexOf
 import me.kcra.takenaka.generator.web.transformers.CSSInliningTransformer
 import me.kcra.takenaka.generator.web.transformers.MinifyingTransformer
-import net.fabricmc.mappingio.format.Tiny2Writer
+import net.fabricmc.mappingio.format.tiny.Tiny2FileWriter
 import net.fabricmc.mappingio.tree.MappingTree
 import kotlin.io.path.writeText
 import kotlin.io.path.writer
@@ -198,7 +198,7 @@ val resolveMappings by tasks.registering {
         val mappings = this.extra["mappings"] as MappingsMap
 
         mappings.forEach { (version, tree) ->
-            Tiny2Writer(bundleWorkspace["${version.id}.tiny"].writer(), false)
+            Tiny2FileWriter(bundleWorkspace["${version.id}.tiny"].writer(), false)
                 .use { w -> tree.accept(MissingDescriptorFilter(w)) }
         }
     }

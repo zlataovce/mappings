@@ -9,6 +9,9 @@ on:
       bundle:
         type: boolean
         description: Build a mapping bundle.
+      web:
+        type: boolean
+        description: Build the documentation site.
 
 jobs:
   build:
@@ -23,18 +26,20 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Publish bundle with Gradle
-        if: ${{ github.event.inputs.bundle == 'true' || !contains(github.event.head_commit.message, 'no bundle') }}
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.bundle == 'true' }}
         run: ./gradlew publish
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Publish web with Gradle
         run: ./gradlew buildWeb
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.web == 'true' }}
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.web == 'true' }}
         with:
           folder: build/takenaka/web
           single-commit: true

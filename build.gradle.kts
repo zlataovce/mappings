@@ -48,6 +48,17 @@ group = "me.kcra.takenaka" // change me
 version = "1.8.8+1.20.4" // change me
 
 /**
+ * A three-way choice of mappings.
+ */
+enum class PlatformTristate(val wantsClient: Boolean, val wantsServer: Boolean) {
+    CLIENT_SERVER(true, true),
+    CLIENT(true, false),
+    SERVER(false, true)
+}
+
+val platform = PlatformTristate.SERVER // change me
+
+/**
  * The root cache workspace.
  */
 val cacheWorkspace by lazy {
@@ -128,22 +139,45 @@ val mappingConfig = buildMappingConfig {
         val mojangProvider = MojangManifestAttributeProvider(versionWorkspace, objectMapper)
         val spigotProvider = SpigotManifestProvider(versionWorkspace, objectMapper)
 
-        val link = LegacySpigotMappingPrepender.Link()
+        buildList {
+            if (platform.wantsServer) {
+                add(VanillaServerMappingContributor(versionWorkspace, mojangProvider))
+                add(MojangServerMappingResolver(versionWorkspace, mojangProvider))
+            }
+            if (platform.wantsClient) {
+                add(VanillaClientMappingContributor(versionWorkspace, mojangProvider))
+                add(MojangClientMappingResolver(versionWorkspace, mojangProvider))
+            }
 
-        listOf(
-            VanillaServerMappingContributor(versionWorkspace, mojangProvider),
-            MojangServerMappingResolver(versionWorkspace, mojangProvider),
-            IntermediaryMappingResolver(versionWorkspace, sharedCacheWorkspace),
-            YarnMappingResolver(versionWorkspace, yarnProvider),
-            SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace),
-            // 1.16.5 mappings have been republished with proper packages, even though the reobfuscated JAR does not have those
-            // See: https://hub.spigotmc.org/stash/projects/SPIGOT/repos/builddata/commits/80d35549ec67b87a0cdf0d897abbe826ba34ac27
-            link.createPrependingContributor(
-                SpigotClassMappingResolver(versionWorkspace, xmlMapper, spigotProvider),
-                prependEverything = versionWorkspace.version.id == "1.16.5"
-            ),
-            link.createPrependingContributor(SpigotMemberMappingResolver(versionWorkspace, xmlMapper, spigotProvider))
-        )
+            add(IntermediaryMappingResolver(versionWorkspace, sharedCacheWorkspace))
+            add(YarnMappingResolver(versionWorkspace, yarnProvider))
+            add(SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace))
+
+            // Spigot resolvers have to be last
+            if (platform.wantsServer) {
+                val link = LegacySpigotMappingPrepender.Link()
+
+                add(
+                    // 1.16.5 mappings have been republished with proper packages, even though the reobfuscated JAR does not have those
+                    // See: https://hub.spigotmc.org/stash/projects/SPIGOT/repos/builddata/commits/80d35549ec67b87a0cdf0d897abbe826ba34ac27
+                    link.createPrependingContributor(
+                        SpigotClassMappingResolver(versionWorkspace, xmlMapper, spigotProvider),
+                        prependEverything = versionWorkspace.version.id == "1.16.5"
+                    )
+                )
+                add(link.createPrependingContributor(SpigotMemberMappingResolver(versionWorkspace, xmlMapper, spigotProvider)))
+            }
+        }
+    }
+
+    joinedOutputPath { workspace ->
+        val fileName = when {
+            platform.wantsClient && platform.wantsServer -> "client+server.tiny"
+            platform.wantsClient -> "client.tiny"
+            else -> "server.tiny"
+        }
+
+        workspace[fileName]
     }
 }
 
@@ -231,9 +265,15 @@ val createBundle by tasks.registering(Jar::class) {
 }
 
 val webConfig = buildWebConfig {
+    val chosenMappings = when {
+        platform.wantsClient && platform.wantsServer -> "client- and server-side"
+        platform.wantsClient -> "client-side"
+        else -> "server-side"
+    }
+
     welcomeMessage(
         """
-            <h1>Welcome to the browser for Minecraft: Java Edition server-side mappings!</h1>
+            <h1>Welcome to the browser for Minecraft: Java Edition $chosenMappings mappings!</h1>
             <br/>
             <p>
                 You can move through this site by following links to specific versions/packages/classes/...

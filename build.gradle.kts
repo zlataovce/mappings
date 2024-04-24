@@ -15,7 +15,6 @@ import me.kcra.takenaka.core.mapping.ancestry.impl.computeIndices
 import me.kcra.takenaka.core.mapping.resolve.impl.*
 import me.kcra.takenaka.core.util.objectMapper
 import me.kcra.takenaka.generator.common.provider.impl.*
-import me.kcra.takenaka.generator.web.JDK_17_BASE_URL
 import me.kcra.takenaka.generator.web.WebGenerator
 import me.kcra.takenaka.generator.web.buildWebConfig
 import me.kcra.takenaka.generator.web.modularClassSearchIndexOf
@@ -45,7 +44,7 @@ group = "me.kcra.takenaka" // change me
 // format: <oldest version>+<newest version>[-SNAPSHOT]
 // this is included in META-INF/MANIFEST.MF under Implementation-Version
 // be nice to people who use the bundles and don't change the format
-version = "1.8.8+1.20.4" // change me
+version = "1.8.8+1.20.5" // change me
 
 /**
  * A three-way choice of mappings.
@@ -56,7 +55,7 @@ enum class PlatformTristate(val wantsClient: Boolean, val wantsServer: Boolean) 
     SERVER(false, true)
 }
 
-val platform = PlatformTristate.SERVER // change me
+val platform = PlatformTristate.CLIENT_SERVER // change me
 
 /**
  * The root cache workspace.
@@ -111,11 +110,10 @@ val yarnProvider = YarnMetadataProvider(sharedCacheWorkspace, xmlMapper)
 val mappingConfig = buildMappingConfig {
     version(
         manifest
-            .range("1.8.8", "1.20.4") { // change me
+            .range("1.8.8", "1.20.5") { // change me
                 // exclude 1.16 and 1.10.1, they don't have most mappings and are basically not used at all
-                // exclude 1.8.9, client-only update - no Spigot mappings, no thank you
                 // exclude 1.9.1 and 1.9.3 - no mappings at all
-                exclude("1.16", "1.10.1", "1.8.9", "1.9.1", "1.9.3")
+                exclude("1.16", "1.10.1", "1.9.1", "1.9.3")
 
                 // include only releases, no snapshots
                 includeTypes(Version.Type.RELEASE)
@@ -291,7 +289,7 @@ val webConfig = buildWebConfig {
 
     transformer(CSSInliningTransformer("cdn.jsdelivr.net"))
     transformer(MinifyingTransformer())
-    index(objectMapper.modularClassSearchIndexOf(JDK_17_BASE_URL))
+    index(objectMapper.modularClassSearchIndexOf("https://docs.oracle.com/en/java/javase/21/docs/api"))
 
     replaceCraftBukkitVersions("spigot")
     friendlyNamespaces("mojang", "spigot", "yarn", "searge", "intermediary", "source")
@@ -330,7 +328,7 @@ publishing {
             artifact(createBundle)
             pom {
                 name.set("mappings")
-                description.set("A mapping bundle with a basic set of mappings for Mojang-based server development.")
+                description.set("A mapping bundle with a basic set of mappings for Mojang-based server and client development.")
                 url.set("https://github.com/zlataovce/mappings") // change me
                 developers {
                     developer {

@@ -342,7 +342,7 @@ publishing {
                 scm {
                     connection.set("scm:git:github.com/zlataovce/mappings.git") // change me
                     developerConnection.set("scm:git:ssh://github.com/zlataovce/mappings.git") // change me
-                    url.set("https://github.com/zlataovce/mappings/tree/master") // change me
+                    url.set("https://github.com/zlataovce/mappings/tree/main") // change me
                 }
             }
         }

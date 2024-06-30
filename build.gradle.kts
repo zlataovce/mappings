@@ -320,7 +320,7 @@ val buildWeb by tasks.registering {
     }
     doLast {
         webWorkspace[".nojekyll"].writeText("")
-        webWorkspace["CNAME"].writeText("mappings.cephx.dev") // change me, remove if you want to build for a *.github.io domain
+        webWorkspace["CNAME"].writeText("mappings.dev") // change me, remove if you want to build for a *.github.io domain
     }
 }
 

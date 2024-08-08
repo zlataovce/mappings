@@ -1,4 +1,3 @@
-import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -13,8 +12,8 @@ import me.kcra.takenaka.core.mapping.ancestry.ConstructorComputationMode
 import me.kcra.takenaka.core.mapping.ancestry.impl.collectNamespaceIds
 import me.kcra.takenaka.core.mapping.ancestry.impl.computeIndices
 import me.kcra.takenaka.core.mapping.resolve.impl.*
-import me.kcra.takenaka.core.util.objectMapper
 import me.kcra.takenaka.generator.common.provider.impl.*
+import me.kcra.takenaka.generator.web.JDK_21_BASE_URL
 import me.kcra.takenaka.generator.web.WebGenerator
 import me.kcra.takenaka.generator.web.buildWebConfig
 import me.kcra.takenaka.generator.web.modularClassSearchIndexOf
@@ -102,11 +101,8 @@ val bundleWorkspace by lazy {
     }
 }
 
-val objectMapper = objectMapper()
-val xmlMapper = XmlMapper()
-
-val manifest = objectMapper.versionManifest()
-val yarnProvider = YarnMetadataProvider(sharedCacheWorkspace, xmlMapper)
+val manifest = versionManifestOf()
+val yarnProvider = YarnMetadataProvider(sharedCacheWorkspace)
 val mappingConfig = buildMappingConfig {
     version(
         manifest
@@ -136,8 +132,8 @@ val mappingConfig = buildMappingConfig {
     intercept(::MethodArgSourceFilter)
 
     contributors { versionWorkspace ->
-        val mojangProvider = MojangManifestAttributeProvider(versionWorkspace, objectMapper)
-        val spigotProvider = SpigotManifestProvider(versionWorkspace, objectMapper)
+        val mojangProvider = MojangManifestAttributeProvider(versionWorkspace)
+        val spigotProvider = SpigotManifestProvider(versionWorkspace)
 
         buildList {
             if (platform.wantsServer) {
@@ -161,11 +157,11 @@ val mappingConfig = buildMappingConfig {
                     // 1.16.5 mappings have been republished with proper packages, even though the reobfuscated JAR does not have those
                     // See: https://hub.spigotmc.org/stash/projects/SPIGOT/repos/builddata/commits/80d35549ec67b87a0cdf0d897abbe826ba34ac27
                     link.createPrependingContributor(
-                        SpigotClassMappingResolver(versionWorkspace, xmlMapper, spigotProvider),
+                        SpigotClassMappingResolver(versionWorkspace, spigotProvider),
                         prependEverything = versionWorkspace.version.id == "1.16.5"
                     )
                 )
-                add(link.createPrependingContributor(SpigotMemberMappingResolver(versionWorkspace, xmlMapper, spigotProvider)))
+                add(link.createPrependingContributor(SpigotMemberMappingResolver(versionWorkspace, spigotProvider)))
             }
         }
     }
@@ -181,7 +177,7 @@ val mappingConfig = buildMappingConfig {
     }
 }
 
-val mappingProvider = ResolvingMappingProvider(mappingConfig, manifest, xmlMapper)
+val mappingProvider = ResolvingMappingProvider(mappingConfig, manifest)
 val analyzer = MappingAnalyzerImpl(
     AnalysisOptions(
         innerClassNameCompletionCandidates = setOf("spigot"),
@@ -291,7 +287,7 @@ val webConfig = buildWebConfig {
 
     transformer(CSSInliningTransformer("cdn.jsdelivr.net"))
     transformer(MinifyingTransformer())
-    index(objectMapper.modularClassSearchIndexOf("https://docs.oracle.com/en/java/javase/21/docs/api"))
+    index(modularClassSearchIndexOf(JDK_21_BASE_URL))
 
     replaceCraftBukkitVersions("spigot")
     friendlyNamespaces("mojang", "spigot", "yarn", "searge", "intermediary", "source")

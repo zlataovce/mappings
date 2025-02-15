@@ -39,11 +39,15 @@ plugins {
     id("maven-publish")
 }
 
+val latestRelease = findProperty("latest_release").toString();
+val latestSnapshot = findProperty("latest_snapshot").toString();
+
 group = "me.kcra.takenaka" // change me
 // format: <oldest version>+<newest version>[-SNAPSHOT]
 // this is included in META-INF/MANIFEST.MF under Implementation-Version
 // be nice to people who use the bundles and don't change the format
-version = "1.8.8+25w06a" // change me
+version = "1.8.8+$latestSnapshot" // change me
+
 
 /**
  * A three-way choice of mappings.
@@ -118,7 +122,7 @@ val mappingConfig = buildMappingConfig {
             }
             .map(Version::id)
     )
-    version("25w06a") // latest snapshot, change me
+    version(latestSnapshot) // latest snapshot, change me
     workspace(mappingCacheWorkspace)
 
     // remove Searge's ID namespace, it's not necessary

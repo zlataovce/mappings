@@ -1,0 +1,11 @@
+name: Mappings updater
+description: Updates the mappings based on the latest versions available
+
+inputs:
+  GITHUB_TOKEN:
+    description: Github access token
+    required: true
+
+runs:
+  using: node20
+  main: index.js

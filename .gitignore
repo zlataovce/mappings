@@ -37,3 +37,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Github Actions ###
+node_modules/

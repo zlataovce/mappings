@@ -1,0 +1,19 @@
+name: Update Mappings
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 * * * *
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+        working-directory: .github/actions/update-output
+      - name: Update Mappings
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: ./.github/actions/update-output

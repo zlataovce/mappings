@@ -43,7 +43,7 @@ group = "me.kcra.takenaka" // change me
 // format: <oldest version>+<newest version>[-SNAPSHOT]
 // this is included in META-INF/MANIFEST.MF under Implementation-Version
 // be nice to people who use the bundles and don't change the format
-version = "1.8.8+1.21.5-rc1" // change me
+version = "1.8.8+1.21.5-rc2" // change me
 
 /**
  * A three-way choice of mappings.
@@ -118,7 +118,7 @@ val mappingConfig = buildMappingConfig {
             }
             .map(Version::id)
     )
-    version("1.21.5-rc1") // latest snapshot, change me
+    version("1.21.5-rc2") // latest snapshot, change me
     workspace(mappingCacheWorkspace)
 
     // remove Searge's ID namespace, it's not necessary

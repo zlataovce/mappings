@@ -27,12 +27,12 @@ jobs:
         run: chmod +x gradlew
       - name: Publish bundle with Gradle
         if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.bundle == 'true' }}
-        run: ./gradlew publish
+        run: ./gradlew publish --stacktrace
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Publish web with Gradle
-        run: ./gradlew buildWeb
+        run: ./gradlew buildWeb --stacktrace
         if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.web == 'true' }}
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}

@@ -32,7 +32,7 @@ jobs:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Publish web with Gradle
-        run: ./gradlew buildWeb --stacktrace
+        run: ./gradlew buildWeb --stacktrace --info
         if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.web == 'true' }}
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}

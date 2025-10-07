@@ -43,7 +43,7 @@ group = "me.kcra.takenaka" // change me
 // format: <oldest version>+<newest version>[-SNAPSHOT]
 // this is included in META-INF/MANIFEST.MF under Implementation-Version
 // be nice to people who use the bundles and don't change the format
-version = "1.8.8+1.21.9" // change me
+version = "1.8.8+1.21.10" // change me
 
 /**
  * A three-way choice of mappings.
@@ -106,7 +106,7 @@ val yarnProvider = YarnMetadataProvider(sharedCacheWorkspace)
 val mappingConfig = buildMappingConfig {
     version(
         manifest
-            .range("1.8.8", "1.21.9") { // change me
+            .range("1.8.8", "1.21.10") { // change me
                 // exclude 1.20, 1.20.3, 1.20.5 and 1.21.2 - hotfixed versions                
                 // exclude 1.16 and 1.10.1, they don't have most mappings and are basically not used at all
                 // exclude 1.8.9, client-only update - no Spigot mappings, no thank you

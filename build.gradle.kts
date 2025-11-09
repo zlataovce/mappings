@@ -266,7 +266,7 @@ val copyMain by tasks.registering(Copy::class) {
     group = "takenaka"
     description = "Copies the main page notice."
 
-    from("main/")
+    from("index.html")
     into(webWorkspace.rootDirectory)
 
     doFirst {

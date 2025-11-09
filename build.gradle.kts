@@ -5,6 +5,7 @@ import kotlinx.coroutines.runBlocking
 import me.kcra.takenaka.core.*
 import me.kcra.takenaka.core.mapping.MappingsMap
 import me.kcra.takenaka.core.mapping.MutableMappingsMap
+import me.kcra.takenaka.core.mapping.WrappingContributor
 import me.kcra.takenaka.core.mapping.adapter.*
 import me.kcra.takenaka.core.mapping.analysis.impl.AnalysisOptions
 import me.kcra.takenaka.core.mapping.analysis.impl.MappingAnalyzerImpl
@@ -130,8 +131,8 @@ val mappingConfig = buildMappingConfig {
     intercept(::StaticInitializerFilter)
     // remove overrides of java/lang/Object, they are implicit
     intercept(::ObjectOverrideFilter)
-    // remove obfuscated method parameter names, they are a filler from Searge
-    intercept(::MethodArgSourceFilter)
+    // remove Javadoc comments from mappings
+    intercept(::CommentFilter)
 
     contributors { versionWorkspace ->
         val mojangProvider = MojangManifestAttributeProvider(versionWorkspace)
@@ -149,7 +150,13 @@ val mappingConfig = buildMappingConfig {
 
             add(IntermediaryMappingResolver(versionWorkspace, sharedCacheWorkspace))
             add(YarnMappingResolver(versionWorkspace, yarnProvider))
-            add(SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace))
+            add(
+                WrappingContributor(
+                    SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace),
+                    // remove obfuscated method parameter names, they are a filler from Searge
+                    ::MethodArgSourceFilter
+                )
+            )
 
             // Spigot resolvers have to be last
             if (platform.wantsServer) {

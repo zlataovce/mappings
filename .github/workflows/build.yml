@@ -33,12 +33,14 @@ jobs:
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Publish web with Gradle
         run: ./gradlew buildWeb --stacktrace --info
+        # TODO: only run on workflow_dispatch
         if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.web == 'true' }}
         env:
           REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
           REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
+        # TODO: only run on workflow_dispatch
         if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.web == 'true' }}
         with:
           folder: build/takenaka/web

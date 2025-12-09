@@ -22,6 +22,7 @@ import me.kcra.takenaka.generator.web.transformers.CSSInliningTransformer
 import me.kcra.takenaka.generator.web.transformers.MinifyingTransformer
 import net.fabricmc.mappingio.format.Tiny2Writer
 import net.fabricmc.mappingio.tree.MappingTree
+import kotlin.io.path.moveTo
 import kotlin.io.path.writeText
 import kotlin.io.path.writer
 
@@ -149,8 +150,13 @@ val mappingConfig = buildMappingConfig {
 
             add(IntermediaryMappingResolver(versionWorkspace, sharedCacheWorkspace))
             add(YarnMappingResolver(versionWorkspace, yarnProvider))
-            // remove obfuscated method parameter names, they are a filler from Searge
-            add(WrappingContributor(SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace), ::MethodArgSourceFilter))
+            add(
+                WrappingContributor(
+                    SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace),
+                    // remove obfuscated method parameter names, they are a filler from Searge
+                    ::MethodArgSourceFilter
+                )
+            )
 
             // Spigot resolvers have to be last
             if (platform.wantsServer) {
@@ -263,6 +269,18 @@ val createBundle by tasks.registering(Jar::class) {
     }
 }
 
+val copyMain by tasks.registering(Copy::class) {
+    group = "takenaka"
+    description = "Copies the main page notice."
+
+    from("index.html")
+    into(webWorkspace.rootDirectory)
+
+    doFirst {
+        webWorkspace["index.html"].moveTo(webWorkspace["main.html"], overwrite = true)
+    }
+}
+
 val webConfig = buildWebConfig {
     val chosenMappings = when {
         platform.wantsClient && platform.wantsServer -> "client- and server-side"
@@ -308,6 +326,7 @@ val buildWeb by tasks.registering {
     description = "Builds a web documentation site for mappings of all defined versions."
 
     dependsOn(resolveMappings)
+    finalizedBy(copyMain)
     doLast {
         runBlocking {
             @Suppress("UNCHECKED_CAST")

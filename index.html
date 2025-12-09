@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>mappings?</title>
+    <meta name="description" content="Goodbye obfuscation, we won't miss you!"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+<div class="min-h-screen bg-white p-8 dark:bg-black">
+    <div class="mx-auto max-w-4xl space-y-8">
+        <div class="flex flex-row flex-wrap items-center justify-between gap-4">
+            <div class="space-y-2">
+                <h1 class="text-4xl font-bold tracking-tight text-black dark:text-white">mappings?</h1>
+                <p class="text-lg text-gray-600 dark:text-gray-400">Where do we go from here?</p>
+            </div>
+            <div class="space-y-1">
+                <button
+                        id="continueBtn"
+                        class="inline-flex h-10 items-center gap-2 rounded-md bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 cursor-pointer"
+                >
+                    <span>Continue to site</span>
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="size-4"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    >
+                        <path d="M5 12h14"/>
+                        <path d="m12 5 7 7-7 7"/>
+                    </svg>
+                </button>
+                <p class="text-xs text-gray-600 dark:text-gray-400">and don't show this again</p>
+            </div>
+        </div>
+
+        <div class="rounded-lg border border-gray-200 bg-gray-50/50 shadow-sm dark:border-gray-800 dark:bg-gray-800/30">
+            <div class="space-y-6 p-6">
+                <p class="leading-relaxed text-gray-600 dark:text-gray-400">
+                    On 29th October 2025, <strong class="font-semibold text-black dark:text-white">Mojang has announced that they will stop obfuscating Minecraft: Java Edition builds</strong>.
+                    This means that the game's code will now be shipped with readable names by default,
+                    largely eliminating the need for remapping tools and community-driven mapping projects like Yarn.
+                </p>
+
+                <div class="flex flex-row flex-wrap justify-center gap-2">
+                    <a
+                            href="https://www.minecraft.net/en-us/article/removing-obfuscation-in-java-edition"
+                            class="inline-flex h-10 items-center gap-2 rounded-md bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200"
+                    >
+                        <span>Read Mojang's announcement</span>
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="size-4"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        >
+                            <path d="M15 3h6v6"/>
+                            <path d="M10 14 21 3"/>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        </svg>
+                    </a>
+                    <a
+                            href="https://fabricmc.net/2025/10/31/obfuscation.html"
+                            class="inline-flex h-10 items-center gap-2 rounded-md bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200"
+                    >
+                        <span>Read Fabric's announcement</span>
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="size-4"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        >
+                            <path d="M15 3h6v6"/>
+                            <path d="M10 14 21 3"/>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <p class="leading-relaxed text-gray-600 dark:text-gray-400">
+                    Given that there are no longer obfuscated names to translate from, the purpose of this site has
+                    effectively come to an end. It will stay online for archival purposes, but no further updates
+                    or maintenance will be performed.
+                </p>
+
+                <p class="leading-relaxed text-gray-600 dark:text-gray-400">
+                    If you want to keep referencing Minecraft code from a browser, I recommend using the
+                    <a href="https://mcsrc.dev" class="font-medium text-black underline dark:text-white">
+                        mcsrc.dev
+                    </a>
+                    site or loading the game JARs into
+                    <a href="https://slicer.run" class="font-medium text-black underline dark:text-white">slicer.run</a>.
+                </p>
+
+                <div class="border-t border-gray-200 pt-6 dark:border-gray-800">
+                    <p class="text-center text-sm text-gray-600 dark:text-gray-400">
+                        Thank you to everyone who used and contributed to the mappings ecosystem over the years.<br/>
+                        It's been an incredible journey, but now it's time to mod Minecraft the way it was always meant
+                        to be modded.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <p class="text-sm text-gray-600 dark:text-gray-400">for people, by people ❤️ - 2025</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    const STORAGE_KEY = "mappings-acknowledged";
+    const REDIRECT_URL = "/main.html";
+
+    if (localStorage.getItem(STORAGE_KEY) === "true") {
+        window.location.href = REDIRECT_URL;
+    }
+
+    document.getElementById("continueBtn").addEventListener("click", () => {
+        localStorage.setItem(STORAGE_KEY, "true");
+        window.location.href = REDIRECT_URL;
+    });
+</script>
+</body>
+</html>

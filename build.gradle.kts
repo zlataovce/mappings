@@ -43,7 +43,7 @@ group = "me.kcra.takenaka" // change me
 // format: <oldest version>+<newest version>[-SNAPSHOT]
 // this is included in META-INF/MANIFEST.MF under Implementation-Version
 // be nice to people who use the bundles and don't change the format
-version = "1.8.8+1.21.10" // change me
+version = "1.8.8+1.21.11" // change me
 
 /**
  * A three-way choice of mappings.
@@ -106,7 +106,7 @@ val yarnProvider = YarnMetadataProvider(sharedCacheWorkspace)
 val mappingConfig = buildMappingConfig {
     version(
         manifest
-            .range("1.8.8", "1.21.10") { // change me
+            .range("1.8.8", "1.21.11") { // change me
                 // exclude 1.20, 1.20.3, 1.20.5 and 1.21.2 - hotfixed versions                
                 // exclude 1.16 and 1.10.1, they don't have most mappings and are basically not used at all
                 // exclude 1.8.9, client-only update - no Spigot mappings, no thank you
@@ -129,8 +129,8 @@ val mappingConfig = buildMappingConfig {
     intercept(::StaticInitializerFilter)
     // remove overrides of java/lang/Object, they are implicit
     intercept(::ObjectOverrideFilter)
-    // remove obfuscated method parameter names, they are a filler from Searge
-    intercept(::MethodArgSourceFilter)
+    // remove Javadocs from mappings
+    intercept(::CommentFilter)
 
     contributors { versionWorkspace ->
         val mojangProvider = MojangManifestAttributeProvider(versionWorkspace)
@@ -148,7 +148,8 @@ val mappingConfig = buildMappingConfig {
 
             add(IntermediaryMappingResolver(versionWorkspace, sharedCacheWorkspace))
             add(YarnMappingResolver(versionWorkspace, yarnProvider))
-            add(SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace))
+            // remove obfuscated method parameter names, they are a filler from Searge
+            add(WrappingContributor(SeargeMappingResolver(versionWorkspace, sharedCacheWorkspace), ::MethodArgSourceFilter)
 
             // Spigot resolvers have to be last
             if (platform.wantsServer) {

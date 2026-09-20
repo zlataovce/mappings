@@ -30,8 +30,7 @@ import kotlin.io.path.writer
 buildscript {
     repositories {
         mavenCentral()
-        mavenLocal()
-//        maven("https://repo.screamingsandals.org/public")
+        maven("https://repo.screamingsandals.org/public")
     }
 
     dependencies {

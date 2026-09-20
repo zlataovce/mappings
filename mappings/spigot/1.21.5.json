@@ -1,0 +1,16 @@
+{
+  "name": "4504",
+  "description": "Jenkins build 4504",
+  "refs": {
+    "BuildData": "9b48cd40193ae9f0cebbadce39052a242485eb4c",
+    "Bukkit": "c80061286e3bb33d611e1034fe6794ab98256582",
+    "CraftBukkit": "dacd062dd1c6d6a06f0774a837ea18ddf89edb6d",
+    "Spigot": "270012a3149d0a6e4200bcbb8dde44fc63dbe863"
+  },
+  "hashes": {
+    "CraftBukkit": "6a1e8abd1ca38efa294fbc8f50b108a58ed71d42bad5c351416c29d840320041",
+    "Spigot": "85db18cae42c8474a7cd1d9c81bda19eef7c1e3c249ada0f1d053cbfb3b578e8"
+  },
+  "toolsVersion": 181,
+  "javaVersions": [65, 68]
+}

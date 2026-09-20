@@ -1,0 +1,12 @@
+{
+  "name": "1573k",
+  "description": "Jenkins build 1573k",
+  "refs": {
+    "BuildData": "be360cc298a06b5355ecd057f5b1feb894a73f0f",
+    "Bukkit": "558fdf5f54b0f527cd48903daf9368ac4b862876",
+    "CraftBukkit": "f4830a1687f37a4ee7c0bd08a30d925fbe0f9349",
+    "Spigot": "79a30d7d26b9078dbf6071cbbfa060673bf117b2"
+  },
+  "toolsVersion": 47,
+  "javaVersions": [52, 54]
+}

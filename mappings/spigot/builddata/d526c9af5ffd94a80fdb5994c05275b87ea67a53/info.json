@@ -1,0 +1,14 @@
+{
+	"minecraftVersion": "1.14.3",
+	"serverUrl": "https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar",
+	"minecraftHash": "80424cd6fd6161d5509815bbe65cf9a3",
+	"accessTransforms": "bukkit-1.14.3.at",
+	"classMappings": "bukkit-1.14.3-cl.csrg",
+	"memberMappings": "bukkit-1.14.3-members.csrg",
+	"packageMappings": "package.srg",
+	"classMapCommand": "java -jar BuildData/bin/SpecialSource-2.jar map --only . --only net/minecraft --auto-lvt BASIC --auto-member SYNTHETIC -e BuildData/mappings/bukkit-1.14.3.exclude -i {0} -m {1} -o {2}",
+	"memberMapCommand": "java -jar BuildData/bin/SpecialSource-2.jar map --only . --only net/minecraft --auto-member LOGGER --auto-member TOKENS -i {0} -m {1} -o {2}",
+	"finalMapCommand": "java -jar BuildData/bin/SpecialSource.jar --only . --only net/minecraft -i {0} --access-transformer {1} -m {2} -o {3}",
+	"decompileCommand": "java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 -rsy=1 -aoa=1 {0} {1}",
+	"toolsVersion": 101
+}

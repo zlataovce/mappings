@@ -1,0 +1,16 @@
+{
+  "name": "4458",
+  "description": "Jenkins build 4458",
+  "refs": {
+    "BuildData": "686446e5669a9aab7d35179fd989032560f289fc",
+    "Bukkit": "a3d67ef041c520a1225a6ce4bd8d777ad23886b0",
+    "CraftBukkit": "fb3f2b6452a010c4511c59cdee78ae5803cc0b7a",
+    "Spigot": "73860e064edc2599604dd46c0bc5202283e57e9c"
+  },
+  "hashes": {
+    "CraftBukkit": "ebb8c5ebe1004f8a6ae7d431339bc91f2cc6f797ea51abe5bb5bfcdbf9669d4d",
+    "Spigot": "0c28e9c54e4cea11d2ae49afa951b4855652aecd87c13d683465e5f16eebb767"
+  },
+  "toolsVersion": 181,
+  "javaVersions": [65, 68]
+}

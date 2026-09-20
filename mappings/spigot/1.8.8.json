@@ -1,0 +1,10 @@
+{
+  "name": "582b",
+  "description": "Jenkins build 582b (hotfix 3)",
+  "refs": {
+    "BuildData": "838b40587fa7a68a130b75252959bc8a3481d94f",
+    "Bukkit": "01d1820664a5f881665b84b28871dadd132deaef",
+    "CraftBukkit": "741a1bdf3db8c4d5237407df2872d9857427bfaf",
+    "Spigot": "3c60ece1480c9b686b06f33daa6ca23c8883e9f2"
+  }
+}

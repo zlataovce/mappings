@@ -1,0 +1,15 @@
+{
+	"minecraftVersion": "1.19.4",
+    "spigotVersion": "1.19.4-R0.1-SNAPSHOT",
+	"minecraftHash": "2c5b46429ee6d5bbcd6e90e57b4d0c5f1789c647aaf6e51c282ab988d35fc97d",
+	"serverUrl": "https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar",
+	"mappingsUrl": "https://piston-data.mojang.com/v1/objects/73c8bb982e420b33aad9632b482608c5c33e2d13/server.txt",
+	"accessTransforms": "bukkit-1.19.4.at",
+	"classMappings": "bukkit-1.19.4-cl.csrg",
+	"packageMappings": "package.srg",
+	"classMapCommand": "java -jar BuildData/bin/SpecialSource-2.jar map --auto-lvt BASIC -e BuildData/mappings/bukkit-1.19.4.exclude -i {0} -m {1} -o {2}",
+	"memberMapCommand": "java -jar BuildData/bin/SpecialSource-2.jar map --auto-member TOKENS -i {0} -m {1} -o {2}",
+	"finalMapCommand": "java -jar BuildData/bin/SpecialSource.jar -i {0} --access-transformer {1} -m {2} -o {3}",
+	"decompileCommand": "java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 -rsy=1 -aoa=1 {0} {1}",
+	"toolsVersion": 148
+}

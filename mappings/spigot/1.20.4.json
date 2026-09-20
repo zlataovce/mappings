@@ -1,0 +1,12 @@
+{
+  "name": "4090",
+  "description": "Jenkins build 4090",
+  "refs": {
+    "BuildData": "a9c23e0aa2429445ce39109e093bce0d89a14ab3",
+    "Bukkit": "0a850d95d96991609f01572b470256bb348696aa",
+    "CraftBukkit": "38b1f49d9546975e24e41421d8473dc676c9fbbc",
+    "Spigot": "b754dccf0c43518a34701b863125fde5a9fbbd32"
+  },
+  "toolsVersion": 148,
+  "javaVersions": [61, 66]
+}

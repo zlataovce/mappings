@@ -1,0 +1,12 @@
+{
+  "name": "3096a",
+  "description": "Jenkins build 3096a",
+  "refs": {
+    "BuildData": "f0a5ed1aeff8156ba4afa504e190c838dd1af50c",
+    "Bukkit": "7e29f7654411f0a17ebbcc2c3f6a7dfe93bff39e",
+    "CraftBukkit": "af1a23291836523344a6ab0c233c37efc763ed86",
+    "Spigot": "9fb885e86def1d9d86e25233c9b5a4de45b7a09d"
+  },
+  "toolsVersion": 105,
+  "javaVersions": [52, 60]
+}

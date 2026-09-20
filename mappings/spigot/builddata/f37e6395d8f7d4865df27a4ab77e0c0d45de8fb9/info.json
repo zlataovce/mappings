@@ -1,0 +1,9 @@
+{
+	"minecraftVersion": "1.10.2",
+	"minecraftHash": "41c4e081defd80b09cb0391c894c2f3c",
+	"accessTransforms": "bukkit-1.10.2.at",
+	"classMappings": "bukkit-1.10.2-cl.csrg",
+	"memberMappings": "bukkit-1.10.2-members.csrg",
+	"packageMappings": "package.srg",
+	"decompileCommand": "java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 {0} {1}"
+}

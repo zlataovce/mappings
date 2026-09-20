@@ -1,0 +1,12 @@
+{
+  "name": "1371",
+  "description": "Jenkins build 1371",
+  "refs": {
+    "BuildData": "ebd264edb506ff3e72e92dd16b1b68c46905972c",
+    "Bukkit": "0ce77bc4b3825b1665b34f7dd6dc4b01a02e9443",
+    "CraftBukkit": "9a1fc1e2eea898d2839c9f43d5b6eccd13bba090",
+    "Spigot": "596221bf2ffd4e694d008406f7940a8a041a71fb"
+  },
+  "toolsVersion": 47,
+  "javaVersions": [52, 52]
+}

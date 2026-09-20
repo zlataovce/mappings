@@ -1,0 +1,11 @@
+{
+  "name": "849b",
+  "description": "Jenkins build 849b (hotfix 3)",
+  "refs": {
+    "BuildData": "9b100f8a6f0d86b5fd5f22f65dd6dd9eba6547d3",
+    "Bukkit": "c5bf6bc614bfd1e119e7fc067ff30cd8e8221cb2",
+    "CraftBukkit": "e1d3516bef9fb294689c3a859b828af54d0f883e",
+    "Spigot": "2f340860499157eaad380099d09fbb69948fe218"
+  },
+  "toolsVersion": 47
+}

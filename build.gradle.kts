@@ -22,6 +22,7 @@ import me.kcra.takenaka.generator.web.transformers.CSSInliningTransformer
 import me.kcra.takenaka.generator.web.transformers.MinifyingTransformer
 import net.fabricmc.mappingio.format.Tiny2Writer
 import net.fabricmc.mappingio.tree.MappingTree
+import java.net.URL
 import kotlin.io.path.moveTo
 import kotlin.io.path.writeText
 import kotlin.io.path.writer
@@ -29,7 +30,8 @@ import kotlin.io.path.writer
 buildscript {
     repositories {
         mavenCentral()
-        maven("https://repo.screamingsandals.org/public")
+        mavenLocal()
+//        maven("https://repo.screamingsandals.org/public")
     }
 
     dependencies {
@@ -136,7 +138,22 @@ val mappingConfig = buildMappingConfig {
 
     contributors { versionWorkspace ->
         val mojangProvider = MojangManifestAttributeProvider(versionWorkspace)
-        val spigotProvider = SpigotManifestProvider(versionWorkspace)
+        val spigotProvider = SpigotManifestProvider(
+            workspace = versionWorkspace,
+            spigotUrlProvider = object : SpigotUrlProvider() {
+                override fun getBuildDataFile(fileName: String?, reference: String?): URL {
+                    return project.file("mappings/spigot/builddata/$reference/$fileName").toURI().toURL()
+                }
+
+                override fun getCraftBukkitFile(fileName: String?, reference: String?): URL {
+                    return project.file("mappings/spigot/craftbukkit/$reference/$fileName").toURI().toURL()
+                }
+
+                override fun getSpigotVersionManifest(version: String): URL {
+                    return project.file("mappings/spigot/$version.json").toURI().toURL()
+                }
+            }
+        )
 
         buildList {
             if (platform.wantsServer) {

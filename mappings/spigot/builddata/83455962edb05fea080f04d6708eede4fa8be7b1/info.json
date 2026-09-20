@@ -1,0 +1,10 @@
+{
+	"minecraftVersion": "1.13.1",
+	"serverUrl": "https://launcher.mojang.com/mc/game/1.13.1/server/fe123682e9cb30031eae351764f653500b7396c9/server.jar",
+	"minecraftHash": "234c32ff17aabaf5d389c8b5dd101408",
+	"accessTransforms": "bukkit-1.13.1.at",
+	"classMappings": "bukkit-1.13.1-cl.csrg",
+	"memberMappings": "bukkit-1.13.1-members.csrg",
+	"packageMappings": "package.srg",
+	"decompileCommand": "java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 {0} {1}"
+}

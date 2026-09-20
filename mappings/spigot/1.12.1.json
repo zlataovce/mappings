@@ -1,0 +1,12 @@
+{
+  "name": "1399",
+  "description": "Jenkins build 1399",
+  "refs": {
+    "BuildData": "206f6172a057dcb5243f17f99af6495f2af364cf",
+    "Bukkit": "5d0b5b9c25730a2c77af6e3b12bb8fe0329fcdfa",
+    "CraftBukkit": "8f472147b7f78ccd565bc97a125030f92fdf732d",
+    "Spigot": "da4297479a847aaf2efa60ff147a44345c6bd737"
+  },
+  "toolsVersion": 47,
+  "javaVersions": [52, 53]
+}

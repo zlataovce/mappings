@@ -1,0 +1,12 @@
+{
+  "name": "3610",
+  "description": "Jenkins build 3610",
+  "refs": {
+    "BuildData": "d96ad8e1e64b7c35bb632339c23621353be1f028",
+    "Bukkit": "38866413a790619d8d8873de5b62f807947b81f6",
+    "CraftBukkit": "19df23aa2e83d966efbc0674d5ac24cab56a1346",
+    "Spigot": "6198b5ae88da3f3650123abc22e6363a7543faa9"
+  },
+  "toolsVersion": 148,
+  "javaVersions": [61, 63]
+}

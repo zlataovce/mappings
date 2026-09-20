@@ -1,0 +1,12 @@
+{
+  "name": "2294",
+  "description": "Jenkins build 2294",
+  "refs": {
+    "BuildData": "df665071847a0ace1b4b7149f504e5bb8eca992c",
+    "Bukkit": "d2d70389a197bafbe9c4d849a0cf701e6c2293be",
+    "CraftBukkit": "1fee35bef39fc9af07973d0af8ac77399605d70c",
+    "Spigot": "c8d4cefbbd67d4e3deafc770312be15c1139a49c"
+  },
+  "toolsVersion": 101,
+  "javaVersions": [52, 56]
+}

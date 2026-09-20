@@ -1,0 +1,12 @@
+{
+  "name": "2331",
+  "description": "Jenkins build 2331",
+  "refs": {
+    "BuildData": "e5aeddf8cfe1a4d3d4cf930f1bd0617a4a683437",
+    "Bukkit": "e041de28f57065576cda440667165070c127c71e",
+    "CraftBukkit": "fcb9f90bf320b4b74192d4e37ab1554cc286f4d5",
+    "Spigot": "03bd4b031ce87ea24a00e0ebe52560cdb4d56220"
+  },
+  "toolsVersion": 101,
+  "javaVersions": [52, 56]
+}

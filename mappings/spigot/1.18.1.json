@@ -1,0 +1,12 @@
+{
+  "name": "3443",
+  "description": "Jenkins build 3443",
+  "refs": {
+    "BuildData": "f31eb04b918592f66c6edd17c9b5998383581ae5",
+    "Bukkit": "0edc0e044dc242307f584e6e89b0644756a03b36",
+    "CraftBukkit": "2c1e49984ef3f75f631c95ce0547031c887c30f8",
+    "Spigot": "699290cdcc3d7721a3031b395d8693a9a11d8f6d"
+  },
+  "toolsVersion": 138,
+  "javaVersions": [61, 61]
+}
